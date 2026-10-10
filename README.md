@@ -1,13 +1,17 @@
 # Tran Van Phuc Knowledge Base
 
-Base de connaissances distillée des vidéos de **Bác sĩ Trần Văn Phúc Official** ([@BacsiTranVanPhucOfficial](https://www.youtube.com/@BacsiTranVanPhucOfficial), chaîne officielle du Dr Trần Văn Phúc, hôpital Saint Paul, Hanoï).
+A knowledge base distilled from the videos of **Bác sĩ Trần Văn Phúc Official** ([@BacsiTranVanPhucOfficial](https://www.youtube.com/@BacsiTranVanPhucOfficial), the official channel of Dr. Trần Văn Phúc, Saint Paul Hospital, Hanoi).
 
-Inspiré de la structure de [mlabonne/llm-course](https://github.com/mlabonne/llm-course) : un dépôt GitHub versionné comme source de vérité, alimentant un Custom GPT ChatGPT consultable pour apprendre à partir du contenu santé du docteur.
+Modeled after [mlabonne/llm-course](https://github.com/mlabonne/llm-course): a versioned GitHub repo as the source of truth, feeding a ChatGPT Custom GPT people can chat with to learn from the doctor's health content.
 
-> **Avertissement santé.** Ce contenu est une retranscription et un résumé des vidéos publiques du Dr Trần Văn Phúc. Il est fourni à titre informatif et éducatif uniquement, ne constitue pas un avis médical personnalisé, et ne remplace en aucun cas une consultation, un diagnostic ou un traitement par un professionnel de santé. En cas de question sur votre santé, consultez un médecin.
+> **Health disclaimer.** This content is a transcription and summary of Dr. Trần Văn Phúc's public videos. It is provided for informational and educational purposes only, does not constitute personalized medical advice, and is not a substitute for consultation, diagnosis, or treatment by a healthcare professional. If you have a health concern, consult a doctor.
 
-## Statut
+## Status
 
-Projet en phase de spécification (BMad). Voir `_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/` pour le contrat complet (capacités, contraintes, architecture du pipeline).
+Project in specification phase (BMad). See `_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/` for the full contract (capabilities, constraints, pipeline architecture).
 
-Prochaine étape : découpage en tickets (`bmad-ticket`) puis implémentation (`bmad-build`).
+Next step: breaking the work into tickets (`bmad-ticket`), then implementation (`bmad-build`).
+
+## Language note
+
+Source transcripts stay in Vietnamese (the doctor's original language). Repo documentation, code, and commit messages are in English. The Custom GPT translates on demand when answering in another language.

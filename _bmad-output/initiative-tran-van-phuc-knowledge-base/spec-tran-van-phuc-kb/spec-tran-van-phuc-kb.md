@@ -41,7 +41,7 @@ Dr. Tran Van Phuc (channel "Bác sĩ Trần Văn Phúc Official", 431K subscribe
 - The Custom GPT Knowledge tab accepts at most 20 files: the consolidation step (CAP-5) must always fit within this ceiling regardless of how many videos accumulate.
 - OpenAI provides no API to push files into a Custom GPT's Knowledge tab: the final hand-off from consolidated files to the live GPT is necessarily a manual upload; the pipeline automates everything up to that point (detection, transcript, summary, repo commit, consolidation).
 - No raw video or audio is stored in the repo — text only (transcripts, summaries, metadata), to control repo size and respect YouTube's terms of service.
-- Source transcripts stay in Vietnamese; no dedicated translation step is built — the GPT translates on demand at query time.
+- Source transcripts stay in Vietnamese; no dedicated translation step is built — the GPT translates on demand at query time. Repo documentation (README, code, commit messages, this spec's own companions) is in English; the disclaimer's canonical text is English, localized at the GPT-response level only.
 - The repo is public and must be named/branded to disambiguate from other people named Tran Van Phuc, referencing the channel "Bác sĩ Trần Văn Phúc Official" (channel ID `UC79E6KatRfXbmdWVWGncsew`, handle `@BacsiTranVanPhucOfficial`).
 - Every health-content surface (repo README, per-video files, GPT instructions) must carry a disclaimer stating the content does not replace a medical consultation (see `disclaimer.md`).
 - Automation must run on free infrastructure (GitHub Actions scheduled workflow), timed around the doctor's weekly Saturday upload.
