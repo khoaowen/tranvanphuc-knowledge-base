@@ -1,0 +1,33 @@
+name: Weekly sync
+
+# CAP-1-5 scheduled run. This is the single automation entry point for the
+# whole pipeline; later stories append jobs/steps here rather than creating
+# new workflow files.
+
+on:
+  schedule:
+    # 03:00 UTC every Sunday, after the doctor's usual Saturday upload.
+    - cron: '0 3 * * 0'
+  workflow_dispatch: {}
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Detect new videos
+        id: detect
+        run: python scripts/detect_new_videos.py
+
+      - name: Show new video IDs
+        run: echo "${{ steps.detect.outputs.new_videos }}"
