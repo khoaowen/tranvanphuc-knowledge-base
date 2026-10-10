@@ -12,3 +12,6 @@ node_modules/
 
 # BMad personal config (never shared)
 _bmad/custom/*.user.toml
+
+# BMad per-session rendered skill scratch output (ephemeral)
+_bmad/render/
