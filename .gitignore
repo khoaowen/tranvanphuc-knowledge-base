@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+
+# BMad personal config (never shared)
+_bmad/custom/*.user.toml
