@@ -3,7 +3,7 @@ title: 'Detect new videos + weekly workflow scaffold'
 type: 'feature'
 ticket: '1'
 created: '2026-03-21'
-status: 'built'
+status: done
 baseline_revision: '14d7b38fda284f4b770461c33e46aa31e5f384a2'
 route: 'full'
 route_source: 'auto'
