@@ -1,6 +1,6 @@
 ---
 id: SPEC-tran-van-phuc-kb
-companions: [repo-structure.md, pipeline-architecture.md, disclaimer.md]
+companions: [repo-structure.md, pipeline-architecture.md, disclaimer.md, summary-contract.md]
 sources: []
 ---
 
@@ -22,6 +22,7 @@ Dr. Tran Van Phuc (channel "Bác sĩ Trần Văn Phúc Official", 431K subscribe
   - **success:** A transcript file and a metadata record exist in the repo for every processed video, sourced directly from YouTube captions.
 - **CAP-3**
   - **intent:** For each video, the system generates a structured summary (key points, medical topics covered, notable claims, timestamps) from the raw transcript via an LLM at no cost: Gemini free tier in CI for the weekly video, local `claude -p` (Pro subscription) for backlog and re-summaries.
+  - **retrieval contract:** The summary is the Custom GPT's retrieval layer and must follow `summary-contract.md`: self-contained header (title, ID, date, URL, tags), disclaimer banner, topic sections with timestamps and `?t=` links, question-shaped lines, specific claims, VI/EN/FR glossary, fidelity to the transcript with hedges kept.
   - **success:** A summary file with topic tags exists alongside every transcript; given 3-4h source videos, the summary is materially shorter and topic-navigable compared to the raw transcript. Both the raw transcript and the structured summary are kept per video — confirmed by the user.
 - **CAP-4**
   - **intent:** Transcripts, summaries, and metadata are organized into a public, versioned GitHub repository structured and browsable like `mlabonne/llm-course` (indexed README, per-video entries, topic index).
@@ -47,7 +48,7 @@ Dr. Tran Van Phuc (channel "Bác sĩ Trần Văn Phúc Official", 431K subscribe
 - Total cost is $0 beyond the existing Claude Pro subscription: no paid LLM API, no API credits, no paid Gemini tier. The Gemini key must stay on the Free tier (project has no billing). Subscription login is local-only, never in CI; secrets are never printed or pasted.
 - A video's state is derived from files on disk (pending → transcribed → summarized → published); no separate state store.
 - Local summarization is resumable and safe to interrupt: atomic writes, skip finished videos, stop cleanly on a real usage limit.
-- A summary is published only after CI validation (schema, disclaimer, timestamps, length); unsummarized videos stay queued.
+- A summary is published only after CI validation by `validate_summaries.py` against `summary-contract.md` (header, disclaimer, timestamps and `?t=` links, question lines, glossary, vocabulary tags); unsummarized videos stay queued.
 - Automation must run on free infrastructure (GitHub Actions scheduled workflow), timed around the doctor's weekly Saturday upload.
 
 ## Non-goals

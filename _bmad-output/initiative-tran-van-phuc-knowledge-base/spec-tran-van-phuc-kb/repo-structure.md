@@ -10,10 +10,11 @@ tranvanphuc-knowledge-base/
     2026-01-10-so-132-vac-xin-ung-thu/
       metadata.json                # {video_id, title, url, published_at, duration, topics[]}
       transcript.md                # raw Vietnamese transcript, timestamped
-      summary.md                   # structured summary: key points, topic tags, timestamps
+      summary.md                   # retrieval-layer summary per summary-contract.md
     2026-01-03-so-131-.../
       ...
   topics/
+    vocabulary.md                  # controlled topic-tag vocabulary; the only tags summaries may use
     ung-thu.md                     # per-topic index: links into videos/ entries tagged with this topic
     vitamin.md
     dinh-duong.md
@@ -23,10 +24,14 @@ tranvanphuc-knowledge-base/
     02-videos-2026-q1.md
     03-topics-ung-thu-vitamin.md
     ...                            # <=20 files total, each under OpenAI's per-file size ceiling
+  docs/
+    custom-gpt-setup.md            # GPT Builder config: instructions, disclaimer, Knowledge upload steps
+  review-batch                     # local resumable runner: claude -p summaries, commits as it goes
   scripts/
     detect_new_videos.py           # CAP-1
     fetch_transcript.py            # CAP-2 (wraps the youtube-transcript skill or yt-dlp)
-    summarize.py                   # CAP-3
+    summarize.py                   # CAP-3 (CI, Gemini free tier)
+    validate_summaries.py          # CI gate: checks summary.md against summary-contract.md, drops invalid
     consolidate.py                 # CAP-5
   .github/workflows/
     weekly-sync.yml                # CAP-1-5 scheduled run (cron, Saturday+buffer)
@@ -35,7 +40,7 @@ tranvanphuc-knowledge-base/
 ## Naming convention
 
 - Video folder: `<published-date>-<video-number-from-title>-<slugified-title>/`. The doctor's own titles are numbered ("Số 132: ..."), so the number is preserved for continuity with his own indexing.
-- Topic files are hand-curated tag targets; `summarize.py` assigns tags from a controlled topic vocabulary grown incrementally (avoid unbounded tag sprawl).
+- Topic files are hand-curated tag targets; summarizers assign tags only from `topics/vocabulary.md`, grown incrementally (avoid unbounded tag sprawl); `validate_summaries.py` rejects others.
 
 ## `knowledge-gpt/` consolidation rule
 
