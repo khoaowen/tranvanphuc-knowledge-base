@@ -22,7 +22,9 @@
 - text with "429" / "rate limit" / "overloaded" -> short 429: backoff and retry (max 5), then skip the video.
 - anything else -> that video fails; the run continues.
 
-**Observed so far:** only an expired login (2026-10-11): `is_error: true`,
+**Live run (2026-10-11):** `--model haiku --limit 1` on a 383k-char transcript made 8 calls (7 map, 1 reduce, about 10 minutes), no 429s, and wrote a summary of 22% of the transcript. Success output is `{"is_error":false,"result":"..."}`.
+
+**Observed failure:** only an expired login (2026-10-11): `is_error: true`,
 `result: "Failed to authenticate: OAuth session expired and could not be refreshed"`, exit 1
 (treated as a per-video failure; run `claude` and log in again). The real wording of a usage limit and
 of a short 429 has **not** been observed yet. After the first real limit hit, record the exact text
