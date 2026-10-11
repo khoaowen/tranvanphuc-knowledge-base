@@ -1,0 +1,772 @@
+# Số 135: GLUTATHIONE: CÂN BẰNG OXY HÓA - KHỬ, PHỤC HỒI TY THỂ VÀ BẢO VỆ TẾ BÀO TỪ CẤP ĐỘ PHÂN TỬ
+
+- **Video ID:** V-Qfwjo28Zg
+- **Published:** 2026-10-10
+- **URL:** https://www.youtube.com/watch?v=V-Qfwjo28Zg
+- **Topics:** gốc tự do, glutathion, chống oxy hóa, vi chất, bóng đè, vitamin D, thiếu máu thiếu sắt, lối sống lành mạnh
+
+> **Health disclaimer.** This content is a transcription and summary of Dr. Trần Văn Phúc's public videos (channel "Bác sĩ Trần Văn Phúc Official"). It is provided for informational and educational purposes only, does not constitute personalized medical advice, and is not a substitute for consultation, diagnosis, or treatment by a healthcare professional. If you have a health concern, consult a doctor.
+
+## [00:01:44] Glutathion là gì và có vai trò gì trong cơ thể? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=104s
+
+**Q: Glutathion là chất gì, có được gọi là "vua" chống oxy hóa không?**
+Glutathion được mô tả là một "lá chắn" tự nhiên của cơ thể, được gọi là "vua của sự thải độc và bảo vệ tế bào". Bài nói về cuộc chiến giữa oxy hóa và khử ở cấp độ vi mô, trong đó các gốc tự do có thể bòn rút năng lượng sống, tàn phá ti thể và các mảng tế bào. Glutathion được xem là chất chống lại gốc tự do quan trọng nhất.
+
+## [00:02:13] Nội dung chương trình về glutathion gồm những phần nào? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=133s
+
+**Q: Chương trình về glutathion (số 135) được chia thành những phần nào?**
+Chương trình có hai phần: (1) cơ chế sinh học của glutathion, và (2) cách bổ sung glutathion. Chủ đề có tên "Glutathion cân bằng oxy hóa khử, phục hồi ti thể và bảo vệ tế bào từ cấp độ phân tử", phát sóng số 135 vào 9:00 sáng thứ bảy, ngày 10/10/2026.
+
+## [00:02:26] Kênh chính thức và cam kết không quảng cáo — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=146s
+
+**Q: Kênh YouTube bác sĩ Trần Văn Phúc Official có phát video này trên nền tảng khác không? Chương trình có quảng cáo sản phẩm không?**
+Theo lời khánh lành, video chỉ được phát duy nhất trên kênh YouTube bác sĩ Trần Văn Phúc Official, không phát trên kênh YouTube hoặc nền tảng video khác. Bác sĩ Trần Văn Phúc chỉ có một fanpage chính thức và một trang Facebook cá nhân mang tên Trần Văn Phúc; người xem được nhắc cảnh giác với kênh giả mạo. Ekip khẳng định không quảng cáo, không bảo trợ cho sản phẩm y tế, nhãn hàng hay thương hiệu nào, và không nhận tiền hay lợi ích vật chất từ đơn vị, tổ chức hay cá nhân nào.
+
+## [00:04:04] Vì sao mùa thu lại liên quan đến gốc tự do? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=244s
+
+**Q: Hiện tượng lá vàng, lá rụng mùa thu có liên quan gì đến gốc tự do?**
+Bác sĩ ví von: quả chín, lá chuyển từ xanh sang vàng rồi đỏ và rụng là các hiện tượng liên quan đến gốc tự do. Gốc tự do tấn công tế bào sống và mầm sống, làm cây kiệt quệ, héo úa. Đây vốn là một cơ chế bảo vệ của thực vật, nhưng nếu sự tấn công "quá đà" thì sẽ ảnh hưởng đến sức khỏe cơ thể sống.
+
+## [00:06:34] Gốc tự do liên quan đến bệnh mãn tính và ung thư như thế nào? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=394s
+
+**Q: Gốc tự do có liên quan đến bệnh mãn tính và ung thư không?**
+Bác sĩ nói "có thể nói rằng" hầu hết các loại bệnh tật, trong đó có bệnh mãn tính, bệnh nguy hiểm và cả ung thư, đều đi theo con đường của gốc tự do. Hình thành gốc tự do bắt đầu từ việc các chất xâm nhập vào cơ thể. Nếu không giải quyết được vấn đề gốc tự do thì có thể phát sinh nhiều bệnh khác nhau.
+
+## [00:07:11] Glutathion và gốc tự do — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=431s
+
+**Q: Glutathion có vai trò gì đối với gốc tự do?**
+Glutathion được xếp vào "vua" chống gốc tự do và được nhắc đến như trọng tâm của chủ đề. Bài nói sẽ đi từ lý thuyết về gốc tự do đến các thành phần chống gốc tự do, và cuối cùng là glutathion.
+
+## [00:09:02] Gốc tự do sinh ra từ đâu: nội sinh và ngoại nhập — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=542s
+
+**Q: Gốc tự do có những nguồn gốc nào?**
+Gốc tự do có hai nguồn chính. Thứ nhất là con đường nội sinh, tức là sinh ra từ bên trong cơ thể. Thứ hai là con đường ngoại nhập, tức là từ bên ngoài đưa vào cơ thể, gồm những chất được coi là độc chất với cơ thể.
+
+## [00:09:25] Gốc tự do nội sinh từ ti thể — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=565s
+
+**Q: Ti thể tạo ra gốc tự do như thế nào?**
+Ti thể được mô tả là "nhà máy điện" và "lò phản ứng" của tế bào, nơi diễn ra chu trình trao đổi chất (chu trình Krebs) để tạo ATP, đồng tiền năng lượng của tế bào. Quá trình đốt cháy này luôn sinh ra các yếu tố nguy hiểm gọi là gốc tự do (ROS). Phần lớn gốc tự do được sinh ra trong ti thể. Các bào quan khác như lưới nội chất và thể Golgi cũng tạo ra gốc tự do, nhưng lượng ở ti thể là lớn nhất. Lý do là các cơ chất để tạo ATP gồm đường, mỡ và đạm; khi đốt cháy với oxy thì ngoài năng lượng còn sinh ra nhiều thành phần khác, trong đó có gốc tự do.
+
+## [00:12:20] Hệ miễn dịch cũng sinh ra gốc tự do — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=740s
+
+**Q: Hệ miễn dịch có sinh ra gốc tự do không? Gốc tự do có phải là vũ khí của tế bào miễn dịch không?**
+Có. Tế bào lympho T, lympho B và tế bào NK khi phát hiện vi khuẩn, virus hay tác nhân gây bệnh khác sẽ dùng gốc tự do làm một trong các vũ khí để tiêu diệt chúng. Tuy nhiên, nếu vũ khí này dùng sai cách thì có thể quay lại phá hủy chính tế bào miễn dịch, như quả lựu đạn ném không đúng cách. Cuộc chiến của tế bào miễn dịch với vi khuẩn, virus cũng tạo thêm gốc tự do. Như vậy, cơ thể có hai con đường nội sinh: chuyển hóa và phản ứng trong cơ thể, và trận chiến miễn dịch.
+
+## [00:15:00] Gốc tự do ngoại nhập: thuốc lá và rượu bia — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=900s
+
+**Q: Thuốc lá và rượu bia ảnh hưởng đến gốc tự do và tuổi thọ như thế nào?**
+Thuốc lá được nêu là nguồn sinh ra rất nhiều gốc tự do. Bác sĩ nêu một thống kê: mỗi điếu thuốc lá rút ngắn tuổi thọ 11 phút. Rượu bia cũng được nhắc đến như một tác nhân ngoại nhập.
+
+## [00:15:44] Gốc tự do ngoại nhập từ chế độ ăn uống — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=944s
+
+**Q: Chế độ ăn uống nào có thể sinh ra gốc tự do?**
+Các nguyên nhân được nêu gồm: hóa chất và thuốc trừ sâu trong thực phẩm, chất bảo quản thực phẩm; ăn sai, ăn thừa, ăn mất cân đối, đặc biệt là đường; chất béo ăn sai, nhất là chất béo no bão hòa, và chất béo chuyển hóa được xem là nguy hiểm hơn. Chất béo chuyển hóa được mô tả là chất béo bị đốt cháy quá mức, ví dụ đồ chiên rán, hoặc dầu thực vật bị dùng sai khi rán, dẫn đến chuyển hóa thành chất béo trung gian. Thực phẩm không đảm bảo vệ sinh hay an toàn cũng có thể gây ra hiện tượng này.
+
+## [00:17:26] Gốc tự do từ ô nhiễm môi trường và bức xạ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=1046s
+
+**Q: Ô nhiễm môi trường và tia UV, tia X có gây gốc tự do không?**
+Bài nêu ô nhiễm không khí, ô nhiễm nước, ô nhiễm đất và "tất cả những ô nhiễm đều có thể gây ra" gốc tự do. Ngoài ra còn có tia cực tím UV, tia X quang, tia tử ngoại và nhiều yếu tố vật lý, hóa học khác có thể tác động để tạo gốc tự do.
+
+## [00:19:12] Superoxit: gốc tự do cơ bản nhất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=1152s
+
+**Q: Superoxit là gì, vì sao nó quan trọng?**
+Superoxit là gốc tự do ban đầu, cơ bản nhất, cần hiểu trước để hiểu các gốc tự do khác. Ký hiệu của nó là O₂ với một electron dư (điện tích âm). Oxy có số hiệu 8, khối lượng nguyên tử 16, với 8 electron, và một phân tử O₂ gồm hai nguyên tử oxy dùng chung electron để đạt trạng thái bền. Khi có thêm một electron lạc, phân tử có 17 electron, ở trạng thái kích thích và trở nên nguy hiểm, vì nó luôn tìm cách cướp một electron và H⁺ để ổn định.
+
+**Q: Enzyme nào kiểm soát superoxit trong cơ thể?**
+Bài nêu enzyme SOD (superoxide dismutase) là thành phần giúp kiểm soát superoxit, buộc các phân tử này "thỏa thuận" để không còn gây nguy hiểm.
+
+## [00:33:42] Hydro peroxit (H₂O₂, oxy già) — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2022s
+
+**Q: H₂O₂ (oxy già) có phải là gốc tự do không? Vì sao nó được dùng cho vết thương?**
+Có, H₂O₂ được nêu là một gốc tự do nguy hiểm. Nó có vẻ bề ngoài yên ổn vì đã cân bằng điện tích, nhưng bên trong là một cặp không bền vững, nên có thể dễ dàng phân ly. Theo bài, H₂O₂ được cho vào vết thương để phá hủy mô hoại tử, virus và vi khuẩn, làm sạch vết thương, và sủi bọt.
+
+## [00:39:29] Gốc hydroxyl (OH·): gốc tự do nguy hiểm số 1 — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2369s
+
+**Q: Gốc hydroxyl (OH) được hình thành như thế nào?**
+Gốc hydroxyl là một nhóm OH có một electron lạc. Nó hình thành khi H₂O₂ bị phá vỡ bởi sắt (Fe²⁺) hoặc đồng (Cu²⁺), tách thành hai nhóm OH, mỗi nhóm mang một electron lạc.
+
+**Q: Vì sao gốc hydroxyl được coi là nguy hiểm nhất?**
+Bài nêu ba lý do: (1) nó ngụy trang, vì có 17 electron nên có H⁺ trung hòa điện, khiến người ta khó nhận ra; (2) nó chỉ có một nguyên tử oxy gánh một electron lạc nên rất nặng nề, phải tìm cách giải quyết; (3) kích thước rất nhỏ nên rất cơ động. Nó tấn công mọi thứ trong cơ thể, đặc biệt cướp electron và H⁺.
+
+## [00:45:22] Ozon: gốc tự do thứ tư — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2722s
+
+**Q: Ozon (O₃) có phải là gốc tự do không, hình thành như thế nào?**
+Ozon được nêu là "kẻ cướp thứ tư". Nó hình thành trong không khí khi có tia lửa điện, tiếng sét đánh xuống. Ozon không cướp trực tiếp như các gốc khác, mà xen vào các phân tử oxy khác, tạo thành cuộc "tình tay ba", và từ đó sinh ra gốc tự do.
+
+## [00:47:29] Gốc tự do tấn công màng tế bào, protein và ADN — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2849s
+
+**Q: Gốc tự do tấn công những thành phần nào trong tế bào?**
+Ba gốc tự do đầu tiên (superoxit, H₂O₂, hydroxyl) được nói là tấn công ba thành phần quan trọng: màng tế bào, protein và nhân (ADN). Từ đó, bài nói rằng các gốc này sinh ra bệnh.
+
+## [00:48:55] Gốc tự do tấn công màng tế bào: lipid và lipit peroxit — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2935s
+
+**Q: Gốc tự do làm hại màng tế bào như thế nào? Tại sao nó cứ cướp electron và H+ mãi?**
+Màng tế bào được cấu tạo từ lipid (chất béo màng). Gốc hydroxyl tấn công màng bằng cách cướp một electron và một H⁺ từ lipid màng, và khi đó lipid trở thành gốc tự do lipid (L·), đang thiếu electron. Oxy và ozon là các chất xâm nhập vào lipit. Khi một gốc tự do cướp electron hoặc H+, nó biến phân tử bị cướp thành một gốc tự do mới. Gốc mới đó lại đi cướp H+ hoặc electron tiếp, nên tạo thành vòng luẩn quẩn "cướp H+, cướp electron". Gốc tự do cướp ngay các phân tử lipit bên cạnh.
+
+**Q: Gốc tự do làm hỏng màng tế bào như thế nào? Tại sao lại nguy hiểm?**
+Màng tế bào được ví như một bức tường gạch, mỗi phân tử lipit là một viên gạch. Một gốc tự do làm hỏng viên gạch đầu tiên, viên gạch đó lại đi cướp ở bên cạnh, nên tường thành dần sụp đổ và tế bào hoại tử. Tế bào hoại tử sinh ra các độc chất, và độc chất này lại tạo thêm gốc tự do. Bác sĩ ví màng tế bào như một bãi xăng, nên một gốc tự do cũng đủ làm sụp đổ hệ thống. Đây được gọi là gốc tự do thứ năm, lipit peroxit. Bác sĩ nói hậu quả có thể là bệnh mãn tính, lão hóa và nhiều bệnh khác.
+
+## [00:54:24] Gốc tự do tấn công protein và enzyme (gốc tự do thứ sáu) — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3264s
+
+**Q: Gốc tự do tấn công protein thì có hậu quả gì? Enzyme liên quan thế nào?**
+Gốc tự do OH cướp electron và H+ của protein lành, khiến protein trở thành protein có dấu chấm (gốc tự do). Oxy hoặc ozon sau đó xâm nhập vào để tạo thành POOH, và protein này giống hệt protein bị hỏng. Protein bao gồm các thành phần như enzyme, dùng để thực hiện phản ứng hóa học. Nếu enzyme bị tấn công, các phản ứng hóa học trong cơ thể sẽ ngừng lại, và từ đó sinh ra một loạt bệnh.
+
+## [00:56:11] Gốc tự do tấn công ADN và mã di truyền G (gốc tự do thứ bảy) — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3371s
+
+**Q: Gốc tự do tấn công ADN theo những cách nào? Tại sao guanin (G) đặc biệt nguy hiểm?**
+ADN bị tấn công theo hai con đường. Con đường thứ nhất giống lipit màng: ADN bị cướp electron và H+. Con đường thứ hai là tấn công trực tiếp mã di truyền A, T, G, C. Guanin được bác sĩ nói là bị ưu tiên tấn công. Khi bị tấn công, G tạo ra sản phẩm 8oDG (ghi trong transcript), có đặc điểm gần giống T. Khi tổng hợp ADN mới, G có thể bị nhầm thành T, dẫn đến đột biến gen. Đột biến gen có thể gây bệnh hiếm và ung thư.
+
+## [00:59:12] Tóm tắt bảy gốc tự do và cách hiểu gốc tự do — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3552s
+
+**Q: Có bao nhiêu gốc tự do cần nhớ, và gốc tự do là gì theo cách dễ hiểu?**
+Bác sĩ nói có bảy gốc tự do cần nhớ, chưa kể các gốc tự do phụ khác. Gốc tự do là phân tử có xu hướng có một electron độc thân. Bác sĩ ví nó như đứa con lạc loài xâm nhập vào gia đình hạnh phúc. Nó khát khao được ổn định nên cướp electron và H+, và trong quá trình đó nó biến các đối tượng bị cướp thành tội phạm khác. Bác sĩ nói nếu chỉ đọc tài liệu thông thường thì khó hiểu, nhưng cách phân tích này giúp dễ nhớ hơn.
+
+## [01:00:47] Cơ thể phản ứng với gốc tự do qua ba bước — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3647s
+
+**Q: Khi gốc tự do xuất hiện, cơ thể phản ứng theo các bước nào?**
+Bác sĩ mô tả ba bước. Bước một là "lực lượng cảm tử" hy sinh để chống đỡ. Bước hai là "đội đặc nhiệm" giải quyết gốc tự do. Bước ba là đội đặc nhiệm phát tín hiệu về ADN để ADN sản xuất thêm đội đặc nhiệm, sau đó các đội này được huấn luyện dần để chống gốc tự do.
+
+**Q: Những chất nào là lực lượng cảm tử chống gốc tự do? Axit uric có tốt không?**
+Lực lượng cảm tử gồm ba thành phần chính: vitamin C, albumin và axit uric. Chúng xung phong nhường electron hoặc H+ để trung hòa gốc tự do. Bác sĩ nói axit uric quá nhiều sẽ gây bệnh gút, nhưng nếu vừa đủ thì nó cũng là một chất cảm tử.
+
+**Q: Cơ thể làm sao để sản xuất thêm đội đặc nhiệm chống gốc tự do?**
+Sau khi đội đặc nhiệm xử lý gốc tự do, cơ thể phát tín hiệu ký hiệu là RnF2 về trung tâm điều hòa, cụ thể là ADN. ADN nhận tín hiệu rồi sản xuất thêm đội đặc nhiệm, và các đội này được huấn luyện để chống lại gốc tự do.
+
+**Q: Những chất nào thuộc đội đặc nhiệm trung hòa gốc tự do? Vai trò của từng chất là gì?**
+Bác sĩ nêu các thành phần chính. Catalaz là đội quân tinh nhuệ đứng im, chỉ ra trận khi gốc tự do quá lớn. Vitamin E tham gia trận đánh trung hòa gốc tự do. Vitamin C vừa là cảm tử, vừa tham gia trực tiếp, và còn nhường electron cho vitamin E. Licopen được nhắc đến như một thành phần quan trọng sẽ có số phát sóng riêng. Glutathion được chọn làm chủ đề chính của số hôm nay.
+
+**Q: Glutathion khác gì Catalaz trong việc chống gốc tự do?**
+Bác sĩ đối lập glutathion với Catalaz. Catalaz chỉ đánh những trận lớn và phá bom gốc tự do. Glutathion là đội quân di động, ở đâu có gốc tự do thì nó đến đó, và được gọi là "ông vua" chống các chất khử và chất gốc oxy hóa.
+
+## [01:06:19] Glutathion được quảng cáo để làm trắng da: nội dung số phát sóng — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3979s
+
+**Q: Glutathion có thật sự làm trắng da không? Bổ sung có hiệu quả không, và làm sao để cơ thể không cạn kiệt glutathion?**
+Bác sĩ nói glutathion đang được quảng cáo là chất chống oxy hóa giúp trắng da và nhiều người mua về bổ sung. Số phát sóng sẽ trình bày hai phần: cơ chế tác dụng của glutathion trong từng tình huống, và cách bổ sung để có hiệu quả và có thực sự hiệu quả hay không. Bác sĩ cũng nói nếu cơ thể cạn kiệt glutathion thì có thể sinh ra nhiều bệnh mãn tính, một số bệnh ung thư và lão hóa nhanh.
+
+## [01:08:08] Các số phát sóng sau về vitamin E, vitamin C, licopen — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4088s
+
+**Q: Chương trình có kế hoạch nói về vitamin E, vitamin C và licopen không?**
+Bác sĩ nói các số sau sẽ nói về vitamin E, vitamin C và licopen, tùy theo ý kiến của khán giả, và sẽ dùng kiến thức chuyên sâu để giải thích tác dụng của từng sản phẩm.
+
+## [01:11:21] Điều dưỡng kể về bố chồng tiểu đường dùng vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4281s
+
+**Q: Bổ sung vi chất có giúp người bị tiểu đường kiểm soát đường huyết không? Người xem kể lại gì?**
+Một điều dưỡng khoa phục hồi chức năng ở Hà Nội kể rằng bố chồng bị tiểu đường được bổ sung vi chất và đường huyết kiểm soát tốt, chỉ ở mức 5,5 đến 6,8. Khi chia sẻ với chủ nhiệm khoa, người này nói không có cơ chế nào cho thấy vi chất làm giảm đường huyết. Trong đoạn này bác sĩ không trả lời về nội dung này.
+
+## [01:12:21] Người xem bị đau lưng, thoái hóa, theo dõi kênh từ năm 2024 — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4341s
+
+**Q: Người bị đau cột sống, đau xương và tê nửa người đã bổ sung bảy loại vi chất và thấy thay đổi gì?**
+Một người xem kể từ năm 2024 theo dõi kênh và bổ sung đủ bảy loại vi chất. Họ nói đã hết đau cột sống, xương cổ, xương đùi và xương quai xanh, và không còn tê nửa người bên trái. Đây là kết quả người xem tự kể.
+
+## [01:15:12] Giáo viên ở Tokyo: ho dai dẳng, đau cổ vai gáy, tê tay — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4512s
+
+**Q: Người bị dị ứng thời tiết, ho dai dẳng và tê tay đã dùng vi chất nào và thấy gì sau bao lâu?**
+Một giáo viên ở Tokyo kể đã dùng canxi, magie, vitamin D3, vitamin C và omega 3. Sau ba tháng, tình trạng ho khi thời tiết thay đổi biến mất, tay chân hết tê và ngủ không bị thức giấc vì đau. Đây là kết quả người xem tự kể.
+
+## [01:17:12] Người xem ở Đức: hết hôi miệng sau gần một năm bổ sung bảy vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4632s
+
+**Q: Bổ sung bảy loại vi chất có giúp hết hôi miệng không?**
+Một người xem ở Đức kể gần một năm dùng bảy loại vi chất thì miệng không còn hôi, kể cả khi vừa ngủ dậy. Họ cũng nói không còn đau cổ vai gáy do bưng bê nặng. Đây là kết quả người xem tự kể.
+
+## [01:18:51] Người 50 tuổi: đại tràng co thắt, táo bón, đầy đau đầu chu kỳ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4731s
+
+**Q: Bổ sung vi chất có giúp bệnh đại tràng co thắt và táo bón không? Người xem đã dùng gì?**
+Một người xem 50 tuổi kể từng bị đại tràng co thắt gây táo bón, từng phải nhờ thụt tháo. Sau khi bổ sung canxi, magie, omega 3 và các vi chất khác theo hướng dẫn, họ nói hết táo bón, hết đi ngoài phân sống. Họ cũng kể đau đầu và buồn nôn khi có chu kỳ đã hết sau nhiều tháng. Đây là kết quả người xem tự kể.
+
+## [01:21:37] Người xem bị da vàng, hemoglobin thấp, nghi thiếu sắt nhược sắc — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4897s
+
+**Q: Da vàng, hụt hơi và hemoglobin 10–11 g/dL có thể liên quan đến thiếu sắt không?**
+Người xem kể từ năm 2017 da vàng bợt, niêm mạc mắt và miệng vàng, hay hụt hơi và mất tập trung. Hemoglobin luôn ở mức 10 đến 11 g/dL, thấp hơn khoảng tham chiếu 12 đến 16. Họ nghi ngờ thiếu sắt nhược sắc, nhưng chưa rõ chính xác. Trong đoạn này bác sĩ chưa đưa ra kết luận nào.
+
+## [01:24:09] Phác đồ người xem đang dùng: sắt, vitamin B9, nhịn ăn gián đoạn 168 — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5049s
+
+**Q: Liều sắt và vitamin B9 người xem dùng là bao nhiêu? Nhịn ăn gián đoạn 168 được áp dụng thế nào?**
+Từ ngày 22/04/2026, người xem dùng mỗi ngày một viên chứa 50 mg sắt nguyên tố từ sắt II fumarat khô cùng 250 mcg vitamin B9, cùng bộ vi chất của bác sĩ. Từ ngày 27/05/2026, họ nhịn ăn gián đoạn 168 từ 20 giờ tối đến 12 giờ trưa hôm sau. Người xem cũng đã tách dần viên vitamin tổng hợp thành viên lẻ với những loại có thể.
+
+## [01:24:59] Kết quả người xem tự báo cáo sau khi dùng vi chất và nhịn ăn gián đoạn — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5099s
+
+**Q: Sau khi dùng vi chất và nhịn ăn gián đoạn, người xem thấy những thay đổi gì và giảm cân bao nhiêu?**
+Người xem kể vàng da, vàng niêm mạc và hụt hơi khi nói, đi bộ nhanh, leo cầu thang đã biến mất. Họ ngủ ngon, ít tiểu đêm, và tập thở 4-7-8 trước khi ngủ hiệu quả rõ. Từ 27/05/2026, họ giảm khoảng 4 kg, từ 56–57 kg xuống còn 52–53 kg, cao 1,6 m. Đây là kết quả người xem tự báo cáo.
+
+## [01:26:58] Người 41 tuổi ở Đông Anh: đau nửa đầu, trầm cảm sau sinh, gan nhiễm mỡ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5218s
+
+**Q: Đau nửa đầu kèm trầm cảm sau sinh và gan nhiễm mỡ đã cải thiện thế nào sau khi dùng vi chất?**
+Người xem 41 tuổi ở Đông Anh, Hà Nội, kể bị đau nửa đầu từ 15 tuổi, với khoảng bảy cơn mỗi tháng. Bác sĩ chẩn đoán nang dưới nhện góc tiểu cầu não trái làm dây thần kinh số năm bị chèn ép. Sau khi sinh, họ được chẩn đoán trầm cảm sau sinh. Sau ba tháng dùng vi chất, họ được bác sĩ Phúc khám trực tiếp vào tháng 5/2026 và hết gan nhiễm mỡ. Họ nói đã lấy lại 95% sức khỏe. Đây là kết quả người xem tự kể.
+
+## [01:29:22] Lạm dụng đường mía thô: nhịp tim 170 lần/phút và các triệu chứng — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5362s
+
+**Q: Lạm dụng đường mía thô có ảnh hưởng đến nhịp tim và gan không?**
+Người xem kể sau khi mệt là uống đường mía thô, và dùng lâu dài thì có khó thở, nhịp tim tăng 170 nhịp mỗi phút, tăng cân, bụng to và gan bắt đầu nhiễm mỡ. Họ cũng kể gần hai năm không có giấc ngủ trọn vẹn, hay bị bóng đè và nhịp tim hẫng. Các bác sĩ chẩn đoán là do trầm cảm.
+
+## [01:31:32] Bóng đè khi ngủ: hiện tượng, cơ chế và cách xử lý — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5492s
+
+**Q: Bóng đè khi ngủ là gì, và đường mía thô ảnh hưởng đến nhịp tim như thế nào?**
+Người xem đề nghị bác sĩ giải thích chi tiết về bóng đè khi ngủ và cơ chế ảnh hưởng của việc lạm dụng đường mía thô lên nhịp tim. Họ kể vẫn còn nhịp tim nhanh và thỉnh thoảng bị bóng đè khi ngủ. Bài hôm nay không đủ thời gian để giải thích sâu, nhưng cơ chế cơ bản theo bác sĩ là: thức đi kèm với hoạt động, ngủ đi kèm với ngừng hoạt động. Khi chuyển từ thức sang ngủ, cơ thể làm liệt vận động để khi mơ không đấm đá, nói hay mộng du. Nếu tỉnh mà tay chân bị khóa và miệng bị dán chặt thì sẽ rất khó chịu, đó là nguyên lý của bóng đè.
+
+**Q: Vì sao người đang mơ thường không làm theo giấc mơ?**
+Bác sĩ nói giai đoạn đầu của giấc ngủ là ngủ mơ, y khoa gọi là REM, khi có nhiều giấc mơ, thường xuất hiện lúc vừa ngủ hoặc sắp thức. Nếu trong mơ người ta đánh nhau hoặc nói chuyện mà chân tay vận động theo thì sẽ nguy hiểm, ví dụ như đấm vợ khi đang mơ. Vì vậy cơ thể phải ức chế vận động và cơ nói khi ngủ. Ông ví não như người lái xe, tay chân và lời nói như bánh xe, còn liệt vận động như cái phanh.
+
+**Q: Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?**
+Bác sĩ nói não dùng hai chất trung gian hóa học. Chất thứ nhất được bản ghi ghi là "G3", đã được nhắc ở số trước, là một chất liên quan đến thần kinh và cảm giác hạnh phúc. Chất thứ hai là glycin, một thành phần tạo nên glutathion. Hai chất này làm liệt cơ, khiến người ngủ không cử động, không vận động và không nói lung tung. Bản ghi âm ghi là "K G3" và "glycerin" cho cùng cơ chế này; cơ chế liệt vận động không được kịp nhả. Nếu chuyển từ ngủ sang thức mà phanh chưa nhả, não đã tỉnh và nhận biết được mọi thứ nhưng tay chân và lời nói không cử động được. Lúc đó hạch hạnh nhân báo động, gây toát mồ hôi, tim đập nhanh, cảm giác bị đè ngực, khó thở, sợ hãi. Bác sĩ ví não như người lái xe, tay chân và lời nói như bánh xe, còn liệt vận động như phanh; khi phối hợp không nhịp nhàng thì dẫn tới bóng đè.
+
+**Q: Bóng đè có đáng sợ không, khi bị thì phải làm gì? Đặt dao, tỏi, hành dưới giường có hiệu quả không?**
+Bác sĩ nói hầu hết tài liệu khoa học cho rằng đây là hiện tượng không đáng ngại. Khi xảy ra, hít một hơi thật sâu rồi thở ra từ khoảng 15 đến 30 giây, sau đó lấy lại bình tĩnh thì sẽ thoát khỏi tình trạng này. Còn đặt dao, tỏi, hành dưới giường, bác sĩ gọi đây là liệu pháp giả dược, tác dụng chủ yếu là trấn an tâm lý, không phải hiệu quả thực sự.
+
+**Q: Căng thẳng tâm lý kéo dài liên quan thế nào đến bóng đè, ác mộng và lão hóa?**
+Bác sĩ nói não chiếm khoảng 2% trọng lượng cơ thể nhưng dùng khoảng 20% năng lượng; ti thể tạo năng lượng (ATP) đồng thời sinh gốc tự do với số lượng rất lớn. Căng thẳng kéo dài làm não bị ức chế và tiêu tốn nhiều năng lượng, sinh thêm nhiều gốc tự do, dẫn tới não sương mù, trầm cảm, căng thẳng và bóng đè. Người căng thẳng kéo dài dễ ngủ không yên, gặp ác mộng và bóng đè, và bác sĩ nói gốc tự do gây lão hóa nhanh. Lời khuyên là sống bình thường, làm được gì thì làm, không làm được thì thôi, và không tiếp nhận năng lượng xấu như đọc tin tiêu cực quá nhiều.
+
+**Q: Uống nhiều thuốc giảm đau hay thuốc không cần thiết, ăn uống và lối sống sai có làm tăng gốc tự do không?**
+Bác sĩ cho rằng dùng nhiều hóa chất và thuốc không cần thiết đều sinh gốc tự do. Ví dụ bác sĩ nêu việc người bị sốt hôm qua hôm nay đã đòi thuốc, trong khi có thể chờ thêm. Ăn uống không đúng cách, lối sống sai và tiếp xúc với chất độc hại, tác nhân nguy hiểm cũng làm sinh nhiều gốc tự do, tác động vào tế bào não.
+
+**Q: Vì sao táo bón hay hội chứng ruột kích thích có thể liên quan đến bóng đè?**
+Để đi vào giấc ngủ REM, não cần tiết acetylcholine; để chuyển từ ngủ sang thức cần serotonin. Theo bác sĩ, khoảng 95% serotonin được tiết ở ruột và khoảng 5% ở não. Bác sĩ nói những người bị táo bón, hội chứng ruột kích thích, viêm dạ dày ruột không tiết được serotonin, nên dễ bị bóng đè khi mơ màng lúc ngủ, thức. Bác sĩ cho rằng cần giải quyết tình trạng đường ruột này, và các con đường trên đều dẫn tới gốc tự do.
+
+**Q: Những chất nào giúp giải quyết gốc tự do, và vì sao kẽm quan trọng?**
+Bác sĩ nhắc tới catalase, licopen (bản ghi âm ghi là "licoben"), vitamin C, vitamin E, kẽm và selen (bản ghi âm ghi là "cen"). Bác sĩ nhấn mạnh vitamin C và E rất quan trọng. Kẽm là yếu tố hợp đồng với glutathione: nếu thiếu kẽm thì glutathione không có giá trị, vì selen là enzyme chuyển hóa gốc tự do. Theo bác sĩ, bổ sung đủ các chất này giúp ngủ ngon và tế bào não hoạt động bình thường.
+
+**Q: Bóng đè do thiếu oxy khi ngủ hay do tư thế nằm đè lên tim có đúng không?**
+Bác sĩ nói đó là nguyên nhân nhỏ, không phải nguyên nhân chính, vì cơ thể có cơ chế bù trừ. Bác sĩ cam kết rằng nếu bổ sung đầy đủ vi chất, thực hành lối sống và ăn uống tốt thì bóng đè gần như không còn, chỉ còn rất ít.
+
+**Q: Làm thế nào để giảm bóng đè bằng lối sống, thiền định và sóng não?**
+Bác sĩ khuyên sống chậm và thực hành hơi thở thiền định để kích thích sóng alpha, rồi dần chuyển sang sóng theta và delta. Không để sóng gamma và sóng beta tăng quá nhiều. Bác sĩ nói bóng đè là biểu hiện tổn thương ở mức tế bào, phân tử do lối sống, tâm sinh lý, ăn uống và môi trường sai, làm gốc tự do gây mất nhịp giữa "người lái" và "bánh xe".
+
+## [01:33:05] Vitamin D 50.000 IU: liều, nồng độ mục tiêu và cách duy trì — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5585s
+
+**Q: Uống vitamin D 50.000 IU mỗi tuần một viên trong 8 tuần rồi duy trì mỗi tháng một viên có an toàn và hợp lý không?**
+Người xem đang dùng vitamin D 50.000 IU theo hướng dẫn trên tờ hướng dẫn: một viên mỗi tuần trong 8 tuần, sau đó một viên mỗi tháng. Sau 8 tuần, chỉ số vitamin D của họ là 54 ng/mL. Các thành viên khác trong gia đình đạt từ 59,63 đến 73,69 ng/mL. Họ đã duy trì một viên mỗi tháng và hỏi về tính an toàn và hợp lý. Đoạn đầu này bác sĩ chưa trả lời trực tiếp, nhưng phần bàn về vitamin D sau đó được tóm tắt dưới đây.
+
+**Q: Nồng độ vitamin D bao nhiêu ng/ml thì được coi là thiếu, nghèo, cận nghèo, lý tưởng và thừa?**
+Theo bác sĩ: dưới 30 ng/ml là mức "vô gia cư" (cách nói ví của bác sĩ), từ 30 đến 40 là "nghèo", từ 40 đến 50 là "cận nghèo", từ 50 đến 70 là "lý tưởng". Bác sĩ nói cần cẩn thận khi duy trì ở mức trên 90 vì sẽ bị thừa, và thừa thì không ổn.
+
+**Q: Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?**
+Dược sĩ nước ngoài hướng dẫn bổ sung 50.000 UI mỗi tuần, liên tục 8 tuần thì nồng độ lên tới mức lý tưởng. Sau đó chuyển sang bổ sung một ống theo chu kỳ "trên 1 tháng" (phần ghi lời nói không rõ ràng). Bác sĩ nói lời khuyên này đúng, không có gì sai.
+
+**Q: Người có bệnh nền, nhiều mỡ dưới da hoặc mỡ nội tạng có nên dùng vitamin D liều cao không?**
+Người khỏe mạnh, không có bệnh nền, không có mỡ máu, tiểu đường hay huyết áp cao thì bổ sung liều cao lên nồng độ dễ và hiệu quả. Nếu có bệnh nền hoặc tích nhiều mỡ dưới da và mỡ nội tạng, bổ sung liều cao có thể làm tế bào quá tải, gây "bẫy mỡ", mụn nội tiết hoặc ngứa. Với người có bệnh nền hoặc đã có tuổi, nên giảm dần và bổ sung liều thấp thay cho liều cao.
+
+**Q: Uống vitamin D 50.000 UI một lần mỗi tháng khác gì so với uống đều mỗi ngày?**
+Uống dồn làm nồng độ lên xuống rõ rệt, đầu tháng cao, cuối tháng thấp. Uống đều hàng ngày giữ nồng độ gần như đường thẳng, và bác sĩ nói cách này tốt hơn. 50.000 UI chia cho 30 ngày xấp xỉ 1.666 UI mỗi ngày. Vitamin D tích lũy trong mỡ khoảng 6 tháng, nên người bận có thể uống dồn, nhưng kém hiệu quả hơn uống đều.
+
+**Q: Nhu cầu vitamin D hằng ngày khoảng bao nhiêu và cách dò liều như thế nào?**
+Theo bác sĩ, nghiên cứu cho thấy nhu cầu thường quanh 2.000 UI mỗi ngày, tùy từng người. Có người chỉ cần khoảng 5.600 UI (bản ghi âm ghi như vậy), có người lên tới 6.000 đến 7.000 UI, nhưng đa số dưới 2.000 UI. Để dò liều, bác sĩ chọn 2.000 UI mỗi ngày, xét nghiệm vài lần để xác định mỗi ngày cần bao nhiêu, rồi duy trì uống đều đặn. Bác sĩ nhấn mạnh mua vitamin D còn hạn sử dụng và bảo quản tránh ánh sáng, không khí và độ ẩm.
+
+## [01:35:18] Bác sĩ tổng kết: kết quả người xem gần như đạt "ngọn mục" sau khi bổ sung — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5718s
+
+**Q: Kết quả của người xem sau khi bổ sung vi chất có đáng kể không?**
+Bác sĩ nói mười bình luận đều liên quan đến glutathion. Bác sĩ nói không thể nói 100% nhưng có thể nói gần 100% người xem đạt kết quả rất tốt sau khi bổ sung vi chất, thay đổi lối sống và điều hòa ở cấp độ phân tử và tế bào.
+
+## [01:36:23] Lời khuyên cho học sinh hay quên bị mẹ mắng — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5783s
+
+**Q: Học sinh hay quên, không tập trung thì làm sao để học tốt hơn mà không bị mắng?**
+Bác sĩ nói học tập tốt bắt đầu từ sức khỏe thân thể. Muốn sức khỏe tốt thì phải ăn uống, ngủ nghỉ đúng khoa học, bổ sung vi chất và chế độ ăn cân đối. Bác sĩ nói trí tuệ không phải do trời cho mà đến từ sự cần cù, chịu khó và quyết tâm.
+
+## [01:39:48] Thói quen ăn uống của học sinh: thức ăn nhanh, đường và nước ga — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5988s
+
+**Q: Thói quen ăn uống của học sinh hiện nay có vấn đề gì?**
+Bác sĩ nói ngoài cổng trường có nhiều đồ chiên, rán, nướng, thức ăn nhanh, trà có đường, nước đóng chai và nước ga. Học sinh cũng lười nhai và thường chỉ muốn ăn nhanh, hấp thu năng lượng nhanh, dẫn đến calo rỗng. Bác sĩ nói việc này có thể khiến các em thất bại, nên phải thay đổi thói quen ăn uống từ hàng ngày.
+
+## [01:40:58] Đĩa thức ăn hạnh phúc: cách chia khẩu phần — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6058s
+
+**Q: Đĩa thức ăn hạnh phúc là gì và chia khẩu phần thế nào?**
+Bác sĩ nói bắt đầu bằng cách dùng nắm tay để ước lượng khẩu phần, sau đó dùng tỉ lệ, rồi dần đi sâu vào từng khối vi chất và tính theo gam. Bác sĩ nói nếu bổ sung vi chất đầy đủ và ăn khoa học từ nhỏ, đứa trẻ sẽ hấp thu chất tốt hơn.
+
+## [01:42:12] Hoạt động ngoài trời hơn hai tiếng mỗi ngày — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6132s
+
+**Q: Trẻ cần hoạt động ngoài trời bao lâu mỗi ngày?**
+Bác sĩ nói một ngày tối thiểu phải có hơn hai tiếng đồng hồ hoạt động ngoài trời. Bác sĩ khuyên nên đi bộ, đi xe đạp hoặc đi xe buýt thay vì luôn được bố mẹ đưa đến trường.
+
+## [01:42:39] Tự tính canxi và khẩu phần ăn — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6159s
+
+**Q: Học sinh có thể tự tính lượng canxi cần bổ sung hằng ngày không?**
+Bác sĩ nói học sinh có thể tính toán số canxi cần mỗi ngày từ thịt, cá, cơm, rau, củ quả đang ăn. Từ đó tự xác định lượng canxi còn thiếu và xây dựng khẩu phần ăn của mình.
+
+## [01:42:56] Y học tương lai lấy ăn làm đầu — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6176s
+
+**Q: Bác sĩ nói y học tương lai sẽ như thế nào?**
+Bác sĩ nói y học tương lai lấy ăn làm đầu, dùng ăn để phòng bệnh và chữa bệnh. Bác sĩ cũng nói thuốc có thể được cá thể hóa cho từng người trong tương lai.
+
+## [01:43:57] Đọc, ghi chép và ghi nhớ kiến thức: ba mục tiêu tay – tâm – trí — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6237s
+
+**Q: Đọc nhiều tài liệu y khoa thì nên đọc và ghi nhớ như thế nào?**
+Bác sĩ kể mình đọc đến mấy chục nghìn chữ mỗi ngày. Khi đọc, bác sĩ lướt theo đường chéo để xem tài liệu có quan trọng không, sau đó soát lại các chỗ quan trọng và viết ra giấy. Bác sĩ cho rằng viết tay và rèn luyện các giác quan giúp nhớ kiến thức tốt hơn.
+
+**Q: Khi học hoặc dạy, cần đặt ra những mục tiêu nào theo ba kỹ năng tay – tâm – trí?**
+Dạy và học có ba kỹ năng tương ứng ba chữ T (tay, tâm, trí) và cần rèn luyện cả ba, từ mẫu giáo, lớp 1 đến đại học. Mục tiêu tay: sau bài học làm được gì, đến mức độ nào. Mục tiêu tâm: sau bài học chia sẻ được điều đó với xã hội và các vấn đề đạo đức đến đâu. Mục tiêu trí: sau bài học rút ra kiến thức gì quan trọng cho bản thân. Theo bác sĩ, viết bằng tay khi đọc tài liệu giúp tín hiệu từ bàn tay lên não và nhớ được lâu hơn.
+
+## [01:46:27] Ghi nhớ lâu: lặp lại và đan xen kiến thức theo nhiều góc độ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6387s
+
+**Q: Làm sao để nhớ kiến thức lâu và hiểu sâu, không quên sau một thời gian?**
+Bác sĩ nói kiến thức sẽ bị quên sau một thời gian nên phải được lặp lại thường xuyên và đan xen với nhau, nhìn ở nhiều góc độ như toán học, hóa học, vật lý, văn học, lịch sử, xã hội học. Ông nói không có con đường tắt; cách đi là sống lành mạnh dựa trên kiến thức về chế độ ăn uống, ngủ nghỉ, làm việc, học tập và rèn kỹ năng học tập, từng bước một.
+
+## [01:47:01] Glutathion và gốc tự do, nhìn qua thơ văn và hội họa — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6421s
+
+**Q: Glutathion liên quan thế nào đến gốc tự do, và chủ đề này được ví với tác phẩm nào?**
+Bài hôm nay nói về glutathion, chất chống oxy hóa khử và chống gốc tự do. Bác sĩ liên tưởng mùa thu, hoa quả chín và lá rụng với gốc tự do trong thực vật, rồi nói bức tranh Đêm đầy sao của Van Gogh có điểm tương đồng với chủ đề này. Ông cũng nói các chiến sĩ trong cách mạng có liên quan đến "cái gì đó giống như glutathion". Đây là phần ví von để minh họa cho việc nhìn kiến thức đa chiều.
+
+## [01:52:19] Lối sống lành mạnh là con đường thay cho lối tắt — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6739s
+
+**Q: Muốn giỏi, thông minh và thành công thì nên bắt đầu từ đâu?**
+Theo bác sĩ, con đường đúng là sống và thực hành một lối sống lành mạnh, trong sáng, dựa trên hiểu biết khoa học về chế độ ăn uống, ngủ nghỉ, làm việc, học tập và rèn kỹ năng học tập. Ông nói từng bước đan xen kiến thức, và tin rằng người làm như vậy sẽ thành công, không phải người gặp khó khăn khi bước vào đời.
+
+## [01:55:00] Khó khăn của nhà quản lý khoa khi hướng dẫn bổ sung vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=6900s
+
+**Q: Vì sao điều dưỡng hoặc quản lý khoa khó hướng dẫn bệnh nhân bổ sung vi chất?**
+Ông nêu ví dụ điều dưỡng Ngân muốn tư vấn cho bệnh nhân nhưng nếu không cẩn thận có thể bị quy kết là quảng cáo thực phẩm chức năng, hoặc đưa thông tin chưa được xác thực và kiểm chứng. Điều này có thể ảnh hưởng đến cả tập thể, nên đôi khi phải thông cảm. Ông nói phải đi từng bước, không thể làm vội.
+
+## [01:58:13] Đa số bác sĩ là người tốt nhưng khó tỏa sáng — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7093s
+
+**Q: Có phải bác sĩ giỏi và tốt rất hiếm không?**
+Bác sĩ nói ông không đồng ý với nhận định rằng bác sĩ tốt rất khó tìm, vì đại đa số bác sĩ ông tiếp xúc đều tốt và giỏi, nhiều người dám dấn thân và hy sinh. Tuy nhiên không phải ai cũng có điều kiện thể hiện hết, vì còn cơm áo gạo tiền và nhiều tác động khác. Ông ví ngành y như chiếc áo choàng trắng: cứu được nhiều người nhưng không ai biết, chỉ một sai sót là vết đen nổi rất rõ.
+
+## [02:02:00] Quan sát ở Nhật và châu Âu: khẩu trang, bệnh mùa đông và thiếu vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7320s
+
+**Q: Vì sao người Nhật và người châu Âu vẫn bị ốm, đau xương khớp, cảm lạnh dù điều kiện sống tốt?**
+Ông kể trước đại dịch, khi vào lớp tiểu học ở Nhật, ông thấy học sinh đeo khẩu trang cả lớp và được giải thích là học sinh ở đó dễ bị cảm cúm, nhiễm virus, vi khuẩn đường hô hấp. Ở châu Âu, mùa thu đông nhiều người đau xương khớp, chảy nước mũi và nhiễm Corona. Sau khi tìm câu trả lời, ông kết luận là thiếu nền tảng vi chất, tế bào bị "bỏ đói" và phân tử bị tổn thương, dẫn đến nhiều bệnh.
+
+## [02:03:37] Chia sẻ của khán giả ở Đức và Tokyo sau khi bổ sung vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7417s
+
+**Q: Có trải nghiệm thực tế nào của người dùng vi chất ở Đức và Nhật Bản không?**
+Bác Thủy ở Đức kể sau khi bổ sung vi chất, mọi người xung quanh ốm nhưng bác không sao. Cô Thu Trang ở Tokyo trước đây ốm giặt dẹo suốt, đau mỏi, nhưng nay hoàn toàn khỏe mạnh và buổi trưa không cần ngủ nữa. Bác sĩ cũng mô tả người Nhật làm việc từ sáng đến tối, bữa trưa ăn vội, nên nếu sức khỏe không tốt thì dễ ốm.
+
+## [02:04:21] Thầy Nguyễn Hiền: đau cột sống, uống nhiều thuốc và paracetamol — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7461s
+
+**Q: Uống nhiều thuốc giảm đau như paracetamol có ảnh hưởng gì đến cơ thể theo bài này?**
+Thầy Nguyễn Hiền, giáo viên vật lý, đau cột sống và đau xương hông, nghi có thể là ung thư xương, uống đủ loại thuốc kể cả kháng sinh nhưng không đỡ mà càng uống càng nặng. Bác sĩ nói uống quá nhiều thuốc là một nguyên nhân quan trọng gây gốc tự do. Khi được hỏi về paracetamol, bác sĩ cho rằng thuốc này có thể hại gan, và cũng hại thận và nhiều cơ quan khác, vì sinh ra một hóa chất gây gốc tự do rất lớn.
+
+## [02:05:39] Hoại tử chỏm xương đùi, bỏ thuốc lá và tuổi thọ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7539s
+
+**Q: Bỏ hút thuốc lá có giúp giảm đau khớp không, và thuốc lá ảnh hưởng tuổi thọ bao nhiêu?**
+Ông kể một bệnh nhân đau vùng háng, chụp thấy hoại tử vô khuẩn chỏm xương đùi, cuối cùng phải khoan giảm áp và thay khớp háng. Bệnh nhân này đang hút thuốc, khi chỉ dừng hút thuốc lá thì cơn đau đã giảm đi nhiều. Bác sĩ cũng nói thuốc lá, rượu bia, chế độ ăn sai và dùng thuốc sai đều gây nhiều gốc tự do, và cho biết mỗi điếu thuốc lá giảm đi 11 phút tuổi thọ.
+
+## [02:06:24] Trường hợp chị Ngọc Thơ: vàng da, vàng củng mạc mắt và hemoglobin thấp — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7584s
+
+**Q: Vàng da, vàng mắt kéo dài có thể liên quan đến thiếu máu thiếu sắt không? Trường hợp chị Ngọc Thơ như thế nào?**
+Chị Ngọc Thơ, theo bình luận được đọc trên chương trình, từ năm 2017 đến nay bị vàng da và vàng củng mạc mắt, khiến chị xấu hổ và không dám chụp ảnh với ai. Xét nghiệm hemoglobin của chị luôn ở mức 10 đến 11 g/dL, trong khi bình thường là từ 12 đến 16 (có tài liệu lấy tới 17,5). Người dẫn chương trình đặt nghi vấn chị đang bị thiếu máu nhược sắc do thiếu sắt, gây tan hồng cầu và vàng da. Sau khi bổ sung vi chất, theo bác sĩ, tình trạng của chị thay đổi hoàn toàn.
+
+## [02:09:17] Cơ chế vàng da: gốc tự do từ tia UV và bụi mịn — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7757s
+
+**Q: Vì sao da và mắt bị vàng dù bilirubin không tăng?**
+Bác sĩ nói đây là thiếu máu vi thể nằm dưới da. Da và mắt tiếp xúc với ánh sáng có tia UV và không khí ô nhiễm có bụi mịn PM2.5 (và PM10 được nhắc đến), tạo gốc tự do ở da. Gốc tự do tấn công màng tế bào, protein và ADN, làm vỡ hồng cầu ngoài da, hemoglobin tích tụ và gây vàng da nhìn thấy bằng mắt. Ông cho rằng gốc tự do này còn do thiếu vi chất làm hệ miễn dịch kém đi.
+
+## [02:10:50] Rối loạn tụy, tiểu đường và cân nặng sau khi bổ sung vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7850s
+
+**Q: Bổ sung vi chất có làm giảm đường huyết ở người tiểu đường không? Trường hợp chồng chị Ngân ra sao?**
+Bác sĩ nói rối loạn ở tụy có thể gây tiểu đường. Chồng chị Ngân bổ sung vi chất và đường huyết giảm xuống. Chị Ngân đã đề nghị trưởng khoa xem xét nhưng trưởng khoa không đồng ý, vì nghiên cứu dinh dưỡng để có bằng chứng thực chứng rất khó khi không thể dừng mọi thứ khác của bệnh nhân để chỉ bổ sung một thứ. Theo phản ánh của bệnh nhân trên kênh, một số người giảm được liều thuốc hoặc bỏ được thuốc, còn người bệnh nặng quá thì không về bình thường được.
+
+**Q: Bổ sung vi chất có giúp giảm cân và đường huyết không? Trường hợp chị Ngọc Thơ và chị Ngân ra sao?**
+Bác sĩ kể trường hợp chị Ngọc Thơ, giảm từ 56–57 kg xuống 52–53 kg sau khi bổ sung vi chất. Bác sĩ giải thích rằng khi glutathion hoạt động hiệu quả, quá trình đốt cháy năng lượng tạo ra ATP, CO2 và nước diễn ra tốt hơn, giúp đốt đường, mỡ và đạm thừa. Bác sĩ cũng kể trường hợp chị Ngân, điều dưỡng ở một bệnh viện lớn tại Hà Nội, có chồng bị tiểu đường: sau khi bổ sung vi chất, đường huyết giảm, và bác sĩ nói nhiều người không cần dùng thuốc đường huyết nữa. Bác sĩ không nêu rõ liều hay điều kiện cụ thể.
+
+## [02:12:08] Gan và caroten: chức năng chuyển hóa thành vitamin A bị suy — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7928s
+
+**Q: Vì sao người có men gan bình thường vẫn có thể bị vàng da khi ăn caroten?**
+Bác sĩ nói gốc tự do tấn công gan, và khi xét nghiệm chức năng gan và thận bất thường thì đã muộn. Tế bào gan có thể vẫn bù trừ để men gan bình thường, nhưng một số chức năng đã ngừng. Phần chuyển caroten thành vitamin A không còn làm được việc, nên ăn bao nhiêu caroten cũng chỉ gây vàng da, vàng mắt. Khi thiếu vitamin A, mắt có thể rỉ ghèn, nhìn mờ. Ông nói gốc tự do còn làm hỏng enzyme vì tấn công protein, và bổ sung vi chất có thể giúp chuyển hóa hoạt động trở lại.
+
+## [02:13:40] Vitamin C, E, glutathion và các vi chất phối hợp với nhau — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8020s
+
+**Q: Vitamin C, vitamin E và glutathion có vai trò gì trong việc chống gốc tự do?**
+Người dẫn nói vitamin C và vitamin E cũng là các chất liên quan đến gốc tự do, và glutathion cũng vậy. Bác sĩ xác nhận các chất này hiệp đồng với nhau. Ông cũng nhắc đến bo và silic là những thành phần quan trọng thường có trong sản phẩm bổ sung. Sau khi bổ sung, theo bác sĩ, đường huyết và vàng da đều có thể cải thiện.
+
+## [02:16:47] Đau dây thần kinh số 5 và nang dưới nhện: quan điểm không mổ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8207s
+
+**Q: Nang dưới nhện có cần phẫu thuật không, và đau dây thần kinh số 5 có liên quan đến gốc tự do không?**
+Chị Nhung 41 tuổi bị đau dây thần kinh số 5, chụp thấy nang dưới nhện ở tiểu não trái và từng nghi là u não. Bác sĩ, là người đọc nhiều phim CT và cộng hưởng từ, nói nang dưới nhện không phải điều đáng sợ, nhiều người chung sống bình thường. Ông không đồng ý với việc mổ dẫn lưu vì bệnh nhân sẽ thêm một vết mổ không cần thiết. Ông cho rằng đau có thể do gốc tự do tấn công thần kinh và cần tìm hướng khác.
+
+## [02:19:04] Tiêm vào vỏ bao hạch dây thần kinh số 5: kỹ thuật và tái phát — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8344s
+
+**Q: Điều trị đau dây thần kinh số 5 bằng cách diệt hạch hoặc tiêm vào vỏ bao có kết quả thế nào?**
+Bác sĩ nói trên thế giới thường chọc kim vào hạch ở lỗ bầu dục để bơm hóa chất diệt hạch, nhưng sau khi diệt, mặt có thể tê bì mất cảm giác, và theo tài liệu ông đọc thì khoảng hai năm sau có thể tái phát và đau hơn. Nhóm của ông làm khác: chỉ chạm kim vào vỏ bao, không chạm vào hạch, rồi bơm hóa chất để phong bế, giữ được cảm giác mặt và tránh liệt mặt nặng. Nếu tái phát thì tiêm tiếp, nhưng kết quả không quá tốt. Ông cũng nói nhiều bệnh nhân đau dây thần kinh số 5 nghĩ đến việc kết thúc sớm cuộc đời.
+
+## [02:21:07] Một số bệnh nhân đau dây thần kinh số 5 đỡ sau khi bổ sung vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8467s
+
+**Q: Bổ sung vi chất có giúp người đau dây thần kinh số 5 đỡ hơn không?**
+Theo bác sĩ, một số bệnh nhân đến bổ sung vi chất đúng và đủ thì cơn đau biến mất hẳn, có người đỡ 90 đến 95%, và số còn lại chỉ còn đau nhẹ không đáng kể. Ông cho rằng nguyên nhân vẫn là gốc tự do tấn công dây thần kinh số 5, và nếu hiểu cơ chế, tránh để gốc tự do tích tụ quá nhiều thì người bệnh có thể thoát khỏi cơn đau.
+
+## [02:22:01] Đau nửa đầu của chị Nhung và tim nhanh: kết quả sau khi bổ sung vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8521s
+
+**Q: Đau nửa đầu kéo dài nhiều năm có cải thiện khi bổ sung vi chất không?**
+Chị Nhung 41 tuổi bị đau nửa đầu từ năm 15 tuổi, sinh ba con và bị gắn nhãn trầm cảm. Mỗi cơn kéo dài 3 đến 5 ngày, một tháng có vài cơn, phải nằm co ro, tránh ánh sáng, tiếng động và ăn uống. Chị ăn nhiều đồng để quên cơn đau nên cân nặng tăng nhanh. Uống đủ thuốc không đỡ, nhưng sau khi bổ sung vi chất, theo bác sĩ, chị thay đổi hoàn toàn, không còn đau nửa đầu và đau dây thần kinh số 5.
+
+**Q: Chị Nhung đã cải thiện nhịp tim nhanh và bóng đè như thế nào sau khi bổ sung vi chất?**
+Trước đây nhịp tim của chị lên tới 170. Bác sĩ hướng dẫn trong vài tiếng đồng hồ, và sau đó chị bổ sung vi chất theo từng bước, nâng dần liều. Bác sĩ nói hiệu quả thay đổi rõ rệt. Hiện nay thỉnh thoảng vẫn còn nhịp tim tăng nhanh do yếu tố tâm lý. Bác sĩ nói nếu mua được vi chất tốt, đúng và chuẩn thì bổ sung sẽ tốt lên nhiều.
+
+## [02:23:53] Thoát vị đĩa đệm và thiếu vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8633s
+
+**Q: Viêm đĩa đệm và thoát vị đĩa đệm có liên quan đến việc thiếu vi chất nào theo bài này?**
+Bác sĩ nói có người viêm đĩa đệm, có người thoát vị đĩa đệm rách bao sợi, và nguyên nhân được nêu là thiếu silic và thiếu bo. Ông cho rằng nhiều người mổ xong còn đau hơn, và các biện pháp như tiêm phong bế thần kinh cũng rất đau. Ông khuyên nên phòng ngừa từ sớm bằng cách bổ sung vi chất đầy đủ, để tránh tình trạng này xảy ra.
+
+## [02:26:23] Ngủ REM và giấc mơ: vì sao không làm theo mơ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=8783s
+
+Đã gộp vào mục [01:31:32] ở trên.
+
+## [02:34:11] Bóng đè có nguy hiểm không và xử lý khi gặp — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=9251s
+
+Đã gộp vào mục [01:31:32] ở trên.
+
+## [02:35:19] Căng thẳng kéo dài, gốc tự do và bóng đè — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=9319s
+
+Đã gộp vào mục [01:31:32] ở trên.
+
+## [02:43:43] Chị Nhung và nhịp tim — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=9823s
+
+Đã gộp vào mục [02:22:01] ở trên.
+
+## [02:53:59] Hồ sơ bệnh nhân Lương Trắc Nghiên và chỉ số cơ thể — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10439s
+
+**Q: Hồ sơ sức khỏe của bác Lương Trắc Nghiên có những gì: tiền sử bệnh, nghề nghiệp và tình trạng hiện tại?**
+Bác là thương binh, từng làm nghề mộc, sống ở Hưng Yên. Vợ bác mất đột ngột vì bệnh tim khi bác 37 tuổi, và bác nuôi con một mình. Bác hút thuốc lá nhiều năm như cách giải tỏa. Năm trước bác phải cấp cứu vì đợt cấp bệnh phổi tắc nghẽn mạn tính (COPD). Từ đó thể trạng rất yếu, và bác còn viêm đường ruột dằng dai. Bản tự giới thiệu ghi sinh năm 1973, còn phần nhận xét đọc sau đó ghi sinh năm 1953 và nói bác 73 tuổi.
+
+**Q: Chỉ số cơ thể của bác Lương Trắc Nghiên như thế nào: chiều cao, cân nặng, số đo ba vòng?**
+Bác cao 1,50 m, nặng 42 kg. Số đo vòng ngực 74 cm, vòng eo 55 cm, vòng mông 80 cm, vòng cánh tay 20 cm và vòng đùi 38 cm. Phần nhận xét tính BMI khoảng 18,67.
+
+**Q: Hình thể gầy của bác Lương Trắc Nghiên phản ánh tình trạng dinh dưỡng và cơ bắp như thế nào?**
+Phần nhận xét nói lớp mỡ dưới da gần như mất hoàn toàn và mỡ nội tạng bị giảm. Điều đáng lo nhất là teo cơ nghiêm trọng, do quá trình dị hóa kéo dài nhiều thập kỷ, khi cơ thể thiếu dinh dưỡng thì tự phân hủy cơ bắp để lấy năng lượng. Nhận xét ghi BMI 18,67 ở ngưỡng gần suy kiệt.
+
+## [02:55:58] Công thức máu của bác Lương Trắc Nghiên: MPV, MCV, MCH — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10558s
+
+**Q: Kết quả công thức máu của bác Lương Trắc Nghiên có chỉ số nào bất thường?**
+MPV (thể tích trung bình tiểu cầu) là 6,99, giảm nhẹ so với khoảng tham chiếu 7 đến 11. MCV (thể tích trung bình hồng cầu) là 98,9, ở cận trên của khoảng 80 đến 100. MCH (lượng huyết sắc tố trung bình hồng cầu) là 33,7, tăng nhẹ so với khoảng 27 đến 32. Các chỉ số tế bào máu khác trong giới hạn bình thường.
+
+**Q: MPV giảm và MCV, MCH tăng nhẹ có ý nghĩa gì ở bác Lương Trắc Nghiên?**
+Phần nhận xét cho rằng MPV giảm nghĩa là tiểu cầu nhỏ và kém sức sống, khả năng tự sửa tổn thương vi mạch chậm và mạch máu dễ bầm tím. MCV và MCH ở cận trên cho thấy hồng cầu to nhưng nhả oxy kém. Số lượng hồng cầu có thể chưa thấp đến mức thiếu máu cấp, nhưng cơ thể có thể đang thiếu máu chức năng và đói oxy. Nhận xét cho rằng nguyên nhân là tủy xương kiệt quệ sau nhiều năm, cộng với hít bụi gỗ, khói thuốc và chế độ ăn thiếu đạm, thiếu vi chất.
+
+## [02:56:30] Chức năng gan, thận và mỡ máu của bác Lương Trắc Nghiên — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10590s
+
+**Q: Kết quả men gan, ure, cholesterol và LDL-C của bác Lương Trắc Nghiên như thế nào?**
+AST là 53,7, tăng so với khoảng tham chiếu nhỏ hơn 37, còn ALT trong giới hạn bình thường. Ure máu là 7,4 mmol/L, sát ngưỡng trên của khoảng 2,5 đến 7,5. Creatinin máu trong giới hạn bình thường. Cholesterol toàn phần là 5,4, tăng nhẹ so với mức nhỏ hơn 5,2. LDL-C là 3,1, bình thường.
+
+**Q: Vì sao AST tăng 53,7 trong khi ALT bình thường ở bác Lương Trắc Nghiên?**
+Phần nhận xét ví gan như bếp nấu năng lượng, AST tăng đơn độc giống ngọn khói từ một bếp bị tổn thương vi thể. Nguyên nhân được nêu là khói thuốc lá kéo dài nhiều năm, uất ức kéo dài, cộng với độc tố từ các đợt thuốc tây khi cấp cứu bệnh phổi và viêm đường ruột mạn tính.
+
+## [02:57:13] Axit uric 459,1 và cholesterol tăng ở người gầy — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10633s
+
+**Q: Axit uric 459,1 của bác Lương Trắc Nghiên có cao không? Đường huyết, HbA1c và nước tiểu có vấn đề gì không?**
+Axit uric là 459,1, tăng so với khoảng 200 đến 420 ở nam. Glucose máu và HbA1c trong giới hạn bình thường. Tổng phân tích nước tiểu có pH 5,5, bình thường, các chỉ số khác âm tính hoặc trong giới hạn bình thường.
+
+**Q: Vì sao axit uric và cholesterol tăng ở người gầy, ăn đạm bạc như bác Lương Trắc Nghiên?**
+Phần nhận xét nói đây không phải bệnh của người ăn ngon mà là suy thoái chuyển hóa do tế bào bị bỏ đói. Đường ruột viêm mạn tính làm không hấp thu được đạm, nên cơ thể tự phân hủy cơ bắp, giải phóng purin khiến axit uric tăng vọt. Gan và thận thiếu vi chất nên giảm khả năng đào thải, và tinh thể urat có thể lắng đọng ở khớp và thành mạch, gây đau gút.
+
+**Q: Người gầy cũng bị axit uric cao và mỡ máu cao là vì sao?**
+Bác sĩ nói người ta thường cho rằng axit uric cao là do béo, ăn nhiều đạm và mỡ, nhưng nhiều người rất gầy vẫn có mỡ máu và axit uric cao cùng chức năng gan có vấn đề. Ông cho rằng đây cũng là một vòng xoắn liên quan đến gốc tự do.
+
+## [02:57:43] Sắt, vitamin và khoáng chất: feritin, TSAT và biểu hiện thiếu sắt — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10663s
+
+**Q: Các chỉ số sắt, vitamin và khoáng chất của bác Lương Trắc Nghiên thế nào?**
+Feritin là 428,1, tăng so với khoảng 30 đến 400 ở nam. Transferrin là 178, giảm so với 200 đến 360. TIBC là 44,72, giảm nhẹ so với 45 đến 70. Sắt huyết thanh là 12,9, bình thường. Folat (B9) là 20,11 và bình thường. B12 là 838,9, tăng nhẹ so với khoảng 197 đến 771. Vitamin D là 31,76 ng/ml. Canxi toàn phần là 2,2 và bình thường, canxi ion hóa là 1,15, giảm nhẹ so với 1,17 đến 1,29. Magie (bản ghi âm ghi là "Ma") là 0,82, bình thường. Kẽm là 7,39, giảm so với 11 đến 24. Đồng là 68,2, giảm nhẹ so với 70 đến 140. Photpho trong giới hạn bình thường.
+
+**Q: Chỉ số TSAT 28,84% có nghĩa là gì, và feritin 428,1 tăng có đáng lo về quá tải sắt không?**
+TSAT được tính bằng sắt huyết thanh chia cho TIBC nhân 100, ra 28,84%, trong khoảng bình thường 20 đến 50%. Phần nhận xét nói lượng sắt lưu hành vẫn ổn định. Feritin 428,1 chỉ vượt nhẹ ngưỡng trên 400, không đáng lo về quá tải hay ngộ độc sắt. Feritin tăng nhẹ được giải thích là do protein phản ứng pha cấp, phản ứng tự vệ của cơ thể trước viêm mạn tính, và cơ thể đang giữ bớt sắt trong kho để ngăn vi khuẩn lợi dụng.
+
+**Q: Các chỉ số sắt này biểu hiện ra triệu chứng gì trên thực tế?**
+Phần nhận xét nói kết hợp kho sắt đóng và lượng sắt lưu hành giảm không gây nguy hiểm đến tính mạng, nhưng làm chậm phân phối năng lượng tạo máu. Biểu hiện gồm mệt mỏi dai dẳng, sức bền giảm, hồi phục chậm sau mỗi đợt ốm hoặc đợt cấp COPD, và đôi lúc lồng ngực có cảm giác nén nặng.
+
+## [02:59:04] Chụp CT lồng ngực của bác Lương Trắc Nghiên: tổn thương phổi và động mạch chủ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10744s
+
+**Q: Kết quả chụp CT lồng ngực của bác Lương Trắc Nghiên ghi nhận những gì? Vì sao phổi bị tổn thương như vậy?**
+CT ghi nhận xẹp thùy giữa phổi phải, các ổ giãn phế nang trung tâm tiểu thùy ở hai phổi, dày thành các nhánh phế quản hai phổi, động mạch chủ bị vôi hóa, và thoái hóa cột sống ngực. Transcript mô tả giãn phế nang trung tâm tiểu thùy ở cả hai lá phổi, khiến các vách phế nang bị bào mòn, vỡ và biến dạng thành túi khí không còn khả năng đàn hồi. Thùy giữa của phổi phải được mô tả là đã xẹp hoàn toàn do đàm đặc và tổ chức xơ hóa xâm lấn kéo dài. Đường dẫn khí bị thu hẹp, xơ cứng và đóng cặn. Theo transcript, nhựa thuốc lá kết hợp với bụi gỗ mịn bám chặt vào các phế nang qua nhiều năm. Bác sĩ liên hệ với việc bác hút thuốc để quên nỗi buồn sau khi vợ mất và làm nghề thợ mộc hàng chục năm.
+
+**Q: Bác Nghiên có từng bị suy hô hấp cấp không, và động mạch chủ có vấn đề gì?**
+Transcript kể rằng đợt suy hô hấp cấp tính năm ngoái khiến bác phải cào xé từng hơi thở, với cân nặng 42 kg. CT cũng cho thấy động mạch chủ có các mảng vôi hóa kéo dài và thoái hóa cột sống ngực nghiêm trọng. Theo bác sĩ, canxi bị rút khỏi xương do suy dinh dưỡng, thiếu vitamin D và magie kéo dài, rồi bám vào thành mạch máu, khiến động mạch trở nên xơ cứng.
+
+**Q: Ba câu hỏi của khán giả về hồ sơ bác Lương Trắc Nghiên là gì?**
+Ba câu hỏi: (1) tổn thương phổi trên CT (xẹp thùy giữa phổi phải, giãn phế nang, dày thành phế quản, vôi hóa động mạch chủ) có mức độ nguy hiểm thế nào với người cao tuổi bị COPD; (2) biến động của men gan AST, axit uric, feritin tăng cùng thiếu kẽm, canxi ion và đồng nói lên điều gì về chuyển hóa và khả năng hấp thu dinh dưỡng; (3) với người nặng 42 kg, có viêm phổi tắc nghẽn mạn tính và viêm đường ruột, nên ăn uống, tập luyện, phục hồi hô hấp và bổ sung vi chất thế nào cho an toàn. Đoạn này chưa có phần trả lời cho các câu hỏi này.
+
+## [03:24:03] Kẽm, đồng và canxi ion hóa: đọc kết quả và triệu chứng thiếu kẽm — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12243s
+
+**Q: Kết quả kẽm 7,39, đồng 68,2 và canxi ion hóa 1,15 trong xét nghiệm của bác Lương Trắc Nghiên được đọc thế nào?**
+Kẽm tụt sâu xuống 7,39 (tham chiếu 11 đến 24). Đồng giảm còn 68,2 (tham chiếu 70 đến 140). Canxi ion hóa giảm nhẹ xuống 1,15 (tham chiếu 1,17 đến 1,29). Transcript gọi kẽm và đồng là "những người thợ sửa chữa tí hon" của cơ thể.
+
+**Q: Thiếu kẽm gây ra những triệu chứng nào?**
+Theo transcript, thiếu kẽm khiến niêm mạc ruột bị dò rỉ, dẫn tới viêm đường ruột kéo dài. Người bệnh có thể khó tiêu, mất cảm giác ngon miệng, tóc dễ rụng, da khô ráp và khả năng tự lành vết thương bị suy giảm. Transcript cho rằng những thiếu hụt này xuất hiện sau nhiều thập kỷ hút thuốc lá và thiếu vi chất.
+
+## [03:25:00] Điều đáng bận tâm hơn feritin và TSAT: viêm mạn tính — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12300s
+
+**Q: Điều đáng quan tâm nhất ở bác Nghiên là gì, nếu không phải feritin hay TSAT?**
+Theo bác sĩ, điều đáng bận tâm hơn nằm ở ngọn lửa viêm mạn tính. Việc cần làm là làm ấm lại đường ruột và lấp đầy những khoảng trống vi chất đã bị thời gian bào mòn qua nhiều năm.
+
+## [03:25:17] Vitamin B12 838,9: có đáng lo không và các nguyên nhân tăng giả — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12317s
+
+**Q: Vitamin B12 838,9 pg/ml, cao hơn tham chiếu 197 đến 771 của phòng xét nghiệm nội địa, có nguy hiểm không?**
+Bác sĩ nói rằng nhiều người có thể hoảng khi thấy chỉ số này cao, nhưng theo góc nhìn y khoa hiện đại thì đây là chỉ số cần được hiểu một cách điềm tĩnh. Ông so sánh với quy chuẩn của một số nước phát triển như Nhật Bản, nơi giới hạn trên có thể được mở rộng lên 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn nằm trong ngưỡng an toàn.
+
+**Q: Khi nào vitamin B12 mới đáng lo ngại theo bác sĩ?**
+Theo transcript, các bác sĩ chỉ thực sự lo khi vitamin B12 giảm nặng, gây thiếu máu và tổn thương thần kinh. Bác sĩ hiếm khi bận tâm khi chỉ số này tăng nhẹ, thậm chí tăng gấp rưỡi hoặc gấp đôi. Lý do được nêu là B12 tan trong nước, phần dư thừa sẽ được thận đào thải qua nước tiểu hằng ngày mà không gây tích tụ độc hại.
+
+**Q: Vitamin B12 trong xét nghiệm có thể tăng do đâu khác ngoài việc thực sự thừa B12?**
+Transcript nêu hai nhóm nguyên nhân. Thứ nhất, chỉ số B12 tăng thường đến từ dương tính giả hoặc nhiễu kỹ thuật. Phân tử B12 lớn và có cấu trúc phức tạp, nên máy phân tích miễn dịch dễ nhầm với các mảnh phân tử có cấu trúc tương tự. Nguyên tố coban ở trung tâm phân tử có thể tương tác và bắt chước các kim loại khác trong mẫu máu, làm thiết bị đo sai lệch. Thứ hai, tổn thương gan mạn tính có thể giải phóng lượng B12 dự trữ vào máu, tạo ra con số "ảo ảnh" trên giấy.
+
+## [03:31:26] Đợt suy hô hấp cấp và động mạch chủ: vì sao canxi bám thành mạch — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12686s
+
+Đã gộp vào mục [02:59:04] ở trên.
+
+## [03:34:58] Uống đủ nước và uống nước ấm — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12898s
+
+**Q: Uống nước ít, chờ đến khát khô cổ họng thì ảnh hưởng gì đến cơ thể?**
+Bác sĩ nói bác Nghiên đã nhiều năm quên cách uống nước, chỉ uống khi cổ họng khô khốc. Theo transcript, điều này khiến máu đặc lại và đờm trong phế quản vón cục, cản trở hơi thở. Bác được khuyên nhấp từng ngụm nước ấm.
+
+## [03:35:43] Hướng xử lý ban đầu cho viêm phổi tắc nghẽn mạn tính: giải thoát tâm thức — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12943s
+
+**Q: Bác Nghiên cần làm gì trước tiên để xoa dịu phổi bị viêm tắc nghẽn mạn tính?**
+Theo bác sĩ, việc đầu tiên là giải thoát tâm thức và xoa dịu lồng ngực đang ngột ngạt vì viêm phổi tắc nghẽn mạn tính. Transcript khuyên bác buông bỏ gánh nặng tinh thần sau khi vợ mất, vì khi tâm được an xả thì phế khí mới có thể bình tĩnh trở lại.
+
+## [03:36:48] Học lại cách thở và các kỹ thuật thở cho bác Nghiên — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=13008s
+
+**Q: Bác sĩ hướng dẫn bác Nghiên thở như thế nào để cải thiện phổi?**
+Bác sĩ nói việc học lại cách thở là chìa khóa để mở lại luồng không khí cho tế bào. Nếu hít thở nông và gấp gáp thì khí độc sẽ bị giam hãm bên trong, nên bác nên kiên nhẫn thực hành các kỹ thuật thở dưỡng sinh dành cho người tổn thương phế quản.
+
+**Q: Các kỹ thuật thở cụ thể là gì, và thực hiện ra sao?**
+Transcript nêu ba kỹ thuật:
+- **Thở chúm môi kết hợp thở cơ hoành, nhịp 1:2:** hít vào bằng mũi trong một nhịp, thả lỏng bụng cho phồng lên. Sau đó chúm môi lại như đang thổi sáo và thở ra chậm trong hai nhịp dài gấp đôi nhịp hít vào.
+- **Thở nhịp ba thì 1:1:1:** hít vào một nhịp, giữ khí nhẹ nhàng một nhịp, rồi thở ra chầm chậm một nhịp. Transcript nói mỗi ngày bác có thể áp dụng thêm.
+- **Thở 4-7-8:** hít vào trong 4 giây, giữ hơi trong 7 giây, rồi thở ra bằng miệng trong 8 giây. Theo transcript, kỹ thuật này dành cho những đêm trằn trọc khó ngủ và nên tập trong sự tĩnh lặng của buổi sáng sớm, trước 8 giờ.
+
+**Q: Bác Nghiên nên tập thở như thế nào để an toàn với sức yếu?**
+Bác sĩ nói không nên cố quá. Bác có thể bắt đầu với việc nín thở khoảng 1 đến 1,5 giây, và nếu nhịn được 10 hoặc 15 giây thì chỉ giảm xuống khoảng 8 đến 9 giây để giữ an toàn. Sau đó nâng dần lên nhịp 1, rồi 3, rồi 4-7-8.
+
+## [03:38:41] Giữ ấm và giờ đi ngủ khi gió mùa về — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=13121s
+
+**Q: Bác Nghiên cần giữ ấm và sinh hoạt thế nào khi gió mùa về?**
+Transcript khuyên giữ ấm tuyệt đối cho đôi bàn chân và vòng ngực mỗi khi gió mùa tràn về, và đi ngủ trước 10 giờ đêm.
+
+## [03:38:50] Bảy nhóm vi chất, danh sách theo thứ tự và thời gian phục hồi — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=13130s
+
+**Q: Vì sao cần bổ sung đủ bảy nhóm vi chất, và bảy nhóm đó là gì?**
+Bác sĩ nói cơ thể không thể sửa chữa bằng thuốc cấp tính mà cần chữa lành từ nền tảng tế bào, bằng nguyên liệu đầy đủ, kiên trì và chuẩn xác. Bảy nhóm vi chất cần bổ sung đúng và đồng bộ gồm: canxi, magie, vitamin D, vitamin tổng hợp, vitamin C, kẽm và omega 3. Bác sĩ nhấn mạnh đây không phải những viên thuốc rời rạc mà là một tập hợp các viên gạch sinh học.
+
+**Q: Những vi chất nào cần bổ sung, theo danh sách của bác sĩ? Vì sao magie và kẽm quan trọng?**
+Bác sĩ nói đầu tiên là magie, rồi kẽm, canxi, vitamin D3, vitamin tổng hợp (đặc biệt nhóm B), vitamin C và cuối cùng là omega 3. Ông gọi canxi, D3 và magie là "bộ ba tam giác vàng". Ông nói nếu thiếu magie, kẽm hay các chất này thì các chất chống oxy hóa cũng mất ý nghĩa.
+
+**Q: Phải mất bao lâu để thấy cải thiện khi luyện thở và bổ sung dinh dưỡng?**
+Bác sĩ nói một thân thể đã chịu 73 năm bão táp cần ít nhất nửa năm đến một năm được chăm sóc đúng cách. Trong thời gian này cần kiên nhẫn luyện thở đúng và duy trì dinh dưỡng tế bào chuẩn mực.
+
+## [03:53:35] Gốc tự do và mối liên hệ với bệnh tật — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14015s
+
+**Q: Gốc tự do có phải là nguyên nhân của mọi bệnh không?**
+Bác sĩ nói gốc tự do là nguồn cơn của nhiều bệnh, và mọi căn bệnh đều đi qua một khâu trung gian là gốc tự do. Tuy nhiên ông nói có những bệnh ít liên quan hơn, ví dụ nhiễm virus, cảm cúm vặt hoặc chấn thương. Ông vẫn cho rằng không thể nói hoàn toàn không liên quan, vì khi hệ miễn dịch suy yếu thì cơ thể dễ nhiễm virus và vi khuẩn hơn.
+
+## [03:54:44] Phổi, tim, thần kinh phế vị và cảm xúc — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14084s
+
+**Q: Cảm xúc và tâm lý ảnh hưởng đến phổi và tim như thế nào theo bác sĩ?**
+Transcript nói phế (phổi) là nơi chứa nỗi buồn theo y học cổ truyền. Bác sĩ nói tim và phổi nằm gần nhau và chịu chi phối của hệ thần kinh giao cảm, phó giao cảm và dây thần kinh phế vị, dây thần kinh dài nhất nối não với các tạng. Bác sĩ cho rằng yếu tố tâm lý là yếu tố quan trọng số một để sinh ra gốc tự do.
+
+## [03:55:52] Vì sao não, tim và phổi tiêu tốn nhiều năng lượng — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14152s
+
+**Q: Vì sao não, tim và phổi dễ bị tổn thương bởi gốc tự do?**
+Theo transcript, não tiêu tốn khoảng 20% năng lượng của cơ thể trong khi chỉ chiếm khoảng 2% trọng lượng. Tim phải làm việc rất nhiều nên tốn nhiều năng lượng, và phổi cũng tiêu tốn nhiều năng lượng để duy trì sự sống. Bác sĩ coi cả ba tạng này là nguồn cơn sinh ra gốc tự do.
+
+## [03:56:38] Nỗi buồn của người đàn ông sau khi mất vợ, hút thuốc và gốc tự do phá hủy tế bào — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14198s
+
+**Q: Vì sao người đàn ông mất vợ dễ bị bệnh hơn, và hút thuốc để quên buồn gây hại gì?**
+Bác sĩ nói người đàn ông dồn tình yêu vào người vợ nên nỗi đau mất vợ đè nặng lên trái tim, lên từng hơi thở, tác động đến não và sinh ra nhiều gốc tự do. Bác Nghiên còn hút thuốc lá để quên nỗi buồn. Bác sĩ nói thuốc lá sinh ra gốc tự do với số lượng rất lớn và đi thẳng vào phổi.
+
+**Q: Gốc tự do phá vỡ những thành phần nào trong tế bào phổi?**
+Theo transcript, gốc tự do phá vỡ ba thành phần chính là màng tế bào, protein và ADN. Quá trình này tạo thành một vòng xoắn bệnh lý: các thành phần bị phá vỡ lại tiếp tục sinh ra gốc tự do.
+
+## [03:59:00] Nghề thợ mộc và bụi gỗ — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14340s
+
+**Q: Nghề thợ mộc ảnh hưởng đến phổi và sức khỏe như thế nào?**
+Bác sĩ nói nghề thợ mộc rất vất vả, đặc biệt công việc cưa xẻ, và ông từng phải bỏ nghề vì không chịu được. Ngày xưa không có khẩu trang, nên mùn cưa, bụi gỗ và hóa chất như sơn, đánh vecni bay vào phổi. Các chất này đều là độc chất, và cũng tạo thành vòng xoắn sinh ra gốc tự do.
+
+## [04:02:07] Gốc tự do tác động lên máu và mạch máu — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14527s
+
+**Q: Gốc tự do làm tổn thương hệ tạo máu và mạch máu như thế nào?**
+Theo transcript, gốc tự do làm men gan tăng cao và đi vào hệ tạo máu. Hồng cầu to nhưng chất lượng không đảm bảo, tiểu cầu bé và không đủ khả năng vá các chỗ mạch máu bị tổn thương. Khi đó canxi lắng đọng trên thành mạch, làm loét mạch máu và dẫn tới vôi hóa thành mạch.
+
+## [04:04:01] Vòng xoắn thiếu vi chất và bệnh nhiều cơ quan — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14641s
+
+**Q: Thiếu vi chất kéo dài dẫn tới vòng xoắn bệnh tật nào?**
+Bác sĩ nói tế bào bị tổn thương ở cấp độ phân tử và tế bào sẽ tạo thành vòng xoắn, liên tục sinh ra gốc tự do. Từ đó bệnh có thể xuất hiện ở hết cơ quan này đến cơ quan khác, từ đường ruột, phổi đến gan. Cơ teo dần, tế bào cơ thoái hóa và tạo ra axit uric tăng. Theo bác sĩ, chế độ ăn của người Việt không đủ vi chất.
+
+## [04:04:39] Gia đình và con cháu hỗ trợ người cao tuổi — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14679s
+
+**Q: Con cháu nên hỗ trợ người già bị bệnh mạn tính như thế nào, theo bác sĩ?**
+Bác sĩ khen gia đình bác Nghiên chăm lo cẩn thận, chu đáo. Ông kể con bác đã đưa bác đi khám và làm bệnh án. Ông nói người cao tuổi khó tự tiếp cận kiến thức sâu nên cần con cháu hỗ trợ, nhưng không nên ỷ lại và cần tự làm chủ được việc của mình.
+
+**Q: Con cháu bận đi làm thì có nên để ông bà tự lo sức khỏe không?**
+Bác sĩ nói nhiều người đến gặp ông và nói con cháu bận, không có thời gian chăm sóc, nên ông bà phải tự lo. Ông cho rằng đây là điều chúng ta đang làm sai. Ông kể một ca bệnh có người con gái chăm mẹ gầy yếu, và sau hơn một năm có kiến thức và sự hỗ trợ trong gia đình, người mẹ đã khỏe lên và tăng cân.
+
+## [04:03:09] Vì sao người gầy vẫn có axit uric và mỡ máu cao — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=14589s
+
+Đã gộp vào mục [02:57:13] ở trên.
+
+## [04:14:18] Hồ sơ gửi chương trình cần ghi những thông tin nào? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=15258s
+
+**Q: Khi gửi hồ sơ sức khỏe cho chương trình thì cần viết đầy đủ những thông tin gì?**
+Hồ sơ cần có ngày tháng năm sinh, địa chỉ quê quán, nghề nghiệp hoặc công việc, tiền sử bệnh tật, các vấn đề đang gặp phải, và kết quả các bệnh đã khám, xét nghiệm. Bác sĩ nói càng chi tiết càng tốt. Hồ sơ thiếu ngày sinh, quê quán hoặc nghề nghiệp thì không thể phân tích đầy đủ. Ông nêu bác Lương Trắc Nghiên (quê Hải Dương) làm mẫu, với các xét nghiệm sắt, vitamin, chức năng máu cơ bản và CT.
+
+## [04:13:09] Glutathione là chủ đề của ngày hôm nay và được truyền thông mô tả thế nào — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=15189s
+
+**Q: Glutathione có vai trò gì trong việc khắc phục gốc tự do theo chương trình?**
+Bác sĩ nói chủ đề chính của buổi hôm nay là giúp bác Nghiên hiểu sâu về gốc tự do và khắc phục gốc tự do bằng glutathione. Ông cũng nhắc rằng ngoài bảy nhóm vi chất còn có khoảng 18 sản phẩm thuộc các nhóm này, cùng các thành phần khác như vitamin B7, B8, bo, silic và glutathione.
+
+**Q: Glutathion là gì mà được gọi là "hoạt chất vàng" hay "thần dược"?**
+Theo phần giới thiệu của chương trình, glutathion là cái tên xuất hiện nhiều gần đây, được truyền miệng gọi là hoạt chất vàng cho làn da tươi sáng, được coi là thần dược để gan giải độc, và là bí quyết giữ tuổi thanh xuân. Bác sĩ nói những lời truyền miệng này "hào nhoáng" và cần nhìn lại dưới góc nhìn y khoa.
+
+## [04:17:49] Những trào lưu chữa lành cấp tốc có hại gì? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=15469s
+
+**Q: Tìm cách chữa nhanh theo trào lưu có thể gây ra những triệu chứng gì?**
+Phần giới thiệu nêu một số trường hợp: lạm dụng đường thô hoặc thực phẩm ngọt để chữa lành nhanh, dẫn đến hoảng sợ về ban đêm, nhịp tim dồn dập đến 170 lần một phút, hoặc làn da vàng bợt héo hon. Nhiều người đi khám nơi nào cũng được nói là do "cơ địa". Có người mẹ bị cạn kiệt năng lượng tế bào nhưng bị dán nhãn trầm cảm sau sinh hoặc rối loạn thần kinh.
+
+## [04:19:29] Đường, gốc tự do và trường hợp chị Hằng: vòng xoắn bệnh lý và sau khi bổ sung vi chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=15569s
+
+**Q: Vì sao ăn nhiều đường lại có thể dẫn đến trầm cảm, mất ngủ và nhịp tim nhanh theo lời bác sĩ?**
+Bác sĩ dùng trường hợp chị Hằng (41 tuổi, bị bệnh từ năm 15 tuổi, sinh ba con, cạn kiệt năng lượng, được chẩn đoán trầm cảm sau sinh, tăng cân không kiểm soát, uống thuốc thần kinh). Bác sĩ nói chị ăn nhiều đường mía, và đường là kẻ thù hàng đầu tạo ra gốc tự do khi đốt quá nhanh và tích lũy quá nhiều. Theo bác sĩ, gốc tự do này tạo thành một vòng xoắn bệnh lý, ảnh hưởng đến não, giấc ngủ (bóng đè) và nhịp tim (lên 170 nhịp mỗi phút), liên quan đến dopamin, serotonin và đường ruột. Bác sĩ dùng lập luận này để giải thích cơ chế, không phải để khẳng định chẩn đoán cho bất kỳ ai.
+
+**Q: Vì sao cần bổ sung vi chất cùng với glutathion, và chị Hằng đã thay đổi thế nào?**
+Bác sĩ nói glutathion không hoạt động được nếu thiếu các yếu tố hiệp đồng. Bác sĩ nêu kẽm, vitamin C và vitamin E cùng nhiều vi chất khác, và nói có đủ glutathion mà thiếu các chất này thì cũng không tác dụng. Chị Hằng đã uống thuốc trầm cảm và thuốc thần kinh nhiều năm mà không đỡ. Sau khi bổ sung vi chất, bác sĩ nói chị "tốt lên" và thoát khỏi trầm cảm, dù bác sĩ cũng nói đây là một cơ chế hiệp đồng chứ không phải một viên thuốc đơn lẻ.
+
+## [04:21:40] Cấu tạo, hoạt động và tái tạo của glutathion — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=15700s
+
+**Q: Glutathion gồm những axit amin nào và chúng liên kết với nhau như thế nào?**
+Glutathion được tạo từ ba thành phần: glutamat (có trong mì chính), cystein (phần đỏ trong hình vẽ) và glycin. Bác sĩ nói liên kết cacbon gamma giữa glutamat và cystein là bước quan trọng nhất, có thể coi như đã hoàn thành khoảng 2/3 cấu trúc. Glycin là cánh tay thứ hai và được gắn vào sau. Để cơ thể tổng hợp được, khi ăn cần đủ glutamat, cystein và glycin.
+
+**Q: Phần nào của glutathion trực tiếp gắp chất độc và gốc tự do?**
+Bác sĩ ví glutathion như một chiếc kìm. Phần mũi kìm là nhóm -SH (thiol). Nhóm này có hydro và nguyên tử lưu huỳnh luôn sẵn sàng nhường electron và H+. Gốc tự do thì đi cướp electron và H+, nên glutathion gắp và trung hòa chúng. Glutamat giữ cho "kìm" ổn định, còn glycin là cánh tay chuyển động.
+
+**Q: Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?**
+Sau khi nhường electron và H+, mũi kìm bị hỏng, và glutathion được ký hiệu là GSH. Hai glutathion hỏng sẽ khóa vào nhau tạo thành GSSG. Được chuyển đến một "nhà máy" tái tạo (bản ghi viết là "redacta"), nơi cần năng lượng NADPH từ hô hấp tế bào. NADPH cung cấp electron và H+ để tạo lại hai glutathion hoàn chỉnh. Bác sĩ dùng cách này để giải thích vì sao cơ thể không vứt bỏ glutathion sau khi dùng.
+
+## [04:33:26] Ba loại gốc tự do chính trong cơ thể — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=16406s
+
+**Q: Những gốc tự do chính trong cơ thể là gì?**
+Bác sĩ nhắc đến ba loại: superoxit (O2 với một electron dư, khởi điểm của các gốc tự do và cướp electron cùng H), oxy già (H2O2), và gốc hydroxyl (OH). Bác sĩ nói gốc hydroxyl là loại nguy hiểm bậc nhất vì nó nhỏ, linh động, không tha chất nào và có thể cướp electron và H của mọi thứ trên đường đi. Bác sĩ cũng nói oxy già có thể trở thành loại nguy hiểm hơn khi có thêm sắt hai hoặc đồng hai.
+
+## [04:37:48] Những nguồn nào sinh ra gốc tự do? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=16668s
+
+**Q: Ngoài ăn uống, còn yếu tố nào làm tăng gốc tự do theo lời bác sĩ?**
+Bác sĩ nêu ba nguồn chính. Thứ nhất là yếu tố tinh thần. Thứ hai là ăn uống: thực phẩm chứa hóa chất hoặc thuốc trừ sâu, và ăn quá nhiều đường, đạm hoặc chất béo, khi thừa sẽ biến thành gốc tự do. Thứ ba là thuốc dùng không cần thiết, sai chỉ định hoặc uống quá đà, ví dụ paracetamol (ngộ độc gan) hoặc corticoid. Bác sĩ cũng nhắc đến kim loại nặng như chì, thủy ngân và asen.
+
+## [04:39:19] Vì sao gốc tự do gắn kim loại nặng lại nguy hiểm? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=16759s
+
+**Q: Chất độc gắn với gốc tự do thì gây hại như thế nào, và glutathion xử lý ra sao?**
+Bác sĩ nói những chất này có ba đặc điểm nguy hiểm: không tan nên cơ thể không đào thải được, bám dính chặt vào các thành phần và gây bệnh, và phá hủy các thành phần như đâm thủng màng tế bào. Khi glutathion gắp được chúng, nó bọc kín chất độc, làm mất khả năng bám dính và phá hủy. Chất độc được bọc sẽ tan dễ hơn và được đào thải qua thận.
+
+## [04:41:31] Gốc tự do tập trung nhiều ở đâu trong cơ thể? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=16891s
+
+**Q: Cơ quan nào tập trung nhiều gốc tự do nhất, và gốc tự do sinh ra từ đâu?**
+Gốc tự do nội sinh sinh ra từ ti thể, nơi chuyển hóa và hoạt động nhiều. Bác sĩ xếp các cơ quan theo mức độ tập trung gốc tự do như sau: gan đứng đầu, rồi thận, ruột, não, tim và phổi. Các cơ quan này đều thực hiện nhiều chức năng thải độc.
+
+## [04:42:53] Enzyme GST và cách glutathion tìm đến độc chất — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=16973s
+
+**Q: Glutathion tìm đến chỗ có độc chất bằng cơ chế nào?**
+Bác sĩ nói enzyme GST có hai chức năng. Thứ nhất là chỉ điểm: nó báo cho glutathion biết nơi nào có nhiều độc chất để glutathion đến. Thứ hai là yêu cầu mũi kìm mở ra để gắp độc chất. Bác sĩ gọi enzyme này là "anh thợ" và nói glutathion không tự đến mà phụ thuộc vào GST. Sau khi gắp, độc chất được đưa đến thận để đào thải. Bác sĩ nói glutathion có thể giải độc ở gan, thận, ruột, não và các nơi khác.
+
+## [04:47:03] Glutathion và hệ miễn dịch — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=17223s
+
+**Q: Glutathion có giúp tăng cường hệ miễn dịch không, và cơ chế ra sao?**
+Bác sĩ mô tả tế bào NK (tế bào tự nhiên) dùng gốc tự do làm vũ khí tấn công virus, vi khuẩn và các tác nhân gây bệnh. Vũ khí này cũng có thể tấn công lại tế bào miễn dịch, và quá trình này có thể tạo ra "bão cytokine". Glutathion có ba nhiệm vụ: trung hòa phần gốc tự do thừa để tránh bão cytokine, tạo môi trường trong sáng để tế bào miễn dịch hoạt động, và báo về ADN để sản xuất thêm tế bào miễn dịch khi cần. Bác sĩ nói glutathion còn điều chỉnh để vũ khí không bị thừa, thiếu hay cắm nhầm.
+
+## [04:50:35] Glutathion bảo vệ ti thể và năng lượng tế bào — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=17435s
+
+**Q: Vì sao ti thể cần được bảo vệ, và glutathion giúp gì cho năng lượng tế bào?**
+Bác sĩ nói ti thể là nơi diễn ra trao đổi chất, đốt cháy đường, đạm và chất béo, nên có rất nhiều gốc tự do. Ti thể có ADN riêng nằm sát màng trong, nên gốc tự do thấm qua có thể phá hủy ADN này và gây đột biến. Glutathion được đưa vào và bám dày đặc ở mặt trong màng ti thể để trung hòa gốc tự do ngay khi chúng vừa xuất hiện. Bác sĩ nói khi ti thể được bảo vệ thì năng lượng tế bào được tạo ra tốt hơn.
+
+## [04:53:37] Bổ sung vi chất có liên quan đến cân nặng và đường huyết không? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=17617s
+
+Đã gộp vào mục [02:10:50] ở trên.
+
+## [04:55:35] Glutathion làm trắng da theo cơ chế nào? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=17735s
+
+**Q: Glutathion làm da trắng hơn bằng cách nào theo bác sĩ?**
+Bác sĩ dùng hình ảnh một công xưởng trộn màu trong tế bào melanocyte. Anh thợ tyrosinase phụ thuộc vào tia UV: khi tia UV nhiều, tyrosinase pha melanin đen để bảo vệ da. Khi tia UV ít, nó pha màu trắng hơn. Tia UV tạo ra gốc tự do làm tín hiệu báo động. Glutathion trung hòa gốc tự do nên tín hiệu biến mất, và glutathion khóa tay tyrosinase để nó không trộn melanin đen. Sau đó glutathion tự sử dụng công cụ pha màu trắng và làm da trắng hồng lên. Bác sĩ nói đây là cơ chế, không phải lời khuyên.
+
+## [05:02:09] Tóm tắt vai trò của glutathion và lưu ý kết hợp — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18129s
+
+**Q: Tóm lại glutathion có những vai trò nào, và có nên chỉ bổ sung một chất không?**
+Bác sĩ tóm tắt các vai trò: giải độc (được ví là "vua của chống độc" ở gan, não, thận và ruột), nâng cao hệ miễn dịch, bảo vệ ti thể và tăng năng lượng tế bào (góp phần giảm cân, giảm mỡ, giảm đường), và làm trắng da. Bác sĩ nhấn mạnh glutathion góp phần cùng nhiều vi chất khác, không phải một chất đơn lẻ, nên không thể bỏ cái này để ưu tiên cái kia. Bác sĩ nói cần đồng bộ hóa các lĩnh vực để khắc phục tình trạng.
+
+## [05:04:32] Các sản phẩm glutathione thường được phối hợp với chất gì, và có bao nhiêu nghiên cứu? — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18272s
+
+**Q: Glutathione hay được bán kèm những chất nào, và vì sao lại kết hợp như vậy?**
+Trên báo chí và mạng, glutathione thường được quảng cáo dưới dạng viên nén, viên nang, có khi là dạng bột, kèm tiền chất NAC, công nghệ liposome, và phối hợp với vitamin C, vitamin E, selen, kẽm, cùng nhiều vitamin và khoáng chất khác, được nói là tạo nên "sức mạnh tổng hợp". Bác sĩ cho rằng người xem cần có kiến thức để tự làm chủ sức khỏe của mình.
+
+**Q: Có bao nhiêu công trình nghiên cứu về glutathione?**
+Theo bác sĩ, khi tìm kiếm các công trình nghiên cứu về glutathione sẽ thấy "không dưới 100.000" công trình (bản phiên âm ghi là "100.000 công trình"). Bác sĩ nói con số này cho thấy chất này rất được quan tâm, và nó đang thu hút người tiêu dùng, nhất là phụ nữ, với nhu cầu làm đẹp như trắng da, trẻ da, khỏe mạnh.
+
+## [05:06:37] Các đường đưa glutathione vào cơ thể: uống, ngậm dưới lưỡi, tiêm, liposome — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18397s
+
+**Q: Uống glutathione dạng viên hoặc bột có hấp thu tốt không?**
+Glutathione khi uống theo đường miệng có hai dạng là viên nén hoặc viên nang và dạng bột. Bác sĩ cho rằng glutathione rất mong manh: khi đi qua dạ dày, axit và enzyme dạ dày phân hủy gần hết; phần nhỏ còn lại xuống ruột non tiếp tục bị enzyme ruột non phân hủy gần hết. Vì vậy uống các sản phẩm này "gần như không có tác dụng mấy". Phần còn lại đi vào máu sau khi qua gan và quá trình chuyển hóa. Tác dụng thực tế, theo bác sĩ, chủ yếu đến từ các thành phần đi kèm (kẽm, vitamin C, vitamin E, selen...) giúp glutathione trong cơ thể hoạt động, chứ glutathione uống vào không tự ngấm nhiều.
+
+**Q: Glutathione dạng liposome có ngấm tốt hơn không? Có nên mua sản phẩm liposome?**
+Liposome là công nghệ dẫn thuốc, dùng màng lipid bọc quanh hoạt chất, giống màng tế bào, để giúp chất đi tới đích tốt hơn. Bác sĩ nêu hai điều cần lưu ý: thứ nhất, chất lượng phụ thuộc nhà sản xuất, vì có nhiều loại túi liposome (túi to, túi nhỏ, túi đơn, túi kép) và không phải nhà sản xuất nào cũng làm tốt; thứ hai, liposome vẫn có thể bị axit dạ dày, enzyme dạ dày và ruột non phân hủy, và chưa chắc qua được chỗ này, mà có qua cũng không nhiều. Vì vậy, theo bác sĩ, không phải sản phẩm liposome nào uống cũng tốt. Bác sĩ hẹn sẽ phân tích sâu hơn về công nghệ này trong một buổi khác nếu người xem muốn.
+
+**Q: Ngậm glutathione dưới lưỡi có ngấm được nhiều không?**
+Ngậm dưới lưỡi là đường thứ ba, vì niêm mạc lưỡi có mạch máu và thuốc không phải đi qua dạ dày và ruột. Bác sĩ nói một số thuốc (như thuốc hạ sốt cho trẻ em) vẫn dùng cách này, nhưng với các sản phẩm glutathione thì lượng ngấm vào không nhiều. Theo bác sĩ, ngậm dưới lưỡi là một giải pháp nhưng không phải là nhiều.
+
+**Q: Tiêm glutathione có an toàn không?**
+Bác sĩ cho rằng đường tiêm "quá nguy hiểm", có thể gây sốc và ngộ độc. Bác sĩ nêu FDA của Mỹ không đồng ý và khuyến cáo không dùng đường này vì nguy cơ sốc và ngộ độc. Bác sĩ khuyên người xem không nên dại dột dùng đường tiêm.
+
+## [05:13:08] Cơ thể tự tổng hợp glutathione: hai enzyme và các vi chất cần thiết — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18788s
+
+**Q: Làm thế nào để cơ thể tự tăng glutathione? Enzyme nào tham gia tổng hợp và cần vi chất gì?**
+Theo bác sĩ, cách khôn ngoan nhất là để cơ thể tự tổng hợp glutathione. Quá trình này có hai enzyme chính, được ví như hai "anh thợ" (bản phiên âm ghi là GCL và GS). Enzyme thứ nhất, GCL, làm công đoạn khó nhất, tạo liên kết giữa glutamate và cystein (gamma), và công đoạn này cần năng lượng ATP. Enzyme thứ hai, GS, tạo liên kết giữa cystein và glycin, công đoạn này dễ hơn. Bác sĩ nói cơ thể có cơ chế điều hòa hai enzyme này để giảm sản xuất thừa, nên khi ăn uống cân bằng và bổ sung đủ vi chất thì không cần lo thiếu glutathione. Để hai enzyme này hoạt động tốt, bác sĩ nhấn mạnh cần đủ selen, kẽm, vitamin C và vitamin E; thiếu những chất này thì hai "anh thợ" không làm việc được.
+
+## [05:15:59] Thực phẩm chứa cơ chất tổng hợp glutathione và số loại thực phẩm mỗi ngày — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18959s
+
+**Q: Ăn gì để bổ sung cystein cho cơ thể? Thực phẩm nào có chất này, và nên ăn bao nhiêu loại mỗi ngày?**
+Bác sĩ nói cơ chất (được ghi trong bản phiên âm là "Fittain", và được nói là khá hiếm trong thực phẩm) có trong: da cầm (thịt gà, thịt ngan, thịt vịt), trứng, sữa, rau cải xanh, các loại bì (như da gà, da lợn), và nước xương hầm. Vì vậy cần ăn đa dạng, phong phú thực phẩm. Theo bác sĩ, nên ăn 25 loại thực phẩm trong một tuần, và 12 loại trong một ngày. Lưu ý: đây là cách nói trong bản phiên âm, nên người xem nên đối chiếu lại nếu cần. Bác sĩ nói ăn đủ như vậy kết hợp với bổ sung đủ vi chất sẽ giúp cơ thể tổng hợp glutathione tốt hơn.
+
+## [05:17:28] Giảm gốc tự do, lối sống và cách ăn uống để bảo vệ glutathione — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=19048s
+
+**Q: Làm gì để glutathione không bị cạn kiệt? Lối sống nào giúp giảm gốc tự do, và nên ưu tiên ăn uống hay uống viên glutathione?**
+Điều quan trọng thứ ba là giảm gốc tự do để glutathione không bị tiêu hao. Bác sĩ khuyên: chỉ uống thuốc khi thật sự cần, không uống cả nắm thuốc mỗi ngày (bác sĩ nhắc rằng vi chất không phải thuốc, còn thuốc là để chữa bệnh); giảm rượu bia và thuốc lá; tránh môi trường độc hại như thuốc trừ sâu, thuốc bảo vệ thực vật; giữ gìn để không nhiễm vi khuẩn, virus, vì những việc này làm tiêu tốn glutathione. Bác sĩ cũng nhắc nên giữ cân bằng, không ăn quá nhiều đường. Cách tốt nhất, theo bác sĩ, là giảm các nguồn tạo gốc tự do và ăn uống cân bằng kết hợp bổ sung vi chất. Nếu có điều kiện thì có thể bổ sung thêm bằng đường uống, dù ngấm không nhiều vì sản phẩm bị cắt nhỏ, nhưng vẫn có thể cung cấp nguyên liệu. Bác sĩ cho rằng chế độ ăn uống thường đã đủ các thành phần cơ bản, nên nếu không có tiền thì vẫn có thể yên tâm bằng cách tăng tổng hợp nội sinh, bổ sung vi chất đầy đủ, và ngăn gốc tự do.
+
+## [05:19:25] Quan điểm của bác sĩ về sản phẩm glutathione đắt tiền — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=19165s
+
+**Q: Glutathione đắt tiền có đáng mua không? Quảng cáo trắng da thần kỳ có đúng không?**
+Bác sĩ nói glutathione đang bán rất đắt và là sản phẩm "hot" trên thị trường. Theo quan điểm cá nhân của bác sĩ, người ta hoàn toàn có thể hiểu cơ chế và kích hoạt cơ thể có đủ glutathione, không nhất thiết phải dùng sản phẩm bổ sung đắt tiền. Nếu có tiền thì có thể mua thử và có hiệu quả, nhưng bác sĩ cho rằng nói hiệu quả "thần kỳ", trắng da "ngoạn mục" là không phù hợp. Da trắng lên thường đến từ việc bổ sung vi chất tốt và bảo vệ cơ thể, không phải từ một sản phẩm cụ thể.
+
+## [05:22:22] Lưu ý về tính chất tham khảo của nội dung — https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=19342s
+
+**Q: Nội dung video này có thay thế được chẩn đoán hay điều trị của bác sĩ không?**
+Người dẫn chương trình nhắc rằng các video trên kênh chỉ mang tính tham khảo, nhằm nâng cao nhận thức và kiến thức chăm sóc sức khỏe cho cộng đồng, và hoàn toàn không thay thế việc chẩn đoán và điều trị y khoa trực tiếp. Mỗi cơ thể là một trạng thái riêng với diễn biến bệnh lý phức tạp, nên khi có vấn đề sức khỏe, người xem cần đến cơ sở y tế chuyên môn để được bác sĩ chẩn đoán và điều trị kịp thời.
+
+## Glossary
+
+| Vietnamese | English | French |
+|---|---|---|
+| gốc tự do | free radical | radical libre |
+| chất chống oxy hóa | antioxidant | antioxydant |
+| glutathion (glutathione) | glutathione | glutathion |
+| ti thể | mitochondria | mitochondrie |
+| superoxit | superoxide | superoxyde |
+| oxy già (H₂O₂) | hydrogen peroxide | peroxyde d'hydrogène |
+| gốc hydroxyl | hydroxyl radical | radical hydroxyle |
+| ozon | ozone | ozone |
+| lipit peroxit | lipid peroxidation | peroxydation lipidique |
+| enzyme SOD | superoxide dismutase (SOD) | superoxyde dismutase (SOD) |
+| catalase | catalase | catalase |
+| GST | glutathione S-transferase (GST) | glutathion S-transférase (GST) |
+| ADN | DNA | ADN |
+| đột biến gen | gene mutation | mutation génétique |
+| vi chất | micronutrient | micronutriment |
+| kẽm | zinc | zinc |
+| selen | selenium | sélénium |
+| vitamin C | vitamin C | vitamine C |
+| vitamin E | vitamin E | vitamine E |
+| vitamin D | vitamin D | vitamine D |
+| licopen | lycopene | lycopène |
+| omega 3 | omega-3 | oméga-3 |
+| liposome | liposome | liposome |
+| N-acetylcystein (NAC) | N-acetylcysteine (NAC) | N-acétylcystéine (NAC) |
+| bóng đè | sleep paralysis | paralysie du sommeil |
+| ngủ REM | REM sleep | sommeil paradoxal |
+| acetylcholine | acetylcholine | acétylcholine |
+| serotonin | serotonin | sérotonine |
+| hemoglobin | hemoglobin | hémoglobine |
+| feritin | ferritin | ferritine |
+| TSAT | transferrin saturation (TSAT) | saturation de la transferrine (TSAT) |
+| thiếu máu nhược sắc | microcytic anemia | anémie microcytaire |
+| axit uric | uric acid | acide urique |
+| bệnh gút | gout | goutte |
+| men gan AST | AST (aspartate aminotransferase) | ASAT (aspartate aminotransférase) |
+| COPD (bệnh phổi tắc nghẽn mạn tính) | COPD | BPCO |
+| giãn phế nang | emphysema | emphysème |
+| bụi mịn PM2.5 | fine particulate matter (PM2.5) | particules fines (PM2.5) |
+| tia UV | UV radiation | rayonnement ultraviolet (UV) |
+| cytokine | cytokine | cytokine |
+| dây thần kinh số 5 | trigeminal nerve | nerf trijumeau |
+| nang dưới nhện | arachnoid cyst | kyste arachnoïdien |
+| vitamin B12 | vitamin B12 | vitamine B12 |
+| ATP | ATP | ATP |
+| nhịn ăn gián đoạn | intermittent fasting | jeûne intermittent |
