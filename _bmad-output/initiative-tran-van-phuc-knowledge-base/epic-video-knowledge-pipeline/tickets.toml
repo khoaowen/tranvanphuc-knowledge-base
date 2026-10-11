@@ -55,7 +55,7 @@ references = ["../spec-tran-van-phuc-kb/.memlog.md (2026-10-11 decisions: summar
 id = 9
 type = "story"
 title = "Local review-batch via claude -p"
-description = "Owns the shared queue/state helper (derives pending/transcribed/summarized from files; entry 10 reuses it). ./review-batch loops over transcribed videos that have no summary, newest first, and calls `claude -p` (Sonnet or Haiku, short fixed prompt built from entry 8's schema) for each; it writes to a temp file then renames, commits as it goes, retries short 429s with backoff, and on a real usage limit stops cleanly and prints the reset time. Re-running resumes; the backlog uses the same queue with no special mode. Local only: the subscription login is never used in CI. The claude command is injectable for stubbing, and the prompt loads topics/vocabulary.md when it exists."
+description = "Owns the shared queue/state helper (derives pending/transcribed/summarized from files; entry 10 reuses it). ./review-batch loops over pending or transcribed videos that have no summary, newest first (fetching a missing transcript via fetch_transcript.py first), and calls `claude -p` (Sonnet or Haiku, short fixed prompt built from entry 8's schema) for each; it writes to a temp file then renames, commits as it goes, retries short 429s with backoff, and on a real usage limit stops cleanly and prints the reset time. Re-running resumes; the backlog uses the same queue with no special mode. Local only: the subscription login is never used in CI. The claude command is injectable for stubbing, and the prompt loads topics/vocabulary.md when it exists."
 verify = "On two transcribed videos (the builder fetches a second id with fetch_transcript.py; only q7uDJG8YQ5c is on disk): a run produces summaries and commits; an interrupted run re-run resumes without redoing finished videos; a simulated short 429 retries and a simulated usage limit stops cleanly with the reset time printed."
 covers = ["CAP-3"]
 after = [8]
@@ -78,13 +78,12 @@ risk = "medium"
 id = 11
 type = "story"
 title = "Weekly workflow: detect, fetch, summarize, validate, commit"
-description = "Extends the existing weekly-sync.yml (single workflow file): detect new videos, fetch transcripts and metadata (which also queues the backlog as transcribed), summarize the newly detected video with Gemini (entry 8), validate (entry 10), and commit only valid results; it validates every summary on the branch, including ones pushed locally by entry 9, and rebases before pushing to avoid clashing with local pushes; backlog videos stay transcribed for review-batch."
+description = "Extends the existing weekly-sync.yml (single workflow file): detect new videos, fetch transcripts and metadata (which also queues the backlog as transcribed), summarize the newly detected video with Gemini (entry 8), validate (entry 10), and commit only valid results; it validates every summary on the branch, including ones pushed locally by entry 9, and rebases before pushing to avoid clashing with local pushes; selection rule: CI fetches and Gemini-summarizes only the single newest video not yet in videos/; it does not fetch the backlog. Backlog ids are queued as pending and fetched locally by entry 9, which fetches a missing transcript before summarizing; they stay out of CI."
 verify = "A workflow_dispatch run on the real channel detects, fetches and commits transcripts, Gemini-summarizes only the new video, commits it only if valid, and leaves invalid or backlog videos queued; no secret appears in logs and no subscription login is used."
 covers = ["CAP-1", "CAP-2", "CAP-3"]
 after = [1, 2, 8, 10]
 hitl = true
 risk = "medium"
-unknown = "Which video does Gemini summarize? detect_new_videos.py treats every upload not in videos/ as new (~139 on first run). Pick a rule (newest only, or published within N days) and decide whether CI fetches the whole backlog or only queues it. Also confirm contents: write permission."
 
 [[entry]]
 id = 4

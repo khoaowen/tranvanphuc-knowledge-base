@@ -63,6 +63,8 @@ The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo co
 - Source conflict: spec CAP-3 — lists key points, topics, claims, timestamps vs. memlog 2026-10-11 decision that the summary is the GPT retrieval layer (self-contained header, ?t= links, question-shaped lines, VI/EN/FR glossary, hedges kept). The contract lives only in `.memlog.md`; offer to pass it to `bmad-spec`.
 - Decision (2026-10-11): tag check is option A. Tags are free-form until `topics/vocabulary.md` exists; 8 and 9 load it into the prompt when present; 10 takes the vocabulary path as a parameter and enforces only when the file exists; 4 seeds and gets it approved, then re-validates all summaries and re-queues failures.
 - Decision (2026-10-11): entry 9 owns the queue/state helper; 10 reuses it, so 10 is after 8 and 9.
-- Open: entry 11 selection rule (see its unknown); whether entry 4 should also wait on 9.
+- Decision (2026-10-11): CI fetches and Gemini-summarizes only the single newest video not yet in videos/; backlog is queued as pending and fetched locally by entry 9 (no CI backlog fetch, no extra Gemini quota).
+- Decision (2026-10-11): entry 4 does not wait on 9; option A seeds the vocabulary from the validated summaries available.
+- Decision (2026-10-11): entry 8 does not prove the Free tier in CI; builder re-confirms in AI Studio once. CAP-3 summary contract to go through bmad-spec.
 - Unknown: whether detect/fetch (stories 1-2, done) already queue the whole channel backlog; entry 11 owns any change needed and does not reopen 1 or 2.
 
