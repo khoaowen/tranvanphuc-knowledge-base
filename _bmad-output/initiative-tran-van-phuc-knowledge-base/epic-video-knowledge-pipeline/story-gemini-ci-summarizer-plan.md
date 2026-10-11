@@ -3,14 +3,14 @@ title: 'Gemini CI summarizer (summarize.py)'
 type: 'feature'
 ticket: '8'
 created: '2026-10-11'
-status: 'ready-for-dev'
+status: 'built'
 baseline_revision: '36d00d88fdeaae115cd588cf76f442fadf29579a'
 route: 'full'
 route_source: 'auto'
 risk: 'high'
-review: ''
-review_source: ''
-lenses_ran: []
+review: 'quick'
+review_source: 'pinned'
+lenses_ran: ['quick']
 review_loop_iteration: 0
 context:
   - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/summary-contract.md'

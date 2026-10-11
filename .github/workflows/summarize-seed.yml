@@ -1,0 +1,40 @@
+name: Summarize seed video
+
+# Manual-only live run of scripts/summarize.py on the seed video, to measure
+# Gemini free-tier limits (see docs/summarizer-limits.md). Entry 11 later
+# absorbs this into weekly-sync.yml.
+
+on:
+  workflow_dispatch: {}
+
+env:
+  SEED_DIR: videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Summarize seed video
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        shell: bash
+        run: python scripts/summarize.py "$SEED_DIR" 2>&1 | tee measurement.log
+
+      - name: Upload summary and measurement log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seed-summary
+          path: |
+            ${{ env.SEED_DIR }}/summary.md
+            measurement.log
+          if-no-files-found: warn
