@@ -67,4 +67,5 @@ The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo co
 - Decision (2026-10-11): entry 4 does not wait on 9; option A seeds the vocabulary from the validated summaries available.
 - Decision (2026-10-11): entry 8 does not prove the Free tier in CI; builder re-confirms in AI Studio once. CAP-3 summary contract to go through bmad-spec.
 - Unknown: whether detect/fetch (stories 1-2, done) already queue the whole channel backlog; entry 11 owns any change needed and does not reopen 1 or 2.
-
+- Decision (2026-10-11): added entry 12, a Claude fidelity review that blocks publishing. It restores the auditor from the dropped entry 3, which the $0 amendment removed with the paid parts and no ticket re-homed (user's request, this session). Build order: 1, 2, 8, 9, 12, 10, 11, 4, 5, 6, 7.
+- Open question: the review runs only locally, so the weekly CI Gemini video cannot be published until someone runs ./review-summaries and pushes review.md. Entry 11 must keep it committed but unpublished until then.

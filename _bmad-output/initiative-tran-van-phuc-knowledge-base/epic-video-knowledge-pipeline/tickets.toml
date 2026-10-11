@@ -64,13 +64,25 @@ risk = "medium"
 unknown = "How to tell a short 429 from a real usage limit in `claude -p` output, and where the reset time comes from; settle by observing real output."
 
 [[entry]]
+id = 12
+type = "story"
+title = "Claude fidelity review of summaries (publish gate)"
+description = "./review-summaries runs `claude -p` (Sonnet by default) on each summarized video, giving it the transcript and summary.md, and checks the summary against the transcript only: claims with no support, hedges turned into absolutes, medical content the doctor did not say, wrong timestamps (fidelity rules in summary-contract.md). It writes videos/<slug>/review.md with a verdict (pass, flag, fail) and the quoted lines, and never edits summary.md. A video is publishable only with a pass verdict: entry 10's gate reads review.md, so a missing, flagged or failed review keeps the video unpublished. Reuses entry 9's queue/state helper, resume, commit-as-it-goes, backoff and usage-limit behavior, and an injectable claude command. Covers Gemini-written and claude-written summaries alike, including the seed q7uDJG8YQ5c. Local only: the subscription login is never used in CI. Long transcripts are reviewed in chunks."
+verify = "On q7uDJG8YQ5c and the claude-written V-Qfwjo28Zg: a run writes review.md for each and commits. A fixture summary with an invented claim and a hardened hedge gets a flag or fail verdict. A re-run skips reviewed videos; a stubbed usage limit stops cleanly with the reset time."
+covers = ["CAP-3"]
+after = [8, 9]
+hitl = true
+risk = "medium"
+unknown = "Whether to review per transcript chunk or the whole summary against the whole transcript, and where a flag becomes a fail; settle by trying both on the two real videos."
+
+[[entry]]
 id = 10
 type = "story"
 title = "CI validator and publish gate"
-description = "validate_summaries.py runs deterministic checks only: schema, disclaimer, timestamps within the video duration from metadata.json, length versus the transcript, tags in the topic vocabulary. An invalid or missing summary is not published and stays queued. Video state is derived from files only (pending -> transcribed -> summarized -> published), reusing entry 9's queue/state helper and entry 8's schema. The vocabulary path is a parameter so the unknown-tag fixture works without the real file."
+description = "validate_summaries.py runs deterministic checks only: schema, disclaimer, timestamps within the video duration from metadata.json, length versus the transcript, tags in the topic vocabulary. An invalid or missing summary is not published and stays queued. Video state is derived from files only (pending -> transcribed -> summarized -> published; published also requires a pass verdict in review.md from entry 12), reusing entry 9's queue/state helper and entry 8's schema. The vocabulary path is a parameter so the unknown-tag fixture works without the real file."
 verify = "Fixtures for each failure (bad schema, no disclaimer, timestamp past duration, too long/short, unknown tag) are rejected and stay queued; the valid q7uDJG8YQ5c summary passes and its state reads published."
 covers = ["CAP-3"]
-after = [8, 9]
+after = [8, 9, 12]
 hitl = false
 risk = "medium"
 
