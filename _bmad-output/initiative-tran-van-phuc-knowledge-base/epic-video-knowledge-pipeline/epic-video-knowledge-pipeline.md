@@ -56,3 +56,11 @@ The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo co
 - Open question: YouTube transcript/metadata source for CAP-1/CAP-2 — YouTube Data API (needs an API key secret) vs. `yt-dlp`/`youtube-transcript`-style scraping (no key, more fragile). The opening story (detection) decides and records it.
 - Decision (2026-10-11): CAP-3 runs at $0. CI uses Gemini free tier (secret `GEMINI_API_KEY`, confirmed free tier); local `./review-batch` uses `claude -p`. No paid API, no subscription login in CI. Free-tier limits on 3-4h transcripts are untested; chunking required.
 - Unknown: the controlled topic-tag vocabulary starts empty; the summarize.py story seeds an initial list from the first processed videos rather than inventing one upfront.
+- Dropped: entry 3 "Generate structured summary" (2026-10-11) — superseded by the $0 hybrid amendment (paid auditor, WIF, dollar caps removed). Its plan status was `superseded`, not a valid status, so it is set to `dropped`; the file is otherwise untouched and is not to be implemented from.
+- Decision (2026-10-11): re-sliced after stories 1-2 (done). Ids are never reused, so the new stories take 8-11 (Gemini CI summarizer, local review-batch, validator and publish gate, weekly workflow); 4-7 keep their ids and are re-scoped. Build order is the table order: 1, 2, 8, 9, 10, 11, 4, 5, 6, 7.
+- Decision (2026-10-11): CI Gemini summarizes only the newly detected video; backlog stays `transcribed` for local `./review-batch`. One queue, newest first, no special backlog mode.
+- Assumption: local summarization needs no new CAP; CAP-3 and the spec Constraints already cover `claude -p`, resumability and the validation gate.
+- Source conflict: spec CAP-3 — lists key points, topics, claims, timestamps vs. memlog 2026-10-11 decision that the summary is the GPT retrieval layer (self-contained header, ?t= links, question-shaped lines, VI/EN/FR glossary, hedges kept). The contract lives only in `.memlog.md`; offer to pass it to `bmad-spec`.
+- Unknown: tag-check behavior before `topics/vocabulary.md` exists (entry 10 vs entry 4); proposal recorded on entry 10.
+- Unknown: whether detect/fetch (stories 1-2, done) already queue the whole channel backlog; entry 11 owns any change needed and does not reopen 1 or 2.
+

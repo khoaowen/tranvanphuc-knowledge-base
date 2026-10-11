@@ -24,14 +24,64 @@ after = [1]
 hitl = false
 risk = "low"
 
+# Re-sliced 2026-10-11 against the $0 hybrid amendment. Entry 3 is dropped (superseded plan); its id is never reused.
+# Table order is build order; ids 8-11 are new, 4-7 keep their ids and are re-scoped.
+
 [[entry]]
 id = 3
 type = "story"
 title = "Generate structured summary"
-description = "summarize.py reads entry 2's transcript.md, calls an LLM to produce summary.md (key points, topic tags from a controlled vocabulary seeded from the first processed videos, timestamps) with the disclaimer banner per disclaimer.md. Decides and records the LLM provider/API key secret."
-verify = "Run against q7uDJG8YQ5c's transcript.md; summary.md exists, is materially shorter than the transcript, tagged, timestamped, and carries the disclaimer."
+description = "DROPPED 2026-10-11: superseded by the $0 hybrid amendment. Replaced by entries 8 (Gemini CI), 9 (local review-batch) and 10 (validator)."
+verify = "n/a (dropped)"
 covers = ["CAP-3"]
 after = [2]
+hitl = true
+risk = "medium"
+
+[[entry]]
+id = 8
+type = "story"
+title = "Gemini CI summarizer"
+description = "summarize.py chunks a 3-4h Vietnamese transcript (seed q7uDJG8YQ5c, ~51k words), map-reduces with Gemini (secret GEMINI_API_KEY, var GEMINI_MODEL, Free tier), and atomically writes (temp file, then rename) a retrieval-layer summary.md: self-contained header (title, id, date, URL, tags), topic sections with timestamps and ?t= links, question-shaped lines, specific claims, a VI/EN/FR glossary, the disclaimer banner per disclaimer.md, and fidelity to the transcript with hedges kept. It measures free-tier rate and daily limits against the seed and backs off on 429; it defines the summary schema and prompt that entries 9 and 10 reuse."
+verify = "Run against q7uDJG8YQ5c: summary.md is written atomically, materially shorter than the transcript, and has every required element; the measured limits and 429 backoff behavior are recorded; the user approves a sample summary from the omega-3 video (2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua)."
+covers = ["CAP-3"]
+after = [2]
+hitl = true
+risk = "high"
+unknown = "Free-tier Gemini rate and daily limits against a ~51k-word Vietnamese transcript are unmeasured; the story measures them and sets chunk size and pacing from the result."
+references = ["../spec-tran-van-phuc-kb/.memlog.md (2026-10-11 decisions: summary as retrieval layer)", "../spec-tran-van-phuc-kb/pipeline-architecture.md#amendment-2026-10-11-0-hybrid-supersedes-step-d-as-ci-only"]
+
+[[entry]]
+id = 9
+type = "story"
+title = "Local review-batch via claude -p"
+description = "./review-batch loops over transcribed videos that have no summary, newest first, and calls `claude -p` (Sonnet or Haiku, short fixed prompt built from entry 8's schema) for each; it writes to a temp file then renames, commits as it goes, retries short 429s with backoff, and on a real usage limit stops cleanly and prints the reset time. Re-running resumes; the backlog uses the same queue with no special mode. Local only: the subscription login is never used in CI."
+verify = "On two or more transcribed videos: a run produces summaries and commits; an interrupted run re-run resumes without redoing finished videos; a simulated short 429 retries and a simulated usage limit stops cleanly with the reset time printed."
+covers = ["CAP-3"]
+after = [8]
+hitl = true
+risk = "medium"
+
+[[entry]]
+id = 10
+type = "story"
+title = "CI validator and publish gate"
+description = "validate_summaries.py runs deterministic checks only: schema, disclaimer, timestamps within the video duration from metadata.json, length versus the transcript, tags in the topic vocabulary. An invalid or missing summary is not published and stays queued. Video state is derived from files only: pending -> transcribed -> summarized -> published."
+verify = "Fixtures for each failure (bad schema, no disclaimer, timestamp past duration, too long/short, unknown tag) are rejected and stay queued; the valid q7uDJG8YQ5c summary passes and its state reads published."
+covers = ["CAP-3"]
+after = [8]
+hitl = false
+risk = "medium"
+unknown = "Tags are checked against topics/vocabulary.md, which entry 4 seeds from evidence with human approval. Before it exists, how does the tag check behave? Proposed: enforced only once the file exists; entry 4 then re-runs the validator over every summary."
+
+[[entry]]
+id = 11
+type = "story"
+title = "Weekly workflow: detect, fetch, summarize, validate, commit"
+description = "Extends the existing weekly-sync.yml (single workflow file): detect new videos, fetch transcripts and metadata (which also queues the backlog as transcribed), summarize the newly detected video with Gemini (entry 8), validate (entry 10), and commit only valid results; backlog videos stay transcribed for review-batch."
+verify = "A workflow_dispatch run on the real channel detects, fetches and commits transcripts, Gemini-summarizes only the new video, commits it only if valid, and leaves invalid or backlog videos queued; no secret appears in logs and no subscription login is used."
+covers = ["CAP-1", "CAP-2", "CAP-3"]
+after = [1, 2, 8, 10]
 hitl = true
 risk = "medium"
 
@@ -39,11 +89,11 @@ risk = "medium"
 id = 4
 type = "story"
 title = "Repo organization and consolidation"
-description = "Generates/updates README.md (index by date and topic, disclaimer banner) and topics/*.md from videos/ already on disk (CAP-4); consolidate.py rebuilds knowledge-gpt/*.md from all videos/ content, repacking/rebalancing to stay <=20 files and under OpenAI's per-file size ceiling as the corpus grows (CAP-5)."
-verify = "With q7uDJG8YQ5c (and any other seeded videos) on disk, the README/topics reach it in two clicks or fewer, and knowledge-gpt/ stays within both caps."
+description = "Consuming validated summaries only: generates README.md (index by date and topic, disclaimer banner) and topics/*.md (CAP-4), seeds the initial topics/vocabulary.md from evidence in the summaries with human approval, and consolidate.py rebuilds knowledge-gpt/*.md within 20 files and OpenAI's per-file ceiling (CAP-5); wires consolidate.py into weekly-sync.yml after the validation gate."
+verify = "With q7uDJG8YQ5c and the omega-3 video validated, README/topics reach each in two clicks or fewer, an unvalidated summary is excluded, knowledge-gpt/ stays within both caps, and the user approves the initial vocabulary."
 covers = ["CAP-4", "CAP-5"]
-after = [3]
-hitl = false
+after = [10, 11]
+hitl = true
 risk = "medium"
 
 [[entry]]
@@ -61,10 +111,10 @@ risk = "low"
 id = 6
 type = "story"
 title = "Refactor sweep"
-description = "Cleanup only, scope fixed at start from stories 1-5's plans and any review findings deferred during the epic; no new scope."
-verify = "No new or changed behavior versus stories 1-5's own verify checks; lint/tests (if any) still pass."
+description = "Cleanup only, scope fixed at start from stories 1, 2, 4, 5, 8-11's plans and any review findings deferred during the epic; no new scope."
+verify = "No new or changed behavior versus those stories' own verify checks; lint/tests (if any) still pass."
 covers = []
-after = [1, 2, 3, 4, 5]
+after = [1, 2, 4, 5, 8, 9, 10, 11]
 hitl = false
 risk = "low"
 
@@ -72,8 +122,8 @@ risk = "low"
 id = 7
 type = "story"
 title = "End-to-end test suite"
-description = "Runs the whole pipeline (stories 1-5) against q7uDJG8YQ5c specifically and checks every item in the epic's Done when in one pass: detection recognizes it as new, videos/<slug>/ has correct transcript+metadata+summary, README/topics reach it in <=2 clicks, knowledge-gpt/ stays within caps; documents (does not auto-run) the GPT Builder check from story 5."
-verify = "A single run/check against q7uDJG8YQ5c passes all five Done-when items without manual patching."
+description = "Runs the pipeline end to end against q7uDJG8YQ5c with a stubbed Gemini and a stubbed `claude -p`, checking every Done-when item in one pass: detection, transcript+metadata+valid summary, invalid summary stays queued, README/topics in <=2 clicks, knowledge-gpt/ within caps, state derived from files; documents (does not auto-run) the GPT Builder check from entry 5."
+verify = "A single run against q7uDJG8YQ5c passes all Done-when items without manual patching, with no network LLM calls and no secrets."
 covers = []
 after = [6]
 hitl = false
