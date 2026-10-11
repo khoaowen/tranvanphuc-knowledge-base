@@ -131,6 +131,10 @@ class RateLimitError(Exception):
         self.retry_after = retry_after
 
 
+class TransientError(Exception):
+    """Retryable server/network failure (HTTP 5xx, timeout, connection error)."""
+
+
 class DailyQuotaExhausted(Exception):
     """Daily free-tier quota is used up; retrying today is pointless."""
 
@@ -323,9 +327,22 @@ def call_with_retry(
     """
     sleep = sleep or time.sleep
     hits = 0
+    transient = 0
     while True:
         try:
             return client(prompt), hits
+        except TransientError as exc:
+            transient += 1
+            if transient > max_retries:
+                raise SummarizeError(
+                    f"transient failure persisted after {max_retries} retries: "
+                    f"{str(exc)[:200]}"
+                ) from exc
+            wait = BACKOFF_BASE_SECONDS * (2 ** (transient - 1)) + jitter(
+                0, BACKOFF_MAX_JITTER_SECONDS
+            )
+            log(f"transient error #{transient}: waiting {wait:.1f}s before retry")
+            sleep(wait)
         except RateLimitError as exc:
             hits += 1
             if hits > max_retries:
@@ -471,10 +488,15 @@ class GeminiClient:
                 raise RateLimitError(
                     parse_retry_after(exc.headers.get("Retry-After"), body)
                 ) from None
-            raise SummarizeError(
-                scrub(f"Gemini HTTP {exc.code}: {body[:500]}", self._api_key)
+            message = scrub(f"Gemini HTTP {exc.code}: {body[:500]}", self._api_key)
+            if exc.code >= 500:
+                raise TransientError(message) from None
+            raise SummarizeError(message) from None
+        except (urllib.error.URLError, TimeoutError) as exc:
+            raise TransientError(
+                scrub(f"Gemini request failed: {exc}", self._api_key)
             ) from None
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        except json.JSONDecodeError as exc:
             raise SummarizeError(
                 scrub(f"Gemini request failed: {exc}", self._api_key)
             ) from None

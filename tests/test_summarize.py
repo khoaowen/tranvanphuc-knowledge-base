@@ -186,6 +186,17 @@ class RateLimitTest(unittest.TestCase):
             self.assertTrue((video_dir / "summary.md").is_file())
         self.assertEqual(waits, [10.0, 20.0])
 
+    def test_503_transient_retries_then_succeeds(self):
+        waits = []
+        client = StubClient(failures=[summarize.TransientError("503"), summarize.TransientError("503")])
+        text, hits = summarize.call_with_retry(client, "p", sleep=waits.append, jitter=lambda a, b: 0)
+        self.assertEqual(waits, [10.0, 20.0])
+
+    def test_persistent_503_exits_with_error(self):
+        client = StubClient(failures=[summarize.TransientError("503")] * 10)
+        with self.assertRaises(summarize.SummarizeError):
+            summarize.call_with_retry(client, "p", sleep=lambda s: None, jitter=lambda a, b: 0)
+
     def test_retry_after_is_honored_when_longer_than_backoff(self):
         waits = []
         client = StubClient(failures=[summarize.RateLimitError(retry_after=45)])
