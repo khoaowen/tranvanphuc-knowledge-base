@@ -3,7 +3,7 @@ title: 'Fetch transcript and metadata'
 type: 'feature'
 ticket: '2'
 created: '2026-03-21'
-status: 'built'
+status: done
 baseline_revision: '5c83890a51204d5eaa04e3202ac18f16e91a9eeb'
 route: 'full'
 route_source: 'auto'

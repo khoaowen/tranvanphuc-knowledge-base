@@ -21,7 +21,7 @@ Dr. Tran Van Phuc (channel "Bác sĩ Trần Văn Phúc Official", 431K subscribe
   - **intent:** For each queued video, the system fetches the Vietnamese transcript and core metadata (title, publish date, video ID, URL, duration).
   - **success:** A transcript file and a metadata record exist in the repo for every processed video, sourced directly from YouTube captions.
 - **CAP-3**
-  - **intent:** For each video, the system generates a structured summary (key points, medical topics covered, notable claims, timestamps) from the raw transcript via an LLM.
+  - **intent:** For each video, the system generates a structured summary (key points, medical topics covered, notable claims, timestamps) from the raw transcript via an LLM at no cost: Gemini free tier in CI for the weekly video, local `claude -p` (Pro subscription) for backlog and re-summaries.
   - **success:** A summary file with topic tags exists alongside every transcript; given 3-4h source videos, the summary is materially shorter and topic-navigable compared to the raw transcript. Both the raw transcript and the structured summary are kept per video — confirmed by the user.
 - **CAP-4**
   - **intent:** Transcripts, summaries, and metadata are organized into a public, versioned GitHub repository structured and browsable like `mlabonne/llm-course` (indexed README, per-video entries, topic index).
@@ -44,11 +44,16 @@ Dr. Tran Van Phuc (channel "Bác sĩ Trần Văn Phúc Official", 431K subscribe
 - Source transcripts stay in Vietnamese; no dedicated translation step is built — the GPT translates on demand at query time. Repo documentation (README, code, commit messages, this spec's own companions) is in English; the disclaimer's canonical text is English, localized at the GPT-response level only.
 - The repo is public and must be named/branded to disambiguate from other people named Tran Van Phuc, referencing the channel "Bác sĩ Trần Văn Phúc Official" (channel ID `UC79E6KatRfXbmdWVWGncsew`, handle `@BacsiTranVanPhucOfficial`).
 - Every health-content surface (repo README, per-video files, GPT instructions) must carry a disclaimer stating the content does not replace a medical consultation (see `disclaimer.md`).
+- Total cost is $0 beyond the existing Claude Pro subscription: no paid LLM API, no API credits, no paid Gemini tier. The Gemini key must stay on the Free tier (project has no billing). Subscription login is local-only, never in CI; secrets are never printed or pasted.
+- A video's state is derived from files on disk (pending → transcribed → summarized → published); no separate state store.
+- Local summarization is resumable and safe to interrupt: atomic writes, skip finished videos, stop cleanly on a real usage limit.
+- A summary is published only after CI validation (schema, disclaimer, timestamps, length); unsummarized videos stay queued.
 - Automation must run on free infrastructure (GitHub Actions scheduled workflow), timed around the doctor's weekly Saturday upload.
 
 ## Non-goals
 
 - No GPT Action or hosted search API for live, upload-free synchronization (Option B rejected) — a short manual upload step after each pipeline run is accepted.
+- No paid LLM services, no hosted worker, and no digest/email channel beyond the repo itself.
 - No fact-checking, correction, or medical validation of the doctor's claims — the repo mirrors his stated content as-is, clearly attributed.
 - No professional or certified translation of the Vietnamese content — reliance on the GPT's native translation at answer time.
 - No video or audio hosting/redistribution in the repo.
@@ -62,4 +67,7 @@ Within 24-48h of each Saturday upload, the new video's transcript and structured
 
 - GitHub Actions' free scheduled-workflow tier is acceptable and sufficient hosting for the weekly automation (CAP-1, CAP-2, CAP-3, CAP-5).
 - "LLM can translate easily" is read as: no dedicated translation pipeline is needed: Vietnamese stays the canonical source language and the GPT translates at query time (applies to CAP-6 and the Constraints).
+- Free-tier Gemini limits (rate, daily tokens) may not fit a 3-4h transcript in one request; the story must chunk and measure. Unverified.
+- Free-tier Gemini may use content to improve Google products; acceptable because the repo content is public.
+- After the backlog is caught up, volume is one video per week, so the CI Gemini path is expected to need no manual step beyond the GPT upload.
 - GitHub account `khoaowen` (gh CLI authenticated) owns the public repo `tranvanphuc-knowledge-base`.

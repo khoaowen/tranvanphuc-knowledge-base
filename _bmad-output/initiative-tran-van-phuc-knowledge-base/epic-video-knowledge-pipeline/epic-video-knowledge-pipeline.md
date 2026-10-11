@@ -24,7 +24,7 @@ Within 24-48h of each Saturday upload, the new video is processed end to end and
 
 - CAP-1: Detect new videos on the channel since the last run, on a weekly schedule after the usual Saturday upload. (spec, Capabilities)
 - CAP-2: Fetch the Vietnamese transcript and core metadata (title, publish date, video ID, URL, duration) for each queued video. (spec, Capabilities)
-- CAP-3: Generate a structured summary (key points, topic tags from a controlled vocabulary, timestamps) per video via an LLM; keep both transcript and summary. (spec, Capabilities)
+- CAP-3: Generate a structured summary (key points, topic tags from a controlled vocabulary, timestamps) per video via an LLM at $0 (Gemini free tier in CI for the weekly video, local `claude -p` for backlog); keep both transcript and summary. (spec, Capabilities)
 - CAP-4: Organize transcripts, summaries, and metadata into the public repo per `repo-structure.md` — README index by date/topic, `videos/<slug>/`, `topics/*.md`, reachable in two clicks or fewer. (spec, Capabilities)
 - CAP-5: Consolidate repo content into `knowledge-gpt/*.md`, regenerated every run, never exceeding 20 files or OpenAI's per-file Knowledge size ceiling, repacked/rebalanced as the corpus grows. (spec, Capabilities)
 - CAP-6: Document the one-time-per-run manual hand-off — uploading `knowledge-gpt/*.md` into the Custom GPT Builder, with instructions/system-prompt text that always shows the disclaimer and translates on demand. (spec, Capabilities)
@@ -54,5 +54,5 @@ The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo co
 - Decision: one epic for CAP-1 through CAP-6, no split by capability — single owner, one sequential lane, no boundary justifies more than one epic (user's request, this session).
 - Decision: CAP-7 gets no story; it is a side effect of CAP-4's plain-markdown structure (spec's Non-goals; user's request, this session).
 - Open question: YouTube transcript/metadata source for CAP-1/CAP-2 — YouTube Data API (needs an API key secret) vs. `yt-dlp`/`youtube-transcript`-style scraping (no key, more fragile). The opening story (detection) decides and records it.
-- Unknown: the LLM provider/credentials for CAP-3 summarization (which model, which API key secret) — the summarize.py story decides and records it.
+- Decision (2026-10-11): CAP-3 runs at $0. CI uses Gemini free tier (secret `GEMINI_API_KEY`, confirmed free tier); local `./review-batch` uses `claude -p`. No paid API, no subscription login in CI. Free-tier limits on 3-4h transcripts are untested; chunking required.
 - Unknown: the controlled topic-tag vocabulary starts empty; the summarize.py story seeds an initial list from the first processed videos rather than inventing one upfront.
