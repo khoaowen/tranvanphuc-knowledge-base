@@ -1,0 +1,28 @@
+Omissions noticed for batch_04 sections ([02:00:15], [02:08:28], [02:23:30], [02:37:13]). Some may be covered by claims in adjacent batches (c001-c075 / c101+).
+
+[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6
+- [02:01:36] Key fatty acids to remember: 4 Omega-6 (LA, GLA, CLA, AA) and 3 Omega-3 (ALA, EPA, DHA). DPA is called not very important. Anchor: "đây là bốn cái axit béo mà chúng ta cần phải nhớ ở trong omega6."
+- [02:02:11] DPA is classed as not very important. Anchor: "Thì đây là những cái mà cái thành phần ở trong Omega 3 nó không phải là quá quan trọng."
+- [02:05:58] LA notation C18:2n-6 and ALA C18:3n-3, both 18 carbons with COOH. They differ in pi-bond count and in where the first pi bond sits (carbon 6 vs carbon 3). Anchor: "giống nhau ở chỗ là đều có 18 nguyên tử cacbon đều có nhóm COOH"
+- [02:06:59] Analogy: chain-shortening is like breaking money into small change to spend. Anchor: "những các cái chuỗi ngắn, các axinzyma a chuỗi ngắn tức là biến thành những đồng tiền nhỏ lẻ."
+
+[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm
+- [02:10:43] Per-compound properties: LA pro-inflammatory, ALA anti-inflammatory, GLA anti-inflammatory, CLA anti-inflammatory and anti-cancer, AA pro-inflammatory, EPA/DHA anti-inflammatory. Anchor: "thì CL thì có tác dụng vừa chống viêm vừa chống ung thư."
+- [02:13:04] The specific competing pairs: LA vs ALA, and AA vs DHA. Anchor: "hình dung rằng cái AA có cấu tạo nó hao hao giống cái DHA. Vậy hai cái này có cùng enzyme để nó cạnh tranh với nhau."
+- [02:19:08] Vascular inflammation and ulceration (missing from the organ list in c086). Anchor: "vào trong mạch máu của chúng ta nó gây viêm loét của mạch máu ra."
+- [02:19:57] Key caveat: omega-6 fatty acids are important and cause inflammation only in excess, so they should not be cut entirely (alcohol analogy). Anchor: "Nó chỉ gây ra viêm khi nào? Khi mà nó quá nhiều."
+- [02:20:05] Anchor: "Đúng rồi. Không cắt bỏ. Không thể cắt bỏ hoàn toàn được."
+
+[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách
+- [02:24:54] Organ targeting: DHA for the brain (eyes as 'secretary' of the brain), EPA for the heart, LA etc. for local organs. Anchor: "Mắt chỉ là thư ký của não thôi. Còn não là quan trọng nhất."
+- [02:29:52] Disease list attributed to the 20:1 imbalance: joints, diabetes, blood lipids, fatty liver, atherosclerosis, Alzheimer's, Parkinson's, blurred vision, autoimmune (Basedow, Hashimoto, lupus, autoimmune nephritis), skin allergy. Anchor: "bị sơ vữa mạch máu nhiều, bị Anzimer nhiều, bị bakis nhiều, bị mắt mờ nhiều"
+- [02:30:47] You must still eat cooking oil; cutting it entirely deprives cells of needed components. Anchor: "Nếu chúng ta không ăn dầu ăn thì các tế bào của chúng ta sẽ không có những thành phần này rất nguy hiểm."
+- [02:31:53] Buying only one kind of oil is a mistake, because each oil is rich in different fatty acids (LA, AA, ALA). Anchor: "mọi người chỉ mua một loại dầu ăn thôi. Đấy là cái sai lầm."
+- [02:33:03] Buy oil at reputable stores, within expiry, and use within the stated period. Big cans are for restaurants. Anchor: "Mua dầu ăn phải mua ở những cái siêu thị cửa hàng uy tín, mua đúng hạn sử dụng."
+- [02:33:58] Don't supplement Omega-6/Omega-9. Manufacturers' marketing of extra components is unnecessary; focus only on EPA and DHA. Anchor: "Chúng ta không cố kiết lao đi bổ sung Omega 6, Omega 9 hay là các cái thành phần khác nữa."
+- [02:35:18] Patients arrive with very high markers and return later with excellent test results (anecdotal). Anchor: "sau một thời gian bổ sung tốt quay trở lại đưa ra cái xét nghiệm đẹp như mơ."
+
+[02:37:13] Những quan niệm sai lầm phổ biến khi chọn và sử dụng Omega-3 (batch ends at c100; remaining items may be in the next batch)
+- [02:37:58] Large capsules are inconvenient for children and the elderly. Anchor: "Omega 3 có kích thước viên to khi uống rất bất tiện, nhất là đối với đối tượng là trẻ em và người cao tuổi."
+- [02:38:09] Misconception 2, foreign Omega-3 is always better (old production technology, unrefined oil). Anchor: "vẫn có rất nhiều các nhà sản xuất dầu cá trên thế giới với công nghệ sản xuất cũ cho hiệu quả thấp"
+- [02:38:57] Misconception 3, one product for every age: children and pregnant women should prefer DHA-rich, middle-aged/elderly/cardiovascular patients EPA-rich. Anchor: "Với trẻ em và phụ nữ có thai thì cần ưu tiên chọn loại giàu DHA hơn."

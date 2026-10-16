@@ -1,0 +1,20 @@
+Blind pass-2, batch 02 (V-Qfwjo28Zg) — concerns and borderline calls
+
+Major concerns
+- c401 (mismatch): "1 1,5" means an inhale:exhale ratio (lengthen the exhale). The summary turns it into holding the breath for 1–1.5 seconds. Patients could follow this breathing advice wrongly.
+- c407 (mismatch): the doctor's order is magie, canxi, D3, vitamin tổng hợp, C, kẽm, omega 3. The summary moves kẽm to second place.
+- c291 (mismatch): "đồng" (copper) where the transcript says "đường" (sugar). Probably a typo, but it changes the meaning.
+- c449 (attribution): Khánh Lành says the "hào nhoáng" line and calls for a medical view. The summary credits it to the doctor.
+- c456, c509 (unresolved): these disclaimers are credited to the doctor ("không phải chẩn đoán", "không phải lời khuyên"), but neither appears anywhere in the transcript. They look like summarizer additions. Remove them or rewrite them as editorial notes.
+- c541 (unresolved): an editorial meta note, not a transcript claim.
+
+Borderline calls
+- c275: who is speaking after ">>" is unclear. The doctor starts the recall, so "Người dẫn" is not clearly supported.
+- c333: the hedges move in both directions (mất đi→giảm, đọng lại→có thể lắng đọng, đe dọa→gây). Classed attribution_qualification.
+- c377: frequency/plurality hedges are softened (thường→có thể, nhiều→một số). Judged non-material, so supported.
+- c478: "ba nguồn chính". The doctor numbers ăn uống/thuốc/kim loại nặng as 1/2/3, but he also calls tinh thần "cái thứ nhất" just before. Supported, but borderline.
+- c488: classed mismatch. The doctor says "rất nhiều chức năng" and calls only thận the detox site; the summary says all organs do detox. This could also be read as attribution_qualification.
+- c500: "màng trong" (inner membrane) is added detail; the transcript only says "sát màng ti thể". Kept as supported.
+- c251/c252: the doctor's generic example ("những người", "những bệnh nhân ấy") becomes a single patient. Classed attribution_qualification for the population change.
+- c211, c250, c529: the summary adds "có thể" where the transcript is definite ("sẽ", "nó hại").
+- c248: "càng uống càng nặng" completes a sentence the doctor left unfinished ("thầy càng uống vào").

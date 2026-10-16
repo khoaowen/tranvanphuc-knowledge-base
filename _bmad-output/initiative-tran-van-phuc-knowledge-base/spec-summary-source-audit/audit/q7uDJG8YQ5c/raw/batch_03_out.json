@@ -1,0 +1,527 @@
+[
+ {
+  "id": "c051",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "màng tế bào chúng ta biết rồi nó có hai lớp axit béo",
+    "timestamp": "01:36:02",
+    "timestamp_recomputed": "01:36:02"
+   },
+   {
+    "quote": "Đầu kỵ nước thì sẽ quay vào trong và đầu ưa nước quay ra bên ngoài",
+    "timestamp": "01:37:01",
+    "timestamp_recomputed": "01:37:01"
+   },
+   {
+    "quote": "Thế thì ông nảy sinh ra một cái đây là tinh thể màng. Tức là màng tế bào nó cũng là một cái dạng tinh thể.",
+    "timestamp": "01:39:01",
+    "timestamp_recomputed": "01:39:01"
+   }
+  ],
+  "speaker": "Doctor (Phúc) recounting the scientist 'Lip Tông/Liptông''s observation; summary states it as fact under a Lipton section header",
+  "note": "Bilayer, heads/tails, ordered 'tinh thể màng' all present; the '(tương tự tinh thể lỏng)' parenthetical is only implied by juxtaposition (doctor lists solid vs liquid crystals, then names a membrane crystal); transcript never says 'Bruce'."
+ },
+ {
+  "id": "c052",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "toàn bộ cái quá trình đi vào và đi ra màng này nó không phải là vô tổ chức kỷ luật mà nó được sắp xếp theo những cái trình tự rất cẩn thận, rất chặt chẽ",
+    "timestamp": "01:40:05",
+    "timestamp_recomputed": "01:40:05"
+   },
+   {
+    "quote": "cái kết luận thứ hai của ông ấy đưa ra đó là màng tế bào có tính chất là giống như chất bán dẫn.",
+    "timestamp": "01:40:31",
+    "timestamp_recomputed": "01:40:31"
+   },
+   {
+    "quote": "Canxi đi vào thì nó có kênh gì ạ? Có kênh canxi. Mag đi vào nó cũng có kênh ma. Cali natri đi vào đều có kênh của nó.",
+    "timestamp": "01:41:05",
+    "timestamp_recomputed": "01:41:05"
+   }
+  ],
+  "speaker": "Doctor presenting Lipton's second conclusion; summary unattributed within Lipton section",
+  "note": "Matches: semiconductor-like, ordered entry/exit of protein, Ca, Mg, K, Na via channels, 'Không bao giờ nó tự do đi qua đi lại được'."
+ },
+ {
+  "id": "c053",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Hai cái lớp này nó giống hệt như là các cái đầu ưa nước.",
+    "timestamp": "01:41:44",
+    "timestamp_recomputed": "01:41:44"
+   },
+   {
+    "quote": "kẹp giữa hai lớp bánh mì này thì ông ấy cho là lớp bơ.",
+    "timestamp": "01:41:59",
+    "timestamp_recomputed": "01:41:59"
+   },
+   {
+    "quote": "ông ấy hình dung rằng những cái kênh này nó chính là cái những cái quả ô lưu mà ta cứ sắp xếp theo những cái hình theo một cái trật tự nhất định",
+    "timestamp": "01:42:41",
+    "timestamp_recomputed": "01:42:41"
+   }
+  ],
+  "speaker": "Doctor describing Lipton's teaching analogy ('Ông ấy ví như thế để giảng cho sinh viên dễ')",
+  "note": "Sandwich/butter/olive analogy intact; transcript says 'quả ô lưu' (pitted olives) forming channels."
+ },
+ {
+  "id": "c054",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "vào năm 1985 thì trong lúc ông đến giảng dạy cho sinh viên ở trường đạo y về tế bào học",
+    "timestamp": "01:35:33",
+    "timestamp_recomputed": "01:35:33"
+   },
+   {
+    "quote": "Thì cái này đều tạo thành những kênh ví dụ kênh kali, kênh natri, kênh protein, kênh chất béo để dẫn các cái chất đi vào trong tế bào, dẫn các cái chất đi ra ngoài tế bào.",
+    "timestamp": "01:42:51",
+    "timestamp_recomputed": "01:42:51"
+   },
+   {
+    "quote": "Nó được cấu tạo bởi protein, được cấu tạo bởi các chất béo.",
+    "timestamp": "01:47:06",
+    "timestamp_recomputed": "01:47:06"
+   }
+  ],
+  "speaker": "Doctor attributing the 1985 insight to 'nhà khoa học người Mỹ ... Lip Tông'",
+  "note": "1985, ordered fat layers, gates and channels (K, Na, protein, fat) supported; the protein+fat composition is stated at 01:47 as later research by Lipton 'cũng như là các nhà khoa học khác', not the 1985 morning itself."
+ },
+ {
+  "id": "c055",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Con chip được tạo nên bởi những cái tinh thể có tính bãn dẫn và có cửa và kênh dẫn.",
+    "timestamp": "01:44:07",
+    "timestamp_recomputed": "01:44:07"
+   },
+   {
+    "quote": "Chứng tỏ rằng là màng tế bào này được ví nó như là con chip.",
+    "timestamp": "01:44:16",
+    "timestamp_recomputed": "01:44:16"
+   },
+   {
+    "quote": "Chip là để xử lý các vấn đề trong máy tính.",
+    "timestamp": "01:44:27",
+    "timestamp_recomputed": "01:44:27"
+   }
+  ],
+  "speaker": "Doctor recounting Lipton's reasoning",
+  "note": "Crystal + semiconductor + gates/channels = chip analogy matches."
+ },
+ {
+  "id": "c056",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mà con chip thì nó chính là giống não bộ rồi đúng không ạ? Để xử lý các vấn đề.",
+    "timestamp": "01:44:21",
+    "timestamp_recomputed": "01:44:21"
+   },
+   {
+    "quote": "bắt đầu ông nói rằng là dường như bộ não tế bào không phải là nhân mà bộ não tế bào là màng của tế bào.",
+    "timestamp": "01:44:38",
+    "timestamp_recomputed": "01:44:38"
+   },
+   {
+    "quote": "Thì ngược lại nhà khoa học Lip tông, nhà sinh vật học, nhà sinh học ông đã đưa ra một cái khái niệm, một cái quan niệm rất khác đó là màng tế bào mới là bộ não của tế bào.",
+    "timestamp": "01:44:53",
+    "timestamp_recomputed": "01:44:53"
+   }
+  ],
+  "speaker": "Doctor presenting Lipton's concept (doctor later endorses it, 03:26:36); summary states as conclusion within Lipton section",
+  "note": "Supported as Lipton's concept; the initial 'dường như' hedge is later dropped by the doctor himself."
+ },
+ {
+  "id": "c057",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nhân nó chỉ là bộ phận sinh dục của tế bào.",
+    "timestamp": "01:45:19",
+    "timestamp_recomputed": "01:45:19"
+   },
+   {
+    "quote": "Nếu qua quá trình dán phân thì một tế bào sẽ tạo nên hai tế bào bằng cách là phân chia nhân. Thế còn qua quá trình giảm phân thì một tế bào sẽ tạo thành bốn bào tử",
+    "timestamp": "01:45:28",
+    "timestamp_recomputed": "01:45:28"
+   },
+   {
+    "quote": "nhân tế bào ở đây phải là cơ quan sinh sản của tế bào, phải là cơ quan sinh dục của tế bào.",
+    "timestamp": "01:45:45",
+    "timestamp_recomputed": "01:45:45"
+   }
+  ],
+  "speaker": "Doctor relaying Lipton's proposition",
+  "note": "Nucleus as reproductive organ, 2 cells via 'dán phân', 4 'bào tử' via 'giảm phân' all verbatim-matched."
+ },
+ {
+  "id": "c058",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và sau này nó trở thành một cái cuộc cách mạng về nghiên cứu tế bào học.",
+    "timestamp": "01:46:04",
+    "timestamp_recomputed": "01:46:04"
+   },
+   {
+    "quote": "Cuộc cách mạng này nó liên quan tới những các cái vấn đề nâng cao tuổi thọ",
+    "timestamp": "01:46:08",
+    "timestamp_recomputed": "01:46:08"
+   },
+   {
+    "quote": "ví dụ như là điều trị ung thư, điều trị các cái căn bệnh là đưa những các cái chất từ bên ngoài vào bên trong tế bào một cách có chọn lọc.",
+    "timestamp": "01:46:16",
+    "timestamp_recomputed": "01:46:16"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "Revolution in cytology tied to longevity, cancer treatment, selective delivery into cells; doctor phrases as 'liên quan tới' (related to) rather than 'ứng dụng vào', minor."
+ },
+ {
+  "id": "c059",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nó được cấu tạo bởi protein, được cấu tạo bởi các chất béo.",
+    "timestamp": "01:47:06",
+    "timestamp_recomputed": "01:47:06"
+   },
+   {
+    "quote": "trong màng tế bào thì những các cái axit béo không no tức là axit béo không axit béo không bão hòa đấy là chiếm một cái thành phần rất nhiều.",
+    "timestamp": "01:47:33",
+    "timestamp_recomputed": "01:47:33"
+   },
+   {
+    "quote": "Omega 6 cũng là thành phần rất nhiều. Thậm chí là Omega9 hay là các cái chất béo khác được cấu tạo nên màng tế bào rất nhiều.",
+    "timestamp": "01:47:47",
+    "timestamp_recomputed": "01:47:47"
+   }
+  ],
+  "speaker": "Doctor reporting research findings ('người ta nghiên cứu người ta thấy rằng')",
+  "note": "Protein + fats, unsaturated FAs (omega-3/6/9) large share — matches."
+ },
+ {
+  "id": "c060",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và omega 3 trong màng tế bào thì Omega 3 Omega3 chiếm tới bao nhiêu ạ? Chiếm tới 30%",
+    "timestamp": "01:48:16",
+    "timestamp_recomputed": "01:48:16"
+   },
+   {
+    "quote": "30% cấu trúc màng tế bào thì riêng của não là DHA chiếm phần lớn",
+    "timestamp": "01:48:26",
+    "timestamp_recomputed": "01:48:26"
+   },
+   {
+    "quote": "Màng tế bào được cấu tạo bởi các axit béo mà axit béo ở đây chiếm tới 30%.",
+    "timestamp": "02:08:34",
+    "timestamp_recomputed": "02:08:34"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "Matches the 01:48 statement, but transcript is internally inconsistent: at 01:51:52 and 02:08:34 the doctor attributes the 30% to omega-3/6/9 fatty acids collectively, and at 02:22:09 to 'omega' generally; reviewer may treat as ambiguous."
+ },
+ {
+  "id": "c061",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trong màng tế bào não của chúng ta thì chứa DHA quá nhiều.",
+    "timestamp": "01:48:01",
+    "timestamp_recomputed": "01:48:01"
+   },
+   {
+    "quote": "Tế bào võng mạc mắt các tế bào của mắt thì cũng lại DHA chiếm phần lớn.",
+    "timestamp": "01:48:31",
+    "timestamp_recomputed": "01:48:31"
+   },
+   {
+    "quote": "Nó không chỉ có làm cho não của chúng ta phát triển thông minh lên mà mắt của chúng ta nhìn cũng sáng lên.",
+    "timestamp": "01:48:56",
+    "timestamp_recomputed": "01:48:56"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "DHA in brain/retina membranes, 'vàng của não và mắt' (01:31:05, 01:52:08), smarter brain/brighter eyes supported; doctor conditions the fish-eating benefit on high DHA ('với điều kiện là DHA nó phải nhiều', 01:49:26), which the claim does not frame but does not contradict."
+ },
+ {
+  "id": "c062",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong màng của tế bào tim thì lại chứa EPA rất nhiều.",
+    "timestamp": "01:48:06",
+    "timestamp_recomputed": "01:48:06"
+   },
+   {
+    "quote": "tôi nhấn mạnh lại là vàng của mắt và vàng của não chính là DHA. Vàng của tim đó chính là gì ạ? Chính là EPA.",
+    "timestamp": "01:52:08",
+    "timestamp_recomputed": "01:52:08"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "Heart-cell membranes rich in EPA, 'vàng của tim' = EPA."
+ },
+ {
+  "id": "c063",
+  "class": "mismatch",
+  "evidence": [
+   {
+    "quote": "sau khi mà bổ sung DHA bổ sung Omega 3 mà tăng cường cái DHA này lên một chút vitamin D cộng các vi chất thì một thời gian sau các cháu học kết quả nó sẽ thay đổi đi đáng kể.",
+    "timestamp": "01:49:53",
+    "timestamp_recomputed": "01:49:53"
+   },
+   {
+    "quote": "con anh ấy lúc đầu là ăn không nên loại và nói không nên lời, không có bạn gái.",
+    "timestamp": "01:50:13",
+    "timestamp_recomputed": "01:50:13"
+   },
+   {
+    "quote": "Thế sau khi mà bổ sung đâu được à hơn 3 tháng gần 4 tháng thì anh ấy đến báo cáo tình hình là con anh ấy bắt đầu nói có văn có lời văn văn vẻ ra",
+    "timestamp": "01:50:23",
+    "timestamp_recomputed": "01:50:23"
+   }
+  ],
+  "speaker": "Doctor recounting two separate anecdotes from his own patients; summary presents a single recorded outcome for 'trẻ nhỏ'",
+  "note": "Claim merges two anecdotes: school-result change is 'một thời gian sau' (no duration) for school-age children, while the '3 to nearly 4 months' and speech/communication change belong to one father's son whose problem was having no girlfriend (not 'trẻ nhỏ'); anecdotal clinical reports are hardened into 'đã ghi nhận'."
+ },
+ {
+  "id": "c064",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "các loại dầu thực vật như hoa hướng dương, dầu ngô đóng vai trò trong chức năng não, sức khỏe sinh sản, giúp tóc, da và xương khỏe mạnh. Omega 3 được tìm thấy trong cá béo, giúp giảm viêm, điều hòa huyết áp",
+    "timestamp": "01:55:00",
+    "timestamp_recomputed": "01:55:00"
+   },
+   {
+    "quote": "Chúng cũng gắn liền với giảm nguy cơ nhiều bệnh bao gồm bệnh tiểu đường, hộ chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư.",
+    "timestamp": "01:55:16",
+    "timestamp_recomputed": "01:55:16"
+   },
+   {
+    "quote": "trong khi Omega 3 là chất chống viêm, Omega6 có xu hướng gây viêm.",
+    "timestamp": "01:55:42",
+    "timestamp_recomputed": "01:55:42"
+   }
+  ],
+  "speaker": "Host Khánh Lành reading verbatim a quoted newspaper article ('một tờ báo rất là uy tín trong nước'); not the doctor",
+  "note": "Hardened: article says omega-3 is 'gắn liền với giảm nguy cơ' (associated with) and 'một số bệnh ung thư' (some cancers); claim says omega-3 'giúp ... giảm nguy cơ ... ung thư'."
+ },
+ {
+  "id": "c065",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần.",
+    "timestamp": "01:55:30",
+    "timestamp_recomputed": "01:55:30"
+   },
+   {
+    "quote": "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì. Nó cũng liên quan đến bệnh tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như bệnh suuyễn và các bệnh tự miễn dịch.",
+    "timestamp": "01:54:47",
+    "timestamp_recomputed": "01:54:47"
+   },
+   {
+    "quote": "Những năm gần đây, các nhà khoa học phát hiện ra rằng hầu hết mọi người đều đang hấp thụ một lượng lớn các chất béo Omega6 so với thời trước.",
+    "timestamp": "01:54:29",
+    "timestamp_recomputed": "01:54:29"
+   }
+  ],
+  "speaker": "Host reading the quoted article; the 6x figure is further attributed within the article to 'Các nghiên cứu của tạp chí Hell'",
+  "note": "Dropped in-article source attribution ('Các nghiên cứu của tạp chí Hell cho thấy'); disease association is stated for the general population imbalance and spliced onto the US 6x figure; the article later adds that no study confirms omega-6 causes chronic disease (01:58:15)."
+ },
+ {
+  "id": "c066",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tỉ lệ tối ưu nhất cho hai loại axit béo này với cơ thể là một bột.",
+    "timestamp": "01:56:45",
+    "timestamp_recomputed": "01:56:45"
+   },
+   {
+    "quote": "nhau một cách hợp lý và tốt nhất là tỉ lệ 1 chia 1 đúng không ạ?",
+    "timestamp": "02:28:36",
+    "timestamp_recomputed": "02:28:36"
+   }
+  ],
+  "speaker": "Host reading the quoted article (ASR 'một bột' = 1:1); doctor independently states 1:1 as best at 02:28",
+  "note": "1:1 optimal is in both the article and the doctor's own commentary."
+ },
+ {
+  "id": "c067",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Hầu hết các chuyên gia sức khỏe đều cho rằng tỉ lệ omega6 trên omega 3 là từ 11 đến 51 là tốt nhất cho sức khỏe.",
+    "timestamp": "01:55:59",
+    "timestamp_recomputed": "01:55:59"
+   },
+   {
+    "quote": "Có những nghiên cứu và những tài liệu nói rằng chấp nhận được tỉ lệ những cái này đem chia ra thì là 4 chia 1 thì được. Cùng lắm là đến 5 chia 1.",
+    "timestamp": "02:28:43",
+    "timestamp_recomputed": "02:28:43"
+   }
+  ],
+  "speaker": "Host reading the quoted article (ASR '11 đến 51' = 1:1 to 5:1); not the doctor's own view",
+  "note": "Supported as the article's claim; the doctor later says 5:1 'đã là quá nhiều rồi' and 'con số năm là tôi không tin lắm' (02:34:26), so the claim must not be read as the doctor's endorsement."
+ },
+ {
+  "id": "c068",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 41, chúng ta có thể phòng ngừa nguy cơ bệnh tim nhưng lại không có tác dụng giảm nguy cơ mắc các bệnh liên quan đến trực tràng.",
+    "timestamp": "01:56:09",
+    "timestamp_recomputed": "01:56:09"
+   }
+  ],
+  "speaker": "Host reading the quoted article",
+  "note": "Dropped hedge 'có thể' (may prevent) -> stated as definite 'phòng ngừa'; 'các bệnh liên quan đến trực tràng' compressed to 'bệnh trực tràng'."
+ },
+ {
+  "id": "c069",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 21 hay là 31, chúng ta có thể giảm hội chứng viêm ở bệnh nhân thấp khớp.",
+    "timestamp": "01:56:19",
+    "timestamp_recomputed": "01:56:19"
+   }
+  ],
+  "speaker": "Host reading the quoted article",
+  "note": "Dropped hedge 'có thể giảm' -> 'giúp giảm'."
+ },
+ {
+  "id": "c070",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tỷ lệ 51 có kết quả tốt đối với bệnh nhân hen suuyễn.",
+    "timestamp": "01:56:24",
+    "timestamp_recomputed": "01:56:24"
+   }
+  ],
+  "speaker": "Host reading the quoted article (ASR '51' = 5:1)",
+  "note": "Matches."
+ },
+ {
+  "id": "c071",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "việc nạp quá lượng dù là omega 3 hay là Omega 6 vẫn là không tốt. Vì trong cấu trúc của cả hai axit béo này đều có nối đôi không no nên rất nhạy cảm.",
+    "timestamp": "01:58:37",
+    "timestamp_recomputed": "01:58:37"
+   },
+   {
+    "quote": "Phản ứng với lại oxy tạo phản ứng chuỗi và hình thành gốc tự do.",
+    "timestamp": "01:58:49",
+    "timestamp_recomputed": "01:58:49"
+   }
+  ],
+  "speaker": "Host reading the quoted article",
+  "note": "Matches the article's caveat on overconsumption of either fatty acid."
+ },
+ {
+  "id": "c072",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Axit linolic. Rồi đúng rồi. Tiếp theo cái thứ hai là gì ạ?",
+    "timestamp": "02:01:16",
+    "timestamp_recomputed": "02:01:16"
+   },
+   {
+    "quote": "Clức là cái này là gọi là axit béo liên hợp đấy.",
+    "timestamp": "02:01:27",
+    "timestamp_recomputed": "02:01:27"
+   },
+   {
+    "quote": "đây là bốn cái axit béo mà chúng ta cần phải nhớ ở trong omega6.",
+    "timestamp": "02:01:36",
+    "timestamp_recomputed": "02:01:36"
+   }
+  ],
+  "speaker": "Host recites under doctor's quizzing; doctor confirms and names CLA as conjugated fatty acid",
+  "note": "LA (linoleic), GLA (02:01:20), CLA, AA (02:01:33) listed as the four omega-6 to remember."
+ },
+ {
+  "id": "c073",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như là Omega 3 là đứng đầu là cái gì ạ? ALA đúng không ạ?",
+    "timestamp": "02:24:09",
+    "timestamp_recomputed": "02:24:09"
+   },
+   {
+    "quote": "Và rất quan trọng đó là DHA.",
+    "timestamp": "02:02:01",
+    "timestamp_recomputed": "02:02:01"
+   },
+   {
+    "quote": "Đấy là ba cái mà rất quan trọng.",
+    "timestamp": "02:02:04",
+    "timestamp_recomputed": "02:02:04"
+   }
+  ],
+  "speaker": "Host lists ALA, EPA, DHA under doctor's quizzing; doctor confirms",
+  "note": "Three omega-3 to remember: ALA (02:01:53), EPA (02:01:58), DHA; doctor adds DPA as not very important."
+ },
+ {
+  "id": "c074",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như la chúng ta phải nhớ là C18 2N và gạch ngang 6 đúng không ạ? Alla là C18 3N và gì ạ? 3",
+    "timestamp": "02:20:44",
+    "timestamp_recomputed": "02:20:44"
+   },
+   {
+    "quote": "Liên kết pi đầu tiên đứng ở vị trí cacbon số 6.",
+    "timestamp": "02:03:49",
+    "timestamp_recomputed": "02:03:49"
+   },
+   {
+    "quote": "giống nhau ở chỗ là đều có 18 nguyên tử cacbon đều có nhóm COOH nhưng mà nó chỉ khác nhau ở chỗ là một cái thì có hai liên kết pi còn một cái có ba liên kết gì?",
+    "timestamp": "02:05:58",
+    "timestamp_recomputed": "02:05:58"
+   }
+  ],
+  "speaker": "Host answers notation under quizzing; doctor confirms and draws structure",
+  "note": "C18:2n-6, 18 C, 2 pi bonds, first at C6, COOH end all present (host first said C16, corrected to C18)."
+ },
+ {
+  "id": "c075",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như la chúng ta phải nhớ là C18 2N và gạch ngang 6 đúng không ạ? Alla là C18 3N và gì ạ? 3",
+    "timestamp": "02:20:44",
+    "timestamp_recomputed": "02:20:44"
+   },
+   {
+    "quote": "18 cacbon mấy liên kết piết pi và liên kết pi đầu tiên ở số 3 số 3.",
+    "timestamp": "02:05:04",
+    "timestamp_recomputed": "02:05:04"
+   },
+   {
+    "quote": "giống nhau ở chỗ là đều có 18 nguyên tử cacbon đều có nhóm COOH nhưng mà nó chỉ khác nhau ở chỗ là một cái thì có hai liên kết pi còn một cái có ba liên kết gì?",
+    "timestamp": "02:05:58",
+    "timestamp_recomputed": "02:05:58"
+   }
+  ],
+  "speaker": "Host and doctor jointly (quiz format)",
+  "note": "C18:3n-3, 18 C, 3 pi bonds, first at C3, COOH end — matches."
+ }
+]

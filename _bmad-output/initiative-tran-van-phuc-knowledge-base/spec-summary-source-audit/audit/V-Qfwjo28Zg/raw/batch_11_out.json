@@ -1,0 +1,410 @@
+[
+  {
+    "id": "c251",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "này, có những người đau ở bên phần háng ấy. Thế đến khi dần dần đi chụp ích quang một ngày bắt đầu thấy hoại tử vô khuẩn trỏm xương đùi, cuối cùng là phải",
+        "timestamp": "02:05:18"
+      },
+      {
+        "quote": "xuyên giảm áp, cuối cùng là phải thay cả khớp háng. Thế nhưng mà những bệnh nhân ấy chỉ cần yêu cầu gì thôi là đang hút",
+        "timestamp": "02:05:27"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ nói khái quát «có những người/những bệnh nhân», không kể một bệnh nhân cá biệt xác định như tóm tắt."
+  },
+  {
+    "id": "c252",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "khớp háng. Thế nhưng mà những bệnh nhân ấy chỉ cần yêu cầu gì thôi là đang hút thuốc lá chỉ cần có một động tác đó là",
+        "timestamp": "02:05:29"
+      },
+      {
+        "quote": "dừng hút thuốc lá lại nó đã giảm đau đi rất nhiều.",
+        "timestamp": "02:05:36"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Chuyển ví dụ khái quát «những bệnh nhân ấy/chỉ cần» thành kết quả đã xảy ra ở một bệnh nhân cụ thể."
+  },
+  {
+    "id": "c253",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Bởi vì lúc ấy tôi nói thuốc lá là gì ạ? Thuốc lá gây gốc tự do rất nhiều, rượu bia gây gốc tự do rất nhiều. Nếu",
+        "timestamp": "02:05:39"
+      },
+      {
+        "quote": "chúng ta lạm dụng chúng ta sai, chế độ ăn uống sai. Thế rồi dùng những cái thuốc này sai",
+        "timestamp": "02:05:46"
+      },
+      {
+        "quote": "nhiều. Tại sao tôi nói thuốc lá là giảm đi mỗi điếu giảm đi 11 phút về thời gian sống, về tuổi thọ. Chúng ta thấy rằng",
+        "timestamp": "02:05:52"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Có đủ các nguồn gốc tự do và con số 11 phút mỗi điếu."
+  },
+  {
+    "id": "c254",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Tình trạng của em trước đây. Từ năm 2017 đến nay, da của em đặc biệt là lòng bàn tay, lòng bàn chân và da mặt, luôn bị vàng bợt, thiếu sức sống. Niêm mạc mắt",
+        "timestamp": "01:21:42"
+      },
+      {
+        "quote": "Ngọc hay là Ngọc Thơ? Tôi đoán là chị Ngọc Thơ không có dấu không có dấu cho nên tôi đoán là chị Ngọc Thơ. Thế thì chị Ngọc Thơ có bình",
+        "timestamp": "02:06:33"
+      },
+      {
+        "quote": "xấu hổ, chị ngại ngùng, không dám đi đâu, không dám chụp ảnh với ai vì rằng là cơ thể mình ốm yếu đã đành, mệt mỏi",
+        "timestamp": "02:06:45"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bình luận; bác sĩ kể lại và đoán tên Ngọc Thơ.",
+    "note": "Nội dung có, nhưng tên Ngọc Thơ được bác sĩ nói «tôi đoán» vì tài khoản không dấu; tóm tắt bỏ mức bất định này."
+  },
+  {
+    "id": "c255",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "HBG đúng không ạ? Của chị luôn luôn là ở từ 10 cho đến 11 gì ạ? Gam trên dl đúng không ạ?",
+        "timestamp": "02:07:16"
+      },
+      {
+        "quote": "nhiêu? Từ 12 cho đến 16 đúng không ạ? Và có những cái tài liệu có thể lấy tới 17,5. Thế thì con số bình thường chị đưa",
+        "timestamp": "02:07:28"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Các mức hemoglobin và khoảng tham chiếu đúng lời bác sĩ."
+  },
+  {
+    "id": "c256",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "nhận ra có lẽ vấn đề nằm ở việc bị thiếu sắt nhược sắc.",
+        "timestamp": "01:22:58"
+      },
+      {
+        "quote": "vàng. Nhưng em không rõ độ chính xác của thông tin này như thế nào. Em đã đi khám",
+        "timestamp": "01:23:24"
+      },
+      {
+        "quote": "này. Cuối cùng là cái vàng đó chị đặt ra một cái điều rất hay đó là có phải sau",
+        "timestamp": "02:07:41"
+      }
+    ],
+    "speaker": "Khán giả tự đặt nghi vấn; Khánh Lành đọc và bác sĩ thuật lại, không phải nghi vấn riêng của người dẫn.",
+    "note": "Sai chủ thể đặt nghi vấn: chính người bình luận; giữ lời «có lẽ» và sự không chắc về tài liệu."
+  },
+  {
+    "id": "c257",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "sau khi chị bổ sung vi chất thì thế nào ạ? Thay đổi hoàn toàn.",
+        "timestamp": "02:08:15"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ nói thay đổi hoàn toàn sau bổ sung."
+  },
+  {
+    "id": "c258",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "cái vàng da. Nhưng bilirobin không tăng, các thứ không tăng nhưng đây là thiếu máu vi thể nó ở dưới da thôi. Tại sao nó",
+        "timestamp": "02:09:17"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Đúng lời bác sĩ về thiếu máu vi thể dưới da."
+  },
+  {
+    "id": "c259",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tiếp xúc với lại ánh sáng. Tiếp xúc với không khí. Ánh sáng có tia gì ạ? Có tia UV đúng không ạ?",
+        "timestamp": "02:09:26"
+      },
+      {
+        "quote": "Thế rồi không khí có ô nhiễm, có các cái hạt bụi mịn, hạt bụi PAM 2.5 đúng không ạ? 2.5. Thế rồi lên tới 10 đấy.",
+        "timestamp": "02:09:33"
+      },
+      {
+        "quote": "Thế vậy thì nó tiếp xúc như thế này thì sẽ dẫn tới hiện tượng gì ạ? Hiện tượng gốc tự do đúng không ạ? Gốc tự do ở da",
+        "timestamp": "02:09:50"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Ánh sáng UV, ô nhiễm và bụi 2.5 tới 10 được nối với gốc tự do ở da."
+  },
+  {
+    "id": "c260",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "mà gốc tự do ở da thì lúc nãy ta nói rồi nó sẽ tấn công màng tế bàoâng đúng không ạ? Nó sẽ tấn công protein, nó",
+        "timestamp": "02:09:57"
+      },
+      {
+        "quote": "tấn công gì ạ? ADN tấn công màng tế bào thì nó sẽ gây vỡ tế bào. Mà gây vỡ tế bào hồng cầu ở",
+        "timestamp": "02:10:04"
+      },
+      {
+        "quote": "ngoài da này thì nó sẽ tích tụ hemoglobin và sẽ gây ra hiện tượng vàng da bằng mắt. Đây là một cái nguyên nhân",
+        "timestamp": "02:10:12"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Đúng chuỗi tác động bác sĩ trình bày."
+  },
+  {
+    "id": "c261",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "công. Gốc tự do này do chị bổ sung thiếu vi chất dẫn tới là cả một cái hệ miễn dịch trong cơ thể của chị nó kém. Nó kém",
+        "timestamp": "02:10:33"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ liên hệ thiếu vi chất với miễn dịch kém và tổn thương."
+  },
+  {
+    "id": "c262",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "quan kia. Nếu gây rối loạn cơ quan nào sẽ bị tổn thương cơ quan đó. Thế người rối loạn ở tụy thì sẽ gây tiểu đường.",
+        "timestamp": "02:10:47"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ nói rối loạn ở tụy gây tiểu đường."
+  },
+  {
+    "id": "c263",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Như là chị Ngân nói rằng chồng chị là bị tiểu đường bổ sung vi chất. Chị nói là",
+        "timestamp": "02:10:54"
+      },
+      {
+        "quote": "Thế thì chồng chị bổ sung cái thì đường huyết nó giảm xuống. Chị mang cái điều đó đến trưởng khoa để thuyết phục thì trưởng khoa sẽ không đồng ý. Thế thì bởi",
+        "timestamp": "02:11:08"
+      }
+    ],
+    "speaker": "Bác sĩ nói «chồng chị»; bình luận gốc Khánh Lành đọc là «bố chồng».",
+    "note": "Khớp lời bác sĩ thuật lại; lưu ý lời bác sĩ khác bình luận gốc ở quan hệ chồng/bố chồng."
+  },
+  {
+    "id": "c264",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "đó đến trưởng khoa để thuyết phục thì trưởng khoa sẽ không đồng ý. Thế thì bởi vì sao? Tôi đã giải thích rồi rằng tất",
+        "timestamp": "02:11:11"
+      },
+      {
+        "quote": "những các cái nghiên cứu để cái mà người ta gọi là thực chứng ấy nó sẽ vô cùng khó khăn vì không ai đem những bệnh nhân",
+        "timestamp": "02:11:24"
+      },
+      {
+        "quote": "này dừng tất cả những cái khác lại để chỉ bổ sung cái này thôi xem xem rằng là nó thay đổi thế nào không làm được cái việc đó mà không làm được cái việc đó mà",
+        "timestamp": "02:11:31"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ nêu trưởng khoa không đồng ý và khó cô lập can thiệp để thực chứng."
+  },
+  {
+    "id": "c265",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "những bệnh nhân trên kênh đã phản ánh rằng tôi đang đường huyết tiểu đường không ổn định. Bây giờ sau khi bổ sung",
+        "timestamp": "02:11:43"
+      },
+      {
+        "quote": "vi chất tôi giảm được liều thuốc, có những người bỏ được, có những người đường huyết đang cao trở về bình thường, còn bị nặng quá rồi không trở về được",
+        "timestamp": "02:11:50"
+      },
+      {
+        "quote": "bình thường nữa. Có đúng không ạ?",
+        "timestamp": "02:11:57"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Giữ nguồn phản ánh từ bệnh nhân và giới hạn bệnh quá nặng."
+  },
+  {
+    "id": "c266",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "ta thấy ví dụ như là chị Ngọc Thơ chị có nói rằng là sau khi bổ sung vi chất chị đang từ 56 đến 57 kg thì xuống còn bao",
+        "timestamp": "04:53:37"
+      },
+      {
+        "quote": "nhiêu ạ? Xuống còn 52 đến 53 kg. Giảm được từng này cân không phải là đơn giản. Tại sao",
+        "timestamp": "04:53:46"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ kể đúng cân nặng ở phần muộn, ngoài cửa sổ gợi ý."
+  },
+  {
+    "id": "c267",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "giảm được? Là bởi vì rằng là chúng ta bổ sung các vi chất thì dẫn tới glutathion hoạt động hiệu quả. hoạt động hiệu quả",
+        "timestamp": "04:53:53"
+      },
+      {
+        "quote": "thì cái quá trình đốt cháy năng lượng này diễn ra tốt. Nó diễn ra thì đốt cháy năng lượng để tạo thành ATP, khí CO2 và",
+        "timestamp": "04:54:00"
+      },
+      {
+        "quote": "nước. Chúng ta đốt được đường, đốt được mỡ, đốt được những các cái đạm thừa.",
+        "timestamp": "04:54:07"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Đúng cơ chế được bác sĩ giải thích ở 04:53–04:54."
+  },
+  {
+    "id": "c268",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Ngân điều dưỡng đúng không ạ? Chị ngân điều dưỡng của một bệnh viện lớn của Hà Nội có chồng bị gì ạ? bị tiểu đường sau",
+        "timestamp": "04:54:57"
+      },
+      {
+        "quote": "khi bổ sung vi chất là hạ được đường huyết xuống và rất nhiều người không cần phải dùng thuốc đường huyết nữa. Vì sao?",
+        "timestamp": "04:55:04"
+      }
+    ],
+    "speaker": "Bác sĩ kể «chồng»; bình luận gốc là «bố chồng».",
+    "note": "Khớp đầy đủ lời kể của bác sĩ ở 04:54–04:55; khác biệt bố chồng thuộc lời kể gốc của khán giả."
+  },
+  {
+    "id": "c269",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "khi bổ sung vi chất là hạ được đường huyết xuống và rất nhiều người không cần phải dùng thuốc đường huyết nữa. Vì sao?",
+        "timestamp": "04:55:04"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Trong lời kể hạ đường huyết này không có liều hoặc điều kiện cụ thể cho việc ngừng thuốc; không hiểu là toàn video không bàn liều vi chất."
+  },
+  {
+    "id": "c270",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "nó tấn công, cái nơi mà quan trọng nhất của gốc tự do nó tấn công đó chính là gan. Nó tấn công gan thì chị sẽ rơi vào",
+        "timestamp": "02:12:14"
+      },
+      {
+        "quote": "thận bình thường nhưng chờ đến khi chức năng gan và chức năng thận nó biểu hiện ra đã quá muộn rồi,",
+        "timestamp": "02:12:25"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Bác sĩ nói gốc tự do tấn công gan và xét nghiệm biểu hiện là đã muộn."
+  },
+  {
+    "id": "c271",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "ta nó biểu hiện tổn thương cấp tế bào ở gan thì nó vẫn bù trừ men gan của chị vẫn rất tốt. Nhưng nó sẽ dừng lại một số chức năng. Một trong những chức năng mà",
+        "timestamp": "02:12:33"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Giữ ý bù trừ men gan trong khi một số chức năng dừng."
+  },
+  {
+    "id": "c272",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "cái phần chức năng để chuyển hóa caroten thành vitamin A. Cái phần mà chuyển hóa thành vitamin A này nó không làm được",
+        "timestamp": "02:13:04"
+      },
+      {
+        "quote": "việc nữa. Nó không làm được việc nữa thì chị ăn bao nhiêu? nó chỉ vàng da vàng mắt thôi. Thế thì vitamin A thiếu thì",
+        "timestamp": "02:13:11"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Đúng lời giải thích riêng trường hợp chị về caroten/vitamin A."
+  },
+  {
+    "id": "c273",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "bắt đầu chị lại gây ra một loạt những các cái bệnh của thiếu vitamin A, mắt lại rỉ gèn ra nhìn lại mờ, trí não bắt",
+        "timestamp": "02:13:19"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Mắt rỉ ghèn và nhìn mờ được nói trực tiếp."
+  },
+  {
+    "id": "c274",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "sung các vi chất, các cái enzyme để chuyển hóa này nó quay trở lại, nó hoạt động được các gốc tự do nó giải quyết",
+        "timestamp": "02:14:48"
+      },
+      {
+        "quote": "bị nữa. Mà chúng ta vừa mới nói là gốc tự do nó tấn công protein đúng không ạ? Mà tấn công protein thì làm hỏng enzym.",
+        "timestamp": "02:14:57"
+      },
+      {
+        "quote": "Mà hỏng enzyme thì phản ứng này không xảy ra được nữa.",
+        "timestamp": "02:15:04"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc; tóm tắt quy cho bác sĩ.",
+    "note": "Nội dung có ở phần sau cửa sổ gợi ý."
+  },
+  {
+    "id": "c275",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "quyết cái vấn đề gốc tự do. Lúc ấy tôi nói là gì ạ? Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do đúng không ạ?",
+        "timestamp": "02:13:39"
+      },
+      {
+        "quote": "Gluten cái gì đấy? Glutat. Glutat mà chúng ta đang nói hôm nay",
+        "timestamp": "02:13:46"
+      }
+    ],
+    "speaker": "Bác sĩ nói vitamin C/E và gợi tên; Khánh Lành đáp «Glutat».",
+    "note": "Sai người nói C/E: bác sĩ, không phải người dẫn; bản chép còn nói cụ thể «cũng là gốc tự do», không chỉ «liên quan»."
+  }
+]

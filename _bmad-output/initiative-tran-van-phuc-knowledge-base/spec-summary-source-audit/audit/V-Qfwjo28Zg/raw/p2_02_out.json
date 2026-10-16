@@ -1,0 +1,427 @@
+[
+  {
+    "id": "c210",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Thế rồi những các cái calor rỗng các bạn đang rơi vào cái tình trạng đấy rất nhiều.",
+        "timestamp": "01:40:12"
+      },
+      {
+        "quote": "Đến nỗi mà tôi có chị bạn có hai đứa con không bao giờ ăn cá",
+        "timestamp": "01:40:21"
+      },
+      {
+        "quote": "Các bạn ấy lười nhai, các bạn ấy lười tất cả mọi thứ và chỉ muốn rằng ăn sẵn ăn nhanh.",
+        "timestamp": "01:40:36"
+      }
+    ],
+    "speaker": "Doctor; summary attributes generally to students (implicitly doctor) — speaker OK",
+    "note": "Laziness in chewing is said of a friend's two children ('các bạn ấy'), generalized to students; calo rỗng is tied to sugary drinks/fast food, not caused by wanting fast energy (that leads to 'thất bại'); causal link added"
+  },
+  {
+    "id": "c211",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Vậy khi chúng ta duy trì một cái lối sống mà nhanh gấp gáp, chỉ muốn rằng là tiếp thu những cái gì mà nó nhanh chóng tạo ra năng lượng thì chúng ta sẽ thất bại. Vậy đầu tiên là ta phải thay đổi ngay từ cái thói quen ăn uống hàng ngày.",
+        "timestamp": "01:40:42"
+      }
+    ],
+    "speaker": "Doctor; summary: doctor — correct",
+    "note": "Hedge added: transcript 'chúng ta sẽ thất bại' (definite, said of 'chúng ta') softened to 'có thể khiến các em thất bại'"
+  },
+  {
+    "id": "c235",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Cứ từng bước từng bước chúng ta đi lên đan xen các cái kiến thức với nhau.",
+        "timestamp": "01:52:34"
+      },
+      {
+        "quote": "tôi tin rằng bạn sẽ là cái người thành công chứ không phải là cái người mà sau này bạn bước vào đời gặp phải những cái khó khăn.",
+        "timestamp": "01:52:50"
+      }
+    ],
+    "speaker": "Doctor (addressing student Anh Anh); summary: 'Ông' — correct",
+    "note": "Content and 'tin rằng' hedge preserved; addressed to Anh Anh, summary slightly generalizes"
+  },
+  {
+    "id": "c245",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Thì bác ở bên Đức tôi đoán bác tên là Thủy. Thì bác thấy rằng sau khi bác bổ sung vi chất tất cả mọi người xung quanh đều quay ra ốm nhưng bác chẳng làm sao hết cả.",
+        "timestamp": "02:03:42"
+      }
+    ],
+    "speaker": "Doctor paraphrasing the Germany viewer's comment; summary says the viewer 'kể' — acceptable",
+    "note": "Content matches; the name 'Thủy' is the doctor's guess ('tôi đoán bác tên là Thủy'), presented in summary as fact (hedge dropped)"
+  },
+  {
+    "id": "c248",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "thầy bị đau cột sống đau xương hông rồi bị một loạt những các cái bệnh tật mà thầy cảm tưởng rằng thầy bị đến ung thư xương. Thế thì uống đủ các loại thuốc cả kháng sinh đủ các thứ nhưng cuối cùng không đỡ thầy càng uống vào.",
+        "timestamp": "02:04:31"
+      }
+    ],
+    "speaker": "Doctor recounting thầy Nguyễn Hiền's case; summary neutral — OK",
+    "note": "Most content supported; 'càng uống càng nặng' is not stated (doctor's sentence trails off at 'thầy càng uống vào') — outcome added/hardened"
+  },
+  {
+    "id": "c250",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Đặc biệt là những cái thuốc giảm đau. Thuốc giảm đau như paracetamol nó hại tới gan đúng không ạ? Thế rồi thì nó hại tới thận, hại tới tất cả các nơi thì thuốc này nó sinh ra đây là một cái hóa chất vào trong cơ thể chúng ta. Nó gây ra gốc tự do rất là lớn.",
+        "timestamp": "02:04:55"
+      }
+    ],
+    "speaker": "Doctor raises paracetamol himself; summary frames it as answering a question ('Khi được hỏi')",
+    "note": "No one asks about paracetamol (framing added); transcript states it definitively 'nó hại tới gan', summary adds hedge 'có thể'"
+  },
+  {
+    "id": "c251",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Tôi nhớ rằng ờ ví dụ như thế này, có những người đau ở bên phần háng ấy. Thế đến khi dần dần đi chụp ích quang một ngày bắt đầu thấy hoại tử vô khuẩn trỏm xương đùi, cuối cùng là phải xuyên giảm áp, cuối cùng là phải thay cả khớp háng.",
+        "timestamp": "02:05:15"
+      }
+    ],
+    "speaker": "Doctor; summary: 'Ông' — correct",
+    "note": "Doctor gives a generic illustrative example about 'những người' (plural); summary turns it into one specific patient"
+  },
+  {
+    "id": "c252",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Thế nhưng mà những bệnh nhân ấy chỉ cần yêu cầu gì thôi là đang hút thuốc lá chỉ cần có một động tác đó là dừng hút thuốc lá lại nó đã giảm đau đi rất nhiều.",
+        "timestamp": "02:05:29"
+      }
+    ],
+    "speaker": "Doctor; summary neutral — OK",
+    "note": "Content supported but population changed: 'những bệnh nhân ấy' (general group) becomes a single 'Bệnh nhân này'"
+  },
+  {
+    "id": "c254",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "chị xấu hổ, chị ngại ngùng, không dám đi đâu, không dám chụp ảnh với ai",
+        "timestamp": "02:06:41"
+      },
+      {
+        "quote": "theo như bình luận của chị mà Khánh Lành đọc là từ năm 2017 ấ vâng cho đến bây giờ chị bị vàng da vàng mắt",
+        "timestamp": "02:15:38"
+      }
+    ],
+    "speaker": "Doctor recounting chị Ngọc Thơ's comment read by Khánh Lành; summary attribution matches",
+    "note": "Jaundice/scleral yellowing since 2017, shame and not daring to take photos all supported; doctor also cites general illness for the photo avoidance"
+  },
+  {
+    "id": "c256",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Cuối cùng là cái vàng đó chị đặt ra một cái điều rất hay",
+        "timestamp": "02:07:41"
+      },
+      {
+        "quote": "chị thấy rằng đây chị đang rơi vào trường hợp là thiếu máu thiếu sắt, thiếu máu nhược sắc do thiếu sắt và nó gây ra một cái hiện tượng là tan hồng cầu. tan hồng cầu gây ra vàng da.",
+        "timestamp": "02:07:51"
+      }
+    ],
+    "speaker": "The hypothesis is chị Ngọc Thơ's own (relayed by the doctor, possibly completed by Khánh Lành after '>>'); summary attributes it to the host",
+    "note": "Speaker misattributed: the question is raised by the viewer ('chị đặt ra'), not posed by the host"
+  },
+  {
+    "id": "c275",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Lúc ấy tôi nói là gì ạ? Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do đúng không ạ?",
+        "timestamp": "02:13:39"
+      }
+    ],
+    "speaker": "Doctor prompts the list ('Lúc ấy tôi nói là gì ạ?'); the continuation after '>>' may be Khánh Lành or the doctor — ambiguous; summary attributes to host",
+    "note": "Speaker attribution to host not clearly supported (doctor leads the recall); wording 'liên quan đến gốc tự do' rephrases 'cũng là gốc tự do'"
+  },
+  {
+    "id": "c287",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "có những người nói tự dưng hết hẳn không còn đau dây thần kinh số năm nữa. Thế có những người đỡ được đến 8 90% 95%. Đỡ tới 90 95% là khỏi rồi. Còn cái gì nữa đâu ạ? người ta bảo chỉ còn hơi hơi không đáng kể nữa thôi.",
+        "timestamp": "02:21:13"
+      }
+    ],
+    "speaker": "Doctor relaying patients' reports ('có những người nói', 'người ta bảo'); summary 'Theo bác sĩ'",
+    "note": "Residual slight pain describes the same 90–95% group, not a separate 'số còn lại'; patient-reported framing dropped; '8 90%' simplified"
+  },
+  {
+    "id": "c291",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "Đau đến nỗi mà bắt đầu bác ăn đường vào để cho quên hết tất cả. Lấy cái ngọt ngào để che lấp đi tất cả những cái cơn đau này dẫn tới là cân nặng tăng lên vù vù.",
+        "timestamp": "02:22:47"
+      }
+    ],
+    "speaker": "Doctor about chị Nhung; summary neutral",
+    "note": "Entity wrong: transcript says 'đường' (sugar); summary says 'đồng' (copper) — likely typo but materially different"
+  },
+  {
+    "id": "c294",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tôi đã hướng dẫn cho ngày đấy hướng dẫn mấy tiếng đồng hồ cơ 4 năm tiếng đồng hồ cơ.",
+        "timestamp": "02:44:02"
+      },
+      {
+        "quote": "Để mà bổ sung vi chất thì sau khi hướng dẫn tôi trải qua từng bước một cứ nâng cao nâng cao dần",
+        "timestamp": "02:44:07"
+      }
+    ],
+    "speaker": "Doctor; summary: doctor — correct",
+    "note": "Several hours (4–5) of guidance and stepwise gradual increase supported"
+  },
+  {
+    "id": "c319",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Mặc dù số lượng hồng cầu trên giấy tờ có thể chưa tụt xuống đến mức báo động của thiếu máu cấp tính, nhưng cơ thể bác lại giơ vào tình trạng thiếu máu chức năng và đói oxy vô cùng trầm trọng.",
+        "timestamp": "03:15:11"
+      }
+    ],
+    "speaker": "Doctor's written review read by Khánh Lành; summary neutral",
+    "note": "Hedge added on second half: transcript asserts functional anemia/oxygen hunger 'vô cùng trầm trọng'; summary softens to 'có thể đang' and drops severity"
+  },
+  {
+    "id": "c333",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "lá gan và quả thận đã kiệt sức vì thiếu vi chất nên mất đi khả năng đảo thải. Những tinh thể uras sắc nhọn như vô số mũi kim nhỏ âm thầm đọng lại nơi khấp xương và thành mạch. Đe dọa mang đến những cơn đau gút",
+        "timestamp": "03:19:30"
+      }
+    ],
+    "speaker": "Doctor's written review read by Khánh Lành; summary neutral",
+    "note": "Qualifications shifted: 'mất đi' softened to 'giảm'; definite 'âm thầm đọng lại' softened to 'có thể lắng đọng'; 'Đe dọa mang đến' (threat) hardened to 'gây đau gút'"
+  },
+  {
+    "id": "c352",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Sự kết hợp giữa một kho sắt đóng mất cửa với số lượng xe trở sắt bị sụt giảm, không gây ra nguy cấp tử sinh nhưng nó tạo nên một sự trì trệ [âm nhạc] trong việc phân phối năng lượng tạo máu.",
+        "timestamp": "03:23:25"
+      }
+    ],
+    "speaker": "Review text read by Khánh Lành; summary 'Phần nhận xét' — correct",
+    "note": "Closed iron store + reduced circulating transport, not life-threatening, slows distribution — matches"
+  },
+  {
+    "id": "c373",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Kẽm và đồng chính là những người thợ sửa [âm nhạc] chữa tí hon. Là những giọt xương lành dường như đã cạn kiệt sau hàng thập kỷ bác sống trong khói thuốc lá và thiếu hụt vi chất.",
+        "timestamp": "03:24:29"
+      }
+    ],
+    "speaker": "Review text read by Khánh Lành; summary 'Transcript cho rằng'",
+    "note": "Hedge 'dường như' dropped; transcript applies this to kẽm và đồng only, while 'những thiếu hụt này' may also cover canxi ion"
+  },
+  {
+    "id": "c377",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Nếu so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như bản, nơi giới hạn trên của vitamin P12 thường được mở rộng lên tới 1000 picog [âm nhạc] ml hoặc thậm chí là 1500 thì con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn của cơ thể.",
+        "timestamp": "03:25:43"
+      }
+    ],
+    "speaker": "Doctor's written review (read by Khánh Lành); summary 'Ông' — acceptable as author",
+    "note": "Values and conclusion match; minor hedge shifts ('nhiều'→'một số', 'thường'→'có thể') judged non-material; 'bản' is a garbled 'Nhật Bản'"
+  },
+  {
+    "id": "c401",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "Chỉ là 1 1,5 thôi đã đã là quý rồi. 1 1,5 tức là ta cố gắng là kéo dài cái thì sau ra một chút để ta đẩy được các cái khí cạn ra.",
+        "timestamp": "04:09:52"
+      },
+      {
+        "quote": "Đáng lẽ ra nếu bác thở bác nhịn được chẳng hạn như là 15 giây, 10 giây chẳng hạn thì bác chỉ giảm xuống độ 8 9 giây thôi để giữ cái an toàn như mình đã.",
+        "timestamp": "04:10:08"
+      }
+    ],
+    "speaker": "Doctor; summary neutral",
+    "note": "'1 1,5' is an inhale:exhale ratio (lengthen the exhale), not breath-holding for 1–1.5 seconds; second half (10–15 s → 8–9 s) supported"
+  },
+  {
+    "id": "c407",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "Đó là đầu tiên là cái mag rất quan trọng",
+        "timestamp": "04:10:56"
+      },
+      {
+        "quote": "Chân ma là rất quan trọng. Sau đó đến gì ạ? Đến canxi. Xong đến vitamin D3 đúng không ạ?",
+        "timestamp": "04:11:14"
+      },
+      {
+        "quote": "Tiếp theo nữa là vitamin gì ạ? Vitamin C.",
+        "timestamp": "04:11:33"
+      },
+      {
+        "quote": "Vậy vitamin C xong tiếp nữa là đến gì ạ? Đến kẽm mà lúc đấy tôi vừa nói xong cuối cùng là gì ạ? Omega 3",
+        "timestamp": "04:11:48"
+      }
+    ],
+    "speaker": "Doctor; summary: doctor — correct",
+    "note": "Order wrong: doctor lists magie, canxi, vitamin D3, vitamin tổng hợp (nhóm B), vitamin C, kẽm, omega 3; summary puts kẽm second"
+  },
+  {
+    "id": "c447",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "vẫn nhấn mạnh là chúng ta phải ít nhất có 18 cái sản phẩm đúng không ạ? 18 sản phẩm nằm trong bảy nhóm này. Chưa kể những các cái sản phẩm mà chúng ta phải thêm đó là vitamin B7, nào là vitamin B8 đúng không ạ? Nào là bo, nào là silic. Hôm nay chúng ta lại đến Glutathion",
+        "timestamp": "04:12:52"
+      }
+    ],
+    "speaker": "Doctor; summary 'Ông' — correct",
+    "note": "Qualifier changed: 'ít nhất 18' (at least) rendered as 'khoảng 18' (about)"
+  },
+  {
+    "id": "c449",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Thế nhưng đằng sau những lời chuyển miệng hào nhoáng ấy, báo chí và truyền thông cũng ghi nhận không ít những khoảng tối hoang mang.",
+        "timestamp": "04:17:42"
+      },
+      {
+        "quote": "Vậy glutathe thực sự là gì dưới góc nhìn y khoa chân chính?",
+        "timestamp": "04:18:35"
+      }
+    ],
+    "speaker": "Khánh Lành (host) says this; summary attributes it to the doctor",
+    "note": "Speaker misattributed: 'hào nhoáng' and the call for a medical view come from Khánh Lành's segment intro"
+  },
+  {
+    "id": "c456",
+    "class": "unresolved",
+    "evidence": [],
+    "speaker": "No such statement found from any speaker",
+    "note": "After full read, no transcript statement that the reasoning is for mechanism only and not a diagnosis; appears to be a summarizer disclaimer attributed to the doctor"
+  },
+  {
+    "id": "c471",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "hai mũi hỏng này bắt đầu nó tạm thời nó khóa vào nhau.",
+        "timestamp": "04:31:05"
+      },
+      {
+        "quote": "đám vào nhau tạm thời để tạo nên một cái phức hợp gọi là GSGS.",
+        "timestamp": "04:31:49"
+      }
+    ],
+    "speaker": "Doctor; summary neutral",
+    "note": "Two spent glutathione lock together into GSSG (transcribed 'GSGS'); 'tạm thời' omitted, non-material"
+  },
+  {
+    "id": "c478",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Thì đầu tiên cái thứ nhất là liên quan tới yếu tố tinh thần",
+        "timestamp": "04:37:48"
+      },
+      {
+        "quote": "Do đồ ăn thức uống thứ nhất là do ăn uống.",
+        "timestamp": "04:38:04"
+      },
+      {
+        "quote": "Thứ hai nữa là chúng ta ngoài cái ăn uống ra thì chúng ta có gì ạ? Có thuốc.",
+        "timestamp": "04:38:36"
+      },
+      {
+        "quote": "Cái thứ ba đó là chúng ta rất chú ý là những cái kim loại nặng.",
+        "timestamp": "04:39:04"
+      }
+    ],
+    "speaker": "Doctor; summary: doctor — correct",
+    "note": "Doctor enumerates thứ nhất/thứ hai/thứ ba (ăn uống, thuốc, kim loại nặng) after first recalling mental stress; borderline since tinh thần is also called 'cái thứ nhất'"
+  },
+  {
+    "id": "c488",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "Đấy là những cơ quan mà chúng ta thực hiện rất nhiều chức năng nhưng gan là đứng số một.",
+        "timestamp": "04:41:59"
+      },
+      {
+        "quote": "Thứ hai là là gì ạ? Là thận là cái nơi thải độc đúng không ạ?",
+        "timestamp": "04:42:06"
+      }
+    ],
+    "speaker": "Doctor (the 'thận cũng thải độc' line is a '>>' interjection, likely Khánh Lành)",
+    "note": "Doctor says these organs perform many functions; only thận is called the detox site — summary turns it into all organs performing many detox functions"
+  },
+  {
+    "id": "c500",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "riêng tiể có ADN riêng nó nằm ở xung quanh này này nằm xung quanh ti thể là ADN riêng. ADN là vật chất di truyền rất quan trọng. Thế mà nằm ở sát màng ti thể này dẫn tới là các gốc tự do nó thấm qua đây thì phá hủy gì ạ? ADN",
+        "timestamp": "04:51:48"
+      },
+      {
+        "quote": "Hai là gì ạ? Là bị đột biến.",
+        "timestamp": "04:52:13"
+      }
+    ],
+    "speaker": "Doctor; summary neutral",
+    "note": "Supported; transcript says 'sát màng ti thể' without specifying inner membrane ('màng trong' is a minor added specificity)"
+  },
+  {
+    "id": "c509",
+    "class": "unresolved",
+    "evidence": [],
+    "speaker": "No such statement found from any speaker",
+    "note": "After full read, the doctor explains the whitening mechanism but never says 'đây là cơ chế, không phải lời khuyên'; disclaimer appears summarizer-added"
+  },
+  {
+    "id": "c529",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "con đường tiêm. Thì con đường này quá nguy hiểm. Con đường tiêm này thì sẽ một là sốc và hai là ngộ độc.",
+        "timestamp": "05:12:35"
+      }
+    ],
+    "speaker": "Doctor; summary: doctor — correct",
+    "note": "'quá nguy hiểm' verbatim, but definite 'sẽ một là sốc và hai là ngộ độc' softened to 'có thể gây sốc và ngộ độc'"
+  },
+  {
+    "id": "c541",
+    "class": "unresolved",
+    "evidence": [],
+    "speaker": "Not a speaker claim — editorial note by summarizer",
+    "note": "Meta note about transcript wording; no transcript content to verify"
+  }
+]

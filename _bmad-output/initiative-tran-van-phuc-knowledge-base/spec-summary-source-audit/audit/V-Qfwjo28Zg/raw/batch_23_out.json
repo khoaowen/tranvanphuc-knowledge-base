@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c551",
+    "class": "supported",
+    "evidence": [
+      {"quote": "Còn quý vị có tiền chúng ta cũng vẫn có thể mua thử về có hiệu quả", "timestamp": "05:19:55"},
+      {"quote": "nói rằng hiệu quả cao thần kỳ làm trắng da thế rồi làm thế này thế khác các thứ một cách ngoạn mục thì cái điều đó tôi cho rằng nó không phù hợp.", "timestamp": "05:20:00"}
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp: có tiền vẫn có thể mua thử, có hiệu quả; nhưng nói hiệu quả cao 'thần kỳ', trắng da 'ngoạn mục' là không phù hợp (quan điểm 'tôi cho rằng' được giữ)."
+  },
+  {
+    "id": "c552",
+    "class": "supported",
+    "evidence": [
+      {"quote": "trắng da ngoạn mục chẳng qua là vì chúng ta bổ sung vi chất tốt, chúng ta hiểu cơ chế, chúng ta bảo vệ được cơ thể chúng ta sẽ thay đổi đi rất nhiều.", "timestamp": "05:20:08"}
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Bác sĩ quy trắng da 'ngoạn mục' về bổ sung vi chất tốt, hiểu cơ chế, bảo vệ cơ thể; vế 'không phải từ một sản phẩm cụ thể' là diễn giải hợp lý của 'chẳng qua là' trong ngữ cảnh sản phẩm glutathione; tóm tắt bỏ ý 'hiểu cơ chế' (không trọng yếu)."
+  },
+  {
+    "id": "c553",
+    "class": "supported",
+    "evidence": [
+      {"quote": "toàn bộ các video trên kênh đều trị mang tính chất tham khảo và với mục đích là nâng cao nhận thức kiến thức chăm sóc sức khỏe cho cộng đồng", "timestamp": "05:22:22"},
+      {"quote": "hoàn toàn không thay thế cho việc chẩn đoán và yểu điều trị y khoa trực tiếp", "timestamp": "05:22:32"}
+    ],
+    "speaker": "Biên tập viên/người dẫn Khánh Lành nói; tóm tắt quy cho người dẫn chương trình — đúng",
+    "note": "Khớp lời lưu ý cuối chương trình; nguồn còn nêu cụ thể cả kiến thức và phác đồ vi chất của bác sĩ trong số này đều chỉ mang tính tham khảo."
+  },
+  {
+    "id": "c554",
+    "class": "supported",
+    "evidence": [
+      {"quote": "mỗi cơ thể là một trạng thái riêng biệt với những diễn biến bệnh lý vô cùng phức tạp.", "timestamp": "05:22:37"},
+      {"quote": "khi có bất kỳ vấn đề nào về sức khỏe thì quý vị chắc chắn phải đến các cơ sở y tế chuyên môn để có thể được các bác sĩ chẩn đoán và điều trị kịp thời.", "timestamp": "05:22:45"}
+    ],
+    "speaker": "Biên tập viên/người dẫn Khánh Lành nói; tóm tắt (cùng mục lưu ý) ngầm quy cho người dẫn — đúng",
+    "note": "Khớp nội dung; nguồn dùng 'chắc chắn phải', tóm tắt dùng 'cần' — mức nhấn hơi nhẹ hơn nhưng không đổi nghĩa."
+  }
+]

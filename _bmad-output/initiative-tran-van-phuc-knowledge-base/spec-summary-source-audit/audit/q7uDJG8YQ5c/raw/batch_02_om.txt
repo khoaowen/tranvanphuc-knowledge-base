@@ -1,0 +1,40 @@
+Omissions noticed in the transcript ranges covered by batch_02's sections (00:49:35 to about 01:36). Caveat: earlier claims (c001-c025, other batches) may already cover some of these.
+
+[00:49:35] Hàm định vị cuộc sống
+- [00:50:20] The life-positioning function z = a + bi itself: "hàm z = a + by thì đây chúng ta coi là một cái hàm mà định vị của chúng ta trong chính cuộc sống này." The batch has only the career anecdote (c026), not the function.
+- [00:51:18] Real part = objective/quantifiable plans; imaginary part = subjective hopes: "Vậy trong cuộc sống của chúng ta luôn luôn có một cái phần thực và có một phần ảo." Also (00:52:22) "Thế còn phần ảo cái phần số ảo này thì đấy là những cái mà chúng ta mơ ước, đấy là những cái chúng ta kỳ vọng." (example: student planning salary, house, career).
+- [00:54:02] Choosing a workplace that fits, since a wrong position holds you back: "Cho nên là khi tôi ra trường, tôi đi xin việc, tôi xin về những các cái nơi nọ nơi kia".
+- [00:55:27] The doctor rejects the prestige of surgery: "phù hợp hơn rằng là tôi khoác trên mình một cái tấm áo của bác sĩ ngoại khoa rất hoành tráng."
+
+[00:56:00] Đường hướng cuộc sống
+- [00:56:08] The life-path equation y = ax + b sin x: "những cái phương trình của cuộc sống thì đấy chính là y = ax cộng với lại b sin x."
+- [00:58:09] Applied to viewers who want short, direct episodes (A-to-B thinking): "rất mong muốn rằng những số phát sóng tôi mới Khánh lành nói ngắn gọn thôi, nói đơn giản thôi, đi thẳng vào vấn đề"
+- [00:59:09] Mostly follow the rules but bend slightly when needed, never absolute: "Nhưng đôi khi chúng ta phải hơi lấn sang làn kia một tí. Thậm chí chúng ta cũng phải hơi trèo lên vỉa hè một tí"
+- [01:02:21] Example of a wrong direction: wealthy or powerful people who end up in prison: "Cho nên có rất nhiều người họ kiếm được rất nhiều tiền họ trở thành ông nọ bà kia có những cái chức quyền cao chức trọng nhưng cuối cùng là họ phải trả cái giá bằng vào trong nhà tù."
+
+[01:03:00] Nội hàm cuộc sống
+- none significant (the string-and-pencil construction of the ellipse at 01:03:39 is illustrative only).
+
+[01:07:33] Lịch sử
+- [01:09:32] Kinds of history (official vs. marginal; serving textbooks, a class or an ideology): "Chúng ta có chính xử. Chúng ta có xử để phục vụ cho sách giáo khoa, xử để phục vụ cho một giai cấp nào đó"
+- [01:11:12] The doctor's conclusion that history is required to succeed: "muốn giỏi được thì chúng ta phải học lịch sử, muốn thành công được chúng ta cũng phải học lịch sử."
+
+[01:12:00] Bài toán thái độ
+- [01:16:25] Host Khánh Lành's commentary that attitude beats qualifications in hiring: "người ta vẫn hay nói với nhau rằng là thái độ hơn trình độ đó ạ."
+- [01:17:50] The doctor's own lesson of hard work and careful writing: "Và đây cũng chính là cái bài học cuộc sống của tôi là luôn luôn làm việc chăm chỉ, chịu khó, làm đến nơi đến chốn."
+- [01:19:37] Call to watch with a positive attitude; nearly 100 episodes so far: "chúng tôi cũng vậy, với một cái thái độ tích cực và lan tỏa những cái điều tốt đẹp" / "gần 100 số phát sóng rồi" (01:19:46)
+
+[01:20:24] Omega-3, Vitamin D3
+- [01:21:24] Background on the Inuit and heart disease since the 1970s (host): "kể từ những năm 1970 thì các nhà khoa học đã phát hiện ra rằng là người Inus sống ở Greenland hiếm khi mắc các bệnh tim mạch"
+- [01:21:54] More than 15,000 reports on omega-3 effects (host): "hơn 15.000 báo cáo đã chỉ ra rằng axit béo Omega 3 có đặc tính chống viêm, chống huyết khối, chống loạn nhịp tim, hạ lipit máu và giãn mạch"
+- [01:21:17] The question that frames the segment, from viewer "Lợn có thể bay": "Câu hỏi là ăn nhiều cá có giúp trí não thông minh hơn không thưa bác sĩ?"
+- [01:27:10] US recommendation of 600 UI/day vs. 2000 in the study: "Rõ ràng rằng cái khuyến cáo là 600 UI một ngày là khuyến cáo của Mỹ."
+- [01:28:03] The doctor's anecdotal claim of feeling about 20 years younger after the seven micronutrients, which he hedges himself: "bản thân tôi thấy tôi cũng thấy mình trẻ đi đến quãng độ 20 tuổi. Tất nhiên là nó hơi quá một chút"
+
+[01:25:23] DHA và tế bào não
+- [01:30:30] Brain nutrients (protein, sugar, fat); albumin gives little to the brain, so the brain relies on DHA: "Albumin là cái rất quan trọng nhưng mà albumin thì lại nó thực hiện nhiều chức năng quá dẫn tới là nó rất ít được dành cho não."
+
+[01:31:30] Màng tế bào / Lipton
+- [01:31:36] The doctor notes that the simple fish question needs a complex answer: "Tuy nhiên rằng câu hỏi này rất là đơn giản nhưng khi chúng ta trả lời thì nó sẽ không hề đơn giản đâu."
+- [01:32:32] Review of DNA structure and replication (base pairing A-T, G-X, hydrogen/covalent bonds): "ADN ở bên trong nhân tế bào chứa ADN. ADN là vật chất duy truyền."
+- [01:34:24] The traditional view that the nucleus is the cell's brain (set up before Lipton): "các nhà khoa học đều cho rằng nhân tế bào đây chính là bộ não của tế bào."

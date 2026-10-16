@@ -1,0 +1,6 @@
+1. [00:44:21] Hydroxyl attacks at "siêu nhanh" speed and robs everything in its path, causing disease everywhere (adds speed/severity dimension not in summary). Anchor: "Và tấn công với tốc độ siêu nhanh và"
+2. [00:45:31] Doctor endorses Khánh Lành's remark that ozone "is" H2O2 ("cũng không sai đâu") before treating ozone separately (chemically questionable statement made by the doctor, omitted). Anchor: "Ozon chính là H2O2 cũng không sai đâu."
+3. [00:48:16] Danger ranking of the first three radicals: hydroxyl #1, hydrogen peroxide #2, superoxide less dangerous (summary only gives hydroxyl as #1). Anchor: "Hyroen cái thứ hai thì lại đứng thứ hai."
+4. [00:49:57] Stated purpose of robbing: the radical takes 1e + H+ to become H2O and thus harmless (explains the "why" of the robbing cycle). Anchor: "nó trở thành gì ạ? Trở thành H2O về H2O"
+5. [00:51:16] Lipid peroxidation intermediates: L· + O2/O3 → LOO⁻, which steals H+ → LOOH; all three (L·, LOO⁻, LOOH) are radicals (summary names only L· and "lipit peroxit"). Anchor: "đến lo trừ đến loh tất cả đều là gốc tự"
+6. [00:54:09] Membrane-lipid attack described as the most terrible/brutal robbery, unstoppable, collapsing a whole system of cells (severity framing beyond the gasoline analogy). Anchor: "tấn công khủng khiếp nhất và đây là cuộc"

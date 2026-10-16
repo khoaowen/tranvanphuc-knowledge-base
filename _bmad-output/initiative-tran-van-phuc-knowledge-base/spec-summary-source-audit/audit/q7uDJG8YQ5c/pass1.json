@@ -1,0 +1,2984 @@
+[
+ {
+  "id": "c001",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người.",
+    "timestamp": "00:01:13",
+    "timestamp_recomputed": "00:01:13",
+    "occurrences": 1
+   },
+   {
+    "quote": "Đó là làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút.",
+    "timestamp": "00:14:04",
+    "timestamp_recomputed": "00:14:04",
+    "occurrences": 1
+   },
+   {
+    "quote": "nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân",
+    "timestamp": "00:14:14",
+    "timestamp_recomputed": "00:14:14",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Host Khánh Lành relays Dr. Phúc's view that 15-second/short videos serve pure entertainment; the 10–15/20-minute clips come from Dr. Phúc's later account of the host/team's initial media plan. The summary states it without attribution.",
+  "note": "Two contexts are merged. The entertainment/filling-idle-time claim is about 15-second/short videos. The 10–15 (max 20) minute clips were the team's initial plan, which Dr. Phúc criticized as giving shallow knowledge, not as entertainment. Folding them in as 'short videos for entertainment' adds a qualification."
+ },
+ {
+  "id": "c002",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tuy nhiên thì để có kiến thức rộng và sâu thì video ngắn hoàn toàn không thể đáp ứng được.",
+    "timestamp": "00:02:14",
+    "timestamp_recomputed": "00:02:14",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng mà nó sẽ không có được cái tầm chiều cao và không có được cái chiều sâu.",
+    "timestamp": "00:09:29",
+    "timestamp_recomputed": "00:09:29",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Host states it, echoed by Dr. Phúc. Summary gives no speaker (channel view).",
+  "note": "Matches."
+ },
+ {
+  "id": "c003",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng tôi sẽ dùng những video dài để có thể truyền đạt những kiến thức sức khỏe cả về chiều rộng lẫn chiều sâu",
+    "timestamp": "00:02:26",
+    "timestamp_recomputed": "00:02:26",
+    "occurrences": 1
+   },
+   {
+    "quote": "những số phát sóng đầu tiên là tôi với Khánh Lành thực hiện chỉ trong vòng cỡ độ 3 40 phút.",
+    "timestamp": "00:14:42",
+    "timestamp_recomputed": "00:14:42",
+    "occurrences": 1
+   },
+   {
+    "quote": "dài nhất như ban đầu tôi mới Khánh lành nói đó là lên tới hơn 4 tiếng rưỡi đồng hồ",
+    "timestamp": "00:17:33",
+    "timestamp_recomputed": "00:17:33",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Host (channel/ekip decision) and Dr. Phúc (record length). Summary gives the channel decision.",
+  "note": "Long-video decision, the 30–40-minute start and the >4.5-hour record are all present."
+ },
+ {
+  "id": "c004",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mới tốt nghiệp trường đạo y Hà Nội ra trường. Lúc đấy tôi trở thành bác sĩ ngoài khoa. Thời kỳ đầu tôi có đi phụ cho các thầy",
+    "timestamp": "00:09:40",
+    "timestamp_recomputed": "00:09:40",
+    "occurrences": 1
+   },
+   {
+    "quote": "Tôi nhớ mãi những ca phẫu thuật mà cắt dạ dày, ung thư dạ dày phải nạo vét hết 13 nhóm ảnh thì các thầy đã phẫu thuật đến 13 14 tiếng đồng hồ, thậm chí có ca đến 15 tiếng đồng hồ.",
+    "timestamp": "00:10:00",
+    "timestamp_recomputed": "00:10:00",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc, first person. Summary matches.",
+  "note": "'13 nhóm ảnh' is the caption's rendering of 13 lymph-node groups; durations of 13–15 hours match."
+ },
+ {
+  "id": "c005",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "bệnh nhân khi mà nôn ộc ra cả một chậu máu khi bệnh nhân bị sơ gan tăng áp lực tĩnh mạch cửa.",
+    "timestamp": "00:10:46",
+    "timestamp_recomputed": "00:10:46",
+    "occurrences": 1
+   },
+   {
+    "quote": "Một trong những biến chứng đó chính là nôn ra máu sét đánh, tức là hàng chậu máu",
+    "timestamp": "00:11:07",
+    "timestamp_recomputed": "00:11:07",
+    "occurrences": 1
+   },
+   {
+    "quote": "đi vào trên tĩnh mạch à cảnh ở trên cổ này. Sau đó đi qua tim từ tim đi xuống dưới gan, sau đó bắc cái cầu nối từ tĩnh mạch gan đi vào trong tĩnh mạch cửa",
+    "timestamp": "00:11:49",
+    "timestamp_recomputed": "00:11:49",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc (interventional radiology case). Summary matches.",
+  "note": "Jugular access, hepatic-to-portal vein bridge with stent ('đặt cái stand') and cirrhosis/portal hypertension with massive hematemesis all present."
+ },
+ {
+  "id": "c006",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thì gan bệnh nhân đang sơ giống như là cái quả bóng cao su. Cho nên để cái kim đó mà xuyên được qua cái nhuogan đấy là cả một cái quá trình rất khó.",
+    "timestamp": "00:12:11",
+    "timestamp_recomputed": "00:12:11",
+    "occurrences": 1
+   },
+   {
+    "quote": "Thế thì tổng thời gian, tất cả thời gian chúng tôi làm lên tới 13 tiếng đồng hồ.",
+    "timestamp": "00:12:37",
+    "timestamp_recomputed": "00:12:37",
+    "occurrences": 1
+   },
+   {
+    "quote": "chúng tôi đã làm được một cái kỹ thuật đó là đặt được cái cầu nối và giải phóng cho bệnh nhân cái tình trạng nôn ra máu, sét đánh.",
+    "timestamp": "00:13:24",
+    "timestamp_recomputed": "00:13:24",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Fibrotic liver ('like a rubber ball'), 13 hours in total and a successful outcome are present. The transcript also says finding the vessel was very hard and that two doctors led the case."
+ },
+ {
+  "id": "c007",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nếu nói rằng có bao nhiêu số nguyên tố thì chúng ta trả lời rằng có vô hạn số nguyên tố.",
+    "timestamp": "00:23:41",
+    "timestamp_recomputed": "00:23:41",
+    "occurrences": 1
+   },
+   {
+    "quote": "Thứ hai là tổng số điểm trong bất kỳ một bề mặt nào hay bất kỳ một đường thẳng nào cũng đều vô hạn",
+    "timestamp": "00:26:16",
+    "timestamp_recomputed": "00:26:16",
+    "occurrences": 1
+   },
+   {
+    "quote": "Khái niệm thứ ba trong toán học dạy chúng ta đó là số lượng các đường cong.",
+    "timestamp": "00:25:44",
+    "timestamp_recomputed": "00:25:44",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. The prime-number definition ('chia hết cho một và chính nó') is first given by host Khánh Lành and repeated by Dr. Phúc.",
+  "note": "All three infinity examples match, including points on any line and on the surface of 3D objects."
+ },
+ {
+  "id": "c008",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Định lý bất toàn là của nhà toán học người Đức Golden. Hôm trước tôi mới Khánh Lành có nói đấy. Phát biểu năm 1931.",
+    "timestamp": "00:28:36",
+    "timestamp_recomputed": "00:28:36",
+    "occurrences": 1
+   },
+   {
+    "quote": "Thế thì cái định lý bất toàn đó nó thể hiện rằng thế giới tự nhiên của chúng ta có rất nhiều cái vô hạn.",
+    "timestamp": "00:31:23",
+    "timestamp_recomputed": "00:31:23",
+    "occurrences": 1
+   },
+   {
+    "quote": "thấy rằng thế giới tự nhiên là vô hạn, khả năng con người cũng là vô hạn.",
+    "timestamp": "00:30:59",
+    "timestamp_recomputed": "00:30:59",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The transcript name is 'Golden' (caption); the summary normalizes it to Kurt Gödel. German nationality and the year 1931 match as spoken."
+ },
+ {
+  "id": "c009",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái khả năng để mà chúng ta hồi phục trong cơ thể của chúng ta cũng là vô hạn. Chẳng qua hữu hạn là chúng ta giới hạn nó thôi.",
+    "timestamp": "00:27:11",
+    "timestamp_recomputed": "00:27:11",
+    "occurrences": 1
+   },
+   {
+    "quote": "Điều đấy chứng tỏ rằng là cái khả năng hồi phục ngay chính trong cơ thể của chúng ta cũng là vô hạn.",
+    "timestamp": "00:28:02",
+    "timestamp_recomputed": "00:28:02",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches."
+ },
+ {
+  "id": "c010",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Một người một bệnh nhân có thể là mắc căn bệnh ung thư tưởng là chúng ta đi tới cửa tử tức là đi đến cuối đoạn đầu đài",
+    "timestamp": "00:27:23",
+    "timestamp_recomputed": "00:27:23",
+    "occurrences": 1
+   },
+   {
+    "quote": "biết bình chỉnh lại cái lối sống của mình, biết buông bỏ, biết bổ sung đủ vi chất, biết sống một cuộc sống khoa học và lạc quan.",
+    "timestamp": "00:27:36",
+    "timestamp_recomputed": "00:27:36",
+    "occurrences": 1
+   },
+   {
+    "quote": "Bổ sung ít nhất bảy vi chất, chúng ta sống tốt, thực hành mọi lối sống tích cực và khoa học thì người đó hoàn toàn có thể thoát khỏi căn bệnh ung thư.",
+    "timestamp": "00:27:44",
+    "timestamp_recomputed": "00:27:44",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The 'hoàn toàn có thể' hedge is kept. The transcript says 'thoát khỏi căn bệnh ung thư' and the summary says 'thoát khỏi bệnh tật'; the meaning is the same."
+ },
+ {
+  "id": "c011",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "đàn piano là chúng ta có 88 phím đúng không ạ? Trong đó có 52 phím trắng và 36 phím đen.",
+    "timestamp": "00:31:39",
+    "timestamp_recomputed": "00:31:39",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches."
+ },
+ {
+  "id": "c012",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta viết một bản nhạc gồm có 50 nốt cho 52 phím trắng của đàn piano.",
+    "timestamp": "00:31:50",
+    "timestamp_recomputed": "00:31:50",
+    "occurrences": 1
+   },
+   {
+    "quote": "50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử.",
+    "timestamp": "00:32:10",
+    "timestamp_recomputed": "00:32:10",
+    "occurrences": 1
+   },
+   {
+    "quote": "chỉ cần 50 nốt thôi là chúng ta đã có gấp 50 lần rồi. Số nguyên tử trong hệ mặt trời của chúng ta đã gấp 50 lần",
+    "timestamp": "00:32:40",
+    "timestamp_recomputed": "00:32:40",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The numbers match as spoken. The speaker uses both 'hệ vũ trụ' and 'hệ mặt trời' for the 50^51 atom count; the summary uses 'hệ mặt trời'. No correction applied."
+ },
+ {
+  "id": "c013",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Thế và như thế này thì tôi có thể lấy một số những cái ví dụ để chúng ta dễ hình dung.",
+    "timestamp": "00:44:30",
+    "timestamp_recomputed": "00:44:30",
+    "occurrences": 1
+   },
+   {
+    "quote": "rõ ràng rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật của hai người của Moza và của Bethoven thì chúng ta thấy trải nghiệm rất rộng",
+    "timestamp": "00:46:24",
+    "timestamp_recomputed": "00:46:24",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. The summary's framing is its own.",
+  "note": "Reframed: Dr. Phúc gives Mozart/Beethoven/Kant as examples of the life-value function (short L, wide experience and high H) at 00:44:34, after the V-function explanation. He does not present them as proof of 'sức sáng tạo khổng lồ từ những giới hạn này' (the piano-key limits)."
+ },
+ {
+  "id": "c014",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu nói về chiều dài về tuổi thọ thì Moa có 35 tuổi thôi. 35 tuổi nhưng mà ông viết được bao nhiêu bản nhạc? Ông viết được 22 vở Ober.",
+    "timestamp": "00:44:42",
+    "timestamp_recomputed": "00:44:42",
+    "occurrences": 1
+   },
+   {
+    "quote": "ví dụ cây sáo thần của Moza thì quá hay.",
+    "timestamp": "00:45:02",
+    "timestamp_recomputed": "00:45:02",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng có 41 bản giao hưởng và đặc biệt công secto của ông ấy 42 bản công sexo.",
+    "timestamp": "00:45:34",
+    "timestamp_recomputed": "00:45:34",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Numbers match as spoken. The summary leaves out Dr. Phúc's aside that Mozart did not focus mainly on symphonies."
+ },
+ {
+  "id": "c015",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Hôm trước tôi nói Behoven thì sống bao nhiêu tuổi ạ? 56 tuổi",
+    "timestamp": "00:45:52",
+    "timestamp_recomputed": "00:45:52",
+    "occurrences": 1
+   },
+   {
+    "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9 mà nhân loại sẽ không bao giờ vượt qua được",
+    "timestamp": "00:46:05",
+    "timestamp_recomputed": "00:46:05",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Host Khánh Lành answers 'chín bản' and Dr. Phúc confirms it.",
+  "note": "Hardened: the transcript calls only Symphony No. 9 the peak ('đỉnh cao nhất'). The summary's '9 bản giao hưởng đỉnh cao' extends 'peak' to all nine. 56 years and 9 symphonies match."
+ },
+ {
+  "id": "c016",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ông có tuổi thọ tương đối khá, tức là lên tới 80.",
+    "timestamp": "00:47:27",
+    "timestamp_recomputed": "00:47:27",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng mà Can là một nhà triết học cổ điển Đức",
+    "timestamp": "00:48:04",
+    "timestamp_recomputed": "00:48:04",
+    "occurrences": 1
+   },
+   {
+    "quote": "ông cũng là một cái người sáng lập ra cái trường phái Mỹ học của Đức, cổ điển của Đức cũng ông cũng là một nhà triết học cuối cùng của cái chủ nghĩa khai sáng",
+    "timestamp": "00:48:19",
+    "timestamp_recomputed": "00:48:19",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The transcript name is 'Can' (caption); the summary normalizes it to Immanuel Kant. 'Sáng lập' is paraphrased as 'đặt nền tảng'."
+ },
+ {
+  "id": "c017",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu chúng ta xây dựng một cái bài toán về giá trị cuộc sống, giá trị cuộc sống của tôi hay của Khánh lành hay của bất kỳ quý vị khán giả nào thì tôi gọi nó là một cái hàm V chẳng hạn.",
+    "timestamp": "00:34:05",
+    "timestamp_recomputed": "00:34:05",
+    "occurrences": 1
+   },
+   {
+    "quote": "Giả sử ta hoàn toàn có thể lập ra được một cái hàm về giá trị cuộc sống bao gồm có ba cái này. Một là chiều dài, hai là chiều rộng, ba là chiều cao.",
+    "timestamp": "00:34:48",
+    "timestamp_recomputed": "00:34:48",
+    "occurrences": 1
+   },
+   {
+    "quote": "Đây là hàm đa biến mà chúng ta lập được.",
+    "timestamp": "00:35:25",
+    "timestamp_recomputed": "00:35:25",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "V is the sum of the length (L), width ('VDUP' in the caption, i.e. W) and height (H) functions, each multivariable. Presented hypothetically ('Giả sử')."
+ },
+ {
+  "id": "c018",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế chiều dài tôi tượng trưng cho chẳng hạn như về mặt tuổi tác chẳng hạn.",
+    "timestamp": "00:34:56",
+    "timestamp_recomputed": "00:34:56",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches."
+ },
+ {
+  "id": "c019",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi.",
+    "timestamp": "00:36:28",
+    "timestamp_recomputed": "00:36:28",
+    "occurrences": 1
+   },
+   {
+    "quote": "tôi tin rằng là trong một cái tương lai của thế kỷ 21 này là chúng ta hoàn toàn làm được, sẽ giúp được cho con người sống đến 150 tuổi",
+    "timestamp": "00:36:58",
+    "timestamp_recomputed": "00:36:58",
+    "occurrences": 1
+   },
+   {
+    "quote": "Mục tiêu tôi với Khánh Lành với toàn bộ ekip làm ở đây muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi.",
+    "timestamp": "00:47:48",
+    "timestamp_recomputed": "00:47:48",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "The 130–175 figures are Dr. Phúc's personal hope ('tôi vẫn hy vọng'). Science is only said to trend toward passing 100 ('một số những nhà khoa học, một số những quốc gia'). The 70–80 view is the goal of Dr. Phúc, the host and the team. The summary attributes all of it to 'khoa học thế kỷ 21'.",
+  "note": "Misattributed: personal hope and channel goal are credited to 21st-century science. Hedges dropped: 'tôi vẫn hy vọng', 'tôi tin rằng'. The 60/70/100-year traditional views (host's answer and the doctor's 100-year limit) are present."
+ },
+ {
+  "id": "c020",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "có một người họ hàng của tôi đấy là một người anh trong họ khi thời điểm đó gọi là anh như anh cũng là hơn 70 tuổi thì lúc ấy hơn 70 tuổi thì anh bị phát hiện ra ung thư dạ dày.",
+    "timestamp": "00:38:14",
+    "timestamp_recomputed": "00:38:14",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng mà anh ấy lại bị ung thư vào cái giai đoạn cuối.",
+    "timestamp": "00:38:43",
+    "timestamp_recomputed": "00:38:43",
+    "occurrences": 1
+   },
+   {
+    "quote": "rằng hơn một năm trời đó nó kéo dài, nó dài nó có ý nghĩa hơn rất rất nhiều những cái năm về trước.",
+    "timestamp": "00:41:08",
+    "timestamp_recomputed": "00:41:08",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc, about his relative. Summary matches.",
+  "note": "Story details match. In the transcript it illustrates chiều rộng (W: 'chiều dài cuộc sống không quan trọng bằng chiều rộng cuộc sống'), not L. 'Vô cùng dài' slightly amplifies 'nó dài nó có ý nghĩa hơn rất rất nhiều'."
+ },
+ {
+  "id": "c021",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn chiều rộng đó chính là tôi tượng trưng cho cái sự trải nghiệm về cuộc sống.",
+    "timestamp": "00:35:01",
+    "timestamp_recomputed": "00:35:01",
+    "occurrences": 1
+   },
+   {
+    "quote": "không muốn vượt qua khó khăn, không muốn tìm hiểu, không muốn thử thách gì hết thì người ta chỉ muốn ăn sẵn.",
+    "timestamp": "00:37:38",
+    "timestamp_recomputed": "00:37:38",
+    "occurrences": 1
+   },
+   {
+    "quote": "mà tôi cần một cái cuộc sống trải nghiệm, một cái cuộc sống mà chính tôi dấn thân vào đó tạo nên được những cái giá trị gì trong cuộc sống.",
+    "timestamp": "00:41:44",
+    "timestamp_recomputed": "00:41:44",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Experience, commitment ('dấn thân') and challenge are present."
+ },
+ {
+  "id": "c022",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn chiều cao đó chính là tượng trưng cho cái sự hiểu biết và cống hiến.",
+    "timestamp": "00:35:10",
+    "timestamp_recomputed": "00:35:10",
+    "occurrences": 1
+   },
+   {
+    "quote": "đấy chính là cái trình độ, cái tư chất, cái kiến thức của chúng ta đến đâu.",
+    "timestamp": "00:43:21",
+    "timestamp_recomputed": "00:43:21",
+    "occurrences": 1
+   },
+   {
+    "quote": "hiểu biết của cuộc sống để phục vụ nhân loại, phục vụ xã hội",
+    "timestamp": "00:43:38",
+    "timestamp_recomputed": "00:43:38",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The transcript calls H 'chiều cao, chiều sâu'."
+ },
+ {
+  "id": "c023",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ta có thể coi đó chính là A cộng với lại BY. a + by. Trong đó chúng ta lấy giá trị đây là a và b là hai giá trị lớn hơn 0 đi.",
+    "timestamp": "00:50:06",
+    "timestamp_recomputed": "00:50:06",
+    "occurrences": 1
+   },
+   {
+    "quote": "Đây là hàm mà định vị cuộc sống.",
+    "timestamp": "00:50:27",
+    "timestamp_recomputed": "00:50:27",
+    "occurrences": 1
+   },
+   {
+    "quote": "Hàm định vị cuộc sống ở đây nó có cái số y tức là số ảo, số ảo, số phức.",
+    "timestamp": "00:50:49",
+    "timestamp_recomputed": "00:50:49",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches the caption's 'y' as the imaginary unit. No correction applied."
+ },
+ {
+  "id": "c024",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ra trường làm ở cơ quan nào, lương bao nhiêu, thế rồi thì tiền thưởng áng chừng bao nhiêu, bao nhiêu năm xây được nhà, bao nhiêu năm mua được nhà cửa.",
+    "timestamp": "00:51:48",
+    "timestamp_recomputed": "00:51:48",
+    "occurrences": 1
+   },
+   {
+    "quote": "Phần A là những cái mà chúng ta tính toán, chúng ta định lượng, chúng ta cái phần này là rất là khách quan.",
+    "timestamp": "00:52:05",
+    "timestamp_recomputed": "00:52:05",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Choice of major/school, workplace, salary, bonus and house are all present."
+ },
+ {
+  "id": "c025",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn phần ảo cái phần số ảo này thì đấy là những cái mà chúng ta mơ ước, đấy là những cái chúng ta kỳ vọng.",
+    "timestamp": "00:52:22",
+    "timestamp_recomputed": "00:52:22",
+    "occurrences": 1
+   },
+   {
+    "quote": "sau này chúng ta phát triển lên làm lãnh đạo, làm giám đốc, làm vân vân",
+    "timestamp": "00:52:36",
+    "timestamp_recomputed": "00:52:36",
+    "occurrences": 1
+   },
+   {
+    "quote": "chúng ta xây dựng được cái hình tượng, hình ảnh của mình vân vân. Thì đấy chính là cái phần ảo.",
+    "timestamp": "00:52:46",
+    "timestamp_recomputed": "00:52:46",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches. The transcript adds that the imaginary part is uncertain ('Nhưng phần ảo thì chúng ta chưa chắc')."
+ },
+ {
+  "id": "c026",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mơ trở thành bác sĩ về y học cổ truyền. Tôi lao vào tôi học y học cổ truyền. Sau đó thì tôi lại mơ trở thành bác sĩ sản khoa.",
+    "timestamp": "00:54:42",
+    "timestamp_recomputed": "00:54:42"
+   },
+   {
+    "quote": "Tôi lại thích ngoại khoa, tôi làm ngoại khoa. Xong cuối cùng tôi mới thấy hóa ra làm bác sĩ Quang là phù hợp nhất.",
+    "timestamp": "00:54:53",
+    "timestamp_recomputed": "00:54:53"
+   },
+   {
+    "quote": "những cái hình ảnh đen trắng trên phim X Quang hay trên siêu âm hay trên CT cộng ngẩng từ.",
+    "timestamp": "00:55:04",
+    "timestamp_recomputed": "00:55:04"
+   }
+  ],
+  "speaker": "Doctor (Trần Văn Phúc), first-person anecdote; summary attributes to doctor - matches",
+  "note": "Transcript says 'bác sĩ Quang' (X-quang/điện quang, caption-garbled); the label 'Chẩn đoán hình ảnh' is the summary's gloss; image modalities and 'cứu giúp những cái bệnh nhân đang ở bên bờ của vực thẳm' present."
+ },
+ {
+  "id": "c027",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và cuộc sống cũng không bao giờ đơn giản là y = x hay y = sin x mà nó là chập của rất nhiều những các cái con đường khác nhau.",
+    "timestamp": "01:00:27",
+    "timestamp_recomputed": "01:00:27"
+   },
+   {
+    "quote": "Cuộc sống nó là chập của tất cả những các cái đường này lại với nhau nó vô cùng phức tạp chứ không đơn giản thế.",
+    "timestamp": "00:58:31",
+    "timestamp_recomputed": "00:58:31"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed (doctor's section) - matches",
+  "note": "Matches; transcript says 'chập của ... con đường/đường', summary renders as 'tổng hợp ... đường đồ thị'."
+ },
+ {
+  "id": "c028",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ông Newton có một cái câu nói có thể nói rằng là trở thành một chân lý rất hay.",
+    "timestamp": "00:57:07",
+    "timestamp_recomputed": "00:57:07"
+   },
+   {
+    "quote": "trong thế giới của chúng ta cái gì đi lên nó sẽ phải đi xuống và đi xuống rồi nó sẽ đi lên.",
+    "timestamp": "00:57:15",
+    "timestamp_recomputed": "00:57:15"
+   }
+  ],
+  "speaker": "Doctor quoting Newton; summary attributes to Newton - matches",
+  "note": "Doctor frames it as a Newton 'câu nói' that became 'một chân lý', summary calls it 'quy luật của Newton'; substance matches."
+ },
+ {
+  "id": "c029",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "các bạn trẻ luôn luôn nghĩ nó như thế và các bạn ấy muốn đốt cháy giai đoạn.",
+    "timestamp": "00:58:02",
+    "timestamp_recomputed": "00:58:02"
+   },
+   {
+    "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được.",
+    "timestamp": "00:58:38",
+    "timestamp_recomputed": "00:58:38"
+   },
+   {
+    "quote": "chúng ta sẽ xuất hiện những đoạn đường bị tắc đường. Chúng ta có những đoạn đường mà người ta đang sửa chữa. Vậy chúng ta luôn luôn phải chọn đường vòng đi.",
+    "timestamp": "00:58:55",
+    "timestamp_recomputed": "00:58:55"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Content matches, but the summary adds the hedge 'thường thất bại'. The doctor speaks in absolutes: 'cách tư duy sai', 'thất bại không bao giờ đi được', 'đi theo đường thẳng luôn luôn thất bại' (01:00:20)."
+ },
+ {
+  "id": "c030",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cho nên là chúng ta hãy học theo cái cách của một cái dòng nước.",
+    "timestamp": "00:59:43",
+    "timestamp_recomputed": "00:59:43"
+   },
+   {
+    "quote": "Bởi vì nó gặp tảng đá, nếu nó đi thẳng thì nó sẽ bị tắc lại.",
+    "timestamp": "01:00:01",
+    "timestamp_recomputed": "01:00:01"
+   },
+   {
+    "quote": "Vậy dòng nước đó để đi được ra biển nhanh nhất thì dòng nước đó luôn luôn phải đi theo những các cái đường cong chứ không bao giờ đi bằng cái đường thẳng hết cả.",
+    "timestamp": "01:00:09",
+    "timestamp_recomputed": "01:00:09"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "The word 'flexible' is not spoken (summary's label). The doctor frames the benefit as 'nhanh nhất' and 'hiệu quả' (bending the rules a little, 00:59:36)."
+ },
+ {
+  "id": "c031",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta phải xác định cái hướng đi. Cái hướng đi mới là cái cốt lõi. Còn cái phương pháp đi, cái cách thức đi thì nó không quan trọng bằng hướng đi.",
+    "timestamp": "01:00:55",
+    "timestamp_recomputed": "01:00:55"
+   },
+   {
+    "quote": "chọn hướng đi sai thì dù cho phương tiện đi có tốt đến mấy đi chăng nữa chúng ta cũng bị lạc đường.",
+    "timestamp": "01:01:37",
+    "timestamp_recomputed": "01:01:37"
+   },
+   {
+    "quote": "chúng ta phải xác định được hướng đi, đường đi, cách thức đi. Thì trong đó hướng đi là cái quan trọng số một.",
+    "timestamp": "01:01:49",
+    "timestamp_recomputed": "01:01:49"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c032",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trị tuyệt đối của F1 cộng với trị tuyệt đối của MF2 bằng 2a. Trong đó a là số thực lớn hơn 0.",
+    "timestamp": "01:03:11",
+    "timestamp_recomputed": "01:03:11"
+   },
+   {
+    "quote": "Và nội hàm cuộc sống của chúng ta nó nằm ở bên trong cái này. Đây chính là một cái hàm về nội hàm cuộc sống.",
+    "timestamp": "01:04:14",
+    "timestamp_recomputed": "01:04:14"
+   },
+   {
+    "quote": "Phương trình là gì? Có nhớ không ạ? X bình trên gì ạ? Trên a bình cộng với gì ạ?",
+    "timestamp": "01:06:50",
+    "timestamp_recomputed": "01:06:50"
+   }
+  ],
+  "speaker": "Doctor; the canonical-form equation is built in a Q&A with host Khánh Lành ('Y bình', 'Bằng 1'); summary unattributed",
+  "note": "The caption renders |MF1| as 'F1' and 'y²/b²' as 'y bình trên bình'. The doctor also says 'MF1 cộng MF2 = 2A' (01:04:09). The formulas match."
+ },
+ {
+  "id": "c033",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Điểm tựa thứ nhất đấy chính là gia đình. Gia đình ở đây là F1. Điểm tựa thứ hai đấy chính là nhà trường. Nhà trường đấy chính là F2.",
+    "timestamp": "01:04:34",
+    "timestamp_recomputed": "01:04:34"
+   },
+   {
+    "quote": "Đó là nhà trường từ trong sách vở, nhà trường từ trong chính những các cái ngôi trường của mình, nhà trường từ những người thầy của mình,",
+    "timestamp": "01:05:27",
+    "timestamp_recomputed": "01:05:27"
+   },
+   {
+    "quote": "Đó là những cái gia đình mà ở đấy phải tràn ngập cái tình yêu thương, hạnh phúc. Gia đình phải là cái nơi để mà trở về.",
+    "timestamp": "01:06:04",
+    "timestamp_recomputed": "01:06:04"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches. The family traits are phrased as an aspiration ('xã hội phải xây dựng được những gia đình tốt ... phải tràn ngập'); 'bàn đạp để phát triển' is at 01:06:13 and the school levels (mẫu giáo to đại học) at 01:05:11."
+ },
+ {
+  "id": "c034",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Còn chỉ cần một trong hai điểm tựa này không vững chắc thì chúng ta không tạo ra được cái nội hàm cuộc sống tốt được.",
+    "timestamp": "01:05:45",
+    "timestamp_recomputed": "01:05:45"
+   },
+   {
+    "quote": "Chúng ta chỉ có gia đình tốt thôi chưa đủ, chúng ta chỉ có nhà trường tốt thôi chưa đủ mà chúng ta phải có hai cái phối hợp với nhau thật tốt.",
+    "timestamp": "01:05:52",
+    "timestamp_recomputed": "01:05:52"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c035",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "để chúng ta trở thành người giỏi giang, để chúng ta thành đạt được một trong những môn chúng ta phải nắm được rất chắc và chúng ta phải giỏi đấy chính là môn lịch sử.",
+    "timestamp": "01:07:58",
+    "timestamp_recomputed": "01:07:58"
+   },
+   {
+    "quote": "Một người không có kiến thức lịch sử thì người đó rất khó để phát triển được toàn diện và để giỏi giang và có được sâu sắc. Và phải nói rằng lịch sử là môn quá khó.",
+    "timestamp": "01:08:11",
+    "timestamp_recomputed": "01:08:11"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c036",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "ví dụ như là các nhà phân tích tài chính ở trung tâm tài chính sừng sỏ nhất nước Mỹ,",
+    "timestamp": "01:08:26",
+    "timestamp_recomputed": "01:08:26"
+   },
+   {
+    "quote": "những nhà phân tích tài chính hàng đầu nước Mỹ từ xưa tới nay luôn xuất phát đều là những cái nhà sử học.",
+    "timestamp": "01:08:31",
+    "timestamp_recomputed": "01:08:31"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "The quantifier changed. The doctor says 'luôn xuất phát đều là' nhà sử học (absolute) and the summary softens it to 'Nhiều'. The transcript also says 'trung tâm tài chính sừng sỏ nhất nước Mỹ' (singular), not 'các trung tâm'."
+ },
+ {
+  "id": "c037",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tôi lấy ví dụ như là Đại tướng Võ Nguyên Giáp chỉ là một thầy giáo dị sử nhưng Đại tướng Võ Nguyên Giáp là một nhà sử học.",
+    "timestamp": "01:09:09",
+    "timestamp_recomputed": "01:09:09"
+   },
+   {
+    "quote": "Do vậy khi mà Đại tướng Võ Nguyên Giáp chuyển sang làm quân sự là một đại tướng, làm một tướng chỉ huy thì ngay lập tức trở thành một người rất tài giỏi.",
+    "timestamp": "01:09:15",
+    "timestamp_recomputed": "01:09:15"
+   }
+  ],
+  "speaker": "Doctor; summary attributes to doctor - matches",
+  "note": "'dị sử' is the caption for 'dạy sử'. Matches."
+ },
+ {
+  "id": "c038",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Vậy người giỏi lịch sử là người phải biết nhìn ở rất nhiều góc độ.",
+    "timestamp": "01:09:57",
+    "timestamp_recomputed": "01:09:57"
+   },
+   {
+    "quote": "Nó đòi hỏi cái người đó phải tích lũy cực kỳ nhiều kiến thức trên thông tiên văn, dưới tường địa lý thì người đấy mới giỏi được lịch sử.",
+    "timestamp": "01:10:11",
+    "timestamp_recomputed": "01:10:11"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c039",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tuy nhiên là trong xã hội chúng ta nếu đưa lịch sử ra thì sẽ rất dễ cãi nhau.",
+    "timestamp": "01:10:30",
+    "timestamp_recomputed": "01:10:30"
+   },
+   {
+    "quote": "Vì chúng ta đang giới hạn cái nhận thức của chúng ta đang bị cực đoan hóa và đang bị hiểu vấn đề. Nó không có kiến thức toàn diện.",
+    "timestamp": "01:10:41",
+    "timestamp_recomputed": "01:10:41"
+   },
+   {
+    "quote": "Cho nên là trong các cái chương trình thì chúng tôi và Khánh lành sẽ rất ít đưa những cái vấn đề lịch sử",
+    "timestamp": "01:10:48",
+    "timestamp_recomputed": "01:10:48"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches. The doctor also says he 'gần như không đưa' history topics (01:10:58)."
+ },
+ {
+  "id": "c040",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong cái bảng chữ cái tiếng Anh thì có bao nhiêu chữ tất cả Khánh Lành? có 26 chữ cái.",
+    "timestamp": "01:12:22",
+    "timestamp_recomputed": "01:12:22"
+   },
+   {
+    "quote": "là chúng ta quy ước là chữ A thì tương đương với lại 1%,",
+    "timestamp": "01:12:30",
+    "timestamp_recomputed": "01:12:30"
+   }
+  ],
+  "speaker": "Doctor sets the convention as homework for host Khánh Lành; summary unattributed",
+  "note": "A sentence fragment that continues into c041. The convention matches (B=2%, C=3% at 01:12:35; X, Y, Z = 24/25/26% at 01:12:50)."
+ },
+ {
+  "id": "c041",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Vâng ạ. Thì tôi có tổng kết số phần trăm là 98%.",
+    "timestamp": "01:13:27",
+    "timestamp_recomputed": "01:13:27"
+   },
+   {
+    "quote": "Dạ không. 72% thôi quý vị. 72% cũng không phải là quá cao đúng không ạ?",
+    "timestamp": "01:14:33",
+    "timestamp_recomputed": "01:14:33"
+   },
+   {
+    "quote": "Luck quý vị thử đoán xem bao nhiêu phần trăm ạ? 47%.",
+    "timestamp": "01:14:08",
+    "timestamp_recomputed": "01:14:08"
+   }
+  ],
+  "speaker": "Host Khánh Lành reports the sums (homework set by the doctor); the doctor states 'Bằng 54' for love; summary unattributed",
+  "note": "All values match: hardwork 98% (01:13:27), knowledge 96% (01:13:48), love 54 (01:13:57), luck 47%, money 72%, leadership 89% (01:14:55), sex 48% (01:15:09). The summary leaves out that the host computed them."
+ },
+ {
+  "id": "c042",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đó là attitude dịch là thái độ 100%.",
+    "timestamp": "01:15:31",
+    "timestamp_recomputed": "01:15:31"
+   },
+   {
+    "quote": "Nhưng cái điều cuối cùng đó chính là cái thái độ mới đạt tới 100%.",
+    "timestamp": "01:18:29",
+    "timestamp_recomputed": "01:18:29"
+   }
+  ],
+  "speaker": "Host reports the sum; the doctor restates it - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c043",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "năng lực thể hiện khả năng bạn có thể làm được. Động lực quyết định những gì bạn làm nhưng chỉ có thái độ mới tạo nên kết quả làm tốt hay là không tốt.",
+    "timestamp": "01:15:57",
+    "timestamp_recomputed": "01:15:57"
+   },
+   {
+    "quote": "Động lực thể hiện rằng chúng ta làm nó cụ thể như thế nào nhưng mà cái thái độ mới quyết định được rằng là chúng ta thành công hay thất bại.",
+    "timestamp": "01:18:55",
+    "timestamp_recomputed": "01:18:55"
+   }
+  ],
+  "speaker": "Doctor's text message, read aloud verbatim by host Khánh Lành, then restated by the doctor; summary unattributed",
+  "note": "Matches. The adjectives 'nghiêm túc, tích cực' are not part of this formula; the doctor uses them elsewhere ('thái độ của tôi nghiêm túc' 01:18:20, 'thái độ tích cực' 01:19:38)."
+ },
+ {
+  "id": "c044",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "tức là năm 2025 thì một báo cáo mới được đăng trên tạp chí Nature đăng tải một nghiên cứu thực hiện trên 700 người từ 70 tuổi trở lên,",
+    "timestamp": "01:22:14",
+    "timestamp_recomputed": "01:22:14"
+   },
+   {
+    "quote": "yêu cầu họ bổ sung 1000 mg omega 3 mỗi ngày cùng với 2000 đơn vị vitamin D. Tập thể dục trong 30 phút nữa ạ. Kết quả cho thấy tốc độ lão hóa đã giảm đi 10%.",
+    "timestamp": "01:22:24",
+    "timestamp_recomputed": "01:22:24"
+   },
+   {
+    "quote": "đầu năm nay 2025 vào tháng 2 thực hiện trên 700 người ở trên 70 tuổi",
+    "timestamp": "01:23:03",
+    "timestamp_recomputed": "01:23:03"
+   }
+  ],
+  "speaker": "Host Khánh Lành introduces the study; the doctor restates it (date 'tháng 2', 'vitamin D3', 'tuổi thọ ... xu hướng tăng lên 10%'); summary unattributed",
+  "note": "Matches. The host's date is garbled ('ngày mùng tháng năm nay'); 'tháng 2' and 'vitamin D3' come from the doctor's restatement. The doctor glosses the result as 'cái tuổi thọ của chúng ta có xu hướng tăng lên 10%' (01:23:41)."
+ },
+ {
+  "id": "c045",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nếu như vitamin D mà ta đưa lên từ 50 cho đến 70 ng/ml ở trong máu ta xét nghiệm thì đây chính là cái con số lý tưởng",
+    "timestamp": "01:24:12",
+    "timestamp_recomputed": "01:24:12"
+   },
+   {
+    "quote": "kinh nghiệm của tôi thì bắt đầu tôi thấy rằng thậm chí là ta đưa từ 70 cho đến 80 ng/ml thì đây là con số phải nói là tuyệt vời.",
+    "timestamp": "01:24:29",
+    "timestamp_recomputed": "01:24:29"
+   }
+  ],
+  "speaker": "Doctor: 50-70 is framed as the view of 'nhiều chuyên gia về dinh dưỡng' plus 'quan điểm của tôi'; 70-80 as 'kinh nghiệm của tôi'. The summary states both as fact",
+  "note": "The numbers match, but the summary drops the attribution hedges 'kinh nghiệm của tôi' (70-80) and 'quan điểm của tôi'/experts (50-70). The transcript also says 'vitamin D', not specifically D3."
+ },
+ {
+  "id": "c046",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đây là cái tôi ví rằng nó là thuốc giảm đau tự nhiên rất thần kỳ.",
+    "timestamp": "01:25:18",
+    "timestamp_recomputed": "01:25:18"
+   },
+   {
+    "quote": "Quý vị đang phải chịu những cơn đau đớn về mặt thể xác bao gồm đau xương khớp khớp, đau khắp cơ thể, đau dạ dày ruột, đau đại tràng,",
+    "timestamp": "01:25:23",
+    "timestamp_recomputed": "01:25:23"
+   },
+   {
+    "quote": "Những người đang bị trầm cảm, những người đang bị căng thẳng, những người đang bị sang chấn tâm lý,",
+    "timestamp": "01:26:05",
+    "timestamp_recomputed": "01:26:05"
+   }
+  ],
+  "speaker": "Doctor ('tôi ví'); host supplies 'Tam giác vàng'/'giảm đau' in Q&A; summary unattributed",
+  "note": "Supported as the doctor's simile ('như'). The relief is tied to 'đưa được vitamin D lên ngưỡng lý tưởng, chúng ta bổ sung các cái vi chất đúng và đủ' (01:25:43). 'bế tắc' is at 01:26:14."
+ },
+ {
+  "id": "c047",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "DHA là một cái axit béo không no nhưng mà có đặc điểm là nhiều gì ạ?",
+    "timestamp": "01:29:04",
+    "timestamp_recomputed": "01:29:04"
+   },
+   {
+    "quote": "DHA nó quá quý cho nên là vì quý như thế nó được coi là vàng của não và mắt.",
+    "timestamp": "01:31:02",
+    "timestamp_recomputed": "01:31:02"
+   },
+   {
+    "quote": "cá biển và cá bản biển sâu thì lúc đấy chúng ta mới có được rất rất nhiều DHA.",
+    "timestamp": "01:31:23",
+    "timestamp_recomputed": "01:31:23"
+   }
+  ],
+  "speaker": "Doctor in Q&A with host; summary unattributed",
+  "note": "'Nhiều liên kết đôi tức là liên kết pi' is at 01:29:14 and 'Cá biển và cá biển sâu' at 01:31:21. Matches."
+ },
+ {
+  "id": "c048",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nhiều liên kết đôi tức là liên kết pi cho nên nó dễ dàng để cắt nhỏ ra.",
+    "timestamp": "01:29:14",
+    "timestamp_recomputed": "01:29:14"
+   },
+   {
+    "quote": "Thành các đầu tiên là axin coenzyma đúng không?",
+    "timestamp": "01:29:22",
+    "timestamp_recomputed": "01:29:22"
+   }
+  ],
+  "speaker": "Doctor/host quiz exchange; summary unattributed",
+  "note": "'axin coenzyma' is the caption for acetyl-CoA. Matches."
+ },
+ {
+  "id": "c049",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Phi công vũ trụ và huấn luyện bởi cái gì ạ? máy biến áp mag",
+    "timestamp": "01:29:32",
+    "timestamp_recomputed": "01:29:32"
+   },
+   {
+    "quote": "Xuyên màng tế bào để đi vào bên trong và đến đâu ạ? Đến ti thể đốt cháy",
+    "timestamp": "01:29:49",
+    "timestamp_recomputed": "01:29:49"
+   },
+   {
+    "quote": "Tạo ra nước và CO2. nước và CO2 mà chúng ta thải ra ngoài",
+    "timestamp": "01:30:01",
+    "timestamp_recomputed": "01:30:01"
+   }
+  ],
+  "speaker": "Doctor/host quiz exchange; summary unattributed",
+  "note": "L-carnitine appears in the caption as 'l các litin' (01:29:44) and ATP at 01:29:58. The sequence matches."
+ },
+ {
+  "id": "c050",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nhà khoa học người Mỹ ông này trùng có cái tên là của ông ấy là trùng với lại Trà Lip Tông.",
+    "timestamp": "01:35:07",
+    "timestamp_recomputed": "01:35:07"
+   },
+   {
+    "quote": "vào năm 1985 thì trong lúc ông đến giảng dạy cho sinh viên ở trường đạo y về tế bào học thì vào một buổi sáng ông ngồi soạn bài.",
+    "timestamp": "01:35:33",
+    "timestamp_recomputed": "01:35:33"
+   },
+   {
+    "quote": "Tức là trong quá trình soạn giáo án thì ông soạn cấu trúc và màng tế bào thì bắt đầu ông ấy nảy sinh ra những suy nghĩ rất là thần kỳ.",
+    "timestamp": "01:35:47",
+    "timestamp_recomputed": "01:35:47"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed",
+  "note": "Name given only as 'Lip Tông'/'Liptông' (like Lipton tea); 'Bruce' is never spoken. Caribbean is at 01:35:30 and 'nhà sinh học' at 01:34:59. A colon fragment that continues in the next batch."
+ },
+ {
+  "id": "c051",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "màng tế bào chúng ta biết rồi nó có hai lớp axit béo",
+    "timestamp": "01:36:02",
+    "timestamp_recomputed": "01:36:02"
+   },
+   {
+    "quote": "Đầu kỵ nước thì sẽ quay vào trong và đầu ưa nước quay ra bên ngoài",
+    "timestamp": "01:37:01",
+    "timestamp_recomputed": "01:37:01"
+   },
+   {
+    "quote": "Thế thì ông nảy sinh ra một cái đây là tinh thể màng. Tức là màng tế bào nó cũng là một cái dạng tinh thể.",
+    "timestamp": "01:39:01",
+    "timestamp_recomputed": "01:39:01"
+   }
+  ],
+  "speaker": "Doctor (Phúc) recounting the scientist 'Lip Tông/Liptông''s observation; summary states it as fact under a Lipton section header",
+  "note": "Bilayer, heads/tails, ordered 'tinh thể màng' all present; the '(tương tự tinh thể lỏng)' parenthetical is only implied by juxtaposition (doctor lists solid vs liquid crystals, then names a membrane crystal); transcript never says 'Bruce'."
+ },
+ {
+  "id": "c052",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "toàn bộ cái quá trình đi vào và đi ra màng này nó không phải là vô tổ chức kỷ luật mà nó được sắp xếp theo những cái trình tự rất cẩn thận, rất chặt chẽ",
+    "timestamp": "01:40:05",
+    "timestamp_recomputed": "01:40:05"
+   },
+   {
+    "quote": "cái kết luận thứ hai của ông ấy đưa ra đó là màng tế bào có tính chất là giống như chất bán dẫn.",
+    "timestamp": "01:40:31",
+    "timestamp_recomputed": "01:40:31"
+   },
+   {
+    "quote": "Canxi đi vào thì nó có kênh gì ạ? Có kênh canxi. Mag đi vào nó cũng có kênh ma. Cali natri đi vào đều có kênh của nó.",
+    "timestamp": "01:41:05",
+    "timestamp_recomputed": "01:41:05"
+   }
+  ],
+  "speaker": "Doctor presenting Lipton's second conclusion; summary unattributed within Lipton section",
+  "note": "Matches: semiconductor-like, ordered entry/exit of protein, Ca, Mg, K, Na via channels, 'Không bao giờ nó tự do đi qua đi lại được'."
+ },
+ {
+  "id": "c053",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Hai cái lớp này nó giống hệt như là các cái đầu ưa nước.",
+    "timestamp": "01:41:44",
+    "timestamp_recomputed": "01:41:44"
+   },
+   {
+    "quote": "kẹp giữa hai lớp bánh mì này thì ông ấy cho là lớp bơ.",
+    "timestamp": "01:41:59",
+    "timestamp_recomputed": "01:41:59"
+   },
+   {
+    "quote": "ông ấy hình dung rằng những cái kênh này nó chính là cái những cái quả ô lưu mà ta cứ sắp xếp theo những cái hình theo một cái trật tự nhất định",
+    "timestamp": "01:42:41",
+    "timestamp_recomputed": "01:42:41"
+   }
+  ],
+  "speaker": "Doctor describing Lipton's teaching analogy ('Ông ấy ví như thế để giảng cho sinh viên dễ')",
+  "note": "Sandwich/butter/olive analogy intact; transcript says 'quả ô lưu' (pitted olives) forming channels."
+ },
+ {
+  "id": "c054",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "vào năm 1985 thì trong lúc ông đến giảng dạy cho sinh viên ở trường đạo y về tế bào học",
+    "timestamp": "01:35:33",
+    "timestamp_recomputed": "01:35:33"
+   },
+   {
+    "quote": "Thì cái này đều tạo thành những kênh ví dụ kênh kali, kênh natri, kênh protein, kênh chất béo để dẫn các cái chất đi vào trong tế bào, dẫn các cái chất đi ra ngoài tế bào.",
+    "timestamp": "01:42:51",
+    "timestamp_recomputed": "01:42:51"
+   },
+   {
+    "quote": "Nó được cấu tạo bởi protein, được cấu tạo bởi các chất béo.",
+    "timestamp": "01:47:06",
+    "timestamp_recomputed": "01:47:06"
+   }
+  ],
+  "speaker": "Doctor attributing the 1985 insight to 'nhà khoa học người Mỹ ... Lip Tông'",
+  "note": "1985, ordered fat layers, gates and channels (K, Na, protein, fat) supported; the protein+fat composition is stated at 01:47 as later research by Lipton 'cũng như là các nhà khoa học khác', not the 1985 morning itself."
+ },
+ {
+  "id": "c055",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Con chip được tạo nên bởi những cái tinh thể có tính bãn dẫn và có cửa và kênh dẫn.",
+    "timestamp": "01:44:07",
+    "timestamp_recomputed": "01:44:07"
+   },
+   {
+    "quote": "Chứng tỏ rằng là màng tế bào này được ví nó như là con chip.",
+    "timestamp": "01:44:16",
+    "timestamp_recomputed": "01:44:16"
+   },
+   {
+    "quote": "Chip là để xử lý các vấn đề trong máy tính.",
+    "timestamp": "01:44:27",
+    "timestamp_recomputed": "01:44:27"
+   }
+  ],
+  "speaker": "Doctor recounting Lipton's reasoning",
+  "note": "Crystal + semiconductor + gates/channels = chip analogy matches."
+ },
+ {
+  "id": "c056",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mà con chip thì nó chính là giống não bộ rồi đúng không ạ? Để xử lý các vấn đề.",
+    "timestamp": "01:44:21",
+    "timestamp_recomputed": "01:44:21"
+   },
+   {
+    "quote": "bắt đầu ông nói rằng là dường như bộ não tế bào không phải là nhân mà bộ não tế bào là màng của tế bào.",
+    "timestamp": "01:44:38",
+    "timestamp_recomputed": "01:44:38"
+   },
+   {
+    "quote": "Thì ngược lại nhà khoa học Lip tông, nhà sinh vật học, nhà sinh học ông đã đưa ra một cái khái niệm, một cái quan niệm rất khác đó là màng tế bào mới là bộ não của tế bào.",
+    "timestamp": "01:44:53",
+    "timestamp_recomputed": "01:44:53"
+   }
+  ],
+  "speaker": "Doctor presenting Lipton's concept (doctor later endorses it, 03:26:36); summary states as conclusion within Lipton section",
+  "note": "Supported as Lipton's concept; the initial 'dường như' hedge is later dropped by the doctor himself."
+ },
+ {
+  "id": "c057",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nhân nó chỉ là bộ phận sinh dục của tế bào.",
+    "timestamp": "01:45:19",
+    "timestamp_recomputed": "01:45:19"
+   },
+   {
+    "quote": "Nếu qua quá trình dán phân thì một tế bào sẽ tạo nên hai tế bào bằng cách là phân chia nhân. Thế còn qua quá trình giảm phân thì một tế bào sẽ tạo thành bốn bào tử",
+    "timestamp": "01:45:28",
+    "timestamp_recomputed": "01:45:28"
+   },
+   {
+    "quote": "nhân tế bào ở đây phải là cơ quan sinh sản của tế bào, phải là cơ quan sinh dục của tế bào.",
+    "timestamp": "01:45:45",
+    "timestamp_recomputed": "01:45:45"
+   }
+  ],
+  "speaker": "Doctor relaying Lipton's proposition",
+  "note": "Nucleus as reproductive organ, 2 cells via 'dán phân', 4 'bào tử' via 'giảm phân' all verbatim-matched."
+ },
+ {
+  "id": "c058",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và sau này nó trở thành một cái cuộc cách mạng về nghiên cứu tế bào học.",
+    "timestamp": "01:46:04",
+    "timestamp_recomputed": "01:46:04"
+   },
+   {
+    "quote": "Cuộc cách mạng này nó liên quan tới những các cái vấn đề nâng cao tuổi thọ",
+    "timestamp": "01:46:08",
+    "timestamp_recomputed": "01:46:08"
+   },
+   {
+    "quote": "ví dụ như là điều trị ung thư, điều trị các cái căn bệnh là đưa những các cái chất từ bên ngoài vào bên trong tế bào một cách có chọn lọc.",
+    "timestamp": "01:46:16",
+    "timestamp_recomputed": "01:46:16"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "Revolution in cytology tied to longevity, cancer treatment, selective delivery into cells; doctor phrases as 'liên quan tới' (related to) rather than 'ứng dụng vào', minor."
+ },
+ {
+  "id": "c059",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nó được cấu tạo bởi protein, được cấu tạo bởi các chất béo.",
+    "timestamp": "01:47:06",
+    "timestamp_recomputed": "01:47:06"
+   },
+   {
+    "quote": "trong màng tế bào thì những các cái axit béo không no tức là axit béo không axit béo không bão hòa đấy là chiếm một cái thành phần rất nhiều.",
+    "timestamp": "01:47:33",
+    "timestamp_recomputed": "01:47:33"
+   },
+   {
+    "quote": "Omega 6 cũng là thành phần rất nhiều. Thậm chí là Omega9 hay là các cái chất béo khác được cấu tạo nên màng tế bào rất nhiều.",
+    "timestamp": "01:47:47",
+    "timestamp_recomputed": "01:47:47"
+   }
+  ],
+  "speaker": "Doctor reporting research findings ('người ta nghiên cứu người ta thấy rằng')",
+  "note": "Protein + fats, unsaturated FAs (omega-3/6/9) large share — matches."
+ },
+ {
+  "id": "c060",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và omega 3 trong màng tế bào thì Omega 3 Omega3 chiếm tới bao nhiêu ạ? Chiếm tới 30%",
+    "timestamp": "01:48:16",
+    "timestamp_recomputed": "01:48:16"
+   },
+   {
+    "quote": "30% cấu trúc màng tế bào thì riêng của não là DHA chiếm phần lớn",
+    "timestamp": "01:48:26",
+    "timestamp_recomputed": "01:48:26"
+   },
+   {
+    "quote": "Màng tế bào được cấu tạo bởi các axit béo mà axit béo ở đây chiếm tới 30%.",
+    "timestamp": "02:08:34",
+    "timestamp_recomputed": "02:08:34"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "Matches the 01:48 statement, but transcript is internally inconsistent: at 01:51:52 and 02:08:34 the doctor attributes the 30% to omega-3/6/9 fatty acids collectively, and at 02:22:09 to 'omega' generally; reviewer may treat as ambiguous."
+ },
+ {
+  "id": "c061",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trong màng tế bào não của chúng ta thì chứa DHA quá nhiều.",
+    "timestamp": "01:48:01",
+    "timestamp_recomputed": "01:48:01"
+   },
+   {
+    "quote": "Tế bào võng mạc mắt các tế bào của mắt thì cũng lại DHA chiếm phần lớn.",
+    "timestamp": "01:48:31",
+    "timestamp_recomputed": "01:48:31"
+   },
+   {
+    "quote": "Nó không chỉ có làm cho não của chúng ta phát triển thông minh lên mà mắt của chúng ta nhìn cũng sáng lên.",
+    "timestamp": "01:48:56",
+    "timestamp_recomputed": "01:48:56"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "DHA in brain/retina membranes, 'vàng của não và mắt' (01:31:05, 01:52:08), smarter brain/brighter eyes supported; doctor conditions the fish-eating benefit on high DHA ('với điều kiện là DHA nó phải nhiều', 01:49:26), which the claim does not frame but does not contradict."
+ },
+ {
+  "id": "c062",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong màng của tế bào tim thì lại chứa EPA rất nhiều.",
+    "timestamp": "01:48:06",
+    "timestamp_recomputed": "01:48:06"
+   },
+   {
+    "quote": "tôi nhấn mạnh lại là vàng của mắt và vàng của não chính là DHA. Vàng của tim đó chính là gì ạ? Chính là EPA.",
+    "timestamp": "01:52:08",
+    "timestamp_recomputed": "01:52:08"
+   }
+  ],
+  "speaker": "Doctor",
+  "note": "Heart-cell membranes rich in EPA, 'vàng của tim' = EPA."
+ },
+ {
+  "id": "c063",
+  "class": "mismatch",
+  "evidence": [
+   {
+    "quote": "sau khi mà bổ sung DHA bổ sung Omega 3 mà tăng cường cái DHA này lên một chút vitamin D cộng các vi chất thì một thời gian sau các cháu học kết quả nó sẽ thay đổi đi đáng kể.",
+    "timestamp": "01:49:53",
+    "timestamp_recomputed": "01:49:53"
+   },
+   {
+    "quote": "con anh ấy lúc đầu là ăn không nên loại và nói không nên lời, không có bạn gái.",
+    "timestamp": "01:50:13",
+    "timestamp_recomputed": "01:50:13"
+   },
+   {
+    "quote": "Thế sau khi mà bổ sung đâu được à hơn 3 tháng gần 4 tháng thì anh ấy đến báo cáo tình hình là con anh ấy bắt đầu nói có văn có lời văn văn vẻ ra",
+    "timestamp": "01:50:23",
+    "timestamp_recomputed": "01:50:23"
+   }
+  ],
+  "speaker": "Doctor recounting two separate anecdotes from his own patients; summary presents a single recorded outcome for 'trẻ nhỏ'",
+  "note": "Claim merges two anecdotes: school-result change is 'một thời gian sau' (no duration) for school-age children, while the '3 to nearly 4 months' and speech/communication change belong to one father's son whose problem was having no girlfriend (not 'trẻ nhỏ'); anecdotal clinical reports are hardened into 'đã ghi nhận'."
+ },
+ {
+  "id": "c064",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "các loại dầu thực vật như hoa hướng dương, dầu ngô đóng vai trò trong chức năng não, sức khỏe sinh sản, giúp tóc, da và xương khỏe mạnh. Omega 3 được tìm thấy trong cá béo, giúp giảm viêm, điều hòa huyết áp",
+    "timestamp": "01:55:00",
+    "timestamp_recomputed": "01:55:00"
+   },
+   {
+    "quote": "Chúng cũng gắn liền với giảm nguy cơ nhiều bệnh bao gồm bệnh tiểu đường, hộ chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư.",
+    "timestamp": "01:55:16",
+    "timestamp_recomputed": "01:55:16"
+   },
+   {
+    "quote": "trong khi Omega 3 là chất chống viêm, Omega6 có xu hướng gây viêm.",
+    "timestamp": "01:55:42",
+    "timestamp_recomputed": "01:55:42"
+   }
+  ],
+  "speaker": "Host Khánh Lành reading verbatim a quoted newspaper article ('một tờ báo rất là uy tín trong nước'); not the doctor",
+  "note": "Hardened: article says omega-3 is 'gắn liền với giảm nguy cơ' (associated with) and 'một số bệnh ung thư' (some cancers); claim says omega-3 'giúp ... giảm nguy cơ ... ung thư'."
+ },
+ {
+  "id": "c065",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần.",
+    "timestamp": "01:55:30",
+    "timestamp_recomputed": "01:55:30"
+   },
+   {
+    "quote": "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì. Nó cũng liên quan đến bệnh tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như bệnh suuyễn và các bệnh tự miễn dịch.",
+    "timestamp": "01:54:47",
+    "timestamp_recomputed": "01:54:47"
+   },
+   {
+    "quote": "Những năm gần đây, các nhà khoa học phát hiện ra rằng hầu hết mọi người đều đang hấp thụ một lượng lớn các chất béo Omega6 so với thời trước.",
+    "timestamp": "01:54:29",
+    "timestamp_recomputed": "01:54:29"
+   }
+  ],
+  "speaker": "Host reading the quoted article; the 6x figure is further attributed within the article to 'Các nghiên cứu của tạp chí Hell'",
+  "note": "Dropped in-article source attribution ('Các nghiên cứu của tạp chí Hell cho thấy'); disease association is stated for the general population imbalance and spliced onto the US 6x figure; the article later adds that no study confirms omega-6 causes chronic disease (01:58:15)."
+ },
+ {
+  "id": "c066",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tỉ lệ tối ưu nhất cho hai loại axit béo này với cơ thể là một bột.",
+    "timestamp": "01:56:45",
+    "timestamp_recomputed": "01:56:45"
+   },
+   {
+    "quote": "nhau một cách hợp lý và tốt nhất là tỉ lệ 1 chia 1 đúng không ạ?",
+    "timestamp": "02:28:36",
+    "timestamp_recomputed": "02:28:36"
+   }
+  ],
+  "speaker": "Host reading the quoted article (ASR 'một bột' = 1:1); doctor independently states 1:1 as best at 02:28",
+  "note": "1:1 optimal is in both the article and the doctor's own commentary."
+ },
+ {
+  "id": "c067",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Hầu hết các chuyên gia sức khỏe đều cho rằng tỉ lệ omega6 trên omega 3 là từ 11 đến 51 là tốt nhất cho sức khỏe.",
+    "timestamp": "01:55:59",
+    "timestamp_recomputed": "01:55:59"
+   },
+   {
+    "quote": "Có những nghiên cứu và những tài liệu nói rằng chấp nhận được tỉ lệ những cái này đem chia ra thì là 4 chia 1 thì được. Cùng lắm là đến 5 chia 1.",
+    "timestamp": "02:28:43",
+    "timestamp_recomputed": "02:28:43"
+   }
+  ],
+  "speaker": "Host reading the quoted article (ASR '11 đến 51' = 1:1 to 5:1); not the doctor's own view",
+  "note": "Supported as the article's claim; the doctor later says 5:1 'đã là quá nhiều rồi' and 'con số năm là tôi không tin lắm' (02:34:26), so the claim must not be read as the doctor's endorsement."
+ },
+ {
+  "id": "c068",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 41, chúng ta có thể phòng ngừa nguy cơ bệnh tim nhưng lại không có tác dụng giảm nguy cơ mắc các bệnh liên quan đến trực tràng.",
+    "timestamp": "01:56:09",
+    "timestamp_recomputed": "01:56:09"
+   }
+  ],
+  "speaker": "Host reading the quoted article",
+  "note": "Dropped hedge 'có thể' (may prevent) -> stated as definite 'phòng ngừa'; 'các bệnh liên quan đến trực tràng' compressed to 'bệnh trực tràng'."
+ },
+ {
+  "id": "c069",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 21 hay là 31, chúng ta có thể giảm hội chứng viêm ở bệnh nhân thấp khớp.",
+    "timestamp": "01:56:19",
+    "timestamp_recomputed": "01:56:19"
+   }
+  ],
+  "speaker": "Host reading the quoted article",
+  "note": "Dropped hedge 'có thể giảm' -> 'giúp giảm'."
+ },
+ {
+  "id": "c070",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tỷ lệ 51 có kết quả tốt đối với bệnh nhân hen suuyễn.",
+    "timestamp": "01:56:24",
+    "timestamp_recomputed": "01:56:24"
+   }
+  ],
+  "speaker": "Host reading the quoted article (ASR '51' = 5:1)",
+  "note": "Matches."
+ },
+ {
+  "id": "c071",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "việc nạp quá lượng dù là omega 3 hay là Omega 6 vẫn là không tốt. Vì trong cấu trúc của cả hai axit béo này đều có nối đôi không no nên rất nhạy cảm.",
+    "timestamp": "01:58:37",
+    "timestamp_recomputed": "01:58:37"
+   },
+   {
+    "quote": "Phản ứng với lại oxy tạo phản ứng chuỗi và hình thành gốc tự do.",
+    "timestamp": "01:58:49",
+    "timestamp_recomputed": "01:58:49"
+   }
+  ],
+  "speaker": "Host reading the quoted article",
+  "note": "Matches the article's caveat on overconsumption of either fatty acid."
+ },
+ {
+  "id": "c072",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Axit linolic. Rồi đúng rồi. Tiếp theo cái thứ hai là gì ạ?",
+    "timestamp": "02:01:16",
+    "timestamp_recomputed": "02:01:16"
+   },
+   {
+    "quote": "Clức là cái này là gọi là axit béo liên hợp đấy.",
+    "timestamp": "02:01:27",
+    "timestamp_recomputed": "02:01:27"
+   },
+   {
+    "quote": "đây là bốn cái axit béo mà chúng ta cần phải nhớ ở trong omega6.",
+    "timestamp": "02:01:36",
+    "timestamp_recomputed": "02:01:36"
+   }
+  ],
+  "speaker": "Host recites under doctor's quizzing; doctor confirms and names CLA as conjugated fatty acid",
+  "note": "LA (linoleic), GLA (02:01:20), CLA, AA (02:01:33) listed as the four omega-6 to remember."
+ },
+ {
+  "id": "c073",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như là Omega 3 là đứng đầu là cái gì ạ? ALA đúng không ạ?",
+    "timestamp": "02:24:09",
+    "timestamp_recomputed": "02:24:09"
+   },
+   {
+    "quote": "Và rất quan trọng đó là DHA.",
+    "timestamp": "02:02:01",
+    "timestamp_recomputed": "02:02:01"
+   },
+   {
+    "quote": "Đấy là ba cái mà rất quan trọng.",
+    "timestamp": "02:02:04",
+    "timestamp_recomputed": "02:02:04"
+   }
+  ],
+  "speaker": "Host lists ALA, EPA, DHA under doctor's quizzing; doctor confirms",
+  "note": "Three omega-3 to remember: ALA (02:01:53), EPA (02:01:58), DHA; doctor adds DPA as not very important."
+ },
+ {
+  "id": "c074",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như la chúng ta phải nhớ là C18 2N và gạch ngang 6 đúng không ạ? Alla là C18 3N và gì ạ? 3",
+    "timestamp": "02:20:44",
+    "timestamp_recomputed": "02:20:44"
+   },
+   {
+    "quote": "Liên kết pi đầu tiên đứng ở vị trí cacbon số 6.",
+    "timestamp": "02:03:49",
+    "timestamp_recomputed": "02:03:49"
+   },
+   {
+    "quote": "giống nhau ở chỗ là đều có 18 nguyên tử cacbon đều có nhóm COOH nhưng mà nó chỉ khác nhau ở chỗ là một cái thì có hai liên kết pi còn một cái có ba liên kết gì?",
+    "timestamp": "02:05:58",
+    "timestamp_recomputed": "02:05:58"
+   }
+  ],
+  "speaker": "Host answers notation under quizzing; doctor confirms and draws structure",
+  "note": "C18:2n-6, 18 C, 2 pi bonds, first at C6, COOH end all present (host first said C16, corrected to C18)."
+ },
+ {
+  "id": "c075",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như la chúng ta phải nhớ là C18 2N và gạch ngang 6 đúng không ạ? Alla là C18 3N và gì ạ? 3",
+    "timestamp": "02:20:44",
+    "timestamp_recomputed": "02:20:44"
+   },
+   {
+    "quote": "18 cacbon mấy liên kết piết pi và liên kết pi đầu tiên ở số 3 số 3.",
+    "timestamp": "02:05:04",
+    "timestamp_recomputed": "02:05:04"
+   },
+   {
+    "quote": "giống nhau ở chỗ là đều có 18 nguyên tử cacbon đều có nhóm COOH nhưng mà nó chỉ khác nhau ở chỗ là một cái thì có hai liên kết pi còn một cái có ba liên kết gì?",
+    "timestamp": "02:05:58",
+    "timestamp_recomputed": "02:05:58"
+   }
+  ],
+  "speaker": "Host and doctor jointly (quiz format)",
+  "note": "C18:3n-3, 18 C, 3 pi bonds, first at C3, COOH end — matches."
+ },
+ {
+  "id": "c076",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và đến DHA này nó có tới tận năm liên kết pi cơ cho nên là nó rất quý. có 22 nguyên tử cacbon mà lại có đến năm liên kết pi",
+    "timestamp": "02:07:37",
+    "timestamp_recomputed": "02:07:37"
+   }
+  ],
+  "speaker": "Doctor (BS Phúc) states it while quizzing host; the host first says 'C22 3n' and is corrected to '5N chứ'. The summary states it without a speaker, which matches.",
+  "note": "The transcript gives DHA as 22 carbons with 5 pi bonds (02:07:37); the doctor's quiz at 02:20:56 corrects the host to '5N', i.e. C22:5n-3. Recorded as said, not medically corrected."
+ },
+ {
+  "id": "c077",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Liên kết pi là liên kết không bền vững",
+    "timestamp": "02:06:35",
+    "timestamp_recomputed": "02:06:35"
+   },
+   {
+    "quote": "Axetin coenzyma ở trong đâu? ở trong ở trong ti thể để nó đốt cháy.",
+    "timestamp": "02:06:47",
+    "timestamp_recomputed": "02:06:47"
+   },
+   {
+    "quote": "Và khi cắt như vậy thì sẽ tạo thành những các cái coenzym a tức là những các cái mảnh nhỏ có hai nguyên tử cacbon để chúng ta thực hiện cái quá trình đốt cháy",
+    "timestamp": "02:07:15",
+    "timestamp_recomputed": "02:07:15"
+   }
+  ],
+  "speaker": "Built up in doctor/host Q&A and confirmed by the doctor. The summary gives no speaker.",
+  "note": "Unstable pi bonds are cut into 2-carbon acetyl-CoA pieces, which are burned in the mitochondria. The transcript says the burning happens in the mitochondria; the summary's 'cut in the mitochondria' is a slight compression."
+ },
+ {
+  "id": "c078",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và nó càng nhiều liên kết pi thì nó càng quý.",
+    "timestamp": "02:07:12",
+    "timestamp_recomputed": "02:07:12"
+   },
+   {
+    "quote": "Vậy thì Omega3 nó có nhiều liên kết pi hơn omega6 thì nó mới quý ở chỗ đấy.",
+    "timestamp": "02:07:31",
+    "timestamp_recomputed": "02:07:31"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "The transcript's 'càng quý' (more precious) is rendered as 'giá trị cao'. DHA is called 'rất quý' in the next lines."
+ },
+ {
+  "id": "c079",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Màng tế bào được cấu tạo bởi các axit béo mà axit béo ở đây chiếm tới 30%.",
+    "timestamp": "02:08:34",
+    "timestamp_recomputed": "02:08:34"
+   },
+   {
+    "quote": "thì trên mỗi màng tế bào này nó có chứa rất nhiều enzyme.",
+    "timestamp": "02:08:53",
+    "timestamp_recomputed": "02:08:53"
+   },
+   {
+    "quote": "Omega nào càng đến màng tế bào nhiều thì ở đó xuất hiện cái enzyme phát ra tín hiệu để tiếp nhận cái chất béo đó vào trong màng.",
+    "timestamp": "02:09:06",
+    "timestamp_recomputed": "02:09:06"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "30% is stated for fatty acids here (02:08:37). Earlier, at 01:48:21, the doctor gives 30% for Omega-3 in the cell membrane, an internal inconsistency in the talk. The claim follows the 02:08 wording."
+ },
+ {
+  "id": "c080",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế nhưng nó oái ngăm ở chỗ rằng là cái omega6 và cái omega 3 này những cái thành phần này có cấu tạo nó cứ hao hao giống nhau. Cho nên là các enzyme này nó rất khó nhận",
+    "timestamp": "02:11:12",
+    "timestamp_recomputed": "02:11:12"
+   },
+   {
+    "quote": "của cái nào nhiều thì nó sẽ tích hợp vào cấu tạo màng.",
+    "timestamp": "02:12:53",
+    "timestamp_recomputed": "02:12:53"
+   },
+   {
+    "quote": "Còn cái nào ít thì nó sẽ đẩy vào bên trong tiể để thực hiện đốt cháy.",
+    "timestamp": "02:12:56",
+    "timestamp_recomputed": "02:12:56"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "The mechanism matches: shared enzymes, quantity-based selection, and the less abundant fatty acid burned in the mitochondria."
+ },
+ {
+  "id": "c081",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu chúng ta ăn quá nhiều omega6 thì la và AA sẽ tích hợp màng tế bào gây viêm.",
+    "timestamp": "02:15:21",
+    "timestamp_recomputed": "02:15:21"
+   },
+   {
+    "quote": "AA khi mà nó tích hợp ở màng tế bào này nó sẽ thể hiện cái chức năng đó là nó kích hoạt để tạo lên cái chất viêm là PG E2.",
+    "timestamp": "02:14:25",
+    "timestamp_recomputed": "02:14:25"
+   },
+   {
+    "quote": "Ngoài cái protagin E2 ra thì nó còn có những yếu tố gây viêm nữa.",
+    "timestamp": "02:14:48",
+    "timestamp_recomputed": "02:14:48"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "The 'quá nhiều' (too much) condition is kept. The doctor stresses at 02:19:57 that these cause inflammation only when excessive. The examples pairing LA with ALA and AA with DHA appear at 02:11:54 and 02:13:03."
+ },
+ {
+  "id": "c082",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thì ngoài cái phản ứng viêm ra nó còn có những phản ứng đau, có những phản ứng tăng tính thấm thành mạch. có những phản ứng mà tăng tính thấm của mô liên kết",
+    "timestamp": "02:15:03",
+    "timestamp_recomputed": "02:15:03"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "Pain, vascular permeability and connective-tissue permeability all match. The doctor also mentions cytokine reactions."
+ },
+ {
+  "id": "c083",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thấy đau, tiếp theo là quý vị bị viêm thì sẽ dày bao hoạt dịch lên",
+    "timestamp": "02:16:34",
+    "timestamp_recomputed": "02:16:34"
+   },
+   {
+    "quote": "Tiếp theo nữa là chúng ta sẽ tràn dịch ổ khớp",
+    "timestamp": "02:16:41",
+    "timestamp_recomputed": "02:16:41"
+   },
+   {
+    "quote": "cuối cùng nó trở thành từ viêm cấp tính chuyển thành viêm mãn tính và cuối cùng nó trở thành viêm khớp dạng thấp",
+    "timestamp": "02:17:00",
+    "timestamp_recomputed": "02:17:00"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "The joint progression matches: pain, synovial thickening, effusion, then chronic inflammation and rheumatoid arthritis."
+ },
+ {
+  "id": "c084",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ví dụ như là nó vào trong gan thì nó sẽ gây tổn thương của tế bào gan, gây viêm tổn thương của tế bào gan, nó sẽ làm cho gan của chúng ta bị nhiễm mỡ.",
+    "timestamp": "02:17:31",
+    "timestamp_recomputed": "02:17:31"
+   },
+   {
+    "quote": "Đầu tiên là gan nhiễm mỡ, sau đấy thì mỡ máu tăng. Nó đi vào trong tụy thì sẽ gì ạ? Nó gây ra những các cái rối loạn chẳng hạn như là gì? Như là tiểu đường.",
+    "timestamp": "02:17:55",
+    "timestamp_recomputed": "02:17:55"
+   },
+   {
+    "quote": "Ví dụ như viêm thận kẽ, viêm cẩu thận, viêm ống thận vân vân. Tất cả thậm chí là viêm thận tự miễn",
+    "timestamp": "02:18:15",
+    "timestamp_recomputed": "02:18:15"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "The transcript says liver metabolic disorder leads to raised blood fat. The summary's 'rối loạn chuyển hóa mỡ máu' is an acceptable paraphrase. Diabetes is tied to the pancreas."
+ },
+ {
+  "id": "c085",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "nó tấn công vào cái đường ruột của chúng ta nó sẽ gây ra viêm của dạ dày ruột nó sẽ gây ra hội chứng ruột gì ạ?",
+    "timestamp": "02:18:23",
+    "timestamp_recomputed": "02:18:23"
+   },
+   {
+    "quote": "giò rỉ ruột gây ra hội chứng gì nữa? Gây ra những tổn thương trào ngược dạ dày thực quản",
+    "timestamp": "02:18:35",
+    "timestamp_recomputed": "02:18:35"
+   },
+   {
+    "quote": "cửa ngõ của hệ miễn dịch. Vâng. Khi đã tổn thương đường ruột rất dễ gây ra tổn thương tiến giáp với hai bệnh là hai bệnh gì?",
+    "timestamp": "02:18:48",
+    "timestamp_recomputed": "02:18:48"
+   }
+  ],
+  "speaker": "Doctor, with the host filling in names (ruột kích thích, Hashimoto) when prompted. The summary gives no speaker.",
+  "note": "The hedge 'rất dễ gây ra' (very easily causes) thyroid damage is hardened to 'dẫn đến' (leads to). 'Tổn thương hệ miễn dịch đường ruột' is inferred from 'đường ruột là cửa ngõ của hệ miễn dịch'. The gut items (IBS, leaky gut, GERD, constipation) match."
+ },
+ {
+  "id": "c086",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nó ở trong các cái cơ thì nó gây ra chúng ta đau mỏi cơ của thần kinh nó sẽ gây ra viêm thần kinh.",
+    "timestamp": "02:19:12",
+    "timestamp_recomputed": "02:19:12"
+   },
+   {
+    "quote": "lên trên não nó sẽ gây ra thoái hóa chất trắng. Vào mắt nó sẽ gây ra chúng ta mắt nó mờ đi.",
+    "timestamp": "02:19:17",
+    "timestamp_recomputed": "02:19:17"
+   },
+   {
+    "quote": "chẳng hạn như lú bút b đỏ hệ thống đúng không ạ viêm thận tự miễn thế rồi thì chúng ta bị dự ứng ngoài da vô cùng nhiều",
+    "timestamp": "02:30:12",
+    "timestamp_recomputed": "02:30:12"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "Skin allergy and lupus come from the later 20:1 imbalance passage (02:30:09), not the organ list at 02:19. The summary merges the two. The organ list also includes vascular inflammation and ulceration (02:19:06), which the summary omits."
+ },
+ {
+  "id": "c087",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Trong khi đấy tỉ lệ vàng là tất cả những cái này chia cho nhau một cách hợp lý và tốt nhất là tỉ lệ 1 chia 1 đúng không ạ?",
+    "timestamp": "02:28:30",
+    "timestamp_recomputed": "02:28:30"
+   },
+   {
+    "quote": "Có những nghiên cứu và những tài liệu nói rằng chấp nhận được tỉ lệ những cái này đem chia ra thì là 4 chia 1 thì được.",
+    "timestamp": "02:28:43",
+    "timestamp_recomputed": "02:28:43"
+   },
+   {
+    "quote": "Cùng lắm là đến 5 chia 1. 5 chia 1 thì đã là quá nhiều rồi.",
+    "timestamp": "02:28:49",
+    "timestamp_recomputed": "02:28:49"
+   }
+  ],
+  "speaker": "Doctor. The 1:1 ideal is his view. He attributes the 4:1-5:1 acceptable range to 'có những nghiên cứu và những tài liệu' (some studies and documents). The summary presents the range as a plain fact.",
+  "note": "Dropped: the source attribution for 4:1-5:1, and the doctor's caveat that 5:1 is the upper limit and 'đã là quá nhiều rồi' (already too much). He later says not to reach 4 or 5 (see c097)."
+ },
+ {
+  "id": "c088",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "đặc biệt là ở Mỹ hay là quốc các quốc gia Châu Âu người ta thấy rằng chúng ta đang ăn những thành phần này đem chia cho DHA hoặc epa là tỉ lệ 20 chia 1.",
+    "timestamp": "02:29:03",
+    "timestamp_recomputed": "02:29:03"
+   },
+   {
+    "quote": "Và tỷ lệ 20 chia 1 thì chúng ta dễ dàng nhận thấy rằng toàn bộ những vàng này nó sẽ bị hòa loãng ra vô nghĩa rồi.",
+    "timestamp": "02:29:17",
+    "timestamp_recomputed": "02:29:17"
+   }
+  ],
+  "speaker": "Doctor, citing research ('những nghiên cứu'). The summary gives no speaker.",
+  "note": "The doctor states the 20:1 figure as research findings for the US/Europe ('người ta thấy rằng'). His ratio is these components divided by DHA or EPA."
+ },
+ {
+  "id": "c089",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong các tài liệu là nói từ 0 cho đến 9% nhưng mà thực ra thì nó chỉ dưới 5% thôi.",
+    "timestamp": "02:26:20",
+    "timestamp_recomputed": "02:26:20"
+   },
+   {
+    "quote": "Cái quá trình chuyển đổi thực ra là dưới 5%. Các tài liệu hay dùng con số từ 0 đến 9%.",
+    "timestamp": "02:26:27",
+    "timestamp_recomputed": "02:26:27"
+   },
+   {
+    "quote": "Vậy chúng ta không kỳ vọng lắm vào ăn dầu thực vật để bổ sung được EPA và DHA.",
+    "timestamp": "02:27:08",
+    "timestamp_recomputed": "02:27:08"
+   }
+  ],
+  "speaker": "Doctor. The host first guesses 9%. The summary gives no speaker.",
+  "note": "The figures match. The summary's 'không thể trông cậy' (cannot rely) is slightly stronger than 'không kỳ vọng lắm' (don't expect much), but the doctor also calls the conversion 'không đáng kể' (negligible)."
+ },
+ {
+  "id": "c090",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Gan cá biển sâu hoặc là cá biển sâu đúng không ạ? thì nó mới tập trung nhiều chứ còn không thì khá là ít những cái thành phần này.",
+    "timestamp": "02:26:59",
+    "timestamp_recomputed": "02:26:59"
+   }
+  ],
+  "speaker": "The host says 'chủ yếu là cá gan cá biển sâu' and the doctor confirms. The summary gives no speaker.",
+  "note": "Matches."
+ },
+ {
+  "id": "c091",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Omega 9 thì rất nhiều trong thực phẩm. Cho nên omega 9 thì không bao giờ chúng ta sợ là thiếu hết cả.",
+    "timestamp": "02:27:19",
+    "timestamp_recomputed": "02:27:19"
+   },
+   {
+    "quote": "Cho nên chúng ta đừng có nghĩ tới cái chuyện là cố gắng bổ sung omega 9 làm gì. Không cần thiết bởi vì trong thức ăn của chúng ta là đủ omega 9 rồi.",
+    "timestamp": "02:27:30",
+    "timestamp_recomputed": "02:27:30"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "Matches."
+ },
+ {
+  "id": "c092",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "hiểu rằng cái tỉ lệ của chúng ta nhiều như vậy thì nó sẽ đi ra được các cái vấn đề là chúng ta cần phải điều chỉnh lại chế độ ăn uống.",
+    "timestamp": "02:30:30",
+    "timestamp_recomputed": "02:30:30"
+   },
+   {
+    "quote": "Là chúng ta cần thiết phải giảm bớt cái dầu ăn lại chứ chúng ta không ăn quá nhiều.",
+    "timestamp": "02:30:40",
+    "timestamp_recomputed": "02:30:40"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "Lead-in heading. Matches the doctor's transition to diet adjustment."
+ },
+ {
+  "id": "c093",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mỗi một ngày chúng ta không nên ăn quá ba cái nắp chai bia về dầu ăn.",
+    "timestamp": "02:30:59",
+    "timestamp_recomputed": "02:30:59"
+   },
+   {
+    "quote": "Tổng số là sáu người thì 6 3 18 nắp chai bia một ngày nếu ăn vượt quá cái số lượng đấy thì Khánh lành sẽ",
+    "timestamp": "02:31:15",
+    "timestamp_recomputed": "02:31:15"
+   },
+   {
+    "quote": "sẽ sử dụng cái ăn vượt quá thì chúng ta sẽ dừng ở con số đó và chúng ta lấy mỡ lợn chúng ta bù vào.",
+    "timestamp": "02:31:26",
+    "timestamp_recomputed": "02:31:26"
+   }
+  ],
+  "speaker": "Doctor. The host adds 'Mỗi người' and the doctor confirms. The summary gives no speaker.",
+  "note": "In the transcript, you cap at the limit and make up any extra with lard. 'Nếu thiếu có thể bù bằng mỡ lợn' is a fair paraphrase. The doctor also says you must still eat some cooking oil (02:30:55)."
+ },
+ {
+  "id": "c094",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đa dạng hóa dầu ăn là gì? Quý vị đang có một cái sai lầm rất lớn là chúng ta mua cả một cái can dầu lớn.",
+    "timestamp": "02:32:25",
+    "timestamp_recomputed": "02:32:25"
+   },
+   {
+    "quote": "Mỡ lợn để được rất lâu nhưng dầu ăn thì nhanh chóng bị oxy hóa bởi vì nó có đang có gì mà nó oxy hóa?",
+    "timestamp": "02:32:38",
+    "timestamp_recomputed": "02:32:38"
+   },
+   {
+    "quote": "Đang có liên kết liên kết pi nó không bền cho nó rất dễ bị oxy hóa dẫn tới hiện tượng là dầu ăn nó tạo thành những cái sản phẩm độc hại",
+    "timestamp": "02:32:46",
+    "timestamp_recomputed": "02:32:46"
+   }
+  ],
+  "speaker": "Doctor. The host answers the pi-bond prompt. The summary gives no speaker.",
+  "note": "Matches. The doctor's separate reason for diversifying is that different oils are rich in different fatty acids (LA/AA/ALA, 02:31:58), which the claim omits."
+ },
+ {
+  "id": "c095",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Còn chúng ta mua những chai nhỏ và chúng ta có thể mua ba chai một, ba chai dầu ăn một mà ba chai đấy mỗi một chai một loại khác nhau",
+    "timestamp": "02:33:24",
+    "timestamp_recomputed": "02:33:24"
+   },
+   {
+    "quote": "để chúng ta ăn đổi ăn đổi liên tục loại dầu ăn nọ dầu ăn kia",
+    "timestamp": "02:33:32",
+    "timestamp_recomputed": "02:33:32"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "Matches."
+ },
+ {
+  "id": "c096",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu quý vị đưa được vitamin D lên lý tưởng, bổ sung canxi ma đúng, bổ sung kém vào các vitamin khác,",
+    "timestamp": "02:34:44",
+    "timestamp_recomputed": "02:34:44"
+   },
+   {
+    "quote": "điều chỉnh lại chế độ ăn dầu ăn và bổ sung omega 3 thì quý vị gần như thay đổi rất ngoạn mục.",
+    "timestamp": "02:34:51",
+    "timestamp_recomputed": "02:34:51"
+   },
+   {
+    "quote": "bỏ được thuốc tim mạch, bỏ được thuốc huyết áp, bỏ được thuốc tiểu đường, bỏ được thuốc mỡ máu, bỏ được một loạt các cái thuốc bị bệnh ví dụ tiến giáp",
+    "timestamp": "02:35:03",
+    "timestamp_recomputed": "02:35:03"
+   }
+  ],
+  "speaker": "Doctor, from his clinical experience and viewer comments. The summary gives no speaker.",
+  "note": "The 'có thể' (can) hedge is preserved. The doctor's framing is 'gần như thay đổi rất ngoạn mục' (almost a dramatic change) for 'rất nhiều người' (many people), and the summary also omits 'các vitamin khác' (other vitamins)."
+ },
+ {
+  "id": "c097",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta đừng có để cái tỉ lệ lên tới 4 hay 5/ên1 cái này là không ổn đâu.",
+    "timestamp": "02:35:48",
+    "timestamp_recomputed": "02:35:48"
+   },
+   {
+    "quote": "ăn đừng để cho cái tỉ lệ nó vượt quá con số 4 chứ con số năm là tôi không tin lắm. Con số năm là sẽ sinh bệnh rồi đấy.",
+    "timestamp": "02:34:29",
+    "timestamp_recomputed": "02:34:29"
+   }
+  ],
+  "speaker": "Doctor (BS Phúc). The summary attributes it to him correctly.",
+  "note": "Matches. It is in tension with the 'acceptable 4:1-5:1' wording in c087."
+ },
+ {
+  "id": "c098",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta nên giảm nó đi và chúng ta thay đổi lại cái cách sống của chúng ta, cách ăn uống của chúng ta thì đây chính là chìa khóa",
+    "timestamp": "02:35:53",
+    "timestamp_recomputed": "02:35:53"
+   },
+   {
+    "quote": "để chúng ta bước vào một cái trạng thái cuộc sống khác mà nó tốt hơn, nó không bị bệnh tật.",
+    "timestamp": "02:35:59",
+    "timestamp_recomputed": "02:35:59"
+   }
+  ],
+  "speaker": "Doctor. The summary gives no speaker.",
+  "note": "Matches."
+ },
+ {
+  "id": "c099",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Những quan điểm sai lầm hiện nay về cách chọn Omega 3 tốt.",
+    "timestamp": "02:37:27",
+    "timestamp_recomputed": "02:37:27"
+   },
+   {
+    "quote": "Thứ hai, quan niệm rằng Omega 3 hàng ngoại mới là loại tốt.",
+    "timestamp": "02:38:02",
+    "timestamp_recomputed": "02:38:02"
+   },
+   {
+    "quote": "Quan niệm tiếp theo là mọi độ tuổi dùng Omega 3 cùng loại đều tốt.",
+    "timestamp": "02:38:31",
+    "timestamp_recomputed": "02:38:31"
+   }
+  ],
+  "speaker": "Host Khánh Lành, reading an article from a health newspaper. The summary says 'bài báo được trích dẫn' (the quoted article), which is correct.",
+  "note": "The article lists three misconceptions without stating the number 3. The count comes from the three items read."
+ },
+ {
+  "id": "c100",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nhiều sản phẩm Omega 3 hiện nay có kích thước viên rất to hoặc lượng Omega 3 ghi trên bao bì lớn. Tuy nhiên, chúng hiệu quả thấp vì chứa hàm lượng DHA và EPA rất thấp.",
+    "timestamp": "02:37:38",
+    "timestamp_recomputed": "02:37:38"
+   },
+   {
+    "quote": "Các thành phần còn lại chỉ là chất phụ da và tạp chất không có tác dụng.",
+    "timestamp": "02:37:53",
+    "timestamp_recomputed": "02:37:53"
+   }
+  ],
+  "speaker": "Host reading the quoted article. The summary attributes it correctly.",
+  "note": "The article states a cause ('vì', because), which the summary turns into a condition ('nếu', if): a minor change. 'Phụ da' is a caption error for 'phụ gia' (additive). The article also notes large capsules are hard for children and the elderly to swallow, which the summary omits."
+ },
+ {
+  "id": "c101",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ngoài ra, Omega 3 có kích thước viên to khi uống rất bất tiện, nhất là đối với đối tượng là trẻ em và người cao tuổi.",
+    "timestamp": "02:37:55",
+    "timestamp_recomputed": "02:37:55"
+   }
+  ],
+  "speaker": "Host Khánh Lành reading a quoted health-newspaper article verbatim; summary states it unattributed under the misconceptions section",
+  "note": "Matches the quoted article; it is article content, not the doctor's own statement."
+ },
+ {
+  "id": "c102",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thứ hai, quan niệm rằng Omega 3 hàng ngoại mới là loại tốt.",
+    "timestamp": "02:38:02",
+    "timestamp_recomputed": "02:38:02"
+   },
+   {
+    "quote": "Hiện nay, vẫn có rất nhiều các nhà sản xuất dầu cá trên thế giới với công nghệ sản xuất cũ cho hiệu quả thấp hoặc sử dụng nguồn nguyên liệu dầu cá không tinh chế khiến Omega 3 bị giảm chất lượng.",
+    "timestamp": "02:38:09",
+    "timestamp_recomputed": "02:38:09"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Article says 'nhà sản xuất dầu cá trên thế giới'; summary's 'nước ngoài' is a close paraphrase."
+ },
+ {
+  "id": "c103",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Quan niệm tiếp theo là mọi độ tuổi dùng Omega 3 cùng loại đều tốt.",
+    "timestamp": "02:38:31",
+    "timestamp_recomputed": "02:38:31"
+   },
+   {
+    "quote": "Tuy nhiên, với mỗi một độ tuổi, mỗi nhu cầu sức khỏe khác nhau thì nên chọn sản phẩm Omega 3 có hàm lượng giàu DHA hơn hay là giàu EPA hơn.",
+    "timestamp": "02:38:41",
+    "timestamp_recomputed": "02:38:41"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article."
+ },
+ {
+  "id": "c104",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Với trẻ em và phụ nữ có thai thì cần ưu tiên chọn loại giàu DHA hơn. Còn với người trung niên, người cao tuổi, người mắc các bệnh lý tim mạch, huyết áp, mỡ máu thì nên chọn loại giàu EPA hơn.",
+    "timestamp": "02:38:57",
+    "timestamp_recomputed": "02:38:57"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article wording."
+ },
+ {
+  "id": "c105",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế nào mới là loại omega 3? Thứ nhất, Omega 3 dạng triglycerit có hiệu quả hấp thu tốt.",
+    "timestamp": "02:39:11",
+    "timestamp_recomputed": "02:39:11"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Lead-in to the article's five numbered criteria."
+ },
+ {
+  "id": "c106",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Hiện nay, Omega 3 có hai dạng là triglycerit và ethy este.",
+    "timestamp": "02:39:18",
+    "timestamp_recomputed": "02:39:18"
+   },
+   {
+    "quote": "dạng triglycerit được các chuyên gia khuyên dùng với các ưu điểm vượt trội như là bền hơn, ít bị oxy hóa hơn, cho khả năng hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn loại ethy este.",
+    "timestamp": "02:39:26",
+    "timestamp_recomputed": "02:39:26"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Article names only triglycerit vs ethyl ester. The summary adds '(TG hoặc rTG)', which is not in the article; the doctor brings up rTG later as a separate form. The summary also drops the attribution 'được các chuyên gia khuyên dùng'."
+ },
+ {
+  "id": "c107",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thứ hai là chọn Omega 3 có hàm lượng DHA và EPA cao.",
+    "timestamp": "02:39:53",
+    "timestamp_recomputed": "02:39:53"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article."
+ },
+ {
+  "id": "c108",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nguồn nguyên liệu dầu cá để sản xuất các sản phẩm Omega 3 phải đảm bảo sạch và tinh chế, đồng thời không chứa các tạp chất và các kim loại nặng.",
+    "timestamp": "02:40:07",
+    "timestamp_recomputed": "02:40:07"
+   },
+   {
+    "quote": "Dầu cá Na Uy hiện nay đang là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.",
+    "timestamp": "02:40:13",
+    "timestamp_recomputed": "02:40:13"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "The article only calls Norwegian fish oil 'một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới'. The summary goes further and uses it as an example of a clean source free of impurities and heavy metals, which hardens the article's claim."
+ },
+ {
+  "id": "c109",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Với trẻ em, phụ nữ có thai và người trưởng thành cần chăm sóc sức khỏe não, mắt và tim mạch thì chọn loại omega 3 giàu DHA hơn.",
+    "timestamp": "02:40:31",
+    "timestamp_recomputed": "02:40:31"
+   },
+   {
+    "quote": "Người trung niên và cao tuổi cần chọn omega 3 giàu EPA hơn do có nguy cơ cao hoặc đang mắc các bệnh tim mạch, mỡ máu cao, huyết áp cao.",
+    "timestamp": "02:40:38",
+    "timestamp_recomputed": "02:40:38"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Substantively matches. Minor drops: 'người trưởng thành' becomes 'người', and 'nguy cơ cao' becomes 'nguy cơ'."
+ },
+ {
+  "id": "c110",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thứ năm là chọn sản phẩm Omega 3 được các cơ quan có thẩm quyền cấp phép và được phân phối bởi Công ty dược phẩm uy tín.",
+    "timestamp": "02:40:51",
+    "timestamp_recomputed": "02:40:51"
+   },
+   {
+    "quote": "Không nên mua loại Omega 3 hàng xách tay hoặc hàng trôi nổi trên thị trường.",
+    "timestamp": "02:41:00",
+    "timestamp_recomputed": "02:41:00"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article."
+ },
+ {
+  "id": "c111",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế cho nên là chúng ta thấy ở đây quý nhất thì vẫn chỉ là omega 3 và trong omega 3 quý nhất là cái gì? Quý nhất là cái APA",
+    "timestamp": "02:41:56",
+    "timestamp_recomputed": "02:41:56"
+   },
+   {
+    "quote": "Vì cái DPA thì nó cũng không phải là cái sản phẩm chỉ là sản phẩm trung gian thôi.",
+    "timestamp": "02:42:27",
+    "timestamp_recomputed": "02:42:27"
+   },
+   {
+    "quote": "Thế còn ALA thì có một đặc điểm là trong dầu thực vật có rất nhiều.",
+    "timestamp": "02:42:34",
+    "timestamp_recomputed": "02:42:34"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Doctor ranks EPA ('APA' in captions) and DHA as most precious. He calls DPA an intermediate and says ALA is abundant in vegetable oil."
+ },
+ {
+  "id": "c112",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Bây giờ Khánh Lành có mua được cá hồi đánh bắt dưới biển không?",
+    "timestamp": "02:44:16",
+    "timestamp_recomputed": "02:44:16"
+   },
+   {
+    "quote": "Thế cá hồi nuôi thì cho ăn sản phẩm là gì? Là thực vật.",
+    "timestamp": "02:44:26",
+    "timestamp_recomputed": "02:44:26"
+   },
+   {
+    "quote": "Các cái loại hạt, các loại thực vật mà thực vật thì lại dầu omega 6.",
+    "timestamp": "02:44:30",
+    "timestamp_recomputed": "02:44:30"
+   }
+  ],
+  "speaker": "Doctor Phúc (host answers 'rất là khó', doctor: 'Gần như không có'); summary consistent",
+  "note": "Doctor says wild salmon is nearly unavailable and farmed salmon eats seeds and plants. He names omega 6 and then 'Omega9' at 02:44:35."
+ },
+ {
+  "id": "c113",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Vậy thì cá hồi mà chúng ta mua về đại đa số là hàm lượng và DHA không được cao như là kỳ vọng trong lý thuyết.",
+    "timestamp": "02:45:03",
+    "timestamp_recomputed": "02:45:03"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Doctor compares the content to 'kỳ vọng trong lý thuyết', not explicitly to wild-caught salmon. The summary changes the comparison target and drops the hedge 'đại đa số'."
+ },
+ {
+  "id": "c114",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế cho nên là nếu quý vị trông chờ vào ăn cá, mua cá nghĩ rằng đấy là cá biển và chúng ta ăn vào bổ sung được Omega 3 thì cái đó là chúng ta thiếu đấy chứ không thể đủ được đâu.",
+    "timestamp": "02:45:14",
+    "timestamp_recomputed": "02:45:14"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches the doctor's conclusion."
+ },
+ {
+  "id": "c115",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Dầu cá tự nhiên là 1 TG đúng không ạ? Dầu cá ethin este là 2",
+    "timestamp": "03:05:22",
+    "timestamp_recomputed": "03:05:22"
+   },
+   {
+    "quote": "ba loại dầu cá này thì tùy quý vị chọn nhưng mà giá thành của nó",
+    "timestamp": "03:00:56",
+    "timestamp_recomputed": "03:00:56"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary attributes to Bác sĩ Phúc correctly",
+  "note": "Doctor lists three types: TG, EE and rTG (rTG is named as '3' at 03:05:27)."
+ },
+ {
+  "id": "c116",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đầu tiên là người ta lấy các sản phẩm ví dụ cá, gan, cá vân vân các cái loài vật người ta sẽ ép nó ra để trở thành dầu.",
+    "timestamp": "02:47:40",
+    "timestamp_recomputed": "02:47:40"
+   },
+   {
+    "quote": "Dầu cá tự nhiên là gì? Là chúng ta chỉ đơn giản là chúng ta đi ép nó ra để trở thành một cái sản phẩm dầu cá.",
+    "timestamp": "02:48:02",
+    "timestamp_recomputed": "02:48:02"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches."
+ },
+ {
+  "id": "c117",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cụ thể là là bao nhiêu? Nó luôn luôn nhỏ hơn hoặc bằng 30%. 30% tức là 0,3.",
+    "timestamp": "02:49:06",
+    "timestamp_recomputed": "02:49:06"
+   },
+   {
+    "quote": "thì thông thường dầu cá tự nhiên luôn luôn nhỏ hơn hoặc bằng 30%.",
+    "timestamp": "02:50:49",
+    "timestamp_recomputed": "02:50:49"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "The ratio is (EPA+DHA) divided by total fat. The doctor also says 'tôi cũng chưa thấy có sản phẩm nào ... vượt qua được con số 0,3' (02:53:37)."
+ },
+ {
+  "id": "c118",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ưu điểm của dầu cá tự nhiên là gì? Đó là dễ hấp thu.",
+    "timestamp": "02:53:44",
+    "timestamp_recomputed": "02:53:44"
+   },
+   {
+    "quote": "có nhiều tạp chất. Nhược điểm nữa là gì? >> Có thể chứa kim loại nặng.",
+    "timestamp": "02:54:16",
+    "timestamp_recomputed": "02:54:16"
+   },
+   {
+    "quote": "Gồm có các axit béo không cần thiết. Có một loạt các axit béo không cần thiết.",
+    "timestamp": "02:49:24",
+    "timestamp_recomputed": "02:49:24"
+   }
+  ],
+  "speaker": "Doctor Phúc leads a Q&A. Host Khánh Lành gives some of the drawbacks (heavy metals, unnecessary fatty acids) and the doctor confirms them. Summary consistent",
+  "note": "The 'có thể' hedge on heavy metals is kept. The summary leaves out another drawback the doctor listed, low EPA/DHA content, but the claim is accurate."
+ },
+ {
+  "id": "c119",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Cái thời gian sống của cái loài này kích thước nó nhỏ, thời gian sống của nó rất ngắn.",
+    "timestamp": "02:55:08",
+    "timestamp_recomputed": "02:55:08"
+   },
+   {
+    "quote": "Thứ hai nữa là bắt ở khu vực Nam Cực là cái khu mà cái nơi mà không có >> cuộc sống cho nên biển nó sạch.",
+    "timestamp": "02:55:26",
+    "timestamp_recomputed": "02:55:26"
+   },
+   {
+    "quote": "Thế còn an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa.",
+    "timestamp": "02:55:37",
+    "timestamp_recomputed": "02:55:37"
+   }
+  ],
+  "speaker": "Doctor Phúc reporting what advertisers and 'một số người lý luận' claim; summary says 'được cho là'",
+  "note": "The summary keeps 'được cho là' but drops the doctor's caveat 'an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa'. It also leaves out that this reasoning comes from advertising ('người ta hay quảng cáo')."
+ },
+ {
+  "id": "c120",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế thì cái từ cái triglycerit ấy để tinh chế nó thì người ta tách nó ra thành những các cái axit béo dưới dạng este hóa.",
+    "timestamp": "02:56:53",
+    "timestamp_recomputed": "02:56:53"
+   },
+   {
+    "quote": "Thứ ba nữa là gì ạ? Loại bỏ những tạp chất. >> Vâng. Thứ tư nó là gì ạ? Thanh lọc những các cái độc chất kim như kim loại nặng",
+    "timestamp": "02:58:25",
+    "timestamp_recomputed": "02:58:25"
+   },
+   {
+    "quote": "thì ety nó khi mà chúng ta mua nó sẽ cô đặc lên được vượt qua con số 0,3%.",
+    "timestamp": "02:59:03",
+    "timestamp_recomputed": "02:59:03"
+   }
+  ],
+  "speaker": "Doctor Phúc, with the host supplying listed advantages; summary consistent",
+  "note": "Captions say '0,3%' and then clarify '0,3 tức là 30%'. The 'above 30%' figure matches."
+ },
+ {
+  "id": "c121",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "khó ngấm hơn nhiều so với dầu cá tự nhiên này.",
+    "timestamp": "02:58:39",
+    "timestamp_recomputed": "02:58:39"
+   },
+   {
+    "quote": "Nó giảm cái mức độ hấp thu vào trong cơ thể chúng ta nó giảm đi là nếu dầu cá tự nhiên là 100% thì cái này chỉ còn có 74 đến 75% nữa thôi.",
+    "timestamp": "02:58:43",
+    "timestamp_recomputed": "02:58:43"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches: 74-75% relative to natural fish oil."
+ },
+ {
+  "id": "c122",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "dầu cá mà tái tổ hợp lại tức là nó quay trở lại cái này từ cái sau khi mà cô đặc lại, tức là sau khi cô đặc thì nó chuyển thành ety làm thêm một bước nữa là",
+    "timestamp": "02:59:31",
+    "timestamp_recomputed": "02:59:31"
+   },
+   {
+    "quote": "Tức là cho nó tạo thành các cái phương pháp hóa học, phản ứng hóa học để nó tạo thành cái này",
+    "timestamp": "02:59:46",
+    "timestamp_recomputed": "02:59:46"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches: re-forming triglyceride after concentration as EE."
+ },
+ {
+  "id": "c123",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và thậm chí người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên.",
+    "timestamp": "03:00:03",
+    "timestamp_recomputed": "03:00:03"
+   },
+   {
+    "quote": "Cũng có những tài liệu nghiên cứu thầy nói rằng khả năng ngấm của cái này gấp ba cho đến bốn lần.",
+    "timestamp": "03:00:21",
+    "timestamp_recomputed": "03:00:21"
+   },
+   {
+    "quote": "Tôi nghĩ rằng là đến 125% thì có lẽ là hợp lý hơn chứ còn đôi khi người ta quảng cáo nó hơi nhiều.",
+    "timestamp": "03:00:47",
+    "timestamp_recomputed": "03:00:47"
+   }
+  ],
+  "speaker": "Doctor Phúc reporting others' figures ('người ta cho rằng', 'có những tài liệu'); summary states the figures as fact",
+  "note": "The summary treats both figures as fact. It drops 'người ta cho rằng' on the 125% figure and the doctor's skepticism about the 3-4x vs EE figure ('hơi nhiều quá'; 125% 'có lẽ là hợp lý hơn', 'quảng cáo nó hơi nhiều')."
+ },
+ {
+  "id": "c124",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "dầu cá thứ hai nó sẽ đắt lên khá nhiều và dầu cá thứ ba, loại thứ ba này, loại RTG này là sẽ là đắt nhất.",
+    "timestamp": "03:01:04",
+    "timestamp_recomputed": "03:01:04"
+   },
+   {
+    "quote": "Và đặc biệt dầu cá RTG là dầu cá rất đắt bởi vì người ta quay trở lại cái công thức ban đầu của nó.",
+    "timestamp": "03:05:51",
+    "timestamp_recomputed": "03:05:51"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "'Most expensive' is supported. The doctor never calls rTG 'cao cấp'; that is a minor added descriptor."
+ },
+ {
+  "id": "c125",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Chúng ta cộng hai cái này lại thì ta sẽ có EPA cộng với lại DHA >> đem chia cho >> tổng chất béo.",
+    "timestamp": "03:07:52",
+    "timestamp_recomputed": "03:07:52"
+   },
+   {
+    "quote": "Nhưng mà cũng có thể người ta chỉ đưa ra cái là dầu cá bằng tiếng Anh thôi.",
+    "timestamp": "02:51:55",
+    "timestamp_recomputed": "02:51:55"
+   },
+   {
+    "quote": "gì thì quý vị cứ đi tìm ở trên cái vỏ bao bì của nó xem là cái khối lượng lớn nhất trong một viên",
+    "timestamp": "02:52:21",
+    "timestamp_recomputed": "02:52:21"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Captions garble 'Total Fat' as 'Phát' and 'Fish Oil' as 'fit soi'/'fit oil'. The fallback order total fat > fish oil > largest mass matches. Explained first at 02:49-02:53 and repeated at 03:06-03:08."
+ },
+ {
+  "id": "c126",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Một là nếu nhỏ hơn 0,3 thì cái chiều này đang có gì ạ? Đang có xu hướng nhiều tạp chất.",
+    "timestamp": "03:01:21"
+   },
+   {
+    "quote": "Nhiều tạp chất cộng với lại các cái chất béo không cần thiết.",
+    "timestamp": "03:01:29"
+   },
+   {
+    "quote": "Với những sản phẩm dầu cá mà quý vị đem chia nó nhỏ hơn 0,3 này là thông thường đấy là dầu cá tự nhiên.",
+    "timestamp": "03:05:35"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp nội dung; câu gốc nói '<0,3 thông thường là dầu cá tự nhiên' và 'có xu hướng nhiều tạp chất', tóm tắt nói thẳng hơn một chút; tóm tắt cũng bỏ ưu điểm 'dễ hấp thu' và lời khuyên tự theo dõi mỡ máu/gan."
+ },
+ {
+  "id": "c127",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nhưng mà bắt đầu từ 0,3 bắt đầu từ 0,5 thì chúng ta khá tốt nhưng lại liên quan tới vấn đề kinh tế.",
+    "timestamp": "03:02:08"
+   },
+   {
+    "quote": "Nó khá đắt rồi. Từ 0 phẩ chia được con số được 0,5 là khá đắt rồi.",
+    "timestamp": "03:02:16"
+   },
+   {
+    "quote": "Đại đa số thì mọi người chấp nhận được con số 0,5 đến con số 0,6.",
+    "timestamp": "03:02:58"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Ý 'khá tốt' có trong transcript, nhưng bác sĩ nói mức 0,5 là 'khá đắt rồi', chỉ là mức đa số người 'chấp nhận được'; tóm tắt bỏ lưu ý giá đắt và làm mềm thành 'mức giá hợp lý'."
+ },
+ {
+  "id": "c128",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Lên tới 0,6 nếu quý vị nào mà uống từ 0,6 trở lên thì chúng ta sẽ bỏ được nhiều những các cái sản phẩm thuốc. Ví dụ như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch. Tôi thấy rất nhiều người bỏ được.",
+    "timestamp": "03:02:22"
+   },
+   {
+    "quote": "Thế rồi thì thuốc huyết áp, thế rồi thì khớp đang đau bắt đầu hết đau. Những cái phản ứng viêm dị ứng các thứ bắt đầu là hết. Viêm xoang, viêm mũi các thứ nọ kia hết. Thế rồi trí nhớ bắt đầu cải thiện.",
+    "timestamp": "03:02:34"
+   },
+   {
+    "quote": "Alzimer nhớ nhớ quên quên là cải thiện được rất nhiều, học hành nó tốt.",
+    "timestamp": "03:02:51"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói, dựa trên quan sát của ông ('Tôi thấy rất nhiều người'); riêng chữ 'Parkison' nằm trong một câu xen sau dấu '>>' ('Alzimer run rẩy tay chân Parkison') nên không chắc ai nói; tóm tắt quy hết cho bác sĩ",
+  "note": "Các nhóm bệnh có nhắc, nhưng transcript nói về việc 'bỏ được thuốc' theo quan sát cá nhân của bác sĩ; tóm tắt bỏ khung 'tôi thấy' đó, viết thành hiệu quả chung 'rõ rệt', và gán Parkinson cho bác sĩ dù câu đó có thể là của người khác."
+ },
+ {
+  "id": "c129",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong tuần trước có mấy bác đến đưa đến kết quả xét nghiệm nói rằng sau khi uống omega 3 xong lên tới 0,7 thì sau 3 tháng kết quả đang mỡ máu cao tự dưng về bình thường.",
+    "timestamp": "03:03:24"
+   },
+   {
+    "quote": "Tiểu đường chỉ số cũng về bình thường huyết áp không cần dùng thuốc các thứ một loạt cái nhưng mà các bác phản ánh rằng tốn tiền quá.",
+    "timestamp": "03:03:35"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc thuật lại lời một vài bệnh nhân ('mấy bác'); tóm tắt ghi 'thực tế ghi nhận'",
+  "note": "Khớp; nguồn là vài bệnh nhân kể lại, tóm tắt có thêm 'có thể' nên câu vẫn giữ mức thận trọng; tóm tắt bỏ ý họ than 'tốn tiền quá'."
+ },
+ {
+  "id": "c130",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Còn từ 0,9 trở lên thì bác sĩ kê đơn để điều trị một số những các cái căn bệnh này khác",
+    "timestamp": "03:04:40"
+   },
+   {
+    "quote": "dùng cũng khác hẳn và giá thành của nó thì rất đắt.",
+    "timestamp": "03:04:57"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; bác sĩ cũng nói số người mua được loại 0,9 'chỉ đếm trên đầu ngón tay'."
+ },
+ {
+  "id": "c131",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trong công thức cấu tạo của nó có quá nhiều liên kết pi thì quá nhiều liên kết pi nó sẽ dẫn tới hiện tượng gì?",
+    "timestamp": "03:09:30"
+   },
+   {
+    "quote": "Đúng rồi. Nó dễ bị biến tính.",
+    "timestamp": "03:09:37"
+   },
+   {
+    "quote": "Nhiều liên kết pi cho nên rất dễ bị oxy hóa, rất dễ bị các cái phản ứng hóa học.",
+    "timestamp": "03:10:07"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói (Khánh Lành trả lời 'Dễ bị oxy hóa' khi được hỏi và bác sĩ xác nhận); tóm tắt không ghi người nói",
+  "note": "Khớp."
+ },
+ {
+  "id": "c132",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "xách tay từ nước ngoài về vẫn mua được đấy là sản phẩm tốt. Nhưng cái quá trình vận chuyển cá quá trình đem về nhà quý vị có biết bảo quản hay không?",
+    "timestamp": "03:10:30"
+   },
+   {
+    "quote": "Hay là chúng ta bảo quản nó bị sai? Nếu bảo quản bị sai thì dầu cá này, Omega này rất nhanh biến tính và nó trở thành chúng ta uống như uống nước lã.",
+    "timestamp": "03:10:39"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; bác sĩ thừa nhận hàng xách tay vẫn có thể là sản phẩm tốt, rủi ro nằm ở khâu vận chuyển và bảo quản, đúng như câu tóm tắt có điều kiện."
+ },
+ {
+  "id": "c133",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "muốn mua bảo quản cẩn thận thì chúng ta phải đến những hiệu thuốc có uy tín.",
+    "timestamp": "03:10:19"
+   },
+   {
+    "quote": "những hiệu có uy tín mua. Và tốt nữa cái là chúng ta đừng mua quá nhiều.",
+    "timestamp": "03:11:51"
+   },
+   {
+    "quote": "Có người mua đến hàng chục hộp về để sẵn đấy xong uống dần chúng ta không bảo quản được. Nó hỏng đi, nó biến tính đi mất rồi.",
+    "timestamp": "03:11:56"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc khuyên; ý 'được cấp giấy phép' xuất hiện ở câu 'Được cấp giấy phép hải.' [03:10:24]",
+  "note": "Khớp."
+ },
+ {
+  "id": "c134",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "đang lấy ví dụ như là thế thôi. Vậy có một nguyên tắc để mua như thế này.",
+    "timestamp": "03:14:22"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; ngay trước đó bác sĩ nói 'đây là tôi đang lấy ví dụ' và khuyên nhớ theo cơ chế (DHA→não/mắt, EPA→tim) thay vì theo nhóm tuổi."
+ },
+ {
+  "id": "c135",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Thế vì như thế mà những ai đang bị gan nhiễm mỡ, bị mỡ máu, bị tiểu đường, bị đau khớp, bị tăng huyết áp, nói chung bị một loạt những cái bệnh",
+    "timestamp": "03:14:59"
+   },
+   {
+    "quote": "EPA tăng hơn so với DHA để nó quét cái mỡ máu đi.",
+    "timestamp": "03:15:37"
+   },
+   {
+    "quote": "Còn đừng có để mất cân bằng. Tức là quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên.",
+    "timestamp": "03:18:30"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Nội dung có trong transcript (gồm cả trẻ em: 'trẻ con nhưng vẫn dùng EPA tăng lên' [03:15:59]), nhưng tóm tắt nói cứng hơn: bác sĩ nói 'mua EPA tăng lên' / 'phải mua APA cao hơn DHA' chứ không nói 'bắt buộc', không nói 'quét sạch'; tóm tắt cũng bỏ lời dặn đừng để lệch quá nhiều giữa EPA và DHA. Trẻ rối loạn nhịp tim chỉ được gộp vào một cách ngầm định."
+ },
+ {
+  "id": "c136",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nếu ta mua DHA lớn hơn EPA với người bị gan nhiễm mỡ và mỡ máu",
+    "timestamp": "03:13:44"
+   },
+   {
+    "quote": "thì khi chúng ta uống vào có nguy cơ là chúng ta lại bị gan nhiễm mỡ tăng lên và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.",
+    "timestamp": "03:13:52"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Mất giới hạn đối tượng: transcript chỉ nói nguy cơ này 'với người bị gan nhiễm mỡ và mỡ máu', còn tóm tắt viết như áp dụng cho mọi người."
+ },
+ {
+  "id": "c137",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp như tranh vẽ, cơ thể chúng ta không bị bệnh các thứ gì thì chúng ta mua cái DHA tăng lên một chút.",
+    "timestamp": "03:16:08"
+   },
+   {
+    "quote": "mua tăng lên một chút để nó ưu tiên cho não và mắt thì chúng ta sẽ rất thông minh, sẽ mắt sẽ rất tinh.",
+    "timestamp": "03:16:19"
+   },
+   {
+    "quote": "Thì chính cái điều đó mà giúp cho các cháu không bị gan nhiễm mỡ, không bị mỡ máu các cháu uống DHA này vào thì các cháu sẽ thông minh lên,",
+    "timestamp": "03:16:22"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Bỏ chữ 'một chút' ('DHA tăng lên một chút') và bỏ lời dặn đừng lệch quá nhiều; trẻ em được nói là 'các cháu không bị gan nhiễm mỡ, không bị mỡ máu', tóm tắt đổi thành 'trẻ em cần chăm sóc não và mắt'."
+ },
+ {
+  "id": "c138",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trong cái chế độ dinh dưỡng của chúng ta thì cực kỳ quan trọng những cái đấy là cái bộ ba tam giác vàng là mag, canxi",
+    "timestamp": "03:19:09"
+   },
+   {
+    "quote": "hiểu cái điều này để bổ sung bảy cái vi chất này thì chúng ta có được những kiến thức đó",
+    "timestamp": "03:22:29"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; bác sĩ đếm lần lượt từ 1 đến 7."
+ },
+ {
+  "id": "c139",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "quan trọng những cái đấy là cái bộ ba tam giác vàng là mag, canxi và gì ạ? Và vitamin D. Đây là bộ ba tam giác vàng vô cùng quan trọng.",
+    "timestamp": "03:19:15"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c140",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "quan trọng những cái đấy là cái bộ ba tam giác vàng là mag, canxi và gì ạ? Và vitamin D. Đây là bộ ba tam giác vàng vô cùng quan trọng.",
+    "timestamp": "03:19:15"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c141",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thân chúng ta. Vitamin D chúng ta cố gắng đẩy nó lên được cái ngưỡng phù hợp, ngưỡng lý tưởng ngưỡng phù hợp mà theo quan điểm của tôi và nhiều chuyên gia dinh dưỡng trên thế giới",
+    "timestamp": "03:19:32"
+   },
+   {
+    "quote": "người ta đang chọn là từ vitamin D từ bao nhiêu ạ? Từ 50 đến 70 Ng/ml đúng không ạ? Máu khi mà chúng ta xét nghiệm",
+    "timestamp": "03:19:41"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc, trình bày là 'quan điểm của tôi và nhiều chuyên gia dinh dưỡng'",
+  "note": "Khớp; ở đoạn trước [01:24:29] bác sĩ còn nói theo kinh nghiệm của ông mức 70–80 ng/ml là 'tuyệt vời'."
+ },
+ {
+  "id": "c142",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái thứ tư là cái gì ạ? Cái vitamin tổng hợp",
+    "timestamp": "03:19:54"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c143",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "và cái thứ năm là cái gì ạ? Vitamin C.",
+    "timestamp": "03:19:59"
+   }
+  ],
+  "speaker": "Câu này đứng sau dấu '>>' trong chuỗi bác sĩ đếm các vi chất; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c144",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái thứ sáu là gì ạ? kẽm. Cái thứ bảy là gì ạ? Chỉnh là omega",
+    "timestamp": "03:20:02"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c145",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái thứ sáu là gì ạ? kẽm. Cái thứ bảy là gì ạ? Chỉnh là omega",
+    "timestamp": "03:20:02"
+   },
+   {
+    "quote": "Và chúng ta luôn luôn nói Omega 3 chứ không không nên đầu tư vào Omega 6 và Omega 9",
+    "timestamp": "03:20:10"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc (Khánh Lành nói tiếp 'là omega 3')",
+  "note": "Khớp."
+ },
+ {
+  "id": "c146",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thêm về Omega 3 là trên thế giới các quốc gia phát triển người ta đã thực hiện xét nghiệm EPA và DHA ở trong hồng cầu, trong tế bào hồng cầu",
+    "timestamp": "03:26:20"
+   },
+   {
+    "quote": "cầu đang là bao nhiêu. Và với trong hồng cầu như vậy thì người ta sẽ tính toán được những cái chuyện là cần bổ sung bao nhiêu trong một ngày.",
+    "timestamp": "03:25:12"
+   },
+   {
+    "quote": "Vậy thì màng tế bào hồng cầu nó mới là bộ não của tế bào. Bởi vì nhân trong hồng cầu không còn nhân nữa.",
+    "timestamp": "03:27:17"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp. Danh sách liều khuyến cáo trong transcript là 400/500/600/1000/2000 mg (tóm tắt bỏ 600). Bác sĩ cũng nói Việt Nam chưa làm xét nghiệm này [03:24:50]; tóm tắt bỏ ý đó."
+ },
+ {
+  "id": "c147",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ở chỗ đấy. Và trong cái xét nghiệm của hồng cầu thì người ta sẽ xét nghiệm ví dụ như là canxi ở trong hồng cầu, mai ở trong hồng cầu, thế rồi thì omega 3 các thứ này ở trong hồng cầu",
+    "timestamp": "03:27:43"
+   },
+   {
+    "quote": "người ta căn cứ vào cái màng hồng cầu đấy để người ta xét nghiệm rất là nhiều những cái mà kèm theo nó.",
+    "timestamp": "03:27:55"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c148",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "cách ngoạn mục. Nhưng mà các bệnh nhân đến với tôi, những người đến với kênh YouTube của tôi thì chủ yếu là những người giúp việc gia đình, tức là gọi là in và những người công nhân, những người nông dân.",
+    "timestamp": "03:28:22"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c149",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "tôi cũng mong muốn đến một ngày nào đấy là những người làm công việc giúp việc, những người nông dân sẽ giải toán nháy nháy ấy.",
+    "timestamp": "03:28:51"
+   },
+   {
+    "quote": "chúng ta sẽ làm được những bài tích phân, vi phân, thế giải được những cái phương trình, hệ phương trình đa biến, thế và áp dụng được những các cái thuật toán vào trong cuộc sống",
+    "timestamp": "03:28:58"
+   },
+   {
+    "quote": "sau khi mà nhận thức của nhân dân chúng ta tăng lên rồi thì lúc đấy chúng ta có nhu cầu xét nghiệm",
+    "timestamp": "03:28:04"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; ý 'nhận thức tăng lên' trong transcript gắn với việc có nhu cầu xét nghiệm, không gắn riêng với người giúp việc/nông dân."
+ }
+]

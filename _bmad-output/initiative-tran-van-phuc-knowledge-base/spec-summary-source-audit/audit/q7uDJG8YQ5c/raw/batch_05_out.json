@@ -1,0 +1,457 @@
+[
+ {
+  "id": "c101",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ngoài ra, Omega 3 có kích thước viên to khi uống rất bất tiện, nhất là đối với đối tượng là trẻ em và người cao tuổi.",
+    "timestamp": "02:37:55",
+    "timestamp_recomputed": "02:37:55"
+   }
+  ],
+  "speaker": "Host Khánh Lành reading a quoted health-newspaper article verbatim; summary states it unattributed under the misconceptions section",
+  "note": "Matches the quoted article; it is article content, not the doctor's own statement."
+ },
+ {
+  "id": "c102",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thứ hai, quan niệm rằng Omega 3 hàng ngoại mới là loại tốt.",
+    "timestamp": "02:38:02",
+    "timestamp_recomputed": "02:38:02"
+   },
+   {
+    "quote": "Hiện nay, vẫn có rất nhiều các nhà sản xuất dầu cá trên thế giới với công nghệ sản xuất cũ cho hiệu quả thấp hoặc sử dụng nguồn nguyên liệu dầu cá không tinh chế khiến Omega 3 bị giảm chất lượng.",
+    "timestamp": "02:38:09",
+    "timestamp_recomputed": "02:38:09"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Article says 'nhà sản xuất dầu cá trên thế giới'; summary's 'nước ngoài' is a close paraphrase."
+ },
+ {
+  "id": "c103",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Quan niệm tiếp theo là mọi độ tuổi dùng Omega 3 cùng loại đều tốt.",
+    "timestamp": "02:38:31",
+    "timestamp_recomputed": "02:38:31"
+   },
+   {
+    "quote": "Tuy nhiên, với mỗi một độ tuổi, mỗi nhu cầu sức khỏe khác nhau thì nên chọn sản phẩm Omega 3 có hàm lượng giàu DHA hơn hay là giàu EPA hơn.",
+    "timestamp": "02:38:41",
+    "timestamp_recomputed": "02:38:41"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article."
+ },
+ {
+  "id": "c104",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Với trẻ em và phụ nữ có thai thì cần ưu tiên chọn loại giàu DHA hơn. Còn với người trung niên, người cao tuổi, người mắc các bệnh lý tim mạch, huyết áp, mỡ máu thì nên chọn loại giàu EPA hơn.",
+    "timestamp": "02:38:57",
+    "timestamp_recomputed": "02:38:57"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article wording."
+ },
+ {
+  "id": "c105",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế nào mới là loại omega 3? Thứ nhất, Omega 3 dạng triglycerit có hiệu quả hấp thu tốt.",
+    "timestamp": "02:39:11",
+    "timestamp_recomputed": "02:39:11"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Lead-in to the article's five numbered criteria."
+ },
+ {
+  "id": "c106",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Hiện nay, Omega 3 có hai dạng là triglycerit và ethy este.",
+    "timestamp": "02:39:18",
+    "timestamp_recomputed": "02:39:18"
+   },
+   {
+    "quote": "dạng triglycerit được các chuyên gia khuyên dùng với các ưu điểm vượt trội như là bền hơn, ít bị oxy hóa hơn, cho khả năng hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn loại ethy este.",
+    "timestamp": "02:39:26",
+    "timestamp_recomputed": "02:39:26"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Article names only triglycerit vs ethyl ester. The summary adds '(TG hoặc rTG)', which is not in the article; the doctor brings up rTG later as a separate form. The summary also drops the attribution 'được các chuyên gia khuyên dùng'."
+ },
+ {
+  "id": "c107",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thứ hai là chọn Omega 3 có hàm lượng DHA và EPA cao.",
+    "timestamp": "02:39:53",
+    "timestamp_recomputed": "02:39:53"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article."
+ },
+ {
+  "id": "c108",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nguồn nguyên liệu dầu cá để sản xuất các sản phẩm Omega 3 phải đảm bảo sạch và tinh chế, đồng thời không chứa các tạp chất và các kim loại nặng.",
+    "timestamp": "02:40:07",
+    "timestamp_recomputed": "02:40:07"
+   },
+   {
+    "quote": "Dầu cá Na Uy hiện nay đang là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.",
+    "timestamp": "02:40:13",
+    "timestamp_recomputed": "02:40:13"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "The article only calls Norwegian fish oil 'một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới'. The summary goes further and uses it as an example of a clean source free of impurities and heavy metals, which hardens the article's claim."
+ },
+ {
+  "id": "c109",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Với trẻ em, phụ nữ có thai và người trưởng thành cần chăm sóc sức khỏe não, mắt và tim mạch thì chọn loại omega 3 giàu DHA hơn.",
+    "timestamp": "02:40:31",
+    "timestamp_recomputed": "02:40:31"
+   },
+   {
+    "quote": "Người trung niên và cao tuổi cần chọn omega 3 giàu EPA hơn do có nguy cơ cao hoặc đang mắc các bệnh tim mạch, mỡ máu cao, huyết áp cao.",
+    "timestamp": "02:40:38",
+    "timestamp_recomputed": "02:40:38"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Substantively matches. Minor drops: 'người trưởng thành' becomes 'người', and 'nguy cơ cao' becomes 'nguy cơ'."
+ },
+ {
+  "id": "c110",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thứ năm là chọn sản phẩm Omega 3 được các cơ quan có thẩm quyền cấp phép và được phân phối bởi Công ty dược phẩm uy tín.",
+    "timestamp": "02:40:51",
+    "timestamp_recomputed": "02:40:51"
+   },
+   {
+    "quote": "Không nên mua loại Omega 3 hàng xách tay hoặc hàng trôi nổi trên thị trường.",
+    "timestamp": "02:41:00",
+    "timestamp_recomputed": "02:41:00"
+   }
+  ],
+  "speaker": "Host reading quoted article; summary unattributed",
+  "note": "Matches article."
+ },
+ {
+  "id": "c111",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế cho nên là chúng ta thấy ở đây quý nhất thì vẫn chỉ là omega 3 và trong omega 3 quý nhất là cái gì? Quý nhất là cái APA",
+    "timestamp": "02:41:56",
+    "timestamp_recomputed": "02:41:56"
+   },
+   {
+    "quote": "Vì cái DPA thì nó cũng không phải là cái sản phẩm chỉ là sản phẩm trung gian thôi.",
+    "timestamp": "02:42:27",
+    "timestamp_recomputed": "02:42:27"
+   },
+   {
+    "quote": "Thế còn ALA thì có một đặc điểm là trong dầu thực vật có rất nhiều.",
+    "timestamp": "02:42:34",
+    "timestamp_recomputed": "02:42:34"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Doctor ranks EPA ('APA' in captions) and DHA as most precious. He calls DPA an intermediate and says ALA is abundant in vegetable oil."
+ },
+ {
+  "id": "c112",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Bây giờ Khánh Lành có mua được cá hồi đánh bắt dưới biển không?",
+    "timestamp": "02:44:16",
+    "timestamp_recomputed": "02:44:16"
+   },
+   {
+    "quote": "Thế cá hồi nuôi thì cho ăn sản phẩm là gì? Là thực vật.",
+    "timestamp": "02:44:26",
+    "timestamp_recomputed": "02:44:26"
+   },
+   {
+    "quote": "Các cái loại hạt, các loại thực vật mà thực vật thì lại dầu omega 6.",
+    "timestamp": "02:44:30",
+    "timestamp_recomputed": "02:44:30"
+   }
+  ],
+  "speaker": "Doctor Phúc (host answers 'rất là khó', doctor: 'Gần như không có'); summary consistent",
+  "note": "Doctor says wild salmon is nearly unavailable and farmed salmon eats seeds and plants. He names omega 6 and then 'Omega9' at 02:44:35."
+ },
+ {
+  "id": "c113",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Vậy thì cá hồi mà chúng ta mua về đại đa số là hàm lượng và DHA không được cao như là kỳ vọng trong lý thuyết.",
+    "timestamp": "02:45:03",
+    "timestamp_recomputed": "02:45:03"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Doctor compares the content to 'kỳ vọng trong lý thuyết', not explicitly to wild-caught salmon. The summary changes the comparison target and drops the hedge 'đại đa số'."
+ },
+ {
+  "id": "c114",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế cho nên là nếu quý vị trông chờ vào ăn cá, mua cá nghĩ rằng đấy là cá biển và chúng ta ăn vào bổ sung được Omega 3 thì cái đó là chúng ta thiếu đấy chứ không thể đủ được đâu.",
+    "timestamp": "02:45:14",
+    "timestamp_recomputed": "02:45:14"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches the doctor's conclusion."
+ },
+ {
+  "id": "c115",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Dầu cá tự nhiên là 1 TG đúng không ạ? Dầu cá ethin este là 2",
+    "timestamp": "03:05:22",
+    "timestamp_recomputed": "03:05:22"
+   },
+   {
+    "quote": "ba loại dầu cá này thì tùy quý vị chọn nhưng mà giá thành của nó",
+    "timestamp": "03:00:56",
+    "timestamp_recomputed": "03:00:56"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary attributes to Bác sĩ Phúc correctly",
+  "note": "Doctor lists three types: TG, EE and rTG (rTG is named as '3' at 03:05:27)."
+ },
+ {
+  "id": "c116",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đầu tiên là người ta lấy các sản phẩm ví dụ cá, gan, cá vân vân các cái loài vật người ta sẽ ép nó ra để trở thành dầu.",
+    "timestamp": "02:47:40",
+    "timestamp_recomputed": "02:47:40"
+   },
+   {
+    "quote": "Dầu cá tự nhiên là gì? Là chúng ta chỉ đơn giản là chúng ta đi ép nó ra để trở thành một cái sản phẩm dầu cá.",
+    "timestamp": "02:48:02",
+    "timestamp_recomputed": "02:48:02"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches."
+ },
+ {
+  "id": "c117",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cụ thể là là bao nhiêu? Nó luôn luôn nhỏ hơn hoặc bằng 30%. 30% tức là 0,3.",
+    "timestamp": "02:49:06",
+    "timestamp_recomputed": "02:49:06"
+   },
+   {
+    "quote": "thì thông thường dầu cá tự nhiên luôn luôn nhỏ hơn hoặc bằng 30%.",
+    "timestamp": "02:50:49",
+    "timestamp_recomputed": "02:50:49"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "The ratio is (EPA+DHA) divided by total fat. The doctor also says 'tôi cũng chưa thấy có sản phẩm nào ... vượt qua được con số 0,3' (02:53:37)."
+ },
+ {
+  "id": "c118",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ưu điểm của dầu cá tự nhiên là gì? Đó là dễ hấp thu.",
+    "timestamp": "02:53:44",
+    "timestamp_recomputed": "02:53:44"
+   },
+   {
+    "quote": "có nhiều tạp chất. Nhược điểm nữa là gì? >> Có thể chứa kim loại nặng.",
+    "timestamp": "02:54:16",
+    "timestamp_recomputed": "02:54:16"
+   },
+   {
+    "quote": "Gồm có các axit béo không cần thiết. Có một loạt các axit béo không cần thiết.",
+    "timestamp": "02:49:24",
+    "timestamp_recomputed": "02:49:24"
+   }
+  ],
+  "speaker": "Doctor Phúc leads a Q&A. Host Khánh Lành gives some of the drawbacks (heavy metals, unnecessary fatty acids) and the doctor confirms them. Summary consistent",
+  "note": "The 'có thể' hedge on heavy metals is kept. The summary leaves out another drawback the doctor listed, low EPA/DHA content, but the claim is accurate."
+ },
+ {
+  "id": "c119",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Cái thời gian sống của cái loài này kích thước nó nhỏ, thời gian sống của nó rất ngắn.",
+    "timestamp": "02:55:08",
+    "timestamp_recomputed": "02:55:08"
+   },
+   {
+    "quote": "Thứ hai nữa là bắt ở khu vực Nam Cực là cái khu mà cái nơi mà không có >> cuộc sống cho nên biển nó sạch.",
+    "timestamp": "02:55:26",
+    "timestamp_recomputed": "02:55:26"
+   },
+   {
+    "quote": "Thế còn an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa.",
+    "timestamp": "02:55:37",
+    "timestamp_recomputed": "02:55:37"
+   }
+  ],
+  "speaker": "Doctor Phúc reporting what advertisers and 'một số người lý luận' claim; summary says 'được cho là'",
+  "note": "The summary keeps 'được cho là' but drops the doctor's caveat 'an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa'. It also leaves out that this reasoning comes from advertising ('người ta hay quảng cáo')."
+ },
+ {
+  "id": "c120",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế thì cái từ cái triglycerit ấy để tinh chế nó thì người ta tách nó ra thành những các cái axit béo dưới dạng este hóa.",
+    "timestamp": "02:56:53",
+    "timestamp_recomputed": "02:56:53"
+   },
+   {
+    "quote": "Thứ ba nữa là gì ạ? Loại bỏ những tạp chất. >> Vâng. Thứ tư nó là gì ạ? Thanh lọc những các cái độc chất kim như kim loại nặng",
+    "timestamp": "02:58:25",
+    "timestamp_recomputed": "02:58:25"
+   },
+   {
+    "quote": "thì ety nó khi mà chúng ta mua nó sẽ cô đặc lên được vượt qua con số 0,3%.",
+    "timestamp": "02:59:03",
+    "timestamp_recomputed": "02:59:03"
+   }
+  ],
+  "speaker": "Doctor Phúc, with the host supplying listed advantages; summary consistent",
+  "note": "Captions say '0,3%' and then clarify '0,3 tức là 30%'. The 'above 30%' figure matches."
+ },
+ {
+  "id": "c121",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "khó ngấm hơn nhiều so với dầu cá tự nhiên này.",
+    "timestamp": "02:58:39",
+    "timestamp_recomputed": "02:58:39"
+   },
+   {
+    "quote": "Nó giảm cái mức độ hấp thu vào trong cơ thể chúng ta nó giảm đi là nếu dầu cá tự nhiên là 100% thì cái này chỉ còn có 74 đến 75% nữa thôi.",
+    "timestamp": "02:58:43",
+    "timestamp_recomputed": "02:58:43"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches: 74-75% relative to natural fish oil."
+ },
+ {
+  "id": "c122",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "dầu cá mà tái tổ hợp lại tức là nó quay trở lại cái này từ cái sau khi mà cô đặc lại, tức là sau khi cô đặc thì nó chuyển thành ety làm thêm một bước nữa là",
+    "timestamp": "02:59:31",
+    "timestamp_recomputed": "02:59:31"
+   },
+   {
+    "quote": "Tức là cho nó tạo thành các cái phương pháp hóa học, phản ứng hóa học để nó tạo thành cái này",
+    "timestamp": "02:59:46",
+    "timestamp_recomputed": "02:59:46"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Matches: re-forming triglyceride after concentration as EE."
+ },
+ {
+  "id": "c123",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và thậm chí người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên.",
+    "timestamp": "03:00:03",
+    "timestamp_recomputed": "03:00:03"
+   },
+   {
+    "quote": "Cũng có những tài liệu nghiên cứu thầy nói rằng khả năng ngấm của cái này gấp ba cho đến bốn lần.",
+    "timestamp": "03:00:21",
+    "timestamp_recomputed": "03:00:21"
+   },
+   {
+    "quote": "Tôi nghĩ rằng là đến 125% thì có lẽ là hợp lý hơn chứ còn đôi khi người ta quảng cáo nó hơi nhiều.",
+    "timestamp": "03:00:47",
+    "timestamp_recomputed": "03:00:47"
+   }
+  ],
+  "speaker": "Doctor Phúc reporting others' figures ('người ta cho rằng', 'có những tài liệu'); summary states the figures as fact",
+  "note": "The summary treats both figures as fact. It drops 'người ta cho rằng' on the 125% figure and the doctor's skepticism about the 3-4x vs EE figure ('hơi nhiều quá'; 125% 'có lẽ là hợp lý hơn', 'quảng cáo nó hơi nhiều')."
+ },
+ {
+  "id": "c124",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "dầu cá thứ hai nó sẽ đắt lên khá nhiều và dầu cá thứ ba, loại thứ ba này, loại RTG này là sẽ là đắt nhất.",
+    "timestamp": "03:01:04",
+    "timestamp_recomputed": "03:01:04"
+   },
+   {
+    "quote": "Và đặc biệt dầu cá RTG là dầu cá rất đắt bởi vì người ta quay trở lại cái công thức ban đầu của nó.",
+    "timestamp": "03:05:51",
+    "timestamp_recomputed": "03:05:51"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "'Most expensive' is supported. The doctor never calls rTG 'cao cấp'; that is a minor added descriptor."
+ },
+ {
+  "id": "c125",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Chúng ta cộng hai cái này lại thì ta sẽ có EPA cộng với lại DHA >> đem chia cho >> tổng chất béo.",
+    "timestamp": "03:07:52",
+    "timestamp_recomputed": "03:07:52"
+   },
+   {
+    "quote": "Nhưng mà cũng có thể người ta chỉ đưa ra cái là dầu cá bằng tiếng Anh thôi.",
+    "timestamp": "02:51:55",
+    "timestamp_recomputed": "02:51:55"
+   },
+   {
+    "quote": "gì thì quý vị cứ đi tìm ở trên cái vỏ bao bì của nó xem là cái khối lượng lớn nhất trong một viên",
+    "timestamp": "02:52:21",
+    "timestamp_recomputed": "02:52:21"
+   }
+  ],
+  "speaker": "Doctor Phúc; summary consistent",
+  "note": "Captions garble 'Total Fat' as 'Phát' and 'Fish Oil' as 'fit soi'/'fit oil'. The fallback order total fat > fish oil > largest mass matches. Explained first at 02:49-02:53 and repeated at 03:06-03:08."
+ }
+]

@@ -1,0 +1,9 @@
+Blind pass-2 batch 03 notes (V-Qfwjo28Zg) — 31 claims; supported 29, attribution_qualification 2, mismatch 0, unresolved 0.
+
+Borderline calls:
+- c549 (attribution_qualification): source says "có những sản phẩm bán rất đắt" and "khá hot" (05:19:25). The summary generalizes this to glutathione overall being "rất đắt" and "hot", which drops the "some products" qualifier.
+- c282 (attribution_qualification): doctor states "tôi cho rằng vẫn là nguyên nhân gốc tự do" (02:21:38) without a hedge. The summary adds "có thể", which softens his claim.
+- c109 (supported): the claim is scoped to "Trong đoạn này". In the 01:11:21 reading segment the doctor does not answer the nurse's comment, but he does address it later (~01:53:23 and 02:10:53–02:11:58). The claim could mislead if read as "never answered".
+- c242 (supported): summary says the masks were "được giải thích là" due to illness, but the source says "hóa ra" and names no explainer. This is minor.
+- c454 (supported): the source qualifier "ăn quá đà" is not stated verbatim, though the excess condition is kept. The doctor calls the woman "chị Hằng", but the sugar story belongs to Nguyễn Nhung's comment; the summary just says "chị".
+- c386/c317/c351/c403: these are the doctor's written review read aloud by Khánh Lành, so attributing them to the doctor or the review is acceptable.

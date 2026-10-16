@@ -1,0 +1,392 @@
+[
+ {
+  "id": "c085",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nó tấn công vào cái đường ruột của chúng ta nó sẽ gây ra viêm của dạ dày ruột nó sẽ gây ra hội chứng ruột gì ạ?",
+    "timestamp": "02:18:23",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:18:23"
+   },
+   {
+    "quote": "giò rỉ ruột gây ra hội chứng gì nữa? Gây ra những tổn thương trào ngược dạ dày thực quản >> gây ra những các cái gì? Táo bón",
+    "timestamp": "02:18:35",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:18:35"
+   },
+   {
+    "quote": "cửa ngõ của hệ miễn dịch. Vâng. Khi đã tổn thương đường ruột rất dễ gây ra tổn thương tiến giáp với hai bệnh là hai bệnh gì? >> Hasimoto. >> Hasimoto và ba đô.",
+    "timestamp": "02:18:48",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:18:48"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc (quiz format; host Khánh Lành supplies some answers, doctor confirms)",
+  "note": "All listed gut conditions and Hashimoto/Basedow present in the doctor's excess-omega-6 inflammation explanation; transcript says gut damage 'rất dễ gây ra' thyroid damage, which the claim's 'dẫn đến' paraphrases closely enough."
+ },
+ {
+  "id": "c087",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "vàng là tất cả những cái này chia cho nhau một cách hợp lý và tốt nhất là tỉ lệ 1 chia 1",
+    "timestamp": "02:28:34",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:28:34"
+   },
+   {
+    "quote": "Có những nghiên cứu và những tài liệu nói rằng chấp nhận được tỉ lệ những cái này đem chia ra thì là 4 chia 1 thì được. Cùng lắm là đến 5 chia 1. 5 chia 1 thì đã là quá nhiều rồi.",
+    "timestamp": "02:28:43",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:28:43"
+   },
+   {
+    "quote": "ăn đừng để cho cái tỉ lệ nó vượt quá con số 4 chứ con số năm là tôi không tin lắm. Con số năm là sẽ sinh bệnh rồi đấy.",
+    "timestamp": "02:34:29",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:34:29"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "1:1 ideal supported, but the 4:1–5:1 'acceptable' range is what some studies/documents say. The doctor calls 5:1 already too much, says he does not trust 5, and later says 4 or 5:1 is not OK. The claim drops that attribution and caveat."
+ },
+ {
+  "id": "c090",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn EPA và DHA thì có từ gì ạ? >> Từ dầu động vật đúng không ạ? Vâng ạ. >> Động vật tập trung ở đâu? Nh >> chủ yếu là cá gan cá biển sâu.",
+    "timestamp": "02:26:51",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:26:51"
+   },
+   {
+    "quote": "Gan cá biển sâu hoặc là cá biển sâu đúng không ạ? thì nó mới tập trung nhiều chứ còn không thì khá là ít những cái thành phần này.",
+    "timestamp": "02:26:59",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:26:59"
+   }
+  ],
+  "speaker": "Host Khánh Lành answers in quiz; Dr. Trần Văn Phúc confirms",
+  "note": "Deep-sea fish / deep-sea fish liver named as where EPA and DHA concentrate."
+ },
+ {
+  "id": "c096",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu quý vị đưa được vitamin D lên lý tưởng, >> bổ sung canxi ma đúng, bổ sung kém vào các vitamin khác, điều chỉnh lại chế độ ăn dầu ăn và bổ sung omega 3 thì quý vị gần như thay đổi rất ngoạn mục.",
+    "timestamp": "02:34:44",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:34:44"
+   },
+   {
+    "quote": "Rất nhiều người là chúng ta sẽ bỏ được gì? bỏ được thuốc tim mạch, bỏ được thuốc huyết áp, bỏ được thuốc tiểu đường, bỏ được thuốc mỡ máu, bỏ được một loạt các cái thuốc bị bệnh ví dụ tiến giáp,",
+    "timestamp": "02:35:00",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:35:00"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc (anecdotal clinical/viewer experience)",
+  "note": "Combination (vitamin D ideal, Ca, Mg, zinc, oil control, omega-3) and many people stopping cardio/BP/diabetes/lipid/thyroid drugs match the doctor's statement; claim keeps 'nhiều' and 'có thể'."
+ },
+ {
+  "id": "c101",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Omega 3 có kích thước viên to khi uống rất bất tiện, nhất là đối với đối tượng là trẻ em và người cao tuổi.",
+    "timestamp": "02:37:58",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:37:58"
+   }
+  ],
+  "speaker": "host Khánh Lành reading a newspaper article aloud",
+  "note": "Matches the article text read aloud by the host (not the doctor's own statement)."
+ },
+ {
+  "id": "c106",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "dạng triglycerit được các chuyên gia khuyên dùng với các ưu điểm vượt trội như là bền hơn, ít bị oxy hóa hơn, cho khả năng hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn loại ethy este.",
+    "timestamp": "02:39:26",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:39:26"
+   },
+   {
+    "quote": "Hiện nay, Omega 3 có hai dạng là triglycerit và ethy este.",
+    "timestamp": "02:39:18",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:39:18"
+   }
+  ],
+  "speaker": "host Khánh Lành reading a newspaper article aloud",
+  "note": "The listed advantages come from the article, attributed to 'các chuyên gia'. The article only compares TG with EE and never mentions rTG, so the claim's '(TG hoặc rTG)' is an addition that mixes in the doctor's separate rTG discussion."
+ },
+ {
+  "id": "c108",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nguồn nguyên liệu dầu cá để sản xuất các sản phẩm Omega 3 phải đảm bảo sạch và tinh chế, đồng thời không chứa các tạp chất và các kim loại nặng. Dầu cá Na Uy hiện nay đang là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.",
+    "timestamp": "02:40:07",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:40:07"
+   }
+  ],
+  "speaker": "host Khánh Lành reading a newspaper article aloud",
+  "note": "Criteria match the article. The article calls Norwegian fish oil 'one of the world's leading sources' right after the criteria; the claim's '(như dầu cá Na Uy)' presents it as an example."
+ },
+ {
+  "id": "c110",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chọn sản phẩm Omega 3 được các cơ quan có thẩm quyền cấp phép và được phân phối bởi Công ty dược phẩm uy tín.",
+    "timestamp": "02:40:51",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:40:51"
+   },
+   {
+    "quote": "Không nên mua loại Omega 3 hàng xách tay hoặc hàng trôi nổi trên thị trường.",
+    "timestamp": "02:41:00",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:41:00"
+   }
+  ],
+  "speaker": "host Khánh Lành reading a newspaper article aloud",
+  "note": "Matches the article's fifth criterion. The doctor later echoes it: buy from licensed, reputable pharmacies and be wary of hand-carried goods because of storage."
+ },
+ {
+  "id": "c113",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế cá hồi nuôi thì cho ăn sản phẩm là gì? Là thực vật.",
+    "timestamp": "02:44:26",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:44:26"
+   },
+   {
+    "quote": "cho cá ăn các loại hạt, các loại thực vật là chính toàn ăn loài các loại thực vật. Vậy thì cá hồi mà chúng ta mua về đại đa số là hàm lượng và DHA không được cao như là kỳ vọng trong lý thuyết.",
+    "timestamp": "02:44:58",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:44:58"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "Mechanism and conclusion supported. The literal comparison is to 'kỳ vọng trong lý thuyết'; the contrast with wild-caught salmon is implied by the doctor's farmed-vs-wild framing."
+ },
+ {
+  "id": "c116",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "lấy các sản phẩm ví dụ cá, gan, cá vân vân các cái loài vật người ta sẽ ép nó ra để trở thành dầu.",
+    "timestamp": "02:47:44",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:47:44"
+   },
+   {
+    "quote": "đọc rất kỹ là dầu cá tự nhiên TG nhá. Đã nói tới dầu cá tự nhiên thì nó có gắn với chữ TG.",
+    "timestamp": "02:57:52",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:57:52"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "Natural fish oil is pressed from fish/liver and labeled TG."
+ },
+ {
+  "id": "c119",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "người ta hay quảng cáo ví dụ những cái dầu cá các cái loại nhuyễn thể đấy mà được làm từ gì? Từ các cái loài nhuyễn thể ở biển loài tôm mà ở dưới Nam Cực",
+    "timestamp": "02:54:41",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:54:41"
+   },
+   {
+    "quote": "nhuyễn thể loại nhuyễn thể này nó cái thời gian sống của nó chưa kịp ngấm ạ. cho nên chưa kịp ngấm vào. Thứ hai nữa là bắt ở khu vực Nam Cực",
+    "timestamp": "02:55:22",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:55:22"
+   },
+   {
+    "quote": "Thì người ta cho rằng là đấy là an toàn. >> Vâng. >> Thế còn an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa.",
+    "timestamp": "02:55:34",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:55:34"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc, reporting advertisers'/proponents' reasoning",
+  "note": "The claim's 'được cho là' keeps this as others' reasoning. The doctor's extra caveat that safety awaits research is omitted, but the claim does not assert safety as fact."
+ },
+ {
+  "id": "c122",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "dầu cá mà tái tổ hợp lại tức là nó quay trở lại cái này từ cái sau khi mà cô đặc lại, tức là sau khi cô đặc thì nó chuyển thành ety làm thêm một bước nữa là",
+    "timestamp": "02:59:31",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:59:31"
+   },
+   {
+    "quote": "Tức là cho nó tạo thành các cái phương pháp hóa học, phản ứng hóa học để nó tạo thành cái này",
+    "timestamp": "02:59:46",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:59:46"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "rTG is described as concentrated to EE and then chemically converted back to the triglyceride form."
+ },
+ {
+  "id": "c123",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "RTG này thì nó mang đầy đủ đặc điểm của ety este nhưng mà nó cải thiện khả năng ngấm lên rất nhiều.",
+    "timestamp": "02:59:53",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:59:53"
+   },
+   {
+    "quote": "Và thậm chí người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên.",
+    "timestamp": "03:00:03",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:00:03"
+   },
+   {
+    "quote": "Có tài liệu thì nói thằng này như thế này hơi nhiều quá. >> Ừ. nói rằng ngấm như thế này thì hơi nhiều. Tôi nghĩ rằng là đến 125% thì có lẽ là hợp lý hơn chứ còn đôi khi người ta quảng cáo nó hơi nhiều.",
+    "timestamp": "03:00:43",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:00:43"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "125% is attributed to 'người ta cho rằng' and accepted by the doctor as 'có lẽ hợp lý hơn'. The 3–4× vs EE figure is from some documents that the doctor calls exaggerated or advertising, yet the claim states it as an equivalent fact."
+ },
+ {
+  "id": "c127",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nhưng mà bắt đầu từ 0,3 bắt đầu từ 0,5 thì chúng ta khá tốt nhưng lại liên quan tới vấn đề kinh tế.",
+    "timestamp": "03:02:08",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:02:08"
+   },
+   {
+    "quote": "Nó khá đắt rồi. Từ 0 phẩ chia được con số được 0,5 là khá đắt rồi.",
+    "timestamp": "03:02:16",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:02:16"
+   },
+   {
+    "quote": "Đại đa số thì mọi người chấp nhận được con số 0,5 đến con số 0,6.",
+    "timestamp": "03:02:58",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:02:58"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "'Khá tốt' for 0.5 is supported, but the doctor stresses that 0.5 is already 'khá đắt' and only says most people accept 0.5–0.6. The claim's 'mức giá hợp lý' softens and reframes that cost caveat."
+ },
+ {
+  "id": "c128",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "uống từ 0,6 trở lên thì chúng ta sẽ bỏ được nhiều những các cái sản phẩm thuốc. Ví dụ như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch.",
+    "timestamp": "03:02:22",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:02:22"
+   },
+   {
+    "quote": "rồi thì khớp đang đau bắt đầu hết đau. Những cái phản ứng viêm dị ứng các thứ bắt đầu là hết. Viêm xoang, viêm mũi các thứ nọ kia hết. Thế rồi trí nhớ bắt đầu cải thiện.",
+    "timestamp": "03:02:38",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:02:38"
+   },
+   {
+    "quote": ">> Alzimer run rẩy tay chân Parkison. Alzimer nhớ nhớ quên quên là cải thiện được rất nhiều, học hành nó tốt.",
+    "timestamp": "03:02:47",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:02:47"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc (Parkinson mention appears in an interjected '>>' line, likely the host)",
+  "note": "The listed improvements at ≥0.6 match the transcript, and the claim is softer than the doctor's 'bỏ được thuốc'. Parkinson appears only in an interjection; the doctor's follow-up confirms Alzheimer/memory. The cost caveat 'giá thành đắt rồi' is omitted."
+ },
+ {
+  "id": "c135",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "những ai đang bị gan nhiễm mỡ, bị mỡ máu, bị tiểu đường, bị đau khớp, bị tăng huyết áp, nói chung bị một loạt những cái bệnh mà chúng ta vừa phân tích ra đấy.",
+    "timestamp": "03:14:59",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:14:59"
+   },
+   {
+    "quote": "EPA tăng hơn so với DHA để nó quét cái mỡ máu đi. >> Vâng. >> Và quét cái gan nhiễm mỡ đi.",
+    "timestamp": "03:15:37",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:15:37"
+   },
+   {
+    "quote": "Còn đừng có để mất cân bằng. Tức là quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên.",
+    "timestamp": "03:18:30",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:18:30"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "EPA>DHA for these groups and children with fatty liver or high lipids is supported. But the doctor says 'mua EPA tăng lên', uses 'phải' only for fatty liver/lipids, calls it an example, and warns against imbalance. 'Bắt buộc' hardens this; obesity, late nights, gaming and short videos are given as arrhythmia/fatty-liver risk factors, not as indication groups."
+ },
+ {
+  "id": "c136",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nếu ta mua DHA lớn hơn EPA với người bị gan nhiễm mỡ và mỡ máu, gan nhiễm mỡ và cái người bị mỡ máu thì khi chúng ta uống vào có nguy cơ là chúng ta lại bị gan nhiễm mỡ tăng lên và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.",
+    "timestamp": "03:13:44",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:13:44"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "The risk statement is limited to people who already have fatty liver or dyslipidemia. As standalone text the claim drops that population limit, though it may be implied by its parent bullet (c135)."
+ },
+ {
+  "id": "c137",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp như tranh vẽ, cơ thể chúng ta không bị bệnh các thứ gì thì chúng ta mua cái DHA tăng lên một chút.",
+    "timestamp": "03:16:08",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:16:08"
+   },
+   {
+    "quote": "mua tăng lên một chút để nó ưu tiên cho não và mắt thì chúng ta sẽ rất thông minh, sẽ mắt sẽ rất tinh.",
+    "timestamp": "03:16:19",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:16:19"
+   },
+   {
+    "quote": "không bị mỡ máu các cháu uống DHA này vào thì các cháu sẽ thông minh lên,",
+    "timestamp": "03:16:28",
+    "occurrences": 1,
+    "timestamp_recomputed": "03:16:28"
+   }
+  ],
+  "speaker": "Dr. Trần Văn Phúc",
+  "note": "DHA-leaning choice for healthy people and children with normal results, for brain/eye benefit, is supported. 'Ưu tiên' keeps the soft framing, although the doctor's 'một chút' and his no-imbalance caveat are not spelled out."
+ }
+]

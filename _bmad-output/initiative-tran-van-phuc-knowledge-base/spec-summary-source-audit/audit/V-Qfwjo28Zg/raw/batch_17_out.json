@@ -1,0 +1,358 @@
+[
+  {
+    "id": "c401",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "thế này thôi. Chỉ là 1 1,5 thôi đã đã là quý rồi. 1 1,5 tức là ta cố gắng là kéo dài cái thì sau ra một chút để ta đẩy",
+        "timestamp": "04:09:52"
+      },
+      {
+        "quote": "dài cái thì sau ra một chút để ta đẩy được các cái khí cạn ra. Nhưng bác tuyệt đối không cố gắng bởi vì nếu cố quá nó sẽ thành ra là nguy hiểm. Vì sao? Vì sức",
+        "timestamp": "04:09:59"
+      },
+      {
+        "quote": "lẽ ra nếu bác thở bác nhịn được chẳng hạn như là 15 giây, 10 giây chẳng hạn thì bác chỉ giảm xuống độ 8 9 giây thôi để giữ cái an toàn như mình đã. Thế thì",
+        "timestamp": "04:10:11"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "1–1,5 là nhịp thở/kéo dài thì thở ra, không phải thời gian nín thở 1–1,5 giây; phần giảm xuống 8–9 giây có trong lời nói."
+  },
+  {
+    "id": "c402",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "luôn mà bác có thể chở thở 1 1,5 thôi đã. Thế xong cứ nâng dần lên 1 xong thở đến ba thì xong bắt đầu dần dần thở đến 478 thì hơi thở là cái rất quan trọng để",
+        "timestamp": "04:10:24"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Có lời nâng dần lên 1, ba thì rồi 478; transcript không diễn đạt rõ hơn nhịp 1."
+  },
+  {
+    "id": "c403",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Giữ ấm tuyệt đối cho đôi bàn chân cùng vòng ngực mỗi khi gió mùa xe lạnh [âm nhạc] và đi ngủ trước 10:00 đêm.",
+        "timestamp": "03:38:41"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Giữ ấm chân, ngực khi gió mùa và ngủ trước 10 giờ đêm đều có."
+  },
+  {
+    "id": "c404",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Để tái cấu trúc lại bộ máy sinh học đã suy kiệt, chúng ta không thể đi sửa chữa từng chi tiết vụn vặt bằng thuốc cấp tính mà phải đi chữa lành từng nền tảng",
+        "timestamp": "03:38:50"
+      },
+      {
+        "quote": "tính mà phải đi chữa lành từng nền tảng tế bào.",
+        "timestamp": "03:38:57"
+      },
+      {
+        "quote": "tạo và dập tắt ngọn lửa viêm mạn tính bằng cách cung cấp đầy đủ, kiên trì và chuẩn xác nguồn nguyên liệu đầu vào.",
+        "timestamp": "03:39:05"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Bản nhận xét đặt đối lập thuốc cấp tính với chữa lành nền tảng tế bào và cung cấp nguyên liệu."
+  },
+  {
+    "id": "c405",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "bảy nhóm vi chất thiết yếu bao gồm canxi, mag, vitamin D, vitamin tổng hợp, vitamin C, kẽm và omega 3.",
+        "timestamp": "03:39:19"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Danh sách bảy nhóm được đọc đúng như tóm tắt."
+  },
+  {
+    "id": "c406",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Đừng coi đây là những viên thuốc rời dạc mà hãy hiểu rằng bảy nhóm vi chất này chính là dòng nhựa sống toàn diện là tập hợp những viên gạch sinh học nguyên bản",
+        "timestamp": "03:39:30"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "So sánh viên thuốc rời rạc với viên gạch sinh học có trong bản đọc."
+  },
+  {
+    "id": "c407",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "sung thì những cái gì. Đó là đầu tiên là cái mag rất quan trọng mà lúc nãy tôi vừa mới nói đó là chúng ta ma kẽm cen vân vân các thứ nếu chúng ta không có đủ",
+        "timestamp": "04:10:56"
+      },
+      {
+        "quote": "gì hết cả. Chân ma là rất quan trọng. Sau đó đến gì ạ? Đến canxi. Xong đến vitamin D3 đúng không ạ? Thì đây chính là bộ ba tam giác vàng. Tiếp theo nữa là",
+        "timestamp": "04:11:14"
+      },
+      {
+        "quote": "vitamin C xong tiếp nữa là đến gì ạ? Đến kẽm mà lúc đấy tôi vừa nói xong cuối cùng là gì ạ? Omega 3 thì chúng ta phải",
+        "timestamp": "04:11:49"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Sai thứ tự: bác sĩ nêu magie rồi canxi, D3; kẽm ở đoạn đầu là ví dụ các yếu tố hiệp đồng, còn danh sách đặt kẽm sau vitamin C, trước omega 3."
+  },
+  {
+    "id": "c408",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "gì hết cả. Chân ma là rất quan trọng. Sau đó đến gì ạ? Đến canxi. Xong đến vitamin D3 đúng không ạ? Thì đây chính là bộ ba tam giác vàng. Tiếp theo nữa là",
+        "timestamp": "04:11:14"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Bộ ba tam giác vàng nối tiếp magie, canxi và vitamin D3."
+  },
+  {
+    "id": "c409",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "cái mag rất quan trọng mà lúc nãy tôi vừa mới nói đó là chúng ta ma kẽm cen vân vân các thứ nếu chúng ta không có đủ",
+        "timestamp": "04:10:58"
+      },
+      {
+        "quote": "thì tất cả những chất oxy hóa, những các cái chống gốc tự do của chúng ta cũng đều vô nghĩa hết. Nó cũng chẳng ý nghĩa",
+        "timestamp": "04:11:06"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Nêu ma, kẽm, cen không đủ khiến chất chống gốc tự do vô nghĩa."
+  },
+  {
+    "id": "c410",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Bởi một thân thể đã mất 73 năm gánh chịu dông bão thì cũng cần ít nhất nửa năm đến một năm được tưới tắm trong tình yêu",
+        "timestamp": "03:39:54"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Mốc 73 năm và ít nhất nửa năm đến một năm được nêu rõ."
+  },
+  {
+    "id": "c411",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "đến một năm được tưới tắm trong tình yêu thương. Sự luyện thở đúng đắn và nguồn dinh dưỡng tế bào chuẩn mực để từng hơi",
+        "timestamp": "03:40:01"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Luyện thở đúng đắn và dinh dưỡng tế bào chuẩn mực đi cùng thời gian phục hồi."
+  },
+  {
+    "id": "c412",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "gốc tự do. Gốc tự do nó là nguồn cơn để mà sinh ra các bệnh. Mọi các cái căn bệnh đều đi qua một cái khâu trung gian đó gốc tự do. Nó sẽ có một số những cái",
+        "timestamp": "03:53:35"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Có khẳng định mọi căn bệnh đi qua trung gian gốc tự do."
+  },
+  {
+    "id": "c413",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "đó gốc tự do. Nó sẽ có một số những cái bệnh không có liên quan nhiều tới gốc tự do. Ví dụ như chẳng may chúng ta nhiễm con virus chẳng hạn thì chúng ta ít đổ",
+        "timestamp": "03:53:43"
+      },
+      {
+        "quote": "ho chẳng hạn. Hay là chúng ta bị những cái cảm cúm lặt vặt ví dụ thế hoặc chúng ta bị chấn thương thì không thể nào đổ tại cái gốc tự do được. Nhưng cũng không",
+        "timestamp": "03:53:54"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Nêu các ví dụ ít liên quan/không thể đổ tại gốc tự do."
+  },
+  {
+    "id": "c414",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tại cái gốc tự do được. Nhưng cũng không thể nào nói rằng đấy là không liên quan bởi vì chỉ khi cơ thể chúng ta suy yếu cái hệ miễn dịch thì chúng ta mới dễ nhiễm virus vi khuẩn đúng không ạ. Khi",
+        "timestamp": "03:54:01"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Không phủ nhận liên quan và dẫn hệ miễn dịch suy yếu dễ nhiễm virus vi khuẩn."
+  },
+  {
+    "id": "c415",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Trong y học cổ truyền và triết lý [âm nhạc] nhân sinh phương Đông, phế chủ ưu tức là lá phổi là nơi chú ngụ của nỗi buồn.",
+        "timestamp": "03:28:23"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết (được xác nhận 03:43:52–03:44:00); tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Bản đọc nói rõ phế chủ ưu theo y học cổ truyền; tóm tắt quy cho transcript, không đổi nguồn."
+  },
+  {
+    "id": "c416",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "ta. Trái tim nó nằm ở đấy, phổi nó nằm ở đó và có dây thần kinh gì á dây thần kinh phế vị tức là dây thần kinh 10. có",
+        "timestamp": "03:54:46"
+      },
+      {
+        "quote": "hệ thần kinh giao cảm, có hệ thần kinh phó giao cảm chi phối bởi cái đường hốt của chúng ta, bởi cái lồng ngực của",
+        "timestamp": "03:54:52"
+      },
+      {
+        "quote": "dây thần kinh lớn nhất, dây thần kinh dài nhất nó nối giữa bộ não với các tạng ở trong ổ bụng liên quan tới các tạng trong lồng ngực dẫn tới là của bác những",
+        "timestamp": "03:55:02"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Lời nói nêu tim, phổi, phế vị, giao cảm/phó giao cảm và dây dài nhất nối não với tạng."
+  },
+  {
+    "id": "c417",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "những cái điều đó như lúc nãy tôi nói tâm lý đấy là yếu tố quan trọng số một để sinh ra gốc tự do. Vì sao? Vì rằng",
+        "timestamp": "03:55:52"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Bác sĩ gọi tâm lý là yếu tố quan trọng số một sinh gốc tự do."
+  },
+  {
+    "id": "c418",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "não của chúng ta tiêu tốn bao nhiêu ạ? 20% 20% năng lượng. Trong khi đấy nó chỉ chiếm 2% trọng lượng cơ thể. Thứ hai là",
+        "timestamp": "03:56:00"
+      }
+    ],
+    "speaker": "Bác sĩ hỏi và nhắc lại 20% do Khánh Lành đáp; tóm tắt quy chung cho transcript.",
+    "note": "Tỉ lệ năng lượng 20% và trọng lượng 2% được nêu rõ."
+  },
+  {
+    "id": "c419",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "quả tim tiêu tốn năng lượng rất nhiều bởi vì công sức của công của tim nó thực hiện rất lớn dẫn tới là tốn rất nhiều năng lượng. Phổi cũng thế, tốn rất nhiều",
+        "timestamp": "03:56:09"
+      },
+      {
+        "quote": "năng lượng. Phổi cũng thế, tốn rất nhiều năng lượng để duy trì cuộc sống. Rõ ràng",
+        "timestamp": "03:56:16"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Tim làm việc lớn và phổi duy trì cuộc sống đều được nói tốn nhiều năng lượng."
+  },
+  {
+    "id": "c420",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "năng lượng để duy trì cuộc sống. Rõ ràng cả ba tạng đó là ba tạng rất quan trọng và cái nguồn cơn sinh ra gốc tự do.",
+        "timestamp": "03:56:18"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Gọi cả ba tạng là nguồn cơn sinh gốc tự do."
+  },
+  {
+    "id": "c421",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "khi mà đã mất đi một người phụ nữ thân yêu nhất của mình, dồn tất cả tình yêu trên người đó thì cái nỗi đau nó sẽ đè nặng lên trái tim của người ta rất",
+        "timestamp": "03:57:07"
+      },
+      {
+        "quote": "nhiều. và đỗi đăng đau đấy nó sẽ đè nặng lên từng hơi thở nó sẽ tác động tới não bộ và từ đó hình thành gốc tự do rất nhiều và tiếp theo nữa đó là bác lại có",
+        "timestamp": "03:57:15"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Liên hệ tình yêu người vợ đã mất, nỗi đau lên tim, hơi thở và não với gốc tự do có trong lời nói."
+  },
+  {
+    "id": "c422",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "nhiều và tiếp theo nữa đó là bác lại có một cái sai lầm đấy chính là dùng thuốc lá để quên đi tất cả những cái nỗi buồn",
+        "timestamp": "03:57:22"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Bác sĩ nói bác dùng thuốc lá để quên nỗi buồn."
+  },
+  {
+    "id": "c423",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "thuốc lá là một trong những cái chất độc hại vô cùng và nó sinh ra gốc tự do vô cùng lớn với một cái số lượng rất khủng",
+        "timestamp": "03:57:32"
+      },
+      {
+        "quote": "khiếp thế và thuốc lá thì nó lại đi thẳng vào đâu nó đi thẳng vào phổi và nó đi thẳng vào phổi phổi thì gốc tự do nó",
+        "timestamp": "03:57:39"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Nêu lượng gốc tự do rất lớn và thuốc lá đi thẳng vào phổi."
+  },
+  {
+    "id": "c424",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Phá vỡ về đứng về mặt các cái thành phần cụ thể một là cái màng gì ạ? Màng tế bào đúng không ạ? Thứ hai nữa là phá vỡ cái",
+        "timestamp": "03:57:49"
+      },
+      {
+        "quote": "gì? Phá vỡ protein đúng không ạ? Thứ ba nữa là phá vỡ ADN đúng không ạ? Thế thì ba cái này là ba",
+        "timestamp": "03:57:57"
+      }
+    ],
+    "speaker": "Bác sĩ dẫn giải với Khánh Lành; tóm tắt quy chung cho transcript.",
+    "note": "Đủ ba thành phần màng tế bào, protein và ADN."
+  },
+  {
+    "id": "c425",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "vỡ tất cả mọi cái thành phần ở trong phổi của bác mà cứ thành một cái vòng xoắn bệnh lý. Tất cả những cái này nó sẽ lại phá vỡ xong lại tạo ra gốc tự do",
+        "timestamp": "03:58:06"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; phù hợp quy thuộc bác sĩ trong tóm tắt.",
+    "note": "Nêu vòng xoắn bệnh lý và phá vỡ xong lại tạo gốc tự do."
+  }
+]

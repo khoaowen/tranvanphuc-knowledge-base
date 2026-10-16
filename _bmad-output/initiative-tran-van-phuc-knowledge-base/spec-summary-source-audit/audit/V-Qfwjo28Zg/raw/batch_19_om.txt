@@ -1,0 +1,1 @@
+1. [04:24:31] Giải thích phân biệt cacbon alpha, beta, gamma và vì sao chọn vị trí gamma để liên kết bền, tránh enzyme phá hủy (lý do cấu trúc quan trọng hơn chỉ nêu bước nối gamma). Anchor: "trong axit amin nếu chọn cái chỗ kết nối bền vững nhất, tốt nhất để không bị phá hủy, tránh những enzyme bị phá hủy thì nó phải chọn cacbon gì? Cacbon gamma là cái chỗ cuối cùng."

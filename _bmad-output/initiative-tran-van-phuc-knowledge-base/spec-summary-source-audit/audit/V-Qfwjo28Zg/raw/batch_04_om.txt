@@ -1,0 +1,2 @@
+1. [00:56:25] ADN bị tấn công theo hai con đường; con đường thứ nhất là cướp trực diện electron và hyro, rồi bị oxy lợi dụng và cướp H+ tiếp, giống hệt lipit màng (summary only covers the second, guanine route). Anchor: "ADN thì nó tấn công bằng hai cái con"
+2. [00:58:44] Bác sĩ tổng kết ADN nguy hiểm hơn vì hai lý do: vừa tạo ra gốc tự do vừa gây đột biến gen (dual-harm framing not captured). Anchor: "ta nhớ rằng ADN nó còn nguy hiểm hơn ở"

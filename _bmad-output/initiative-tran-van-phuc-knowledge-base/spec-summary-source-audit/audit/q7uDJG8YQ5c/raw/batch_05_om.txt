@@ -1,0 +1,39 @@
+Omissions noticed for the sections in batch_05 (02:37:13 misconceptions; 02:39:11 criteria; 02:41:46 EPA/DHA and farmed salmon; 02:46:03 TG/EE/rTG; 03:01:21 ratio formula)
+
+1. [02:37:46] Article: big-capsule / high-"Omega 3" products are not very effective because their DHA/EPA content is low, and the rest is excipients and impurities. This batch starts at c101 ("cũng"), so the main point may be in the previous batch.
+   Anchor: "Tuy nhiên, chúng hiệu quả thấp vì chứa hàm lượng DHA và EPA rất thấp."
+
+2. [02:39:45] Article: labels do not have to state the form, but triglyceride Omega-3 is usually labelled so buyers can choose it.
+   Anchor: "Các sản phẩm Omega 3 không bắt buộc phải ghi dạng gì lên chân nhãn nhưng Omega 3 dạng triglycer thường sẽ được ghi chân nhãn"
+
+3. [02:41:17] Doctor's framing: he finds the quoted article confusing ("tương đối là dối") and says the only answer is to understand the underlying mechanism.
+   Anchor: "Và không cách nào khác là chúng ta phải hiểu bản chất của vấn đề thôi."
+
+4. [02:45:43] Doctor: we therefore have to rely on fish-oil products to get EPA and DHA.
+   Anchor: "Chúng ta phải trông vào các cái sản phẩm của dầu cá thì chúng ta mới bổ sung được Omega."
+
+5. [02:47:00] Doctor: in fish and fish oil, Omega-3 exists mainly as triglyceride, and the free fatty acid fraction is negligible.
+   Anchor: "Thì cái hàm lượng axit béo tự do này vô cùng thấp, không đáng kể."
+
+6. [02:50:10] Worked example: EPA 180 mg + DHA 120 mg = 300 mg, divided by 1000 mg total fat = 0.3.
+   Anchor: "EPA ví dụ nó bằng 180 mg chẳng hạn và DHA nó bằng bao nhiêu?"
+
+7. [02:51:02] Doctor: even heavily advertised, expensive gift fish oils divide out to ≤0.3, and some he checked were as low as 0.06.
+   Anchor: "Và có những sản phẩm tôi đã chia là có sản phẩm đã xuống đến 0,06."
+
+8. [02:53:17] Doctor: the smaller the ratio, the more impurities and unimportant fatty acids.
+   Anchor: "Nếu con số càng nhỏ thì tạp chất càng nhiều và gì ạ? Và các axit béo không quan trọng càng nhiều."
+
+9. [02:57:50] Doctor: when buying, read the label carefully for TG versus EE.
+   Anchor: "Quý vị khi mua quý vị phải đọc rất kỹ là dầu cá tự nhiên TG nhá."
+
+10. [03:01:00] Doctor: price order. Natural TG is much cheaper and EE is "đắt lên khá nhiều". Only the rTG part is covered in c124.
+    Anchor: "nhưng mà giá thành của nó dầu cá thứ nhất sẽ rẻ đi rất nhiều,"
+
+11. [03:01:21 onward] Ratio-tier guidance in the formula section. This batch only has c125, so the rest may be in the next batch.
+    - Below 0.3: closer to natural and easier to absorb, but some people may see higher blood lipids or fatty liver, so test and monitor.
+      Anchor: "có thể bị tăng cái mỡ máu hay gan nh mỡ hay gì gì đấy lên thì chúng ta phải kiểm tra theo dõi."
+    - 0.5 is fairly good but expensive. 0.6 and above: the doctor's anecdotal claims that people come off diabetes, lipid, heart and blood-pressure drugs. 0.7: anecdote of normalized results after 3 months. 0.9 and above: prescription territory.
+      Anchor: "Còn từ 0,9 trở lên thì bác sĩ kê đơn để điều trị một số những các cái căn bệnh này khác"
+    - Taking a 0.35 product at double dose does not equal 0.7, because the difference is refinement.
+      Anchor: "Xin thưa rằng nó liên quan tới vấn đề tinh chế."

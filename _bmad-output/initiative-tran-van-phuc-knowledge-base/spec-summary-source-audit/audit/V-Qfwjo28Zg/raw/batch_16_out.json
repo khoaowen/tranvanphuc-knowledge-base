@@ -1,0 +1,350 @@
+[
+  {
+    "id": "c376",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "197 đến 771, nhiều người có thể giật mình cho rằng chỉ số này đang tăng cao nguy hiểm.",
+        "timestamp": "03:25:26"
+      },
+      {
+        "quote": "Nhưng đứng dưới góc nhìn y khoa hiện đại [âm nhạc] và chăm sóc sức khỏe toàn diện, đây lại là một chỉ số cần được thấu hiểu bằng sự điềm tĩnh và thấu đáo.",
+        "timestamp": "03:25:34"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Nội dung trấn an được nêu trong bản nhận xét."
+  },
+  {
+    "id": "c377",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Nếu so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như bản, nơi giới hạn trên của vitamin P12 thường được mở rộng lên tới 1000 picog",
+        "timestamp": "03:25:43"
+      },
+      {
+        "quote": "[âm nhạc] ml hoặc thậm chí là 1500 thì con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn của cơ thể.",
+        "timestamp": "03:25:53"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Các ngưỡng 1000/1500 và kết luận an toàn có mặt; transcript chỉ ghi “như bản”, không xác định rõ tên Nhật Bản như bản tóm tắt."
+  },
+  {
+    "id": "c378",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Trong thực tế lâm sàng, các bác sĩ chỉ thực sự lo lắng khi vitamin B12 bị sụt giảm nặng nề, gây ra thiếu máu và tổn thương thần kinh.",
+        "timestamp": "03:26:02"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Giữ nguyên mức sụt giảm nặng và hai hậu quả được nêu."
+  },
+  {
+    "id": "c379",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Chứ hiếm khi bận tâm khi chỉ số này tăng nhẹ, thậm chí tăng gấp rưỡi, gấp đôi. Lý",
+        "timestamp": "03:26:12"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Có cả tăng nhẹ, gấp rưỡi và gấp đôi."
+  },
+  {
+    "id": "c380",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "do là bởi vitamin B12 thuộc nhóm vitamin [âm nhạc] tan trong nước. Nếu cơ thể",
+        "timestamp": "03:26:17"
+      },
+      {
+        "quote": "không dùng hết thì lượng dư thừa sẽ được thận nhẹ nhàng đảo thải qua nước tiểu hàng ngày [âm nhạc] mà không hề gây tích tụ độc hại.",
+        "timestamp": "03:26:22"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Nêu tan trong nước và điều kiện cơ thể không dùng hết thì thận đào thải phần dư."
+  },
+  {
+    "id": "c381",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Thêm vào đó, chỉ số B12 tăng trong xét nghiệm thường đến từ hiện tượng dương tính giả hoặc nhiễu kỹ thuật. Phân tử",
+        "timestamp": "03:26:30"
+      },
+      {
+        "quote": "Ngoài ra, việc tế bào gan bị tổn thương mạn tính cũng làm giải phóng một lượng B12 dự trữ trôi nổi vào trong máu, tạo nên một con số ảo ảnh trên trang giấy.",
+        "timestamp": "03:27:06"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Hai nhóm được trình bày lần lượt: nhiễu xét nghiệm và tổn thương gan."
+  },
+  {
+    "id": "c382",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Thêm vào đó, chỉ số B12 tăng trong xét nghiệm thường đến từ hiện tượng dương tính giả hoặc nhiễu kỹ thuật. Phân tử",
+        "timestamp": "03:26:30"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Giữ nguyên từ thường và hai hiện tượng được nêu."
+  },
+  {
+    "id": "c383",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "B12 là một gã khổng lồ cồng kềnh với cấu trúc khóa học vô cùng phức tạp khiến các máy phân tích miễn dịch rất dễ bị nhầm",
+        "timestamp": "03:26:38"
+      },
+      {
+        "quote": "lẫn với các mảnh phân tử khác có cấu trúc tương tự. Đặc biệt nằm ở trung tâm",
+        "timestamp": "03:26:45"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Mô tả cấu trúc phức tạp và nhầm lẫn của máy miễn dịch."
+  },
+  {
+    "id": "c384",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "của phân tử B12 là nguyên tố coban. Một y kim loại mang quyền lực sinh học siêu mạnh, dễ dàng tương tác và bắt chước các",
+        "timestamp": "03:26:50"
+      },
+      {
+        "quote": "yông kim loại khác trong mẫu máu làm thiết bị đo bị nhận diện sai lệch.",
+        "timestamp": "03:26:58"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Có coban trung tâm, tương tác/bắt chước ion kim loại và nhận diện sai."
+  },
+  {
+    "id": "c385",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Ngoài ra, việc tế bào gan bị tổn thương mạn tính cũng làm giải phóng một lượng B12 dự trữ trôi nổi vào trong máu, tạo nên một con số ảo ảnh trên trang giấy.",
+        "timestamp": "03:27:06"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Nêu tổn thương gan mạn giải phóng B12 dự trữ và con số ảo ảnh."
+  },
+  {
+    "id": "c386",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Đã bao năm rồi bác quên mất cách uống nước, chỉ đợi khi cổ họng khô khốc mới nhấp một cụm nhỏ",
+        "timestamp": "03:34:58"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Bản nhận xét trực tiếp nói thói quen chờ khô cổ mới uống."
+  },
+  {
+    "id": "c387",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "khiến dòng máu trong người đặt quánh như phủ xông đáy mùa kiệt, khiến những khối đờm trong phế quản vón cụp lại thành những rèo cản ngăn xé hơi thở.",
+        "timestamp": "03:35:07"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Máu đặc và đờm vón cản hơi thở đều được nêu."
+  },
+  {
+    "id": "c388",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Nhấp từng ngụm nước ấm nhỏ như đang thưởng thức vị ngọt của sự sống.",
+        "timestamp": "03:38:37"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Lời khuyên có ở đoạn sau, không phải đúng cửa sổ tiêu đề."
+  },
+  {
+    "id": "c389",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Muốn cứu lấy cái cây đã nghiêng xế bóng chiều. Việc đầu tiên là phải giải thoát cho tâm thức và xoa dịu lồng ngực đang ngột ngạt vì căn bệnh viêm phổi tắc nghẽn mạn tính.",
+        "timestamp": "03:35:33"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Nêu giải thoát tâm thức, xoa dịu lồng ngực và tên bệnh."
+  },
+  {
+    "id": "c390",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Hãy chốt bỏ gánh nặng tuổi hờn và [âm nhạc] sự hy sinh thầm lặng ấy xuống lòng đất mẹ. Bởi vì chỉ khi tâm được ăn xả thì phế khí mới có thể bình tĩnh trở lại.",
+        "timestamp": "03:36:35"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Giữ điều kiện chỉ khi tâm được an xả thì phế khí mới có thể bình tĩnh."
+  },
+  {
+    "id": "c391",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Việc học lại cách thở chính là chìa khóa sinh tử để mở lại cánh cửa không khí cho từng [âm nhạc] tế bào. Lồng ngực của bác",
+        "timestamp": "03:36:53"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Học lại cách thở được gọi là chìa khóa mở không khí cho tế bào."
+  },
+  {
+    "id": "c392",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "cặn. Nếu hít thở nông và gấp gáp, khí độc sẽ mãi bị giam hãm bên trong. Bác",
+        "timestamp": "03:37:04"
+      },
+      {
+        "quote": "hãy kiên nhẫn thực hành các kỹ thuật thở dưỡng sinh chuyên biệt [âm nhạc] dành cho người tổn thương phế quản.",
+        "timestamp": "03:37:11"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Có điều kiện thở nông/gấp và khuyến nghị thực hành chuyên biệt."
+  },
+  {
+    "id": "c393",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Trước hết là kỹ thuật thở trúm môi kết hợp thở cơ hoành theo nhịp 1 2.",
+        "timestamp": "03:37:18"
+      },
+      {
+        "quote": "Mỗi ngày bác có thể áp dụng thêm kỹ thuật thở nhịp ba thì 11.",
+        "timestamp": "03:37:50"
+      },
+      {
+        "quote": "Hoặc vào những đêm chằn chọc khó ngủ, bác hãy thả lỏng toàn thân theo phương pháp thở 4 7 8.",
+        "timestamp": "03:38:07"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Ba kỹ thuật được lần lượt giới thiệu."
+  },
+  {
+    "id": "c394",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Trước hết là kỹ thuật thở trúm môi kết hợp thở cơ hoành theo nhịp 1 2.",
+        "timestamp": "03:37:18"
+      },
+      {
+        "quote": "Khi hít thở bằng mũi, tắc nhẹ nhàng thả lỏng bụng cho phồng lên trong một nhịp",
+        "timestamp": "03:37:25"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Có phối hợp thở cơ hoành, nhịp 1:2 và bụng phồng khi hít một nhịp."
+  },
+  {
+    "id": "c395",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "phổi rồi trúm nhẹ đôi môi lại như đang huyết sáo. Chầm chậm thở ra trong hai nhịp dài gấp đôi nhịp hít vào để tạo nên",
+        "timestamp": "03:37:33"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Môi như huýt sáo và thì thở ra dài gấp đôi được nêu."
+  },
+  {
+    "id": "c396",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Hít vào một nhịp, giữ khí nhẹ nhàng một nhịp trong lồng ngực để các tế bào kịp trao đổi oxy rồi thở ra chầm chậm một nhịp thanh thản.",
+        "timestamp": "03:37:56"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Mỗi thì hít, giữ nhẹ và thở ra đều một nhịp."
+  },
+  {
+    "id": "c397",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Mỗi ngày bác có thể áp dụng thêm kỹ thuật thở nhịp ba thì 11.",
+        "timestamp": "03:37:50"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Giữ nguyên mỗi ngày có thể áp dụng thêm."
+  },
+  {
+    "id": "c398",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Hít vào êm dịu trong 4 giây, giữ nhẹ hơi thở trong 7 giây để xoa dịu hề thần kinh đang căng thẳng.",
+        "timestamp": "03:38:14"
+      },
+      {
+        "quote": "Rồi từ từ thở ra bằng miệng trong 8 giây như đang trút đi hết mọi muộn phiền của",
+        "timestamp": "03:38:22"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Đúng các thời lượng 4, 7, 8 giây và thở ra bằng miệng."
+  },
+  {
+    "id": "c399",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Hoặc vào những đêm chằn chọc khó ngủ, bác hãy thả lỏng toàn thân theo phương pháp thở 4 7 8.",
+        "timestamp": "03:38:07"
+      },
+      {
+        "quote": "nhân gian. Hãy tập thở trong sự tĩnh lặng của sáng sớm dưới ánh nắng mạ vàng trước 8 giờ.",
+        "timestamp": "03:38:28"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét do bác sĩ Trần Văn Phúc viết; tóm tắt quy nội dung cho bác sĩ.",
+    "note": "Có áp dụng khi khó ngủ và lời khuyên tập thở sáng sớm trước 8 giờ."
+  },
+  {
+    "id": "c400",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "được các cái khí cạn ra. Nhưng bác tuyệt đối không cố gắng bởi vì nếu cố quá nó sẽ thành ra là nguy hiểm. Vì sao? Vì sức bác đang rất yếu, bác phải từ từ. Đáng",
+        "timestamp": "04:10:01"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc trực tiếp nói; tóm tắt quy đúng cho bác sĩ.",
+    "note": "Bác sĩ trực tiếp bổ sung cảnh báo không cố quá vì sức bác yếu."
+  }
+]

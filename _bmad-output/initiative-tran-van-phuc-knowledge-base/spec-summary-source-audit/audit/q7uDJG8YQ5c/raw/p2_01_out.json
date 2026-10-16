@@ -1,0 +1,310 @@
+[
+ {
+  "id": "c001",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải",
+    "timestamp": "00:01:13"
+   },
+   {
+    "quote": "Đó là làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút.",
+    "timestamp": "00:14:04"
+   },
+   {
+    "quote": "người dân và lúc đó người dân sẽ chỉ biết được những cái kiến thức rất hời hợt, rất nông cạn",
+    "timestamp": "00:14:19"
+   }
+  ],
+  "speaker": "Host Khánh Lành (relaying Dr. Phúc's view); Dr. Phúc for the 10-15/20-minute clips",
+  "note": "Entertainment/time-filling is said of 15-second/short videos (host relaying doctor); the 10-15 min (max 20) clips were the team's initial media plan, criticized by the doctor as giving shallow knowledge, not as entertainment. The summary merges the two."
+ },
+ {
+  "id": "c013",
+  "class": "unresolved",
+  "evidence": [
+   {
+    "quote": "đối với cuộc đời của Behoven cũng chỉ ngắn ngủi 56 năm moza có 35 năm rõ ràng rằng cái L của hai người này không nhiều lắm",
+    "timestamp": "00:46:22"
+   },
+   {
+    "quote": "Bethoven thì chúng ta thấy trải nghiệm rất rộng thì mới viết ra được một cái lượng kiến thức khổng lồ như vậy",
+    "timestamp": "00:46:37"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "This is a framing line. In the transcript, Mozart and Beethoven are examples of short life length (L) but wide experience inside the life-value function, not of creativity arising from the piano-key limits. It is unclear what 'những giới hạn này' refers to."
+ },
+ {
+  "id": "c015",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nói Behoven thì sống bao nhiêu tuổi ạ? 56 tuổi và Bethoven thì để lại một cái số bản giao hưởng là mấy",
+    "timestamp": "00:45:56"
+   },
+   {
+    "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9",
+    "timestamp": "00:46:05"
+   }
+  ],
+  "speaker": "Dr. Phúc (host Khánh Lành answers 'chín bản', doctor confirms)",
+  "note": "56 years and 9 symphonies are stated. The transcript names Symphony No. 9 as the peak, so 'đỉnh cao' is loosely applied to all nine."
+ },
+ {
+  "id": "c019",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi.",
+    "timestamp": "00:36:28"
+   },
+   {
+    "quote": "người ta đang hy vọng một số những nhà khoa học, một số những quốc gia đang tính đến chuyện nâng cao tuổi thọ và người ta nghĩ đến chuyện là phải vượt qua con số 100 tuổi",
+    "timestamp": "00:36:50"
+   },
+   {
+    "quote": "Mục tiêu tôi với Khánh Lành với toàn bộ ekip làm ở đây muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi",
+    "timestamp": "00:47:48"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "130-175 is the doctor's personal hope; science/some countries aim only to pass 100, and he believes 150 in the 21st century. Seeing 70-80 as the start of the prime years is the doctor's/team's goal for viewers, not science. The summary assigns both to 21st-century science."
+ },
+ {
+  "id": "c024",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ra trường làm ở cơ quan nào, lương bao nhiêu, thế rồi thì tiền thưởng áng chừng bao nhiêu, bao nhiêu năm xây được nhà, bao nhiêu năm mua được nhà cửa",
+    "timestamp": "00:51:48"
+   },
+   {
+    "quote": "Tức là phần A. Phần A là những cái mà chúng ta tính toán, chúng ta định lượng, chúng ta cái phần này là rất là khách quan",
+    "timestamp": "00:52:05"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "The real part a is objective and quantifiable: field of study, workplace, salary, bonus, house."
+ },
+ {
+  "id": "c027",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và cuộc sống cũng không bao giờ đơn giản là y = x hay y = sin x mà nó là chập của rất nhiều những các cái con đường khác nhau",
+    "timestamp": "01:00:27"
+   },
+   {
+    "quote": "Cuộc sống nó là chập của tất cả những các cái đường này lại với nhau nó vô cùng phức tạp chứ không đơn giản thế",
+    "timestamp": "00:58:31"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "Matches."
+ },
+ {
+  "id": "c029",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Chúng ta đi đường thẳng, các bạn trẻ luôn luôn nghĩ nó như thế và các bạn ấy muốn đốt cháy giai đoạn",
+    "timestamp": "00:58:00"
+   },
+   {
+    "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được",
+    "timestamp": "00:58:38"
+   },
+   {
+    "quote": "những đoạn đường bị tắc đường. Chúng ta có những đoạn đường mà người ta đang sửa chữa. Vậy chúng ta luôn luôn phải chọn đường vòng đi",
+    "timestamp": "00:58:57"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "Straight-line/shortcut thinking fails; traffic jams and roadworks force a detour. Matches."
+ },
+ {
+  "id": "c036",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "ví dụ như là các nhà phân tích tài chính ở trung tâm tài chính sừng sỏ nhất nước Mỹ",
+    "timestamp": "01:08:26"
+   },
+   {
+    "quote": "những người những nhà phân tích tài chính hàng đầu nước Mỹ từ xưa tới nay luôn xuất phát đều là những cái nhà sử học",
+    "timestamp": "01:08:31"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "The doctor's claim is absolute ('luôn... đều'), about the single top US financial center. The summary softens it to 'nhiều' and says 'các trung tâm tài chính lớn'."
+ },
+ {
+  "id": "c045",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nếu như vitamin D mà ta đưa lên từ 50 cho đến 70 ng/ml ở trong máu ta xét nghiệm thì đây chính là cái con số lý tưởng",
+    "timestamp": "01:24:12"
+   },
+   {
+    "quote": "kinh nghiệm của tôi thì bắt đầu tôi thấy rằng thậm chí là ta đưa từ 70 cho đến 80 ng/ml thì đây là con số phải nói là tuyệt vời",
+    "timestamp": "01:24:29"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "Numbers match. The 70-80 'tuyệt vời' level is hedged as the doctor's personal experience ('kinh nghiệm của tôi'), and the summary drops that hedge. The transcript says 'vitamin D', not specifically D3, for the blood level."
+ },
+ {
+  "id": "c050",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Một nhà khoa học người Mỹ, nhà khoa học người Mỹ ông này trùng có cái tên là của ông ấy là trùng với lại Trà Lip Tông",
+    "timestamp": "01:35:01"
+   },
+   {
+    "quote": "trong một cái dịp mà giảng dậy ở vùng biển Caribe vào năm 1985",
+    "timestamp": "01:35:27"
+   },
+   {
+    "quote": "Tức là trong quá trình soạn giáo án thì ông soạn cấu trúc và màng tế bào thì bắt đầu ông ấy nảy sinh ra những suy nghĩ rất là thần kỳ",
+    "timestamp": "01:35:47"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "American biologist, Caribbean, 1985 and lesson preparation all match. The transcript renders the name only as 'Lip Tông'/'Liptông'; the first name 'Bruce' is never spoken."
+ },
+ {
+  "id": "c063",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Thế sau khi mà bổ sung DHA bổ sung Omega 3 mà tăng cường cái DHA này lên một chút vitamin D cộng các vi chất thì một thời gian sau các cháu học kết quả nó sẽ thay đổi đi đáng kể",
+    "timestamp": "01:49:53"
+   },
+   {
+    "quote": "con anh ấy lúc đầu là ăn không nên loại và nói không nên lời, không có bạn gái",
+    "timestamp": "01:50:13"
+   },
+   {
+    "quote": "hơn 3 tháng gần 4 tháng thì anh ấy đến báo cáo tình hình là con anh ấy bắt đầu nói có văn có lời văn văn vẻ ra và bắt đầu có bạn gái",
+    "timestamp": "01:50:27"
+   }
+  ],
+  "speaker": "Dr. Phúc (anecdotal patient reports)",
+  "note": "Two separate anecdotes are merged. The school-results case gives no duration ('một thời gian sau'). The 3-to-almost-4-month case is a different son, not described as a small child, whose speech improved and who got a girlfriend. 'Trẻ nhỏ' and the shared timeframe are added."
+ },
+ {
+  "id": "c064",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Axit béo Omega 6 được tìm thấy trong các loại dầu thực vật như hoa hướng dương, dầu ngô",
+    "timestamp": "01:54:57"
+   },
+   {
+    "quote": "Chúng cũng gắn liền với giảm nguy cơ nhiều bệnh bao gồm bệnh tiểu đường, hộ chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư",
+    "timestamp": "01:55:16"
+   },
+   {
+    "quote": "trong khi Omega 3 là chất chống viêm, Omega6 có xu hướng gây viêm",
+    "timestamp": "01:55:42"
+   }
+  ],
+  "speaker": "Newspaper article read aloud by host Khánh Lành",
+  "note": "The article says omega-3 is 'gắn liền với' (associated with) reduced risk of 'một số bệnh ung thư'. The summary hardens this to 'giúp... giảm nguy cơ... ung thư' and does not attribute it to the article."
+ },
+ {
+  "id": "c065",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần",
+    "timestamp": "01:55:30"
+   },
+   {
+    "quote": "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì. Nó cũng liên quan đến bệnh tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như bệnh suuyễn và các bệnh tự miễn dịch",
+    "timestamp": "01:54:47"
+   }
+  ],
+  "speaker": "Newspaper article read aloud by host Khánh Lành (citing a journal)",
+  "note": "The 6x figure and the listed associations are present in the article read aloud. The article states the disease links for the general rise in omega-6 intake, not specifically for the US 6x figure."
+ },
+ {
+  "id": "c068",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 41, chúng ta có thể phòng ngừa nguy cơ bệnh tim nhưng lại không có tác dụng giảm nguy cơ mắc các bệnh liên quan đến trực tràng",
+    "timestamp": "01:56:09"
+   }
+  ],
+  "speaker": "Newspaper article read aloud by host Khánh Lành",
+  "note": "Content matches, but the hedge 'có thể' is dropped and it is not attributed to the article."
+ },
+ {
+  "id": "c069",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 21 hay là 31, chúng ta có thể giảm hội chứng viêm ở bệnh nhân thấp khớp",
+    "timestamp": "01:56:19"
+   }
+  ],
+  "speaker": "Newspaper article read aloud by host Khánh Lành",
+  "note": "Content matches, but 'có thể giảm' is hardened to 'giúp giảm' and it is not attributed to the article."
+ },
+ {
+  "id": "c074",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Là có 18 nguyên tử cacbon. 18 nguyên tử cacbon có hai liên kết pi. Hai liên kết pi. Liên kết pi đầu tiên đứng ở vị trí cacbon số 6.",
+    "timestamp": "02:03:44"
+   },
+   {
+    "quote": "giống nhau ở chỗ là đều có 18 nguyên tử cacbon đều có nhóm COOH",
+    "timestamp": "02:05:58"
+   }
+  ],
+  "speaker": "Host Khánh Lành answering, confirmed by Dr. Phúc",
+  "note": "C18:2n-6, 18 carbons, 2 pi bonds, first pi bond at carbon 6, COOH end: all match."
+ },
+ {
+  "id": "c078",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và nó càng nhiều liên kết pi thì nó càng quý",
+    "timestamp": "02:07:12"
+   },
+   {
+    "quote": "Vậy thì Omega3 nó có nhiều liên kết pi hơn omega6 thì nó mới quý ở chỗ đấy",
+    "timestamp": "02:07:31"
+   },
+   {
+    "quote": "Và đến DHA này nó có tới tận năm liên kết pi cơ cho nên là nó rất quý",
+    "timestamp": "02:07:37"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "More pi bonds means more valuable ('quý'): omega-3 over omega-6, and DHA."
+ },
+ {
+  "id": "c082",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thì ngoài cái phản ứng viêm ra nó còn có những phản ứng đau, có những phản ứng tăng tính thấm thành mạch. có những phản ứng mà tăng tính thấm của mô liên kết",
+    "timestamp": "02:15:03"
+   },
+   {
+    "quote": "nếu chúng ta ăn quá nhiều omega6 thì la và AA sẽ tích hợp màng tế bào gây viêm",
+    "timestamp": "02:15:21"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "note": "Pain, vascular permeability and connective-tissue permeability reactions, then a list of diseases: matches."
+ }
+]

@@ -1,0 +1,394 @@
+[
+ {
+  "id": "c126",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Một là nếu nhỏ hơn 0,3 thì cái chiều này đang có gì ạ? Đang có xu hướng nhiều tạp chất.",
+    "timestamp": "03:01:21"
+   },
+   {
+    "quote": "Nhiều tạp chất cộng với lại các cái chất béo không cần thiết.",
+    "timestamp": "03:01:29"
+   },
+   {
+    "quote": "Với những sản phẩm dầu cá mà quý vị đem chia nó nhỏ hơn 0,3 này là thông thường đấy là dầu cá tự nhiên.",
+    "timestamp": "03:05:35"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp nội dung; câu gốc nói '<0,3 thông thường là dầu cá tự nhiên' và 'có xu hướng nhiều tạp chất', tóm tắt nói thẳng hơn một chút; tóm tắt cũng bỏ ưu điểm 'dễ hấp thu' và lời khuyên tự theo dõi mỡ máu/gan."
+ },
+ {
+  "id": "c127",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nhưng mà bắt đầu từ 0,3 bắt đầu từ 0,5 thì chúng ta khá tốt nhưng lại liên quan tới vấn đề kinh tế.",
+    "timestamp": "03:02:08"
+   },
+   {
+    "quote": "Nó khá đắt rồi. Từ 0 phẩ chia được con số được 0,5 là khá đắt rồi.",
+    "timestamp": "03:02:16"
+   },
+   {
+    "quote": "Đại đa số thì mọi người chấp nhận được con số 0,5 đến con số 0,6.",
+    "timestamp": "03:02:58"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Ý 'khá tốt' có trong transcript, nhưng bác sĩ nói mức 0,5 là 'khá đắt rồi', chỉ là mức đa số người 'chấp nhận được'; tóm tắt bỏ lưu ý giá đắt và làm mềm thành 'mức giá hợp lý'."
+ },
+ {
+  "id": "c128",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Lên tới 0,6 nếu quý vị nào mà uống từ 0,6 trở lên thì chúng ta sẽ bỏ được nhiều những các cái sản phẩm thuốc. Ví dụ như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch. Tôi thấy rất nhiều người bỏ được.",
+    "timestamp": "03:02:22"
+   },
+   {
+    "quote": "Thế rồi thì thuốc huyết áp, thế rồi thì khớp đang đau bắt đầu hết đau. Những cái phản ứng viêm dị ứng các thứ bắt đầu là hết. Viêm xoang, viêm mũi các thứ nọ kia hết. Thế rồi trí nhớ bắt đầu cải thiện.",
+    "timestamp": "03:02:34"
+   },
+   {
+    "quote": "Alzimer nhớ nhớ quên quên là cải thiện được rất nhiều, học hành nó tốt.",
+    "timestamp": "03:02:51"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói, dựa trên quan sát của ông ('Tôi thấy rất nhiều người'); riêng chữ 'Parkison' nằm trong một câu xen sau dấu '>>' ('Alzimer run rẩy tay chân Parkison') nên không chắc ai nói; tóm tắt quy hết cho bác sĩ",
+  "note": "Các nhóm bệnh có nhắc, nhưng transcript nói về việc 'bỏ được thuốc' theo quan sát cá nhân của bác sĩ; tóm tắt bỏ khung 'tôi thấy' đó, viết thành hiệu quả chung 'rõ rệt', và gán Parkinson cho bác sĩ dù câu đó có thể là của người khác."
+ },
+ {
+  "id": "c129",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong tuần trước có mấy bác đến đưa đến kết quả xét nghiệm nói rằng sau khi uống omega 3 xong lên tới 0,7 thì sau 3 tháng kết quả đang mỡ máu cao tự dưng về bình thường.",
+    "timestamp": "03:03:24"
+   },
+   {
+    "quote": "Tiểu đường chỉ số cũng về bình thường huyết áp không cần dùng thuốc các thứ một loạt cái nhưng mà các bác phản ánh rằng tốn tiền quá.",
+    "timestamp": "03:03:35"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc thuật lại lời một vài bệnh nhân ('mấy bác'); tóm tắt ghi 'thực tế ghi nhận'",
+  "note": "Khớp; nguồn là vài bệnh nhân kể lại, tóm tắt có thêm 'có thể' nên câu vẫn giữ mức thận trọng; tóm tắt bỏ ý họ than 'tốn tiền quá'."
+ },
+ {
+  "id": "c130",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Còn từ 0,9 trở lên thì bác sĩ kê đơn để điều trị một số những các cái căn bệnh này khác",
+    "timestamp": "03:04:40"
+   },
+   {
+    "quote": "dùng cũng khác hẳn và giá thành của nó thì rất đắt.",
+    "timestamp": "03:04:57"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; bác sĩ cũng nói số người mua được loại 0,9 'chỉ đếm trên đầu ngón tay'."
+ },
+ {
+  "id": "c131",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trong công thức cấu tạo của nó có quá nhiều liên kết pi thì quá nhiều liên kết pi nó sẽ dẫn tới hiện tượng gì?",
+    "timestamp": "03:09:30"
+   },
+   {
+    "quote": "Đúng rồi. Nó dễ bị biến tính.",
+    "timestamp": "03:09:37"
+   },
+   {
+    "quote": "Nhiều liên kết pi cho nên rất dễ bị oxy hóa, rất dễ bị các cái phản ứng hóa học.",
+    "timestamp": "03:10:07"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói (Khánh Lành trả lời 'Dễ bị oxy hóa' khi được hỏi và bác sĩ xác nhận); tóm tắt không ghi người nói",
+  "note": "Khớp."
+ },
+ {
+  "id": "c132",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "xách tay từ nước ngoài về vẫn mua được đấy là sản phẩm tốt. Nhưng cái quá trình vận chuyển cá quá trình đem về nhà quý vị có biết bảo quản hay không?",
+    "timestamp": "03:10:30"
+   },
+   {
+    "quote": "Hay là chúng ta bảo quản nó bị sai? Nếu bảo quản bị sai thì dầu cá này, Omega này rất nhanh biến tính và nó trở thành chúng ta uống như uống nước lã.",
+    "timestamp": "03:10:39"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; bác sĩ thừa nhận hàng xách tay vẫn có thể là sản phẩm tốt, rủi ro nằm ở khâu vận chuyển và bảo quản, đúng như câu tóm tắt có điều kiện."
+ },
+ {
+  "id": "c133",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "muốn mua bảo quản cẩn thận thì chúng ta phải đến những hiệu thuốc có uy tín.",
+    "timestamp": "03:10:19"
+   },
+   {
+    "quote": "những hiệu có uy tín mua. Và tốt nữa cái là chúng ta đừng mua quá nhiều.",
+    "timestamp": "03:11:51"
+   },
+   {
+    "quote": "Có người mua đến hàng chục hộp về để sẵn đấy xong uống dần chúng ta không bảo quản được. Nó hỏng đi, nó biến tính đi mất rồi.",
+    "timestamp": "03:11:56"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc khuyên; ý 'được cấp giấy phép' xuất hiện ở câu 'Được cấp giấy phép hải.' [03:10:24]",
+  "note": "Khớp."
+ },
+ {
+  "id": "c134",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "đang lấy ví dụ như là thế thôi. Vậy có một nguyên tắc để mua như thế này.",
+    "timestamp": "03:14:22"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; ngay trước đó bác sĩ nói 'đây là tôi đang lấy ví dụ' và khuyên nhớ theo cơ chế (DHA→não/mắt, EPA→tim) thay vì theo nhóm tuổi."
+ },
+ {
+  "id": "c135",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Thế vì như thế mà những ai đang bị gan nhiễm mỡ, bị mỡ máu, bị tiểu đường, bị đau khớp, bị tăng huyết áp, nói chung bị một loạt những cái bệnh",
+    "timestamp": "03:14:59"
+   },
+   {
+    "quote": "EPA tăng hơn so với DHA để nó quét cái mỡ máu đi.",
+    "timestamp": "03:15:37"
+   },
+   {
+    "quote": "Còn đừng có để mất cân bằng. Tức là quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên.",
+    "timestamp": "03:18:30"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Nội dung có trong transcript (gồm cả trẻ em: 'trẻ con nhưng vẫn dùng EPA tăng lên' [03:15:59]), nhưng tóm tắt nói cứng hơn: bác sĩ nói 'mua EPA tăng lên' / 'phải mua APA cao hơn DHA' chứ không nói 'bắt buộc', không nói 'quét sạch'; tóm tắt cũng bỏ lời dặn đừng để lệch quá nhiều giữa EPA và DHA. Trẻ rối loạn nhịp tim chỉ được gộp vào một cách ngầm định."
+ },
+ {
+  "id": "c136",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nếu ta mua DHA lớn hơn EPA với người bị gan nhiễm mỡ và mỡ máu",
+    "timestamp": "03:13:44"
+   },
+   {
+    "quote": "thì khi chúng ta uống vào có nguy cơ là chúng ta lại bị gan nhiễm mỡ tăng lên và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.",
+    "timestamp": "03:13:52"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Mất giới hạn đối tượng: transcript chỉ nói nguy cơ này 'với người bị gan nhiễm mỡ và mỡ máu', còn tóm tắt viết như áp dụng cho mọi người."
+ },
+ {
+  "id": "c137",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp như tranh vẽ, cơ thể chúng ta không bị bệnh các thứ gì thì chúng ta mua cái DHA tăng lên một chút.",
+    "timestamp": "03:16:08"
+   },
+   {
+    "quote": "mua tăng lên một chút để nó ưu tiên cho não và mắt thì chúng ta sẽ rất thông minh, sẽ mắt sẽ rất tinh.",
+    "timestamp": "03:16:19"
+   },
+   {
+    "quote": "Thì chính cái điều đó mà giúp cho các cháu không bị gan nhiễm mỡ, không bị mỡ máu các cháu uống DHA này vào thì các cháu sẽ thông minh lên,",
+    "timestamp": "03:16:22"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Bỏ chữ 'một chút' ('DHA tăng lên một chút') và bỏ lời dặn đừng lệch quá nhiều; trẻ em được nói là 'các cháu không bị gan nhiễm mỡ, không bị mỡ máu', tóm tắt đổi thành 'trẻ em cần chăm sóc não và mắt'."
+ },
+ {
+  "id": "c138",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trong cái chế độ dinh dưỡng của chúng ta thì cực kỳ quan trọng những cái đấy là cái bộ ba tam giác vàng là mag, canxi",
+    "timestamp": "03:19:09"
+   },
+   {
+    "quote": "hiểu cái điều này để bổ sung bảy cái vi chất này thì chúng ta có được những kiến thức đó",
+    "timestamp": "03:22:29"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; bác sĩ đếm lần lượt từ 1 đến 7."
+ },
+ {
+  "id": "c139",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "quan trọng những cái đấy là cái bộ ba tam giác vàng là mag, canxi và gì ạ? Và vitamin D. Đây là bộ ba tam giác vàng vô cùng quan trọng.",
+    "timestamp": "03:19:15"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c140",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "quan trọng những cái đấy là cái bộ ba tam giác vàng là mag, canxi và gì ạ? Và vitamin D. Đây là bộ ba tam giác vàng vô cùng quan trọng.",
+    "timestamp": "03:19:15"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c141",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thân chúng ta. Vitamin D chúng ta cố gắng đẩy nó lên được cái ngưỡng phù hợp, ngưỡng lý tưởng ngưỡng phù hợp mà theo quan điểm của tôi và nhiều chuyên gia dinh dưỡng trên thế giới",
+    "timestamp": "03:19:32"
+   },
+   {
+    "quote": "người ta đang chọn là từ vitamin D từ bao nhiêu ạ? Từ 50 đến 70 Ng/ml đúng không ạ? Máu khi mà chúng ta xét nghiệm",
+    "timestamp": "03:19:41"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc, trình bày là 'quan điểm của tôi và nhiều chuyên gia dinh dưỡng'",
+  "note": "Khớp; ở đoạn trước [01:24:29] bác sĩ còn nói theo kinh nghiệm của ông mức 70–80 ng/ml là 'tuyệt vời'."
+ },
+ {
+  "id": "c142",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái thứ tư là cái gì ạ? Cái vitamin tổng hợp",
+    "timestamp": "03:19:54"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c143",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "và cái thứ năm là cái gì ạ? Vitamin C.",
+    "timestamp": "03:19:59"
+   }
+  ],
+  "speaker": "Câu này đứng sau dấu '>>' trong chuỗi bác sĩ đếm các vi chất; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c144",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái thứ sáu là gì ạ? kẽm. Cái thứ bảy là gì ạ? Chỉnh là omega",
+    "timestamp": "03:20:02"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c145",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái thứ sáu là gì ạ? kẽm. Cái thứ bảy là gì ạ? Chỉnh là omega",
+    "timestamp": "03:20:02"
+   },
+   {
+    "quote": "Và chúng ta luôn luôn nói Omega 3 chứ không không nên đầu tư vào Omega 6 và Omega 9",
+    "timestamp": "03:20:10"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc (Khánh Lành nói tiếp 'là omega 3')",
+  "note": "Khớp."
+ },
+ {
+  "id": "c146",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thêm về Omega 3 là trên thế giới các quốc gia phát triển người ta đã thực hiện xét nghiệm EPA và DHA ở trong hồng cầu, trong tế bào hồng cầu",
+    "timestamp": "03:26:20"
+   },
+   {
+    "quote": "cầu đang là bao nhiêu. Và với trong hồng cầu như vậy thì người ta sẽ tính toán được những cái chuyện là cần bổ sung bao nhiêu trong một ngày.",
+    "timestamp": "03:25:12"
+   },
+   {
+    "quote": "Vậy thì màng tế bào hồng cầu nó mới là bộ não của tế bào. Bởi vì nhân trong hồng cầu không còn nhân nữa.",
+    "timestamp": "03:27:17"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp. Danh sách liều khuyến cáo trong transcript là 400/500/600/1000/2000 mg (tóm tắt bỏ 600). Bác sĩ cũng nói Việt Nam chưa làm xét nghiệm này [03:24:50]; tóm tắt bỏ ý đó."
+ },
+ {
+  "id": "c147",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ở chỗ đấy. Và trong cái xét nghiệm của hồng cầu thì người ta sẽ xét nghiệm ví dụ như là canxi ở trong hồng cầu, mai ở trong hồng cầu, thế rồi thì omega 3 các thứ này ở trong hồng cầu",
+    "timestamp": "03:27:43"
+   },
+   {
+    "quote": "người ta căn cứ vào cái màng hồng cầu đấy để người ta xét nghiệm rất là nhiều những cái mà kèm theo nó.",
+    "timestamp": "03:27:55"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c148",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "cách ngoạn mục. Nhưng mà các bệnh nhân đến với tôi, những người đến với kênh YouTube của tôi thì chủ yếu là những người giúp việc gia đình, tức là gọi là in và những người công nhân, những người nông dân.",
+    "timestamp": "03:28:22"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp."
+ },
+ {
+  "id": "c149",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "tôi cũng mong muốn đến một ngày nào đấy là những người làm công việc giúp việc, những người nông dân sẽ giải toán nháy nháy ấy.",
+    "timestamp": "03:28:51"
+   },
+   {
+    "quote": "chúng ta sẽ làm được những bài tích phân, vi phân, thế giải được những cái phương trình, hệ phương trình đa biến, thế và áp dụng được những các cái thuật toán vào trong cuộc sống",
+    "timestamp": "03:28:58"
+   },
+   {
+    "quote": "sau khi mà nhận thức của nhân dân chúng ta tăng lên rồi thì lúc đấy chúng ta có nhu cầu xét nghiệm",
+    "timestamp": "03:28:04"
+   }
+  ],
+  "speaker": "Bác sĩ Phúc nói; tóm tắt quy cho bác sĩ",
+  "note": "Khớp; ý 'nhận thức tăng lên' trong transcript gắn với việc có nhu cầu xét nghiệm, không gắn riêng với người giúp việc/nông dân."
+ }
+]

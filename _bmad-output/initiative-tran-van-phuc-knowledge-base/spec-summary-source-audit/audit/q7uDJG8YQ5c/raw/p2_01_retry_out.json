@@ -1,0 +1,404 @@
+[
+ {
+  "id": "c001",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người.",
+    "timestamp": "00:01:13",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:01:13"
+   },
+   {
+    "quote": "Đó là làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút.",
+    "timestamp": "00:14:04",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:14:04"
+   },
+   {
+    "quote": "lúc đó người dân sẽ chỉ biết được những cái kiến thức rất hời hợt, rất nông cạn",
+    "timestamp": "00:14:19",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:14:19"
+   }
+  ],
+  "speaker": "host Khánh Lành (paraphrasing doctor's view); doctor Trần Văn Phúc (10-20 min clip passage)",
+  "note": "Entertainment/gap-filling view is host's paraphrase about '15 giây đầu tiên'/short videos; 10-15/20-min clips were the team's initial format, which the doctor said gives shallow knowledge, not entertainment — passages merged."
+ },
+ {
+  "id": "c013",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "rõ ràng rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật",
+    "timestamp": "00:46:24",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:46:24"
+   },
+   {
+    "quote": "trải nghiệm rất rộng thì mới viết ra được một cái lượng kiến thức khổng lồ như vậy.",
+    "timestamp": "00:46:37",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:46:37"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Framing line; doctor presents geniuses as examples of short lifespan (L) yet huge output via wide experience, within the life-value function discussion."
+ },
+ {
+  "id": "c015",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "56 tuổi và Bethoven thì để lại một cái số bản giao hưởng là mấy khách lành nhớ không? chín bản",
+    "timestamp": "00:45:58",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:45:58"
+   },
+   {
+    "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9",
+    "timestamp": "00:46:05",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:46:05"
+   },
+   {
+    "quote": "đối với cuộc đời của Behoven cũng chỉ ngắn ngủi 56 năm",
+    "timestamp": "00:46:22",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:46:22"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc (host answers 'chín bản')",
+  "note": "56 years and 9 symphonies match; transcript's 'đỉnh cao nhất' refers specifically to Symphony No. 9."
+ },
+ {
+  "id": "c019",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi.",
+    "timestamp": "00:36:28",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:36:28"
+   },
+   {
+    "quote": "một số những nhà khoa học, một số những quốc gia đang tính đến chuyện nâng cao tuổi thọ và người ta nghĩ đến chuyện là phải vượt qua con số 100 tuổi.",
+    "timestamp": "00:36:50",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:36:50"
+   },
+   {
+    "quote": "Mục tiêu tôi với Khánh Lành với toàn bộ ekip làm ở đây muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi.",
+    "timestamp": "00:47:48",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:47:48"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "130-175 is the doctor's personal hope and 70-80 'sung sức' is the doctor/team's goal; claim attributes both to 21st-century science, whose stated aim is only to exceed 100 (doctor believes 150 feasible)."
+ },
+ {
+  "id": "c024",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta ra trường làm ở cơ quan nào, lương bao nhiêu, thế rồi thì tiền thưởng áng chừng bao nhiêu, bao nhiêu năm xây được nhà, bao nhiêu năm mua được nhà cửa.",
+    "timestamp": "00:51:48",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:51:48"
+   },
+   {
+    "quote": "tất cả những cái đó chính là số thực. Tức là phần A. Phần A là những cái mà chúng ta tính toán, chúng ta định lượng, chúng ta cái phần này là rất là khách quan.",
+    "timestamp": "00:52:02",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:52:02"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Real part a = objective, calculable items (workplace, salary, bonus, house) as stated."
+ },
+ {
+  "id": "c027",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thực tế cuộc sống nó không đơn giản là y = sin x hay y = x.",
+    "timestamp": "00:57:41",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:57:41"
+   },
+   {
+    "quote": "Và cuộc sống cũng không bao giờ đơn giản là y = x hay y = sin x mà nó là chập của rất nhiều những các cái con đường khác nhau.",
+    "timestamp": "01:00:27",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:00:27"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Matches: life is a superposition ('chập') of many curves, not y=x or y=sin x."
+ },
+ {
+  "id": "c029",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "các bạn trẻ luôn luôn nghĩ nó như thế và các bạn ấy muốn đốt cháy giai đoạn.",
+    "timestamp": "00:58:02",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:58:02"
+   },
+   {
+    "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được.",
+    "timestamp": "00:58:38",
+    "occurrences": 1,
+    "timestamp_recomputed": "00:58:38"
+   },
+   {
+    "quote": "trong cuộc sống của chúng ta nếu đi theo đường thẳng luôn luôn thất bại và luôn luôn chậm nhất",
+    "timestamp": "01:00:20",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:00:20"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Content present (shortcut thinking, traffic jams/road repair, detours) but doctor says 'luôn luôn thất bại'/'không bao giờ đi được'; claim softens to 'thường thất bại'."
+ },
+ {
+  "id": "c036",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "các nhà phân tích tài chính ở trung tâm tài chính sừng sỏ nhất nước Mỹ",
+    "timestamp": "01:08:26",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:08:26"
+   },
+   {
+    "quote": "những nhà phân tích tài chính hàng đầu nước Mỹ từ xưa tới nay luôn xuất phát đều là những cái nhà sử học.",
+    "timestamp": "01:08:31",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:08:31"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Doctor states top US analysts 'luôn ... đều' (always/all) came from historians at the single top financial centre; claim softens to 'Nhiều' and pluralizes centres."
+ },
+ {
+  "id": "c045",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và quan điểm của tôi cũng thế. Nếu như vitamin D mà ta đưa lên từ 50 cho đến 70 ng/ml ở trong máu ta xét nghiệm thì đây chính là cái con số lý tưởng",
+    "timestamp": "01:24:10",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:24:10"
+   },
+   {
+    "quote": "kinh nghiệm của tôi thì bắt đầu tôi thấy rằng thậm chí là ta đưa từ 70 cho đến 80 ng/ml thì đây là con số phải nói là tuyệt vời.",
+    "timestamp": "01:24:29",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:24:29"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Numbers match, but 50-70 is framed as doctor's/some experts' view and 70-80 'tuyệt vời' as the doctor's personal experience; claim states both as fact (and says D3 where transcript says vitamin D)."
+ },
+ {
+  "id": "c050",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế thì nghiên cứu của ông rất tình cờ là trong một cái dịp mà giảng dậy ở vùng biển Caribe vào năm 1985",
+    "timestamp": "01:35:24",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:35:24"
+   },
+   {
+    "quote": "Tức là trong quá trình soạn giáo án thì ông soạn cấu trúc và màng tế bào thì bắt đầu ông ấy nảy sinh ra những suy nghĩ rất là thần kỳ.",
+    "timestamp": "01:35:47",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:35:47"
+   },
+   {
+    "quote": "Thì ngược lại nhà khoa học Lip tông, nhà sinh vật học, nhà sinh học ông đã đưa ra",
+    "timestamp": "01:44:53",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:44:53"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "1985, Caribbean, American biologist, lesson-prep discovery all present; transcript names him only 'Trà Lip Tông'/'Lip tông'/'Liptông' — first name 'Bruce' not spoken."
+ },
+ {
+  "id": "c063",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "sau khi mà bổ sung DHA bổ sung Omega 3 mà tăng cường cái DHA này lên một chút vitamin D cộng các vi chất thì một thời gian sau các cháu học kết quả nó sẽ thay đổi đi đáng kể.",
+    "timestamp": "01:49:53",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:49:53"
+   },
+   {
+    "quote": "con anh ấy lúc đầu là ăn không nên loại và nói không nên lời, không có bạn gái.",
+    "timestamp": "01:50:13",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:50:13"
+   },
+   {
+    "quote": "sau khi mà bổ sung đâu được à hơn 3 tháng gần 4 tháng thì anh ấy đến báo cáo tình hình là con anh ấy bắt đầu nói có văn có lời",
+    "timestamp": "01:50:23",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:50:23"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc (anecdotes from his patients)",
+  "note": "Two separate anecdotes merged: school results after 'một thời gian'; the 3-4 month speech change was one son old enough to date (not 'trẻ nhỏ'); anecdotal patient reports presented as general finding."
+ },
+ {
+  "id": "c064",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Omega 3 được tìm thấy trong cá béo, giúp giảm viêm, điều hòa huyết áp và rất quan trọng cho não và tim.",
+    "timestamp": "01:55:10",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:55:10"
+   },
+   {
+    "quote": "Chúng cũng gắn liền với giảm nguy cơ nhiều bệnh bao gồm bệnh tiểu đường, hộ chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư.",
+    "timestamp": "01:55:16",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:55:16"
+   },
+   {
+    "quote": "trong khi Omega 3 là chất chống viêm, Omega6 có xu hướng gây viêm.",
+    "timestamp": "01:55:42",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:55:42"
+   }
+  ],
+  "speaker": "newspaper article read aloud by host Khánh Lành",
+  "note": "Source is a quoted article; it says Omega-3 'gắn liền với' (associated with) reduced risk of 'một số bệnh ung thư'; claim hardens to causal reduction of 'ung thư' generally."
+ },
+ {
+  "id": "c065",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần.",
+    "timestamp": "01:55:30",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:55:30"
+   },
+   {
+    "quote": "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì. Nó cũng liên quan đến bệnh tiểu đường, bệnh tim, ung thư, trầm cảm, đau",
+    "timestamp": "01:54:47",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:54:47"
+   }
+  ],
+  "speaker": "newspaper article read aloud by host Khánh Lành",
+  "note": "6x figure and imbalance-disease association ('liên quan') both in the quoted article; source is the article (citing 'tạp chí Hell'), not the doctor."
+ },
+ {
+  "id": "c068",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 41, chúng ta có thể phòng ngừa nguy cơ bệnh tim nhưng lại không có tác dụng giảm nguy cơ mắc các bệnh liên quan đến trực tràng.",
+    "timestamp": "01:56:09",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:56:09"
+   }
+  ],
+  "speaker": "newspaper article read aloud by host Khánh Lành",
+  "note": "Content matches (4:1 captioned '41') but 'có thể' hedge dropped; source is the quoted article."
+ },
+ {
+  "id": "c069",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Với tỉ lệ 21 hay là 31, chúng ta có thể giảm hội chứng viêm ở bệnh nhân thấp khớp.",
+    "timestamp": "01:56:19",
+    "occurrences": 1,
+    "timestamp_recomputed": "01:56:19"
+   }
+  ],
+  "speaker": "newspaper article read aloud by host Khánh Lành",
+  "note": "Content matches (2:1/3:1 captioned '21'/'31') but 'có thể' hedge dropped; source is the quoted article."
+ },
+ {
+  "id": "c074",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Là có 18 nguyên tử cacbon. 18 nguyên tử cacbon có hai liên kết pi. Hai liên kết pi. Liên kết pi đầu tiên đứng ở vị trí cacbon số 6.",
+    "timestamp": "02:03:44",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:03:44"
+   },
+   {
+    "quote": "oxy đúng không ạ? Tức là COOH chính là axit rồi",
+    "timestamp": "02:04:41",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:04:41"
+   },
+   {
+    "quote": "Ví dụ như la chúng ta phải nhớ là C18 2N và gạch ngang 6 đúng không ạ?",
+    "timestamp": "02:20:44",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:20:44"
+   }
+  ],
+  "speaker": "host Khánh Lành answering, confirmed by doctor Trần Văn Phúc",
+  "note": "C18, 2 pi bonds, first at carbon 6, COOH end all stated in the LA quiz (notation spoken as 'C18 hai chấm 2n gạch ngang 6')."
+ },
+ {
+  "id": "c078",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và nó càng nhiều liên kết pi thì nó càng quý.",
+    "timestamp": "02:07:12",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:07:12"
+   },
+   {
+    "quote": "Vậy thì Omega3 nó có nhiều liên kết pi hơn omega6 thì nó mới quý ở chỗ đấy.",
+    "timestamp": "02:07:31",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:07:31"
+   },
+   {
+    "quote": "Và đến DHA này nó có tới tận năm liên kết pi cơ cho nên là nó rất quý.",
+    "timestamp": "02:07:37",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:07:37"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "More pi bonds = more valuable, with Omega-3 and DHA as examples."
+ },
+ {
+  "id": "c082",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thì ngoài cái phản ứng viêm ra nó còn có những phản ứng đau, có những phản ứng tăng tính thấm thành mạch. có những phản ứng mà tăng tính thấm của mô liên kết",
+    "timestamp": "02:15:03",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:15:03"
+   },
+   {
+    "quote": "Thế thì bây giờ Khánh lành sẽ hình dung rằng nếu chúng ta ăn quá nhiều omega6 thì la và AA sẽ tích hợp màng tế bào gây viêm.",
+    "timestamp": "02:15:19",
+    "occurrences": 1,
+    "timestamp_recomputed": "02:15:19"
+   }
+  ],
+  "speaker": "doctor Trần Văn Phúc",
+  "note": "Pain, vascular and connective-tissue permeability reactions from LA/AA-driven PGE2 stated, followed by list of diseases."
+ }
+]

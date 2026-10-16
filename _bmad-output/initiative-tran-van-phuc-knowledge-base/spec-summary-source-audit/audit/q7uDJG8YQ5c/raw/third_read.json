@@ -1,0 +1,311 @@
+{
+  "video_id": "q7uDJG8YQ5c",
+  "purpose": "Third independent adjudication of pass-1 / pass-2 disagreement claims only",
+  "transcript": "videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/transcript.md",
+  "transcript_read": "full, sequential, lines 1-5330 ([00:00:01] to [03:32:39])",
+  "inputs": [
+    "raw/p2_01_in.json",
+    "raw/p2_02_in.json",
+    "pass1.json",
+    "raw/p2_01_retry_out.json",
+    "raw/p2_02_out.json",
+    "raw/p2_01_out.json (superseded first pass-2 attempt; consulted only to explain c013/c029 disagreement)",
+    "audit-record-format.md (class definitions)"
+  ],
+  "not_read": [
+    "review.md"
+  ],
+  "class_definitions_applied": "audit-record-format.md: supported = quote backs claim with speaker and qualifiers (hedges, conditions, dosage/population limits) intact; mismatch = contradicts or materially different number/direction/entity; attribution_qualification = content present but speaker misattributed or a qualification dropped, hardened or added; unresolved = no evidence or ambiguous after full read. Consistency precedent from pass1: unattributed article content is classed supported when it matches the article (c066, c070, c107, c110), so dropped article attribution alone does not trigger attribution_qualification.",
+  "counts": {
+    "claims_adjudicated": 8,
+    "final_supported": 2,
+    "final_attribution_qualification": 6,
+    "final_mismatch": 0,
+    "final_unresolved": 0,
+    "final_agrees_with_pass1_class": 5,
+    "final_agrees_with_pass2_class": 5,
+    "pass1_pass2_class_agree_in_supplied_files": 2,
+    "final_differs_from_current_final_records": 2
+  },
+  "records": [
+    {
+      "id": "c013",
+      "claim": "Minh chứng cho sức sáng tạo khổng lồ từ những giới hạn này bao gồm:",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_01_retry_out.json (earlier raw/p2_01_out.json said unresolved)",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Đây chính là cái sự vô hạn mà chúng ta sẽ hiểu rằng mọi người cứ lo rằng đến một lúc nào đó thì số bản nhạc viết ra sẽ hết. Không bao giờ hết được.",
+          "timestamp": "00:33:09"
+        },
+        {
+          "quote": "Thế và như thế này thì tôi có thể lấy một số những cái ví dụ để chúng ta dễ hình dung.",
+          "timestamp": "00:44:30"
+        },
+        {
+          "quote": "rõ ràng rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật của hai người của Moza và của Bethoven thì chúng ta thấy trải nghiệm rất rộng thì mới viết ra được một cái lượng kiến thức khổng lồ như vậy.",
+          "timestamp": "00:46:24"
+        },
+        {
+          "quote": "Thì ông may mắn là có cái EL kéo dài hơn so với những người khác.",
+          "timestamp": "00:48:35"
+        }
+      ],
+      "speaker": "Dr. Phúc. The framing line is the summary's own.",
+      "rationale": "The piano example ends at about 00:33:29. Mozart, Beethoven and Kant come about 10 minutes later, after the life-value function V = L + W + H, introduced as 'ví dụ để chúng ta dễ hình dung'. They illustrate a short L made up for by wide experience (W) and depth (H), not creativity that comes 'từ những giới hạn này' (the 52-key/50-note limits). Kant is explicitly a long-L case ('may mắn là có cái EL kéo dài hơn'), so he cannot illustrate creativity from limits at all. The people are named in the transcript, but the summary adds a causal framing that ties them to the piano limits. That is an added qualification and moves them out of their real context. Nothing is contradicted, so this is not a mismatch.",
+      "disagreement": "Pass 1 says attribution_qualification (reframed). Pass 2 retry says supported, but its own note describes the same life-value-function context. The first pass-2 attempt said unresolved, also noting the reframing.",
+      "stronger": {
+        "class": "pass1",
+        "evidence": "pass1, which quotes the 00:44:30 'ví dụ để chúng ta dễ hình dung' pivot. Neither pass cites the Kant long-L line, which is decisive against the 'from limits' framing."
+      },
+      "confidence": "medium-high"
+    },
+    {
+      "id": "c015",
+      "claim": "Ludwig van Beethoven: Sống 56 năm và sáng tác 9 bản giao hưởng đỉnh cao.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_01_retry_out.json (earlier raw/p2_01_out.json also supported)",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Hôm trước tôi nói Behoven thì sống bao nhiêu tuổi ạ? 56 tuổi và Bethoven thì để lại một cái số bản giao hưởng là mấy khách lành nhớ không? chín bản",
+          "timestamp": "00:45:52"
+        },
+        {
+          "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9 mà nhân loại sẽ không bao giờ vượt qua được",
+          "timestamp": "00:46:05"
+        }
+      ],
+      "speaker": "Dr. Phúc. Host Khánh Lành answers 'chín bản' and the doctor confirms it after the '>>' turn marker.",
+      "rationale": "The numbers 56 years and 9 symphonies match. The transcript calls only Symphony No. 9 the peak ('đỉnh cao nhất'). The summary's '9 bản giao hưởng đỉnh cao' reads as 'nine peak symphonies', which applies the peak label to all nine. That is a small but real added or hardened qualifier, so by the rubric it cannot be supported. Severity is low and a one-word fix is enough: 'sáng tác 9 bản giao hưởng, đỉnh cao nhất là Bản giao hưởng số 9'.",
+      "disagreement": "Pass 1 says attribution_qualification. Pass 2 (both attempts) says supported, even though its note concedes that 'đỉnh cao' is 'loosely applied to all nine'. Both passes have the same facts and differ only on whether the embellishment counts.",
+      "stronger": {
+        "class": "pass1",
+        "evidence": "equal. Both cite the same two lines, and pass 2 adds a redundant 00:46:22 line."
+      },
+      "confidence": "medium. A low-severity borderline call, and the Vietnamese phrasing is mildly ambiguous."
+    },
+    {
+      "id": "c029",
+      "claim": "Tư duy muốn đi thẳng từ điểm A đến điểm B để đốt cháy giai đoạn thường thất bại, giống như đi từ nhà đến cơ quan sẽ gặp tắc đường hoặc sửa đường nên phải chọn đi đường vòng.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "attribution_qualification",
+      "pass2_source": "raw/p2_01_retry_out.json (earlier raw/p2_01_out.json said supported)",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Chúng ta đi đường thẳng, các bạn trẻ luôn luôn nghĩ nó như thế và các bạn ấy muốn đốt cháy giai đoạn.",
+          "timestamp": "00:58:00"
+        },
+        {
+          "quote": "Đấy là cách tư duy sai, cách tư duy không phù hợp. Cuộc sống không bao giờ như thế.",
+          "timestamp": "00:58:26"
+        },
+        {
+          "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được. Quý vị chọn con đường ngắn nhất quý vị đi sẽ thất bại mà chúng ta đều phải đi đường vòng.",
+          "timestamp": "00:58:38"
+        },
+        {
+          "quote": "chúng ta sẽ xuất hiện những đoạn đường bị tắc đường. Chúng ta có những đoạn đường mà người ta đang sửa chữa. Vậy chúng ta luôn luôn phải chọn đường vòng đi.",
+          "timestamp": "00:58:55"
+        },
+        {
+          "quote": "trong cuộc sống của chúng ta nếu đi theo đường thẳng luôn luôn thất bại và luôn luôn chậm nhất",
+          "timestamp": "01:00:20"
+        }
+      ],
+      "speaker": "Dr. Phúc. The summary is unattributed, which is consistent with the doctor.",
+      "rationale": "All the content is present: young people want to skip stages, the straight-line mindset, traffic jams, road repairs and detours. The doctor speaks in absolutes ('cách tư duy sai', 'thất bại không bao giờ đi được', 'luôn luôn thất bại'). The summary adds the hedge 'thường thất bại', which softens the speaker's stated certainty. That is an added qualification.",
+      "disagreement": "Pass 1 and the pass-2 retry have no class disagreement. The disagreement recorded in audit-summary.md matches the superseded first pass-2 attempt (raw/p2_01_out.json, supported), which missed the 'thường' versus 'luôn luôn' softening.",
+      "stronger": {
+        "class": "equal (pass1 = pass2 retry)",
+        "evidence": "equal. Both cite the absolute 'thất bại không bao giờ đi được' and 'luôn luôn thất bại'. Pass 1 also covers the detour content."
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "c063",
+      "claim": "Việc bổ sung DHA, Omega-3 kết hợp cùng Vitamin D và các vi chất cho trẻ nhỏ trong khoảng 3 đến gần 4 tháng đã ghi nhận những thay đổi đáng kể về kết quả học tập cũng như khả năng ngôn ngữ, giao tiếp.",
+      "pass1_class": "mismatch",
+      "pass2_class": "attribution_qualification",
+      "pass2_source": "raw/p2_01_retry_out.json (earlier raw/p2_01_out.json also attribution_qualification)",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Thì có nhiều quý vị là con cái đang học điểm khá là thấp.",
+          "timestamp": "01:49:48"
+        },
+        {
+          "quote": "Thế sau khi mà bổ sung DHA bổ sung Omega 3 mà tăng cường cái DHA này lên một chút vitamin D cộng các vi chất thì một thời gian sau các cháu học kết quả nó sẽ thay đổi đi đáng kể.",
+          "timestamp": "01:49:53"
+        },
+        {
+          "quote": "con anh ấy lúc đầu là ăn không nên loại và nói không nên lời, không có bạn gái. Trong khi đấy là các bạn cùng trang lứa là có bạn gái hết rồi.",
+          "timestamp": "01:50:13"
+        },
+        {
+          "quote": "Thế sau khi mà bổ sung đâu được à hơn 3 tháng gần 4 tháng thì anh ấy đến báo cáo tình hình là con anh ấy bắt đầu nói có văn có lời văn văn vẻ ra và bắt đầu có bạn gái, có người yêu.",
+          "timestamp": "01:50:23"
+        }
+      ],
+      "speaker": "Dr. Phúc, recounting two separate patient anecdotes. The summary presents them as a single recorded outcome.",
+      "rationale": "Every element is in the transcript: DHA/Omega-3 plus vitamin D plus micronutrients, a significant change in school results, a 3 to nearly 4 month timeframe, and improved speech. The summary merges two anecdotes. (1) The school-results case has no duration ('một thời gian sau') and concerns school-age children. (2) The 3-4 month speech change belongs to one father's son whose peers already have girlfriends, which is not 'trẻ nhỏ'. The summary attaches the 3-4 months to both outcomes, adds 'trẻ nhỏ', and turns anecdotes into a recorded finding ('đã ghi nhận'). Population, duration and evidential strength are the qualifiers the rubric names, so this is attribution_qualification. Mismatch is a defensible alternative because the timeframe and population are transplanted between anecdotes. The correction is needed under either class.",
+      "disagreement": "Class only: pass 1 says mismatch, pass 2 says attribution_qualification. The analysis of the two merged anecdotes is the same in both.",
+      "stronger": {
+        "class": "pass2. Population and duration are listed qualifiers, and nothing is contradicted.",
+        "evidence": "equal. The quote sets are near-identical. Neither cites the 01:49:48 'con cái đang học điểm khá là thấp' line, which confirms anecdote 1 is about school-age children."
+      },
+      "confidence": "medium-high on non-supported; medium on attribution_qualification over mismatch"
+    },
+    {
+      "id": "c065",
+      "claim": "Người Mỹ hiện tiêu thụ Omega-6 nhiều gấp 6 lần Omega-3, gây ra sự mất cân bằng liên quan đến béo phì, tiểu đường, bệnh tim, trầm cảm, đau và các bệnh tự miễn.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_01_retry_out.json (earlier raw/p2_01_out.json also supported)",
+      "final_class": "supported",
+      "evidence": [
+        {
+          "quote": "Vâng, thưa quý vị, đó là tiêu đề một bài viết trên một tờ báo rất là uy tín trong nước. Tôi xin trích dẫn nguyên văn nội dung như thế này ạ.",
+          "timestamp": "01:54:06"
+        },
+        {
+          "quote": "Những năm gần đây, các nhà khoa học phát hiện ra rằng hầu hết mọi người đều đang hấp thụ một lượng lớn các chất béo Omega6 so với thời trước.",
+          "timestamp": "01:54:29"
+        },
+        {
+          "quote": "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì. Nó cũng liên quan đến bệnh tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như bệnh suuyễn và các bệnh tự miễn dịch.",
+          "timestamp": "01:54:47"
+        },
+        {
+          "quote": "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần.",
+          "timestamp": "01:55:30"
+        },
+        {
+          "quote": "Do vậy, chúng ta không thể khẳng định Omega 6 là nguyên nhân gây ra các bệnh mãn tính.",
+          "timestamp": "01:58:30"
+        }
+      ],
+      "speaker": "Host Khánh Lành reading a newspaper article verbatim. Within the article the 6x figure is credited to 'các nghiên cứu của tạp chí Hell'. The summary paragraph is unattributed, like the rest of this article-derived section.",
+      "rationale": "The 6x figure and the disease list are both in the article. The disease link is stated as association ('liên quan'), and the summary keeps 'liên quan', so the claim does not turn it into causation. The article's own later caveat (omega-6 not proven to cause chronic disease) therefore does not contradict it. 'Sự mất cân đối' in the article is the same omega-6-high, omega-3-low imbalance that the US 6x figure illustrates, so tying them together is a faithful compression, not a splice onto a different subject. Dropping 'ung thư' and 'bệnh viêm như suyễn' from the list is an omission, not a distortion. Dropping the in-article source label alone does not make a claim attribution_qualification under pass 1's own precedent (c066, c070, c107, c110 are supported while unattributed). Context only: the doctor later gives a different ratio (about 20:1 for omega-6 components against DHA/EPA, 02:29:13). That uses a different denominator and does not contradict the claim.",
+      "disagreement": "Pass 1 says attribution_qualification (dropped in-article source, disease association spliced, later caveat ignored). Pass 2 says supported (the article states both the 6x figure and the association).",
+      "stronger": {
+        "class": "pass2",
+        "evidence": "pass1, which is more complete: it cites the general-imbalance antecedent at 01:54:29 and points to the caveat. Read in full, that evidence supports the claim rather than undermining it."
+      },
+      "confidence": "medium-high"
+    },
+    {
+      "id": "c108",
+      "claim": "Nguồn nguyên liệu tinh chế, đảm bảo sạch, không chứa tạp chất và kim loại nặng (như dầu cá Na Uy).",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "supported",
+      "evidence": [
+        {
+          "quote": "Omega 3 chọn loại nào cho tốt, dùng thế nào cho đúng? Đó là tiêu đề của một bài viết trên một tờ báo có uy tín khác về sức khỏe mà tôi cũng xin được trích dẫn nguyên văn ngay sau đây ạ.",
+          "timestamp": "02:37:13"
+        },
+        {
+          "quote": "Thứ ba là chọn Omega 3 có nguồn nguyên liệu tinh chế.",
+          "timestamp": "02:40:00"
+        },
+        {
+          "quote": "Nguồn nguyên liệu dầu cá để sản xuất các sản phẩm Omega 3 phải đảm bảo sạch và tinh chế, đồng thời không chứa các tạp chất và các kim loại nặng. Dầu cá Na Uy hiện nay đang là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.",
+          "timestamp": "02:40:07"
+        }
+      ],
+      "speaker": "Host Khánh Lành reading a second newspaper article verbatim. The summary is unattributed, consistent with sibling claims c107 and c110 that pass 1 classed supported.",
+      "rationale": "The criterion (refined, clean, free of impurities and heavy metals) matches the article word for word. The article puts the Norway sentence directly under 'Thứ ba là chọn Omega 3 có nguồn nguyên liệu tinh chế', with no other function than to give the example source for that criterion. '(như dầu cá Na Uy)' renders that example role faithfully and does not go beyond what the article itself implies. The article never certifies Norwegian oil as heavy-metal-free in so many words, which is why this is borderline. But the summary's 'như' (e.g.) is no stronger than the article's juxtaposition, so this is not a hardened qualifier.",
+      "disagreement": "Pass 1 says attribution_qualification ('leading source' was hardened into 'example of a clean, heavy-metal-free source'). Pass 2 says supported (the article presents Norway oil right after the criteria as an example).",
+      "stronger": {
+        "class": "pass2",
+        "evidence": "equal. Both cite the same 02:40:07 passage. Neither cites the 02:40:00 'Thứ ba...' header that frames Norway oil as the criterion's example."
+      },
+      "confidence": "medium. Borderline; an optional softening correction ('dầu cá Na Uy được bài báo nêu là một trong những nguồn nguyên liệu hàng đầu') would remove any doubt."
+    },
+    {
+      "id": "c128",
+      "claim": "Từ 0,6 đến 0,7 trở lên: Cho hiệu quả rõ rệt, giúp hỗ trợ cải thiện mỡ máu, tiểu đường, tim mạch, huyết áp, đau khớp, dị ứng (viêm xoang, viêm mũi), cải thiện trí nhớ (Alzheimer, Parkinson).",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Lên tới 0,6 nếu quý vị nào mà uống từ 0,6 trở lên thì chúng ta sẽ bỏ được nhiều những các cái sản phẩm thuốc. Ví dụ như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch. Tôi thấy rất nhiều người bỏ được.",
+          "timestamp": "03:02:22"
+        },
+        {
+          "quote": "Thế rồi thì thuốc huyết áp, thế rồi thì khớp đang đau bắt đầu hết đau. Những cái phản ứng viêm dị ứng các thứ bắt đầu là hết. Viêm xoang, viêm mũi các thứ nọ kia hết. Thế rồi trí nhớ bắt đầu cải thiện.",
+          "timestamp": "03:02:34"
+        },
+        {
+          "quote": ">> Alzimer run rẩy tay chân Parkison.",
+          "timestamp": "03:02:47"
+        },
+        {
+          "quote": "Alzimer nhớ nhớ quên quên là cải thiện được rất nhiều, học hành nó tốt. Thì đấy là từ 0,6 trở lên nhưng mà giá thành đắt rồi.",
+          "timestamp": "03:02:51"
+        },
+        {
+          "quote": "Hasimoto. Hasimoto và ba đô.",
+          "timestamp": "02:18:55"
+        },
+        {
+          "quote": "Còn muốn cải thiện được nhiều bệnh tật bắt đầu 0,6. Cải thiện tốt thì 0,7, rất tốt thì đến 0,9 đúng không ạ?",
+          "timestamp": "03:08:46"
+        }
+      ],
+      "speaker": "Dr. Phúc for the list up to memory and Alzheimer. 'Parkison' appears only in a '>>' turn-marked interjection, most likely the host supplying keywords. The doctor's continuation repeats and expands 'Alzimer' but never takes up Parkinson. Compare the 02:18:55 host '>> Hasimoto.' and doctor '>> Hasimoto và ba đô.' pattern, where the doctor does confirm the host's keyword. The summary attributes the whole list to the doctor.",
+      "rationale": "Mỡ máu, tiểu đường, tim mạch, huyết áp, khớp, dị ứng (viêm xoang, viêm mũi), trí nhớ and Alzheimer at 0.6 and above are all the doctor's words. Two problems remain. (1) 'Parkinson' is attributed to the doctor, but the only source is an interjection by another speaker that the doctor does not confirm. That is a speaker misattribution of one listed item. (2) The qualifier strength changes. The doctor's claim is 'bỏ được thuốc' / 'hết đau' / 'hết', framed by his own observation ('Tôi thấy rất nhiều người bỏ được'). The summary restates it as a generic 'hiệu quả rõ rệt, hỗ trợ cải thiện'. This softens the specific claim (stopping medication) and also drops its observational basis. Pass 1's point that the summary hardens 'tôi thấy' into a general effect is weaker, because the doctor himself also states it generally ('chúng ta sẽ bỏ được'). The Parkinson attribution alone justifies non-supported.",
+      "disagreement": "Pass 1 says attribution_qualification (drops the 'tôi thấy' framing, generalizes, Parkinson speaker uncertain). Pass 2 says supported, although its own note says Parkinson 'appears only in an interjection, likely the host'. That class is internally inconsistent with its note.",
+      "stronger": {
+        "class": "pass1",
+        "evidence": "pass2 for the Parkinson point, because it quotes the '>>' line verbatim with the marker. Pass 1 for the observational framing. Neither cites the 02:18:55 turn-taking precedent."
+      },
+      "confidence": "medium-high"
+    },
+    {
+      "id": "c136",
+      "claim": "Nếu chọn loại DHA cao hơn EPA có nguy cơ làm tăng mỡ máu xấu và gan nhiễm mỡ.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "attribution_qualification",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "À tôi lấy ví dụ như là nếu quý vị bị gan nhiễm mỡ, bị mỡ máu mà quý vị mua cái DHA cao DHA mà lớn hơn EPA.",
+          "timestamp": "03:13:30"
+        },
+        {
+          "quote": "Nếu ta mua DHA lớn hơn EPA với người bị gan nhiễm mỡ và mỡ máu, gan nhiễm mỡ và cái người bị mỡ máu thì khi chúng ta uống vào có nguy cơ là chúng ta lại bị gan nhiễm mỡ tăng lên và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.",
+          "timestamp": "03:13:44"
+        },
+        {
+          "quote": "Đây là tôi đang lấy ví dụ như là thế thôi.",
+          "timestamp": "03:14:19"
+        }
+      ],
+      "speaker": "Dr. Phúc. The summary section attributes it to 'Bác sĩ Phúc', which is correct.",
+      "rationale": "The doctor limits the risk to people who already have fatty liver or dyslipidemia ('với người bị gan nhiễm mỡ và mỡ máu'). Read standalone, the claim drops that population limit. Read in context, it sits in the c135 bullet, whose group is wider than the doctor's (it adds tiểu đường, đau khớp, cao huyết áp, dị ứng and children). So even with context the risk statement attaches to a broader population than the doctor named. A population qualifier is dropped or broadened under either reading.",
+      "disagreement": "Pass 1 and pass 2 have no class disagreement (both attribution_qualification). Pass 2 adds that the limit 'may be implied by its parent bullet (c135)'. The parent bullet's wider group actually broadens the limit, which strengthens the shared class.",
+      "stronger": {
+        "class": "equal (pass1 = pass2)",
+        "evidence": "equal. Pass 2 has the cleaner single-quote span; pass 1 splits it into two. Neither notes that the c135 group is broader than the doctor's risk population."
+      },
+      "confidence": "high"
+    }
+  ],
+  "summary_notes": [
+    "Final classes: c013 AQ, c015 AQ, c029 AQ, c063 AQ, c065 supported, c108 supported, c128 AQ, c136 AQ.",
+    "This read disagrees with the current final_records.json (all 8 attribution_qualification) on c065 and c108, which it would class supported. Both are article-reading claims where pass 1's AQ rests on dropped article attribution or a strict reading of an example; pass 1's own precedent treats unattributed matching article content as supported.",
+    "c029 and c136: pass 1 and the supplied pass-2 outputs agree on class. The c029 disagreement in audit-summary.md comes from the superseded raw/p2_01_out.json (supported). No class disagreement for c136 exists in the supplied files.",
+    "c063: AQ over mismatch is a rubric-interpretation choice, since population and duration are named qualifiers. The correction is required either way.",
+    "Quotes are verbatim caption text joined across line breaks. Timestamps are those of the caption line where each quote starts. The '>>' marker is kept only where it carries speaker-turn evidence."
+  ]
+}

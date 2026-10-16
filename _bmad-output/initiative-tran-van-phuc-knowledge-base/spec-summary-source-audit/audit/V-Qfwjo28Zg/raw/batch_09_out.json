@@ -1,0 +1,374 @@
+[
+  {
+    "id": "c201",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "Có người chỉ có 5 600 UI đã đủ rồi nhưng có người lên tới 6 7000 UI cơ.",
+        "timestamp": "02:49:13"
+      },
+      {
+        "quote": "Vâng. Nhưng đại đa số mọi người là con số trên dưới 2000 UI. Cho nên khi dò liều tôi",
+        "timestamp": "02:49:17"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Bản ghi nói đa số “trên dưới 2000 UI”, không phải dưới 2.000; chuỗi “5 600” cũng mơ hồ, không xác nhận chắc 5.600."
+  },
+  {
+    "id": "c202",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "dưới 2000 UI. Cho nên khi dò liều tôi hay nói rằng ta chọn cái liều là 2000 UI một ngày để ta dò. Dò là gì? là ta đi",
+        "timestamp": "02:49:20"
+      },
+      {
+        "quote": "xét nghiệm vài lần để trả lời xem mỗi ngày ta cần bao nhiêu ui. Nếu như trả lời được cái câu hỏi đấy rồi thì lúc đấy ta cứ uống đều đặn hàng ngày để ta duy trì cái vitamin theo D theo đường thẳng.",
+        "timestamp": "02:49:29"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Có chọn liều 2000 UI/ngày để dò bằng xét nghiệm vài lần rồi duy trì hằng ngày."
+  },
+  {
+    "id": "c203",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "mua thật chuẩn. Sau đó là mua vitamin D đang trong hạn sử dụng. Ừ. Cái người bán",
+        "timestamp": "02:50:18"
+      },
+      {
+        "quote": "Chúng ta mua về cũng bảo quản tốt. Thế thì chúng ta bảo quản tốt đó là chúng ta tránh ánh sáng, chúng ta tránh gì ạ? Không khí, chúng ta tránh độ ẩm, chúng ta bảo quản tốt như vậy và uống trong",
+        "timestamp": "02:50:29"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Đúng yêu cầu hạn sử dụng và tránh ánh sáng, không khí, độ ẩm."
+  },
+  {
+    "id": "c204",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "nay Khánh lành đã tổng kết được 10 bình luận cực kỳ ấn tượng và tôi thấy cả 10",
+        "timestamp": "01:35:27"
+      },
+      {
+        "quote": "bình luận cũng đều rất liên quan tới cái chủ đề phát sóng ngày hôm nay đó chính là Glutathion. Một cái chất để mà có thể",
+        "timestamp": "01:35:33"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Bác sĩ liên hệ cả 10 bình luận với chủ đề Glutathion."
+  },
+  {
+    "id": "c205",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "sau khi bổ sung những cái vi chất đến giờ phút này, tôi không thể nói rằng 100% nhưng có thể nói gần 100% chúng ta đạt cái kết quả có thể nói ngọn mục. Và",
+        "timestamp": "01:35:50"
+      },
+      {
+        "quote": "bổ sung vi chất, thay đổi lối sống cũng như là hiểu tưởng tận cơ thể bên trong chúng ta như thế nào, điều hòa ở cấp độ phân tử, điều hòa ở cấp độ tế bào, chúng",
+        "timestamp": "01:36:08"
+      },
+      {
+        "quote": "ta sẽ thu được những cái kết quả mà có thể nói là vô cùng bất ngờ. Tôi xin gửi",
+        "timestamp": "01:36:17"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Giữ lời dè dặt không thể nói 100%, gần 100% và các yếu tố bổ sung/lối sống/điều hòa."
+  },
+  {
+    "id": "c206",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "thì ở đây cái đầu tiên chúng ta phải chăm sóc đó là về cái thân thể của chúng ta. Tức là chúng ta phải có một cái sức khỏe thật tốt. Mà muốn sức khỏe thật tốt",
+        "timestamp": "01:39:25"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Chăm sóc thân thể và sức khỏe được đặt đầu tiên trong lời khuyên học tập."
+  },
+  {
+    "id": "c207",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "khỏe thật tốt. Mà muốn sức khỏe thật tốt thì chúng ta phải thực hiện ăn uống ngủ nghỉ nó đúng khoa học đúng không ạ?",
+        "timestamp": "01:39:31"
+      },
+      {
+        "quote": "Chúng ta phải bổ sung các cái vi chất, bổ sung các cái chất dinh dưỡng, chế độ ăn uống của chúng ta phải cân đối hài hòa chứ không thể nào như các bạn trẻ",
+        "timestamp": "01:39:38"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Nêu ăn ngủ khoa học, bổ sung vi chất và ăn cân đối hài hòa."
+  },
+  {
+    "id": "c208",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Anh, con người ta sinh ra không phải ông trời cũng cho tất cả mọi người có được cái trí tuệ tốt, có được cái trí nhớ siêu phàm hay là có những cái năng lực tuyệt vời. Như tôi vẫn tâm sự trong",
+        "timestamp": "01:37:20"
+      },
+      {
+        "quote": "thân tôi là người mà có trí tuệ không được tốt cho lắm.",
+        "timestamp": "01:37:35"
+      },
+      {
+        "quote": "học cũng mọi cái của tôi cũng không phải là thông minh giỏi giang các thứ gì mà chỉ nhờ vào cái sự cần cù chịu khó, cái sự quyết tâm trong những năm tháng của tuổi ấu thơ với cái điều kiện thiếu ăn",
+        "timestamp": "01:37:39"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Khái quát hóa lời tự thuật: bác sĩ nói không phải mọi người được trời cho trí tuệ tốt, còn sự cần cù/quyết tâm là chuyện bản thân; không phủ nhận phổ quát trí tuệ do trời cho."
+  },
+  {
+    "id": "c209",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "trường đại học, ngay ngoài cổng trường rất nhiều những các cái đồ thịt cá chiên dán động đến chỗ nào cũng thấy đường, động đến chỗ nào cũng thấy nướng. Thế",
+        "timestamp": "01:39:54"
+      },
+      {
+        "quote": "rồi các bạn ăn những cái món thức ăn nhanh, các bạn uống rất nhiều đường, các bạn uống đủ các cái loại trà có đường, uống đủ các cái loại nước đóng chai, những các cái nước ga. Thế rồi những các",
+        "timestamp": "01:40:03"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Có đồ chiên dán/nướng, thức ăn nhanh và các đồ uống đã liệt kê."
+  },
+  {
+    "id": "c210",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "cái calor rỗng các bạn đang rơi vào cái tình trạng đấy rất nhiều. Thế và các bạn ăn những các cái đồ ăn của thức ăn nhanh. Đến nỗi mà tôi có chị bạn có hai",
+        "timestamp": "01:40:14"
+      },
+      {
+        "quote": "thịt cũng thế phải say nó ra để đỡ khỏi nhai. Các bạn ấy lười nhai, các bạn ấy lười tất cả mọi thứ và chỉ muốn rằng ăn sẵn ăn nhanh.",
+        "timestamp": "01:40:34"
+      },
+      {
+        "quote": "Vậy khi chúng ta duy trì một cái lối sống mà nhanh gấp gáp, chỉ muốn rằng là tiếp thu những cái gì mà nó nhanh chóng tạo ra năng lượng thì chúng ta sẽ thất",
+        "timestamp": "01:40:42"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Thêm quan hệ nhân quả “lười nhai…dẫn đến calo rỗng”; bản ghi nói calo rỗng trước, rồi kể hai con của người bạn lười nhai và nhận xét lối sống nhanh."
+  },
+  {
+    "id": "c211",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Vậy khi chúng ta duy trì một cái lối sống mà nhanh gấp gáp, chỉ muốn rằng là tiếp thu những cái gì mà nó nhanh chóng tạo ra năng lượng thì chúng ta sẽ thất bại. Vậy đầu tiên là ta phải thay đổi ngay từ cái thói quen ăn uống hàng ngày.",
+        "timestamp": "01:40:42"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Thêm hedge “có thể”: bác sĩ nói “chúng ta sẽ thất bại”, rồi yêu cầu thay đổi thói quen ăn uống hằng ngày."
+  },
+  {
+    "id": "c212",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tôi đã xây dựng đầu tiên là tôi dùng nắm đấm xong tiếp theo nữa là các cái tỉ lệ và sau đấy dần dần bắt đầu tôi xây dựng từng khối vi chất và đi sâu hơn tính từng gam từng lạng các thứ ra một chúng",
+        "timestamp": "01:41:03"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Đúng trình tự nắm đấm, tỉ lệ, từng khối vi chất rồi tính gam/lạng."
+  },
+  {
+    "id": "c213",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "ta phải như thế và chúng ta bổ sung vi chất nó đầy đủ thế thì đã đang ở cái lứa tuổi của các bạn học sinh là các bạn sẽ hấp thu các cái chất rất tốt nếu chúng",
+        "timestamp": "01:41:13"
+      },
+      {
+        "quote": "ta thực hiện chế độ ăn uống khoa học ngay từ bé ăn uống khoa học ngay từ khi nằm trong bụng mẹ mà mẹ bổ sung vi chất",
+        "timestamp": "01:41:22"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Nói bổ sung đầy đủ và chế độ ăn khoa học từ bé giúp học sinh hấp thu tốt."
+  },
+  {
+    "id": "c214",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "chơi. Một ngày tối thiểu phải có hơn hai tiếng đồng hồ hoạt động ngoài trời.",
+        "timestamp": "01:42:12"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Khớp mức tối thiểu hơn hai tiếng hoạt động ngoài trời mỗi ngày."
+  },
+  {
+    "id": "c215",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Chúng ta thay vì hơi một chút cái là bố mẹ đưa đến trường đến lớp thì chúng ta hãy đi bộ, chúng ta hãy lên những xe buýt, chúng ta hãy đi xe đạp, chúng ta",
+        "timestamp": "01:42:16"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Khớp đi bộ, xe buýt, xe đạp thay vì bố mẹ đưa đến trường."
+  },
+  {
+    "id": "c216",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "như thế nào. Các bạn hoàn toàn là học sinh các bạn sẽ tính toán được một ngày cần bao nhiêu canxi với chế độ ăn uống như vậy. Từng này thịt, từng này cá, từng này cơm, rau, củ quả, chúng ta đang",
+        "timestamp": "01:42:37"
+      },
+      {
+        "quote": "có bao nhiêu canxi rồi, cần bổ sung thêm bao nhiêu nữa. Các bạn tính toán được",
+        "timestamp": "01:42:48"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Học sinh có thể tính nhu cầu và lượng canxi sẵn trong khẩu phần."
+  },
+  {
+    "id": "c217",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "có bao nhiêu canxi rồi, cần bổ sung thêm bao nhiêu nữa. Các bạn tính toán được những các cái điều đó ra, xây dựng những cái khẩu phăn phần ăn cho mình thì đấy",
+        "timestamp": "01:42:48"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Có tính lượng cần bổ sung thêm và xây dựng khẩu phần riêng."
+  },
+  {
+    "id": "c218",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "chính là y học trong tương lai. Y học trong tương lai lấy ăn là đầu tiên, lấy ăn để phòng bệnh và lấy ăn để chữa bệnh.",
+        "timestamp": "01:42:56"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Khớp lấy ăn làm đầu để phòng và chữa bệnh."
+  },
+  {
+    "id": "c219",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "theo nữa, nếu chẳng may bị bệnh, người ta sẽ cá thể hóa viên thuốc đó chỉ dành cho người này mà không dành cho người kia. Và người ta sản xuất thuốc cho từng người một để đi tới cá thể hóa chính xác",
+        "timestamp": "01:43:06"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Nêu thuốc cá thể hóa, sản xuất cho từng người trong tương lai."
+  },
+  {
+    "id": "c220",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tài liệu. Đến tuổi này của tôi bây giờ tôi vẫn một ngày tôi đọc đến mấy chục nghìn chữ. Trong khi đấy rất nhiều các",
+        "timestamp": "01:43:57"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Bác sĩ tự kể vẫn đọc mấy chục nghìn chữ mỗi ngày."
+  },
+  {
+    "id": "c221",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "bây giờ tôi rèn luyện những kỹ năng đọc là tôi đọc theo đường chéo hình bình hành để tôi thấy cái tài liệu này có quan trọng hay không, kiến thức có tốt hay không. Sau khi mà cái đường chéo",
+        "timestamp": "01:44:08"
+      },
+      {
+        "quote": "hình bình hành rồi, tôi già soát lại những cái chỗ mà nó quan trọng, nó hay tôi sẽ viết nó ra giấy. Kê khi mà ta",
+        "timestamp": "01:44:17"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Có đọc đường chéo hình bình hành để đánh giá rồi rà lại và viết phần quan trọng ra giấy."
+  },
+  {
+    "id": "c222",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "viết, ta rèn luyện bằng tay, rèn luyện bằng trí não, rèn luyện bằng tất cả cái giác quan của mình thì kiến thức của mình nó sẽ sâu và nó quan trọng. Thế thì",
+        "timestamp": "01:44:23"
+      },
+      {
+        "quote": "sẽ viết bằng tay của mình ra. đấy chính là rèn luyện bàn tay của mình và từ bàn tay nó sẽ đưa những cái tín hiệu lên trên não thì chúng ta sẽ nhớ được lâu.",
+        "timestamp": "01:46:18"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Có luyện tay, trí não, giác quan và viết tay giúp nhớ lâu."
+  },
+  {
+    "id": "c223",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "trong cái dạy và học này chúng ta sẽ có ba cái kỹ năng. Nếu tiếng Việt là ba chữ T còn tiếng Anh là ba cái chữ H giống hệt nhau cũng tương đương với nhau thôi.",
+        "timestamp": "01:44:57"
+      },
+      {
+        "quote": "là tay cái T thứ nhất đó là tay, T thứ hai là tâm và T thứ ba đó là gì ạ? Đó là trí. Thế thì tương ứng với lại ba cái",
+        "timestamp": "01:45:08"
+      },
+      {
+        "quote": "không ạ? Thế thì ở đây chúng ta phải rèn luyện cả ba cái kỹ năng này. Kỹ năng như là tôi hướng dẫn tất cả các bạn từ học sinh lớp 1 cho đến sau này đến đại học, kể cả mẫu giáo. Bởi vì tôi đi dạy hướng",
+        "timestamp": "01:45:20"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Có ba kỹ năng tay/tâm/trí, rèn cả ba từ mẫu giáo đến đại học."
+  },
+  {
+    "id": "c224",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tiêu tay là sau khi học bài này ta sẽ làm được cái gì, làm được đến đâu, đến mức độ nào. Mục tiêu tâm là sau khi học",
+        "timestamp": "01:45:44"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Khớp mục tiêu tay: làm được gì và đến mức nào sau bài học."
+  },
+  {
+    "id": "c225",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "mức độ nào. Mục tiêu tâm là sau khi học bài này, chúng ta chia sẻ được cái điều này với lại xã hội, với lại tất cả những các cái vấn đề đạo đức con người đến đâu. Mục tiêu chí tức là sau khi học bài",
+        "timestamp": "01:45:48"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; bản tóm tắt cũng quy cho bác sĩ.",
+    "note": "Khớp mục tiêu tâm: chia sẻ với xã hội và các vấn đề đạo đức con người đến đâu."
+  }
+]

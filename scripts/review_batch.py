@@ -33,7 +33,7 @@ from summarize import (  # noqa: E402
 )
 
 CALL_TIMEOUT_SECONDS = 1800
-USAGE_LIMIT = re.compile(r"usage limit|hit your limit|limit reached|out of (extra )?usage", re.I)
+USAGE_LIMIT = re.compile(r"usage limit|session limit|hit your limit|limit reached|out of (extra )?usage", re.I)
 SHORT_429 = re.compile(r"\b429\b|rate.?limit|overloaded|too many requests", re.I)
 RESET_HINT = re.compile(r"(resets?[^\n.]*)", re.I)
 
@@ -71,7 +71,7 @@ def classify_failure(returncode, stdout, stderr):
     blob = f"{text}\n{stderr}"
     reset = RESET_HINT.search(blob)
     if USAGE_LIMIT.search(blob):
-        raise UsageLimitReached(reset.group(1).strip() if reset else blob.strip()[:200])
+        raise UsageLimitReached(reset.group(1).strip() if reset else "not provided by Claude")
     if SHORT_429.search(blob):
         raise RateLimitError(None)
     raise SummarizeError(f"claude failed (exit {returncode}): {blob.strip()[:300]}")

@@ -1,0 +1,24 @@
+p2_01 blind pass-2 notes (V-Qfwjo28Zg). I read the transcript in order from line 1 to EOF (8,159 lines).
+
+Major concerns:
+- c127: iron salt wrong. Transcript says "sắt hai xun phát khô" (sulfate); the summary says "sắt II fumarat".
+- c201: the transcript says most people need "trên dưới 2000 UI" (around 2000). The summary says "dưới 2.000 UI".
+- c176: the summary adds a causal link that is not in the transcript (zinc matters "vì selen là enzyme"). The transcript lists kẽm and selen as separate cofactors.
+- c156: in the falling-asleep scenario the paralysis "brake" fails to engage in time. The summary says it fails to release ("không được kịp nhả").
+- c108: the head of department spoke about "ma dê" (magnesium). The summary broadens this to "vi chất".
+- c070: "giống hệt protein bị hỏng" is not in the transcript. The "giống hệt" comparison is to the lipid pathway.
+- c161: the doctor reports the breathing advice as what the literature says and then criticizes it. The summary presents it as plain advice.
+
+Borderline calls:
+- Softened hedges ("sẽ" became "có thể"): c068, c079, c105. Classed attribution_qualification. Another reviewer could reasonably call these supported.
+- c084 (softened "chắc chắn ... không thể hiểu được" to "khó hiểu"), c144 (dropped "đôi lúc"), c162 (hardened "không hẳn"), c140 ("sau 3 tháng" became "lâu dài"): all classed attribution_qualification.
+- c066: the doctor attributes the gasoline analogy to "người ta"; the summary says "Bác sĩ ví".
+- c111: unresolved. "xương cổ đùi" has no punctuation and could mean femoral neck or neck plus femur.
+- Classed supported but borderline:
+  - c034: "đốt cháy là dở dở đi" is garbled and rendered as "quá mức".
+  - c054: ozone and the "love triangle" ordering is compressed.
+  - c103: the antioxidant wording is the MC's answer, which the doctor affirms.
+  - c121: nausea ending is implied, not stated.
+  - c125: the "chưa rõ" wording.
+  - c135: "Bác sĩ" means the viewer's hospital doctors, not Dr. Phúc.
+  - c166: the doctor's personal practice is turned into general advice.

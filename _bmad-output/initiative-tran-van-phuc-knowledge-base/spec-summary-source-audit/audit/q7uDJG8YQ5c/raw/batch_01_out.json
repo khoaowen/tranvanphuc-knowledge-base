@@ -1,0 +1,592 @@
+[
+ {
+  "id": "c001",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người.",
+    "timestamp": "00:01:13",
+    "timestamp_recomputed": "00:01:13",
+    "occurrences": 1
+   },
+   {
+    "quote": "Đó là làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút.",
+    "timestamp": "00:14:04",
+    "timestamp_recomputed": "00:14:04",
+    "occurrences": 1
+   },
+   {
+    "quote": "nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân",
+    "timestamp": "00:14:14",
+    "timestamp_recomputed": "00:14:14",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Host Khánh Lành relays Dr. Phúc's view that 15-second/short videos serve pure entertainment; the 10–15/20-minute clips come from Dr. Phúc's later account of the host/team's initial media plan. The summary states it without attribution.",
+  "note": "Two contexts are merged. The entertainment/filling-idle-time claim is about 15-second/short videos. The 10–15 (max 20) minute clips were the team's initial plan, which Dr. Phúc criticized as giving shallow knowledge, not as entertainment. Folding them in as 'short videos for entertainment' adds a qualification."
+ },
+ {
+  "id": "c002",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tuy nhiên thì để có kiến thức rộng và sâu thì video ngắn hoàn toàn không thể đáp ứng được.",
+    "timestamp": "00:02:14",
+    "timestamp_recomputed": "00:02:14",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng mà nó sẽ không có được cái tầm chiều cao và không có được cái chiều sâu.",
+    "timestamp": "00:09:29",
+    "timestamp_recomputed": "00:09:29",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Host states it, echoed by Dr. Phúc. Summary gives no speaker (channel view).",
+  "note": "Matches."
+ },
+ {
+  "id": "c003",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng tôi sẽ dùng những video dài để có thể truyền đạt những kiến thức sức khỏe cả về chiều rộng lẫn chiều sâu",
+    "timestamp": "00:02:26",
+    "timestamp_recomputed": "00:02:26",
+    "occurrences": 1
+   },
+   {
+    "quote": "những số phát sóng đầu tiên là tôi với Khánh Lành thực hiện chỉ trong vòng cỡ độ 3 40 phút.",
+    "timestamp": "00:14:42",
+    "timestamp_recomputed": "00:14:42",
+    "occurrences": 1
+   },
+   {
+    "quote": "dài nhất như ban đầu tôi mới Khánh lành nói đó là lên tới hơn 4 tiếng rưỡi đồng hồ",
+    "timestamp": "00:17:33",
+    "timestamp_recomputed": "00:17:33",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Host (channel/ekip decision) and Dr. Phúc (record length). Summary gives the channel decision.",
+  "note": "Long-video decision, the 30–40-minute start and the >4.5-hour record are all present."
+ },
+ {
+  "id": "c004",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mới tốt nghiệp trường đạo y Hà Nội ra trường. Lúc đấy tôi trở thành bác sĩ ngoài khoa. Thời kỳ đầu tôi có đi phụ cho các thầy",
+    "timestamp": "00:09:40",
+    "timestamp_recomputed": "00:09:40",
+    "occurrences": 1
+   },
+   {
+    "quote": "Tôi nhớ mãi những ca phẫu thuật mà cắt dạ dày, ung thư dạ dày phải nạo vét hết 13 nhóm ảnh thì các thầy đã phẫu thuật đến 13 14 tiếng đồng hồ, thậm chí có ca đến 15 tiếng đồng hồ.",
+    "timestamp": "00:10:00",
+    "timestamp_recomputed": "00:10:00",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc, first person. Summary matches.",
+  "note": "'13 nhóm ảnh' is the caption's rendering of 13 lymph-node groups; durations of 13–15 hours match."
+ },
+ {
+  "id": "c005",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "bệnh nhân khi mà nôn ộc ra cả một chậu máu khi bệnh nhân bị sơ gan tăng áp lực tĩnh mạch cửa.",
+    "timestamp": "00:10:46",
+    "timestamp_recomputed": "00:10:46",
+    "occurrences": 1
+   },
+   {
+    "quote": "Một trong những biến chứng đó chính là nôn ra máu sét đánh, tức là hàng chậu máu",
+    "timestamp": "00:11:07",
+    "timestamp_recomputed": "00:11:07",
+    "occurrences": 1
+   },
+   {
+    "quote": "đi vào trên tĩnh mạch à cảnh ở trên cổ này. Sau đó đi qua tim từ tim đi xuống dưới gan, sau đó bắc cái cầu nối từ tĩnh mạch gan đi vào trong tĩnh mạch cửa",
+    "timestamp": "00:11:49",
+    "timestamp_recomputed": "00:11:49",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc (interventional radiology case). Summary matches.",
+  "note": "Jugular access, hepatic-to-portal vein bridge with stent ('đặt cái stand') and cirrhosis/portal hypertension with massive hematemesis all present."
+ },
+ {
+  "id": "c006",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "thì gan bệnh nhân đang sơ giống như là cái quả bóng cao su. Cho nên để cái kim đó mà xuyên được qua cái nhuogan đấy là cả một cái quá trình rất khó.",
+    "timestamp": "00:12:11",
+    "timestamp_recomputed": "00:12:11",
+    "occurrences": 1
+   },
+   {
+    "quote": "Thế thì tổng thời gian, tất cả thời gian chúng tôi làm lên tới 13 tiếng đồng hồ.",
+    "timestamp": "00:12:37",
+    "timestamp_recomputed": "00:12:37",
+    "occurrences": 1
+   },
+   {
+    "quote": "chúng tôi đã làm được một cái kỹ thuật đó là đặt được cái cầu nối và giải phóng cho bệnh nhân cái tình trạng nôn ra máu, sét đánh.",
+    "timestamp": "00:13:24",
+    "timestamp_recomputed": "00:13:24",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Fibrotic liver ('like a rubber ball'), 13 hours in total and a successful outcome are present. The transcript also says finding the vessel was very hard and that two doctors led the case."
+ },
+ {
+  "id": "c007",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nếu nói rằng có bao nhiêu số nguyên tố thì chúng ta trả lời rằng có vô hạn số nguyên tố.",
+    "timestamp": "00:23:41",
+    "timestamp_recomputed": "00:23:41",
+    "occurrences": 1
+   },
+   {
+    "quote": "Thứ hai là tổng số điểm trong bất kỳ một bề mặt nào hay bất kỳ một đường thẳng nào cũng đều vô hạn",
+    "timestamp": "00:26:16",
+    "timestamp_recomputed": "00:26:16",
+    "occurrences": 1
+   },
+   {
+    "quote": "Khái niệm thứ ba trong toán học dạy chúng ta đó là số lượng các đường cong.",
+    "timestamp": "00:25:44",
+    "timestamp_recomputed": "00:25:44",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. The prime-number definition ('chia hết cho một và chính nó') is first given by host Khánh Lành and repeated by Dr. Phúc.",
+  "note": "All three infinity examples match, including points on any line and on the surface of 3D objects."
+ },
+ {
+  "id": "c008",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Định lý bất toàn là của nhà toán học người Đức Golden. Hôm trước tôi mới Khánh Lành có nói đấy. Phát biểu năm 1931.",
+    "timestamp": "00:28:36",
+    "timestamp_recomputed": "00:28:36",
+    "occurrences": 1
+   },
+   {
+    "quote": "Thế thì cái định lý bất toàn đó nó thể hiện rằng thế giới tự nhiên của chúng ta có rất nhiều cái vô hạn.",
+    "timestamp": "00:31:23",
+    "timestamp_recomputed": "00:31:23",
+    "occurrences": 1
+   },
+   {
+    "quote": "thấy rằng thế giới tự nhiên là vô hạn, khả năng con người cũng là vô hạn.",
+    "timestamp": "00:30:59",
+    "timestamp_recomputed": "00:30:59",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The transcript name is 'Golden' (caption); the summary normalizes it to Kurt Gödel. German nationality and the year 1931 match as spoken."
+ },
+ {
+  "id": "c009",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cái khả năng để mà chúng ta hồi phục trong cơ thể của chúng ta cũng là vô hạn. Chẳng qua hữu hạn là chúng ta giới hạn nó thôi.",
+    "timestamp": "00:27:11",
+    "timestamp_recomputed": "00:27:11",
+    "occurrences": 1
+   },
+   {
+    "quote": "Điều đấy chứng tỏ rằng là cái khả năng hồi phục ngay chính trong cơ thể của chúng ta cũng là vô hạn.",
+    "timestamp": "00:28:02",
+    "timestamp_recomputed": "00:28:02",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches."
+ },
+ {
+  "id": "c010",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Một người một bệnh nhân có thể là mắc căn bệnh ung thư tưởng là chúng ta đi tới cửa tử tức là đi đến cuối đoạn đầu đài",
+    "timestamp": "00:27:23",
+    "timestamp_recomputed": "00:27:23",
+    "occurrences": 1
+   },
+   {
+    "quote": "biết bình chỉnh lại cái lối sống của mình, biết buông bỏ, biết bổ sung đủ vi chất, biết sống một cuộc sống khoa học và lạc quan.",
+    "timestamp": "00:27:36",
+    "timestamp_recomputed": "00:27:36",
+    "occurrences": 1
+   },
+   {
+    "quote": "Bổ sung ít nhất bảy vi chất, chúng ta sống tốt, thực hành mọi lối sống tích cực và khoa học thì người đó hoàn toàn có thể thoát khỏi căn bệnh ung thư.",
+    "timestamp": "00:27:44",
+    "timestamp_recomputed": "00:27:44",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The 'hoàn toàn có thể' hedge is kept. The transcript says 'thoát khỏi căn bệnh ung thư' and the summary says 'thoát khỏi bệnh tật'; the meaning is the same."
+ },
+ {
+  "id": "c011",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "đàn piano là chúng ta có 88 phím đúng không ạ? Trong đó có 52 phím trắng và 36 phím đen.",
+    "timestamp": "00:31:39",
+    "timestamp_recomputed": "00:31:39",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches."
+ },
+ {
+  "id": "c012",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta viết một bản nhạc gồm có 50 nốt cho 52 phím trắng của đàn piano.",
+    "timestamp": "00:31:50",
+    "timestamp_recomputed": "00:31:50",
+    "occurrences": 1
+   },
+   {
+    "quote": "50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử.",
+    "timestamp": "00:32:10",
+    "timestamp_recomputed": "00:32:10",
+    "occurrences": 1
+   },
+   {
+    "quote": "chỉ cần 50 nốt thôi là chúng ta đã có gấp 50 lần rồi. Số nguyên tử trong hệ mặt trời của chúng ta đã gấp 50 lần",
+    "timestamp": "00:32:40",
+    "timestamp_recomputed": "00:32:40",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The numbers match as spoken. The speaker uses both 'hệ vũ trụ' and 'hệ mặt trời' for the 50^51 atom count; the summary uses 'hệ mặt trời'. No correction applied."
+ },
+ {
+  "id": "c013",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Thế và như thế này thì tôi có thể lấy một số những cái ví dụ để chúng ta dễ hình dung.",
+    "timestamp": "00:44:30",
+    "timestamp_recomputed": "00:44:30",
+    "occurrences": 1
+   },
+   {
+    "quote": "rõ ràng rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật của hai người của Moza và của Bethoven thì chúng ta thấy trải nghiệm rất rộng",
+    "timestamp": "00:46:24",
+    "timestamp_recomputed": "00:46:24",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. The summary's framing is its own.",
+  "note": "Reframed: Dr. Phúc gives Mozart/Beethoven/Kant as examples of the life-value function (short L, wide experience and high H) at 00:44:34, after the V-function explanation. He does not present them as proof of 'sức sáng tạo khổng lồ từ những giới hạn này' (the piano-key limits)."
+ },
+ {
+  "id": "c014",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu nói về chiều dài về tuổi thọ thì Moa có 35 tuổi thôi. 35 tuổi nhưng mà ông viết được bao nhiêu bản nhạc? Ông viết được 22 vở Ober.",
+    "timestamp": "00:44:42",
+    "timestamp_recomputed": "00:44:42",
+    "occurrences": 1
+   },
+   {
+    "quote": "ví dụ cây sáo thần của Moza thì quá hay.",
+    "timestamp": "00:45:02",
+    "timestamp_recomputed": "00:45:02",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng có 41 bản giao hưởng và đặc biệt công secto của ông ấy 42 bản công sexo.",
+    "timestamp": "00:45:34",
+    "timestamp_recomputed": "00:45:34",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Numbers match as spoken. The summary leaves out Dr. Phúc's aside that Mozart did not focus mainly on symphonies."
+ },
+ {
+  "id": "c015",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Hôm trước tôi nói Behoven thì sống bao nhiêu tuổi ạ? 56 tuổi",
+    "timestamp": "00:45:52",
+    "timestamp_recomputed": "00:45:52",
+    "occurrences": 1
+   },
+   {
+    "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9 mà nhân loại sẽ không bao giờ vượt qua được",
+    "timestamp": "00:46:05",
+    "timestamp_recomputed": "00:46:05",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Host Khánh Lành answers 'chín bản' and Dr. Phúc confirms it.",
+  "note": "Hardened: the transcript calls only Symphony No. 9 the peak ('đỉnh cao nhất'). The summary's '9 bản giao hưởng đỉnh cao' extends 'peak' to all nine. 56 years and 9 symphonies match."
+ },
+ {
+  "id": "c016",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ông có tuổi thọ tương đối khá, tức là lên tới 80.",
+    "timestamp": "00:47:27",
+    "timestamp_recomputed": "00:47:27",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng mà Can là một nhà triết học cổ điển Đức",
+    "timestamp": "00:48:04",
+    "timestamp_recomputed": "00:48:04",
+    "occurrences": 1
+   },
+   {
+    "quote": "ông cũng là một cái người sáng lập ra cái trường phái Mỹ học của Đức, cổ điển của Đức cũng ông cũng là một nhà triết học cuối cùng của cái chủ nghĩa khai sáng",
+    "timestamp": "00:48:19",
+    "timestamp_recomputed": "00:48:19",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The transcript name is 'Can' (caption); the summary normalizes it to Immanuel Kant. 'Sáng lập' is paraphrased as 'đặt nền tảng'."
+ },
+ {
+  "id": "c017",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nếu chúng ta xây dựng một cái bài toán về giá trị cuộc sống, giá trị cuộc sống của tôi hay của Khánh lành hay của bất kỳ quý vị khán giả nào thì tôi gọi nó là một cái hàm V chẳng hạn.",
+    "timestamp": "00:34:05",
+    "timestamp_recomputed": "00:34:05",
+    "occurrences": 1
+   },
+   {
+    "quote": "Giả sử ta hoàn toàn có thể lập ra được một cái hàm về giá trị cuộc sống bao gồm có ba cái này. Một là chiều dài, hai là chiều rộng, ba là chiều cao.",
+    "timestamp": "00:34:48",
+    "timestamp_recomputed": "00:34:48",
+    "occurrences": 1
+   },
+   {
+    "quote": "Đây là hàm đa biến mà chúng ta lập được.",
+    "timestamp": "00:35:25",
+    "timestamp_recomputed": "00:35:25",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "V is the sum of the length (L), width ('VDUP' in the caption, i.e. W) and height (H) functions, each multivariable. Presented hypothetically ('Giả sử')."
+ },
+ {
+  "id": "c018",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế chiều dài tôi tượng trưng cho chẳng hạn như về mặt tuổi tác chẳng hạn.",
+    "timestamp": "00:34:56",
+    "timestamp_recomputed": "00:34:56",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches."
+ },
+ {
+  "id": "c019",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi.",
+    "timestamp": "00:36:28",
+    "timestamp_recomputed": "00:36:28",
+    "occurrences": 1
+   },
+   {
+    "quote": "tôi tin rằng là trong một cái tương lai của thế kỷ 21 này là chúng ta hoàn toàn làm được, sẽ giúp được cho con người sống đến 150 tuổi",
+    "timestamp": "00:36:58",
+    "timestamp_recomputed": "00:36:58",
+    "occurrences": 1
+   },
+   {
+    "quote": "Mục tiêu tôi với Khánh Lành với toàn bộ ekip làm ở đây muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi.",
+    "timestamp": "00:47:48",
+    "timestamp_recomputed": "00:47:48",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "The 130–175 figures are Dr. Phúc's personal hope ('tôi vẫn hy vọng'). Science is only said to trend toward passing 100 ('một số những nhà khoa học, một số những quốc gia'). The 70–80 view is the goal of Dr. Phúc, the host and the team. The summary attributes all of it to 'khoa học thế kỷ 21'.",
+  "note": "Misattributed: personal hope and channel goal are credited to 21st-century science. Hedges dropped: 'tôi vẫn hy vọng', 'tôi tin rằng'. The 60/70/100-year traditional views (host's answer and the doctor's 100-year limit) are present."
+ },
+ {
+  "id": "c020",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "có một người họ hàng của tôi đấy là một người anh trong họ khi thời điểm đó gọi là anh như anh cũng là hơn 70 tuổi thì lúc ấy hơn 70 tuổi thì anh bị phát hiện ra ung thư dạ dày.",
+    "timestamp": "00:38:14",
+    "timestamp_recomputed": "00:38:14",
+    "occurrences": 1
+   },
+   {
+    "quote": "nhưng mà anh ấy lại bị ung thư vào cái giai đoạn cuối.",
+    "timestamp": "00:38:43",
+    "timestamp_recomputed": "00:38:43",
+    "occurrences": 1
+   },
+   {
+    "quote": "rằng hơn một năm trời đó nó kéo dài, nó dài nó có ý nghĩa hơn rất rất nhiều những cái năm về trước.",
+    "timestamp": "00:41:08",
+    "timestamp_recomputed": "00:41:08",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc, about his relative. Summary matches.",
+  "note": "Story details match. In the transcript it illustrates chiều rộng (W: 'chiều dài cuộc sống không quan trọng bằng chiều rộng cuộc sống'), not L. 'Vô cùng dài' slightly amplifies 'nó dài nó có ý nghĩa hơn rất rất nhiều'."
+ },
+ {
+  "id": "c021",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn chiều rộng đó chính là tôi tượng trưng cho cái sự trải nghiệm về cuộc sống.",
+    "timestamp": "00:35:01",
+    "timestamp_recomputed": "00:35:01",
+    "occurrences": 1
+   },
+   {
+    "quote": "không muốn vượt qua khó khăn, không muốn tìm hiểu, không muốn thử thách gì hết thì người ta chỉ muốn ăn sẵn.",
+    "timestamp": "00:37:38",
+    "timestamp_recomputed": "00:37:38",
+    "occurrences": 1
+   },
+   {
+    "quote": "mà tôi cần một cái cuộc sống trải nghiệm, một cái cuộc sống mà chính tôi dấn thân vào đó tạo nên được những cái giá trị gì trong cuộc sống.",
+    "timestamp": "00:41:44",
+    "timestamp_recomputed": "00:41:44",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Experience, commitment ('dấn thân') and challenge are present."
+ },
+ {
+  "id": "c022",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn chiều cao đó chính là tượng trưng cho cái sự hiểu biết và cống hiến.",
+    "timestamp": "00:35:10",
+    "timestamp_recomputed": "00:35:10",
+    "occurrences": 1
+   },
+   {
+    "quote": "đấy chính là cái trình độ, cái tư chất, cái kiến thức của chúng ta đến đâu.",
+    "timestamp": "00:43:21",
+    "timestamp_recomputed": "00:43:21",
+    "occurrences": 1
+   },
+   {
+    "quote": "hiểu biết của cuộc sống để phục vụ nhân loại, phục vụ xã hội",
+    "timestamp": "00:43:38",
+    "timestamp_recomputed": "00:43:38",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "The transcript calls H 'chiều cao, chiều sâu'."
+ },
+ {
+  "id": "c023",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ta có thể coi đó chính là A cộng với lại BY. a + by. Trong đó chúng ta lấy giá trị đây là a và b là hai giá trị lớn hơn 0 đi.",
+    "timestamp": "00:50:06",
+    "timestamp_recomputed": "00:50:06",
+    "occurrences": 1
+   },
+   {
+    "quote": "Đây là hàm mà định vị cuộc sống.",
+    "timestamp": "00:50:27",
+    "timestamp_recomputed": "00:50:27",
+    "occurrences": 1
+   },
+   {
+    "quote": "Hàm định vị cuộc sống ở đây nó có cái số y tức là số ảo, số ảo, số phức.",
+    "timestamp": "00:50:49",
+    "timestamp_recomputed": "00:50:49",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches the caption's 'y' as the imaginary unit. No correction applied."
+ },
+ {
+  "id": "c024",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ra trường làm ở cơ quan nào, lương bao nhiêu, thế rồi thì tiền thưởng áng chừng bao nhiêu, bao nhiêu năm xây được nhà, bao nhiêu năm mua được nhà cửa.",
+    "timestamp": "00:51:48",
+    "timestamp_recomputed": "00:51:48",
+    "occurrences": 1
+   },
+   {
+    "quote": "Phần A là những cái mà chúng ta tính toán, chúng ta định lượng, chúng ta cái phần này là rất là khách quan.",
+    "timestamp": "00:52:05",
+    "timestamp_recomputed": "00:52:05",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Choice of major/school, workplace, salary, bonus and house are all present."
+ },
+ {
+  "id": "c025",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế còn phần ảo cái phần số ảo này thì đấy là những cái mà chúng ta mơ ước, đấy là những cái chúng ta kỳ vọng.",
+    "timestamp": "00:52:22",
+    "timestamp_recomputed": "00:52:22",
+    "occurrences": 1
+   },
+   {
+    "quote": "sau này chúng ta phát triển lên làm lãnh đạo, làm giám đốc, làm vân vân",
+    "timestamp": "00:52:36",
+    "timestamp_recomputed": "00:52:36",
+    "occurrences": 1
+   },
+   {
+    "quote": "chúng ta xây dựng được cái hình tượng, hình ảnh của mình vân vân. Thì đấy chính là cái phần ảo.",
+    "timestamp": "00:52:46",
+    "timestamp_recomputed": "00:52:46",
+    "occurrences": 1
+   }
+  ],
+  "speaker": "Dr. Phúc. Summary matches.",
+  "note": "Matches. The transcript adds that the imaginary part is uncertain ('Nhưng phần ảo thì chúng ta chưa chắc')."
+ }
+]

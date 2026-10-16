@@ -1,0 +1,385 @@
+[
+  {
+    "id": "c526",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Còn một con đường thứ ba đó chính là ngậm dưới lưỡi.",
+        "timestamp": "05:11:52"
+      },
+      {
+        "quote": "lưỡi này thì nó không đi qua dạ dày, không đi qua ruột mà nó có các cái mạch máu.",
+        "timestamp": "05:12:01"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Đường thứ ba, không qua dạ dày/ruột, có mạch máu; 'niêm mạc' là diễn đạt của tóm tắt."
+  },
+  {
+    "id": "c527",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Chúng ta vẫn thấy trẻ em mà bị sốt, bị các thứ ấy hoặc một số thuốc tôi vẫn ngậm dưới lưỡi ấy.",
+        "timestamp": "05:12:05"
+      },
+      {
+        "quote": "có những sản phẩm ngậm giấy lưỡi nhưng sự thực là ngấm nó cũng không phải là được nhiều.",
+        "timestamp": "05:12:13"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp ý; 'thuốc hạ sốt' là diễn giải nhẹ từ 'trẻ em mà bị sốt ... hoặc một số thuốc'."
+  },
+  {
+    "id": "c528",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Tất nhiên là ngậm dưới lưỡi cũng là một giải pháp nhưng cũng không nhiều.",
+        "timestamp": "05:12:18"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp nguyên văn."
+  },
+  {
+    "id": "c529",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "Thì con đường này quá nguy hiểm.",
+        "timestamp": "05:12:35"
+      },
+      {
+        "quote": "Con đường tiêm này thì sẽ một là sốc và hai là ngộ độc.",
+        "timestamp": "05:12:39"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Hedge added: bác sĩ nói khẳng định 'sẽ ... sốc ... ngộ độc'; tóm tắt làm mềm thành 'có thể gây'."
+  },
+  {
+    "id": "c530",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "FDA của Mỹ là không đồng ý với con đường này, khuyến cáo rằng không dùng vì nó quá nguy hiểm, rơi vào tình trạng sốc và ngộ độc.",
+        "timestamp": "05:12:48"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nêu (dẫn FDA); tóm tắt quy cho bác sĩ nêu",
+    "note": "Khớp; là lời bác sĩ dẫn FDA."
+  },
+  {
+    "id": "c531",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "cẩn thận quý vị đừng dại dột mà đi sử dụng con đường tiêm",
+        "timestamp": "05:13:00"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c532",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Con đường khôn ngoan nhất là cơ thể tự bổ sung, tự tổng hợp lấy",
+        "timestamp": "05:13:21"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c533",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "glutath nó có hai anh thợ, hai anh thợ cực kỳ cần mẫn.",
+        "timestamp": "05:13:40"
+      },
+      {
+        "quote": "người thợ thứ nhất là GC CL, người thợ thứ hai là GS gì. Đây là hai enzym.",
+        "timestamp": "05:13:45"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Hai enzyme ví như hai anh thợ; phiên âm 'GC CL'/'GCL' và 'GS'/'JS'."
+  },
+  {
+    "id": "c534",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Công đoạn thứ nhất đó là công đoạn mà tạo thành cái liên kết cacbon gamma này.",
+        "timestamp": "05:14:01"
+      },
+      {
+        "quote": "liên kết giữa gì ạ? Glutamat. Glutamat và gì ạ? Sittin",
+        "timestamp": "05:14:11"
+      },
+      {
+        "quote": "do anh thợ cả GCL phụ trách. Và lúc nãy tôi có nói rằng là đây là cái công đoạn khó khăn nhất có đúng không ạ? Công đoạn này đòi hỏi khó khăn nhất cần phải năng lượng ATP.",
+        "timestamp": "05:14:25"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp: GCL, liên kết gamma glutamat–cystein, khó nhất, cần ATP."
+  },
+  {
+    "id": "c535",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Tạo liên kết giữa sistin với lại sistin với lại gì ạ? Glycin",
+        "timestamp": "05:14:56"
+      },
+      {
+        "quote": "anh Enzyme JS phụ trách về cái công đoạn này. Công đoạn này thì nó dễ dàng hơn một chút.",
+        "timestamp": "05:15:10"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp; phiên âm ghi 'JS' cho GS."
+  },
+  {
+    "id": "c536",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "cơ thể nó lại có xu hướng là hai cái enzyme này có tác dụng điều hòa để giảm sản xuất thừa.",
+        "timestamp": "05:16:58"
+      },
+      {
+        "quote": "chúng ta không sợ thiếu glutathion khi nào? Khi chúng ta ăn uống cân bằng.",
+        "timestamp": "05:17:07"
+      },
+      {
+        "quote": "Và chúng ta bổ sung đủ vi chất.",
+        "timestamp": "05:17:13"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp cả điều hòa enzyme và điều kiện ăn cân bằng + đủ vi chất."
+  },
+  {
+    "id": "c537",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Nhất là hai anh này rất cần celen.",
+        "timestamp": "05:15:32"
+      },
+      {
+        "quote": "Hai anh này rất cần kẽm. Hai anh này rất cần vitamin C, vitamin E. không có những cái này các anh ấy chẳng làm việc được.",
+        "timestamp": "05:15:35"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp; transcript còn nêu thêm vitamin, ma (magie) ở câu trước nhưng không làm sai claim."
+  },
+  {
+    "id": "c538",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Đặc biệt là cái anh Fittain này này là cái anh mà khá hiếm trong các cái đồ ăn thức uống",
+        "timestamp": "05:15:52"
+      },
+      {
+        "quote": "Có trong một là da cầm tức là thịt gà, thịt ngan, thịt vịt. Thứ hai nữa là trứng.",
+        "timestamp": "05:16:01"
+      },
+      {
+        "quote": "sữa cũng có thế rồi rau cải xanh rau cải xanh thế rồi các cái loại bì các loại da ví dụ da gà da lợn các loại bì thế rồi nước xương hầm",
+        "timestamp": "05:16:12"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Danh sách thực phẩm khớp; 'da cầm' giữ đúng phiên âm."
+  },
+  {
+    "id": "c539",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "ta cần phải ăn đa dạng phong phú thực phẩm",
+        "timestamp": "05:16:26"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c540",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "25 loại một gì ạ một tuần một tuần chứ còn một ngày thì phải là gì 12 loạ",
+        "timestamp": "05:16:33"
+      }
+    ],
+    "speaker": "Con số '25 loạ' có thể do BTV Khánh Lành đáp, bác sĩ xác nhận và nêu 12/ngày; tóm tắt quy cho bác sĩ",
+    "note": "Khớp 25 loại/tuần, 12 loại/ngày theo phiên âm."
+  },
+  {
+    "id": "c541",
+    "class": "unresolved",
+    "evidence": [],
+    "speaker": "Không áp dụng (ghi chú biên tập)",
+    "note": "Ghi chú biên tập về độ tin cậy phiên âm, không phải nội dung phát biểu; con số nguyên văn đã đối chiếu ở c540."
+  },
+  {
+    "id": "c542",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Bổ sung đủ cái này nhưng là ta lại phải bổ sung đủ vi chất nữa thì lúc đấy mới hiệu quả lên.",
+        "timestamp": "05:16:43"
+      },
+      {
+        "quote": "Và cơ thể lúc đấy tổng hợp rất dồi rào.",
+        "timestamp": "05:16:49"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c543",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "điều thứ ba cực kỳ quan trọng là chúng ta phải xảm gốc tự do xuống",
+        "timestamp": "05:17:28"
+      },
+      {
+        "quote": "để không cạn kiệt glutathion.",
+        "timestamp": "05:17:33"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c544",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Khi nào thật sự cần uống thuốc mới uống chứ đừng có uống cả một vốc thuốc một ngày. Ta nhớ rằng tất cả những sản phẩm vi chất này không phải thuốc còn thuốc là thuốc để chữa bệnh.",
+        "timestamp": "05:17:40"
+      },
+      {
+        "quote": "chúng ta giảm rượu chè, chúng ta giảm thuốc lá bỏ đi.",
+        "timestamp": "05:17:52"
+      },
+      {
+        "quote": "Đừng để thuốc trừ sâu, đừng để thuốc bảo vệ thực vật nó xâm nhập vào cơ thể chúng ta nữa. Giữ gìn đừng để chúng ta nhiễm vi khuẩn, virus để dẫn tới là chúng ta tiêu tốn gì ạ? Glutaton.",
+        "timestamp": "05:17:59"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp; transcript nói 'rượu chè' (tóm tắt 'rượu bia') và 'thuốc lá bỏ đi' (bỏ hẳn) — khác biệt nhỏ."
+  },
+  {
+    "id": "c545",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "đừng có mất cân bằng, đừng có ăn đường nhiều quá giống chị Hằng.",
+        "timestamp": "05:18:13"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c546",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Vậy một là chúng ta phải giảm các cái nguồn để tạo gốc tự do. Hai là chế độ ăn uống cân bằng và bổ sung vi chất.",
+        "timestamp": "05:18:25"
+      },
+      {
+        "quote": "Đấy là cách tốt nhất.",
+        "timestamp": "05:18:32"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c547",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Còn tất nhiên quý vị có thể bổ sung theo đường uống thì nó không ngấm được nhiều cũng ngấm được ít.",
+        "timestamp": "05:18:32"
+      },
+      {
+        "quote": "Nhưng mà ít nhất nó cắt ra thành những các cái chất nhỏ nhỏ nhỏ nó ngấm vào trong chúng ta thì cũng ít nhiều có tác dụng, có nguyên liệu",
+        "timestamp": "05:18:42"
+      },
+      {
+        "quote": "nếu quý vị nào có tiền thì chúng ta sẽ mua bổ sung thêm",
+        "timestamp": "05:18:52"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp; 'có điều kiện' tương ứng 'có tiền'."
+  },
+  {
+    "id": "c548",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "yên tâm rằng chế độ ăn uống của chúng ta về cơ bản là sẽ đủ những cái thành phần.",
+        "timestamp": "05:18:48"
+      },
+      {
+        "quote": "Còn nếu không có tiền thì chúng ta vẫn yên tâm bằng cách là chúng ta làm cho cơ thể tăng tổng hợp lên, bổ sung vi chất đầy đủ để nó hiệp đồng với nhau tốt.",
+        "timestamp": "05:18:57"
+      },
+      {
+        "quote": "chúng ta ngăn chặn gốc tự do nữa đi",
+        "timestamp": "05:19:09"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp."
+  },
+  {
+    "id": "c549",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "sản phẩm Glutathion trên thế giới có những sản phẩm bán rất đắt và nó đã trở thành một cái sản phẩm khá hot trên thị trường",
+        "timestamp": "05:19:25"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Qualifier dropped: bác sĩ nói 'có những sản phẩm' bán rất đắt và 'khá hot'; tóm tắt khái quát thành glutathione nói chung bán rất đắt, 'hot'."
+  },
+  {
+    "id": "c550",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "theo quan điểm của cá nhân tôi thì chúng ta hoàn toàn có thể hiểu cái cơ chế như thế này và chúng ta vẫn kích hoạt được cơ thể chúng ta có đủ glutathion",
+        "timestamp": "05:19:35"
+      },
+      {
+        "quote": "mà không cần thiết lắm chúng ta phải dùng những cái bổ sung đi mua với cái số tiền đắt.",
+        "timestamp": "05:19:51"
+      }
+    ],
+    "speaker": "Bác sĩ Trần Văn Phúc nói; tóm tắt quy cho bác sĩ",
+    "note": "Khớp; giữ được 'quan điểm cá nhân' và 'không cần thiết lắm'."
+  }
+]

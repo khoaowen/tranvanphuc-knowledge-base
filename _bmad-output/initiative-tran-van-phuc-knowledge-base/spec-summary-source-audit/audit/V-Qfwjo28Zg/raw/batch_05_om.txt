@@ -1,0 +1,7 @@
+Note: judged against this batch's claims only (other batches may cover these). Viewer-comment reading (01:09:27–01:21:37) excluded per instructions.
+
+1. [01:01:05] Step 1 "lực lượng cảm tử": vitamin C, albumin and uric acid sacrifice electrons/H+ first; uric acid protective when adequate but causes gout in excess (dual role of uric acid is a notable claim). Anchor: "Bước một đó là cái lực lượng cảm"
+2. [01:01:25] Uric acid caveat specifically: excess uric acid causes gout, "vừa đủ" acts as sacrificial antioxidant (qualifier important for not over-generalising). Anchor: "uric. Tất nhiên là axit uric mà quá"
+3. [01:02:46] Step 3 signalling: an "RnF2" (Nrf2) signal goes back to DNA to produce more "đội đặc nhiệm" antioxidants (mechanistic link to later glutathione synthesis). Anchor: "RnF2 là cái tín hiệu đưa về các cái"
+4. [01:04:12] Catalase uses Fe2+ ("thanh kiếm sắt 2+") to blow up free-radical "bombs" (mechanistic detail of catalase). Anchor: "thanh kiếm sắt 2+ để nó phá hủy nó nó"
+5. [01:04:46] Vitamin C donates electrons to vitamin E so E can keep fighting; vitamin E and lycopene listed as special forces (antioxidant synergy that later underpins the 'hiệp đồng' argument). Anchor: "nhiệm vụ là hỗ trợ nhường electron cho E"

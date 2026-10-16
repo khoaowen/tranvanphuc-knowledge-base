@@ -1,0 +1,35 @@
+Omissions relative to batch_03 sections ([01:31:30] to the [02:00:15] chemical-structure section)
+
+1. [01:34:21] Before Lipton, the doctor sets out the conventional view that the nucleus is the cell's brain because it holds the genetic material. The section only gives Lipton's counter-view.
+   Anchor: "các học sinh cho đến giáo viên, cho đến các nhà khoa học đều cho rằng nhân tế bào đây chính là bộ não của tế bào."
+
+2. [01:48:38] The doctor gives a conditional answer to the viewer's question about eating fish: fish makes you smarter only if it is high in DHA. This qualifier is missing; c061 states the benefit without it.
+   Anchor: "thì mắt chúng ta nhìn cũng sẽ sáng lên nhưng với điều kiện là DHA nó phải nhiều. Thế còn nếu DHA ít thì chúng ta cũng khó để mà có cái điều đấy được." (anchor begins on line 01:49:22)
+
+3. [01:51:18] The other fatty acids (ALA, LA, AA, GLA in omega-3/6/9) are also very important for membranes and for muscle and organ cells, and they supply energy. The section only describes DHA and EPA.
+   Anchor: "Tất cả những cái này đều nằm trong omega 3, Omega 6, Omega9 là những thành phần này cực kỳ quan trọng đối với màng tế bào." (anchor begins on line 01:51:34)
+
+4. [01:52:21] The doctor says the purpose of the episode is to use omega-3/6/9 artfully to extend lifespan, reduce disease and improve quality of life.
+   Anchor: "một trong những các cái bí quyết đó chính là chúng ta phải sử dụng Omega thật là tinh tế, thật là tế nhị, thật là hiệu quả." (anchor begins on line 01:52:36)
+
+5. [01:55:02] The quoted article says omega-6 has positive roles in brain function, reproductive health, and hair, skin and bones. c064 keeps only the inflammatory framing.
+   Anchor: "dầu ngô đóng vai trò trong chức năng não, sức khỏe sinh sản, giúp tóc, da và xương khỏe mạnh."
+
+6. [01:56:53] The article gives practical dietary advice: avoid soybean, sunflower and corn oils; olive, palm and coconut oil and avocado contain less omega-6; choose lean meat; prefer butter and meat from grass-fed animals; livestock fed corn and soy store mostly omega-6.
+   Anchor: "Để tối ưu hóa tỉ lệ, chúng ta cần tránh tiêu thụ các loại dầu thực vật và hạt chứa nhiều omega6"
+
+7. [01:58:15] The article's own caveat says no study of adequate quality or scale confirms that omega-6 causes heart disease or chronic disease. This is an important qualifier on c064/c065.
+   Anchor: "Có thể nói đến nay vẫn chưa có nghiên cứu nào với chất lượng và quy mô thật sự để khẳng định Omega6 là nguyên nhân gây nên bệnh tim mạch"
+
+8. [01:58:54] The article says that with daily industrially processed food, the ratio stops mattering and the type of fat matters more than the 6:3 ratio.
+   Anchor: "loại chất béo bạn dùng quan trọng hơn rất nhiều so với tỉ lệ omga 6/ga3." (anchor begins on line 01:59:01)
+
+9. [02:02:04] The doctor says DPA is a not-very-important omega-3 component.
+   Anchor: "Thế còn những cái không quan trọng lắm tôi lấy ví dụ như là DPA chẳng hạn đúng không?" (02:02:04)
+
+10. [02:06:31] Pi bonds are unstable, so the chains are cut into acetyl-CoA and burned in mitochondria. More pi bonds make a fatty acid more precious (quý), which is why omega-3 is more valued than omega-6. DHA has 22 carbons and 5 pi bonds. This may belong to a later section.
+    Anchor: "Vậy thì Omega3 nó có nhiều liên kết pi hơn omega6 thì nó mới quý ở chỗ đấy." (02:07:31)
+    Anchor: "có 22 nguyên tử cacbon mà lại có đến năm liên kết pi" (anchor begins on line 02:07:40)
+
+11. Context for c067 (possibly covered in a later section): the doctor's own ratio view is stricter than the article's 1:1 to 5:1 range.
+    Anchor: "ăn đừng để cho cái tỉ lệ nó vượt quá con số 4 chứ con số năm là tôi không tin lắm." (anchor begins on line 02:34:29)

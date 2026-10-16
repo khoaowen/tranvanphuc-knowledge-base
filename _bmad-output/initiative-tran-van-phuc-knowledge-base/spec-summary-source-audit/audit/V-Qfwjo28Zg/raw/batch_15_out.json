@@ -1,0 +1,358 @@
+[
+  {
+    "id": "c351",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "về hiện tượng quá tải sắt. Feritin ở đây tăng lên nhẹ nhàng chỉ vì nó là một protein ứng pha cấp, một phản ứng tự vệ",
+        "timestamp": "03:22:41"
+      },
+      {
+        "quote": "mang tính bản năng của thân thể trước những ngọn lửa viêm mạn tính da rằng [âm nhạc] đang âm thầm cháy từ vòng",
+        "timestamp": "03:22:50"
+      },
+      {
+        "quote": "động khép bớt cánh cửa kho dự trữ, giữ lại một phần sắt bên trong để ngăn không cho các tác nhân, viêm hay là vi khuẩn có cơ hội lợi dụng nguyên liệu này để [âm nhạc] phát triển. Vậy các chỉ số xét",
+        "timestamp": "03:23:05"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c352",
+    "class": "mismatch",
+    "evidence": [
+      {
+        "quote": "Sự kết hợp giữa một kho sắt đóng mất cửa với số lượng xe trở sắt bị sụt giảm, không gây ra nguy cấp tử sinh nhưng nó",
+        "timestamp": "03:23:25"
+      },
+      {
+        "quote": "tạo nên một sự trì trệ [âm nhạc] trong việc phân phối năng lượng tạo máu.",
+        "timestamp": "03:23:34"
+      },
+      {
+        "quote": "chứng minh rằng dẫu số lượng xe vận tải bị thu hệp, lượng sắt thực sự lưu hành trong dòng máu của bác vẫn đang giữ được sự nhịp nhàng, chưa hề bị rơi vào cảnh suy kiệt cạn kiệt.",
+        "timestamp": "03:21:49"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Bản nhận xét nói số xe chở sắt (transferrin) giảm, không phải lượng sắt lưu hành giảm; đoạn trước khẳng định sắt lưu hành chưa cạn kiệt."
+  },
+  {
+    "id": "c353",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Biểu hiện lâm sàng của nó là nỗi mệt mỏi, u hoài day dẳng, bò dọc thân thể, sự dẻo dai bị bào mòn, sức hồi phục sau",
+        "timestamp": "03:23:39"
+      },
+      {
+        "quote": "mỗi đợt ốm hay đợt cấp và COPD tức là viêm phổi tắc nghẽn mạn tính. bị chậm lại và lồng ngực đôi lúc thấy nén nặng như có ngọn gió lạnh đi qua.",
+        "timestamp": "03:23:47"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c354",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Thứ tư đó là chụp cắt lớp vi tính lồng ngực, xẹp thùy giữa phổi phải, các ổ giãn phế nang trung tâm tiểu thùy",
+        "timestamp": "02:59:04"
+      },
+      {
+        "quote": "hai phổi dày thành các nhánh phế quản hai phổi,",
+        "timestamp": "02:59:11"
+      },
+      {
+        "quote": "các động mạch chủ bị vôi hóa, thoái hóa cột sống ngực.",
+        "timestamp": "02:59:17"
+      }
+    ],
+    "speaker": "Khánh Lành đọc hồ sơ và câu hỏi của bác Lương Trắc Nghiên; tóm tắt trình bày cùng nội dung.",
+    "note": "Các phát hiện CT được Khánh Lành đọc từ hồ sơ."
+  },
+  {
+    "id": "c355",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "năm tháng, vách của các phế nang bị bào mòn, vỡ vụn và biến dạng thành những túi khí chơ lì, không còn khả năng đàn hồi",
+        "timestamp": "03:29:28"
+      },
+      {
+        "quote": "và tạo nên tình trạng giãn phế nang trung tâm tiểu thủy ở cả hai lá phổi.",
+        "timestamp": "03:29:37"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c356",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Chua chát hơn cả thủy giữa của lá phổi bên phải do bị đầm đặc biệt kín và tổ chức sơ hóa xâm lấn kéo dài đã rơi vào tình trạng dẹp hoàn toàn.",
+        "timestamp": "03:29:59"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c357",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Những đường dẫn khí trong lồng ngực của bác này đã bị thu hẹp lại, sơ cứng và đóng cặn, hệt như một ống dẫn nước bị",
+        "timestamp": "03:30:59"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c358",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Nhựa thuốc lá kết hợp với bụi gỗ mịn bám chặt vào từng phế nang nhỏ bé như lốc muội than bám vào thành bếp cổ xưa. Theo",
+        "timestamp": "03:29:19"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c359",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Sự cô đơn quánh đặc sau cái chết của người bạn đời cộng hưởng với hàng vạn bao thuốc lá rút ra trong những đêm đông cô quạnh để sởi ấm tâm hồn. Cùng hàng chục năm lăn lộn với nghề thợ mộc, hít",
+        "timestamp": "03:28:54"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Liên hệ có trong bản nhận xét do bác sĩ viết, Khánh Lành đọc."
+  },
+  {
+    "id": "c360",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Đợt suy hô hấp cấp tính từng quật ngã bác năm ngoái không khác gì là một tiếng chuông cảnh báo lạnh ngắt từ tử thần",
+        "timestamp": "03:31:26"
+      },
+      {
+        "quote": "nơi lồng ngực gầy guộc 42 kg phải cào xé từng hụm không khí trong vô vọng không",
+        "timestamp": "03:31:35"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c361",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "gian và số phận còn hằn sâu lên cung động mạch chủ [âm nhạc] với những mảng vôi hóa kéo dài và tình trạng thoái hóa của sống ngực nghiêm trọng",
+        "timestamp": "03:31:44"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c362",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Đây là cái quả đắng ngắt của hiện tượng canxi bị rút khỏi hệ thống xương do tình trạng suy dinh dưỡng, thiếu hụt vitamin D và mag kéo dài để rồi dòng canxi đi",
+        "timestamp": "03:32:04"
+      },
+      {
+        "quote": "lang thang ấy lại bám chặt vào thành mạch máu, biến con sông từng dẻo dai thời trai trẻ thành một đường ống sơ cứng. mong manh và dễ tổn thương.",
+        "timestamp": "03:32:15"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c363",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tình trạng tổn thương phổi trên phim CT, xẹt thùy giữa phổi phải, giãn phế nang, dày thành phế quản, kết hợp với vôi hóa",
+        "timestamp": "02:59:29"
+      },
+      {
+        "quote": "động mạch chủ, phản ánh mức độ nguy hiểm thế nào đối với một bệnh nhân bị viêm phổi tắc nghẽn mãn tính cao tuổi? Và thứ",
+        "timestamp": "02:59:38"
+      }
+    ],
+    "speaker": "Khánh Lành đọc hồ sơ và câu hỏi của bác Lương Trắc Nghiên; tóm tắt trình bày cùng nội dung.",
+    "note": "Khánh Lành đọc câu hỏi thứ nhất của khán giả, không phải kết luận của bác sĩ."
+  },
+  {
+    "id": "c364",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "hai đó là sự biến động của các chỉ số mengan as tăng, axit uric tăng, feritin tăng kết hợp với tình trạng thiếu kẽm,",
+        "timestamp": "02:59:45"
+      },
+      {
+        "quote": "canxi ion và đồng. thể hiện điều gì về tình trạng chuyển hóa và khả năng hấp thu dinh dưỡng của cơ thể. Và thứ ba là",
+        "timestamp": "02:59:53"
+      }
+    ],
+    "speaker": "Khánh Lành đọc hồ sơ và câu hỏi của bác Lương Trắc Nghiên; tóm tắt trình bày cùng nội dung.",
+    "note": "Khánh Lành đọc câu hỏi thứ hai của khán giả."
+  },
+  {
+    "id": "c365",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "đối với một thương binh cao tuổi có thể trạng suy nhược, bác chỉ 42 kg và có tiền xử bị viêm phổi tắc nghẽn mạn tính",
+        "timestamp": "03:00:01"
+      },
+      {
+        "quote": "và viêm đường ruột thì bác sĩ có lời khuyên cụ thể nào về chế độ ăn uống, tập luyện, phục hồi chức năng hô hấp và hướng dẫn bổ sung vi chất an toàn nhất?",
+        "timestamp": "03:00:10"
+      }
+    ],
+    "speaker": "Khánh Lành đọc hồ sơ và câu hỏi của bác Lương Trắc Nghiên; tóm tắt trình bày cùng nội dung.",
+    "note": "Khánh Lành đọc câu hỏi thứ ba của khán giả."
+  },
+  {
+    "id": "c366",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Thứ tư là những câu hỏi của khán giả. Bác có ba câu hỏi chính ạ. Thứ nhất là",
+        "timestamp": "02:59:23"
+      },
+      {
+        "quote": "Và ngay bây giờ thì Khánh Lành xin phép đọc nguyên văn bản nhận xét sức khỏe toàn diện này.",
+        "timestamp": "03:01:09"
+      }
+    ],
+    "speaker": "Khánh Lành đọc hồ sơ và câu hỏi của bác Lương Trắc Nghiên; tóm tắt trình bày cùng nội dung.",
+    "note": "Đúng với đoạn liệt kê câu hỏi 02:59:23–03:00:17; bản nhận xét trả lời được đọc từ 03:01:09 về sau, không phải không có trả lời trong toàn video."
+  },
+  {
+    "id": "c367",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "kiệt quệ của kẽm tụt sâu xuống 7,39 [âm nhạc] microl/l, tham chiếu từ 11 đến 24, đồng giảm còn 68,2 tham chiếu từ 70 đến 140",
+        "timestamp": "03:24:06"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c368",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "tham chiếu từ 11 đến 24, đồng giảm còn 68,2 tham chiếu từ 70 đến 140",
+        "timestamp": "03:24:12"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c369",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "và canxi yông hóa giảm nhẹ xuống 1,15 tham chiếu từ 1,17 đến 1,29.",
+        "timestamp": "03:24:20"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c370",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Kẽm và đồng chính là những người thợ sửa [âm nhạc] chữa tí hon. Là những giọt",
+        "timestamp": "03:24:29"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c371",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Thiếu kẽm khiến niêm mạc ruột bị dò rỉ, gây ra bệnh viêm đường ruột kéo dài, làm",
+        "timestamp": "03:24:43"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c372",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "bác ăn uống khó tiêu, mất cảm giác ngon miệng, tóc điểm xương dễ rụng, da rẻ khô rác và khả năng tự lành vết thương bị suy giảm.",
+        "timestamp": "03:24:49"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c373",
+    "class": "attribution_qualification",
+    "evidence": [
+      {
+        "quote": "xương lành dường như đã cạn kiệt sau hàng thập kỷ bác sống trong khói thuốc lá và thiếu hụt vi chất.",
+        "timestamp": "03:24:35"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Bỏ dè dặt \"dường như\" khi khẳng định các thiếu hụt xuất hiện sau nhiều thập kỷ; bản gốc ví kẽm và đồng dường như đã cạn kiệt."
+  },
+  {
+    "id": "c374",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "Như vậy, điều đáng bận tâm của bác không nằm ở con số feritin hay là TSAT mà nằm ở chỗ làm sao để vỗ về ngọn lửa viêm mạn tính. Sở ấm lại đường ruột và",
+        "timestamp": "03:25:00"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  },
+  {
+    "id": "c375",
+    "class": "supported",
+    "evidence": [
+      {
+        "quote": "viêm mạn tính. Sở ấm lại đường ruột và lấp đầy những khoảng chống vi chất đã bị thời gian bào mòn qua bao năm tháng phong xương. Rốt cuộc khi lướt qua chỉ",
+        "timestamp": "03:25:10"
+      }
+    ],
+    "speaker": "Khánh Lành đọc bản nhận xét sức khỏe của bác sĩ Trần Văn Phúc; tóm tắt quy về bản nhận xét/bác sĩ.",
+    "note": "Nội dung được nêu trong bản nhận xét, giữ đúng đối tượng và ý chính."
+  }
+]

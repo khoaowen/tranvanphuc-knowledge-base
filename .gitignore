@@ -15,3 +15,6 @@ _bmad/custom/*.user.toml
 
 # BMad per-session rendered skill scratch output (ephemeral)
 _bmad/render/
+
+# Fidelity-review per-chunk progress cache (ephemeral)
+videos/*/.review-progress.json

@@ -1,0 +1,162 @@
+{
+  "video_id": "q7uDJG8YQ5c",
+  "purpose": "Retry of the required third independent adjudication of the four outstanding pass-1/pass-2 seed disagreements (c085, c113, c119, c137).",
+  "transcript": "videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/transcript.md",
+  "transcript_read": "full, sequential, lines 1-5330 ([00:00:01] to [03:32:39]) before reading the claims or pass outputs",
+  "inputs": [
+    "claims.json",
+    "pass1.json",
+    "raw/p2_01_retry_out.json",
+    "raw/p2_02_out.json",
+    "../../audit-record-format.md (class definitions)"
+  ],
+  "pass2_coverage_note": "raw/p2_01_retry_out.json covers c001-c082 (18 ids) and contains none of c085/c113/c119/c137. All four pass-2 records come from raw/p2_02_out.json.",
+  "not_read": [
+    "review.md"
+  ],
+  "class_definitions_applied": "audit-record-format.md: supported = quote backs claim with speaker and qualifiers intact; mismatch = transcript contradicts or materially differs (number/direction/entity); attribution_qualification = content present but speaker misattributed or a qualification dropped, hardened or added; unresolved = no evidence or ambiguous after full read.",
+  "evidence_verification": "Every quote was checked by script against the caption text, joined line by line. Each quote occurs exactly once, and its timestamp is the caption line where it starts.",
+  "counts": {
+    "claims_adjudicated": 4,
+    "final_supported": 0,
+    "final_attribution_qualification": 4,
+    "final_mismatch": 0,
+    "final_unresolved": 0,
+    "final_agrees_with_pass1_class": 4,
+    "final_agrees_with_pass2_class": 0
+  },
+  "records": [
+    {
+      "id": "c085",
+      "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
+      "claim": "Tại đường ruột và tuyến giáp: gây hội chứng ruột kích thích, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón, làm tổn thương hệ miễn dịch đường ruột dẫn đến bệnh tuyến giáp (Hashimoto và Basedow).",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Nó chỉ gây ra viêm khi nào? Khi mà nó quá nhiều.",
+          "timestamp": "02:19:57"
+        },
+        {
+          "quote": "nó tấn công vào cái đường ruột của chúng ta nó sẽ gây ra viêm của dạ dày ruột nó sẽ gây ra hội chứng ruột gì ạ? >> Ruột kích thích.",
+          "timestamp": "02:18:23"
+        },
+        {
+          "quote": "giò rỉ ruột gây ra hội chứng gì nữa? Gây ra những tổn thương trào ngược dạ dày thực quản >> gây ra những các cái gì? Táo bón",
+          "timestamp": "02:18:35"
+        },
+        {
+          "quote": "mà đường ruột là gì? >> Ờ cửa ngõ >> cửa ngõ của hệ miễn dịch. Vâng. Khi đã tổn thương đường ruột rất dễ gây ra tổn thương tiến giáp với hai bệnh là hai bệnh gì? >> Hasimoto. >> Hasimoto và ba đô.",
+          "timestamp": "02:18:45"
+        }
+      ],
+      "speaker": "Dr. Trần Văn Phúc in quiz format. Host Khánh Lành supplies 'Ruột kích thích', 'dò rỉ', 'cửa ngõ' and 'Hasimoto' when prompted, and the doctor confirms and completes ('Hasimoto và ba đô', where 'ba đô' is a caption error for Basedow). The claim gives no speaker; the section is the doctor's explanation.",
+      "note": "The gut conditions (IBS, leaky gut, GERD, constipation) and the two thyroid diseases are present. The doctor's only link to the thyroid is hedged as 'rất dễ gây ra' (very easily causes). The claim turns that into a plain 'dẫn đến'. The claim also adds 'làm tổn thương hệ miễn dịch đường ruột' as a causal step. The doctor only says the gut is the 'cửa ngõ của hệ miễn dịch' and that gut damage easily leads to thyroid damage. Nothing is contradicted. A hedge is hardened and an inferred step is added, so the class is attribution_qualification.",
+      "disagreement": "Pass 1: attribution_qualification ('rất dễ gây ra' hardened to 'dẫn đến', gut-immune damage step inferred). Pass 2: supported ('dẫn đến' judged close enough to 'rất dễ gây ra').",
+      "resolution": "Resolved for pass 1 after a full read. 'Rất dễ' is a likelihood qualifier of the kind the rubric requires to stay intact. Pass 2's own note concedes the wording shift and only judges it minor. The full read also shows the doctor limits the whole chain to excess omega-6 ('Nó chỉ gây ra viêm khi nào? Khi mà nó quá nhiều', 02:19:57). Whether the claim keeps that condition depends on its parent bullet, which is not in claims.json. It is a second qualifier at risk, but the class does not depend on it.",
+      "confidence": "medium"
+    },
+    {
+      "id": "c113",
+      "section": "[02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3",
+      "claim": "Do cá hồi nuôi ăn chủ yếu là thực vật nên hàm lượng EPA và DHA không cao như cá hồi biển tự nhiên đánh bắt.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Loại thứ nhất là cá hồi nuôi đúng không ạ? Loại thứ hai là đánh bắt dưới biển. Bây giờ Khánh Lành có mua được cá hồi đánh bắt dưới biển không? >> Vâng, rất là khó. >> Gần như không có nhưng không phải khó nữa.",
+          "timestamp": "02:44:09"
+        },
+        {
+          "quote": "Thế cá hồi nuôi thì cho ăn sản phẩm là gì? Là thực vật.",
+          "timestamp": "02:44:26"
+        },
+        {
+          "quote": "Cho nên là cho cá ăn các loại hạt, các loại thực vật là chính toàn ăn loài các loại thực vật. Vậy thì cá hồi mà chúng ta mua về đại đa số là hàm lượng và DHA không được cao như là kỳ vọng trong lý thuyết.",
+          "timestamp": "02:44:58"
+        }
+      ],
+      "speaker": "Dr. Trần Văn Phúc. Khánh Lành only answers that wild-caught salmon is hard to buy.",
+      "note": "The mechanism is supported: farmed salmon are fed mainly plants and seeds ('là chính' matches the claim's 'chủ yếu'). So is the conclusion that their EPA/DHA content is not high. Two things change. (1) The doctor's comparator is 'kỳ vọng trong lý thuyết' (theoretical expectation). The claim swaps in a concrete one, 'cá hồi biển tự nhiên đánh bắt'. The doctor names wild-caught salmon only as the second category and as practically unavailable. He never says it has higher EPA/DHA. (2) The hedge 'đại đa số' on the salmon people buy is dropped. Nothing is contradicted, so this is not a mismatch. A comparison is added and a hedge dropped, so the class is attribution_qualification.",
+      "disagreement": "Pass 1: attribution_qualification (comparator changed from 'kỳ vọng trong lý thuyết' to wild-caught salmon, 'đại đa số' dropped). Pass 2: supported (the wild-caught contrast is implied by the farmed-vs-wild framing).",
+      "resolution": "Resolved for pass 1 after a full read. The farmed-vs-wild framing (02:44:09) makes the wild-caught comparison a reasonable inference, which is pass 2's point. But the doctor never says it, and pass 2 itself notes that the literal comparator is 'kỳ vọng trong lý thuyết'. No other passage in the transcript compares farmed and wild salmon on EPA/DHA. Under the rubric, an added comparison plus a dropped 'đại đa số' is attribution_qualification, not supported. The deviation is small.",
+      "confidence": "medium"
+    },
+    {
+      "id": "c119",
+      "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
+      "claim": "Dầu nhuyễn thể (krill oil) làm từ tôm Nam Cực được cho là an toàn hơn do sống ở vùng biển sạch và vòng đời ngắn nên chưa kịp tích tụ độc tố.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "người ta hay quảng cáo ví dụ những cái dầu cá các cái loại nhuyễn thể đấy mà được làm từ gì? Từ các cái loài nhuyễn thể ở biển loài tôm mà ở dưới Nam Cực ấy.",
+          "timestamp": "02:54:41"
+        },
+        {
+          "quote": "Vì nhuyễn thể là tốt vì rằng là một số người lý luận thế này là cái loài nhuyễn thể này nó giống như cái loài tôm ấy.",
+          "timestamp": "02:54:59"
+        },
+        {
+          "quote": "Cái thời gian sống của cái loài này kích thước nó nhỏ, thời gian sống của nó rất ngắn.",
+          "timestamp": "02:55:08"
+        },
+        {
+          "quote": "Thứ hai nữa là bắt ở khu vực Nam Cực là cái khu mà cái nơi mà không có >> cuộc sống cho nên biển nó sạch. >> Vâng. >> Thì người ta cho rằng là đấy là an toàn. >> Vâng. >> Thế còn an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa.",
+          "timestamp": "02:55:26"
+        },
+        {
+          "quote": "Người ta lập luận nó là như vậy.",
+          "timestamp": "02:56:00"
+        }
+      ],
+      "speaker": "Dr. Trần Văn Phúc, reporting what advertisers ('người ta hay quảng cáo') and 'một số người lý luận' argue. He frames it as their reasoning ('Người ta lập luận nó là như vậy') and adds his own reservation. The claim attributes it with a generic 'được cho là'.",
+      "note": "The content matches: krill from the Antarctic, a clean sea, a short life so toxins have no time to build up. The claim's 'được cho là' partly keeps the reported-speech framing. It drops the doctor's explicit reservation that safety still awaits research, and it hides that the source is advertising or proponents. Because that caveat is gone, the claim reads as a neutral consensus rather than an advertising argument the doctor doubts. A qualification is dropped, so the class is attribution_qualification.",
+      "disagreement": "Pass 1: attribution_qualification (caveat 'phải chờ những các cái nghiên cứu nữa' dropped, advertising source omitted). Pass 2: supported ('được cho là' keeps it as others' reasoning and does not assert safety as fact).",
+      "resolution": "Resolved for pass 1 after a full read. Pass 2 is right that 'được cho là' does not assert safety as fact, which is why this is not a mismatch. But the rubric requires qualifiers to stay intact. The doctor's reservation comes right after the claim (02:55:37), and he again frames it as others' argument (02:56:00). Both are qualifiers on the same statement, and the claim keeps only a generic passive. This is the closest call of the four.",
+      "confidence": "medium-low"
+    },
+    {
+      "id": "c137",
+      "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+      "claim": "Người khỏe mạnh, xét nghiệm bình thường, trẻ em cần chăm sóc não và mắt: Ưu tiên chọn loại có DHA cao hơn EPA (DHA > EPA) để giúp sáng mắt và thông minh hơn.",
+      "pass1_class": "attribution_qualification",
+      "pass2_class": "supported",
+      "pass2_source": "raw/p2_02_out.json",
+      "final_class": "attribution_qualification",
+      "evidence": [
+        {
+          "quote": "Quý vị đừng nhớ là trẻ em với phụ nữ có thai hay là người trung niên hay là cái gì nó hơi khó. Chúng ta nhớ theo nguyên lý lúc ấy là",
+          "timestamp": "03:14:24"
+        },
+        {
+          "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp như tranh vẽ, cơ thể chúng ta không bị bệnh các thứ gì thì chúng ta mua cái DHA tăng lên một chút.",
+          "timestamp": "03:16:08"
+        },
+        {
+          "quote": "mua tăng lên một chút để nó ưu tiên cho não và mắt thì chúng ta sẽ rất thông minh, sẽ mắt sẽ rất tinh. Thì chính cái điều đó mà giúp cho các cháu không bị gan nhiễm mỡ, không bị mỡ máu các cháu uống DHA này vào thì các cháu sẽ thông minh lên,",
+          "timestamp": "03:16:19"
+        },
+        {
+          "quote": "Còn đừng có để mất cân bằng. Tức là quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên.",
+          "timestamp": "03:18:30"
+        },
+        {
+          "quote": "Với trẻ em, phụ nữ có thai và người trưởng thành cần chăm sóc sức khỏe não, mắt và tim mạch thì chọn loại omega 3 giàu DHA hơn.",
+          "timestamp": "02:40:31"
+        }
+      ],
+      "speaker": "Dr. Trần Văn Phúc for the healthy and normal-test rule and the DHA-for-brain-and-eyes rationale. The age-category wording 'trẻ em ... cần chăm sóc não và mắt' matches the newspaper article Khánh Lành read aloud (02:40:31), not the doctor. The doctor explicitly tells viewers not to go by age categories (03:14:24). The claim presents the blend as one rule.",
+      "note": "Supported core: healthy people with normal tests lean toward more DHA for brain and eyes, to be smarter and see better. Three qualifications shift. (1) The doctor says DHA should go up only 'một chút' and warns against imbalance in either direction (03:18:30). The claim's flat 'DHA > EPA' drops both. (2) For children, the doctor's condition is 'các cháu không bị gan nhiễm mỡ, không bị mỡ máu'. Elsewhere he says children with fatty liver or high blood lipids should still raise EPA (03:16:03). The claim lists 'trẻ em cần chăm sóc não và mắt' as its own category. (3) That category comes from the host-read article, and the doctor rejects age-based selection. Nothing is contradicted, so this is not a mismatch. Dropped qualifiers and blended attribution make it attribution_qualification.",
+      "disagreement": "Pass 1: attribution_qualification ('một chút' and the no-imbalance caveat dropped, the children condition changed). Pass 2: supported ('ưu tiên' keeps the soft framing, and the omissions are not spelled out but are minor).",
+      "resolution": "Resolved for pass 1 after a full read, with extra evidence neither pass cited. The 'trẻ em cần chăm sóc não và mắt' wording traces to the newspaper article Khánh Lành read (02:40:31). The doctor explicitly sets age categories aside in favour of a condition-based rule (03:14:24). That attribution blend adds to the dropped 'một chút' and no-imbalance qualifiers, and makes attribution_qualification the clearest call of the four.",
+      "confidence": "medium-high"
+    }
+  ]
+}

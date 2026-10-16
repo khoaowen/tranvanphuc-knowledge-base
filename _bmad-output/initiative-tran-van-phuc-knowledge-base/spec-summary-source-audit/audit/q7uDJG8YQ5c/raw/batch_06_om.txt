@@ -1,0 +1,36 @@
+Omissions for batch_06 sections (03:01:21 – end). Transcript read in full, lines 1–5331.
+
+1. [03:01:41] Fish oil below 0,3 is closer to natural and easier to absorb, but users should try it and monitor, because some people may get higher blood lipids or fatty liver:
+   "ta cũng phải thử xem rằng thế nào có thể có những người uống hợp nhưng có những người uống xong một thời gian chúng ta có thể bị tăng cái mỡ máu hay gan nh mỡ hay gì gì đấy lên thì chúng ta phải kiểm tra theo dõi." (starts 03:01:50)
+2. [03:03:04] Cost problem: some patients did well on 0,7 but could not afford to keep taking it:
+   "Có những người tôi hướng dẫn là mua đến 0,7 nhưng một thời gian sau thấy rất tốt nhưng không đủ tiền để mà theo đuổi"
+3. [03:03:47] Patients asked whether two doses of a 0,35 product equal one 0,7 product. The doctor said no, because the difference is refinement:
+   "các bác hỏi rằng vậy thì 0,7 là em mua loại mà 0,35 xong uống gấp đôi lên được hay không? Xin thưa rằng nó liên quan tới vấn đề tinh chế."
+4. [03:04:38] Products in the 0,7–0,9 range are still described as not needing a prescription:
+   "Trong cái khoảng này thì đến nay người ta vẫn nói là không phải kê đơn."
+5. [03:05:13] Recap of the three fish-oil types (TG / ethyl ester / rTG) and how to read the label (total fat, fish oil, or the largest number), then divide EPA+DHA by it:
+   "Dầu cá tự nhiên là 1 TG đúng không ạ? Dầu cá ethin este là 2" (03:05:22); "Thực hiện phép tính chia thì quý vị sẽ ưu tiên tìm cái từ là gì ạ?" (03:06:20)
+6. [03:08:31] Ratio tiers given as a ladder: at least 0,3, then 0,5, 0,6 to improve many conditions, 0,7 good, 0,9 very good; some buyers reach 0,84:
+   "Còn muốn cải thiện được nhiều bệnh tật bắt đầu 0,6. Cải thiện tốt thì 0,7, rất tốt thì đến 0,9" (03:08:42)
+7. [03:10:49] Vitamin D, A and E also degrade easily, so a genuine product can become useless after poor storage. Read the storage instructions:
+   "các cái sản phẩm mà dầu cá này, vitamin D này, vitamin A này, vitamin E này, đấy là những sản phẩm cực kỳ dễ biến tính." (03:10:52)
+8. [03:12:08] Buy products recognized or recommended by reputable domestic or international associations; the omega market is a muddy pond:
+   "mua sản phẩm mà được các tổ chức, các hiệp hội người ta công nhận" (03:12:12); "chúng ta mua nó không khác gì ở trong một cái ao nước đục." (03:12:59)
+9. [03:14:26] The doctor says to remember the mechanism (DHA → brain/eyes, EPA → heart, surplus EPA → brain) rather than age-group rules such as children or pregnant women:
+   "Quý vị đừng nhớ là trẻ em với phụ nữ có thai hay là người trung niên hay là cái gì nó hơi khó." (03:14:26)
+10. [03:17:10] Advice to children: sleep early and drop online games and short videos, because over-stimulation affects the sympathetic/parasympathetic system and leads to arrhythmia and emotional disorders:
+   "Cho nên là về nói với con là nên ngủ sớm, nên bỏ game online, nên bỏ xem những cái vi phim ngắn" (03:17:10)
+11. [03:18:07] Overall ratio recommendation: people with illness should buy 0,6–0,7 (doctor prefers 0,7 or above); healthy people can go down to 0,5–0,6:
+   "nếu như mọi người bị bệnh tật thì bắt đầu chúng ta sẽ nên mua từ cái cỡ độ 0,6 0,7" (03:18:07); "Còn nếu những người không có bệnh tật thì chúng ta có thể xuống đến 0,5" (03:18:16)
+12. [03:18:30] Keep EPA and DHA balanced (do not over-skew either one):
+   "Còn đừng có để mất cân bằng. Tức là quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên."
+13. [03:20:10] Do not supplement omega 6/9, because diets already have too much:
+   "Và chúng ta luôn luôn nói Omega 3 chứ không không nên đầu tư vào Omega 6 và Omega 9 bởi chế độ ăn của chúng ta đang có xu hướng là thừa rồi."
+14. [03:20:44] Example of mathematical modelling: during COVID, leaders of developed countries were advised by a mathematician and a clinical epidemiologist using multivariable models:
+   "luôn luôn đi cùng với lại nguyên thủ quốc gia của những quốc gia đó là bao giờ cũng có một nhà toán học và có một nhà dịch tễ học lâm sàng." (03:21:04)
+15. [03:23:38] Khánh Lành (host) suggests testing before taking omega 3, to check blood lipids and choose an EPA/DHA ratio. The doctor agrees and recommends a general health check (blood lipids, diabetes):
+   "trước khi chúng ta bổ sung Omega 3 thì bản thân những người cần được bổ sung cũng nên xét nghiệm" (03:23:54)
+16. [03:24:50] The red-blood-cell omega-3 test is not yet done in Vietnam because there is no demand:
+   "hiện tại theo tôi được biết thì ở Việt Nam chưa làm bởi vì chúng ta chưa có nhu cầu."
+17. [03:27:25] Only immature red cells (from reticulocytes) still have a nucleus, and they are negligible; mature cells work normally without one:
+   "Chỉ có những hồng cầu non mà từ hồng cầu lưới đi ra ngoài máu ngoại vi thì cái số đấy rất ít có nhân không đáng kể."

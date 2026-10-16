@@ -1,0 +1,517 @@
+[
+ {
+  "id": "c026",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "mơ trở thành bác sĩ về y học cổ truyền. Tôi lao vào tôi học y học cổ truyền. Sau đó thì tôi lại mơ trở thành bác sĩ sản khoa.",
+    "timestamp": "00:54:42",
+    "timestamp_recomputed": "00:54:42"
+   },
+   {
+    "quote": "Tôi lại thích ngoại khoa, tôi làm ngoại khoa. Xong cuối cùng tôi mới thấy hóa ra làm bác sĩ Quang là phù hợp nhất.",
+    "timestamp": "00:54:53",
+    "timestamp_recomputed": "00:54:53"
+   },
+   {
+    "quote": "những cái hình ảnh đen trắng trên phim X Quang hay trên siêu âm hay trên CT cộng ngẩng từ.",
+    "timestamp": "00:55:04",
+    "timestamp_recomputed": "00:55:04"
+   }
+  ],
+  "speaker": "Doctor (Trần Văn Phúc), first-person anecdote; summary attributes to doctor - matches",
+  "note": "Transcript says 'bác sĩ Quang' (X-quang/điện quang, caption-garbled); the label 'Chẩn đoán hình ảnh' is the summary's gloss; image modalities and 'cứu giúp những cái bệnh nhân đang ở bên bờ của vực thẳm' present."
+ },
+ {
+  "id": "c027",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Và cuộc sống cũng không bao giờ đơn giản là y = x hay y = sin x mà nó là chập của rất nhiều những các cái con đường khác nhau.",
+    "timestamp": "01:00:27",
+    "timestamp_recomputed": "01:00:27"
+   },
+   {
+    "quote": "Cuộc sống nó là chập của tất cả những các cái đường này lại với nhau nó vô cùng phức tạp chứ không đơn giản thế.",
+    "timestamp": "00:58:31",
+    "timestamp_recomputed": "00:58:31"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed (doctor's section) - matches",
+  "note": "Matches; transcript says 'chập của ... con đường/đường', summary renders as 'tổng hợp ... đường đồ thị'."
+ },
+ {
+  "id": "c028",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "ông Newton có một cái câu nói có thể nói rằng là trở thành một chân lý rất hay.",
+    "timestamp": "00:57:07",
+    "timestamp_recomputed": "00:57:07"
+   },
+   {
+    "quote": "trong thế giới của chúng ta cái gì đi lên nó sẽ phải đi xuống và đi xuống rồi nó sẽ đi lên.",
+    "timestamp": "00:57:15",
+    "timestamp_recomputed": "00:57:15"
+   }
+  ],
+  "speaker": "Doctor quoting Newton; summary attributes to Newton - matches",
+  "note": "Doctor frames it as a Newton 'câu nói' that became 'một chân lý', summary calls it 'quy luật của Newton'; substance matches."
+ },
+ {
+  "id": "c029",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "các bạn trẻ luôn luôn nghĩ nó như thế và các bạn ấy muốn đốt cháy giai đoạn.",
+    "timestamp": "00:58:02",
+    "timestamp_recomputed": "00:58:02"
+   },
+   {
+    "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được.",
+    "timestamp": "00:58:38",
+    "timestamp_recomputed": "00:58:38"
+   },
+   {
+    "quote": "chúng ta sẽ xuất hiện những đoạn đường bị tắc đường. Chúng ta có những đoạn đường mà người ta đang sửa chữa. Vậy chúng ta luôn luôn phải chọn đường vòng đi.",
+    "timestamp": "00:58:55",
+    "timestamp_recomputed": "00:58:55"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Content matches, but the summary adds the hedge 'thường thất bại'. The doctor speaks in absolutes: 'cách tư duy sai', 'thất bại không bao giờ đi được', 'đi theo đường thẳng luôn luôn thất bại' (01:00:20)."
+ },
+ {
+  "id": "c030",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cho nên là chúng ta hãy học theo cái cách của một cái dòng nước.",
+    "timestamp": "00:59:43",
+    "timestamp_recomputed": "00:59:43"
+   },
+   {
+    "quote": "Bởi vì nó gặp tảng đá, nếu nó đi thẳng thì nó sẽ bị tắc lại.",
+    "timestamp": "01:00:01",
+    "timestamp_recomputed": "01:00:01"
+   },
+   {
+    "quote": "Vậy dòng nước đó để đi được ra biển nhanh nhất thì dòng nước đó luôn luôn phải đi theo những các cái đường cong chứ không bao giờ đi bằng cái đường thẳng hết cả.",
+    "timestamp": "01:00:09",
+    "timestamp_recomputed": "01:00:09"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "The word 'flexible' is not spoken (summary's label). The doctor frames the benefit as 'nhanh nhất' and 'hiệu quả' (bending the rules a little, 00:59:36)."
+ },
+ {
+  "id": "c031",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chúng ta phải xác định cái hướng đi. Cái hướng đi mới là cái cốt lõi. Còn cái phương pháp đi, cái cách thức đi thì nó không quan trọng bằng hướng đi.",
+    "timestamp": "01:00:55",
+    "timestamp_recomputed": "01:00:55"
+   },
+   {
+    "quote": "chọn hướng đi sai thì dù cho phương tiện đi có tốt đến mấy đi chăng nữa chúng ta cũng bị lạc đường.",
+    "timestamp": "01:01:37",
+    "timestamp_recomputed": "01:01:37"
+   },
+   {
+    "quote": "chúng ta phải xác định được hướng đi, đường đi, cách thức đi. Thì trong đó hướng đi là cái quan trọng số một.",
+    "timestamp": "01:01:49",
+    "timestamp_recomputed": "01:01:49"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c032",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "trị tuyệt đối của F1 cộng với trị tuyệt đối của MF2 bằng 2a. Trong đó a là số thực lớn hơn 0.",
+    "timestamp": "01:03:11",
+    "timestamp_recomputed": "01:03:11"
+   },
+   {
+    "quote": "Và nội hàm cuộc sống của chúng ta nó nằm ở bên trong cái này. Đây chính là một cái hàm về nội hàm cuộc sống.",
+    "timestamp": "01:04:14",
+    "timestamp_recomputed": "01:04:14"
+   },
+   {
+    "quote": "Phương trình là gì? Có nhớ không ạ? X bình trên gì ạ? Trên a bình cộng với gì ạ?",
+    "timestamp": "01:06:50",
+    "timestamp_recomputed": "01:06:50"
+   }
+  ],
+  "speaker": "Doctor; the canonical-form equation is built in a Q&A with host Khánh Lành ('Y bình', 'Bằng 1'); summary unattributed",
+  "note": "The caption renders |MF1| as 'F1' and 'y²/b²' as 'y bình trên bình'. The doctor also says 'MF1 cộng MF2 = 2A' (01:04:09). The formulas match."
+ },
+ {
+  "id": "c033",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Điểm tựa thứ nhất đấy chính là gia đình. Gia đình ở đây là F1. Điểm tựa thứ hai đấy chính là nhà trường. Nhà trường đấy chính là F2.",
+    "timestamp": "01:04:34",
+    "timestamp_recomputed": "01:04:34"
+   },
+   {
+    "quote": "Đó là nhà trường từ trong sách vở, nhà trường từ trong chính những các cái ngôi trường của mình, nhà trường từ những người thầy của mình,",
+    "timestamp": "01:05:27",
+    "timestamp_recomputed": "01:05:27"
+   },
+   {
+    "quote": "Đó là những cái gia đình mà ở đấy phải tràn ngập cái tình yêu thương, hạnh phúc. Gia đình phải là cái nơi để mà trở về.",
+    "timestamp": "01:06:04",
+    "timestamp_recomputed": "01:06:04"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches. The family traits are phrased as an aspiration ('xã hội phải xây dựng được những gia đình tốt ... phải tràn ngập'); 'bàn đạp để phát triển' is at 01:06:13 and the school levels (mẫu giáo to đại học) at 01:05:11."
+ },
+ {
+  "id": "c034",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Còn chỉ cần một trong hai điểm tựa này không vững chắc thì chúng ta không tạo ra được cái nội hàm cuộc sống tốt được.",
+    "timestamp": "01:05:45",
+    "timestamp_recomputed": "01:05:45"
+   },
+   {
+    "quote": "Chúng ta chỉ có gia đình tốt thôi chưa đủ, chúng ta chỉ có nhà trường tốt thôi chưa đủ mà chúng ta phải có hai cái phối hợp với nhau thật tốt.",
+    "timestamp": "01:05:52",
+    "timestamp_recomputed": "01:05:52"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c035",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "để chúng ta trở thành người giỏi giang, để chúng ta thành đạt được một trong những môn chúng ta phải nắm được rất chắc và chúng ta phải giỏi đấy chính là môn lịch sử.",
+    "timestamp": "01:07:58",
+    "timestamp_recomputed": "01:07:58"
+   },
+   {
+    "quote": "Một người không có kiến thức lịch sử thì người đó rất khó để phát triển được toàn diện và để giỏi giang và có được sâu sắc. Và phải nói rằng lịch sử là môn quá khó.",
+    "timestamp": "01:08:11",
+    "timestamp_recomputed": "01:08:11"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c036",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "ví dụ như là các nhà phân tích tài chính ở trung tâm tài chính sừng sỏ nhất nước Mỹ,",
+    "timestamp": "01:08:26",
+    "timestamp_recomputed": "01:08:26"
+   },
+   {
+    "quote": "những nhà phân tích tài chính hàng đầu nước Mỹ từ xưa tới nay luôn xuất phát đều là những cái nhà sử học.",
+    "timestamp": "01:08:31",
+    "timestamp_recomputed": "01:08:31"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "The quantifier changed. The doctor says 'luôn xuất phát đều là' nhà sử học (absolute) and the summary softens it to 'Nhiều'. The transcript also says 'trung tâm tài chính sừng sỏ nhất nước Mỹ' (singular), not 'các trung tâm'."
+ },
+ {
+  "id": "c037",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tôi lấy ví dụ như là Đại tướng Võ Nguyên Giáp chỉ là một thầy giáo dị sử nhưng Đại tướng Võ Nguyên Giáp là một nhà sử học.",
+    "timestamp": "01:09:09",
+    "timestamp_recomputed": "01:09:09"
+   },
+   {
+    "quote": "Do vậy khi mà Đại tướng Võ Nguyên Giáp chuyển sang làm quân sự là một đại tướng, làm một tướng chỉ huy thì ngay lập tức trở thành một người rất tài giỏi.",
+    "timestamp": "01:09:15",
+    "timestamp_recomputed": "01:09:15"
+   }
+  ],
+  "speaker": "Doctor; summary attributes to doctor - matches",
+  "note": "'dị sử' is the caption for 'dạy sử'. Matches."
+ },
+ {
+  "id": "c038",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Vậy người giỏi lịch sử là người phải biết nhìn ở rất nhiều góc độ.",
+    "timestamp": "01:09:57",
+    "timestamp_recomputed": "01:09:57"
+   },
+   {
+    "quote": "Nó đòi hỏi cái người đó phải tích lũy cực kỳ nhiều kiến thức trên thông tiên văn, dưới tường địa lý thì người đấy mới giỏi được lịch sử.",
+    "timestamp": "01:10:11",
+    "timestamp_recomputed": "01:10:11"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c039",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Tuy nhiên là trong xã hội chúng ta nếu đưa lịch sử ra thì sẽ rất dễ cãi nhau.",
+    "timestamp": "01:10:30",
+    "timestamp_recomputed": "01:10:30"
+   },
+   {
+    "quote": "Vì chúng ta đang giới hạn cái nhận thức của chúng ta đang bị cực đoan hóa và đang bị hiểu vấn đề. Nó không có kiến thức toàn diện.",
+    "timestamp": "01:10:41",
+    "timestamp_recomputed": "01:10:41"
+   },
+   {
+    "quote": "Cho nên là trong các cái chương trình thì chúng tôi và Khánh lành sẽ rất ít đưa những cái vấn đề lịch sử",
+    "timestamp": "01:10:48",
+    "timestamp_recomputed": "01:10:48"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed - matches",
+  "note": "Matches. The doctor also says he 'gần như không đưa' history topics (01:10:58)."
+ },
+ {
+  "id": "c040",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Trong cái bảng chữ cái tiếng Anh thì có bao nhiêu chữ tất cả Khánh Lành? có 26 chữ cái.",
+    "timestamp": "01:12:22",
+    "timestamp_recomputed": "01:12:22"
+   },
+   {
+    "quote": "là chúng ta quy ước là chữ A thì tương đương với lại 1%,",
+    "timestamp": "01:12:30",
+    "timestamp_recomputed": "01:12:30"
+   }
+  ],
+  "speaker": "Doctor sets the convention as homework for host Khánh Lành; summary unattributed",
+  "note": "A sentence fragment that continues into c041. The convention matches (B=2%, C=3% at 01:12:35; X, Y, Z = 24/25/26% at 01:12:50)."
+ },
+ {
+  "id": "c041",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Vâng ạ. Thì tôi có tổng kết số phần trăm là 98%.",
+    "timestamp": "01:13:27",
+    "timestamp_recomputed": "01:13:27"
+   },
+   {
+    "quote": "Dạ không. 72% thôi quý vị. 72% cũng không phải là quá cao đúng không ạ?",
+    "timestamp": "01:14:33",
+    "timestamp_recomputed": "01:14:33"
+   },
+   {
+    "quote": "Luck quý vị thử đoán xem bao nhiêu phần trăm ạ? 47%.",
+    "timestamp": "01:14:08",
+    "timestamp_recomputed": "01:14:08"
+   }
+  ],
+  "speaker": "Host Khánh Lành reports the sums (homework set by the doctor); the doctor states 'Bằng 54' for love; summary unattributed",
+  "note": "All values match: hardwork 98% (01:13:27), knowledge 96% (01:13:48), love 54 (01:13:57), luck 47%, money 72%, leadership 89% (01:14:55), sex 48% (01:15:09). The summary leaves out that the host computed them."
+ },
+ {
+  "id": "c042",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đó là attitude dịch là thái độ 100%.",
+    "timestamp": "01:15:31",
+    "timestamp_recomputed": "01:15:31"
+   },
+   {
+    "quote": "Nhưng cái điều cuối cùng đó chính là cái thái độ mới đạt tới 100%.",
+    "timestamp": "01:18:29",
+    "timestamp_recomputed": "01:18:29"
+   }
+  ],
+  "speaker": "Host reports the sum; the doctor restates it - matches",
+  "note": "Matches."
+ },
+ {
+  "id": "c043",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "năng lực thể hiện khả năng bạn có thể làm được. Động lực quyết định những gì bạn làm nhưng chỉ có thái độ mới tạo nên kết quả làm tốt hay là không tốt.",
+    "timestamp": "01:15:57",
+    "timestamp_recomputed": "01:15:57"
+   },
+   {
+    "quote": "Động lực thể hiện rằng chúng ta làm nó cụ thể như thế nào nhưng mà cái thái độ mới quyết định được rằng là chúng ta thành công hay thất bại.",
+    "timestamp": "01:18:55",
+    "timestamp_recomputed": "01:18:55"
+   }
+  ],
+  "speaker": "Doctor's text message, read aloud verbatim by host Khánh Lành, then restated by the doctor; summary unattributed",
+  "note": "Matches. The adjectives 'nghiêm túc, tích cực' are not part of this formula; the doctor uses them elsewhere ('thái độ của tôi nghiêm túc' 01:18:20, 'thái độ tích cực' 01:19:38)."
+ },
+ {
+  "id": "c044",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "tức là năm 2025 thì một báo cáo mới được đăng trên tạp chí Nature đăng tải một nghiên cứu thực hiện trên 700 người từ 70 tuổi trở lên,",
+    "timestamp": "01:22:14",
+    "timestamp_recomputed": "01:22:14"
+   },
+   {
+    "quote": "yêu cầu họ bổ sung 1000 mg omega 3 mỗi ngày cùng với 2000 đơn vị vitamin D. Tập thể dục trong 30 phút nữa ạ. Kết quả cho thấy tốc độ lão hóa đã giảm đi 10%.",
+    "timestamp": "01:22:24",
+    "timestamp_recomputed": "01:22:24"
+   },
+   {
+    "quote": "đầu năm nay 2025 vào tháng 2 thực hiện trên 700 người ở trên 70 tuổi",
+    "timestamp": "01:23:03",
+    "timestamp_recomputed": "01:23:03"
+   }
+  ],
+  "speaker": "Host Khánh Lành introduces the study; the doctor restates it (date 'tháng 2', 'vitamin D3', 'tuổi thọ ... xu hướng tăng lên 10%'); summary unattributed",
+  "note": "Matches. The host's date is garbled ('ngày mùng tháng năm nay'); 'tháng 2' and 'vitamin D3' come from the doctor's restatement. The doctor glosses the result as 'cái tuổi thọ của chúng ta có xu hướng tăng lên 10%' (01:23:41)."
+ },
+ {
+  "id": "c045",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Nếu như vitamin D mà ta đưa lên từ 50 cho đến 70 ng/ml ở trong máu ta xét nghiệm thì đây chính là cái con số lý tưởng",
+    "timestamp": "01:24:12",
+    "timestamp_recomputed": "01:24:12"
+   },
+   {
+    "quote": "kinh nghiệm của tôi thì bắt đầu tôi thấy rằng thậm chí là ta đưa từ 70 cho đến 80 ng/ml thì đây là con số phải nói là tuyệt vời.",
+    "timestamp": "01:24:29",
+    "timestamp_recomputed": "01:24:29"
+   }
+  ],
+  "speaker": "Doctor: 50-70 is framed as the view of 'nhiều chuyên gia về dinh dưỡng' plus 'quan điểm của tôi'; 70-80 as 'kinh nghiệm của tôi'. The summary states both as fact",
+  "note": "The numbers match, but the summary drops the attribution hedges 'kinh nghiệm của tôi' (70-80) and 'quan điểm của tôi'/experts (50-70). The transcript also says 'vitamin D', not specifically D3."
+ },
+ {
+  "id": "c046",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đây là cái tôi ví rằng nó là thuốc giảm đau tự nhiên rất thần kỳ.",
+    "timestamp": "01:25:18",
+    "timestamp_recomputed": "01:25:18"
+   },
+   {
+    "quote": "Quý vị đang phải chịu những cơn đau đớn về mặt thể xác bao gồm đau xương khớp khớp, đau khắp cơ thể, đau dạ dày ruột, đau đại tràng,",
+    "timestamp": "01:25:23",
+    "timestamp_recomputed": "01:25:23"
+   },
+   {
+    "quote": "Những người đang bị trầm cảm, những người đang bị căng thẳng, những người đang bị sang chấn tâm lý,",
+    "timestamp": "01:26:05",
+    "timestamp_recomputed": "01:26:05"
+   }
+  ],
+  "speaker": "Doctor ('tôi ví'); host supplies 'Tam giác vàng'/'giảm đau' in Q&A; summary unattributed",
+  "note": "Supported as the doctor's simile ('như'). The relief is tied to 'đưa được vitamin D lên ngưỡng lý tưởng, chúng ta bổ sung các cái vi chất đúng và đủ' (01:25:43). 'bế tắc' is at 01:26:14."
+ },
+ {
+  "id": "c047",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "DHA là một cái axit béo không no nhưng mà có đặc điểm là nhiều gì ạ?",
+    "timestamp": "01:29:04",
+    "timestamp_recomputed": "01:29:04"
+   },
+   {
+    "quote": "DHA nó quá quý cho nên là vì quý như thế nó được coi là vàng của não và mắt.",
+    "timestamp": "01:31:02",
+    "timestamp_recomputed": "01:31:02"
+   },
+   {
+    "quote": "cá biển và cá bản biển sâu thì lúc đấy chúng ta mới có được rất rất nhiều DHA.",
+    "timestamp": "01:31:23",
+    "timestamp_recomputed": "01:31:23"
+   }
+  ],
+  "speaker": "Doctor in Q&A with host; summary unattributed",
+  "note": "'Nhiều liên kết đôi tức là liên kết pi' is at 01:29:14 and 'Cá biển và cá biển sâu' at 01:31:21. Matches."
+ },
+ {
+  "id": "c048",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nhiều liên kết đôi tức là liên kết pi cho nên nó dễ dàng để cắt nhỏ ra.",
+    "timestamp": "01:29:14",
+    "timestamp_recomputed": "01:29:14"
+   },
+   {
+    "quote": "Thành các đầu tiên là axin coenzyma đúng không?",
+    "timestamp": "01:29:22",
+    "timestamp_recomputed": "01:29:22"
+   }
+  ],
+  "speaker": "Doctor/host quiz exchange; summary unattributed",
+  "note": "'axin coenzyma' is the caption for acetyl-CoA. Matches."
+ },
+ {
+  "id": "c049",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Phi công vũ trụ và huấn luyện bởi cái gì ạ? máy biến áp mag",
+    "timestamp": "01:29:32",
+    "timestamp_recomputed": "01:29:32"
+   },
+   {
+    "quote": "Xuyên màng tế bào để đi vào bên trong và đến đâu ạ? Đến ti thể đốt cháy",
+    "timestamp": "01:29:49",
+    "timestamp_recomputed": "01:29:49"
+   },
+   {
+    "quote": "Tạo ra nước và CO2. nước và CO2 mà chúng ta thải ra ngoài",
+    "timestamp": "01:30:01",
+    "timestamp_recomputed": "01:30:01"
+   }
+  ],
+  "speaker": "Doctor/host quiz exchange; summary unattributed",
+  "note": "L-carnitine appears in the caption as 'l các litin' (01:29:44) and ATP at 01:29:58. The sequence matches."
+ },
+ {
+  "id": "c050",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nhà khoa học người Mỹ ông này trùng có cái tên là của ông ấy là trùng với lại Trà Lip Tông.",
+    "timestamp": "01:35:07",
+    "timestamp_recomputed": "01:35:07"
+   },
+   {
+    "quote": "vào năm 1985 thì trong lúc ông đến giảng dạy cho sinh viên ở trường đạo y về tế bào học thì vào một buổi sáng ông ngồi soạn bài.",
+    "timestamp": "01:35:33",
+    "timestamp_recomputed": "01:35:33"
+   },
+   {
+    "quote": "Tức là trong quá trình soạn giáo án thì ông soạn cấu trúc và màng tế bào thì bắt đầu ông ấy nảy sinh ra những suy nghĩ rất là thần kỳ.",
+    "timestamp": "01:35:47",
+    "timestamp_recomputed": "01:35:47"
+   }
+  ],
+  "speaker": "Doctor; summary unattributed",
+  "note": "Name given only as 'Lip Tông'/'Liptông' (like Lipton tea); 'Bruce' is never spoken. Caribbean is at 01:35:30 and 'nhà sinh học' at 01:34:59. A colon fragment that continues in the next batch."
+ }
+]

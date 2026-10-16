@@ -1,0 +1,462 @@
+[
+ {
+  "id": "c549",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "sản phẩm Glutathion trên thế giới có những sản phẩm bán rất đắt và nó đã trở thành một cái sản phẩm khá hot trên thị trường",
+    "timestamp": "05:19:25"
+   }
+  ],
+  "speaker": "Doctor (Trần Văn Phúc) vs summary: doctor — matches",
+  "note": "Qualifier dropped/hardened: source says 'có những sản phẩm' (some products) sell very expensively and became 'khá hot'; summary generalizes to glutathione overall being 'rất đắt' and 'hot'."
+ },
+ {
+  "id": "c018",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Nó có hai nguồn. Đó, một là cái con ng đường theo con đường gọi là nội sinh. Nội sinh có nghĩa là cái gì? có nghĩa là từ trong chính cơ thể của chúng ta sinh ra.",
+    "timestamp": "00:09:08"
+   }
+  ],
+  "speaker": "Doctor vs summary: unattributed exposition of doctor — matches",
+  "note": "First source = endogenous, generated inside the body."
+ },
+ {
+  "id": "c035",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế hoặc là trong đồ ăn của thức uống của chúng ta không đảm bảo vệ sinh, không đảm bảo an toàn thực phẩm vân vân thì đều có thể gây ra cái hiện tượng đó.",
+    "timestamp": "00:17:14"
+   }
+  ],
+  "speaker": "Doctor vs summary: unattributed doctor exposition — matches",
+  "note": "Hedge 'có thể' preserved."
+ },
+ {
+  "id": "c052",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Ozon nó chính là một cái kẻ cướp thứ tư.",
+    "timestamp": "00:45:24"
+   }
+  ],
+  "speaker": "Doctor vs summary: passive 'được nêu' — matches",
+  "note": "Exact wording."
+ },
+ {
+  "id": "c072",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế thì nếu như mà nó tấn công vào protein, tức là tấn công vào enzyme, vậy thì các phản ứng hóa học trong cơ thể của chúng ta bị ngừng lại.",
+    "timestamp": "00:55:48"
+   },
+   {
+    "quote": "Chúng ta sẽ sinh ra một loạt bệnh.",
+    "timestamp": "00:55:57"
+   }
+  ],
+  "speaker": "Doctor vs summary: unattributed doctor exposition — matches",
+  "note": "Conditional 'nếu' preserved; reactions stop, leading to a series of diseases."
+ },
+ {
+  "id": "c090",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "cái thành phần cảm tử này đầu tiên nó xung phong ra để sẵn sàng chấp nhận cho gốc tự do tấn công.",
+    "timestamp": "01:01:35"
+   },
+   {
+    "quote": "Những cái này nó sẽ nhường electron, nhường H+ để nói trung hòa.",
+    "timestamp": "01:01:43"
+   }
+  ],
+  "speaker": "Doctor vs summary: unattributed — matches",
+  "note": "Combines 'xung phong' and 'nhường electron, nhường H+ để trung hòa'; meaning intact."
+ },
+ {
+  "id": "c109",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nghe nữa. Em cũng đã bổ sung vi chất cho bố chồng bị tiểu đường, kết quả là đường huyết kiểm soát rất tốt, chỉ ở mức 5.5 đến 6.8.",
+    "timestamp": "01:11:52"
+   },
+   {
+    "quote": "Vâng và tôi cũng muốn nhắc đến một bình luận của một bác khán giả có tên là Nguyễn Hiền.",
+    "timestamp": "01:12:16"
+   },
+   {
+    "quote": "Thế thì chồng chị bổ sung cái thì đường huyết nó giảm xuống.",
+    "timestamp": "02:11:08"
+   }
+  ],
+  "speaker": "Viewer comment (điều dưỡng Ngân) read by Khánh Lành; doctor responds only later — claim scoped to this segment",
+  "note": "BORDERLINE: within the 01:11:21 reading segment the doctor does not respond (next comment follows), so scoped claim holds; but doctor does address it later (~01:53:23 and 02:10:53–02:11:58), so the claim could mislead if read as 'never answered'."
+ },
+ {
+  "id": "c129",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "tách dần viên vitamin tổng hợp thành các viên vitamin lẻ đối với những loại có thể.",
+    "timestamp": "01:24:52"
+   }
+  ],
+  "speaker": "Viewer (comment read by Khánh Lành) vs summary 'người xem' — matches",
+  "note": "Includes 'với những loại có thể' qualifier."
+ },
+ {
+  "id": "c148",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đó thì trong trạng thái ngủ thì giai đoạn đầu của ngủ chúng ta sẽ là ngủ mơ. Ngủ mơ ở đây tức là trạng thái trong y khoa người ta gọi nó là rem.",
+    "timestamp": "02:26:31"
+   },
+   {
+    "quote": "Khi chúng ta đang vừa mới thức đi bắt đầu ngủ thì lúc ngủ đó là chúng ta sẽ mơ rất nhiều.",
+    "timestamp": "02:26:44"
+   },
+   {
+    "quote": "Hoặc là chúng ta đang ngủ chuẩn bị thức đến cái giai đoạn chuẩn bị thức thì cái giai đoạn đó là cái giai đoạn mà chúng ta mơ rất nhiều.",
+    "timestamp": "02:26:52"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Bác sĩ nói' — matches",
+  "note": "Faithful to doctor's statement (no medical correction applied)."
+ },
+ {
+  "id": "c168",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Có người vào nói rằng là em bị sốt, vừa mới sốt hôm qua, ngày hôm nay đã đi khám và đòi bằng được phải có thuốc để uống.",
+    "timestamp": "02:38:31"
+   },
+   {
+    "quote": "Tại sao chúng ta không chờ đợi?",
+    "timestamp": "02:38:40"
+   }
+  ],
+  "speaker": "Doctor vs summary 'bác sĩ nêu' — matches",
+  "note": "'có thể chờ thêm' paraphrases rhetorical 'Tại sao chúng ta không chờ đợi?'."
+ },
+ {
+  "id": "c188",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đó là khi chúng ta xét nghiệm mà dưới 30 NOG/ ml thì chúng ta đang rơi vào trạng thái đây là vô gia cư đúng không ạ?",
+    "timestamp": "02:44:45"
+   },
+   {
+    "quote": "Thế còn từ 30 cho đến 40 thì đây là trạng thái gì ạ? Nghèo nghèo à.",
+    "timestamp": "02:44:56"
+   },
+   {
+    "quote": "Thế còn 40 cho đến 50 thì gì ạ? Thì đây là cận nghèo.",
+    "timestamp": "02:45:02"
+   },
+   {
+    "quote": "Cận nghèo. Thế còn từ 50 đến 70 thì đây là lý tưởng đúng không ạ?",
+    "timestamp": "02:45:07"
+   }
+  ],
+  "speaker": "Doctor (with Khánh Lành echoing 'cận nghèo') vs summary 'Theo bác sĩ' — matches",
+  "note": "All four bands and labels match; framing as doctor's metaphor is accurate."
+ },
+ {
+  "id": "c206",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Thế thì ở đây cái đầu tiên chúng ta phải chăm sóc đó là về cái thân thể của chúng ta. Tức là chúng ta phải có một cái sức khỏe thật tốt.",
+    "timestamp": "01:39:23"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Bác sĩ nói' — matches",
+  "note": "Said in the context of how to study well/remember; first step is bodily health."
+ },
+ {
+  "id": "c225",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Mục tiêu tâm là sau khi học bài này, chúng ta chia sẻ được cái điều này với lại xã hội, với lại tất cả những các cái vấn đề đạo đức con người đến đâu.",
+    "timestamp": "01:45:48"
+   }
+  ],
+  "speaker": "Doctor vs summary — matches",
+  "note": "Close paraphrase."
+ },
+ {
+  "id": "c242",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "này. Tôi cứ nhớ tôi khi tôi sang bên Nhật Bản tôi nhìn thấy là đầu tiên thời kỳ đó chưa có Covid đâu.",
+    "timestamp": "02:02:17"
+   },
+   {
+    "quote": "Nhưng mà tôi vào trong một cái lớp mà của học sinh tiểu học tôi thấy rằng các cháu đeo khẩu trang hết tất cả.",
+    "timestamp": "02:02:22"
+   },
+   {
+    "quote": "thì hóa ra người ta học sinh rất dễ bị ốm, rất dễ bị cảm cúm, rất dễ bị cảm lạnh, rất dễ bị nhiễm các cái bệnh về virus, bệnh về vi khuẩn, những bệnh về đường hô hấp.",
+    "timestamp": "02:02:35"
+   }
+  ],
+  "speaker": "Doctor (personal anecdote) vs summary 'Ông kể' — matches",
+  "note": "BORDERLINE minor: summary says 'được giải thích là'; source says 'hóa ra' (it turned out) without stating someone explained. 'trước đại dịch' = 'chưa có Covid'. Substance intact."
+ },
+ {
+  "id": "c265",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "là tất cả những bệnh nhân trên kênh đã phản ánh rằng tôi đang đường huyết tiểu đường không ổn định.",
+    "timestamp": "02:11:40"
+   },
+   {
+    "quote": "Bây giờ sau khi bổ sung vi chất tôi giảm được liều thuốc, có những người bỏ được, có những người đường huyết đang cao trở về bình thường, còn bị nặng quá rồi không trở về được bình thường nữa.",
+    "timestamp": "02:11:48"
+   }
+  ],
+  "speaker": "Doctor reporting patient reports vs summary 'Theo phản ánh của bệnh nhân trên kênh' — matches",
+  "note": "'một số người' matches 'có những người'; severe cases caveat retained."
+ },
+ {
+  "id": "c282",
+  "class": "attribution_qualification",
+  "evidence": [
+   {
+    "quote": "Và tôi cho rằng cái này nó do những cái đau đầu hay là những cái triệu chứng gì đó chúng ta hãy đi tìm theo cái hướng khác và dường như có những cái ẩn chứa phía sau.",
+    "timestamp": "02:18:22"
+   },
+   {
+    "quote": "Đau dây thần kinh số 5 đến giờ phút này tôi cho rằng vẫn là nguyên nhân gốc tự do nó tấn công vào đây này.",
+    "timestamp": "02:21:38"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Ông cho rằng' — speaker matches",
+  "note": "BORDERLINE: hedge added/softened — doctor says 'tôi cho rằng vẫn là nguyên nhân gốc tự do' (no 'có thể'); summary says pain 'có thể do' free radicals. 'cần tìm hướng khác' is supported."
+ },
+ {
+  "id": "c301",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "là một thương binh, từng làm nghề mộc và hiện đang sinh sống tại Hưng Yên.",
+    "timestamp": "02:54:17"
+   }
+  ],
+  "speaker": "Patient's letter (read by Khánh Lành) vs summary unattributed — matches",
+  "note": "Exact facts."
+ },
+ {
+  "id": "c317",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Khi MPV giảm nghĩa là các tế bào tiểu cầu sinh ra bị teo nhỏ, giả cỗi [âm nhạc] và thiếu đi sức sống thanh xuân.",
+    "timestamp": "03:13:53"
+   },
+   {
+    "quote": "khả năng tự chữa lành các tổn thương vi mạch bị đình trệ, mạch máu trở nên mong [âm nhạc] manh, dễ bầm tím",
+    "timestamp": "03:14:15"
+   }
+  ],
+  "speaker": "Doctor's written review read by Khánh Lành vs summary 'Phần nhận xét' — matches",
+  "note": "Note: the self-repair/bruising consequence is attributed in source to bone-marrow decline producing such platelets; summary compresses but meaning intact."
+ },
+ {
+  "id": "c335",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Chúng ta thấy rằng đấy là những cái vòng xoắn mà liên quan tới cái chủ đề ngày hôm nay đó chính là gốc tự do.",
+    "timestamp": "04:03:29"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Ông cho rằng' — matches",
+  "note": "Said about high uric acid/cholesterol in thin people."
+ },
+ {
+  "id": "c351",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Feritin ở đây tăng lên nhẹ nhàng chỉ vì nó là một protein ứng pha cấp, một phản ứng tự vệ mang tính bản năng của thân thể trước những ngọn lửa viêm mạn tính da rằng",
+    "timestamp": "03:22:41"
+   },
+   {
+    "quote": "khép bớt cánh cửa kho dự trữ, giữ lại một phần sắt bên trong để ngăn không cho các tác nhân, viêm hay là vi khuẩn có cơ hội lợi dụng nguyên liệu này",
+    "timestamp": "03:23:05"
+   }
+  ],
+  "speaker": "Doctor's written review read by Khánh Lành vs summary 'được giải thích' — matches",
+  "note": "Faithful paraphrase."
+ },
+ {
+  "id": "c368",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "tham chiếu từ 11 đến 24, đồng giảm còn 68,2 tham chiếu từ 70 đến 140",
+    "timestamp": "03:24:12"
+   }
+  ],
+  "speaker": "Review text read by Khánh Lành — matches",
+  "note": "Numbers match."
+ },
+ {
+  "id": "c386",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Đã bao năm rồi bác quên mất cách uống nước, chỉ đợi khi cổ họng khô khốc mới nhấp một cụm nhỏ",
+    "timestamp": "03:34:58"
+   }
+  ],
+  "speaker": "Doctor's written review (read aloud by Khánh Lành; doctor confirms he wrote it at 03:43:52) vs summary 'Bác sĩ nói' — acceptable",
+  "note": "Attribution to doctor acceptable since text is his written assessment."
+ },
+ {
+  "id": "c403",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Giữ ấm tuyệt đối cho đôi bàn chân cùng vòng ngực mỗi khi gió mùa xe lạnh [âm nhạc] và đi ngủ trước 10:00 đêm.",
+    "timestamp": "03:38:41"
+   }
+  ],
+  "speaker": "Doctor's written review read by Khánh Lành vs summary 'Transcript khuyên' — matches",
+  "note": "'gió mùa tràn về' vs 'gió mùa xe lạnh' trivial wording difference."
+ },
+ {
+  "id": "c420",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Rõ ràng cả ba tạng đó là ba tạng rất quan trọng và cái nguồn cơn sinh ra gốc tự do.",
+    "timestamp": "03:56:18"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Bác sĩ coi' — matches",
+  "note": "Brain, heart, lungs."
+ },
+ {
+  "id": "c436",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "chỗ rằng những người con đang chăm lo cho bác rất cẩn thận, rất chu đáo",
+    "timestamp": "04:04:52"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Bác sĩ khen' — matches",
+  "note": "Praise is specifically of the children caring for him; 'gia đình' acceptable."
+ },
+ {
+  "id": "c454",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Chị ăn đường rất nhiều đường mía rất nhiều.",
+    "timestamp": "04:20:34"
+   },
+   {
+    "quote": "và đường là ăn quá đà là kẻ thù hàng đầu để tạo ra gốc tự do.",
+    "timestamp": "04:20:37"
+   },
+   {
+    "quote": "Nó gây ra cái tình trạng đường nó đốt cháy với tốc độ quá nhiều, tích lũy quá nhiều dẫn tới gốc tự do do đường này sinh ra rất nhiều",
+    "timestamp": "04:20:45"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Bác sĩ nói' — matches (doctor calls her 'chị Hằng' though the sugar story is Nguyễn Nhung's comment; summary says only 'chị')",
+  "note": "BORDERLINE: source's 'ăn quá đà' (when overeaten) qualifier not stated verbatim, but summary keeps the excess condition ('khi đốt quá nhanh và tích lũy quá nhiều')."
+ },
+ {
+  "id": "c472",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "nhà máy đây có tên gọi là Glutathion. Thêm cái để sửa chữa thì nó là redacta.",
+    "timestamp": "04:32:09"
+   },
+   {
+    "quote": "Nhà máy này để hoạt động được thì nó cần phải cung cấp năng lượng là NA DPH. Đây là cái năng lượng mà nó sinh ra ở trong quá trình hô hớp tế bào",
+    "timestamp": "04:32:22"
+   }
+  ],
+  "speaker": "Doctor vs summary unattributed — matches",
+  "note": "Transcript spelling 'redacta' correctly noted."
+ },
+ {
+  "id": "c490",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Enzyme GST là cái enzym mà nó chỉ cho cái glutathion này biết rằng chỗ nào đang có nhiều độc chất để nó lao đến. Đấy là cái enzyme này có ý nghĩa thứ nhất đó là chỉ điểm.",
+    "timestamp": "04:42:58"
+   }
+  ],
+  "speaker": "Doctor vs summary — matches",
+  "note": "GST role 1 = pointing."
+ },
+ {
+  "id": "c507",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "xưởng trộn màu này có một anh thợ gọi là anh thợ Tirosina.",
+    "timestamp": "04:56:20"
+   },
+   {
+    "quote": "Trung Hòa mất rồi thì sẽ không có tín hiệu báo. Vậy anh này không trộn sơn đen.",
+    "timestamp": "04:59:05"
+   },
+   {
+    "quote": "anh Glutaton này anh lại khóa tay anh thợ này không cho anh ấy làm việc.",
+    "timestamp": "04:59:28"
+   }
+  ],
+  "speaker": "Doctor vs summary — matches",
+  "note": "Neutralize radicals → no signal; lock tyrosinase's hands."
+ },
+ {
+  "id": "c524",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Cho nên công nghệ libos cũng không phải sản phẩm nào chúng ta uống cũng tốt được.",
+    "timestamp": "05:10:55"
+   }
+  ],
+  "speaker": "Doctor vs summary 'theo bác sĩ' — matches",
+  "note": "Exact."
+ },
+ {
+  "id": "c542",
+  "class": "supported",
+  "evidence": [
+   {
+    "quote": "Bổ sung đủ cái này nhưng là ta lại phải bổ sung đủ vi chất nữa thì lúc đấy mới hiệu quả lên.",
+    "timestamp": "05:16:43"
+   },
+   {
+    "quote": "Và cơ thể lúc đấy tổng hợp rất dồi rào.",
+    "timestamp": "05:16:49"
+   }
+  ],
+  "speaker": "Doctor vs summary 'Bác sĩ nói' — matches",
+  "note": "Food substrates + micronutrients → abundant synthesis."
+ }
+]
