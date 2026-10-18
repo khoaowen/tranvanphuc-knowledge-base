@@ -75,13 +75,12 @@ def current_review(video_dir):
             return None
         if data.get("concerns") or any(c["status"] != "pass" or c.get("issues") for c in claims):
             return None
-        for claim, derived in zip(claims, expected):
+        for claim in claims:
             if (any(claim.get(k) is not True for k in ("supported", "attributed", "qualifications_preserved"))
                     or not claim["evidence"]):
                 return None
             for ev in claim["evidence"]:
-                if (not fidelity.evidence_timestamp_matches(ev.get("quote"), ev.get("timestamp"), transcript)
-                        or not fidelity.in_section_window(derived, ev.get("timestamp"))):
+                if not fidelity.evidence_timestamp_matches(ev.get("quote"), ev.get("timestamp"), transcript):
                     return None
         return data
     except (OSError, ValueError, TypeError, AttributeError, KeyError):

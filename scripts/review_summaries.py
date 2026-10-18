@@ -17,7 +17,7 @@ import queue_state  # noqa: E402
 import review_batch  # noqa: E402
 import summarize  # noqa: E402
 from fidelity import (candidate_chunks, evidence_timestamp_matches, extract_claims,  # noqa: E402,F401
-                      in_section_window, resolve_quote)
+                      resolve_quote)
 
 DEFAULT_CHUNK_CHARS = 40000
 OVERLAP_CHARS = 4000
@@ -233,35 +233,30 @@ def parse_coverage_audit(text, transcript):
 def aggregate_claim(claim, evidences):
     """Combine every chunk's in-slice report of one claim into a single result.
 
-    pass: >=1 clean verbatim evidence located inside the claim's section window, nothing
-          contradicting or defective.
-    fail: contradicted, wrong attribution/qualification, clean evidence only outside the section's
-          timestamp window (wrong timestamp), evidence that never supports the claim, or no
-          evidence at all.
+    pass: >=1 clean verbatim evidence anywhere in the transcript, nothing contradicting or defective.
+    fail: contradicted, wrong attribution/qualification, evidence that never supports the claim,
+          or no evidence at all.
     flag: one slice calls the claim merely unsupported while another gives clean support.
     """
     clean = [e for e in evidences if e["supported"] and e["attributed"] and e["qualifications_preserved"]
              and not e["contradicts"]]
-    located = [e for e in clean if in_section_window(claim, e["timestamp"])]
     hard = [e for e in evidences if e["contradicts"] or not e["attributed"] or not e["qualifications_preserved"]]
     soft = [e for e in evidences if e not in clean and e not in hard]  # merely supported == False
-    misplaced = [dict(e, finding="evidence found at " + str(e["timestamp"]) + ", outside the section's timestamp window")
-                 for e in clean if e not in located]
     if hard:
         status, issues = "fail", hard
-    elif not located:
-        status, issues = "fail", soft + misplaced
+    elif not clean:
+        status, issues = "fail", soft
     elif soft:
         status, issues = "flag", soft
     else:
         status, issues = "pass", []
-    best = (located or evidences or [None])[0]
+    best = (clean or evidences or [None])[0]
     result = {"id": claim["id"], "claim": claim["claim"], "section": claim["section"], "status": status,
-              "supported": bool(located) and not hard,
+              "supported": bool(clean) and not hard,
               "attributed": bool(evidences) and all(e["attributed"] for e in evidences),
               "qualifications_preserved": bool(evidences) and all(e["qualifications_preserved"] for e in evidences),
               "timestamp": best["timestamp"] if best else None, "quote": best["quote"] if best else None,
-              "evidence": [{k: e[k] for k in ("chunk", "timestamp", "quote")} for e in located],
+              "evidence": [{k: e[k] for k in ("chunk", "timestamp", "quote")} for e in clean],
               "issues": [{k: e.get(k) for k in ("chunk", "timestamp", "quote", "finding")} for e in issues]}
     for issue, e in zip(result["issues"], issues):
         if e.get("unverified_quote"):

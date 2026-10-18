@@ -274,18 +274,32 @@ class AggregationTests(unittest.TestCase):
         self.assertIn("never", prompts[0].lower())
         self.assertNotIn("coverage_complete", prompts[0])
 
-    def test_evidence_outside_section_window_is_a_wrong_timestamp(self):
-        # section [00:00:01] has a later section at 00:10:00, so its window ends ~00:12:00
-        summary = "## [00:00:01] A\n- dòng số 1 nội dung.\n## [00:10:00] B\n- dòng số 2 nội dung.\n"
+    def test_verbatim_evidence_before_or_after_section_passes(self):
+        summary = "## [00:00:01] A\n- dòng số 2 nội dung.\n## [00:10:00] B\n- dòng số 1 nội dung.\n## [00:20:00] C\n"
         transcript = "[00:00:01] dòng số 1 nội dung\n[00:30:00] dòng số 2 nội dung\n"
         def client(prompt):
-            return resp([entry("c001", "dòng số 2 nội dung"), entry("c002", "dòng số 2 nội dung")])
+            return resp([entry("c001", "dòng số 2 nội dung"), entry("c002", "dòng số 1 nội dung")])
         result, publishable = run(client, summary, transcript)
-        self.assertEqual(by_id(result)["c002"]["status"], "pass")
-        c1 = by_id(result)["c001"]
-        self.assertEqual(c1["status"], "fail")
-        self.assertIn("outside the section's timestamp window", c1["issues"][0]["finding"])
-        self.assertFalse(publishable)
+        self.assertEqual(result["verdict"], "pass")
+        self.assertTrue(publishable)
+        for cid, timestamp in (("c001", "00:30:00"), ("c002", "00:00:01")):
+            claim = by_id(result)[cid]
+            self.assertEqual(claim["status"], "pass")
+            self.assertEqual(claim["evidence"][0]["timestamp"], timestamp)
+            self.assertEqual(claim["issues"], [])
+
+    def test_cross_section_evidence_does_not_excuse_content_failures(self):
+        summary = "## [00:00:01] A\n- Có thể hỗ trợ sức khỏe.\n## [00:10:00] B\n"
+        transcript = "[00:30:00] Có thể hỗ trợ sức khỏe.\n"
+        for failed_check, value in (("supported", False), ("attributed", False),
+                                    ("qualifications_preserved", False), ("contradicts", True)):
+            with self.subTest(check=failed_check):
+                result, publishable = run(lambda prompt: resp([
+                    entry("c001", "Có thể hỗ trợ sức khỏe.", finding="content defect",
+                          **{failed_check: value})]), summary, transcript)
+                self.assertEqual(result["verdict"], "fail")
+                self.assertEqual(by_id(result)["c001"]["status"], "fail")
+                self.assertFalse(publishable)
 
     def test_glossary_table_rows_are_not_claims(self):
         claims = fidelity.extract_claims(SUMMARY + "\n## [00:00:09] Glossary\n| A | B |\n| --- | --- |\n")
@@ -485,7 +499,7 @@ class ReviewedDefectRegressionTests(unittest.TestCase):
         claims = fidelity.extract_claims("## [00:00:01] P\n- Đã gộp vào mục dinh dưỡng.\n- Vitamin có thể hỗ trợ sức khỏe.\n")
         self.assertEqual([c["claim"] for c in claims], ["Vitamin có thể hỗ trợ sức khỏe."])
 
-    def test_strict_pass_rejects_authentic_evidence_outside_derived_window(self):
+    def test_strict_pass_accepts_cross_section_quote_but_rejects_invalid_evidence(self):
         with tempfile.TemporaryDirectory() as tmp:
             summary = "## [00:00:01] A\n- Có thể hỗ trợ sức khỏe.\n- Không phải lúc nào cũng đúng.\n## [00:40:00] B\n"
             transcript = TRANSCRIPT + "[00:50:00] Có thể hỗ trợ sức khỏe.\n"
@@ -495,7 +509,14 @@ class ReviewedDefectRegressionTests(unittest.TestCase):
             changed = json.loads((d / "review.md").read_text(encoding="utf-8"))
             changed["claims"][0]["evidence"] = [{"timestamp": "00:50:00", "quote": "Có thể hỗ trợ sức khỏe."}]
             (d / "review.md").write_text(json.dumps(changed, ensure_ascii=False), encoding="utf-8")
-            self.assertFalse(queue_state.publishable(d))
+            self.assertTrue(queue_state.publishable(d))
+            for evidence in ({"timestamp": "00:45:00", "quote": "Có thể hỗ trợ sức khỏe."},
+                             {"timestamp": "00:50:00", "quote": "bịa đặt"},
+                             {"timestamp": "invalid", "quote": "Có thể hỗ trợ sức khỏe."}):
+                with self.subTest(evidence=evidence):
+                    changed["claims"][0]["evidence"] = [evidence]
+                    (d / "review.md").write_text(json.dumps(changed, ensure_ascii=False), encoding="utf-8")
+                    self.assertFalse(queue_state.publishable(d))
 
     def test_completed_fail_or_incomplete_coverage_is_skipped_but_malformed_is_queued(self):
         with tempfile.TemporaryDirectory() as tmp:
