@@ -56,6 +56,8 @@ A human reviewer can open one record per claim, see the summary sentence beside 
 
 - Superseding the earlier model-free stance: user approved subagents on `anthropic/claude-opus-5-5` (availability unverified) for claim-by-claim reading, each given the full transcript. A second independent pass re-checks every non-supported claim; a script verifies each quote is verbatim in `transcript.md`. Approval of proposed corrections is a later, separate phase. The same model may review each correction and record approve/reject plus rationale; its verdict is binding (user-accepted); applying corrections is outside this audit phase.
 
+- Amendment (2026-10-18): corrections for q7uDJG8YQ5c only were approved and applied by the human; "pending-human-approval" and "no applying" still hold for V-Qfwjo28Zg. Requirement text unchanged.
+
 ## Open Questions
 
 - Confirm `claude-opus-5-5` is accepted by the subagent runtime before launch.

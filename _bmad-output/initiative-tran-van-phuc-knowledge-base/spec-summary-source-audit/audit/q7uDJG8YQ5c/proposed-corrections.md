@@ -1,10 +1,10 @@
 # Proposed corrections — q7uDJG8YQ5c
 
-Every item remains `pending-human-approval`; none has been applied. The claude-opus-5-5 reviewer verdict is binding for the recommendation only; no human approval is inferred here. Each item includes supporting transcript evidence and the reviewer verdict/rationale. Claims c065 and c108 are omitted because the final adjudication classed them supported.
+Revision 2, 24 items. All 24 approved by the human on 2026-10-15 (see approval-record.md); none applied yet. Reconciliation note: c065 and c108 were missing from this file and were added from proposed-corrections.r1.md (c108 as is; c065 with the reviewer-suggested text in corrections-review.md, because the reviewer rejected the r1 text). Items tagged r2 were revised; the others carry the r1 text the reviewer approved. Quote checks are in the apply story.
 
 ## c001
 - **Reviewer verdict:** reject — Changed wording: the transcript says '15 giây đầu tiên hay là những video ngắn' (the first 15 seconds, or short videos), but the proposal rewrites this as 'video rất ngắn (15 giây)'. The rest is faithful.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Các video ngắn (15 giây, 10 đến 15 phút hoặc tối đa 20 phút) chủ yếu đáp ứng nhu cầu giải trí đơn thuần và lấp đầy những khoảng thời gian trống rời rạc của khán giả.
 - **proposed:** Theo quan điểm bác sĩ Phúc (do Khánh Lành nêu), 15 giây đầu tiên hay những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian trống trải của con người. Các clip 10 đến 15 phút, nhiều lắm khoảng 20 phút là cách tư duy truyền thông ban đầu của Khánh Lành và ekip; bác sĩ Phúc cho rằng làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân.
@@ -16,7 +16,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c013
 - **Reviewer verdict:** approve — Matches 00:44:30-00:46:42: he gives Mozart (35) and Beethoven (56) as examples where L 'không nhiều lắm' but 'trải nghiệm rất rộng'. Nothing is added.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Minh chứng cho sức sáng tạo khổng lồ từ những giới hạn này bao gồm:
 - **proposed:** Bác sĩ Phúc lấy Mozart (35 tuổi) và Beethoven (56 tuổi) làm ví dụ: chiều dài cuộc đời (L) không nhiều nhưng trải nghiệm rất rộng.
@@ -28,7 +28,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c015
 - **Reviewer verdict:** approve — Matches 00:45:56-00:46:09: 56 years, nine symphonies, and only No. 9 called 'đỉnh cao nhất'.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Ludwig van Beethoven: Sống 56 năm và sáng tác 9 bản giao hưởng đỉnh cao.
 - **proposed:** Ludwig van Beethoven: sống 56 năm, để lại 9 bản giao hưởng; theo bác sĩ Phúc, đỉnh cao nhất là bản giao hưởng số 9.
@@ -40,7 +40,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c019
 - **Reviewer verdict:** reject — Two misattributions. 'Tin rằng trong thế kỷ 21' is said only about 150 years, not 175. 'Mục tiêu của nhóm' (00:47:48) is about getting viewers to see 70-80 as the start of life, not about longevity. It also drops the transcript's 'xu hướng khoa học/một số nhà khoa học, quốc gia' context. The bracket resolves as SUPPORTED: 70-80 is the team's goal at 00:47:48-00:48:00 ('đang là cái tuổi sung sức').
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Dù quan niệm xưa chỉ giới hạn khoảng 60–100 tuổi, khoa học thế kỷ 21 hướng tới việc kéo dài tuổi thọ lên 130, 140, 150 đến 175 tuổi và coi độ tuổi 70–80 mới là bắt đầu giai đoạn sung sức.
 - **proposed:** Quan niệm xưa (trong lời nói về hàm tuổi tác): 60 năm cuộc đời, 70 'xưa nay hiếm', cha ông mơ ước 100 tuổi; bác sĩ Phúc nói biên độ tuổi 'loanh quanh' khoảng 100 tuổi. Ông 'vẫn hy vọng' kéo dài tuổi thọ lên 130, 140, 150 và 175 tuổi; xu hướng khoa học, một số nhà khoa học và một số quốc gia đang tính đến chuyện vượt qua 100 tuổi, và ông 'tin rằng' trong thế kỷ 21 'hoàn toàn làm được' việc giúp con người sống đến 150 tuổi. Riêng mục tiêu của ông, Khánh Lành và ekip là muốn khán giả coi tuổi 70-80 mới là bước vào cuộc đời, đang là tuổi sung sức.
@@ -52,7 +52,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c029
 - **Reviewer verdict:** approve — Keeps his absolute wording ('cách tư duy sai', 'thất bại không bao giờ đi được', 'luôn luôn phải chọn đường vòng') from 00:58:26-00:59:04.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Tư duy muốn đi thẳng từ điểm A đến điểm B để đốt cháy giai đoạn thường thất bại, giống như đi từ nhà đến cơ quan sẽ gặp tắc đường hoặc sửa đường nên phải chọn đi đường vòng.
 - **proposed:** Theo bác sĩ Phúc, cách tư duy muốn đi thẳng từ điểm A đến điểm B để đốt cháy giai đoạn là sai; ví dụ đi từ nhà đến cơ quan bằng đường thẳng thì 'thất bại không bao giờ đi được', vì có đoạn tắc đường hoặc sửa đường nên luôn phải chọn đường vòng.
@@ -65,7 +65,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c036
 - **Reviewer verdict:** approve — Matches 01:08:26-01:08:39 word for word ('luôn xuất phát đều là những nhà sử học', a single 'trung tâm tài chính sừng sỏ nhất nước Mỹ').
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Nhiều nhà phân tích tài chính hàng đầu tại các trung tâm tài chính lớn ở Mỹ có xuất phát điểm là các nhà sử học.
 - **proposed:** Theo bác sĩ Phúc, các nhà phân tích tài chính hàng đầu nước Mỹ từ xưa đến nay luôn xuất phát đều là nhà sử học (nói về trung tâm tài chính sừng sỏ nhất nước Mỹ).
@@ -76,7 +76,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c045
 - **Reviewer verdict:** reject — Wrong scope of attribution. 'Kinh nghiệm của tôi' applies only to 70-80 ng/ml. The 50-70 range is 'nhiều chuyên gia dinh dưỡng... quan điểm của tôi cũng thế', not 'một số chuyên gia'. 'Được chọn' is not in the transcript.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Nồng độ Vitamin D3 trong máu đạt mức lý tưởng là 50–70 ng/ml và mức tuyệt vời là 70–80 ng/ml.
 - **proposed:** Theo nhiều chuyên gia dinh dưỡng trên thế giới và quan điểm của bác sĩ Phúc, vitamin D trong máu 50-70 ng/ml là con số lý tưởng; theo kinh nghiệm của ông, đưa lên 70-80 ng/ml là con số 'phải nói là tuyệt vời'.
@@ -87,7 +87,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c063
 - **Reviewer verdict:** reject — Quantifier softened: the transcript says 'nhiều bậc phụ huynh' / 'có nhiều quý vị là con cái đang học điểm khá là thấp', but the proposal says 'một số phụ huynh'. Otherwise correct, and it splits the two anecdotes faithfully.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Việc bổ sung DHA, Omega-3 kết hợp cùng Vitamin D và các vi chất cho trẻ nhỏ trong khoảng 3 đến gần 4 tháng đã ghi nhận những thay đổi đáng kể về kết quả học tập cũng như khả năng ngôn ngữ, giao tiếp.
 - **proposed:** Bác sĩ Phúc kể: nhiều phụ huynh có con đang học điểm khá thấp, sau khi bổ sung DHA, Omega 3, tăng DHA lên một chút, vitamin D và các vi chất thì 'một thời gian sau' kết quả học thay đổi đáng kể; ở một trường hợp khác, một anh đến cảm ơn vì con anh lúc đầu 'ăn không nên loại và nói không nên lời', không có bạn gái, sau khi bổ sung 'hơn 3 tháng gần 4 tháng' thì anh báo cáo con bắt đầu nói có văn có lời và có bạn gái.
@@ -100,7 +100,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c064
 - **Reviewer verdict:** reject — Drops article content that is in the source: omega-3 'giúp giảm viêm, điều hòa huyết áp, rất quan trọng cho não và tim'. The bracket should resolve to the article's full list: tiểu đường, hội chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư. The current summary omits hội chứng ruột kích thích.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Omega-6 (tìm thấy trong các loại dầu thực vật như hoa hướng dương, dầu ngô) có xu hướng gây viêm, còn Omega-3 (có trong cá béo) giúp chống viêm, điều hòa huyết áp và giảm nguy cơ tiểu đường, đột quỵ, viêm khớp, hen suyễn, ung thư.
 - **proposed:** Theo bài báo được đọc, Omega-6 có trong các loại dầu thực vật như hoa hướng dương, dầu ngô; Omega-3 có trong cá béo, giúp giảm viêm, điều hòa huyết áp, rất quan trọng cho não và tim, và 'gắn liền với giảm nguy cơ' nhiều bệnh gồm tiểu đường, hội chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư. Bài báo nói Omega-3 là chất chống viêm, còn Omega-6 'có xu hướng gây viêm'.
@@ -109,9 +109,22 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 - **more** [01:55:16]: "Chúng cũng gắn liền với giảm nguy cơ nhiều bệnh bao gồm bệnh tiểu đường, hộ chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư."
 - **more** [01:55:42]: "trong khi Omega 3 là chất chống viêm, Omega6 có xu hướng gây viêm."
 - **revision:** r2 — replaces r1 proposed text (reviewer text, parent-verified); advisory review: reject of r1.
+## c065
+- **Reviewer verdict:** reject — see corrections-review.md (splices the general-trend sentence onto the US 6x figure).
+- **status:** approved
+- **class:** attribution_qualification
+- **current:** Người Mỹ hiện tiêu thụ Omega-6 nhiều gấp 6 lần Omega-3, gây ra sự mất cân bằng liên quan đến béo phì, tiểu đường, bệnh tim, trầm cảm, đau và các bệnh tự miễn.
+- **proposed:** Theo bài báo được đọc, những năm gần đây các nhà khoa học phát hiện hầu hết mọi người đang hấp thụ lượng lớn Omega-6 so với thời trước, trong khi tiêu thụ thực phẩm động vật giàu Omega-3 ở mức thấp nhất từ trước đến nay; sự mất cân đối này liên quan đến béo phì, tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như hen suyễn và các bệnh tự miễn. Bài báo dẫn nghiên cứu của tạp chí 'Hell' cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega-6 nhiều hơn Omega-3 gấp sáu lần.
+- **why:** Dropped in-article source attribution ('Các nghiên cứu của tạp chí Hell cho thấy'); disease association is stated for the general population imbalance and spliced onto the US 6x figure; the article later adds that no study confirms omega-6 causes chronic disease (01:58:15).
+- **supporting quote** [01:55:30]: "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần."
+- **more** [01:54:47]: "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì. Nó cũng liên quan đến bệnh tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như bệnh suuyễn và các bệnh tự miễn dịch."
+- **more** [01:54:29]: "Những năm gần đây, các nhà khoa học phát hiện ra rằng hầu hết mọi người đều đang hấp thụ một lượng lớn các chất béo Omega6 so với thời trước."
+- **passes:** passes disagreed (attribution_qualification vs supported); kept non-supported because a quote-backed qualification/attribution difference is documented by at least one pass; human to confirm
+- **revision:** r2 — replaces r1 proposed text (reviewer suggested text from corrections-review.md; added at reconciliation, supporting quotes checked as transcript substrings at reconciliation).
+
 ## c068
 - **Reviewer verdict:** approve — Restores the 'có thể phòng ngừa' hedge and 'các bệnh liên quan đến trực tràng' exactly as at 01:56:09.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Tỷ lệ 4:1 phòng ngừa nguy cơ bệnh tim (nhưng không giảm nguy cơ bệnh trực tràng).
 - **proposed:** Với tỉ lệ 4:1, 'chúng ta có thể phòng ngừa' nguy cơ bệnh tim (theo tài liệu được đọc; các bệnh liên quan đến trực tràng không giảm).
@@ -121,7 +134,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c069
 - **Reviewer verdict:** approve — Restores the 'có thể giảm' hedge exactly as at 01:56:19.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Tỷ lệ 2:1 hoặc 3:1 giúp giảm hội chứng viêm ở bệnh nhân thấp khớp.
 - **proposed:** Với tỉ lệ 2:1 hay 3:1, 'chúng ta có thể giảm' hội chứng viêm ở bệnh nhân thấp khớp (theo tài liệu được đọc).
@@ -131,7 +144,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c085
 - **Reviewer verdict:** approve — Gut items (viêm dạ dày ruột, ruột kích thích, rò rỉ ruột, trào ngược, táo bón) and the 'rất dễ gây ra' tổn thương tuyến giáp hedge match 02:18:23-02:18:56. Attributing it to the doctor is acceptable: this is a quiz exchange where he confirms the answers.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Tại đường ruột và tuyến giáp: gây hội chứng ruột kích thích, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón, làm tổn thương hệ miễn dịch đường ruột dẫn đến bệnh tuyến giáp (Hashimoto và Basedow).
 - **proposed:** Tại đường ruột: gây viêm dạ dày ruột, hội chứng ruột kích thích, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón; khi đã tổn thương đường ruột thì 'rất dễ gây ra' tổn thương tuyến giáp (Hashimoto và Basedow), theo bác sĩ Phúc.
@@ -142,11 +155,11 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 - **advisory review:** approve (opus-5-5)
 
 ## c087
-- **Reviewer verdict:** approve — 1:1 'tốt nhất', the 'có những nghiên cứu và tài liệu' source for 4:1 to 5:1, and '5 chia 1 đã là quá nhiều rồi' match 02:28:30-02:28:56. 'Đừng để vượt quá 4' is supported at 02:34:29.
-- **status:** pending-human-approval
+- **Reviewer verdict:** approve — 1:1 'tốt nhất', the 'có những nghiên cứu và những tài liệu' source for 4:1 to 5:1, and '5 chia 1 đã là quá nhiều rồi' match 02:28:30-02:28:56. 'Đừng để vượt quá 4' is supported at 02:34:29.
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Tỷ lệ vàng lý tưởng giữa Omega-6 và Omega-3 là 1:1, mức chấp nhận được là 4:1 đến 5:1.
-- **proposed:** Theo bác sĩ Phúc, tỉ lệ lý tưởng Omega-6/Omega-3 là 1:1; 'có những nghiên cứu và tài liệu' nói chấp nhận được 4:1, cùng lắm 5:1 — nhưng ông nói 5:1 'đã là quá nhiều rồi' và đừng để vượt quá 4.
+- **proposed:** Theo bác sĩ Phúc, tỉ lệ lý tưởng Omega-6/Omega-3 là 1:1; 'có những nghiên cứu và những tài liệu' nói chấp nhận được 4:1, cùng lắm 5:1 — nhưng ông nói 5:1 'đã là quá nhiều rồi' và đừng để vượt quá 4.
 - **why:** Dropped: the source attribution for 4:1-5:1, and the doctor's caveat that 5:1 is the upper limit and 'đã là quá nhiều rồi' (already too much). He later says not to reach 4 or 5 (see c097).
 - **supporting quote** [02:28:30]: "Trong khi đấy tỉ lệ vàng là tất cả những cái này chia cho nhau một cách hợp lý và tốt nhất là tỉ lệ 1 chia 1 đúng không ạ?"
 - **more** [02:28:43]: "Có những nghiên cứu và những tài liệu nói rằng chấp nhận được tỉ lệ những cái này đem chia ra thì là 4 chia 1 thì được."
@@ -155,7 +168,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c106
 - **Reviewer verdict:** reject — Drops 'và chuyển hóa' from the article's 'hấp thu và chuyển hóa tốt hơn'. The bracket resolves to removing '(TG hoặc rTG)', which is correct because the article names only triglycerit vs ethyl ester and rTG comes up later. Delete the bracket note from the final text.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Dạng Triglycerit (TG hoặc rTG): Bền hơn, ít bị oxy hóa, hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn dạng Ethyl Ester (EE).
 - **proposed:** Theo bài được đọc, Omega 3 có hai dạng là triglycerit và ethyl ester; dạng triglycerit được các chuyên gia khuyên dùng với ưu điểm vượt trội: bền hơn, ít bị oxy hóa hơn, hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn loại ethyl ester.
@@ -165,7 +178,7 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 - **revision:** r2 — replaces r1 proposed text (reviewer text, parent-verified); advisory review: reject of r1.
 
 
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Nguồn nguyên liệu tinh chế, đảm bảo sạch, không chứa tạp chất và kim loại nặng (như dầu cá Na Uy).
 - **proposed:** Bài được đọc nói nguồn nguyên liệu dầu cá phải đảm bảo sạch và tinh chế, không chứa tạp chất và kim loại nặng; dầu cá Na Uy hiện là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.
@@ -175,9 +188,21 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 - **passes:** passes disagreed (attribution_qualification vs supported); kept non-supported because a quote-backed qualification/attribution difference is documented by at least one pass; human to confirm
 - **advisory review:** approve (opus-5-5)
 
+## c108
+- **Reviewer verdict:** approve — see corrections-review.md.
+- **status:** approved
+- **class:** attribution_qualification
+- **current:** Nguồn nguyên liệu tinh chế, đảm bảo sạch, không chứa tạp chất và kim loại nặng (như dầu cá Na Uy).
+- **proposed:** Bài được đọc nói nguồn nguyên liệu dầu cá phải đảm bảo sạch và tinh chế, không chứa tạp chất và kim loại nặng; dầu cá Na Uy hiện là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.
+- **why:** The article only calls Norwegian fish oil 'một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới'. The summary goes further and uses it as an example of a clean source free of impurities and heavy metals, which hardens the article's claim.
+- **supporting quote** [02:40:07]: "Nguồn nguyên liệu dầu cá để sản xuất các sản phẩm Omega 3 phải đảm bảo sạch và tinh chế, đồng thời không chứa các tạp chất và các kim loại nặng."
+- **more** [02:40:13]: "Dầu cá Na Uy hiện nay đang là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới."
+- **passes:** passes disagreed (attribution_qualification vs supported); kept non-supported because a quote-backed qualification/attribution difference is documented by at least one pass; human to confirm
+- **revision:** r1 text kept (advisory review: approve).
+
 ## c113
 - **Reviewer verdict:** approve — Keeps 'đại đa số' and the comparison 'kỳ vọng trong lý thuyết'. Farmed salmon fed on plants is at 02:44:26-02:45:12.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Do cá hồi nuôi ăn chủ yếu là thực vật nên hàm lượng EPA và DHA không cao như cá hồi biển tự nhiên đánh bắt.
 - **proposed:** Bác sĩ Phúc nói đại đa số cá hồi nuôi mua về có hàm lượng EPA và DHA thấp hơn kỳ vọng trong lý thuyết, vì cá hồi nuôi được cho ăn thực vật.
@@ -187,14 +212,20 @@ Every item remains `pending-human-approval`; none has been applied. The claude-o
 
 ## c119
 - **Reviewer verdict:** approve — Keeps the 'được cho là' and advertising framing ('người ta hay quảng cáo', 'một số người lý luận') and his caveat 'phải chờ những các cái nghiên cứu nữa' (02:55:37).
-t ngắn."
+- **status:** approved
+- **class:** attribution_qualification
+- **current:** Dầu nhuyễn thể (krill oil) làm từ tôm Nam Cực được cho là an toàn hơn do sống ở vùng biển sạch và vòng đời ngắn nên chưa kịp tích tụ độc tố.
+- **proposed:** Dầu nhuyễn thể (krill) làm từ tôm Nam Cực được cho là an toàn nhờ sống ở vùng biển sạch và vòng đời ngắn (cách nói quảng cáo); bác sĩ Phúc nói an toàn hay không còn phải chờ các nghiên cứu thêm.
+- **why:** The summary keeps 'được cho là' but drops the doctor's caveat 'an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa'. It also leaves out that this reasoning comes from advertising ('người ta hay quảng cáo').
+- **supporting quote** [02:55:08]: "Cái thời gian sống của cái loài này kích thước nó nhỏ, thời gian sống của nó rất ngắn."
 - **more** [02:55:26]: "Thứ hai nữa là bắt ở khu vực Nam Cực là cái khu mà cái nơi mà không có >> cuộc sống cho nên biển nó sạch."
 - **more** [02:55:37]: "Thế còn an toàn hay không thì cũng phải chờ những các cái nghiên cứu nữa."
 - **advisory review:** approve (opus-5-5)
+- **revision:** r1 text kept; restored in apply run after the block was found corrupted (human to confirm).
 
 ## c123
 - **Reviewer verdict:** reject — Drops the hedge 'có lẽ' on 125% being more reasonable. It also omits that the 3-4x figure comes from 'có những tài liệu nghiên cứu', and that 'hơi nhiều quá' is first given as 'có tài liệu thì nói' before the doctor agrees.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Dạng rTG vừa có hàm lượng EPA + DHA cao, loại bỏ tạp chất, vừa tăng khả năng hấp thu lên 125% so với dầu cá tự nhiên (hoặc gấp 3-4 lần dạng EE).
 - **proposed:** Theo bác sĩ Phúc, dầu cá tái tổ hợp (rTG) 'mang đầy đủ đặc điểm của ety este' (đã cô đặc) và cải thiện khả năng ngấm lên rất nhiều: người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên (lên tới 125%); cũng có những tài liệu nghiên cứu nói rTG ngấm gấp 3 đến 4 lần EE, nhưng có tài liệu nói như thế là 'hơi nhiều quá'; ông nghĩ đến 125% 'có lẽ là hợp lý hơn', đôi khi người ta quảng cáo hơi nhiều.
@@ -206,7 +237,7 @@ t ngắn."
 
 ## c127
 - **Reviewer verdict:** approve — Matches 03:02:08-03:03:00: 'khá tốt nhưng liên quan vấn đề kinh tế', '0,5 là khá đắt rồi', 'đại đa số chấp nhận được 0,5 đến 0,6'.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Từ 0,5 đến 0,6: Sản phẩm khá tốt, hiệu quả cải thiện sức khỏe với mức giá hợp lý.
 - **proposed:** Từ 0,5 đến 0,6: khá tốt; bác sĩ Phúc nói mức này 'khá đắt rồi' nhưng đa số mọi người chấp nhận được 0,5 đến 0,6.
@@ -218,7 +249,7 @@ t ngắn."
 
 ## c128
 - **Reviewer verdict:** reject — Hardens 'bắt đầu hết đau' and 'bắt đầu là hết' into 'hết'. Parkinson's attribution to Khánh Lành is uncertain: the 03:02:47 interjection's speaker turns are ambiguous, so attribute it neutrally.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Từ 0,6 đến 0,7 trở lên: Cho hiệu quả rõ rệt, giúp hỗ trợ cải thiện mỡ máu, tiểu đường, tim mạch, huyết áp, đau khớp, dị ứng (viêm xoang, viêm mũi), cải thiện trí nhớ (Alzheimer, Parkinson).
 - **proposed:** Từ 0,6 trở lên, bác sĩ Phúc nói chúng ta sẽ bỏ được nhiều sản phẩm thuốc như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch ('Tôi thấy rất nhiều người bỏ được'), thuốc huyết áp; khớp đang đau 'bắt đầu hết đau'; phản ứng viêm dị ứng 'bắt đầu là hết'; viêm xoang, viêm mũi 'hết'; trí nhớ 'bắt đầu cải thiện'; Alzheimer 'cải thiện được rất nhiều' (Parkinson được nhắc trong cùng đoạn, người nói không rõ); ông nói từ 0,6 trở lên thì giá thành đắt.
@@ -231,7 +262,7 @@ t ngắn."
 
 ## c135
 - **Reviewer verdict:** reject — Loses supported content. Drops the list at 03:14:59-03:15:16 (tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng), 'quét cái gan nhiễm mỡ đi' (03:15:41), and children with fatty liver or high blood lipids 'vẫn dùng EPA tăng lên' (03:16:03). Only 'bắt buộc' needs softening.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Người bị gan nhiễm mỡ, mỡ máu cao, tiểu đường, đau khớp, cao huyết áp, dị ứng (bao gồm cả trẻ em béo phì, thức khuya chơi game hoặc xem video ngắn bị mỡ máu, gan nhiễm mỡ, rối loạn nhịp tim): Bắt buộc chọn loại có EPA cao hơn DHA (EPA > DHA) để hỗ trợ quét sạch mỡ máu và mỡ gan.
 - **proposed:** Theo bác sĩ Phúc (nói 'tôi đang lấy ví dụ'), những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi (caption ghi 'phải mua APA cao hơn DHA'). Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'. Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'. Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên.
@@ -243,7 +274,7 @@ t ngắn."
 
 ## c136
 - **Reviewer verdict:** approve — Restores the scope 'với người bị gan nhiễm mỡ và mỡ máu' and the 'có nguy cơ' hedge from 03:13:44-03:14:00.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Nếu chọn loại DHA cao hơn EPA có nguy cơ làm tăng mỡ máu xấu và gan nhiễm mỡ.
 - **proposed:** Nếu người bị gan nhiễm mỡ và mỡ máu mua loại DHA lớn hơn EPA thì khi uống có nguy cơ gan nhiễm mỡ và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.
@@ -255,7 +286,7 @@ t ngắn."
 
 ## c137
 - **Reviewer verdict:** reject — Adds the softener 'có thể' (the transcript says 'chúng ta mua cái DHA tăng lên một chút') and drops 'sẽ rất thông minh, mắt sẽ rất tinh'. The child clause is garbled; restore the transcript wording.
-- **status:** pending-human-approval
+- **status:** approved
 - **class:** attribution_qualification
 - **current:** Người khỏe mạnh, xét nghiệm bình thường, trẻ em cần chăm sóc não và mắt: Ưu tiên chọn loại có DHA cao hơn EPA (DHA > EPA) để giúp sáng mắt và thông minh hơn.
 - **proposed:** Còn những ai khỏe mạnh, xét nghiệm tốt đẹp, cơ thể không bị bệnh gì thì bác sĩ Phúc nói 'chúng ta mua cái DHA tăng lên một chút' để ưu tiên cho não và mắt, 'sẽ rất thông minh, sẽ mắt sẽ rất tinh'; các cháu không bị gan nhiễm mỡ, không bị mỡ máu uống DHA thì 'sẽ thông minh lên, mắt sáng hơn'. Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại thì không nên.

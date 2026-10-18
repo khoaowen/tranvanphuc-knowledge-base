@@ -1,0 +1,348 @@
+[
+ {
+  "id": "c001",
+  "from_audit_id": "c001",
+  "section": "[00:00:15] Định hướng sản xuất video dài truyền đạt kiến thức y khoa chuyên sâu",
+  "claim": "Theo quan điểm bác sĩ Phúc (do Khánh Lành nêu), 15 giây đầu tiên hay những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian trống trải của con người.",
+  "evidence": [
+   {
+    "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người",
+    "timestamp": "00:01:13"
+   }
+  ],
+  "speaker": "Host Khánh Lành relays Dr. Phúc's view; summary attributes it to Dr. Phúc via Khánh Lành",
+  "class": "supported",
+  "note": "Attribution and scope match; 'trống trải' normalises the caption's ASR 'chống trải'."
+ },
+ {
+  "id": "c002",
+  "from_audit_id": "c001",
+  "section": "[00:00:15] Định hướng sản xuất video dài truyền đạt kiến thức y khoa chuyên sâu",
+  "claim": "Các clip 10 đến 15 phút, nhiều lắm khoảng 20 phút là cách tư duy truyền thông ban đầu của Khánh Lành và ekip; bác sĩ Phúc cho rằng làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân.",
+  "evidence": [
+   {
+    "quote": "Khánh Lành đang tư duy theo cái cách của truyền thông cùng với cả đội ngũ ekip",
+    "timestamp": "00:13:56"
+   },
+   {
+    "quote": "Đó là làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút",
+    "timestamp": "00:14:04"
+   },
+   {
+    "quote": "sẽ không bao giờ cung cấp được kiến thức cho người dân",
+    "timestamp": "00:14:16"
+   }
+  ],
+  "speaker": "Dr. Phúc describing Khánh Lành and the ekip's initial thinking, then his own view",
+  "class": "supported",
+  "note": "Initial ('thời điểm đầu') plan and Dr. Phúc's objection are both kept."
+ },
+ {
+  "id": "c020",
+  "from_audit_id": "c019",
+  "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
+  "claim": "Quan niệm xưa (trong lời nói về hàm tuổi tác): 60 năm cuộc đời, 70 'xưa nay hiếm', cha ông mơ ước 100 tuổi; bác sĩ Phúc nói biên độ tuổi 'loanh quanh' khoảng 100 tuổi.",
+  "evidence": [
+   {
+    "quote": "60 năm cuộc đời hay là nhân sinh thất thật của Lai Hi tức là người thọ 70 xưa nay hiếm nhưng mà cha ông chúng ta thì vẫn mơ ước rằng 100 tuổi",
+    "timestamp": "00:35:53"
+   },
+   {
+    "quote": "loanh quanh nó cũng chỉ là con số quãng độ 100 tuổi",
+    "timestamp": "00:36:24"
+   }
+  ],
+  "speaker": "Dr. Phúc (host/doctor turns mixed around the 60-year line; summary attributes neutrally)",
+  "class": "supported",
+  "note": "Hedges and attribution kept."
+ },
+ {
+  "id": "c021",
+  "from_audit_id": "c019",
+  "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
+  "claim": "Ông 'vẫn hy vọng' kéo dài tuổi thọ lên 130, 140, 150 và 175 tuổi; xu hướng khoa học, một số nhà khoa học và một số quốc gia đang tính đến chuyện vượt qua 100 tuổi, và ông 'tin rằng' trong thế kỷ 21 'hoàn toàn làm được' việc giúp con người sống đến 150 tuổi.",
+  "evidence": [
+   {
+    "quote": "tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi",
+    "timestamp": "00:36:28"
+   },
+   {
+    "quote": "một số những nhà khoa học, một số những quốc gia đang tính đến chuyện nâng cao tuổi thọ và người ta nghĩ đến chuyện là phải vượt qua con số 100 tuổi",
+    "timestamp": "00:36:50"
+   },
+   {
+    "quote": "Và tôi tin rằng là trong một cái tương lai của thế kỷ 21 này là chúng ta hoàn toàn làm được, sẽ giúp được cho con người sống đến 150 tuổi",
+    "timestamp": "00:36:58"
+   }
+  ],
+  "speaker": "Dr. Phúc, first person",
+  "class": "supported",
+  "note": "Hope and belief framing preserved."
+ },
+ {
+  "id": "c022",
+  "from_audit_id": "c019",
+  "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
+  "claim": "Riêng mục tiêu của ông, Khánh Lành và ekip là muốn khán giả coi tuổi 70-80 mới là bước vào cuộc đời, đang là tuổi sung sức.",
+  "evidence": [
+   {
+    "quote": "Mục tiêu tôi với Khánh Lành với toàn bộ ekip làm ở đây muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi. Và đây đang là cái tuổi sung sức",
+    "timestamp": "00:47:48"
+   }
+  ],
+  "speaker": "Dr. Phúc, first person",
+  "class": "supported",
+  "note": "Matches."
+ },
+ {
+  "id": "c067",
+  "from_audit_id": "c064",
+  "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
+  "claim": "Theo bài báo được đọc, Omega-6 có trong các loại dầu thực vật như hoa hướng dương, dầu ngô;",
+  "evidence": [
+   {
+    "quote": "Axit béo Omega 6 được tìm thấy trong các loại dầu thực vật như hoa hướng dương, dầu ngô",
+    "timestamp": "01:54:57"
+   }
+  ],
+  "speaker": "Dr. Phúc reading a quoted newspaper article",
+  "class": "supported",
+  "note": "Attributed to the article. Fragment ends in ';' because the extractor splits on the semicolon."
+ },
+ {
+  "id": "c068",
+  "from_audit_id": "c064",
+  "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
+  "claim": "Omega-3 có trong cá béo, giúp giảm viêm, điều hòa huyết áp, rất quan trọng cho não và tim, và 'gắn liền với giảm nguy cơ' nhiều bệnh gồm tiểu đường, hội chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư.",
+  "evidence": [
+   {
+    "quote": "Omega 3 được tìm thấy trong cá béo, giúp giảm viêm, điều hòa huyết áp và rất quan trọng cho não và tim",
+    "timestamp": "01:55:10"
+   },
+   {
+    "quote": "Chúng cũng gắn liền với giảm nguy cơ nhiều bệnh bao gồm bệnh tiểu đường, hộ chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư",
+    "timestamp": "01:55:16"
+   }
+  ],
+  "speaker": "Quoted newspaper article",
+  "class": "supported",
+  "note": "'gắn liền với giảm nguy cơ' hedge preserved."
+ },
+ {
+  "id": "c069",
+  "from_audit_id": "c064",
+  "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
+  "claim": "Bài báo nói Omega-3 là chất chống viêm, còn Omega-6 'có xu hướng gây viêm'.",
+  "evidence": [
+   {
+    "quote": "trong khi Omega 3 là chất chống viêm, Omega6 có xu hướng gây viêm",
+    "timestamp": "01:55:42"
+   }
+  ],
+  "speaker": "Quoted newspaper article",
+  "class": "supported",
+  "note": "Matches."
+ },
+ {
+  "id": "c070",
+  "from_audit_id": "c065",
+  "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
+  "claim": "Theo bài báo được đọc, những năm gần đây các nhà khoa học phát hiện hầu hết mọi người đang hấp thụ lượng lớn Omega-6 so với thời trước, trong khi tiêu thụ thực phẩm động vật giàu Omega-3 ở mức thấp nhất từ trước đến nay; sự mất cân đối này liên quan đến béo phì, tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như hen suyễn và các bệnh tự miễn.",
+  "evidence": [
+   {
+    "quote": "Những năm gần đây, các nhà khoa học phát hiện ra rằng hầu hết mọi người đều đang hấp thụ một lượng lớn các chất béo Omega6 so với thời trước",
+    "timestamp": "01:54:29"
+   },
+   {
+    "quote": "lượng tiêu thụ thực phẩm từ động vật giàu hàm lượng omega 3 lại đang ở thời kỳ thấp nhất từ trước đến nay",
+    "timestamp": "01:54:38"
+   },
+   {
+    "quote": "Sự mất cân đối trong chế độ ăn uống này liên quan đến béo phì",
+    "timestamp": "01:54:47"
+   }
+  ],
+  "speaker": "Quoted newspaper article",
+  "class": "supported",
+  "note": "'liên quan' hedge kept; list matches (béo phì, tiểu đường, bệnh tim, ung thư, trầm cảm, đau, hen suyễn, tự miễn)."
+ },
+ {
+  "id": "c071",
+  "from_audit_id": "c065",
+  "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
+  "claim": "Bài báo dẫn nghiên cứu của tạp chí 'Hell' cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega-6 nhiều hơn Omega-3 gấp sáu lần.",
+  "evidence": [
+   {
+    "quote": "Các nghiên cứu của tạp chí Hell cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega6 nhiều hơn Omega 3 gấp sáu lần",
+    "timestamp": "01:55:30"
+   }
+  ],
+  "speaker": "Quoted newspaper article citing a journal (caption 'Hell')",
+  "class": "supported",
+  "note": "Journal name is the caption's, kept in quotes."
+ },
+ {
+  "id": "c134",
+  "from_audit_id": "c128",
+  "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
+  "claim": "Từ 0,6 trở lên, bác sĩ Phúc nói chúng ta sẽ bỏ được nhiều sản phẩm thuốc như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch ('Tôi thấy rất nhiều người bỏ được'), thuốc huyết áp; khớp đang đau 'bắt đầu hết đau'; phản ứng viêm dị ứng 'bắt đầu là hết'; viêm xoang, viêm mũi 'hết'; trí nhớ 'bắt đầu cải thiện';",
+  "evidence": [
+   {
+    "quote": "nếu quý vị nào mà uống từ 0,6 trở lên thì chúng ta sẽ bỏ được nhiều những các cái sản phẩm thuốc",
+    "timestamp": "03:02:22"
+   },
+   {
+    "quote": "Tôi thấy rất nhiều người bỏ được",
+    "timestamp": "03:02:32"
+   },
+   {
+    "quote": "khớp đang đau bắt đầu hết đau",
+    "timestamp": "03:02:38"
+   },
+   {
+    "quote": "Viêm xoang, viêm mũi các thứ nọ kia hết",
+    "timestamp": "03:02:42"
+   },
+   {
+    "quote": "trí nhớ bắt đầu cải thiện",
+    "timestamp": "03:02:44"
+   }
+  ],
+  "speaker": "Dr. Phúc, first person (clinical experience)",
+  "class": "supported",
+  "note": "Anecdotal framing kept ('Tôi thấy rất nhiều người bỏ được'); no medical claim beyond what he says."
+ },
+ {
+  "id": "c135",
+  "from_audit_id": "c128",
+  "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
+  "claim": "Alzheimer 'cải thiện được rất nhiều' (Parkinson được nhắc trong cùng đoạn, người nói không rõ); ông nói từ 0,6 trở lên thì giá thành đắt.",
+  "evidence": [
+   {
+    "quote": "Alzimer nhớ nhớ quên quên là cải thiện được rất nhiều",
+    "timestamp": "03:02:51"
+   },
+   {
+    "quote": "từ 0,6 trở lên nhưng mà giá thành đắt rồi",
+    "timestamp": "03:02:55"
+   }
+  ],
+  "speaker": "Dr. Phúc; 'Alzimer run rẩy tay chân Parkison' follows a speaker change",
+  "class": "supported",
+  "note": "Parkinson mention kept with its uncertain speaker."
+ },
+ {
+  "id": "c142",
+  "from_audit_id": "c135",
+  "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+  "claim": "Theo bác sĩ Phúc (nói 'tôi đang lấy ví dụ'), những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi (caption ghi 'phải mua APA cao hơn DHA').",
+  "evidence": [
+   {
+    "quote": "thì chúng ta mua EPA tăng lên",
+    "timestamp": "03:15:13"
+   },
+   {
+    "quote": "EPA tăng hơn so với DHA để nó quét cái mỡ máu đi",
+    "timestamp": "03:15:37"
+   },
+   {
+    "quote": "Và quét cái gan nhiễm mỡ đi",
+    "timestamp": "03:15:41"
+   },
+   {
+    "quote": "chúng ta phải mua APA cao hơn DHA",
+    "timestamp": "03:14:05"
+   }
+  ],
+  "speaker": "Dr. Phúc, with host interjections",
+  "class": "supported",
+  "note": "Hedged as an example; 'APA' is the caption's error for EPA and is flagged as such."
+ },
+ {
+  "id": "c143",
+  "from_audit_id": "c135",
+  "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+  "claim": "Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'.",
+  "evidence": [
+   {
+    "quote": "trẻ con nhưng vẫn dùng EPA tăng lên",
+    "timestamp": "03:16:03"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "class": "supported",
+  "note": "Matches."
+ },
+ {
+  "id": "c144",
+  "from_audit_id": "c135",
+  "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+  "claim": "Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'.",
+  "evidence": [
+   {
+    "quote": "Béo phì là một, tăng thừa cân, béo phì là một. Thứ hai là các cháu thức đêm nhiều, các cháu chơi game online nhiều, các cháu xem phim ngắn, video ngắn nhiều",
+    "timestamp": "03:16:48"
+   },
+   {
+    "quote": "Chỉ cần một trong những yếu tố này thôi là các cháu rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu",
+    "timestamp": "03:16:58"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "class": "supported",
+  "note": "'Chỉ cần một trong' (any one factor) is not stated in the claim but is not contradicted."
+ },
+ {
+  "id": "c145",
+  "from_audit_id": "c135",
+  "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+  "claim": "Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên.",
+  "evidence": [
+   {
+    "quote": "quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên",
+    "timestamp": "03:18:30"
+   }
+  ],
+  "speaker": "Dr. Phúc (03:18:30)",
+  "class": "supported",
+  "note": "Matches; placed after the children passage in the summary, said later at 03:18:30."
+ },
+ {
+  "id": "c147",
+  "from_audit_id": "c137",
+  "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+  "claim": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp, cơ thể không bị bệnh gì thì bác sĩ Phúc nói 'chúng ta mua cái DHA tăng lên một chút' để ưu tiên cho não và mắt, 'sẽ rất thông minh, sẽ mắt sẽ rất tinh'; các cháu không bị gan nhiễm mỡ, không bị mỡ máu uống DHA thì 'sẽ thông minh lên, mắt sáng hơn'.",
+  "evidence": [
+   {
+    "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp như tranh vẽ, cơ thể chúng ta không bị bệnh các thứ gì thì chúng ta mua cái DHA tăng lên một chút",
+    "timestamp": "03:16:08"
+   },
+   {
+    "quote": "thì chúng ta sẽ rất thông minh, sẽ mắt sẽ rất tinh",
+    "timestamp": "03:16:21"
+   },
+   {
+    "quote": "các cháu uống DHA này vào thì các cháu sẽ thông minh lên",
+    "timestamp": "03:16:28"
+   }
+  ],
+  "speaker": "Dr. Phúc",
+  "class": "supported",
+  "note": "Hedged and first-person; matches."
+ },
+ {
+  "id": "c148",
+  "from_audit_id": "c137",
+  "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
+  "claim": "Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại thì không nên.",
+  "evidence": [
+   {
+    "quote": "Còn đừng có để mất cân bằng. Tức là quá nhiều DHA mà lại ít EPA hoặc ngược lại quá nhiều EPA mà lại ít DHA thì chúng ta cũng không nên",
+    "timestamp": "03:18:30"
+   }
+  ],
+  "speaker": "Dr. Phúc (03:18:30)",
+  "class": "supported",
+  "note": "The summary shortens 'hoặc ngược lại'; meaning unchanged."
+ }
+]

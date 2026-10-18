@@ -5,3 +5,5 @@
 - Approved for later application; nothing applied. Application needs a separate story (edits summary.md of a blocked video). Videos remain blocked.
 - proposed-corrections.r1.md preserved with original `pending-human-approval` labels.
 - Claim ids belong to the summary.md current at audit time; match by current claim text if the summary changes.
+
+- corrections applied, uncommitted, video still blocked

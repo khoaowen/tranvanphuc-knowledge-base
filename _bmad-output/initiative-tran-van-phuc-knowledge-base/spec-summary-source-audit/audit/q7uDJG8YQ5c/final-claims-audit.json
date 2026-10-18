@@ -1,0 +1,659 @@
+[
+ {
+  "id": "c001",
+  "claim": "Theo quan điểm bác sĩ Phúc (do Khánh Lành nêu), 15 giây đầu tiên hay những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian trống trải của con người.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 1,
+    "timestamp": "00:01:13-00:01:22",
+    "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người."
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c002",
+  "claim": "Các clip 10 đến 15 phút, nhiều lắm khoảng 20 phút là cách tư duy truyền thông ban đầu của Khánh Lành và ekip; bác sĩ Phúc cho rằng làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân.",
+  "status": "fail",
+  "evidence": [],
+  "issues": [
+   {
+    "chunk": 1,
+    "timestamp": "00:14:04-00:14:19",
+    "quote": "làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút. Thì tôi cho rằng là ừ nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân",
+    "finding": "evidence found at 00:14:04-00:14:19, outside the section's timestamp window"
+   }
+  ]
+ },
+ {
+  "id": "c013",
+  "claim": "Nếu chỉ soạn một bản nhạc 50 nốt trên 52 phím trắng, số bản nhạc có thể tạo ra là $50^{52}$, lớn gấp 50 lần tổng số nguyên tử trong hệ vũ trụ ($50^{51}$ nguyên tử; sau đó bác sĩ Phúc nói \"hệ mặt trời\").",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 1,
+    "timestamp": "00:32:10-00:32:21",
+    "quote": "lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử."
+   },
+   {
+    "chunk": 2,
+    "timestamp": "00:32:10-00:32:21",
+    "quote": "50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c014",
+  "claim": "Bác sĩ Phúc lấy Mozart (35 tuổi) và Beethoven (56 tuổi) làm ví dụ: chiều dài cuộc đời (L) không nhiều nhưng trải nghiệm rất rộng.",
+  "status": "fail",
+  "evidence": [],
+  "issues": [
+   {
+    "chunk": 2,
+    "timestamp": "00:46:29-00:46:35",
+    "quote": "rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật",
+    "finding": "evidence found at 00:46:29-00:46:35, outside the section's timestamp window"
+   }
+  ]
+ },
+ {
+  "id": "c016",
+  "claim": "Ludwig van Beethoven: sống 56 năm, để lại 9 bản giao hưởng; theo bác sĩ Phúc, đỉnh cao nhất là bản giao hưởng số 9.",
+  "status": "fail",
+  "evidence": [],
+  "issues": [
+   {
+    "chunk": 2,
+    "timestamp": "00:46:05-00:46:07",
+    "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9",
+    "finding": "evidence found at 00:46:05-00:46:07, outside the section's timestamp window"
+   }
+  ]
+ },
+ {
+  "id": "c020",
+  "claim": "Quan niệm xưa (trong lời nói về hàm tuổi tác): 60 năm cuộc đời, 70 'xưa nay hiếm', cha ông mơ ước 100 tuổi; bác sĩ Phúc nói biên độ tuổi 'loanh quanh' khoảng 100 tuổi.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 2,
+    "timestamp": "00:36:24-00:36:28",
+    "quote": "loanh quanh nó cũng chỉ là con số quãng độ 100 tuổi"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c021",
+  "claim": "Ông 'vẫn hy vọng' kéo dài tuổi thọ lên 130, 140, 150 và 175 tuổi; xu hướng khoa học, một số nhà khoa học và một số quốc gia đang tính đến chuyện vượt qua 100 tuổi, và ông 'tin rằng' trong thế kỷ 21 'hoàn toàn làm được' việc giúp con người sống đến 150 tuổi.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 2,
+    "timestamp": "00:36:28-00:36:33",
+    "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c022",
+  "claim": "Riêng mục tiêu của ông, Khánh Lành và ekip là muốn khán giả coi tuổi 70-80 mới là bước vào cuộc đời, đang là tuổi sung sức.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 2,
+    "timestamp": "00:47:52-00:47:58",
+    "quote": "muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi. Và đây đang là cái tuổi sung sức"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c023",
+  "claim": "(Ví dụ bác sĩ Phúc kể để cho thấy chiều rộng cuộc sống (W) quan trọng hơn chiều dài: một người anh họ bác sĩ bị ung thư dạ dày giai đoạn cuối chỉ sống thêm hơn 1 năm sau phẫu thuật, nhưng nhờ tập trung lo liệu chu toàn cho gia đình nên khoảng thời gian ngắn đó đã trở nên vô cùng dài và có ý nghĩa).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 2,
+    "timestamp": "00:41:08-00:41:11",
+    "quote": "hơn một năm trời đó nó kéo dài, nó dài nó có ý nghĩa hơn rất rất nhiều"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c032",
+  "claim": "Theo bác sĩ Phúc, cách tư duy muốn đi thẳng từ điểm A đến điểm B để đốt cháy giai đoạn là sai; ví dụ đi từ nhà đến cơ quan bằng đường thẳng thì 'thất bại không bao giờ đi được', vì có đoạn tắc đường hoặc sửa đường nên luôn phải chọn đường vòng.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 2,
+    "timestamp": "00:58:38-00:58:46",
+    "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c039",
+  "claim": "Theo bác sĩ Phúc, các nhà phân tích tài chính hàng đầu nước Mỹ từ xưa đến nay luôn xuất phát đều là nhà sử học (nói về trung tâm tài chính sừng sỏ nhất nước Mỹ).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 3,
+    "timestamp": "01:08:33",
+    "quote": "tích tài chính hàng đầu nước Mỹ từ xưa"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c048",
+  "claim": "Theo nhiều chuyên gia dinh dưỡng trên thế giới và quan điểm của bác sĩ Phúc, vitamin D trong máu 50-70 ng/ml là con số lý tưởng; theo kinh nghiệm của ông, đưa lên 70-80 ng/ml là con số 'phải nói là tuyệt vời'.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 3,
+    "timestamp": "01:24:37",
+    "quote": "thì đây là con số phải nói là tuyệt vời."
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c059",
+  "claim": "Do đó, theo ông Lipton, màng tế bào dường như đóng vai trò là bộ não xử lý các vấn đề của tế bào, chứ không phải nhân tế bào.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:44:38",
+    "quote": "bắt đầu ông nói rằng là dường như bộ não"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c063",
+  "claim": "Theo bác sĩ Phúc, các axit béo omega nói chung chiếm tới 30% cấu trúc màng tế bào (ở một đoạn khác ông cũng nói Omega-3 chiếm 30%).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:48:21-01:48:24",
+    "quote": "chiếm tới 30%"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c064",
+  "claim": "Riêng màng tế bào não và tế bào võng mạc mắt chứa hàm lượng lớn DHA (được xem là \"vàng của não và mắt\"); theo bác sĩ Phúc, ăn cá giúp thông minh lên và mắt sáng hơn nhưng với điều kiện là cá có nhiều DHA, còn nếu DHA ít thì khó đạt được điều đó.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:49:26",
+    "quote": "điều kiện là DHA nó phải nhiều"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c066",
+  "claim": "Bác sĩ Phúc kể: nhiều phụ huynh có con đang học điểm khá thấp, sau khi bổ sung DHA, Omega 3, tăng DHA lên một chút, vitamin D và các vi chất thì 'một thời gian sau' kết quả học thay đổi đáng kể; ở một trường hợp khác, một anh đến cảm ơn vì con anh lúc đầu 'ăn không nên loại và nói không nên lời', không có bạn gái, sau khi bổ sung 'hơn 3 tháng gần 4 tháng' thì anh báo cáo con bắt đầu nói có văn có lời và có bạn gái.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:50:27",
+    "quote": "hơn 3 tháng gần 4 tháng thì anh ấy đến"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c067",
+  "claim": "Theo bài báo được đọc, Omega-6 có trong các loại dầu thực vật như hoa hướng dương, dầu ngô;",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:55:00",
+    "quote": "6 được tìm thấy trong các loại dầu thực"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c068",
+  "claim": "Omega-3 có trong cá béo, giúp giảm viêm, điều hòa huyết áp, rất quan trọng cho não và tim, và 'gắn liền với giảm nguy cơ' nhiều bệnh gồm tiểu đường, hội chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:55:18",
+    "quote": "cũng gắn liền với giảm nguy cơ nhiều"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c069",
+  "claim": "Bài báo nói Omega-3 là chất chống viêm, còn Omega-6 'có xu hướng gây viêm'.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:55:46",
+    "quote": "chất chống viêm, Omega6 có xu hướng gây"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c070",
+  "claim": "Theo bài báo được đọc, những năm gần đây các nhà khoa học phát hiện hầu hết mọi người đang hấp thụ lượng lớn Omega-6 so với thời trước, trong khi tiêu thụ thực phẩm động vật giàu Omega-3 ở mức thấp nhất từ trước đến nay; sự mất cân đối này liên quan đến béo phì, tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như hen suyễn và các bệnh tự miễn.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:54:38",
+    "quote": "Đồng thời lượng tiêu thụ thực phẩm từ"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c071",
+  "claim": "Bài báo dẫn nghiên cứu của tạp chí 'Hell' cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega-6 nhiều hơn Omega-3 gấp sáu lần.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:55:38",
+    "quote": "Omega6 nhiều hơn Omega 3 gấp sáu lần"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c072",
+  "claim": "Theo bài báo được đọc, tỷ lệ tối ưu nhất giữa Omega-6 và Omega-3 cho cơ thể là 1:1, và hầu hết các chuyên gia sức khỏe cho rằng tỷ lệ từ 1:1 đến 5:1 là tốt nhất cho sức khỏe:",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:56:04",
+    "quote": "trên omega 3 là từ 11 đến 51 là tốt nhất"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c073",
+  "claim": "Với tỉ lệ 4:1, 'chúng ta có thể phòng ngừa' nguy cơ bệnh tim (theo tài liệu được đọc; các bệnh liên quan đến trực tràng không giảm).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:56:12",
+    "quote": "thể phòng ngừa nguy cơ bệnh tim nhưng"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c074",
+  "claim": "Với tỉ lệ 2:1 hay 3:1, 'chúng ta có thể giảm' hội chứng viêm ở bệnh nhân thấp khớp (theo tài liệu được đọc).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:56:22",
+    "quote": "giảm hội chứng viêm ở bệnh nhân thấp"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c075",
+  "claim": "Theo tài liệu được đọc, tỷ lệ 5:1 có kết quả tốt đối với bệnh nhân hen suyễn.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:56:24",
+    "quote": "khớp. Tỷ lệ 51 có kết quả tốt đối với"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c076",
+  "claim": "Bài báo cũng nói đến nay chưa có nghiên cứu nào đủ chất lượng và quy mô để khẳng định Omega-6 là nguyên nhân gây bệnh tim mạch hay làm tăng các dấu hiệu viêm, nên không thể khẳng định Omega-6 gây ra các bệnh mãn tính.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:58:21",
+    "quote": "nào với chất lượng và quy mô thật sự để"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c077",
+  "claim": "Tuy nhiên, theo bài báo, nạp quá nhiều Omega-3 hay Omega-6 đều không tốt vì cấu trúc của cả hai axit béo này đều chứa nối đôi không no, rất nhạy cảm phản ứng với oxy tạo ra chuỗi gốc tự do, và loại chất béo dùng quan trọng hơn nhiều so với tỷ lệ Omega-6/Omega-3.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "01:59:03",
+    "quote": "quan trọng hơn rất nhiều so với tỉ lệ"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c082",
+  "claim": "DHA (Omega-3) gồm 22 nguyên tử cacbon và có tới 5 liên kết pi (theo lời bác sĩ Phúc).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 4,
+    "timestamp": "02:07:40",
+    "quote": "kết pi cơ cho nên là nó rất quý. có 22"
+   },
+   {
+    "chunk": 5,
+    "timestamp": "02:07:44",
+    "quote": "nguyên tử cacbon mà lại có đến năm liên"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c091",
+  "claim": "Tại đường ruột: gây viêm dạ dày ruột, hội chứng ruột kích thích, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón; khi đã tổn thương đường ruột thì 'rất dễ gây ra' tổn thương tuyến giáp (Hashimoto và Basedow), theo bác sĩ Phúc.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 5,
+    "timestamp": "02:18:50",
+    "quote": "tổn thương đường ruột rất dễ gây ra tổn"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c093",
+  "claim": "Theo bác sĩ Phúc, tỉ lệ lý tưởng Omega-6/Omega-3 là 1:1; 'có những nghiên cứu và những tài liệu' nói chấp nhận được 4:1, cùng lắm 5:1 — nhưng ông nói 5:1 'đã là quá nhiều rồi' và đừng để vượt quá 4.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 5,
+    "timestamp": "02:28:53",
+    "quote": "lắm là đến 5 chia 1. 5 chia 1 thì đã là"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c112",
+  "claim": "Theo bài được đọc, Omega 3 có hai dạng là triglycerit và ethyl ester; dạng triglycerit được các chuyên gia khuyên dùng với ưu điểm vượt trội: bền hơn, ít bị oxy hóa hơn, hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn loại ethyl ester.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "02:39:26",
+    "quote": "dạng triglycerit được các chuyên gia"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c114",
+  "claim": "Bài được đọc nói nguồn nguyên liệu dầu cá phải đảm bảo sạch và tinh chế, không chứa tạp chất và kim loại nặng; dầu cá Na Uy hiện là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "02:40:13",
+    "quote": "chất và các kim loại nặng. Dầu cá Na Uy"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c116",
+  "claim": "Theo bài được đọc: được cơ quan có thẩm quyền cấp phép và phân phối bởi công ty dược uy tín, không nên mua hàng xách tay hoặc hàng trôi nổi trên thị trường; riêng hàng xách tay, bác sĩ Phúc nói vẫn có thể là sản phẩm tốt, vấn đề là vận chuyển và bảo quản có đúng cách hay không.",
+  "status": "fail",
+  "evidence": [],
+  "issues": [
+   {
+    "chunk": 6,
+    "timestamp": "03:10:30",
+    "quote": "xách tay từ nước ngoài về vẫn mua được",
+    "finding": "evidence found at 03:10:30, outside the section's timestamp window"
+   },
+   {
+    "chunk": 7,
+    "timestamp": "03:10:30",
+    "quote": "xách tay từ nước ngoài về vẫn mua được",
+    "finding": "evidence found at 03:10:30, outside the section's timestamp window"
+   }
+  ]
+ },
+ {
+  "id": "c119",
+  "claim": "Bác sĩ Phúc nói đại đa số cá hồi nuôi mua về có hàm lượng EPA và DHA thấp hơn kỳ vọng trong lý thuyết, vì cá hồi nuôi được cho ăn thực vật.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "02:45:05",
+    "quote": "ta mua về đại đa số là hàm lượng và DHA"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c125",
+  "claim": "Dầu nhuyễn thể (krill) làm từ tôm Nam Cực được cho là an toàn nhờ sống ở vùng biển sạch và vòng đời ngắn (cách nói quảng cáo); bác sĩ Phúc nói an toàn hay không còn phải chờ các nghiên cứu thêm.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "02:55:38",
+    "quote": "chờ những các cái nghiên cứu nữa."
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c129",
+  "claim": "Theo bác sĩ Phúc, dầu cá tái tổ hợp (rTG) 'mang đầy đủ đặc điểm của ety este' (đã cô đặc) và cải thiện khả năng ngấm lên rất nhiều: người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên (lên tới 125%); cũng có những tài liệu nghiên cứu nói rTG ngấm gấp 3 đến 4 lần EE, nhưng có tài liệu nói như thế là 'hơi nhiều quá'; ông nghĩ đến 125% 'có lẽ là hợp lý hơn', đôi khi người ta quảng cáo hơi nhiều.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "02:59:57",
+    "quote": "của ety este nhưng mà nó cải thiện khả"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c132",
+  "claim": "Nhỏ hơn 0,3 (30%): bác sĩ Phúc nói loại này đang có xu hướng nhiều tạp chất và chất béo không cần thiết (dầu cá tự nhiên), nhưng có ưu điểm là gần với tự nhiên hơn, dễ hấp thu hơn.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "03:01:38",
+    "quote": "Nhưng mà có cái ưu điểm là gần với tự"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c133",
+  "claim": "Từ 0,5 đến 0,6: khá tốt; bác sĩ Phúc nói mức này 'khá đắt rồi' nhưng đa số mọi người chấp nhận được 0,5 đến 0,6.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "03:03:00",
+    "quote": "được con số 0,5 đến con số 0,6. Có những"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c134",
+  "claim": "Từ 0,6 trở lên, bác sĩ Phúc nói chúng ta sẽ bỏ được nhiều sản phẩm thuốc như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch ('Tôi thấy rất nhiều người bỏ được'), thuốc huyết áp; khớp đang đau 'bắt đầu hết đau'; phản ứng viêm dị ứng 'bắt đầu là hết'; viêm xoang, viêm mũi 'hết'; trí nhớ 'bắt đầu cải thiện';",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "03:02:25",
+    "quote": "0,6 trở lên thì chúng ta sẽ bỏ được"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c135",
+  "claim": "Alzheimer 'cải thiện được rất nhiều' (Parkinson được nhắc trong cùng đoạn, người nói không rõ); ông nói từ 0,6 trở lên thì giá thành đắt.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "03:02:51",
+    "quote": "Alzimer nhớ nhớ quên quên là cải thiện"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c136",
+  "claim": "Bác sĩ Phúc kể tuần trước có mấy bác mang kết quả xét nghiệm đến, nói rằng sau khi uống Omega-3 loại 0,7 thì sau 3 tháng mỡ máu cao về bình thường và chỉ số tiểu đường cũng về bình thường (các bác phản ánh là tốn tiền quá).",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 6,
+    "timestamp": "03:03:29",
+    "quote": "omega 3 xong lên tới 0,7 thì sau 3 tháng"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c142",
+  "claim": "Theo bác sĩ Phúc, những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi (caption ghi 'phải mua APA cao hơn DHA').",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:15:16",
+    "quote": "chúng ta mua EPA tăng lên."
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c143",
+  "claim": "Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:16:06",
+    "quote": "dùng EPA tăng lên."
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c144",
+  "claim": "Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:17:02",
+    "quote": "rất dễ bị rối loạn nhịp tim, rất dễ bị"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c145",
+  "claim": "Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:18:35",
+    "quote": "quá nhiều EPA mà lại ít DHA thì chúng ta"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c146",
+  "claim": "Nếu người bị gan nhiễm mỡ và mỡ máu mua loại DHA lớn hơn EPA thì khi uống có nguy cơ gan nhiễm mỡ và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:13:58",
+    "quote": "gan nhiễm mỡ tăng lên và mỡ máu tăng"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c147",
+  "claim": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp, cơ thể không bị bệnh gì thì bác sĩ Phúc nói 'chúng ta mua cái DHA tăng lên một chút' để ưu tiên cho não và mắt, 'sẽ rất thông minh, sẽ mắt sẽ rất tinh'; các cháu không bị gan nhiễm mỡ, không bị mỡ máu uống DHA thì 'sẽ thông minh lên, mắt sáng hơn'.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:16:15",
+    "quote": "DHA tăng lên một chút."
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c148",
+  "claim": "Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại thì không nên.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:18:32",
+    "quote": "nhiều DHA mà lại ít EPA hoặc ngược lại"
+   }
+  ],
+  "issues": []
+ },
+ {
+  "id": "c157",
+  "claim": "Để biết chính xác liều lượng Omega-3 cần bổ sung hàng ngày (400 mg, 500 mg, 1000 mg hay 2000 mg), ở các nước phát triển người ta thực hiện xét nghiệm đo hàm lượng EPA và DHA trong tế bào hồng cầu (vì hồng cầu người không có nhân nên màng tế bào chính là bộ brain/bộ não điều khiển của tế bào hồng cầu); theo bác sĩ Phúc, xét nghiệm này hiện chưa được làm ở Việt Nam vì chưa có nhu cầu.",
+  "status": "pass",
+  "evidence": [
+   {
+    "chunk": 7,
+    "timestamp": "03:24:53",
+    "quote": "Việt Nam chưa làm bởi vì chúng ta chưa"
+   }
+  ],
+  "issues": []
+ }
+]

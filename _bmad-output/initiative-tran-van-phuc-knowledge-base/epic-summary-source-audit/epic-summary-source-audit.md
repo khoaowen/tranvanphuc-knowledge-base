@@ -51,3 +51,4 @@ This epic owns only the read-only audit and its outputs under `../spec-summary-s
 - Decision: Preserve and continue all existing audit artifacts; do not restart, overwrite, or delete them (user approval, 2026-10-15).
 - Decision: Do not change ticket 1.12; do not perform the audits, edit summaries/transcripts/reviews, publish, or commit as part of inception (user direction, 2026-10-15).
 - Open question: Before any audit subagent is launched, confirm that `claude-opus-5-5` is accepted by the subagent runtime, as required by the spec.
+- Decision: Amendment (2026-10-18): corrections for q7uDJG8YQ5c only were approved and applied by the human; "pending-human-approval" and "no applying" still hold for V-Qfwjo28Zg. Requirement text unchanged.
