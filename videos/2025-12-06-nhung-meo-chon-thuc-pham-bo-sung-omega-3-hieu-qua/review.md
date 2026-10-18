@@ -12,13 +12,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:01:13-00:01:22",
-      "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người.",
+      "timestamp": "00:01:13-00:01:21",
+      "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:01:13-00:01:22",
-          "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải của con người."
+          "timestamp": "00:01:13-00:01:21",
+          "quote": "Bác sĩ Phúc nghĩ rằng là 15 giây đầu tiên hay là những video ngắn chỉ đáp ứng nhu cầu giải trí đơn thuần nhằm lấp đầy những khoảng thời gian chống trải"
         }
       ],
       "issues": []
@@ -27,21 +27,20 @@
       "id": "c002",
       "claim": "Các clip 10 đến 15 phút, nhiều lắm khoảng 20 phút là cách tư duy truyền thông ban đầu của Khánh Lành và ekip; bác sĩ Phúc cho rằng làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân.",
       "section": "[00:00:15] Định hướng sản xuất video dài truyền đạt kiến thức y khoa chuyên sâu",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:14:04-00:14:19",
-      "quote": "làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút. Thì tôi cho rằng là ừ nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân",
-      "evidence": [],
-      "issues": [
+      "timestamp": "00:14:06-00:14:19",
+      "quote": "cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút. Thì tôi cho rằng là ừ nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân",
+      "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:14:04-00:14:19",
-          "quote": "làm những các cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút. Thì tôi cho rằng là ừ nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân",
-          "finding": "evidence found at 00:14:04-00:14:19, outside the section's timestamp window"
+          "timestamp": "00:14:06-00:14:19",
+          "quote": "cái clip chỉ ngắn thôi trong vòng cỡ độ 10 đến 15 phút thôi. Cái nào nhiều lắm thì kéo dài khoảng độ 20 phút. Thì tôi cho rằng là ừ nếu như chúng ta làm như thế sẽ không bao giờ cung cấp được kiến thức cho người dân"
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c003",
@@ -51,13 +50,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:02:14-00:02:18",
-      "quote": "Tuy nhiên thì để có kiến thức rộng và sâu thì video ngắn hoàn toàn không thể đáp ứng được.",
+      "timestamp": "00:02:16-00:02:18",
+      "quote": "kiến thức rộng và sâu thì video ngắn hoàn toàn không thể đáp ứng được",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:02:14-00:02:18",
-          "quote": "Tuy nhiên thì để có kiến thức rộng và sâu thì video ngắn hoàn toàn không thể đáp ứng được."
+          "timestamp": "00:02:16-00:02:18",
+          "quote": "kiến thức rộng và sâu thì video ngắn hoàn toàn không thể đáp ứng được"
         }
       ],
       "issues": []
@@ -70,13 +69,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:02:26-00:02:31",
-      "quote": "chúng tôi sẽ dùng những video dài để có thể truyền đạt những kiến thức sức khỏe cả về chiều rộng lẫn chiều sâu",
+      "timestamp": "00:02:42",
+      "quote": "4 tiếng hơn 30 phút đúng không ạ?",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:02:26-00:02:31",
-          "quote": "chúng tôi sẽ dùng những video dài để có thể truyền đạt những kiến thức sức khỏe cả về chiều rộng lẫn chiều sâu"
+          "timestamp": "00:02:42",
+          "quote": "4 tiếng hơn 30 phút đúng không ạ?"
         }
       ],
       "issues": []
@@ -89,13 +88,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:10:03-00:10:12",
-      "quote": "ung thư dạ dày phải nạo vét hết 13 nhóm ảnh thì các thầy đã phẫu thuật đến 13 14 tiếng đồng hồ, thậm chí có ca đến 15 tiếng đồng hồ.",
+      "timestamp": "00:10:06-00:10:12",
+      "quote": "13 nhóm ảnh thì các thầy đã phẫu thuật đến 13 14 tiếng đồng hồ, thậm chí có ca đến 15 tiếng đồng hồ.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:10:03-00:10:12",
-          "quote": "ung thư dạ dày phải nạo vét hết 13 nhóm ảnh thì các thầy đã phẫu thuật đến 13 14 tiếng đồng hồ, thậm chí có ca đến 15 tiếng đồng hồ."
+          "timestamp": "00:10:06-00:10:12",
+          "quote": "13 nhóm ảnh thì các thầy đã phẫu thuật đến 13 14 tiếng đồng hồ, thậm chí có ca đến 15 tiếng đồng hồ."
         }
       ],
       "issues": []
@@ -108,13 +107,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:11:49-00:12:00",
-      "quote": "đi vào trên tĩnh mạch à cảnh ở trên cổ này. Sau đó đi qua tim từ tim đi xuống dưới gan, sau đó bắc cái cầu nối từ tĩnh mạch gan đi vào trong tĩnh mạch cửa",
+      "timestamp": "00:11:58-00:12:02",
+      "quote": "đó bắc cái cầu nối từ tĩnh mạch gan đi vào trong tĩnh mạch cửa tạo thành một cái cầu nối đặt cái stand.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:11:49-00:12:00",
-          "quote": "đi vào trên tĩnh mạch à cảnh ở trên cổ này. Sau đó đi qua tim từ tim đi xuống dưới gan, sau đó bắc cái cầu nối từ tĩnh mạch gan đi vào trong tĩnh mạch cửa"
+          "timestamp": "00:11:58-00:12:02",
+          "quote": "đó bắc cái cầu nối từ tĩnh mạch gan đi vào trong tĩnh mạch cửa tạo thành một cái cầu nối đặt cái stand."
         }
       ],
       "issues": []
@@ -165,18 +164,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:28:36-00:28:44",
-      "quote": "Định lý bất toàn là của nhà toán học người Đức Golden. Hôm trước tôi mới Khánh Lành có nói đấy. Phát biểu năm 1931.",
+      "timestamp": "00:28:39",
+      "quote": "bất toàn là của nhà toán học người Đức",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:28:36-00:28:44",
-          "quote": "Định lý bất toàn là của nhà toán học người Đức Golden. Hôm trước tôi mới Khánh Lành có nói đấy. Phát biểu năm 1931."
+          "timestamp": "00:28:39",
+          "quote": "bất toàn là của nhà toán học người Đức"
         },
         {
           "chunk": 2,
-          "timestamp": "00:30:59-00:31:04",
-          "quote": "định lý bất toàn và thấy rằng thế giới tự nhiên là vô hạn, khả năng con người cũng là vô hạn"
+          "timestamp": "00:30:59",
+          "quote": "định lý bất toàn và thấy rằng thế giới"
         }
       ],
       "issues": []
@@ -189,13 +188,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:27:11-00:27:16",
-      "quote": "Cái khả năng để mà chúng ta hồi phục trong cơ thể của chúng ta cũng là vô hạn.",
+      "timestamp": "00:27:13-00:27:16",
+      "quote": "năng để mà chúng ta hồi phục trong cơ thể của chúng ta cũng là vô hạn.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:27:11-00:27:16",
-          "quote": "Cái khả năng để mà chúng ta hồi phục trong cơ thể của chúng ta cũng là vô hạn."
+          "timestamp": "00:27:13-00:27:16",
+          "quote": "năng để mà chúng ta hồi phục trong cơ thể của chúng ta cũng là vô hạn."
         }
       ],
       "issues": []
@@ -227,18 +226,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:31:39-00:31:45",
-      "quote": "đàn piano là chúng ta có 88 phím đúng không ạ? Trong đó có 52 phím trắng và 36 phím đen.",
+      "timestamp": "00:31:41-00:31:45",
+      "quote": "Trong đó có 52 phím trắng và 36 phím đen.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:31:39-00:31:45",
-          "quote": "đàn piano là chúng ta có 88 phím đúng không ạ? Trong đó có 52 phím trắng và 36 phím đen."
+          "timestamp": "00:31:41-00:31:45",
+          "quote": "Trong đó có 52 phím trắng và 36 phím đen."
         },
         {
           "chunk": 2,
-          "timestamp": "00:31:39-00:31:45",
-          "quote": "đàn piano là chúng ta có 88 phím đúng không ạ? Trong đó có 52 phím trắng và 36 phím đen"
+          "timestamp": "00:31:45",
+          "quote": "trắng và 36 phím đen. Thế bây giờ tôi"
         }
       ],
       "issues": []
@@ -251,18 +250,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:32:10-00:32:21",
-      "quote": "lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử.",
+      "timestamp": "00:32:10",
+      "quote": "lúc đó sẽ có 50 mũ 52 bản nhạc.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:32:10-00:32:21",
-          "quote": "lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử."
+          "timestamp": "00:32:10",
+          "quote": "lúc đó sẽ có 50 mũ 52 bản nhạc."
         },
         {
           "chunk": 2,
-          "timestamp": "00:32:10-00:32:21",
-          "quote": "50 mũ 52 bản nhạc mà tổng số nguyên tử ở trong hệ vũ trụ của chúng ta thì mới có được bao nhiêu? 50 mũ 51 nguyên tử"
+          "timestamp": "00:32:10",
+          "quote": "cả lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ"
         }
       ],
       "issues": []
@@ -271,81 +270,77 @@
       "id": "c014",
       "claim": "Bác sĩ Phúc lấy Mozart (35 tuổi) và Beethoven (56 tuổi) làm ví dụ: chiều dài cuộc đời (L) không nhiều nhưng trải nghiệm rất rộng.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:46:29-00:46:35",
-      "quote": "rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật",
-      "evidence": [],
-      "issues": [
+      "timestamp": "00:46:29",
+      "quote": "rằng cái L của hai người này không nhiều",
+      "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:46:29-00:46:35",
-          "quote": "rằng cái L của hai người này không nhiều lắm nhưng mà cái trải nghiệm của hai nhân vật",
-          "finding": "evidence found at 00:46:29-00:46:35, outside the section's timestamp window"
+          "timestamp": "00:46:29",
+          "quote": "rằng cái L của hai người này không nhiều"
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c015",
       "claim": "Wolfgang Amadeus Mozart: Chỉ sống 35 năm nhưng đã để lại 22 vở opera (như vở \"Cây sáo thần\"), 41 bản giao hưởng và 42 bản concerto.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:44:52-00:44:55",
-      "quote": "Ông viết được 22 vở Ober",
-      "evidence": [],
-      "issues": [
+      "timestamp": "00:44:55",
+      "quote": "22 vở Ober. 22 vở Ober thì quá kinh",
+      "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:44:52-00:44:55",
-          "quote": "Ông viết được 22 vở Ober",
-          "finding": "evidence found at 00:44:52-00:44:55, outside the section's timestamp window"
+          "timestamp": "00:44:55",
+          "quote": "22 vở Ober. 22 vở Ober thì quá kinh"
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c016",
       "claim": "Ludwig van Beethoven: sống 56 năm, để lại 9 bản giao hưởng; theo bác sĩ Phúc, đỉnh cao nhất là bản giao hưởng số 9.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:46:05-00:46:07",
-      "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9",
-      "evidence": [],
-      "issues": [
+      "timestamp": "00:46:07",
+      "quote": "chính là bản giao hưởng số 9 mà nhân",
+      "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:46:05-00:46:07",
-          "quote": "chín bản giao hưởng và đỉnh cao nhất đó chính là bản giao hưởng số 9",
-          "finding": "evidence found at 00:46:05-00:46:07, outside the section's timestamp window"
+          "timestamp": "00:46:07",
+          "quote": "chính là bản giao hưởng số 9 mà nhân"
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c017",
       "claim": "Immanuel Kant: Nhà triết học cổ điển Đức thọ 80 tuổi, người đại diện cuối cùng của chủ nghĩa khai sáng và đặt nền tảng cho mỹ học cổ điển Đức.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:48:25-00:48:30",
-      "quote": "ông cũng là một nhà triết học cuối cùng của cái chủ nghĩa khai sáng",
-      "evidence": [],
-      "issues": [
+      "timestamp": "00:47:29",
+      "quote": "đối khá, tức là lên tới 80. 80 ở thời",
+      "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:48:25-00:48:30",
-          "quote": "ông cũng là một nhà triết học cuối cùng của cái chủ nghĩa khai sáng",
-          "finding": "evidence found at 00:48:25-00:48:30, outside the section's timestamp window"
+          "timestamp": "00:47:29",
+          "quote": "đối khá, tức là lên tới 80. 80 ở thời"
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c018",
@@ -355,13 +350,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:34:50-00:34:56",
-      "quote": "một cái hàm về giá trị cuộc sống bao gồm có ba cái này. Một là chiều dài, hai là chiều rộng, ba là chiều cao",
+      "timestamp": "00:34:25",
+      "quote": "Những đây là những cái hàm đa biến cộng",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:34:50-00:34:56",
-          "quote": "một cái hàm về giá trị cuộc sống bao gồm có ba cái này. Một là chiều dài, hai là chiều rộng, ba là chiều cao"
+          "timestamp": "00:34:25",
+          "quote": "Những đây là những cái hàm đa biến cộng"
         }
       ],
       "issues": []
@@ -374,13 +369,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:34:59-00:35:01",
-      "quote": "dài tôi tượng trưng cho chẳng hạn như về mặt tuổi tác chẳng hạn",
+      "timestamp": "00:35:01",
+      "quote": "mặt tuổi tác chẳng hạn. Tuổi tác. Thế",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:34:59-00:35:01",
-          "quote": "dài tôi tượng trưng cho chẳng hạn như về mặt tuổi tác chẳng hạn"
+          "timestamp": "00:35:01",
+          "quote": "mặt tuổi tác chẳng hạn. Tuổi tác. Thế"
         }
       ],
       "issues": []
@@ -393,13 +388,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:36:24-00:36:28",
-      "quote": "loanh quanh nó cũng chỉ là con số quãng độ 100 tuổi",
+      "timestamp": "00:36:26",
+      "quote": "quanh nó cũng chỉ là con số quãng độ 100",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:36:24-00:36:28",
-          "quote": "loanh quanh nó cũng chỉ là con số quãng độ 100 tuổi"
+          "timestamp": "00:36:26",
+          "quote": "quanh nó cũng chỉ là con số quãng độ 100"
         }
       ],
       "issues": []
@@ -412,13 +407,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:36:28-00:36:33",
-      "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi",
+      "timestamp": "00:36:33",
+      "quote": "140, 150 và 175 tuổi. Đến giờ phút này",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:36:28-00:36:33",
-          "quote": "Và tôi vẫn hy vọng rằng chúng ta có thể kéo dài tuổi thọ lên tới 130, 140, 150 và 175 tuổi"
+          "timestamp": "00:36:33",
+          "quote": "140, 150 và 175 tuổi. Đến giờ phút này"
         }
       ],
       "issues": []
@@ -431,13 +426,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:47:52-00:47:58",
-      "quote": "muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi. Và đây đang là cái tuổi sung sức",
+      "timestamp": "00:47:52",
+      "quote": "muốn tất cả quý vị phải coi tuổi 70 80",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:47:52-00:47:58",
-          "quote": "muốn tất cả quý vị phải coi tuổi 70 80 mới là bước vào cuộc đời thôi. Và đây đang là cái tuổi sung sức"
+          "timestamp": "00:47:52",
+          "quote": "muốn tất cả quý vị phải coi tuổi 70 80"
         }
       ],
       "issues": []
@@ -450,13 +445,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:41:08-00:41:11",
-      "quote": "hơn một năm trời đó nó kéo dài, nó dài nó có ý nghĩa hơn rất rất nhiều",
+      "timestamp": "00:40:52",
+      "quote": "hơn năm trời thôi nhưng mà anh thấy anh",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:41:08-00:41:11",
-          "quote": "hơn một năm trời đó nó kéo dài, nó dài nó có ý nghĩa hơn rất rất nhiều"
+          "timestamp": "00:40:52",
+          "quote": "hơn năm trời thôi nhưng mà anh thấy anh"
         }
       ],
       "issues": []
@@ -469,13 +464,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:41:44-00:41:48",
-      "quote": "tôi cần một cái cuộc sống trải nghiệm, một cái cuộc sống mà chính tôi dấn thân vào đó",
+      "timestamp": "00:35:07",
+      "quote": "trưng cho cái sự trải nghiệm về cuộc",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:41:44-00:41:48",
-          "quote": "tôi cần một cái cuộc sống trải nghiệm, một cái cuộc sống mà chính tôi dấn thân vào đó"
+          "timestamp": "00:35:07",
+          "quote": "trưng cho cái sự trải nghiệm về cuộc"
         }
       ],
       "issues": []
@@ -488,13 +483,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:43:21-00:43:26",
-      "quote": "đấy chính là cái trình độ, cái tư chất, cái kiến thức của chúng ta đến đâu",
+      "timestamp": "00:43:21",
+      "quote": "thể hiện. đấy chính là cái trình độ, cái",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:43:21-00:43:26",
-          "quote": "đấy chính là cái trình độ, cái tư chất, cái kiến thức của chúng ta đến đâu"
+          "timestamp": "00:43:21",
+          "quote": "thể hiện. đấy chính là cái trình độ, cái"
         }
       ],
       "issues": []
@@ -507,13 +502,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:50:49-00:50:51",
-      "quote": "Hàm định vị cuộc sống ở đây nó có cái số y tức là số ảo",
+      "timestamp": "00:50:51",
+      "quote": "nó có cái số y tức là số ảo, số ảo, số",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:50:49-00:50:51",
-          "quote": "Hàm định vị cuộc sống ở đây nó có cái số y tức là số ảo"
+          "timestamp": "00:50:51",
+          "quote": "nó có cái số y tức là số ảo, số ảo, số"
         }
       ],
       "issues": []
@@ -526,13 +521,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:51:48-00:51:55",
-      "quote": "ra trường làm ở cơ quan nào, lương bao nhiêu, thế rồi thì tiền thưởng áng chừng bao nhiêu",
+      "timestamp": "00:52:05",
+      "quote": "chính là số thực. Tức là phần A. Phần A",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:51:48-00:51:55",
-          "quote": "ra trường làm ở cơ quan nào, lương bao nhiêu, thế rồi thì tiền thưởng áng chừng bao nhiêu"
+          "timestamp": "00:52:05",
+          "quote": "chính là số thực. Tức là phần A. Phần A"
         }
       ],
       "issues": []
@@ -545,13 +540,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:52:26-00:52:29",
-      "quote": "thì đấy là những cái mà chúng ta mơ ước, đấy là những cái chúng ta kỳ vọng",
+      "timestamp": "00:52:26",
+      "quote": "thì đấy là những cái mà chúng ta mơ ước,",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:52:26-00:52:29",
-          "quote": "thì đấy là những cái mà chúng ta mơ ước, đấy là những cái chúng ta kỳ vọng"
+          "timestamp": "00:52:26",
+          "quote": "thì đấy là những cái mà chúng ta mơ ước,"
         }
       ],
       "issues": []
@@ -564,13 +559,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:54:54-00:54:58",
-      "quote": "Xong cuối cùng tôi mới thấy hóa ra làm bác sĩ Quang là phù hợp nhất",
+      "timestamp": "00:54:46",
+      "quote": "Tôi lao vào tôi học y học cổ truyền. Sau",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:54:54-00:54:58",
-          "quote": "Xong cuối cùng tôi mới thấy hóa ra làm bác sĩ Quang là phù hợp nhất"
+          "timestamp": "00:54:46",
+          "quote": "Tôi lao vào tôi học y học cổ truyền. Sau"
         }
       ],
       "issues": []
@@ -583,18 +578,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:58:31-00:58:36",
-      "quote": "Cuộc sống nó là chập của tất cả những các cái đường này lại với nhau nó vô cùng phức tạp",
+      "timestamp": "01:00:29",
+      "quote": "là y = x hay y = sin x mà nó là chập của",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:58:31-00:58:36",
-          "quote": "Cuộc sống nó là chập của tất cả những các cái đường này lại với nhau nó vô cùng phức tạp"
+          "timestamp": "01:00:29",
+          "quote": "là y = x hay y = sin x mà nó là chập của"
         },
         {
           "chunk": 3,
-          "timestamp": "01:00:29",
-          "quote": "là y = x hay y = sin x mà nó là chập của"
+          "timestamp": "01:00:27-01:00:35",
+          "quote": "Và cuộc sống cũng không bao giờ đơn giản là y = x hay y = sin x mà nó là chập của rất nhiều những các cái con đường khác nhau."
         }
       ],
       "issues": []
@@ -607,13 +602,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:57:15-00:57:21",
-      "quote": "cái gì đi lên nó sẽ phải đi xuống và đi xuống rồi nó sẽ đi lên",
+      "timestamp": "00:57:18",
+      "quote": "đi lên nó sẽ phải đi xuống và đi xuống",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:57:15-00:57:21",
-          "quote": "cái gì đi lên nó sẽ phải đi xuống và đi xuống rồi nó sẽ đi lên"
+          "timestamp": "00:57:18",
+          "quote": "đi lên nó sẽ phải đi xuống và đi xuống"
         }
       ],
       "issues": []
@@ -626,13 +621,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:58:38-00:58:46",
-      "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được",
+      "timestamp": "00:58:42",
+      "quote": "đi từ nhà đến cơ quan mà quý vị đi bằng",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:58:38-00:58:46",
-          "quote": "Nếu như quý vị muốn đi từ nhà đến cơ quan mà quý vị đi bằng đường thẳng thì quý vị thất bại không bao giờ đi được"
+          "timestamp": "00:58:42",
+          "quote": "đi từ nhà đến cơ quan mà quý vị đi bằng"
         }
       ],
       "issues": []
@@ -645,18 +640,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:00:14-01:00:18",
-      "quote": "dòng nước đó luôn luôn phải đi theo những các cái đường cong chứ không bao giờ đi bằng cái đường thẳng hết cả",
+      "timestamp": "01:00:14",
+      "quote": "thì dòng nước đó luôn luôn phải đi theo",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "01:00:14-01:00:18",
-          "quote": "dòng nước đó luôn luôn phải đi theo những các cái đường cong chứ không bao giờ đi bằng cái đường thẳng hết cả"
+          "timestamp": "01:00:14",
+          "quote": "thì dòng nước đó luôn luôn phải đi theo"
         },
         {
           "chunk": 3,
-          "timestamp": "01:00:03-01:00:05",
-          "quote": "nó phải đi vòng quanh tảng đá, nó sẽ đi"
+          "timestamp": "01:00:14-01:00:18",
+          "quote": "thì dòng nước đó luôn luôn phải đi theo những các cái đường cong chứ không bao giờ đi bằng cái đường thẳng hết cả."
         }
       ],
       "issues": []
@@ -669,18 +664,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:01:50-01:01:53",
-      "quote": "Thì trong đó hướng đi là cái quan trọng số một",
+      "timestamp": "01:01:53",
+      "quote": "hướng đi là cái quan trọng số một. Cho",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "01:01:50-01:01:53",
-          "quote": "Thì trong đó hướng đi là cái quan trọng số một"
+          "timestamp": "01:01:53",
+          "quote": "hướng đi là cái quan trọng số một. Cho"
         },
         {
           "chunk": 3,
-          "timestamp": "01:01:53",
-          "quote": "hướng đi là cái quan trọng số một. Cho"
+          "timestamp": "01:01:50-01:01:53",
+          "quote": "Thì trong đó hướng đi là cái quan trọng số một."
         }
       ],
       "issues": []
@@ -693,13 +688,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:03:20",
-      "quote": "bằng 2a. Trong đó a là số thực lớn hơn",
+      "timestamp": "01:03:11-01:03:23",
+      "quote": "trị tuyệt đối của F1 cộng với trị tuyệt đối của MF2 bằng 2a. Trong đó a là số thực lớn hơn 0.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:03:20",
-          "quote": "bằng 2a. Trong đó a là số thực lớn hơn"
+          "timestamp": "01:03:11-01:03:23",
+          "quote": "trị tuyệt đối của F1 cộng với trị tuyệt đối của MF2 bằng 2a. Trong đó a là số thực lớn hơn 0."
         }
       ],
       "issues": []
@@ -712,13 +707,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:04:40",
-      "quote": "Điểm tựa thứ hai đấy chính là nhà",
+      "timestamp": "01:04:34-01:04:38",
+      "quote": "Điểm tựa thứ nhất đấy chính là gia đình. Gia đình ở đây là F1.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:04:40",
-          "quote": "Điểm tựa thứ hai đấy chính là nhà"
+          "timestamp": "01:04:34-01:04:38",
+          "quote": "Điểm tựa thứ nhất đấy chính là gia đình. Gia đình ở đây là F1."
         }
       ],
       "issues": []
@@ -731,13 +726,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:06:00",
-      "quote": "phối hợp với nhau thật tốt. Và tôi cũng",
+      "timestamp": "01:05:52-01:06:00",
+      "quote": "Chúng ta chỉ có gia đình tốt thôi chưa đủ, chúng ta chỉ có nhà trường tốt thôi chưa đủ mà chúng ta phải có hai cái phối hợp với nhau thật tốt.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:06:00",
-          "quote": "phối hợp với nhau thật tốt. Và tôi cũng"
+          "timestamp": "01:05:52-01:06:00",
+          "quote": "Chúng ta chỉ có gia đình tốt thôi chưa đủ, chúng ta chỉ có nhà trường tốt thôi chưa đủ mà chúng ta phải có hai cái phối hợp với nhau thật tốt."
         }
       ],
       "issues": []
@@ -750,13 +745,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:08:17",
-      "quote": "sắc. Và phải nói rằng lịch sử là môn quá",
+      "timestamp": "01:08:11-01:08:20",
+      "quote": "Một người không có kiến thức lịch sử thì người đó rất khó để phát triển được toàn diện và để giỏi giang và có được sâu sắc. Và phải nói rằng lịch sử là môn quá khó.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:08:17",
-          "quote": "sắc. Và phải nói rằng lịch sử là môn quá"
+          "timestamp": "01:08:11-01:08:20",
+          "quote": "Một người không có kiến thức lịch sử thì người đó rất khó để phát triển được toàn diện và để giỏi giang và có được sâu sắc. Và phải nói rằng lịch sử là môn quá khó."
         }
       ],
       "issues": []
@@ -769,13 +764,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:08:33",
-      "quote": "tích tài chính hàng đầu nước Mỹ từ xưa",
+      "timestamp": "01:08:31-01:08:39",
+      "quote": "những người những nhà phân tích tài chính hàng đầu nước Mỹ từ xưa tới nay luôn xuất phát đều là những cái nhà sử học.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:08:33",
-          "quote": "tích tài chính hàng đầu nước Mỹ từ xưa"
+          "timestamp": "01:08:31-01:08:39",
+          "quote": "những người những nhà phân tích tài chính hàng đầu nước Mỹ từ xưa tới nay luôn xuất phát đều là những cái nhà sử học."
         }
       ],
       "issues": []
@@ -788,13 +783,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:09:11",
-      "quote": "Giáp chỉ là một thầy giáo dị sử nhưng",
+      "timestamp": "01:09:09-01:09:11",
+      "quote": "Tôi lấy ví dụ như là Đại tướng Võ Nguyên Giáp chỉ là một thầy giáo dị sử",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:09:11",
-          "quote": "Giáp chỉ là một thầy giáo dị sử nhưng"
+          "timestamp": "01:09:09-01:09:11",
+          "quote": "Tôi lấy ví dụ như là Đại tướng Võ Nguyên Giáp chỉ là một thầy giáo dị sử"
         }
       ],
       "issues": []
@@ -807,13 +802,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:09:57",
-      "quote": "góc độ khác nhau. Vậy người giỏi lịch sử",
+      "timestamp": "01:09:57-01:10:01",
+      "quote": "Vậy người giỏi lịch sử là người phải biết nhìn ở rất nhiều góc độ.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:09:57",
-          "quote": "góc độ khác nhau. Vậy người giỏi lịch sử"
+          "timestamp": "01:09:57-01:10:01",
+          "quote": "Vậy người giỏi lịch sử là người phải biết nhìn ở rất nhiều góc độ."
         }
       ],
       "issues": []
@@ -826,13 +821,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:10:35",
-      "quote": "lịch sử ra thì sẽ rất dễ cãi nhau. Nó",
+      "timestamp": "01:10:48-01:10:54",
+      "quote": "Cho nên là trong các cái chương trình thì chúng tôi và Khánh lành sẽ rất ít đưa những cái vấn đề lịch sử",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:10:35",
-          "quote": "lịch sử ra thì sẽ rất dễ cãi nhau. Nó"
+          "timestamp": "01:10:48-01:10:54",
+          "quote": "Cho nên là trong các cái chương trình thì chúng tôi và Khánh lành sẽ rất ít đưa những cái vấn đề lịch sử"
         }
       ],
       "issues": []
@@ -845,13 +840,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:12:30",
-      "quote": "là chúng ta quy ước là chữ A thì tương",
+      "timestamp": "01:12:30-01:12:33",
+      "quote": "là chúng ta quy ước là chữ A thì tương đương với lại 1%,",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:12:30",
-          "quote": "là chúng ta quy ước là chữ A thì tương"
+          "timestamp": "01:12:30-01:12:33",
+          "quote": "là chúng ta quy ước là chữ A thì tương đương với lại 1%,"
         }
       ],
       "issues": []
@@ -864,13 +859,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:13:48",
-      "quote": "Ờ đó là 96%.",
+      "timestamp": "01:13:27-01:13:30",
+      "quote": "Vâng ạ. Thì tôi có tổng kết số phần trăm là 98%.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:13:48",
-          "quote": "Ờ đó là 96%."
+          "timestamp": "01:13:27-01:13:30",
+          "quote": "Vâng ạ. Thì tôi có tổng kết số phần trăm là 98%."
         }
       ],
       "issues": []
@@ -883,13 +878,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:15:36",
-      "quote": "dịch là thái độ",
+      "timestamp": "01:15:34-01:15:40",
+      "quote": "attitude dịch là thái độ 100%.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:15:36",
-          "quote": "dịch là thái độ"
+          "timestamp": "01:15:34-01:15:40",
+          "quote": "attitude dịch là thái độ 100%."
         }
       ],
       "issues": []
@@ -902,13 +897,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:19:02",
-      "quote": "thái độ mới quyết định được rằng là",
+      "timestamp": "01:15:57-01:16:10",
+      "quote": "Trước một công việc cụ thể, năng lực thể hiện khả năng bạn có thể làm được. Động lực quyết định những gì bạn làm nhưng chỉ có thái độ mới tạo nên kết quả làm tốt hay là không tốt.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:19:02",
-          "quote": "thái độ mới quyết định được rằng là"
+          "timestamp": "01:15:57-01:16:10",
+          "quote": "Trước một công việc cụ thể, năng lực thể hiện khả năng bạn có thể làm được. Động lực quyết định những gì bạn làm nhưng chỉ có thái độ mới tạo nên kết quả làm tốt hay là không tốt."
         }
       ],
       "issues": []
@@ -921,13 +916,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:23:03",
-      "quote": "đầu năm nay 2025 vào tháng 2 thực hiện",
+      "timestamp": "01:23:36-01:23:42",
+      "quote": "thì cái tốc độ lão hóa đã giảm đi 10%. Có nghĩa rằng là cái tuổi thọ của chúng ta có xu hướng tăng lên 10%.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:23:03",
-          "quote": "đầu năm nay 2025 vào tháng 2 thực hiện"
+          "timestamp": "01:23:36-01:23:42",
+          "quote": "thì cái tốc độ lão hóa đã giảm đi 10%. Có nghĩa rằng là cái tuổi thọ của chúng ta có xu hướng tăng lên 10%."
         }
       ],
       "issues": []
@@ -940,13 +935,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:24:37",
-      "quote": "thì đây là con số phải nói là tuyệt vời.",
+      "timestamp": "01:24:29-01:24:37",
+      "quote": "kinh nghiệm của tôi thì bắt đầu tôi thấy rằng thậm chí là ta đưa từ 70 cho đến 80 ng/ml thì đây là con số phải nói là tuyệt vời.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:24:37",
-          "quote": "thì đây là con số phải nói là tuyệt vời."
+          "timestamp": "01:24:29-01:24:37",
+          "quote": "kinh nghiệm của tôi thì bắt đầu tôi thấy rằng thậm chí là ta đưa từ 70 cho đến 80 ng/ml thì đây là con số phải nói là tuyệt vời."
+        },
+        {
+          "chunk": 7,
+          "timestamp": "03:19:40",
+          "quote": "quan điểm của tôi và nhiều chuyên gia"
         }
       ],
       "issues": []
@@ -959,13 +959,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:26:37",
-      "quote": "giảm đau tự nhiên rất thần kỳ mà không",
+      "timestamp": "01:26:34-01:26:37",
+      "quote": "Đây là một cái bộ ba thuốc giảm đau tự nhiên rất thần kỳ",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:26:37",
-          "quote": "giảm đau tự nhiên rất thần kỳ mà không"
+          "timestamp": "01:26:34-01:26:37",
+          "quote": "Đây là một cái bộ ba thuốc giảm đau tự nhiên rất thần kỳ"
         }
       ],
       "issues": []
@@ -978,13 +978,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:31:07",
-      "quote": "coi là vàng của não và mắt.",
+      "timestamp": "01:31:05-01:31:07",
+      "quote": "nó được coi là vàng của não và mắt.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:31:07",
-          "quote": "coi là vàng của não và mắt."
+          "timestamp": "01:31:05-01:31:07",
+          "quote": "nó được coi là vàng của não và mắt."
         }
       ],
       "issues": []
@@ -997,13 +997,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:29:14",
-      "quote": "Nhiều liên kết đôi tức là liên kết pi",
+      "timestamp": "01:29:14-01:29:16",
+      "quote": "Nhiều liên kết đôi tức là liên kết pi cho nên nó dễ dàng để cắt nhỏ ra.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:29:14",
-          "quote": "Nhiều liên kết đôi tức là liên kết pi"
+          "timestamp": "01:29:14-01:29:16",
+          "quote": "Nhiều liên kết đôi tức là liên kết pi cho nên nó dễ dàng để cắt nhỏ ra."
         }
       ],
       "issues": []
@@ -1017,12 +1017,12 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "01:30:01",
-      "quote": "Tạo ra nước và CO2. nước và CO2 mà chúng",
+      "quote": "Tạo ra nước và CO2.",
       "evidence": [
         {
           "chunk": 3,
           "timestamp": "01:30:01",
-          "quote": "Tạo ra nước và CO2. nước và CO2 mà chúng"
+          "quote": "Tạo ra nước và CO2."
         }
       ],
       "issues": []
@@ -1035,13 +1035,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:35:42",
-      "quote": "vào một buổi sáng ông ngồi soạn bài",
+      "timestamp": "01:35:50",
+      "quote": "quá trình soạn giáo án thì ông soạn cấu",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:35:42",
-          "quote": "vào một buổi sáng ông ngồi soạn bài"
+          "timestamp": "01:35:50",
+          "quote": "quá trình soạn giáo án thì ông soạn cấu"
         }
       ],
       "issues": []
@@ -1055,12 +1055,12 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "01:39:03",
-      "quote": "cái đây là tinh thể màng",
+      "quote": "cái đây là tinh thể màng. Tức là màng tế",
       "evidence": [
         {
           "chunk": 4,
           "timestamp": "01:39:03",
-          "quote": "cái đây là tinh thể màng"
+          "quote": "cái đây là tinh thể màng. Tức là màng tế"
         }
       ],
       "issues": []
@@ -1074,12 +1074,12 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "01:40:36",
-      "quote": "có tính chất là giống như chất bán dẫn",
+      "quote": "có tính chất là giống như chất bán dẫn.",
       "evidence": [
         {
           "chunk": 4,
           "timestamp": "01:40:36",
-          "quote": "có tính chất là giống như chất bán dẫn"
+          "quote": "có tính chất là giống như chất bán dẫn."
         }
       ],
       "issues": []
@@ -1156,6 +1156,11 @@
           "chunk": 4,
           "timestamp": "01:44:38",
           "quote": "bắt đầu ông nói rằng là dường như bộ não"
+        },
+        {
+          "chunk": 7,
+          "timestamp": "03:26:36",
+          "quote": "nói rằng là à bộ não của tế bào đó chính"
         }
       ],
       "issues": []
@@ -1175,6 +1180,11 @@
           "chunk": 4,
           "timestamp": "01:45:19",
           "quote": "nhân nó chỉ là bộ phận sinh dục của tế"
+        },
+        {
+          "chunk": 7,
+          "timestamp": "03:26:45",
+          "quote": "là cơ quan sinh sản của tế bào có đúng"
         }
       ],
       "issues": []
@@ -1187,13 +1197,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:46:18",
-      "quote": "trị ung thư, điều trị các cái căn bệnh",
+      "timestamp": "01:46:06",
+      "quote": "một cái cuộc cách mạng về nghiên cứu tế",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:46:18",
-          "quote": "trị ung thư, điều trị các cái căn bệnh"
+          "timestamp": "01:46:06",
+          "quote": "một cái cuộc cách mạng về nghiên cứu tế"
         }
       ],
       "issues": []
@@ -1225,13 +1235,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:48:21-01:48:24",
-      "quote": "chiếm tới 30%",
+      "timestamp": "01:48:21",
+      "quote": "Omega3 chiếm tới bao nhiêu ạ? Chiếm tới",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:48:21-01:48:24",
-          "quote": "chiếm tới 30%"
+          "timestamp": "01:48:21",
+          "quote": "Omega3 chiếm tới bao nhiêu ạ? Chiếm tới"
+        },
+        {
+          "chunk": 5,
+          "timestamp": "02:22:09",
+          "quote": "nhiều, chiếm tới 30%. Nhưng trong quá"
         }
       ],
       "issues": []
@@ -1245,12 +1260,12 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "01:49:26",
-      "quote": "điều kiện là DHA nó phải nhiều",
+      "quote": "điều kiện là DHA nó phải nhiều. Thế còn",
       "evidence": [
         {
           "chunk": 4,
           "timestamp": "01:49:26",
-          "quote": "điều kiện là DHA nó phải nhiều"
+          "quote": "điều kiện là DHA nó phải nhiều. Thế còn"
         }
       ],
       "issues": []
@@ -1301,13 +1316,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:55:00",
-      "quote": "6 được tìm thấy trong các loại dầu thực",
+      "timestamp": "01:55:02",
+      "quote": "vật như hoa hướng dương, dầu ngô đóng",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:55:00",
-          "quote": "6 được tìm thấy trong các loại dầu thực"
+          "timestamp": "01:55:02",
+          "quote": "vật như hoa hướng dương, dầu ngô đóng"
         }
       ],
       "issues": []
@@ -1358,13 +1373,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:54:38",
-      "quote": "Đồng thời lượng tiêu thụ thực phẩm từ",
+      "timestamp": "01:54:33",
+      "quote": "mọi người đều đang hấp thụ một lượng lớn",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:54:38",
-          "quote": "Đồng thời lượng tiêu thụ thực phẩm từ"
+          "timestamp": "01:54:33",
+          "quote": "mọi người đều đang hấp thụ một lượng lớn"
         }
       ],
       "issues": []
@@ -1377,13 +1392,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:55:38",
-      "quote": "Omega6 nhiều hơn Omega 3 gấp sáu lần",
+      "timestamp": "01:55:33",
+      "quote": "nghiên cứu của tạp chí Hell cho thấy",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:55:38",
-          "quote": "Omega6 nhiều hơn Omega 3 gấp sáu lần"
+          "timestamp": "01:55:33",
+          "quote": "nghiên cứu của tạp chí Hell cho thấy"
         }
       ],
       "issues": []
@@ -1510,13 +1525,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:01:43",
-      "quote": "bốn axit béo cần phải nhớ trong omega6",
+      "timestamp": "02:01:27",
+      "quote": "Clức là cái này là gọi là axit béo liên",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "02:01:43",
-          "quote": "bốn axit béo cần phải nhớ trong omega6"
+          "timestamp": "02:01:27",
+          "quote": "Clức là cái này là gọi là axit béo liên"
+        },
+        {
+          "chunk": 5,
+          "timestamp": "02:24:25",
+          "quote": "Vâng. Sau đó đến gì? CL đến gì ạ? Đến AA"
         }
       ],
       "issues": []
@@ -1536,6 +1556,11 @@
           "chunk": 4,
           "timestamp": "02:02:01",
           "quote": "Và rất quan trọng đó là DHA."
+        },
+        {
+          "chunk": 5,
+          "timestamp": "02:24:15",
+          "quote": "Alla sau đó thì gì ạ? EAP"
         }
       ],
       "issues": []
@@ -1555,6 +1580,11 @@
           "chunk": 4,
           "timestamp": "02:03:49",
           "quote": "Liên kết pi đầu tiên đứng ở vị trí"
+        },
+        {
+          "chunk": 5,
+          "timestamp": "02:20:46",
+          "quote": "như la chúng ta phải nhớ là C18 2N và"
         }
       ],
       "issues": []
@@ -1567,13 +1597,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:06:11",
-      "quote": "có ba liên kết gì?",
+      "timestamp": "02:05:04",
+      "quote": "18 cacbon mấy liên kết piết pi và liên",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "02:06:11",
-          "quote": "có ba liên kết gì?"
+          "timestamp": "02:05:04",
+          "quote": "18 cacbon mấy liên kết piết pi và liên"
         },
         {
           "chunk": 5,
@@ -1601,8 +1631,8 @@
         },
         {
           "chunk": 5,
-          "timestamp": "02:07:44",
-          "quote": "nguyên tử cacbon mà lại có đến năm liên"
+          "timestamp": "02:07:40",
+          "quote": "kết pi cơ cho nên là nó rất quý. có 22"
         }
       ],
       "issues": []
@@ -1615,13 +1645,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:06:35",
-      "quote": "Liên kết pi là liên kết không bền vững",
+      "timestamp": "02:07:23",
+      "quote": "có hai nguyên tử cacbon để chúng ta thực",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "02:06:35",
-          "quote": "Liên kết pi là liên kết không bền vững"
+          "timestamp": "02:07:23",
+          "quote": "có hai nguyên tử cacbon để chúng ta thực"
         },
         {
           "chunk": 5,
@@ -1649,8 +1679,8 @@
         },
         {
           "chunk": 5,
-          "timestamp": "02:07:31",
-          "quote": "Vậy thì Omega3 nó có nhiều liên kết pi"
+          "timestamp": "02:07:12",
+          "quote": "Và nó càng nhiều liên kết pi thì nó càng"
         }
       ],
       "issues": []
@@ -1663,13 +1693,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:08:42",
-      "quote": "30% để cấu tạo lên cái màng tế bào này.",
+      "timestamp": "02:08:37",
+      "quote": "tạo bởi các axit béo mà axit béo ở đây",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:08:42",
-          "quote": "30% để cấu tạo lên cái màng tế bào này."
+          "timestamp": "02:08:37",
+          "quote": "tạo bởi các axit béo mà axit béo ở đây"
         }
       ],
       "issues": []
@@ -1682,13 +1712,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:12:59",
-      "quote": "bên trong tiể để thực hiện đốt cháy.",
+      "timestamp": "02:12:53",
+      "quote": "của cái nào nhiều thì nó sẽ tích hợp vào",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:12:59",
-          "quote": "bên trong tiể để thực hiện đốt cháy."
+          "timestamp": "02:12:53",
+          "quote": "của cái nào nhiều thì nó sẽ tích hợp vào"
         }
       ],
       "issues": []
@@ -1720,13 +1750,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:15:08",
-      "quote": "tăng tính thấm thành mạch. có những phản",
+      "timestamp": "02:15:11",
+      "quote": "ứng mà tăng tính thấm của mô liên kết",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:15:08",
-          "quote": "tăng tính thấm thành mạch. có những phản"
+          "timestamp": "02:15:11",
+          "quote": "ứng mà tăng tính thấm của mô liên kết"
         }
       ],
       "issues": []
@@ -1739,13 +1769,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:17:05",
-      "quote": "cùng nó trở thành viêm khớp dạng thấp nó",
+      "timestamp": "02:17:12",
+      "quote": "dạng thấp và viêm khớp dạng thấp thì",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:17:05",
-          "quote": "cùng nó trở thành viêm khớp dạng thấp nó"
+          "timestamp": "02:17:12",
+          "quote": "dạng thấp và viêm khớp dạng thấp thì"
         }
       ],
       "issues": []
@@ -1758,13 +1788,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:18:17",
-      "quote": "viêm thận kẽ, viêm cẩu thận, viêm ống",
+      "timestamp": "02:18:15",
+      "quote": "cái bệnh mãn tính của thận. Ví dụ như",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:18:17",
-          "quote": "viêm thận kẽ, viêm cẩu thận, viêm ống"
+          "timestamp": "02:18:15",
+          "quote": "cái bệnh mãn tính của thận. Ví dụ như"
         }
       ],
       "issues": []
@@ -1815,13 +1845,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:28:53",
-      "quote": "lắm là đến 5 chia 1. 5 chia 1 thì đã là",
+      "timestamp": "02:28:45",
+      "quote": "nghiên cứu và những tài liệu nói rằng",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:28:53",
-          "quote": "lắm là đến 5 chia 1. 5 chia 1 thì đã là"
+          "timestamp": "02:28:45",
+          "quote": "nghiên cứu và những tài liệu nói rằng"
         }
       ],
       "issues": []
@@ -1853,13 +1883,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:26:24",
-      "quote": "nhưng mà thực ra thì nó chỉ dưới 5%",
+      "timestamp": "02:26:29",
+      "quote": "5%. Các tài liệu hay dùng con số từ 0",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:26:24",
-          "quote": "nhưng mà thực ra thì nó chỉ dưới 5%"
+          "timestamp": "02:26:29",
+          "quote": "5%. Các tài liệu hay dùng con số từ 0"
         }
       ],
       "issues": []
@@ -1891,13 +1921,18 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:27:19",
-      "quote": "Omega 9 thì rất nhiều trong thực phẩm.",
+      "timestamp": "02:27:35",
+      "quote": "làm gì. Không cần thiết bởi vì trong",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:27:19",
-          "quote": "Omega 9 thì rất nhiều trong thực phẩm."
+          "timestamp": "02:27:35",
+          "quote": "làm gì. Không cần thiết bởi vì trong"
+        },
+        {
+          "chunk": 7,
+          "timestamp": "03:20:15",
+          "quote": "Omega 9 bởi chế độ ăn của chúng ta đang"
         }
       ],
       "issues": []
@@ -1910,13 +1945,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:30:37",
-      "quote": "chế độ ăn uống. Điều chỉnh chế độ ăn",
+      "timestamp": "02:30:44",
+      "quote": "phải giảm bớt cái dầu ăn lại chứ chúng",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:30:37",
-          "quote": "chế độ ăn uống. Điều chỉnh chế độ ăn"
+          "timestamp": "02:30:44",
+          "quote": "phải giảm bớt cái dầu ăn lại chứ chúng"
         }
       ],
       "issues": []
@@ -1987,12 +2022,12 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "02:35:03",
-      "quote": "gì? bỏ được thuốc tim mạch, bỏ được",
+      "quote": "bỏ được thuốc tim mạch, bỏ được",
       "evidence": [
         {
           "chunk": 5,
           "timestamp": "02:35:03",
-          "quote": "gì? bỏ được thuốc tim mạch, bỏ được"
+          "quote": "bỏ được thuốc tim mạch, bỏ được"
         }
       ],
       "issues": []
@@ -2015,8 +2050,8 @@
         },
         {
           "chunk": 6,
-          "timestamp": "02:35:48",
-          "quote": "rằng là chúng ta đừng có để cái tỉ lệ"
+          "timestamp": "02:35:50",
+          "quote": "lên tới 4 hay 5/ên1 cái này là không ổn"
         }
       ],
       "issues": []
@@ -2149,13 +2184,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:38:31",
-      "quote": "Quan niệm tiếp theo là mọi độ tuổi dùng",
+      "timestamp": "02:38:43",
+      "quote": "tuổi, mỗi nhu cầu sức khỏe khác nhau thì",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:38:31",
-          "quote": "Quan niệm tiếp theo là mọi độ tuổi dùng"
+          "timestamp": "02:38:43",
+          "quote": "tuổi, mỗi nhu cầu sức khỏe khác nhau thì"
         },
         {
           "chunk": 6,
@@ -2273,13 +2308,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:40:38",
-      "quote": "giàu DHA hơn. Người trung niên và cao",
+      "timestamp": "02:40:33",
+      "quote": "trưởng thành cần chăm sóc sức khỏe não,",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:40:38",
-          "quote": "giàu DHA hơn. Người trung niên và cao"
+          "timestamp": "02:40:33",
+          "quote": "trưởng thành cần chăm sóc sức khỏe não,"
         }
       ],
       "issues": []
@@ -2288,27 +2323,25 @@
       "id": "c116",
       "claim": "Theo bài được đọc: được cơ quan có thẩm quyền cấp phép và phân phối bởi công ty dược uy tín, không nên mua hàng xách tay hoặc hàng trôi nổi trên thị trường; riêng hàng xách tay, bác sĩ Phúc nói vẫn có thể là sản phẩm tốt, vấn đề là vận chuyển và bảo quản có đúng cách hay không.",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "03:10:30",
       "quote": "xách tay từ nước ngoài về vẫn mua được",
-      "evidence": [],
-      "issues": [
+      "evidence": [
         {
           "chunk": 6,
           "timestamp": "03:10:30",
-          "quote": "xách tay từ nước ngoài về vẫn mua được",
-          "finding": "evidence found at 03:10:30, outside the section's timestamp window"
+          "quote": "xách tay từ nước ngoài về vẫn mua được"
         },
         {
           "chunk": 7,
           "timestamp": "03:10:30",
-          "quote": "xách tay từ nước ngoài về vẫn mua được",
-          "finding": "evidence found at 03:10:30, outside the section's timestamp window"
+          "quote": "xách tay từ nước ngoài về vẫn mua được"
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c117",
@@ -2337,13 +2370,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:44:32",
-      "quote": "thực vật thì lại dầu omega 6. Omega",
+      "timestamp": "02:44:30",
+      "quote": "Các cái loại hạt, các loại thực vật mà",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:44:32",
-          "quote": "thực vật thì lại dầu omega 6. Omega"
+          "timestamp": "02:44:30",
+          "quote": "Các cái loại hạt, các loại thực vật mà"
         }
       ],
       "issues": []
@@ -2390,21 +2423,20 @@
       "id": "c121",
       "claim": "Bác sĩ Phúc phân loại 3 dạng dầu cá:",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:05:22",
-      "quote": "Dầu cá tự nhiên là 1 TG đúng không ạ?",
-      "evidence": [],
-      "issues": [
+      "timestamp": "03:05:20",
+      "quote": "Có ba sản phẩm chứ.",
+      "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:05:22",
-          "quote": "Dầu cá tự nhiên là 1 TG đúng không ạ?",
-          "finding": "evidence found at 03:05:22, outside the section's timestamp window"
+          "timestamp": "03:05:20",
+          "quote": "Có ba sản phẩm chứ."
         }
-      ]
+      ],
+      "issues": []
     },
     {
       "id": "c122",
@@ -2490,13 +2522,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:56:58",
-      "quote": "thành những các cái axit béo dưới dạng",
+      "timestamp": "02:59:07",
+      "quote": "đặc lên được vượt qua con số 0,3%.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:56:58",
-          "quote": "thành những các cái axit béo dưới dạng"
+          "timestamp": "02:59:07",
+          "quote": "đặc lên được vượt qua con số 0,3%."
         }
       ],
       "issues": []
@@ -2547,13 +2579,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:59:57",
-      "quote": "của ety este nhưng mà nó cải thiện khả",
+      "timestamp": "03:00:47",
+      "quote": "nhiều. Tôi nghĩ rằng là đến 125% thì có",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:59:57",
-          "quote": "của ety este nhưng mà nó cải thiện khả"
+          "timestamp": "03:00:47",
+          "quote": "nhiều. Tôi nghĩ rằng là đến 125% thì có"
         }
       ],
       "issues": []
@@ -2585,13 +2617,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:09:02",
-      "quote": "ta tính tỉ lệ của EPA cộng DHA",
+      "timestamp": "02:50:27",
+      "quote": "300 và đem chia cho cái tổng này tức là",
       "evidence": [
         {
-          "chunk": 7,
-          "timestamp": "03:09:02",
-          "quote": "ta tính tỉ lệ của EPA cộng DHA"
+          "chunk": 6,
+          "timestamp": "02:50:27",
+          "quote": "300 và đem chia cho cái tổng này tức là"
         }
       ],
       "issues": []
@@ -2623,13 +2655,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:03:00",
-      "quote": "được con số 0,5 đến con số 0,6. Có những",
+      "timestamp": "03:02:12",
+      "quote": "thì chúng ta khá tốt nhưng lại liên quan",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:03:00",
-          "quote": "được con số 0,5 đến con số 0,6. Có những"
+          "timestamp": "03:02:12",
+          "quote": "thì chúng ta khá tốt nhưng lại liên quan"
         }
       ],
       "issues": []
@@ -2642,13 +2674,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:02:25",
-      "quote": "0,6 trở lên thì chúng ta sẽ bỏ được",
+      "timestamp": "03:02:30",
+      "quote": "dụ như thuốc tiểu đường, thuốc mỡ máu,",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:02:25",
-          "quote": "0,6 trở lên thì chúng ta sẽ bỏ được"
+          "timestamp": "03:02:30",
+          "quote": "dụ như thuốc tiểu đường, thuốc mỡ máu,"
         }
       ],
       "issues": []
@@ -2680,13 +2712,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:03:29",
-      "quote": "omega 3 xong lên tới 0,7 thì sau 3 tháng",
+      "timestamp": "03:03:27",
+      "quote": "kết quả xét nghiệm nói rằng sau khi uống",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:03:29",
-          "quote": "omega 3 xong lên tới 0,7 thì sau 3 tháng"
+          "timestamp": "03:03:27",
+          "quote": "kết quả xét nghiệm nói rằng sau khi uống"
         }
       ],
       "issues": []
@@ -2718,13 +2750,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:10:05",
-      "quote": "vì nó có nhiều liên kết pi.",
+      "timestamp": "03:10:10",
+      "quote": "hóa, rất dễ bị các cái phản ứng hóa học.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:10:05",
-          "quote": "vì nó có nhiều liên kết pi."
+          "timestamp": "03:10:10",
+          "quote": "hóa, rất dễ bị các cái phản ứng hóa học."
         },
         {
           "chunk": 7,
@@ -2742,13 +2774,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:10:44",
-      "quote": "này rất nhanh biến tính và nó trở thành",
+      "timestamp": "03:10:46",
+      "quote": "chúng ta uống như uống nước lã.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:10:44",
-          "quote": "này rất nhanh biến tính và nó trở thành"
+          "timestamp": "03:10:46",
+          "quote": "chúng ta uống như uống nước lã."
         },
         {
           "chunk": 7,
@@ -2776,8 +2808,8 @@
         },
         {
           "chunk": 7,
-          "timestamp": "03:11:54",
-          "quote": "là chúng ta đừng mua quá nhiều."
+          "timestamp": "03:11:51",
+          "quote": "những hiệu có uy tín mua. Và tốt nữa cái"
         }
       ],
       "issues": []
@@ -2885,13 +2917,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:13:58",
-      "quote": "gan nhiễm mỡ tăng lên và mỡ máu tăng",
+      "timestamp": "03:13:55",
+      "quote": "uống vào có nguy cơ là chúng ta lại bị",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:13:58",
-          "quote": "gan nhiễm mỡ tăng lên và mỡ máu tăng"
+          "timestamp": "03:13:55",
+          "quote": "uống vào có nguy cơ là chúng ta lại bị"
         }
       ],
       "issues": []
@@ -2923,13 +2955,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:18:32",
-      "quote": "nhiều DHA mà lại ít EPA hoặc ngược lại",
+      "timestamp": "03:18:35",
+      "quote": "quá nhiều EPA mà lại ít DHA thì chúng ta",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:18:32",
-          "quote": "nhiều DHA mà lại ít EPA hoặc ngược lại"
+          "timestamp": "03:18:35",
+          "quote": "quá nhiều EPA mà lại ít DHA thì chúng ta"
         }
       ],
       "issues": []
@@ -2942,13 +2974,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:22:29",
-      "quote": "hiểu cái điều này để bổ sung bảy cái vi",
+      "timestamp": "03:20:02",
+      "quote": "Cái thứ sáu là gì ạ? kẽm. Cái thứ bảy là",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:22:29",
-          "quote": "hiểu cái điều này để bổ sung bảy cái vi"
+          "timestamp": "03:20:02",
+          "quote": "Cái thứ sáu là gì ạ? kẽm. Cái thứ bảy là"
         }
       ],
       "issues": []
@@ -3000,12 +3032,12 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "03:19:46",
-      "quote": "ạ? Từ 50 đến 70 Ng/ml đúng không ạ? Máu",
+      "quote": "Từ 50 đến 70 Ng/ml đúng không ạ? Máu",
       "evidence": [
         {
           "chunk": 7,
           "timestamp": "03:19:46",
-          "quote": "ạ? Từ 50 đến 70 Ng/ml đúng không ạ? Máu"
+          "quote": "Từ 50 đến 70 Ng/ml đúng không ạ? Máu"
         }
       ],
       "issues": []
@@ -3094,13 +3126,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:24:53",
-      "quote": "Việt Nam chưa làm bởi vì chúng ta chưa",
+      "timestamp": "03:26:26",
+      "quote": "hiện xét nghiệm EPA và DHA ở trong hồng",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:24:53",
-          "quote": "Việt Nam chưa làm bởi vì chúng ta chưa"
+          "timestamp": "03:26:26",
+          "quote": "hiện xét nghiệm EPA và DHA ở trong hồng"
         }
       ],
       "issues": []
@@ -3163,93 +3195,118 @@
       "issues": []
     }
   ],
-  "concerns": [],
+  "concerns": [
+    {
+      "severity": "minor",
+      "finding": "The summary repeats the source's piano arithmetic without comment. 50 notes chosen from 52 keys gives 52^50 sequences, not 50^52. The claimed atom count of 50^51 and the switch from 'hệ vũ trụ' to 'hệ mặt trời' are also not established facts.",
+      "quote": "lúc đó sẽ có 50 mũ 52 bản nhạc.",
+      "timestamp": "00:32:10",
+      "chunk": 1
+    },
+    {
+      "severity": "minor",
+      "finding": "The doctor says DHA has 5 pi bonds; DHA (C22:6n-3) actually has 6 double bonds. Summary claim c082 repeats this figure but attributes it to the doctor.",
+      "quote": "kết pi cơ cho nên là nó rất quý. có 22",
+      "timestamp": "02:07:40",
+      "chunk": 4
+    }
+  ],
   "coverage_complete": false,
   "omissions": [
     {
-      "topic": "Người Inuit ở Greenland ít mắc bệnh tim mạch, khởi đầu nghiên cứu Omega-3 từ những năm 1970",
-      "quote": "rằng là người Inus sống ở Greenland hiếm",
-      "timestamp": "01:21:29"
+      "topic": "Inuit people in Greenland rarely having cardiovascular disease since the 1970s, prompting omega-3 research",
+      "quote": "kể từ những năm 1970 thì các nhà khoa học đã phát hiện ra rằng là người Inus sống ở Greenland hiếm khi mắc các bệnh tim mạch",
+      "timestamp": "01:21:24-01:21:33"
     },
     {
-      "topic": "Hơn 15.000 báo cáo cho thấy Omega-3 chống viêm, chống huyết khối, chống loạn nhịp tim, hạ lipid máu, giãn mạch",
-      "quote": "15.000 báo cáo đã chỉ ra rằng axit béo",
-      "timestamp": "01:21:57"
+      "topic": "Over 15,000 reports on anti-inflammatory, antithrombotic, antiarrhythmic, lipid-lowering and vasodilating effects of omega-3",
+      "quote": "15.000 báo cáo đã chỉ ra rằng axit béo Omega 3 có đặc tính chống viêm, chống huyết khối, chống loạn nhịp tim, hạ lipit máu và giãn mạch",
+      "timestamp": "01:21:57-01:22:05"
     },
     {
-      "topic": "Liều vitamin D3 2000 đơn vị trong nghiên cứu cao hơn khuyến cáo 600 UI/ngày của Mỹ",
-      "quote": "cáo là 600 UI một ngày là khuyến cáo của",
-      "timestamp": "01:27:15"
+      "topic": "US vitamin D recommendation of 600 IU/day compared with the 2000 IU used in the study",
+      "quote": "cái khuyến cáo là 600 UI một ngày là khuyến cáo của Mỹ",
+      "timestamp": "01:27:10-01:27:18"
     },
     {
-      "topic": "Các thành phần nuôi não: đạm, đường, mỡ; albumin ít được dành cho não nên phải trông chờ vào DHA",
-      "quote": "thực hiện nhiều chức năng quá dẫn tới là",
-      "timestamp": "01:30:35"
+      "topic": "Brain nutrients: albumin is rarely reserved for the brain, so the brain relies on DHA",
+      "quote": "albumin thì lại nó thực hiện nhiều chức năng quá dẫn tới là nó rất ít được dành cho não.",
+      "timestamp": "01:30:33-01:30:38"
     },
     {
-      "topic": "Lời khuyên trong bài báo về chọn dầu ăn: dầu đậu nành, hướng dương, ngô nhiều Omega-6; dầu ô liu, cọ, dừa, quả bơ ít Omega-6 hơn",
+      "topic": "Article's dietary advice: avoid omega-6-rich oils (soybean, sunflower, corn); olive, palm, coconut oil and avocado contain less omega-6",
       "quote": "đậu nành, dầu hướng dương, ngô được biết",
       "timestamp": "01:57:03"
     },
     {
-      "topic": "Lời khuyên trong bài báo về thịt: chọn phần nạc; ưu tiên thịt/bơ từ động vật ăn cỏ vì gia súc nuôi bằng hạt tích trữ nhiều Omega-6",
-      "quote": "loại thịt ở những phần gầy hơn.",
-      "timestamp": "01:57:20"
+      "topic": "Article's advice to choose lean meat and grass-fed animal products, since grain/soy-fed livestock fat is mostly omega-6",
+      "quote": "động vật được nuôi bằng cỏ là tối ưu",
+      "timestamp": "01:57:56"
     },
     {
-      "topic": "Vai trò của Omega-6 theo bài báo: chức năng não, sức khỏe sinh sản, tóc, da và xương",
-      "quote": "vai trò trong chức năng não, sức khỏe",
-      "timestamp": "01:55:05"
+      "topic": "Article's caveat that with daily industrially processed food the omega-6/omega-3 ratio no longer matters",
+      "quote": "nếu bạn ăn thức ăn chế biến sẵn theo",
+      "timestamp": "01:58:54"
     },
     {
-      "topic": "Tác dụng riêng của từng thành phần Omega-6 (GLA chống viêm, CLA vừa chống viêm vừa chống ung thư)",
-      "quote": "Thế còn thì CL thì có tác dụng vừa chống",
-      "timestamp": "02:10:43"
+      "topic": "Roles of omega-6 named in the article (brain function, reproductive health, hair, skin, bones)",
+      "quote": "sinh sản, giúp tóc, da và xương khỏe",
+      "timestamp": "01:55:07"
     },
     {
-      "topic": "Omega-6 chỉ gây viêm khi ăn quá nhiều, không được cắt bỏ hoàn toàn",
+      "topic": "Omega-6 (LA, AA) chỉ gây viêm khi ăn quá nhiều, không được cắt bỏ hoàn toàn",
       "quote": "trọng. Nó chỉ gây ra viêm khi nào? Khi",
       "timestamp": "02:19:57"
     },
     {
-      "topic": "Mua dầu ăn ở siêu thị, cửa hàng uy tín và dùng trong hạn sử dụng sau khi mở",
+      "topic": "Đặc tính viêm/chống viêm của từng axit béo: GLA chống viêm, CLA vừa chống viêm vừa chống ung thư, EPA/DHA chống viêm",
+      "quote": "viêm vừa chống ung thư. Chống viêm cộng",
+      "timestamp": "02:10:47"
+    },
+    {
+      "topic": "Mua dầu ăn ở siêu thị, cửa hàng uy tín, dùng đúng hạn sử dụng sau khi mở",
       "quote": "dụng đúng hạn của nó. Mua dầu ăn phải",
       "timestamp": "02:33:03"
     },
     {
-      "topic": "Không cần cố bổ sung Omega-6, Omega-9 có trong sản phẩm Omega-3 quảng cáo; chỉ nên quan tâm EPA và DHA",
-      "quote": "lý. Chúng ta không cố kiết lao đi bổ",
-      "timestamp": "02:33:58"
+      "topic": "Không cần sản phẩm Omega-3 có thêm Omega-6, Omega-9; chỉ nên quan tâm EPA và DHA",
+      "quote": "sung Omega 6, Omega 9 hay là các cái",
+      "timestamp": "02:34:02"
     },
     {
-      "topic": "DHA và EPA dư thừa được dùng cho các tạng khác như gan, mật, tụy, lách, thận",
-      "quote": "DHA và EPA có nếu thừa ra thì sẽ dành",
-      "timestamp": "02:25:15"
-    },
-    {
-      "topic": "Some natural fish-oil products had an (EPA+DHA)/total fat ratio as low as 0.06",
-      "quote": "sản phẩm đã xuống đến 0,06.",
-      "timestamp": "02:51:19"
-    },
-    {
-      "topic": "Taking a double dose of a 0.35 product does not replace a 0.7 product (extra fat intake)",
+      "topic": "Doubling the dose of a 0.35 product does not equal a 0.7 product; extra low-grade capsules just add fat",
       "quote": "mà 0,35 xong uống gấp đôi lên được hay",
       "timestamp": "03:03:51"
     },
     {
-      "topic": "With products below 0.3, people need to monitor themselves because blood fat or fatty liver may rise",
+      "topic": "Vitamin D, vitamin A, vitamin E cũng là những sản phẩm cực kỳ dễ biến tính, cần bảo quản đúng cách",
+      "quote": "là những sản phẩm cực kỳ dễ biến tính.",
+      "timestamp": "03:10:59"
+    },
+    {
+      "topic": "Users of natural fish oil below 0.3 should monitor themselves, since some may see blood lipids or fatty liver rise",
       "quote": "có thể bị tăng cái mỡ máu hay gan nh mỡ",
       "timestamp": "03:01:54"
     },
     {
-      "topic": "Vitamin D, vitamin A and vitamin E also degrade very easily, like fish oil, if stored incorrectly",
-      "quote": "này, vitamin A này, vitamin E này, đấy",
-      "timestamp": "03:10:57"
+      "topic": "Some natural fish oil products, including expensive gift products, measure as low as 0.06",
+      "quote": "sản phẩm đã xuống đến 0,06.",
+      "timestamp": "02:51:19"
     },
     {
-      "topic": "Doctor's recommended EPA+DHA ratio by health status: 0.6-0.7 or higher for ill people, 0.5-0.6 for healthy people",
-      "quote": "tỉ lệ đem chia ấy là tôi ưu tiên 0,7 trở",
-      "timestamp": "03:18:13"
+      "topic": "Khuyến nghị tỷ lệ (EPA+DHA)/tổng chất béo: người có bệnh nên mua từ 0,6-0,7, ưu tiên 0,7 trở lên; người không bệnh có thể 0,5-0,6",
+      "quote": "đầu chúng ta sẽ nên mua từ cái cỡ độ 0,6",
+      "timestamp": "03:18:09"
+    },
+    {
+      "topic": "Nên mua sản phẩm được các tổ chức, hiệp hội uy tín trong nước và quốc tế công nhận, khuyên dùng",
+      "quote": "chính là mua sản phẩm mà được các tổ",
+      "timestamp": "03:12:12"
+    },
+    {
+      "topic": "Nên xét nghiệm (vitamin D, mỡ máu, tiểu đường, khám tổng quát) trước khi bổ sung để chọn loại Omega-3 phù hợp",
+      "quote": "là chúng ta nên xét nghiệm vitamin D và",
+      "timestamp": "03:23:51"
     }
   ]
 }
