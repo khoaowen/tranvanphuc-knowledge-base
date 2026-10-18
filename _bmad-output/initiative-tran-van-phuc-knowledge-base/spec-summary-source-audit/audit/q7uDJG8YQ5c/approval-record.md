@@ -7,3 +7,5 @@
 - Claim ids belong to the summary.md current at audit time; match by current claim text if the summary changes.
 
 - corrections applied, uncommitted, video still blocked
+
+- 2026-10-18: human approved wave 3 ("opus review loop") summary edits, committed in 6f6f3e3. Video stays blocked.
