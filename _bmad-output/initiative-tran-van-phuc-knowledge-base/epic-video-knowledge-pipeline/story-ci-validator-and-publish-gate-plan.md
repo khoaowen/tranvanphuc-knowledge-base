@@ -75,6 +75,8 @@ Implemented directly (no subagents authorized). Quick review lens not run via su
 
 ## Review Triage Log
 
+Bmad-review (adversarial, edge-case, verification-gap) patched: strict duration (fails closed), NFC tag matching, unreadable vocabulary/transcript no longer crash, explicit review_missing flag, output line uses directory slug, tests for ?t=/link/Video ID/real videos/mark-stale. Deferred: disclaimer position/source, all-merged sections and glossary order, duplicate video_id, unittest in CI (see deferred-work.md).
+
 ## Design Notes
 
 - Stale marker holds a SHA-256 so it expires on regeneration without any cleanup step; entry 11 calls `--mark-stale` when Gemini regeneration fails.

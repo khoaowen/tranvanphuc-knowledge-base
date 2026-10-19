@@ -156,6 +156,60 @@ class Validate(Base):
         self.assertTrue(self.validate()["published"])
 
 
+class Strict(Base):
+    def test_tag_beyond_duration_only(self):
+        """Heading within duration but ?t= beyond it is still rejected."""
+        (self.d / "summary.md").write_text(summary_text().replace("&t=600s", "&t=9999s"), encoding="utf-8")
+        self.assertRejected("?t= beyond video duration")
+
+    def test_t_differs_from_heading(self):
+        (self.d / "summary.md").write_text(summary_text().replace("&t=600s", "&t=601s"), encoding="utf-8")
+        self.assertRejected("?t= differs from heading time")
+
+    def test_link_other_video(self):
+        text = summary_text().replace(f"watch?v={VID}&t=600s", "watch?v=zzzzzzz&t=600s")
+        (self.d / "summary.md").write_text(text, encoding="utf-8")
+        self.assertRejected("link points at another video")
+
+    def test_header_video_id_mismatch(self):
+        (self.d / "summary.md").write_text(summary_text().replace(f"**Video ID:** {VID}", "**Video ID:** other"), encoding="utf-8")
+        self.assertRejected("Video ID differs")
+
+    def test_duration_invalid_fails_closed(self):
+        self.put()
+        write_review(self.d)
+        for bad in (None, 0, "1500", True):
+            (self.d / "metadata.json").write_text(json.dumps({"video_id": VID, "duration": bad}), encoding="utf-8")
+            self.assertRejected("duration missing or invalid")
+
+    def test_tags_nfc_normalized(self):
+        import unicodedata
+        self.vocab.write_text(unicodedata.normalize("NFD", "omega-3, mỡ máu\n"), encoding="utf-8")
+        self.put(tags=unicodedata.normalize("NFC", "omega-3, mỡ máu"))
+        write_review(self.d)
+        self.assertTrue(self.validate()["published"])
+
+    def test_unreadable_vocabulary_is_a_reason_not_a_crash(self):
+        self.vocab.write_bytes(b"\xff\xfe bad")
+        self.put()
+        self.assertRejected("vocabulary unreadable")
+
+    def test_review_missing_flag(self):
+        self.put()
+        self.assertTrue(self.validate()["review_missing"])
+        self.put(banner=False)
+        self.assertFalse(self.validate()["review_missing"])
+
+
+class RealVideos(unittest.TestCase):
+    def test_real_summaries_have_no_structural_reasons(self):
+        for entry in queue_state.list_videos(REPO_ROOT / "videos"):
+            if entry["state"] != queue_state.SUMMARIZED:
+                continue
+            r = vs.validate_video(entry["dir"], REPO_ROOT / "topics" / "vocabulary.md")
+            self.assertFalse(r["invalid"], (entry["dir"].name, r["reasons"]))
+
+
 class Review(Base):
     def test_no_review(self):
         self.put()
@@ -208,7 +262,7 @@ class Cli(Base):
     def test_exit_codes_and_lines(self):
         self.put()
         write_review(self.d)
-        self.assertEqual(self.run_cli(), (0, f"{VID}: published\n"))
+        self.assertEqual(self.run_cli(), (0, "2025-01-01-x: published\n"))
         self.put(banner=False)
         code, out = self.run_cli()
         self.assertEqual(code, 1)
@@ -239,8 +293,13 @@ class Cli(Base):
         finally:
             vs.check_summary = original
 
+    def test_mark_stale_missing_video(self):
+        self.put()
+        self.assertEqual(self.run_cli("--mark-stale", "nope")[0], 1)
+        self.assertFalse((self.d / "summary.stale").exists())
+
     def test_non_summarized_videos_listed(self):
-        self.assertEqual(self.run_cli(), (0, f"{VID}: transcribed\n"))
+        self.assertEqual(self.run_cli(), (0, "2025-01-01-x: transcribed\n"))
 
 
 if __name__ == "__main__":

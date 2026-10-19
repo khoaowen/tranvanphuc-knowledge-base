@@ -14,6 +14,7 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -39,6 +40,23 @@ def sha256(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+def safe_sha256(path):
+    """SHA-256 of a file, None when it is missing or unreadable."""
+    try:
+        return sha256(path)
+    except OSError:
+        return None
+
+
+def norm(tag):
+    """Tag comparison key: NFC-normalized and casefolded (Vietnamese has composed/decomposed forms)."""
+    return unicodedata.normalize("NFC", tag).strip().casefold()
+
+
+def valid_duration(value):
+    return isinstance(value, (int, float)) and not isinstance(value, bool) and value > 0
+
+
 def load_vocabulary(path):
     """Return the lowercase tag set, or None when the vocabulary file does not exist.
 
@@ -54,7 +72,7 @@ def load_vocabulary(path):
             continue
         for part in re.sub(r"^[-*+]\s+", "", line).split(","):
             if part.strip():
-                tags.add(part.strip().casefold())
+                tags.add(norm(part))
     return tags
 
 
@@ -85,6 +103,9 @@ def check_summary(video_dir, vocabulary):
     video_id = meta.get("video_id") if isinstance(meta, dict) else None
     duration = meta.get("duration") if isinstance(meta, dict) else None
     lines = summary.splitlines()
+    if not valid_duration(duration):
+        reasons.append("metadata: duration missing or invalid")
+        duration = None
 
     # header
     if not (lines and lines[0].startswith("# ") and lines[0][2:].strip()):
@@ -115,7 +136,7 @@ def check_summary(video_dir, vocabulary):
     for k, (i, m) in enumerate(sections):
         seconds = fidelity.to_seconds(":".join(m.groups()[:3]))
         label = f"section [{m.group(1)}:{m.group(2)}:{m.group(3)}]"
-        if isinstance(duration, (int, float)) and seconds > duration:
+        if duration is not None and seconds > duration:
             reasons.append(f"{label}: time beyond video duration")
         link = LINK.search(lines[i])
         if not link:
@@ -125,7 +146,7 @@ def check_summary(video_dir, vocabulary):
                 reasons.append(f"{label}: link points at another video")
             if int(link.group(2)) != seconds:
                 reasons.append(f"{label}: ?t= differs from heading time")
-            if isinstance(duration, (int, float)) and int(link.group(2)) > duration:
+            if duration is not None and int(link.group(2)) > duration:
                 reasons.append(f"{label}: ?t= beyond video duration")
         body = [l.strip() for l in lines[i + 1:max(bounds[k + 1], i + 1)] if l.strip()]
         merged = len(body) == 1 and re.fullmatch(r"Đã gộp vào mục\s+[^.!?]{1,100}[.!]?", body[0], re.I)
@@ -154,7 +175,7 @@ def check_summary(video_dir, vocabulary):
 
     # tags
     if vocabulary is not None and fields.get("Topics"):
-        unknown = [t.strip() for t in fields["Topics"].split(",") if t.strip() and t.strip().casefold() not in vocabulary]
+        unknown = [t.strip() for t in fields["Topics"].split(",") if t.strip() and norm(t) not in vocabulary]
         if unknown:
             reasons.append("tags outside vocabulary: " + ", ".join(unknown))
 
@@ -167,20 +188,26 @@ def validate_video(video_dir, vocabulary_path=DEFAULT_VOCABULARY):
     """Return {state, reasons, published}; raises TranscriptChanged if transcript.md was altered."""
     video_dir = Path(video_dir)
     transcript = video_dir / "transcript.md"
-    before = sha256(transcript) if transcript.is_file() else None
+    before = safe_sha256(transcript)
     state = queue_state.video_state(video_dir)
-    reasons, published = [], False
+    reasons, published, review_missing = [], False, False
     if state == queue_state.SUMMARIZED:
-        reasons = check_summary(video_dir, load_vocabulary(vocabulary_path))
+        try:
+            vocabulary = load_vocabulary(vocabulary_path)
+        except (OSError, ValueError) as exc:
+            vocabulary, reasons = None, [f"vocabulary unreadable: {exc}"]
+        reasons = reasons + check_summary(video_dir, vocabulary)
         if not reasons:
             published = queue_state.publishable(video_dir)
             if not published:
+                review_missing = True
                 reasons = ["no passing review bound to this summary"]
-    after = sha256(transcript) if transcript.is_file() else None
+    after = safe_sha256(transcript)
     if before != after:
         raise TranscriptChanged(video_dir.name)
     return {"state": PUBLISHED if published else state, "reasons": reasons, "published": published,
-            "invalid": state == queue_state.SUMMARIZED and bool(reasons) and not reasons[0].startswith("no passing review")}
+            "review_missing": review_missing,
+            "invalid": state == queue_state.SUMMARIZED and bool(reasons) and not review_missing}
 
 
 def video_publish_state(video_dir, vocabulary_path=DEFAULT_VOCABULARY):
@@ -208,10 +235,10 @@ def main(argv=None):
         try:
             result = validate_video(entry["dir"], args.vocabulary)
         except TranscriptChanged as exc:
-            print(f"{entry['video_id']}: transcript changed during validation ({exc})", file=sys.stderr)
+            print(f"{entry['dir'].name}: transcript changed during validation ({exc})", file=sys.stderr)
             return 2
         failed = failed or result["invalid"]
-        print(f"{entry['video_id']}: {result['state']}" + (f" ({'; '.join(result['reasons'])})" if result["reasons"] else ""))
+        print(f"{entry['dir'].name}: {result['state']}" + (f" ({'; '.join(result['reasons'])})" if result["reasons"] else ""))
     return 1 if failed else 0
 
 
