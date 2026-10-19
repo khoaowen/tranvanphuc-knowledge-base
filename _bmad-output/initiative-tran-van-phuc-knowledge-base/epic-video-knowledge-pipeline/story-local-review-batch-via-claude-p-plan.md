@@ -3,7 +3,7 @@ title: 'Local review-batch via claude -p'
 type: 'feature'
 ticket: '9'
 created: '2026-10-11'
-status: 'built'
+status: done
 baseline_revision: '65a05c88d9d7d812dab4a98ee1cb7894388e5605'
 route: 'full'
 route_source: 'auto'

@@ -3,7 +3,7 @@ title: 'Claude fidelity review of summaries (publish gate)'
 type: 'feature'
 ticket: '12'
 created: '2026-10-11'
-status: 'built'
+status: done
 baseline_revision: 'e3f269c704190d2de769040a5bebd438addca676'
 route: 'full'
 route_source: 'auto'
