@@ -128,16 +128,49 @@ class FetchWritesRawLayer(Base):
         self.assertTrue((self.video_dir / "raw" / "captions.vi.json3.gz").is_file())
         self.assertFalse((self.video_dir / "raw" / "captions.vi-orig.json3.gz").exists())
 
-    def test_existing_raw_layer_is_not_overwritten(self):
-        self.fetch()
-        raw_dir = self.video_dir / "raw"
-        before = {p.name: p.read_bytes() for p in raw_dir.iterdir()}
-        transcript_before = (self.video_dir / "transcript.md").read_bytes()
-        code, _, err = self.fetch(tracks=("vi",))
+    def test_existing_video_is_not_overwritten(self):
+        self.video_dir.mkdir(parents=True)
+        metadata_path = self.video_dir / "metadata.json"
+        transcript_path = self.video_dir / "transcript.md"
+        metadata_path.write_text("original metadata\n", encoding="utf-8")
+        transcript_path.write_text("original transcript\n", encoding="utf-8")
+        code, _, err = self.fetch()
         self.assertEqual(code, 1)
+        self.assertIn("already exists", err)
         self.assertIn("--rerender", err)
-        self.assertEqual({p.name: p.read_bytes() for p in raw_dir.iterdir()}, before)
-        self.assertEqual((self.video_dir / "transcript.md").read_bytes(), transcript_before)
+        self.assertEqual(metadata_path.read_text(encoding="utf-8"), "original metadata\n")
+        self.assertEqual(transcript_path.read_text(encoding="utf-8"), "original transcript\n")
+        self.assertFalse((self.video_dir / "raw").exists())
+
+    def test_pending_completion_fails_closed_on_install_collision(self):
+        self.video_dir.mkdir(parents=True)
+        metadata_path = self.video_dir / "metadata.json"
+        metadata_path.write_text(json.dumps({"video_id": VID}), encoding="utf-8")
+        transcript_path = self.video_dir / "transcript.md"
+        original_link = fetch_transcript.os.link
+
+        def collide(source, target):
+            if Path(target) == transcript_path:
+                transcript_path.write_text("concurrent artifact\\n", encoding="utf-8")
+            return original_link(source, target)
+
+        with mock.patch.object(fetch_transcript.subprocess, "run", fake_yt_dlp()), \
+                mock.patch.object(fetch_transcript.os, "link", side_effect=collide):
+            code, _, err = run_main("--videos-dir", str(self.videos),
+                                    "--complete-pending", str(self.video_dir), VID)
+        self.assertEqual(code, 1)
+        self.assertIn("File exists", err)
+        self.assertEqual(metadata_path.read_text(encoding="utf-8"), json.dumps({"video_id": VID}))
+        self.assertEqual(transcript_path.read_text(encoding="utf-8"), "concurrent artifact\\n")
+        self.assertFalse((self.video_dir / "raw").exists())
+
+    def test_raw_write_failure_leaves_no_video_directory(self):
+        with mock.patch.object(fetch_transcript.subprocess, "run", fake_yt_dlp()), \
+                mock.patch.object(fetch_transcript, "write_raw_captions", side_effect=OSError("disk full")):
+            code, _, err = run_main("--videos-dir", str(self.videos), VID)
+        self.assertEqual(code, 1)
+        self.assertIn("disk full", err)
+        self.assertFalse(self.video_dir.exists())
 
     def test_yt_dlp_version_failure_writes_nothing(self):
         code, _, err = self.fetch(version_exit=1)
@@ -194,6 +227,90 @@ class RerenderAndCheck(Base):
         code, _, err = run_main("--check", str(self.video_dir))
         self.assertEqual(code, 1)
         self.assertIn("transcript_sha256", err)
+
+    def test_check_reports_truncated_gzip_without_aborting_later_dirs(self):
+        raw_path = self.video_dir / "raw" / "captions.vi-orig.json3.gz"
+        raw_path.write_bytes(gzip.compress(FIXTURE_JSON3, mtime=0)[:-8])
+        prov_path = self.video_dir / "raw" / "provenance.json"
+        prov = self.provenance()
+        prov["sha256"] = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+        prov_path.write_text(json.dumps(prov), encoding="utf-8")
+        other = self.videos / "other"
+        other.mkdir()
+        code, out, err = run_main("--check", str(self.video_dir), str(other))
+        self.assertEqual(code, 1)
+        self.assertIn("cannot read raw captions", err)
+        self.assertIn("no raw captions", err)
+        self.assertEqual(out, "")
+
+    def test_check_reports_invalid_json(self):
+        raw_path = self.video_dir / "raw" / "captions.vi-orig.json3.gz"
+        raw_path.write_bytes(gzip.compress(b"not json", mtime=0))
+        prov_path = self.video_dir / "raw" / "provenance.json"
+        prov = self.provenance()
+        prov["sha256"] = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+        prov_path.write_text(json.dumps(prov), encoding="utf-8")
+        code, _, err = run_main("--check", str(self.video_dir))
+        self.assertEqual(code, 1)
+        self.assertIn("cannot read raw captions", err)
+
+    def test_check_rejects_json_without_events_list(self):
+        raw_path = self.video_dir / "raw" / "captions.vi-orig.json3.gz"
+        raw_path.write_bytes(gzip.compress(b"{}", mtime=0))
+        prov_path = self.video_dir / "raw" / "provenance.json"
+        prov = self.provenance()
+        prov["sha256"] = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+        prov_path.write_text(json.dumps(prov), encoding="utf-8")
+        code, _, err = run_main("--check", str(self.video_dir))
+        self.assertEqual(code, 1)
+        self.assertIn("events list", err)
+
+    def test_check_contains_recursion_error_during_render(self):
+        with mock.patch.object(fetch_transcript, "build_transcript_lines",
+                               side_effect=RecursionError("maximum recursion depth exceeded")):
+            code, _, err = run_main("--check", str(self.video_dir))
+        self.assertEqual(code, 1)
+        self.assertIn("maximum recursion depth exceeded", err)
+
+    def test_check_reports_schema_malformed_json3(self):
+        raw_path = self.video_dir / "raw" / "captions.vi-orig.json3.gz"
+        malformed = json.loads(FIXTURE_JSON3)
+        malformed["events"][1]["tStartMs"] = 1.5
+        raw_path.write_bytes(gzip.compress(json.dumps(malformed).encode("utf-8"), mtime=0))
+        prov_path = self.video_dir / "raw" / "provenance.json"
+        prov = self.provenance()
+        prov["sha256"] = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+        prov_path.write_text(json.dumps(prov), encoding="utf-8")
+        code, _, err = run_main("--check", str(self.video_dir))
+        self.assertEqual(code, 1)
+        self.assertIn("cannot read raw captions", err)
+
+    def test_check_reports_unreadable_transcript(self):
+        original_read_bytes = Path.read_bytes
+
+        def read_bytes(path):
+            if path == self.transcript:
+                raise OSError("permission denied")
+            return original_read_bytes(path)
+
+        with mock.patch.object(fetch_transcript.Path, "read_bytes", new=read_bytes):
+            code, _, err = run_main("--check", str(self.video_dir))
+        self.assertEqual(code, 1)
+        self.assertIn("cannot read transcript", err)
+        self.assertNotIn("cannot read raw captions", err)
+
+    def test_check_rejects_negative_timestamp(self):
+        raw_path = self.video_dir / "raw" / "captions.vi-orig.json3.gz"
+        malformed = json.loads(FIXTURE_JSON3)
+        malformed["events"][1]["tStartMs"] = -1
+        raw_path.write_bytes(gzip.compress(json.dumps(malformed).encode("utf-8"), mtime=0))
+        prov_path = self.video_dir / "raw" / "provenance.json"
+        prov = self.provenance()
+        prov["sha256"] = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+        prov_path.write_text(json.dumps(prov), encoding="utf-8")
+        code, _, err = run_main("--check", str(self.video_dir))
+        self.assertEqual(code, 1)
+        self.assertIn("invalid tStartMs", err)
 
     def test_check_fails_without_raw_layer(self):
         bare = self.videos / "2024-01-01-no-raw"

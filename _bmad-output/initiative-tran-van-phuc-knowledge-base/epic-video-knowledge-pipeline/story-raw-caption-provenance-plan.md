@@ -10,7 +10,7 @@ route_source: 'auto'
 risk: 'low'
 review: 'quick'
 review_source: 'pinned'
-lenses_ran: []
+lenses_ran: [quick]
 review_loop_iteration: 0
 context: []
 ---
@@ -94,3 +94,69 @@ context: []
 - `python3 -m unittest discover -s tests` -- expected: OK.
 - `git diff 47c72ce --stat -- videos/` -- expected: empty.
 - `git status --porcelain videos/` -- expected: empty.
+
+## Code Review
+
+### 2026-10-20
+**Review summary:** 0 decision-needed, 3 patch, 1 defer, 4 rejected.
+
+- [x] [Review][Patch] Refuse fetching into any existing video directory [scripts/fetch_transcript.py:286] — fixed: the target directory is rejected before fetching captions; regression test preserves a pre-raw directory unchanged.
+- [x] [Review][Patch] Make fetch output atomic [scripts/fetch_transcript.py:299] — fixed: all output is assembled in a sibling staging directory and renamed only after raw/provenance writing succeeds.
+- [x] [Review][Patch] Report unreadable raw captions as check failures [scripts/fetch_transcript.py:348] — fixed: malformed gzip/json3 is reported per directory and does not stop subsequent checks.
+- [x] [Review][Defer] Wire raw-caption tests/check into CI [ .github/workflows/weekly-sync.yml:1 ] — deferred: CI wiring is an explicitly deferred follow-up and cannot enable `--check` before existing videos are backfilled.
+
+**Rejected**
+- Blind Hunter: gzip byte variation across platforms — low: provenance verifies the stored bytes and raw files are immutable; cross-platform reproducible compressed bytes are not needed for ordinary use.
+- Blind Hunter: arbitrary `raw_file` basename accepted — low: fetch writes the required filename and the current validation prevents traversal; only coordinated manual provenance changes could bypass the layout convention.
+- Blind Hunter: provenance is not cross-checked with metadata video ID/track — low: the check verifies raw/transcript consistency, not authenticity against manually replaced complete directories; no ordinary path creates that state.
+- Intent Alignment: gzip differs from a literal uncompressed reading — false: the frozen plan explicitly requires deterministic gzip with decompression recovering the exact downloaded bytes.
+
+### 2026-10-20 (re-review)
+**Review summary:** 0 decision-needed, 1 patch, 1 defer, 2 rejected.
+
+- [x] [Review][Patch] Contain all malformed raw-caption failures [scripts/fetch_transcript.py:354] — fixed: `EOFError`, `zlib.error`, and schema-triggered `ValueError` are returned as per-directory check failures; truncation and malformed-schema regressions are covered.
+- [x] [Review][Defer] Add a legacy-video raw-caption backfill path [scripts/fetch_transcript.py:287] — deferred: existing-video backfill is an explicit follow-up; it requires an approved source/retrieval and verification process, not an automatic re-fetch.
+
+**Rejected**
+- Blind Hunter + Edge Case Hunter: concurrent destination creation can race the pre-rename existence check — low: it requires an independent concurrent writer for the same derived directory; a portable no-replace directory commit would add disproportionate complexity, while ordinary fetches remain protected.
+- Intent Alignment: this hardening diff does not newly test unchanged happy-path raw-caption behavior — false: those behaviors are outside this re-review's changed surface and were already covered by the prior full review/tests.
+
+### 2026-10-20 (final re-review)
+**Review summary:** 0 decision-needed, 4 patch, 0 defer, 3 rejected.
+
+- [x] [Review][Patch] Remove duplicate CI/backfill tracking [ _bmad-output/initiative-tran-van-phuc-knowledge-base/deferred-work.md:28 ] — fixed: retained the canonical CI/backfill entries and removed the duplicate review entry.
+- [x] [Review][Patch] Align fetch failure docstring with staged behavior [scripts/fetch_transcript.py:282] — fixed: documents no partial video directory and refusal of any existing target directory.
+- [x] [Review][Patch] Distinguish unreadable transcript errors [scripts/fetch_transcript.py:348] — fixed: transcript I/O now reports its own path, separate from raw-caption decoding/integrity errors.
+- [x] [Review][Patch] Reject negative caption timestamps [scripts/fetch_transcript.py:195] — fixed: non-integer, boolean, and negative `tStartMs` raise a reported validation error; negative-timestamp regression coverage added.
+
+**Rejected**
+- Edge Case Hunter: deeply nested JSON must add `RecursionError` handling — false: `RecursionError` is a `RuntimeError`, already caught by `check_transcript`.
+- Blind Hunter + Edge Case Hunter: concurrent destination creation can race the pre-rename existence check — low: it requires an independent concurrent writer for the same derived directory; a portable no-replace directory commit would add disproportionate complexity.
+- Intent Alignment: the final hardening diff does not newly test unchanged happy paths — false: unchanged feature paths remain out of scope for this focused re-review and retain existing coverage.
+
+### 2026-10-20 (follow-up re-review)
+**Review summary:** 1 decision-needed, 3 patch, 0 defer, 2 rejected.
+
+- [ ] [Review][Decision] Resolve pending-directory fetch policy — `review_batch` fetches a queued `PENDING` directory that already contains metadata; the new universal existing-directory refusal makes that documented flow fail. Choose whether an explicitly validated pending directory may be completed with raw/transcript artifacts, or whether pending discovery must create no directory until fetch succeeds.
+- [ ] [Review][Patch] Contain recursion-limit raw-caption failures [scripts/fetch_transcript.py:363] — `RecursionError` during json decoding is not caught by the render path and can still abort `--check`.
+- [ ] [Review][Patch] Reject raw JSON without a json3 event list [scripts/fetch_transcript.py:184] — a hash-valid `{}` can render as a newline and pass `--check` rather than being reported as malformed caption data.
+- [ ] [Review][Patch] Document malformed raw-caption check failures [docs/raw-captions.md:32] — `--check` now reports unreadable gzip, JSON, and schema errors but the documented failure list omits them.
+
+**Rejected**
+- Blind Hunter: `transcript_path.is_file()` can abort on an OSError — false: `Path.is_file()` suppresses `OSError` and returns false, which is reported as a missing transcript.
+- Blind Hunter + Edge Case Hunter: concurrent destination creation can race the pre-rename existence check — low: it requires an independent concurrent writer for the same derived directory; a portable no-replace directory commit would add disproportionate complexity.
+
+### 2026-10-21 (approved pending-completion exception and final review)
+**Review summary:** 0 decision-needed, 4 patch, 0 defer, 2 rejected.
+
+- [x] [Review][Decision] Pending-directory fetch policy — user explicitly confirmed Option 1. Added a controlled pending-completion mode used by `review_batch.py`; ordinary fetch still refuses existing directories. Pending artifacts are staged then installed with atomic no-replace file links and raw-directory creation; collisions and interrupted attempts fail closed. The frozen intent was not edited; this approved exception is recorded here.
+- [x] [Review][Patch] Contain recursion-limit raw-caption failures — `RecursionError` is converted to a per-directory `--check` failure during raw loading or transcript rendering; regression test added.
+- [x] [Review][Patch] Reject raw JSON without a json3 `events` list — renderer now validates the required list and event objects; hash-valid malformed JSON regression test added.
+- [x] [Review][Patch] Document malformed raw-caption check failures — docs now list gzip/JSON/schema failures and explain per-directory continuation.
+- [x] [Review][Patch] Existing-directory refusal should name `--rerender` — final independent Quick review identified the omission; refusal now directs users to `--rerender` when raw captions exist, covered by regression assertion.
+- Pending-completion collision regression verifies a concurrently created transcript is preserved and causes failure rather than overwrite.
+- Final independent Quick review of the post-fix diff: no findings. Full suite: 147 tests passed; `git diff 47c72ce -- videos/` remains empty.
+
+**Rejected**
+- User-approved pending completion was not treated as permission to rewrite existing metadata or to backfill published videos; the implementation checks metadata identity and metadata-only directory state and adds only staged transcript/raw artifacts.
+- Additional review iterations were not requested; stop after applying and verifying the one final reviewer patch.

@@ -120,7 +120,8 @@ def commit_video(video_dir, video_id, repo_root):
 def fetch_missing_transcript(entry, videos_dir):
     script = Path(__file__).resolve().parent / "fetch_transcript.py"
     proc = subprocess.run(
-        [sys.executable, str(script), "--videos-dir", str(videos_dir), entry["video_id"]],
+        [sys.executable, str(script), "--videos-dir", str(videos_dir),
+         "--complete-pending", str(entry["dir"]), entry["video_id"]],
         capture_output=True, text=True,
     )
     if proc.returncode != 0 or not (entry["dir"] / "transcript.md").is_file():

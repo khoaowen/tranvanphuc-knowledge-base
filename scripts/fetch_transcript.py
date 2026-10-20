@@ -9,8 +9,8 @@ videos/<published_at>-<slug>/metadata.json and transcript.md.
 The downloaded json3 is kept, unedited, as the source of truth:
 raw/captions.<track>.json3.gz (deterministic gzip of the exact bytes yt-dlp
 wrote) plus raw/provenance.json (track, retrieval time, yt-dlp version,
-sha256 of the stored raw file and of the rendered transcript.md). A video
-dir that already has a raw/ layer is never re-fetched over; use --rerender.
+sha256 of the stored raw file and of the rendered transcript.md). An existing
+video directory is never re-fetched over; use --rerender for a raw-backed dir.
 
   --rerender DIR...  rewrite DIR/transcript.md from DIR/raw/
   --check DIR...     exit non-zero if DIR/transcript.md differs from a
@@ -26,11 +26,13 @@ import argparse
 import gzip
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
 import tempfile
 import unicodedata
+import zlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -178,9 +180,13 @@ def build_transcript_lines(json3_path):
     opener = gzip.open if str(json3_path).endswith(".gz") else open
     with opener(json3_path, "rt", encoding="utf-8") as f:
         data = json.load(f)
+    if not isinstance(data, dict) or not isinstance(data.get("events"), list):
+        raise ValueError("json3 must contain an events list")
 
     lines = []
-    for event in data.get("events", []):
+    for event in data["events"]:
+        if not isinstance(event, dict):
+            raise ValueError("json3 events must be objects")
         segs = event.get("segs")
         if not segs:
             continue
@@ -192,6 +198,8 @@ def build_transcript_lines(json3_path):
             continue
 
         start_ms = event.get("tStartMs", 0)
+        if isinstance(start_ms, bool) or not isinstance(start_ms, int) or start_ms < 0:
+            raise ValueError(f"invalid tStartMs: {start_ms!r}")
         total_seconds = start_ms // 1000
         hours, remainder = divmod(total_seconds, 3600)
         minutes, seconds = divmod(remainder, 60)
@@ -275,20 +283,34 @@ def write_raw_captions(video_dir, video_id, track, raw_bytes, retrieved_at, yt_d
     )
 
 
-def fetch_one_video(video_id, videos_dir):
-    """Fetch metadata, transcript and raw captions for a single video, write its files.
+def fetch_one_video(video_id, videos_dir, pending_dir=None):
+    """Fetch one video, refusing existing targets except a validated pending dir.
 
-    Raises RuntimeError (or propagates one) on any failure; callers should
-    treat this as a per-video skip, not a fatal error. Nothing is written
-    for a video that fails, or whose dir already holds a raw/ layer.
+    The pending mode is reserved for review_batch: it may add transcript/raw
+    files to a metadata-only directory whose metadata identifies this video.
+    Metadata and any pre-existing artifact are never overwritten.
     """
     metadata = fetch_metadata(video_id)
-    raw_dir = video_dir_for(videos_dir, metadata) / RAW_DIRNAME
-    if raw_dir.exists():
-        raise RuntimeError(
-            f"{raw_dir} already exists; raw captions are never overwritten "
-            f"(use --rerender to rebuild transcript.md from them)"
-        )
+    video_dir = video_dir_for(videos_dir, metadata)
+    if pending_dir is None:
+        if video_dir.exists():
+            raise RuntimeError(
+                f"{video_dir} already exists; existing videos are never overwritten "
+                "(use --rerender when raw captions are already present)"
+            )
+    else:
+        video_dir = Path(pending_dir)
+        if metadata.get("id") != video_id:
+            raise RuntimeError(f"yt-dlp metadata ID does not match requested video {video_id}")
+        metadata_path = video_dir / "metadata.json"
+        try:
+            existing = json.loads(metadata_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            raise RuntimeError(f"invalid pending metadata {metadata_path}: {exc}") from exc
+        if not isinstance(existing, dict) or existing.get("video_id") != video_id:
+            raise RuntimeError(f"pending metadata does not identify video {video_id}: {metadata_path}")
+        if not video_dir.is_dir() or set(p.name for p in video_dir.iterdir()) != {"metadata.json"}:
+            raise RuntimeError(f"pending directory must contain metadata.json only: {video_dir}")
     yt_dlp_ver = yt_dlp_version()
     with tempfile.TemporaryDirectory() as tmp_dir:
         json3_path = fetch_caption_json3(video_id, tmp_dir)
@@ -296,8 +318,29 @@ def fetch_one_video(video_id, videos_dir):
         track = caption_track(video_id, json3_path)
         raw_bytes = json3_path.read_bytes()
         lines = build_transcript_lines(json3_path)
-    video_dir = write_video_files(videos_dir, metadata, lines)
-    write_raw_captions(video_dir, video_id, track, raw_bytes, retrieved_at, yt_dlp_ver)
+
+    videos_dir = Path(videos_dir)
+    videos_dir.mkdir(parents=True, exist_ok=True)
+    # Build all additions off-destination before installing anything.
+    with tempfile.TemporaryDirectory(dir=videos_dir, prefix=".fetch-") as staging_dir:
+        staged_video_dir = write_video_files(staging_dir, metadata, lines)
+        write_raw_captions(
+            staged_video_dir, video_id, track, raw_bytes, retrieved_at, yt_dlp_ver
+        )
+        if pending_dir is None:
+            staged_video_dir.rename(video_dir)
+        else:
+            # Revalidate immediately before installation. Hard links and mkdir
+            # provide atomic no-replace creation; interruption leaves a partial
+            # state that fails closed on retry rather than overwriting anything.
+            if set(p.name for p in video_dir.iterdir()) != {"metadata.json"}:
+                raise RuntimeError(f"pending directory changed during fetch: {video_dir}")
+            os.link(staged_video_dir / "transcript.md", video_dir / "transcript.md")
+            staged_raw = staged_video_dir / RAW_DIRNAME
+            raw_dir = video_dir / RAW_DIRNAME
+            raw_dir.mkdir()
+            for staged_file in staged_raw.iterdir():
+                os.link(staged_file, raw_dir / staged_file.name)
     return video_dir
 
 
@@ -338,14 +381,24 @@ def check_transcript(video_dir):
     """Return a list of problems; empty when transcript.md equals a re-render of raw/."""
     try:
         provenance, raw_path = load_raw_captions(video_dir)
-    except RuntimeError as exc:
-        return [str(exc)]
+    except (RuntimeError, OSError, EOFError, UnicodeDecodeError, json.JSONDecodeError,
+            AttributeError, TypeError, ValueError, RecursionError, zlib.error) as exc:
+        return [f"cannot read raw captions for {video_dir}: {exc}"]
+
     transcript_path = Path(video_dir) / "transcript.md"
     if not transcript_path.is_file():
         return [f"{transcript_path} is missing"]
-    committed = transcript_path.read_bytes()
+    try:
+        committed = transcript_path.read_bytes()
+    except OSError as exc:
+        return [f"cannot read transcript {transcript_path}: {exc}"]
+    try:
+        rendered = render_transcript(build_transcript_lines(raw_path)).encode("utf-8")
+    except (OSError, EOFError, UnicodeDecodeError, json.JSONDecodeError,
+            AttributeError, TypeError, ValueError, RecursionError, zlib.error) as exc:
+        return [f"cannot read raw captions for {video_dir}: {exc}"]
+
     problems = []
-    rendered = render_transcript(build_transcript_lines(raw_path)).encode("utf-8")
     if committed != rendered:
         problems.append(f"{transcript_path} differs from a re-render of {raw_path}")
     if provenance.get("transcript_sha256") != sha256_hex(committed):
@@ -402,6 +455,11 @@ def main():
         default="videos",
         help="Path to the videos/ directory (default: videos)",
     )
+    parser.add_argument(
+        "--complete-pending",
+        metavar="VIDEO_DIR",
+        help="review_batch-only: add transcript/raw files to a validated metadata-only pending dir",
+    )
     raw_mode = parser.add_mutually_exclusive_group()
     raw_mode.add_argument(
         "--rerender",
@@ -417,8 +475,10 @@ def main():
     )
     args = parser.parse_args()
 
-    if (args.rerender or args.check) and args.video_ids:
-        parser.error("video IDs cannot be combined with --rerender/--check")
+    if (args.rerender or args.check) and (args.video_ids or args.complete_pending):
+        parser.error("--rerender/--check cannot be combined with fetch modes")
+    if args.complete_pending and len(args.video_ids) != 1:
+        parser.error("--complete-pending requires exactly one video ID")
     if args.rerender:
         return run_rerender(args.rerender)
     if args.check:
@@ -432,7 +492,9 @@ def main():
     failures = []
     for video_id in video_ids:
         try:
-            video_dir = fetch_one_video(video_id, args.videos_dir)
+            video_dir = fetch_one_video(
+                video_id, args.videos_dir, pending_dir=args.complete_pending
+            )
         except Exception as exc:
             print(f"warning: skipping {video_id}: {exc}", file=sys.stderr)
             failures.append(video_id)

@@ -14,8 +14,8 @@ transcript drops: per-word timings (`tOffsetMs`) and the `>>` speaker-change mar
 
 - **`captions.<track>.json3.gz`** is the source of truth. It holds exactly the json3 bytes yt-dlp
   downloaded, gzip-compressed with `mtime=0` and no embedded filename. No timestamp or
-  filename goes into the stored bytes. It is written once and never edited. A re-fetch into a dir that
-  already has `raw/` is refused. Read it with `zcat` or Python's `gzip.open`.
+  filename goes into the stored bytes. It is written once and never edited. Ordinary fetches
+  refuse every existing video directory. Read it with `zcat` or Python's `gzip.open`.
 - **`provenance.json`** records `video_id`, `source_url`, `track`, `caption_kind` (`asr`, from
   `--write-auto-sub`), `retrieved_at` (UTC), `raw_file`, `sha256` (of the stored `.gz`),
   `yt_dlp_version`, `tool`, and `transcript_sha256` (of `transcript.md`).
@@ -34,8 +34,15 @@ the working tree and CI checkout. Raw files never change, so losing readable dif
 - The raw file's sha256 no longer matches `provenance.json`.
 - `transcript_sha256` is stale.
 - The dir has no `raw/` layer.
+- The gzip, JSON, or json3 schema is malformed (including a missing `events` list). These
+  errors are reported for that directory and do not stop checks of later directories.
 
 `--rerender` refuses to run from a raw file whose sha256 does not match.
+
+**Pending review-batch completion:** `review_batch.py` may complete a matching metadata-only
+pending directory, preserving `metadata.json` and adding only transcript/raw/provenance. Any
+pre-existing output artifact or incomplete attempt fails closed. Ordinary fetch remains
+refuse-existing. This exception does not authorize backfilling existing videos.
 
 **Not yet backfilled:** videos fetched before this layer existed have no `raw/` yet, and
 `--check` reports them as failures. Backfilling them is a follow-up. It means re-downloading,

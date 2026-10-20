@@ -25,3 +25,7 @@
 - source_plan: `_bmad-output/initiative-tran-van-phuc-knowledge-base/epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md`
   summary: Wire `fetch_transcript.py --check` (and the unittest suite) into CI once existing videos are backfilled.
   evidence: no workflow runs the check today. Wiring it before the backfill would fail on the two existing videos.
+
+## Deferred from: code review of story-raw-caption-provenance-plan (2026-10-20 re-review)
+
+- Add an approved legacy-video raw-caption backfill procedure; the raw-caption story deliberately refuses automatic re-fetch of existing directories.
