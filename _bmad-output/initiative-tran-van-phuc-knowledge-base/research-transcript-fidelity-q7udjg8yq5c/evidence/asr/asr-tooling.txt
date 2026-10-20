@@ -1,0 +1,5 @@
+whisper.cpp commit 080bbbe, libwhisper 1.9.1, model ggml-large-v3-turbo (sha256 prefix 1fc70f774d38eb16)
+command: whisper-cli -ng -m ggml-large-v3-turbo.bin -l vi -t 8 -ojf -otxt  (CPU only, no --prompt; blind to summary/expected terms)
+Metal (AMD Radeon Pro 560X) run produced garbage + abort: kept in failed-metal/
+audio: yt-dlp 2026.08.19 (uvx, isolated) format 140 m4a sha256 e845c255d9ea4882…, format 140 m4a, …; clips cut with ffmpeg 8.1.2 -ac 1 -ar 16000
+runtime: ~38-39 s per ~67 s clip on Intel i9-9880H CPU (~0.6x realtime)

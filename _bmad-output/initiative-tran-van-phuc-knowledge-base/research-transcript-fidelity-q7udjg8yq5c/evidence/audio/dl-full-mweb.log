@@ -1,0 +1,11 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=q7uDJG8YQ5c
+[youtube] q7uDJG8YQ5c: Downloading webpage
+WARNING: [youtube] unable to extract yt initial data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] Incomplete data received in embedded initial data; re-fetching using API.
+[youtube] q7uDJG8YQ5c: Downloading initial data API JSON
+[youtube] q7uDJG8YQ5c: Downloading mweb client config
+[youtube] q7uDJG8YQ5c: Downloading mweb player API JSON
+[youtube] q7uDJG8YQ5c: Downloading player c271e571-main
+[youtube] [jsc:deno] Solving JS challenges using deno
+WARNING: [youtube] q7uDJG8YQ5c: mweb client https formats require a GVS PO Token which was not provided. They will be skipped as they may yield HTTP Error 403. You can manually pass a GVS PO Token for this client with --extractor-args "youtube:po_token=mweb.gvs+XXX". For more information, refer to  https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
+ERROR: [youtube] q7uDJG8YQ5c: Requested format is not available. Use --list-formats for a list of available formats

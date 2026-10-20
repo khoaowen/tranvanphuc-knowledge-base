@@ -47,3 +47,7 @@ The automated pipeline (detection, transcript fetch, summarization, repo organiz
 ## Notes
 
 - Decision: one epic covers CAP-1 through CAP-6 — single owner, single pipeline, no boundary justifies a split (user's request, this session).
+
+## Transcript fidelity continuation — 2026-10-20
+
+[Fresh-context handoff](continuation-transcript-fidelity.md) tracks the caption-fidelity research, pending human listening bundle, c068/c163 correction proposals, and the raw-caption implementation branch (in-review, not merged). It also records which earlier five-disagreement / eleven-omission findings remain applicable. Publication remains blocked; no new fidelity decisions or content corrections are approved by this handoff.

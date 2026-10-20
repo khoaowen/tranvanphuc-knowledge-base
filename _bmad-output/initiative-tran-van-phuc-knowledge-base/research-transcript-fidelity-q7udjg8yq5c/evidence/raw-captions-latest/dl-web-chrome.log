@@ -1,0 +1,9 @@
+Extracting cookies from chrome
+Extracted 3122 cookies from chrome
+[youtube] Extracting URL: https://www.youtube.com/watch?v=q7uDJG8YQ5c
+[youtube] q7uDJG8YQ5c: Downloading webpage
+[youtube] q7uDJG8YQ5c: Downloading player c271e571-main
+[youtube] [jsc:deno] Solving JS challenges using deno
+WARNING: [youtube] q7uDJG8YQ5c: There are missing subtitles languages because a PO token was not provided. Automatic captions for 1 languages are missing.
+[info] q7uDJG8YQ5c: Downloading 1 format(s): 18
+[info] There are no subtitles for the requested languages

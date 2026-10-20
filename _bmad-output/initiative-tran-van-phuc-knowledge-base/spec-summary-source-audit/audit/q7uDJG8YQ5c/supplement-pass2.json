@@ -1,0 +1,182 @@
+[
+  {
+    "id": "c019",
+    "pass2_class": "supported",
+    "pass2_note": "Blind transcript assessment: the speaker explicitly proposes a hypothetical V function, adds the length, width and height functions, and identifies their three meanings. V = L + W + H is a compact paraphrase of that additive illustration, not a verbatim equation; the claim's 'giả định', 'minh họa' and 'có thể biểu diễn' preserve this distinction. The transcript describes multivariable component functions, so this does not establish a literal scalar formula. This supportive second-pass finding disagrees with the non-supported selection status: retain the original non-supported record and flag the disagreement for human adjudication.",
+    "pass2_evidence": [
+      {
+        "timestamp": "00:34:15",
+        "quote": "gọi nó là một cái hàm V chẳng hạn. Thì"
+      },
+      {
+        "timestamp": "00:34:25",
+        "quote": "Những đây là những cái hàm đa biến cộng với lại đây là hàm về chiều dài cuộc sống. Ngoài ra hàm về chiều rộng cuộc sống tức là VDUP cũng tương ứng với lại các cái tham số là X, Y và Z gì đấy cộng với lại cái hàm về chiều cao cuộc sống"
+      },
+      {
+        "timestamp": "00:34:48",
+        "quote": "Giả sử ta hoàn toàn có thể lập ra được một cái hàm về giá trị cuộc sống bao gồm có ba cái này. Một là chiều dài, hai là chiều rộng, ba là chiều cao."
+      }
+    ]
+  },
+  {
+    "id": "c055",
+    "pass2_class": "supported",
+    "pass2_note": "The transcript explicitly contrasts an American recommendation of 600 UI per day with 2000 units of vitamin D3 in the study. The initial 'hình như' is followed by an explicit confirmation of 600 UI. The claim does not assign these words exclusively to the doctor, so the intervening turn marker does not create an attribution mismatch. This establishes fidelity to what is said, without independently validating the recommendation. This supportive second-pass finding disagrees with the non-supported selection status: retain the original non-supported record and flag the disagreement for human adjudication.",
+    "pass2_evidence": [
+      {
+        "timestamp": "01:27:06",
+        "quote": "cái khuyến cáo của Mỹ thì là bao nhiêu ở Khánh Lnh? hình như là 600 UI một ngày."
+      },
+      {
+        "timestamp": "01:27:10",
+        "quote": "600 UI một ngày. Rõ ràng rằng cái khuyến cáo là 600 UI một ngày là khuyến cáo của Mỹ. Nhưng hiện tại trong cái nghiên cứu này lên tới 2000 đơn vị vitamin D3 và"
+      }
+    ]
+  },
+  {
+    "id": "c068",
+    "pass2_class": "mismatch",
+    "pass2_note": "The surrounding passage supports attribution of the reproductive-organ analogy to Lipton as retold by the doctor. However, the transcript says 'bốn bào tử', whereas the claim says four cells. It also transcribes the first process as 'dán phân', not 'nguyên phân'. The division counts are present, but the claim silently replaces the named products and normalizes a process name. On transcript evidence alone, retain the product-wording mismatch; do not resolve it using biological knowledge.",
+    "pass2_evidence": [
+      {
+        "timestamp": "01:44:53",
+        "quote": "Thì ngược lại nhà khoa học Lip tông, nhà sinh vật học, nhà sinh học ông đã đưa ra"
+      },
+      {
+        "timestamp": "01:45:19",
+        "quote": "nhân nó chỉ là bộ phận sinh dục của tế bào."
+      },
+      {
+        "timestamp": "01:45:28",
+        "quote": "nó chỉ có nhân lên thôi. Nếu qua quá trình dán phân thì một tế bào sẽ tạo nên hai tế bào bằng cách là phân chia nhân. Thế còn qua quá trình giảm phân thì một tế bào sẽ tạo thành bốn bào tử, tức là nó sẽ phân chia ra làm bốn."
+      }
+    ]
+  },
+  {
+    "id": "c080",
+    "pass2_class": "unresolved",
+    "pass2_note": "Attribution to the article being read is supported by the host's introduction and the doctor's subsequent acknowledgment. The expert-range passage is transcribed as '11 đến 51', consistent with the claimed ratio notation in context. However, the separate optimum is transcribed only as 'một bột'; it does not unambiguously establish 1:1. The intended optimum cannot be certified from this transcript alone. Retain non-supported status rather than silently repair the caption.",
+    "pass2_evidence": [
+      {
+        "timestamp": "01:54:06",
+        "quote": "Vâng, thưa quý vị, đó là tiêu đề một bài viết trên một tờ báo rất là uy tín trong nước. Tôi xin trích dẫn nguyên văn nội"
+      },
+      {
+        "timestamp": "01:55:59",
+        "quote": "Hầu hết các chuyên gia sức khỏe đều cho rằng tỉ lệ omega6 trên omega 3 là từ 11 đến 51 là tốt nhất cho sức khỏe."
+      },
+      {
+        "timestamp": "01:56:45",
+        "quote": "mất cân bằng tỉ lệ hai loại chất này. Tỉ lệ tối ưu nhất cho hai loại axit béo này với cơ thể là một bột."
+      },
+      {
+        "timestamp": "01:59:23",
+        "quote": "Vâng, sau khi quý vị nghe và xem một cái bài báo được Khánh lành trích dẫn từ một tờ báo về sức khỏe có uy tín ở trong nước khá dài và chắc chắn là quý vị cũng"
+      }
+    ]
+  },
+  {
+    "id": "c087",
+    "pass2_class": "unresolved",
+    "pass2_note": "The article attribution, avoidance advice, high-Omega-6 examples, and palm oil/coconut oil/avocado comparison are supported. The remaining oil is only transcribed as 'dầu ôu'. The claim transparently discloses that caption, but 'dầu ô liu' is still an inferred expansion that no clear occurrence in the transcript confirms. Retain non-supported status for this unresolved identity; do not use external food-composition knowledge to supply it.",
+    "pass2_evidence": [
+      {
+        "timestamp": "01:56:53",
+        "quote": "Để tối ưu hóa tỉ lệ, chúng ta cần tránh tiêu thụ các loại dầu thực vật và hạt chứa nhiều omega6 cũng như các loại thực phẩm sử dụng dầu và hạt để chế biến."
+      },
+      {
+        "timestamp": "01:57:00",
+        "quote": "phẩm sử dụng dầu và hạt để chế biến. Dầu đậu nành, dầu hướng dương, ngô được biết là chứa hàm lượng lớn omega6. Còn dầu ôu, dầu cọ, dầu dừa, quả bơ được biết là chứa ít omega6 hơn."
+      }
+    ]
+  },
+  {
+    "id": "c107",
+    "pass2_class": "unresolved",
+    "pass2_note": "The passage explicitly assigns anti-inflammatory and anti-cancer effects to 'CL', then inflammation to 'Alla'/'Ala'. Earlier, 'CL' is described as a conjugated fatty acid, and a later AA-versus-DHA example links AA-rich membranes with inflammation. Those passages make the claim's interpretation plausible, but the same caption 'Alla' also denotes ALA elsewhere and is called anti-inflammatory immediately beforehand. The identity at 02:10:50 cannot be fixed confidently from text alone. The claim correctly signals uncertainty, but neither the CLA expansion nor the possible AA identification should be certified as an unambiguous transcript reading.",
+    "pass2_evidence": [
+      {
+        "timestamp": "02:01:26",
+        "quote": "Là CL."
+      },
+      {
+        "timestamp": "02:01:27",
+        "quote": "Clức là cái này là gọi là axit béo liên hợp đấy."
+      },
+      {
+        "timestamp": "02:01:53",
+        "quote": "Là ALA."
+      },
+      {
+        "timestamp": "02:01:55",
+        "quote": "Alla. Tiếp theo là cái gì ạ?"
+      },
+      {
+        "timestamp": "02:10:31",
+        "quote": "la viêm còn Alla là chống viêm."
+      },
+      {
+        "timestamp": "02:10:43",
+        "quote": "Thế còn thì CL thì có tác dụng vừa chống viêm vừa chống ung thư. Chống viêm cộng với lại ung thư. Còn cái Alla này thì nó lại gây viêm."
+      },
+      {
+        "timestamp": "02:10:56",
+        "quote": "Đúng chưa ạ? Ala gây viêm. Thế còn"
+      },
+      {
+        "timestamp": "02:13:12",
+        "quote": "Nếu chúng ta ăn ít DHA và ăn nhiều AA lên thì sẽ dẫn tới là AA sẽ tạo nên màng."
+      },
+      {
+        "timestamp": "02:13:25",
+        "quote": "Nếu như vậy thì sẽ có nhiều chất gây viêm ở bên ngoài màng tế bà."
+      }
+    ]
+  },
+  {
+    "id": "c163",
+    "pass2_class": "attribution_qualification",
+    "pass2_note": "The transcript supports the Alzheimer improvement wording, the nearby Parkinson mention, and the statement that 0.6 or above is expensive. However, a turn marker introduces the Alzheimer/Parkinson passage at 03:02:47, and there is no further turn marker before the cost statement at 03:02:55. The claim acknowledges an unclear speaker in its parenthesis but then assigns the cost statement to 'ông'. The text alone does not establish that this part is the doctor's speech. Retain non-supported status and qualify the entire passage's speaker attribution; do not infer voices from medical content.",
+    "pass2_evidence": [
+      {
+        "timestamp": "03:02:44",
+        "quote": "thứ nọ kia hết. Thế rồi trí nhớ bắt đầu cải thiện."
+      },
+      {
+        "timestamp": "03:02:47",
+        "quote": ">> Alzimer run rẩy tay chân Parkison."
+      },
+      {
+        "timestamp": "03:02:51",
+        "quote": "Alzimer nhớ nhớ quên quên là cải thiện được rất nhiều, học hành nó tốt. Thì đấy là từ 0,6 trở lên nhưng mà giá thành đắt rồi."
+      }
+    ]
+  },
+  {
+    "id": "c192",
+    "pass2_class": "attribution_qualification",
+    "pass2_note": "The host clearly recalls the doctor's vitamin-D advice and independently proposes testing before Omega-3 supplementation, including blood lipids and EPA/DHA selection. General checkups are also mentioned. However, the diabetes example occurs after a new turn marker at 03:24:24, followed by another turn at 03:24:30 and another at 03:24:32. Treating the entire combined statement, including diabetes, as the host's speech is not securely supported by this unlabelled transcript. Preserve attribution to the exchange for the combined testing examples, and restrict confident host attribution to the earlier explicit 'tôi nghĩ rằng' proposal. Retain non-supported status for the broader speaker assignment.",
+    "pass2_evidence": [
+      {
+        "timestamp": "03:23:18",
+        "quote": ">> Vâng, tôi thì lại cảm ơn bác sĩ Phúc"
+      },
+      {
+        "timestamp": "03:23:45",
+        "quote": "thì bác sĩ có nhấn mạnh rằng là trước khi bổ sung vitamin D thì điều cần thiết là chúng ta nên xét nghiệm vitamin D và tôi nghĩ rằng trước khi chúng ta bổ sung Omega 3 thì bản thân những người cần được bổ sung cũng nên xét nghiệm để chúng ta xem chúng ta có mỡ máu hay không rồi chúng ta có những vấn đề sức khỏe như thế nào để chọn loại omega 3 có cái chứa hàm lượng epadaha cho phù hợp."
+      },
+      {
+        "timestamp": "03:24:15",
+        "quote": "Ừ. Vâng, đương nhiên đấy là cái mà chúng ta bổ sung các cái vi chất chúng ta nâng lên một cái bước cao hơn nữa đấy là chúng ta khám sức khỏe toàn thân và khám tổng quát. Vâng,"
+      },
+      {
+        "timestamp": "03:24:24",
+        "quote": ">> trong đó có những cái xét nghiệm để chúng ta bổ sung nó phù hợp. Ví dụ có mỡ máu không, có tiểu đường không,"
+      },
+      {
+        "timestamp": "03:24:30",
+        "quote": ">> có các cái thành phần khác, vấn đề gì không."
+      }
+    ]
+  }
+]

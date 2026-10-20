@@ -1,0 +1,37 @@
+{
+  "info": {
+    "tracklist": [],
+    "current": {},
+    "captionTracks": [
+      {
+        "lang": "vi",
+        "kind": "asr",
+        "name": "Vietnamien (générés automatiquement)",
+        "vssId": "a.vi",
+        "url": "https://www.youtube.com/api/timedtext?v=q7uDJG8YQ5c&ei=ZQDXavKXJ9SEvdIP04_HwAc&caps=asr&opi=112496729&exp=xpe&xoaf=5&xowf=1&xospf=1&hl=fr&ip=0.0.0.0&ipbits=0&expire=1792500437&sparams=ip,ipbits,expire,v,ei,caps,opi,exp,xoaf&signature=79328E4F31D2972EC2A2A3E144A92067755DD75F.DDACC0E4A7EA730101B9CAA2182D8102668C47AF&key=yt8&kind=asr&lang=vi"
+      }
+    ]
+  },
+  "after": {
+    "current": {
+      "languageCode": "vi",
+      "languageName": "Vietnamien (générés automatiquement)",
+      "displayName": "Vietnamien (générés automatiquement)",
+      "kind": "asr",
+      "name": "",
+      "id": null,
+      "is_servable": false,
+      "is_default": false,
+      "is_translateable": true,
+      "vss_id": "a.vi"
+    },
+    "shown": [
+      "Thế còn qua quá trình giảm phân thì một",
+      "tế bào sẽ tạo thành bốn bào tử, tức là",
+      "nó sẽ phân"
+    ],
+    "time": 6342.385483
+  },
+  "captured": 1,
+  "at": "2026-10-20T05:47:37.710Z"
+}
