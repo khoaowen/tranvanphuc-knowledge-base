@@ -216,7 +216,7 @@ class RateLimitTest(unittest.TestCase):
             with self.assertRaises(summarize.SummarizeError):
                 run_summarize(video_dir, client, max_retries=2)
             self.assertEqual(len(client.prompts), 3)
-            self.assertEqual(os.listdir(video_dir), ["metadata.json", "transcript.md"])
+            self.assertCountEqual(os.listdir(video_dir), ["metadata.json", "transcript.md"])
 
     def test_cli_exits_non_zero_on_exhausted_retries(self):
         with tempfile.TemporaryDirectory() as root:
