@@ -1,8 +1,10 @@
 import json
+import os
 import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -107,6 +109,43 @@ class Batch(Base):
             self.assertEqual(self.run_batch(Stub())["done"], ["a"])
         finally:
             review_batch.fetch_missing_transcript = orig
+
+    def test_pending_fetch_uses_real_fetcher_and_preserves_metadata(self):
+        import gzip
+
+        d = make_video(self.videos, "2025-01-01-a", "a", transcript=False)
+        metadata_path = d / "metadata.json"
+        metadata_before = metadata_path.read_bytes()
+        bin_dir = self.root / "bin"
+        bin_dir.mkdir()
+        stub = bin_dir / "yt-dlp"
+        stub.write_text('''#!/usr/bin/env python3
+import json, pathlib, sys
+args = sys.argv[1:]
+if "--version" in args:
+    print("test-version")
+elif "-j" in args:
+    print(json.dumps({"id":"a", "title":"A title", "upload_date":"20250101",
+                      "duration":120, "webpage_url":"https://youtu.be/a"}))
+elif "--write-auto-sub" in args:
+    template = args[args.index("-o") + 1]
+    pathlib.Path(template.replace("%(id)s", "a") + ".vi-orig.json3").write_text(
+        json.dumps({"events":[{"tStartMs":1000,"dDurationMs":1000,
+                                 "segs":[{"utf8":"pending transcript"}]}]}))
+else:
+    raise SystemExit("unexpected yt-dlp args: " + repr(args))
+''', encoding="utf-8")
+        stub.chmod(0o755)
+        with mock.patch.dict(os.environ, {"PATH": f"{bin_dir}:{os.environ['PATH']}"}):
+            result = self.run_batch(Stub(), commit=False)
+        self.assertEqual(result["done"], ["a"])
+        self.assertEqual(metadata_path.read_bytes(), metadata_before)
+        self.assertEqual((d / "transcript.md").read_text(encoding="utf-8"),
+                         "[00:00:01] pending transcript\n")
+        raw = d / "raw" / "captions.vi-orig.json3.gz"
+        self.assertTrue(raw.is_file())
+        self.assertIn(b"pending transcript", gzip.decompress(raw.read_bytes()))
+        self.assertTrue((d / "raw" / "provenance.json").is_file())
 
     def test_pending_fetch_failure_skipped(self):
         make_video(self.videos, "2025-01-01-a", "a", transcript=False)

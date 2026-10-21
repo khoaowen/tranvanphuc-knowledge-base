@@ -12,6 +12,8 @@ Project in specification phase (BMad). See `_bmad-output/initiative-tran-van-phu
 
 Next step: breaking the work into tickets (`bmad-ticket`), then implementation (`bmad-build`).
 
+Newly fetched videos keep the raw YouTube caption file their `transcript.md` is rendered from, with provenance, under `raw/`. See [docs/raw-captions.md](docs/raw-captions.md).
+
 ## Language note
 
 Source transcripts stay in Vietnamese (the doctor's original language). Repo documentation, code, and commit messages are in English. The Custom GPT translates on demand when answering in another language.
