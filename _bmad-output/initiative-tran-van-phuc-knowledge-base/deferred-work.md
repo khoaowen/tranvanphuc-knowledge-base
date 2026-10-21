@@ -18,3 +18,14 @@
 - source_plan: `_bmad-output/initiative-tran-van-phuc-knowledge-base/epic-video-knowledge-pipeline/story-ci-validator-and-publish-gate-plan.md`
   summary: CI workflows do not run python unittest, so tests/ are not gated (wire in entry 11).
   evidence: grep for unittest/pytest in .github finds nothing.
+
+- source_plan: `_bmad-output/initiative-tran-van-phuc-knowledge-base/epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md`
+  summary: Backfill raw/ captions and provenance for videos fetched before the raw layer, then run `fetch_transcript.py --check` against their committed transcript.md.
+  evidence: the story's scope forbids re-fetching existing videos. `--check videos/*/` currently reports both existing videos as "no raw captions".
+- source_plan: `_bmad-output/initiative-tran-van-phuc-knowledge-base/epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md`
+  summary: Wire `fetch_transcript.py --check` (and the unittest suite) into CI once existing videos are backfilled.
+  evidence: no workflow runs the check today. Wiring it before the backfill would fail on the two existing videos.
+
+## Deferred from: code review of story-raw-caption-provenance-plan (2026-10-20 re-review)
+
+- Add an approved legacy-video raw-caption backfill procedure; the raw-caption story deliberately refuses automatic re-fetch of existing directories.
