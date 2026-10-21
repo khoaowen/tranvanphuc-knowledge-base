@@ -1,9 +1,9 @@
 ---
 title: 'Preserve raw captions with provenance and a zero-diff re-render check'
 type: 'feature'
-ticket: ''
+ticket: '13'
 created: '2026-10-20'
-status: 'in-review'
+status: 'done'
 baseline_revision: '47c72cecc30ff5e836e868b690352ec17cd613c6'
 route: 'full'
 route_source: 'auto'
