@@ -2,17 +2,17 @@
 
 ## Start here
 
-Repository: `/Users/khoa/orca/workspaces/tranVanPhuc/Epic2-publish-videos`.
+Repository: `git@github.com:khoaowen/tranvanphuc-knowledge-base.git`, integration branch `khoaowen/Epic2-publish-videos`. Current checkout: `/home/openclaw/orca/workspaces/tranvanphuc-knowledge/khoaowen-Epic2-publish-videos`.
 Initiative: `initiative-tran-van-phuc-knowledge-base`. BMad `core.active_initiative` is currently unset; explicitly use this initiative's existing artifacts, not a new loose initiative.
 
-Read this file, then the linked research report, correction proposals and implementation plan. Do not restart the full audit, re-download evidence, or apply corrections automatically. User asked for durable BMAD tracking; no merge, publication or correction application was authorized by that request.
+Read this file, then the linked research report, correction proposals and implementation plan. Do not restart the full audit, re-download evidence, or apply corrections automatically. The user separately authorized the raw-caption integration and this documentation checkpoint/push; that does not authorize correction application, existing-video backfill, a merge to `main`, or publication.
 
 ## Workstreams and status
 
 1. **Research:** `research-transcript-fidelity-q7udjg8yq5c/research-transcript-fidelity-q7udjg8yq5c.md`. Raw captions, actual browser player responses/screenshots, Show transcript panel, audio, blind local Whisper output and timing comparison are in its `evidence/` directory. Machine pilot complete, human listening pending. Report has not received independent semantic review.
 2. **Human listening:** `research-transcript-fidelity-q7udjg8yq5c/listener-bundle.zip` (about 4.4 MB, local/ignored), 8 MP3s + bilingual questions + answer template. Not sent to anyone, no human verification received. `listener-bundle/README-vi.md` omits suggested turn times in B1, while the original packet still contains them. Preserve this distinction. Packet has prompted alternatives; for an unbiased response have the listener first transcribe freely, then answer those questions.
 3. **Correction proposals:** `spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections-fidelity.md` (p1=c068, p2=c163, supplement IDs). Drafts only, pending human listen and explicit approval of exact final text. No video artifacts changed.
-4. **Implementation:** branch `feat/raw-caption-provenance`, worktree `/Users/khoa/orca/workspaces/tranVanPhuc/Epic2-raw-captions`, commit `9124c18e65595c9834ebc559c55deec7ae105182`, baseline `47c72ce`. Canonical plan in THAT worktree: `epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md` under this initiative. Status in-review, independent review missing; 137 unittest tests pass (15 new), also rerun by parent. No merge/push. Existing videos unchanged. New gzip raw + provenance, --rerender and --check. Do NOT copy the branch's entire deferred-work.md over the main file; integrate individual changes after review.
+4. **Implementation — integrated and verified (2026-10-21):** reviewed feature head `e5eff1d8a926636c40a6e4e9776ce389bd8aa2cd`, baseline `47c72cecc30ff5e836e868b690352ec17cd613c6`, merged into `khoaowen/Epic2-publish-videos` at `471834d75ca76ff2784a1517084597f6a3e3988e`. The canonical plan is now [story-raw-caption-provenance-plan.md](epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md) in this branch; its final independent Quick review records no findings. Human walkthrough Blocks 1–5 are accepted; see [walkthrough](../walkthrough-e5eff1d/walkthrough-e5eff1d.md) and [append-only log](../walkthrough-e5eff1d/walkthrough-e5eff1d-log.md). The first fresh feature-suite run found a pre-existing `os.listdir()` order assumption, also reproduced at the common base. Fix `51443d9` uses `assertCountEqual` and restores missing BMad artifact paths. The exact integrated commit passed all 147 tests in an isolated archive, with repository `videos/` excluded; `git diff --check` passed. No video artifacts changed. Gzip raw captions, provenance, `--rerender`, `--check`, and validated metadata-only pending completion are integrated. Earlier `9124c18` / 137-test / outstanding-review / no-push notes are superseded. The feature had already been pushed at handoff; this checkpoint and the Epic 2 push are now user-authorized. Verify the remote head before treating a push as completed.
 5. **Follow-ups, not implemented:** existing-video raw backfill; CI wiring; precise claim-level links; handling ASR speaker-change flags; preserving spoken terms in summaries; optional ASR triage. Do not mistake research recommendations for approved spec changes.
 
 ## Is the earlier five-disagreement / eleven-omission report still relevant?
@@ -38,11 +38,11 @@ The historical omissions recheck labels 11 items 'still omitted', including iden
 
 ## Next actions in a fresh context
 
-1. Run an independent review of `47c72ce..9124c18` in the implementation worktree using bmad-code-review/bmad-build review continuation. This is the required unfinished quality gate; the implementation is NOT complete/merged just because tests pass. Obtain authorization before launching new reviewer agents if not already supplied in the fresh request.
+1. Raw-caption review, human walkthrough, and integration verification are complete for the scope above. Do not restart review against `9124c18`. Check current branch/remote state and summarize remaining Epic 2 work before choosing another implementation task; this integration does not establish completion of the whole epic.
 2. Get the human listening answers. No paid services, fabricated verification or auto-approval.
 3. Refresh only c068/c163 evidence/disposition proposals; add targeted c192 speaker verification if requested. Keep other findings and omission scope decisions pending explicit approval.
 4. Once exact correction text is approved/applied, regenerate current claim extraction/mapping, source hashes and impacted audit/omission checks. Until then retain the 194-claim baseline and blocked publication.
-5. Merge/backfill/CI only when authorized. No change to review decisions or publication flags here.
+5. Raw-caption integration and the Epic 2 checkpoint push are authorized; backfill, CI follow-ups, a merge to `main`, correction application, and publication require separate approval. No change to correction decisions or publication flags here.
 
 ## Cautions / prior overclaims
 
@@ -52,7 +52,9 @@ Independent Whisper hallucinated all of regression R3 and dropped backchannels i
 
 ## Local environment / recovery
 
+The following machine-specific recovery notes describe the earlier macOS research environment, not the current Linux checkout. Do not assume the local-only evidence, tools, or browser session are available here.
+
 - Existing Homebrew yt-dlp restored at 2026.03.17 after a failed upgrade; isolated `uvx --from 'yt-dlp[default]@latest' yt-dlp` used 2026.08.19 to download audio without cookies.
 - whisper.cpp model already local: `~/whisper.cpp/models/ggml-large-v3-turbo.bin`. Use CPU `-ng`; AMD Metal run produced gibberish and aborted.
 - Chrome debugging on port 9222 was launched with a copied user profile; may still be open. Don't log cookies/tokens. Browser evidence can include signed URLs; don't publish those unredacted.
-- Full audio/MP3/zip are gitignored local evidence; preserve them separately if moving machines. Research/docs in the main checkout are uncommitted. Don't stash/reset or overwrite unrelated audit changes.
+- Full audio/MP3/zip are gitignored local evidence; preserve them separately if moving machines. Research/docs were checkpointed in Epic 2 commit `6451cc2`; do not assume the earlier uncommitted state persists. Don't stash/reset or overwrite unrelated audit changes.
