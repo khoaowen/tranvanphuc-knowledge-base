@@ -9,3 +9,5 @@
 - corrections applied, uncommitted, video still blocked
 
 - 2026-10-18: human approved wave 3 ("opus review loop") summary edits, committed in 6f6f3e3. Video stays blocked.
+
+- 2026-10-22: BDK approved the fidelity corrections p1 (c068) and p2 (c163) in proposed-corrections-fidelity.md and authorised applying them. Applied verbatim; see fidelity-apply-2026-10-22.md. Video stays blocked.

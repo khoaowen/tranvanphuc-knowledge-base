@@ -1,6 +1,6 @@
 # Fidelity proposed corrections: q7uDJG8YQ5c (draft, not applied)
 
-Source: transcript-fidelity research, `research-transcript-fidelity-q7udjg8yq5c/` (2026-10-20). Ids are the supplement-audit ids (`supplement-records.json`). Match by `current` text in `videos/2025-12-06-…/summary.md`. Nothing here has been applied. Both items were **gated on the human listen** (`human-verification-packet.md`, Clips A and B). Answers were recorded 2026-10-22 in `research-transcript-fidelity-q7udjg8yq5c/evidence/human-listening-ab-2026-10-22.md`. On 2026-10-22 the owner (BDK) approved the exact proposed text of both items. They are not yet applied to `summary.md`. Quotes are checked as substrings of `transcript.md`, with line breaks joined.
+Source: transcript-fidelity research, `research-transcript-fidelity-q7udjg8yq5c/` (2026-10-20). Ids are the supplement-audit ids (`supplement-records.json`). Match by `current` text in `videos/2025-12-06-…/summary.md`. Nothing here has been applied. Both items were **gated on the human listen** (`human-verification-packet.md`, Clips A and B). Answers were recorded 2026-10-22 in `research-transcript-fidelity-q7udjg8yq5c/evidence/human-listening-ab-2026-10-22.md`. On 2026-10-22 the owner (BDK) approved the exact proposed text of both items. Both were applied to `summary.md` on 2026-10-22 (`fidelity-apply-2026-10-22.md`). Quotes are checked as substrings of `transcript.md`, with line breaks joined.
 
 Evidence grades used below:
 - **caption**: YouTube automatic caption, identical to transcript.md and to the player
@@ -9,7 +9,7 @@ Evidence grades used below:
 - **human**: one listener, the project owner (BDK), answers recorded 2026-10-22. No headphones. Not blind: the listener had seen the captions before listening. Speaker identity for c163 was given with 100% confidence.
 
 ## p1 (c068): keep the spoken division terms
-- **status:** approved-not-applied (the proposed text was approved by BDK on 2026-10-22; summary.md is unchanged)
+- **status:** applied (approved by BDK and applied to summary.md on 2026-10-22; see `fidelity-apply-2026-10-22.md`)
 - **class:** mismatch (unsupported normalization plus a dropped noun)
 - **current:** Ông cũng thuật lại phép ví của Lipton coi nhân như cơ quan sinh sản của tế bào; trong phần giải thích, bác sĩ nói nguyên phân tạo ra hai tế bào, còn giảm phân tạo ra bốn.
 - **proposed (the listener heard "gián phân"):** Ông cũng thuật lại phép ví của Lipton coi nhân như cơ quan sinh sản của tế bào; trong phần giải thích, bác sĩ nói qua quá trình gián phân thì một tế bào tạo nên hai tế bào bằng cách phân chia nhân, còn qua quá trình giảm phân thì một tế bào tạo thành 'bốn bào tử'.
@@ -30,7 +30,7 @@ Evidence grades used below:
 - **evidence grade:** caption, asr and human (one listener). Human and ASR agree on "gián phân". The caption's "dán" is treated as a homophone transcription. The listener had seen the captions beforehand, so the listen was not blind.
 
 ## p2 (c163): one continuous speaker, remove the unclear-speaker hedge
-- **status:** approved-not-applied (the proposed text was approved by BDK on 2026-10-22; summary.md is unchanged)
+- **status:** applied (approved by BDK and applied to summary.md on 2026-10-22; see `fidelity-apply-2026-10-22.md`)
 - **class:** attribution_qualification (the human listener heard no voice change at the caption's `>>` turn marker)
 - **current:** Alzheimer 'cải thiện được rất nhiều' (Parkinson được nhắc trong cùng đoạn, người nói không rõ); ông nói từ 0,6 trở lên thì giá thành đắt.
 - **proposed (the listener heard one voice, the doctor, from 03:02:08 to 03:03:15):** Ông nhắc đến Alzheimer ('nhớ nhớ quên quên') và Parkinson ('run rẩy tay chân'), nói là 'cải thiện được rất nhiều, học hành nó tốt'; ông nói từ 0,6 trở lên thì giá thành đắt.
