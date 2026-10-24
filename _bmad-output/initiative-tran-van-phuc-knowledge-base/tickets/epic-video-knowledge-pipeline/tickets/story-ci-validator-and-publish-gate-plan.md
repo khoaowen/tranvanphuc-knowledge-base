@@ -3,7 +3,7 @@ title: 'CI validator and publish gate'
 type: 'feature'
 ticket: '10'
 created: '2026-10-19'
-status: 'in-review'
+status: done
 baseline_revision: '8325a516d9447f654f9cf7c0ea17cc2a864de3f2'
 route: 'full'
 route_source: 'auto'
