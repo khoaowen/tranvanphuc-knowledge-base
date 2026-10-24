@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, yt-home]
     steps:
       - name: Set report path
         run: echo "REPORT=$RUNNER_TEMP/weekly-sync-report.json" >> "$GITHUB_ENV"
