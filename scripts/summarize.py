@@ -31,6 +31,7 @@ import urllib.request
 from pathlib import Path
 
 DEFAULT_CHUNK_CHARS = 60000
+DEFAULT_REDUCE_MAX_CHARS = 60000
 DEFAULT_PACE_SECONDS = 6.0
 DEFAULT_MAX_RETRIES = 5
 BACKOFF_BASE_SECONDS = 10.0
@@ -368,12 +369,22 @@ def summarize_video(
     sleep=None,
     jitter=random.uniform,
     log=lambda message: None,
+    reduce_max_chars=DEFAULT_REDUCE_MAX_CHARS,
 ):
     """Summarize video_dir/transcript.md into video_dir/summary.md.
 
     Returns the Path of summary.md. summary.md is written only after every
-    model call has succeeded.
+    model call has succeeded. The complete Reduce prompt must not exceed
+    reduce_max_chars (a positive int); otherwise no Reduce call is made.
     """
+    if (
+        isinstance(reduce_max_chars, bool)
+        or not isinstance(reduce_max_chars, int)
+        or reduce_max_chars <= 0
+    ):
+        raise SummarizeError(
+            f"reduce_max_chars must be a positive integer, got {reduce_max_chars!r}"
+        )
     sleep = sleep or time.sleep
     video_dir = Path(video_dir)
     try:
@@ -418,7 +429,15 @@ def summarize_video(
         partials.append(
             strip_code_fences(run(f"map {index}/{len(chunks)}", build_map_prompt(chunk)))
         )
-    reduced = run("reduce", build_reduce_prompt(partials, vocabulary_text))
+    reduce_prompt = build_reduce_prompt(partials, vocabulary_text)
+    if len(reduce_prompt) > reduce_max_chars:
+        raise SummarizeError(
+            f"Reduce prompt is {len(reduce_prompt)} chars, over the "
+            f"{reduce_max_chars}-char ceiling (map outputs: "
+            f"{sum(len(p) for p in partials)} chars in {len(partials)} part(s)); "
+            "no Reduce request was made"
+        )
+    reduced = run("reduce", reduce_prompt)
     tags, body = parse_reduce_output(reduced)
 
     summary = build_summary(metadata, tags, body)
@@ -488,7 +507,7 @@ class GeminiClient:
                 raise RateLimitError(
                     parse_retry_after(exc.headers.get("Retry-After"), body)
                 ) from None
-            message = scrub(f"Gemini HTTP {exc.code}: {body[:500]}", self._api_key)
+            message = f"Gemini HTTP {exc.code}: {scrub(body, self._api_key)[:500]}"
             if exc.code >= 500:
                 raise TransientError(message) from None
             raise SummarizeError(message) from None
@@ -547,6 +566,12 @@ def main(argv=None, client=None):
         help=f"Retries per call on HTTP 429 (default: {DEFAULT_MAX_RETRIES})",
     )
     parser.add_argument(
+        "--reduce-max-chars",
+        type=int,
+        default=DEFAULT_REDUCE_MAX_CHARS,
+        help=f"Max characters of the complete Reduce prompt (default: {DEFAULT_REDUCE_MAX_CHARS})",
+    )
+    parser.add_argument(
         "--vocabulary",
         default=str(default_vocabulary_path()),
         help="Path to topics/vocabulary.md (used only if the file exists)",
@@ -572,6 +597,7 @@ def main(argv=None, client=None):
             chunk_chars=args.chunk_chars,
             pace_seconds=args.pace_seconds,
             max_retries=args.max_retries,
+            reduce_max_chars=args.reduce_max_chars,
             log=log_stderr,
         )
     except DailyQuotaExhausted:

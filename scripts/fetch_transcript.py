@@ -48,6 +48,10 @@ DIACRITIC_MAP = {
 }
 
 
+class NoCaptionsError(RuntimeError):
+    """The video has no Vietnamese caption track (yet); nothing was written."""
+
+
 def slugify(title):
     """Slugify a (possibly Vietnamese) title into a lowercase ascii slug.
 
@@ -163,7 +167,7 @@ def fetch_caption_json3(video_id, tmp_dir):
     if vi_path.is_file():
         return vi_path
 
-    raise RuntimeError(f"no Vietnamese captions (vi-orig/vi) found for {video_id}")
+    raise NoCaptionsError(f"no Vietnamese captions (vi-orig/vi) found for {video_id}")
 
 
 def caption_track(video_id, json3_path):
@@ -229,27 +233,65 @@ def sha256_hex(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def write_video_files(videos_dir, metadata, lines):
-    """Write metadata.json and transcript.md under videos/<published_at>-<slug>/."""
-    published_at = published_at_for(metadata)
-    video_dir = video_dir_for(videos_dir, metadata)
-    video_dir.mkdir(parents=True, exist_ok=True)
-
-    metadata_json = {
+def metadata_json_for(metadata):
+    """Return the core metadata.json content for yt-dlp metadata."""
+    return {
         "video_id": metadata["id"],
         "title": metadata["title"],
         "url": metadata["webpage_url"],
-        "published_at": published_at,
+        "published_at": published_at_for(metadata),
         "duration": metadata["duration"],
         "topics": [],
     }
 
+
+def write_video_files(videos_dir, metadata, lines):
+    """Write metadata.json and transcript.md under videos/<published_at>-<slug>/."""
+    video_dir = video_dir_for(videos_dir, metadata)
+    video_dir.mkdir(parents=True, exist_ok=True)
+
     (video_dir / "metadata.json").write_text(
-        json.dumps(metadata_json, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(metadata_json_for(metadata), ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     (video_dir / "transcript.md").write_bytes(render_transcript(lines).encode("utf-8"))
 
+    return video_dir
+
+
+def write_pending_metadata(videos_dir, metadata, expected_id=None):
+    """Create a metadata-only (pending) video directory; never overwrite anything.
+
+    Raises RuntimeError, writing nothing, when the metadata is unusable, does
+    not identify expected_id, or the destination already exists.
+    """
+    try:
+        if expected_id is not None and metadata.get("id") != expected_id:
+            raise ValueError(f"metadata ID does not match requested video {expected_id}")
+        content = metadata_json_for(metadata)
+        if not all(content[k] for k in ("video_id", "title", "url", "published_at")):
+            raise ValueError("metadata has an empty core field")
+        duration = content["duration"]
+        if isinstance(duration, bool) or not isinstance(duration, (int, float)) or duration <= 0:
+            raise ValueError("metadata duration is missing or invalid")
+        if not slugify(metadata["title"]):
+            raise ValueError("title yields an empty slug")
+        video_dir = video_dir_for(videos_dir, metadata)
+    except (KeyError, TypeError, ValueError, AttributeError, IndexError) as exc:
+        raise RuntimeError(f"unusable metadata for pending video: {exc!r}") from exc
+    if video_dir.exists():
+        raise RuntimeError(
+            f"{video_dir} already exists; refusing to overwrite or guess another destination"
+        )
+    video_dir.mkdir(parents=True)
+    try:
+        (video_dir / "metadata.json").write_text(
+            json.dumps(content, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+    except BaseException:
+        (video_dir / "metadata.json").unlink(missing_ok=True)
+        video_dir.rmdir()
+        raise
     return video_dir
 
 

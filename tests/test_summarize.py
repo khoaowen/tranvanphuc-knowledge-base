@@ -232,6 +232,162 @@ class RateLimitTest(unittest.TestCase):
             self.assertFalse((video_dir / "summary.md").exists())
 
 
+class KindClient(StubClient):
+    """Fails the first calls of one kind ("map" or "reduce"), then behaves normally."""
+
+    def __init__(self, kind=None, failures=()):
+        super().__init__(failures=failures)
+        self.kind = kind
+
+    def __call__(self, prompt):
+        is_reduce = prompt.startswith(summarize.REDUCE_INSTRUCTIONS.split("{TAG_RULE}")[0])
+        if self.failures and (self.kind == "reduce") == is_reduce and self.kind:
+            self.prompts.append(prompt)
+            raise self.failures.pop(0)
+        return super().__call__(prompt)
+
+
+class RetryRecoveryByCallTest(unittest.TestCase):
+    """Request-level retries for map and Reduce calls, with no real sleeping."""
+
+    def _run(self, kind, failures, max_retries=5):
+        waits = []
+        client = KindClient(kind, failures)
+        root = tempfile.TemporaryDirectory()
+        self.addCleanup(root.cleanup)
+        video_dir = make_video_dir(root.name)
+        try:
+            run_summarize(
+                video_dir, client, chunk_chars=60, max_retries=max_retries, sleep=waits.append
+            )
+            outcome = "ok"
+        except summarize.SummarizeError:
+            outcome = "error"
+        return client, waits, outcome, video_dir
+
+    def test_map_and_reduce_recover_from_transient_errors(self):
+        baseline = len(self._run(None, [])[0].prompts)
+        self.assertGreaterEqual(baseline, 3)  # several map calls plus reduce
+        for kind in ("map", "reduce"):
+            failures = [summarize.TransientError("503"), summarize.TransientError("timeout")]
+            client, waits, outcome, video_dir = self._run(kind, failures)
+            self.assertEqual(outcome, "ok", kind)
+            self.assertEqual(waits, [10.0, 20.0], kind)
+            self.assertEqual(len(client.prompts), baseline + 2, kind)
+            self.assertTrue((video_dir / "summary.md").is_file())
+
+    def test_map_and_reduce_exhaustion_is_bounded_and_writes_nothing(self):
+        for kind in ("map", "reduce"):
+            failures = [summarize.TransientError("503")] * 10
+            client, waits, outcome, video_dir = self._run(kind, failures, max_retries=5)
+            self.assertEqual(outcome, "error", kind)
+            self.assertEqual(waits, [10.0, 20.0, 40.0, 80.0, 160.0], kind)
+            self.assertFalse((video_dir / "summary.md").exists())
+
+
+class ReduceCeilingTest(unittest.TestCase):
+    def _reduce_length(self):
+        with tempfile.TemporaryDirectory() as root:
+            client = StubClient()
+            run_summarize(make_video_dir(root), client)
+            return len(client.prompts[-1]), len(client.prompts)
+
+    def test_default_ceiling_is_60000(self):
+        self.assertEqual(summarize.DEFAULT_REDUCE_MAX_CHARS, 60000)
+
+    def test_exact_boundary_allowed_one_over_rejected_without_reduce_call(self):
+        length, calls = self._reduce_length()
+        with tempfile.TemporaryDirectory() as root:
+            client = StubClient()
+            run_summarize(make_video_dir(root), client, reduce_max_chars=length)
+            self.assertEqual(len(client.prompts), calls)
+        with tempfile.TemporaryDirectory() as root:
+            video_dir = make_video_dir(root)
+            client = StubClient()
+            with self.assertRaises(summarize.SummarizeError) as ctx:
+                run_summarize(video_dir, client, reduce_max_chars=length - 1)
+            self.assertEqual(len(client.prompts), calls - 1)
+            self.assertIn(str(length), str(ctx.exception))
+            self.assertIn(str(length - 1), str(ctx.exception))
+            self.assertFalse((video_dir / "summary.md").exists())
+
+    def test_vocabulary_and_wrapper_overhead_count_toward_ceiling(self):
+        length, _ = self._reduce_length()
+        with tempfile.TemporaryDirectory() as root:
+            vocab = Path(root) / "vocabulary.md"
+            vocab.write_text("- tim-mach\n- omega-3\n", encoding="utf-8")
+            video_dir = make_video_dir(root)
+            with self.assertRaises(summarize.SummarizeError):
+                run_summarize(
+                    video_dir, StubClient(), vocabulary_path=vocab, reduce_max_chars=length
+                )
+
+    def test_nonpositive_or_invalid_ceiling_fails_before_any_model_call(self):
+        for bad in (0, -5, None, "60000", 1.5, True):
+            with tempfile.TemporaryDirectory() as root:
+                client = StubClient()
+                with self.assertRaises(summarize.SummarizeError):
+                    run_summarize(make_video_dir(root), client, reduce_max_chars=bad)
+                self.assertEqual(client.prompts, [])
+
+    def test_prior_summary_bytes_survive_a_guard_rejection(self):
+        length, _ = self._reduce_length()
+        with tempfile.TemporaryDirectory() as root:
+            video_dir = make_video_dir(root)
+            (video_dir / "summary.md").write_bytes(b"prior summary bytes\n")
+            with self.assertRaises(summarize.SummarizeError):
+                run_summarize(video_dir, StubClient(), reduce_max_chars=length - 1)
+            self.assertEqual((video_dir / "summary.md").read_bytes(), b"prior summary bytes\n")
+
+    def test_cli_option_sets_ceiling(self):
+        with tempfile.TemporaryDirectory() as root:
+            video_dir = make_video_dir(root)
+            with mock.patch.object(summarize.time, "sleep"):
+                with contextlib.redirect_stderr(io.StringIO()):
+                    code = summarize.main(
+                        [str(video_dir), "--pace-seconds", "0", "--reduce-max-chars", "10"],
+                        client=StubClient(),
+                    )
+            self.assertEqual(code, 1)
+            self.assertFalse((video_dir / "summary.md").exists())
+
+
+class RedactionThroughRetriesTest(unittest.TestCase):
+    def test_key_in_error_bodies_is_redacted_across_retries_and_boundary(self):
+        import urllib.error
+
+        # Place the key so it straddles the 500-char cut: it must still vanish.
+        body = "x" * 480 + SECRET + " trailing"
+        errors = [
+            urllib.error.HTTPError("https://x", 503, "Unavailable", {}, io.BytesIO(body.encode()))
+            for _ in range(3)
+        ]
+        client = summarize.GeminiClient(SECRET, "model-x")
+        logs = []
+        with mock.patch.object(summarize.urllib.request, "urlopen", side_effect=errors):
+            with self.assertRaises(summarize.SummarizeError) as ctx:
+                summarize.call_with_retry(
+                    client, "p", max_retries=2, sleep=lambda s: None,
+                    jitter=lambda a, b: 0, log=logs.append,
+                )
+        self.assertNotIn(SECRET, str(ctx.exception))
+        self.assertNotIn(SECRET[:12], str(ctx.exception))
+        self.assertNotIn(SECRET, "\n".join(logs))
+        self.assertNotIn(SECRET[:12], "\n".join(logs))
+
+    def test_connection_error_text_is_redacted(self):
+        import urllib.error
+
+        client = summarize.GeminiClient(SECRET, "model-x")
+        with mock.patch.object(
+            summarize.urllib.request, "urlopen",
+            side_effect=urllib.error.URLError(f"refused for {SECRET}"),
+        ):
+            with self.assertRaises(summarize.TransientError) as ctx:
+                client("p")
+        self.assertNotIn(SECRET, str(ctx.exception))
+
+
 class DailyQuotaTest(unittest.TestCase):
     def test_daily_quota_stops_with_hint_and_no_file(self):
         with tempfile.TemporaryDirectory() as root:

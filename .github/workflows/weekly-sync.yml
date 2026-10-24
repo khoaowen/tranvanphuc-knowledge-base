@@ -1,8 +1,11 @@
 name: Weekly sync
 
-# CAP-1-5 scheduled run. This is the single automation entry point for the
-# whole pipeline; later stories append jobs/steps here rather than creating
-# new workflow files.
+# Single automation entry point for the whole pipeline (CAP-1-3): detect, select
+# the newest unseen video, queue the rest as metadata-only pending, fetch and
+# Gemini-summarize the selected one, validate every summary, run the unit tests,
+# then commit an explicit allowlist, rebase onto the branch head and push.
+# Logic lives in scripts/weekly_sync.py (see docs/weekly-sync.md). Phases share a
+# JSON report in $RUNNER_TEMP; the report, never log text, carries state.
 
 on:
   schedule:
@@ -10,12 +13,24 @@ on:
     - cron: '0 3 * * 0'
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
+# Serialize writers per branch; never cancel a run that may be mid-write.
+concurrency:
+  group: weekly-sync-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  detect:
+  sync:
     runs-on: ubuntu-latest
+    env:
+      REPORT: ${{ runner.temp }}/weekly-sync-report.json
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,9 +40,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Detect new videos
-        id: detect
-        run: python scripts/detect_new_videos.py
+      - name: Detect, select, queue and fetch
+        id: prepare
+        run: python scripts/weekly_sync.py prepare --report "$REPORT"
 
-      - name: Show new video IDs
-        run: echo "${{ steps.detect.outputs.new_videos }}"
+      # The only step that receives the Gemini key.
+      - name: Summarize selected video
+        if: always() && steps.prepare.outcome == 'success'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python scripts/weekly_sync.py summarize --report "$REPORT"
+
+      # Runs after earlier failures so safe progress can still be committed; its
+      # exit status (1 red, 2 blocked) is the job's final status.
+      - name: Validate, test, commit and push
+        if: always()
+        run: python scripts/weekly_sync.py finalize --report "$REPORT"
