@@ -1,6 +1,6 @@
 {
   "video_id": "q7uDJG8YQ5c",
-  "summary_sha256": "f4fd69e4a82f9fab9ecf2c7ee32da1b661359925ce0d21e0483d2e156e4960c4",
+  "summary_sha256": "aa7c70a1ae866c747f7969f7f7f16dc2bdf11f41074985ff4938302a38b505cf",
   "verdict": "fail",
   "chunks": 7,
   "claims": [
@@ -69,13 +69,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:17:29-00:17:38",
-      "quote": "Đến giờ phút này chúng tôi\nđã làm những các cái chương trình phát\nsóng và dài nhất như ban đầu tôi mới\nKhánh lành nói đó là lên tới hơn 4 tiếng\nrưỡi đồng hồ",
+      "timestamp": "00:02:18-00:02:42",
+      "quote": "Chính\nvì vậy, ngay từ khi thành lập kênh thì\nbác sĩ Phúc cũng như toàn bộ ekip chương\ntrình đã thống nhất quan điểm rằng là\nchúng tôi sẽ dùng những video dài để có\nthể truyền đạt những kiến thức sức khỏe\ncả về chiều rộng lẫn chiều sâu và thời\nlượng của chương trình thì ngày một tăng\nlên đúng không thưa bác sĩ? Bác sĩ có\nnhớ rằng là thời lượng kỷ lực của chúng\nta là đến thời điểm hiện tại là bao\nnhiêu không ạ?\n>> 4 tiếng hơn 30 phút đúng không ạ?",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:17:29-00:17:38",
-          "quote": "Đến giờ phút này chúng tôi\nđã làm những các cái chương trình phát\nsóng và dài nhất như ban đầu tôi mới\nKhánh lành nói đó là lên tới hơn 4 tiếng\nrưỡi đồng hồ"
+          "timestamp": "00:02:18-00:02:42",
+          "quote": "Chính\nvì vậy, ngay từ khi thành lập kênh thì\nbác sĩ Phúc cũng như toàn bộ ekip chương\ntrình đã thống nhất quan điểm rằng là\nchúng tôi sẽ dùng những video dài để có\nthể truyền đạt những kiến thức sức khỏe\ncả về chiều rộng lẫn chiều sâu và thời\nlượng của chương trình thì ngày một tăng\nlên đúng không thưa bác sĩ? Bác sĩ có\nnhớ rằng là thời lượng kỷ lực của chúng\nta là đến thời điểm hiện tại là bao\nnhiêu không ạ?\n>> 4 tiếng hơn 30 phút đúng không ạ?"
         }
       ],
       "issues": []
@@ -88,13 +88,13 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:10:00-00:10:12",
-      "quote": "Tôi nhớ mãi những ca phẫu thuật mà cắt\ndạ dày, ung thư dạ dày phải nạo vét hết\n13 nhóm ảnh thì các thầy đã phẫu thuật\nđến 13 14 tiếng đồng hồ, thậm chí có ca\nđến 15 tiếng đồng hồ.",
+      "timestamp": "00:09:38-00:10:12",
+      "quote": "tôi nhớ lại những ngày\nđầu mà mới tốt nghiệp trường đạo y Hà\nNội ra trường. Lúc đấy tôi trở thành bác\nsĩ ngoài khoa. Thời kỳ đầu tôi có đi phụ\ncho các thầy, đặc biệt là có những thầy\nlà giáo sư, các thầy mổ những ca đại\nphẫu có thể nói rằng là thời gian kéo\ndài vô biên. Vô biên ở đây là thằng nào?\nTôi nhớ mãi những ca phẫu thuật mà cắt\ndạ dày, ung thư dạ dày phải nạo vét hết\n13 nhóm ảnh thì các thầy đã phẫu thuật\nđến 13 14 tiếng đồng hồ, thậm chí có ca\nđến 15 tiếng đồng hồ.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:10:00-00:10:12",
-          "quote": "Tôi nhớ mãi những ca phẫu thuật mà cắt\ndạ dày, ung thư dạ dày phải nạo vét hết\n13 nhóm ảnh thì các thầy đã phẫu thuật\nđến 13 14 tiếng đồng hồ, thậm chí có ca\nđến 15 tiếng đồng hồ."
+          "timestamp": "00:09:38-00:10:12",
+          "quote": "tôi nhớ lại những ngày\nđầu mà mới tốt nghiệp trường đạo y Hà\nNội ra trường. Lúc đấy tôi trở thành bác\nsĩ ngoài khoa. Thời kỳ đầu tôi có đi phụ\ncho các thầy, đặc biệt là có những thầy\nlà giáo sư, các thầy mổ những ca đại\nphẫu có thể nói rằng là thời gian kéo\ndài vô biên. Vô biên ở đây là thằng nào?\nTôi nhớ mãi những ca phẫu thuật mà cắt\ndạ dày, ung thư dạ dày phải nạo vét hết\n13 nhóm ảnh thì các thầy đã phẫu thuật\nđến 13 14 tiếng đồng hồ, thậm chí có ca\nđến 15 tiếng đồng hồ."
         }
       ],
       "issues": []
@@ -126,38 +126,57 @@
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:12:40-00:12:42",
-      "quote": "tổng thời gian, tất cả thời gian chúng\ntôi làm lên tới 13 tiếng đồng hồ.",
+      "timestamp": "00:12:09-00:12:42",
+      "quote": "khi thực hiện\nkỹ thuật thì gan bệnh nhân đang sơ giống\nnhư là cái quả bóng cao su. Cho nên để\ncái kim đó mà xuyên được qua cái nhuogan\nđấy là cả một cái quá trình rất khó.\nNgoài ra tìm được cái mạch máu để mà bắc\nđược cái cầu nối vô cùng khó khăn thì\nđấy là một trong những ca mà tôi làm mất\nnhiều thời gian nhất. Tôi với lại một\nanh đồng nghiệp ở trong bệnh viện, hai\nanh em làm là tổng, chưa kể là đội ngũ\nphụ nữa, hai anh em làm chính. Thế thì\ntổng thời gian, tất cả thời gian chúng\ntôi làm lên tới 13 tiếng đồng hồ.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:12:40-00:12:42",
-          "quote": "tổng thời gian, tất cả thời gian chúng\ntôi làm lên tới 13 tiếng đồng hồ."
+          "timestamp": "00:12:09-00:12:42",
+          "quote": "khi thực hiện\nkỹ thuật thì gan bệnh nhân đang sơ giống\nnhư là cái quả bóng cao su. Cho nên để\ncái kim đó mà xuyên được qua cái nhuogan\nđấy là cả một cái quá trình rất khó.\nNgoài ra tìm được cái mạch máu để mà bắc\nđược cái cầu nối vô cùng khó khăn thì\nđấy là một trong những ca mà tôi làm mất\nnhiều thời gian nhất. Tôi với lại một\nanh đồng nghiệp ở trong bệnh viện, hai\nanh em làm là tổng, chưa kể là đội ngũ\nphụ nữa, hai anh em làm chính. Thế thì\ntổng thời gian, tất cả thời gian chúng\ntôi làm lên tới 13 tiếng đồng hồ."
         }
       ],
       "issues": []
     },
     {
       "id": "c008",
-      "claim": "Trong toán học, khái niệm vô hạn được thể hiện qua ba ví dụ cơ bản: tổng số các số nguyên tố (chỉ chia hết cho 1 và chính nó); số lượng điểm trên một đường bất kỳ hoặc trên bề mặt của vật thể 3D; và số lượng các đường cong.",
-      "section": "[00:23:00] Khái niệm vô hạn trong toán học và khả năng phục hồi của cơ thể con người",
+      "claim": "Bác sĩ Phúc cũng nêu quan niệm rằng sức khỏe không chỉ là có bệnh hay không, mà còn bao gồm tinh thần, yếu tố xã hội và kiến thức ([00:17:52](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=1072s)).",
+      "section": "[00:08:55] Sự kiên trì trong y học qua các ca phẫu thuật và can thiệp kéo dài",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:26:10-00:26:30",
-      "quote": "đầu\ntiên là số những các cái số nguyên tố\ntổng số số nguyên tố là vô hạn. Thứ hai\nlà tổng số điểm trong bất kỳ một bề mặt\nnào hay bất kỳ một đường thẳng nào cũng\nđều vô hạn đúng không ạ? Và cái điều thứ\nba đó là số đường cong chúng ta cũng\nluôn luôn là vô hạn",
+      "timestamp": "00:17:52-00:18:01",
+      "quote": "tôi quan niệm rằng sức khỏe nó\nkhông phải chỉ là cái tình trạng bệnh\ntật hay không bệnh tật mà nó bao gồm cả\nnhững các cái yếu tố tinh thần, yếu tố\nxã hội, yếu tố về kiến thức",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:26:10-00:26:30",
-          "quote": "đầu\ntiên là số những các cái số nguyên tố\ntổng số số nguyên tố là vô hạn. Thứ hai\nlà tổng số điểm trong bất kỳ một bề mặt\nnào hay bất kỳ một đường thẳng nào cũng\nđều vô hạn đúng không ạ? Và cái điều thứ\nba đó là số đường cong chúng ta cũng\nluôn luôn là vô hạn"
+          "timestamp": "00:17:52-00:18:01",
+          "quote": "tôi quan niệm rằng sức khỏe nó\nkhông phải chỉ là cái tình trạng bệnh\ntật hay không bệnh tật mà nó bao gồm cả\nnhững các cái yếu tố tinh thần, yếu tố\nxã hội, yếu tố về kiến thức"
         }
       ],
       "issues": []
     },
     {
       "id": "c009",
+      "claim": "Trong toán học, khái niệm vô hạn được thể hiện qua ba ví dụ cơ bản: tổng số các số nguyên tố (chỉ chia hết cho 1 và chính nó); số lượng điểm trên một đường bất kỳ hoặc trên bề mặt của vật thể 3D; và số lượng các đường cong.",
+      "section": "[00:23:00] Khái niệm vô hạn trong toán học và khả năng phục hồi của cơ thể con người",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "00:26:10-00:26:33",
+      "quote": "đầu\ntiên là số những các cái số nguyên tố\ntổng số số nguyên tố là vô hạn. Thứ hai\nlà tổng số điểm trong bất kỳ một bề mặt\nnào hay bất kỳ một đường thẳng nào cũng\nđều vô hạn đúng không ạ? Và cái điều thứ\nba đó là số đường cong chúng ta cũng\nluôn luôn là vô hạn, không bao giờ là\nhữu hạn trong cuộc sống này.",
+      "evidence": [
+        {
+          "chunk": 1,
+          "timestamp": "00:26:10-00:26:33",
+          "quote": "đầu\ntiên là số những các cái số nguyên tố\ntổng số số nguyên tố là vô hạn. Thứ hai\nlà tổng số điểm trong bất kỳ một bề mặt\nnào hay bất kỳ một đường thẳng nào cũng\nđều vô hạn đúng không ạ? Và cái điều thứ\nba đó là số đường cong chúng ta cũng\nluôn luôn là vô hạn, không bao giờ là\nhữu hạn trong cuộc sống này."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c010",
       "claim": "Nhà toán học Đức Kurt Gödel cũng phát biểu Định lý bất toàn năm 1931 minh chứng thế giới tự nhiên và khả năng con người chứa đựng vô vàn điều vô hạn.",
       "section": "[00:23:00] Khái niệm vô hạn trong toán học và khả năng phục hồi của cơ thể con người",
       "status": "flag",
@@ -176,14 +195,14 @@
       "issues": [
         {
           "chunk": 2,
-          "timestamp": "00:31:23-00:31:33",
-          "quote": "Thế thì cái định lý bất toàn\nđó nó thể hiện rằng thế giới tự nhiên\ncủa chúng ta có rất nhiều cái vô hạn.\nTrong cơ thể con người chúng ta cũng có\nrất nhiều những cái vô hạn.",
-          "finding": "Phần này có diễn giải về định lý bất toàn và sự vô hạn, nhưng không nêu tên Kurt Gödel, quốc tịch hay năm 1931."
+          "timestamp": "00:30:59-00:31:06",
+          "quote": "định lý bất toàn và thấy rằng thế giới\n tự nhiên là vô hạn, khả năng con người\n cũng là vô hạn. Nhưng đừng lấy cái vô\n hạn này để chế ngự cái vô hạn kia.",
+          "finding": "Phần này có diễn giải định lý bất toàn về sự vô hạn, nhưng không nêu tên Kurt Gödel, quốc tịch Đức hoặc năm 1931 nên chưa xác nhận được toàn bộ nhận định."
         }
       ]
     },
     {
-      "id": "c010",
+      "id": "c011",
       "claim": "Áp dụng vào y học, khả năng tự hồi phục của cơ thể con người là vô hạn.",
       "section": "[00:23:00] Khái niệm vô hạn trong toán học và khả năng phục hồi của cơ thể con người",
       "status": "pass",
@@ -202,26 +221,26 @@
       "issues": []
     },
     {
-      "id": "c011",
+      "id": "c012",
       "claim": "Ngay cả bệnh nhân ung thư khi đối mặt với nguy cơ tử vong, nếu biết điều chỉnh lối sống tích cực, giữ tinh thần lạc quan, sống khoa học, buông bỏ và bổ sung ít nhất 7 vi chất thì hoàn toàn có thể thoát khỏi bệnh tật.",
       "section": "[00:23:00] Khái niệm vô hạn trong toán học và khả năng phục hồi của cơ thể con người",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:27:44-00:27:54",
-      "quote": "Bổ sung ít\nnhất bảy vi chất, chúng ta sống tốt,\nthực hành mọi lối sống tích cực và khoa\nhọc thì người đó hoàn toàn có thể thoát\nkhỏi căn bệnh ung thư.",
+      "timestamp": "00:27:23-00:27:54",
+      "quote": "Một người một bệnh\nnhân có thể là mắc căn bệnh ung thư\ntưởng là chúng ta đi tới cửa tử tức là\nđi đến cuối đoạn đầu đài nhưng cái người\nđó hiểu được cuộc sống. cái người đó\nbiết bình chỉnh lại cái lối sống của\nmình, biết buông bỏ, biết bổ sung đủ vi\nchất, biết sống một cuộc sống khoa học\nvà lạc quan. Tất cả những điều đó tôi đã\nnói nhiều trong các số rồi. Bổ sung ít\nnhất bảy vi chất, chúng ta sống tốt,\nthực hành mọi lối sống tích cực và khoa\nhọc thì người đó hoàn toàn có thể thoát\nkhỏi căn bệnh ung thư.",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:27:44-00:27:54",
-          "quote": "Bổ sung ít\nnhất bảy vi chất, chúng ta sống tốt,\nthực hành mọi lối sống tích cực và khoa\nhọc thì người đó hoàn toàn có thể thoát\nkhỏi căn bệnh ung thư."
+          "timestamp": "00:27:23-00:27:54",
+          "quote": "Một người một bệnh\nnhân có thể là mắc căn bệnh ung thư\ntưởng là chúng ta đi tới cửa tử tức là\nđi đến cuối đoạn đầu đài nhưng cái người\nđó hiểu được cuộc sống. cái người đó\nbiết bình chỉnh lại cái lối sống của\nmình, biết buông bỏ, biết bổ sung đủ vi\nchất, biết sống một cuộc sống khoa học\nvà lạc quan. Tất cả những điều đó tôi đã\nnói nhiều trong các số rồi. Bổ sung ít\nnhất bảy vi chất, chúng ta sống tốt,\nthực hành mọi lối sống tích cực và khoa\nhọc thì người đó hoàn toàn có thể thoát\nkhỏi căn bệnh ung thư."
         }
       ],
       "issues": []
     },
     {
-      "id": "c012",
+      "id": "c013",
       "claim": "Cây đàn piano có 88 phím (52 phím trắng và 36 phím đen).",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
       "status": "pass",
@@ -245,20 +264,20 @@
       "issues": []
     },
     {
-      "id": "c013",
+      "id": "c014",
       "claim": "Nếu chỉ soạn một bản nhạc 50 nốt trên 52 phím trắng, số bản nhạc có thể tạo ra là $50^{52}$, lớn gấp 50 lần tổng số nguyên tử trong hệ vũ trụ ($50^{51}$ nguyên tử; sau đó bác sĩ Phúc nói \"hệ mặt trời\").",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:32:07-00:32:21",
-      "quote": "thì hỏi rằng có bao nhiêu bản nhạc tất\ncả lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ\n52 bản nhạc mà tổng số nguyên tử ở trong\nhệ vũ trụ của chúng ta thì mới có được\nbao nhiêu? 50 mũ 51 nguyên tử.",
+      "timestamp": "00:32:07-00:32:49",
+      "quote": "thì hỏi rằng có bao nhiêu bản nhạc tất\ncả lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ\n52 bản nhạc mà tổng số nguyên tử ở trong\nhệ vũ trụ của chúng ta thì mới có được\nbao nhiêu? 50 mũ 51 nguyên tử. Tức là có\nbao nhiêu ngôi sao bao gồm mặt trăng,\nbao gồm sao thổ, sao kim, trái đất vân\nvân. Cộng số nguyên tử lại mới được có\n50 mũ 51. Trong khi đấy là số bản nhạc\nmà viết cho 50 phím 52 phím trắng của\nđàn piano chỉ cần 50 nốt thôi là chúng\nta đã có gấp 50 lần rồi. Số nguyên tử\ntrong hệ mặt trời của chúng ta đã gấp 50\nlần",
       "evidence": [
         {
           "chunk": 1,
-          "timestamp": "00:32:07-00:32:21",
-          "quote": "thì hỏi rằng có bao nhiêu bản nhạc tất\ncả lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ\n52 bản nhạc mà tổng số nguyên tử ở trong\nhệ vũ trụ của chúng ta thì mới có được\nbao nhiêu? 50 mũ 51 nguyên tử."
+          "timestamp": "00:32:07-00:32:49",
+          "quote": "thì hỏi rằng có bao nhiêu bản nhạc tất\ncả lúc đó sẽ có 50 mũ 52 bản nhạc. 50 mũ\n52 bản nhạc mà tổng số nguyên tử ở trong\nhệ vũ trụ của chúng ta thì mới có được\nbao nhiêu? 50 mũ 51 nguyên tử. Tức là có\nbao nhiêu ngôi sao bao gồm mặt trăng,\nbao gồm sao thổ, sao kim, trái đất vân\nvân. Cộng số nguyên tử lại mới được có\n50 mũ 51. Trong khi đấy là số bản nhạc\nmà viết cho 50 phím 52 phím trắng của\nđàn piano chỉ cần 50 nốt thôi là chúng\nta đã có gấp 50 lần rồi. Số nguyên tử\ntrong hệ mặt trời của chúng ta đã gấp 50\nlần"
         },
         {
           "chunk": 2,
@@ -269,7 +288,7 @@
       "issues": []
     },
     {
-      "id": "c014",
+      "id": "c015",
       "claim": "Bác sĩ Phúc lấy Mozart (35 tuổi) và Beethoven (56 tuổi) làm ví dụ: chiều dài cuộc đời (L) không nhiều nhưng trải nghiệm rất rộng.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
       "status": "pass",
@@ -288,45 +307,45 @@
       "issues": []
     },
     {
-      "id": "c015",
+      "id": "c016",
       "claim": "Wolfgang Amadeus Mozart: Chỉ sống 35 năm nhưng đã để lại 22 vở opera (như vở \"Cây sáo thần\"), 41 bản giao hưởng và 42 bản concerto.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:44:42-00:45:37",
-      "quote": "Moa thì cả cuộc đời của ông nếu nói\nvề chiều dài về tuổi thọ thì Moa có 35\ntuổi thôi. 35 tuổi nhưng mà ông viết\nđược bao nhiêu bản nhạc? Ông viết được\n22 vở Ober. 22 vở Ober thì quá kinh\nkhủng đúng không ạ? Mỗi một vở Ober thì\nví dụ cây sáo thần của Moza thì quá hay.\nVà tôi đã xem vở cây sáo thần đến lần\nthứ hai. Vở công diễn cây sáu thần đến\nlần thứ hai. Và tôi thấy rằng đây là một\ncái vở mà để lại trong tôi rất nhiều\nnhững cái cảm xúc. Không thể nào quên\nđược nổi một cái vở Ober lại hay như\nvậy.\nRồi ngoài Ober ra thì ông á sáng tác\nđược bao nhiêu? Ví dụ như là 41 bản giao\nhưởng. Tất nhiên là Ma thì không thiên\nnhiều về giao hưởng, không phải là cái\nngười để thiên sáng tác về giao hưởng\nnhưng có 41 bản giao hưởng và đặc biệt\ncông secto của ông ấy 42 bản công sexo.",
+      "timestamp": "00:44:46-00:45:37",
+      "quote": "về chiều dài về tuổi thọ thì Moa có 35\ntuổi thôi. 35 tuổi nhưng mà ông viết\nđược bao nhiêu bản nhạc? Ông viết được\n22 vở Ober. 22 vở Ober thì quá kinh\nkhủng đúng không ạ? Mỗi một vở Ober thì\nví dụ cây sáo thần của Moza thì quá hay.\nVà tôi đã xem vở cây sáo thần đến lần\nthứ hai. Vở công diễn cây sáu thần đến\nlần thứ hai. Và tôi thấy rằng đây là một\ncái vở mà để lại trong tôi rất nhiều\nnhững cái cảm xúc. Không thể nào quên\nđược nổi một cái vở Ober lại hay như\nvậy.\nRồi ngoài Ober ra thì ông á sáng tác\nđược bao nhiêu? Ví dụ như là 41 bản giao\nhưởng. Tất nhiên là Ma thì không thiên\nnhiều về giao hưởng, không phải là cái\nngười để thiên sáng tác về giao hưởng\nnhưng có 41 bản giao hưởng và đặc biệt\ncông secto của ông ấy 42 bản công sexo.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:44:42-00:45:37",
-          "quote": "Moa thì cả cuộc đời của ông nếu nói\nvề chiều dài về tuổi thọ thì Moa có 35\ntuổi thôi. 35 tuổi nhưng mà ông viết\nđược bao nhiêu bản nhạc? Ông viết được\n22 vở Ober. 22 vở Ober thì quá kinh\nkhủng đúng không ạ? Mỗi một vở Ober thì\nví dụ cây sáo thần của Moza thì quá hay.\nVà tôi đã xem vở cây sáo thần đến lần\nthứ hai. Vở công diễn cây sáu thần đến\nlần thứ hai. Và tôi thấy rằng đây là một\ncái vở mà để lại trong tôi rất nhiều\nnhững cái cảm xúc. Không thể nào quên\nđược nổi một cái vở Ober lại hay như\nvậy.\nRồi ngoài Ober ra thì ông á sáng tác\nđược bao nhiêu? Ví dụ như là 41 bản giao\nhưởng. Tất nhiên là Ma thì không thiên\nnhiều về giao hưởng, không phải là cái\nngười để thiên sáng tác về giao hưởng\nnhưng có 41 bản giao hưởng và đặc biệt\ncông secto của ông ấy 42 bản công sexo."
-        }
-      ],
-      "issues": []
-    },
-    {
-      "id": "c016",
-      "claim": "Ludwig van Beethoven: sống 56 năm, để lại 9 bản giao hưởng; theo bác sĩ Phúc, đỉnh cao nhất là bản giao hưởng số 9.",
-      "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
-      "status": "pass",
-      "supported": true,
-      "attributed": true,
-      "qualifications_preserved": true,
-      "timestamp": "00:45:58-00:46:07",
-      "quote": "56 tuổi và Bethoven thì để lại một cái\nsố bản giao hưởng là mấy khách lành nhớ\nkhông? chín bản\n>> chín bản giao hưởng và đỉnh cao nhất đó\nchính là bản giao hưởng số 9",
-      "evidence": [
-        {
-          "chunk": 2,
-          "timestamp": "00:45:58-00:46:07",
-          "quote": "56 tuổi và Bethoven thì để lại một cái\nsố bản giao hưởng là mấy khách lành nhớ\nkhông? chín bản\n>> chín bản giao hưởng và đỉnh cao nhất đó\nchính là bản giao hưởng số 9"
+          "timestamp": "00:44:46-00:45:37",
+          "quote": "về chiều dài về tuổi thọ thì Moa có 35\ntuổi thôi. 35 tuổi nhưng mà ông viết\nđược bao nhiêu bản nhạc? Ông viết được\n22 vở Ober. 22 vở Ober thì quá kinh\nkhủng đúng không ạ? Mỗi một vở Ober thì\nví dụ cây sáo thần của Moza thì quá hay.\nVà tôi đã xem vở cây sáo thần đến lần\nthứ hai. Vở công diễn cây sáu thần đến\nlần thứ hai. Và tôi thấy rằng đây là một\ncái vở mà để lại trong tôi rất nhiều\nnhững cái cảm xúc. Không thể nào quên\nđược nổi một cái vở Ober lại hay như\nvậy.\nRồi ngoài Ober ra thì ông á sáng tác\nđược bao nhiêu? Ví dụ như là 41 bản giao\nhưởng. Tất nhiên là Ma thì không thiên\nnhiều về giao hưởng, không phải là cái\nngười để thiên sáng tác về giao hưởng\nnhưng có 41 bản giao hưởng và đặc biệt\ncông secto của ông ấy 42 bản công sexo."
         }
       ],
       "issues": []
     },
     {
       "id": "c017",
+      "claim": "Ludwig van Beethoven: sống 56 năm, để lại 9 bản giao hưởng; theo bác sĩ Phúc, đỉnh cao nhất là bản giao hưởng số 9.",
+      "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "00:45:52-00:46:07",
+      "quote": "Hay như là Beethoven. Hôm trước tôi\nnói Behoven thì sống bao nhiêu tuổi ạ?\n56 tuổi và Bethoven thì để lại một cái\nsố bản giao hưởng là mấy khách lành nhớ\nkhông? chín bản\n>> chín bản giao hưởng và đỉnh cao nhất đó\nchính là bản giao hưởng số 9",
+      "evidence": [
+        {
+          "chunk": 2,
+          "timestamp": "00:45:52-00:46:07",
+          "quote": "Hay như là Beethoven. Hôm trước tôi\nnói Behoven thì sống bao nhiêu tuổi ạ?\n56 tuổi và Bethoven thì để lại một cái\nsố bản giao hưởng là mấy khách lành nhớ\nkhông? chín bản\n>> chín bản giao hưởng và đỉnh cao nhất đó\nchính là bản giao hưởng số 9"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c018",
       "claim": "Immanuel Kant: Nhà triết học cổ điển Đức thọ 80 tuổi, người đại diện cuối cùng của chủ nghĩa khai sáng và đặt nền tảng cho mỹ học cổ điển Đức.",
       "section": "[00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài",
       "status": "pass",
@@ -345,26 +364,26 @@
       "issues": []
     },
     {
-      "id": "c018",
+      "id": "c019",
       "claim": "Bác sĩ Phúc nêu giả định một mô hình minh họa về giá trị cuộc sống, có thể biểu diễn bằng $V = L + W + H$:",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:34:15-00:34:41",
-      "quote": "Thì\nhàm V ta sẽ được tính bằng những các cái\nhàm ví dụ như hàm chiều dài của cuộc\nsống là L, X, Y, Z gì đấy đúng không ạ?\nNhững đây là những cái hàm đa biến cộng\nvới lại đây là hàm về chiều dài cuộc\nsống. Ngoài ra hàm về chiều rộng cuộc\nsống tức là VDUP cũng tương ứng với lại\ncác cái tham số là X, Y và Z gì đấy cộng\nvới lại cái hàm về chiều cao cuộc sống\ntức là cũng H và có X gì y và Z vân vân.",
+      "timestamp": "00:34:15-00:34:56",
+      "quote": "Thì\nhàm V ta sẽ được tính bằng những các cái\nhàm ví dụ như hàm chiều dài của cuộc\nsống là L, X, Y, Z gì đấy đúng không ạ?\nNhững đây là những cái hàm đa biến cộng\nvới lại đây là hàm về chiều dài cuộc\nsống. Ngoài ra hàm về chiều rộng cuộc\nsống tức là VDUP cũng tương ứng với lại\ncác cái tham số là X, Y và Z gì đấy cộng\nvới lại cái hàm về chiều cao cuộc sống\ntức là cũng H và có X gì y và Z vân vân.\nGiả sử ta hoàn toàn có thể lập ra được\nmột cái hàm về giá trị cuộc sống bao gồm\ncó ba cái này. Một là chiều dài, hai là\nchiều rộng, ba là chiều cao.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:34:15-00:34:41",
-          "quote": "Thì\nhàm V ta sẽ được tính bằng những các cái\nhàm ví dụ như hàm chiều dài của cuộc\nsống là L, X, Y, Z gì đấy đúng không ạ?\nNhững đây là những cái hàm đa biến cộng\nvới lại đây là hàm về chiều dài cuộc\nsống. Ngoài ra hàm về chiều rộng cuộc\nsống tức là VDUP cũng tương ứng với lại\ncác cái tham số là X, Y và Z gì đấy cộng\nvới lại cái hàm về chiều cao cuộc sống\ntức là cũng H và có X gì y và Z vân vân."
+          "timestamp": "00:34:15-00:34:56",
+          "quote": "Thì\nhàm V ta sẽ được tính bằng những các cái\nhàm ví dụ như hàm chiều dài của cuộc\nsống là L, X, Y, Z gì đấy đúng không ạ?\nNhững đây là những cái hàm đa biến cộng\nvới lại đây là hàm về chiều dài cuộc\nsống. Ngoài ra hàm về chiều rộng cuộc\nsống tức là VDUP cũng tương ứng với lại\ncác cái tham số là X, Y và Z gì đấy cộng\nvới lại cái hàm về chiều cao cuộc sống\ntức là cũng H và có X gì y và Z vân vân.\nGiả sử ta hoàn toàn có thể lập ra được\nmột cái hàm về giá trị cuộc sống bao gồm\ncó ba cái này. Một là chiều dài, hai là\nchiều rộng, ba là chiều cao."
         }
       ],
       "issues": []
     },
     {
-      "id": "c019",
+      "id": "c020",
       "claim": "$L$ (Length - Chiều dài): Chiều dài tuổi thọ.",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
@@ -383,7 +402,7 @@
       "issues": []
     },
     {
-      "id": "c020",
+      "id": "c021",
       "claim": "Quan niệm xưa (trong lời nói về hàm tuổi tác): 60 năm cuộc đời, 70 'xưa nay hiếm', cha ông mơ ước 100 tuổi; bác sĩ Phúc nói biên độ tuổi 'loanh quanh' khoảng 100 tuổi.",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
@@ -402,7 +421,7 @@
       "issues": []
     },
     {
-      "id": "c021",
+      "id": "c022",
       "claim": "Ông 'vẫn hy vọng' kéo dài tuổi thọ lên 130, 140, 150 và 175 tuổi; xu hướng khoa học, một số nhà khoa học và một số quốc gia đang tính đến chuyện vượt qua 100 tuổi, và ông 'tin rằng' trong thế kỷ 21 'hoàn toàn làm được' việc giúp con người sống đến 150 tuổi.",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
@@ -421,7 +440,7 @@
       "issues": []
     },
     {
-      "id": "c022",
+      "id": "c023",
       "claim": "Riêng mục tiêu của ông, Khánh Lành và ekip là muốn khán giả coi tuổi 70-80 mới là bước vào cuộc đời, đang là tuổi sung sức.",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
@@ -440,102 +459,102 @@
       "issues": []
     },
     {
-      "id": "c023",
-      "claim": "(Ví dụ bác sĩ Phúc kể để cho thấy chiều rộng cuộc sống (W) quan trọng hơn chiều dài: một người anh họ bác sĩ bị ung thư dạ dày giai đoạn cuối chỉ sống thêm hơn 1 năm sau phẫu thuật, nhưng nhờ tập trung lo liệu chu toàn cho gia đình nên khoảng thời gian ngắn đó đã trở nên vô cùng dài và có ý nghĩa).",
-      "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
-      "status": "pass",
-      "supported": true,
-      "attributed": true,
-      "qualifications_preserved": true,
-      "timestamp": "00:40:33-00:41:13",
-      "quote": "Anh ấy nói\nrằng anh muốn mời chú đi ăn một bữa cơm\nchia tay và anh đã lo anh đã chuẩn bị\nhết cho vợ con anh đâu đuôi đấy xong\nxuôi, gia đình họ hàng. Anh đã chuẩn bị\ntất cả mọi thứ và đến bây giờ anh ra đi\nanh thanh thản, anh không phải suy nghĩ\ngì. Và đây là cái thời gian mặc dù có\nhơn năm trời thôi nhưng mà anh thấy anh\nlàm được nhiều việc nhất trong cuộc đời\nvà cuộc đời của anh vẫn còn tiếp nối đối\nvới con anh và đối cháu anh. Một người\nnông dân hoàn toàn nông dân không có học\nthức gì hết cả. Nhưng mà sau khi nghe\ntôi nói chuyện thì anh ấy đã thấy được\nrằng hơn một năm trời đó nó kéo dài, nó\ndài nó có ý nghĩa hơn rất rất nhiều\nnhững cái năm về trước.",
-      "evidence": [
-        {
-          "chunk": 2,
-          "timestamp": "00:40:33-00:41:13",
-          "quote": "Anh ấy nói\nrằng anh muốn mời chú đi ăn một bữa cơm\nchia tay và anh đã lo anh đã chuẩn bị\nhết cho vợ con anh đâu đuôi đấy xong\nxuôi, gia đình họ hàng. Anh đã chuẩn bị\ntất cả mọi thứ và đến bây giờ anh ra đi\nanh thanh thản, anh không phải suy nghĩ\ngì. Và đây là cái thời gian mặc dù có\nhơn năm trời thôi nhưng mà anh thấy anh\nlàm được nhiều việc nhất trong cuộc đời\nvà cuộc đời của anh vẫn còn tiếp nối đối\nvới con anh và đối cháu anh. Một người\nnông dân hoàn toàn nông dân không có học\nthức gì hết cả. Nhưng mà sau khi nghe\ntôi nói chuyện thì anh ấy đã thấy được\nrằng hơn một năm trời đó nó kéo dài, nó\ndài nó có ý nghĩa hơn rất rất nhiều\nnhững cái năm về trước."
-        }
-      ],
-      "issues": []
-    },
-    {
       "id": "c024",
-      "claim": "$W$ (Width - Chiều rộng): Chiều rộng trải nghiệm cuộc sống, sự dấn thân, thử thách và tích lũy thực tế.",
+      "claim": "(Ví dụ bác sĩ Phúc kể để cho thấy chiều rộng cuộc sống (W) quan trọng hơn chiều dài: một người anh họ bác sĩ bị ung thư dạ dày giai đoạn cuối chỉ sống thêm hơn 1 năm sau phẫu thuật, nhưng nhờ tập trung lo liệu chu toàn cho gia đình nên theo lời bác sĩ, ông anh thấy trong hơn một năm đó mình làm được nhiều việc nhất trong cuộc đời và ra đi thanh thản).",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:35:01-00:35:09",
-      "quote": "Thế\ncòn chiều rộng đó chính là tôi tượng\ntrưng cho cái sự trải nghiệm về cuộc\nsống.",
+      "timestamp": "00:40:20-00:40:54",
+      "quote": "Thì sau\nkhi tôi phân tích cho anh hiểu rằng cái\ngiá trị cuộc sống và phát triển cái\nchiều rộng cuộc sống thì anh ấy vui vẻ,\nanh ấy về, anh ấy tập trung làm các cái\ncông việc xong xuôi đâu đấy rồi thì anh\nấy xuống gặp tôi ở bệnh viện. Anh ấy nói\nrằng anh muốn mời chú đi ăn một bữa cơm\nchia tay và anh đã lo anh đã chuẩn bị\nhết cho vợ con anh đâu đuôi đấy xong\nxuôi, gia đình họ hàng. Anh đã chuẩn bị\ntất cả mọi thứ và đến bây giờ anh ra đi\nanh thanh thản, anh không phải suy nghĩ\ngì. Và đây là cái thời gian mặc dù có\nhơn năm trời thôi nhưng mà anh thấy anh\nlàm được nhiều việc nhất trong cuộc đời",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:35:01-00:35:09",
-          "quote": "Thế\ncòn chiều rộng đó chính là tôi tượng\ntrưng cho cái sự trải nghiệm về cuộc\nsống."
+          "timestamp": "00:40:20-00:40:54",
+          "quote": "Thì sau\nkhi tôi phân tích cho anh hiểu rằng cái\ngiá trị cuộc sống và phát triển cái\nchiều rộng cuộc sống thì anh ấy vui vẻ,\nanh ấy về, anh ấy tập trung làm các cái\ncông việc xong xuôi đâu đấy rồi thì anh\nấy xuống gặp tôi ở bệnh viện. Anh ấy nói\nrằng anh muốn mời chú đi ăn một bữa cơm\nchia tay và anh đã lo anh đã chuẩn bị\nhết cho vợ con anh đâu đuôi đấy xong\nxuôi, gia đình họ hàng. Anh đã chuẩn bị\ntất cả mọi thứ và đến bây giờ anh ra đi\nanh thanh thản, anh không phải suy nghĩ\ngì. Và đây là cái thời gian mặc dù có\nhơn năm trời thôi nhưng mà anh thấy anh\nlàm được nhiều việc nhất trong cuộc đời"
         }
       ],
       "issues": []
     },
     {
       "id": "c025",
-      "claim": "$H$ (Height - Chiều cao/Chiều sâu): Trình độ, kiến thức, sự hiểu biết và mức độ cống hiến giá trị cho xã hội.",
+      "claim": "$W$ (Width - Chiều rộng): Chiều rộng trải nghiệm cuộc sống, sự dấn thân, thử thách và tích lũy thực tế.",
       "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:35:10-00:35:17",
-      "quote": "Thế còn chiều cao đó chính là tượng\ntrưng cho cái sự hiểu biết và cống hiến.\nTức là kiến thức đấy, tất cả những kiến\nthức về hiểu biết và cống hiến",
+      "timestamp": "00:41:21-00:41:50",
+      "quote": "Vậy thì những cái\ntrải nghiệm cuộc sống này nó mới quan\ntrọng. Và quý vị sẽ thấy rằng tại sao\ntôi có những cái trải nghiệm ví dụ như\ntuổi ấu thơ của tôi rất vất vả hay là\nsau này tôi làm bác sĩ tôi cũng trải qua\nnhững đủ loại vất vả khác nhau. Tôi\nkhông lao về phía trước để hùng hục đi\nkiếm bằng được lấy những đồng tiền về\nmang lại cho cái cuộc sống tiện nghi cho\nbản thân mình mà tôi cần một cái cuộc\nsống trải nghiệm, một cái cuộc sống mà\nchính tôi dấn thân vào đó tạo nên được\nnhững cái giá trị gì trong cuộc sống.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:35:10-00:35:17",
-          "quote": "Thế còn chiều cao đó chính là tượng\ntrưng cho cái sự hiểu biết và cống hiến.\nTức là kiến thức đấy, tất cả những kiến\nthức về hiểu biết và cống hiến"
+          "timestamp": "00:41:21-00:41:50",
+          "quote": "Vậy thì những cái\ntrải nghiệm cuộc sống này nó mới quan\ntrọng. Và quý vị sẽ thấy rằng tại sao\ntôi có những cái trải nghiệm ví dụ như\ntuổi ấu thơ của tôi rất vất vả hay là\nsau này tôi làm bác sĩ tôi cũng trải qua\nnhững đủ loại vất vả khác nhau. Tôi\nkhông lao về phía trước để hùng hục đi\nkiếm bằng được lấy những đồng tiền về\nmang lại cho cái cuộc sống tiện nghi cho\nbản thân mình mà tôi cần một cái cuộc\nsống trải nghiệm, một cái cuộc sống mà\nchính tôi dấn thân vào đó tạo nên được\nnhững cái giá trị gì trong cuộc sống."
         }
       ],
       "issues": []
     },
     {
       "id": "c026",
-      "claim": "Hàm định vị cuộc sống được thể hiện qua công thức $Z = a + by$ (với $a, b > 0$), trong đó $y$ là số ảo.",
-      "section": "[00:49:35] Hàm định vị cuộc sống và trải nghiệm chọn ngành của bác sĩ",
+      "claim": "$H$ (Height - Chiều cao/Chiều sâu): Trình độ, kiến thức, sự hiểu biết và mức độ cống hiến giá trị cho xã hội.",
+      "section": "[00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V)",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:50:09-00:50:56",
-      "quote": "a + by. Trong đó chúng\nta lấy giá trị đây là a và b là hai giá\ntrị lớn hơn 0 đi. Thì để cho nó có ý\nnghĩa khi mà chúng ta xem xét. Thì với\nhàm z = a + by thì đây chúng ta coi là\nmột cái hàm mà định vị của chúng ta\ntrong chính cuộc sống này. Đây là hàm mà\nđịnh vị cuộc sống. Định vị cuộc sống.\nĐịnh vị cuộc sống là gì?\nlà trong cuộc sống chúng ta luôn nói một\ncâu là mình phải biết mình là ai, mình\nđang ở đâu. Cái quan trọng nhất trong\ncuộc sống là chúng ta phải biết mình là\nai và mình đang ở đâu, mình đang như thế\nnào. Thì đây chính là cái hàm định vị\ncuộc sống. Hàm định vị cuộc sống ở đây\nnó có cái số y tức là số ảo, số ảo, số\nphức.",
+      "timestamp": "00:43:17-00:43:41",
+      "quote": "Chiều cao,\nchiều sâu của cuộc sống ở đây nó được\nthể hiện. đấy chính là cái trình độ, cái\ntư chất, cái kiến thức của chúng ta đến\nđâu. Chúng ta phải học thật nhiều, biết\nthật nhiều và biết 100 1000 chúng ta chỉ\nsử dụng một ra ngoài cuộc sống để giúp\ních cho đời. Cho nên là sẽ có những cái\nngười sử dụng chiều cao của cuộc sống,\nhiểu biết của cuộc sống để phục vụ nhân\nloại, phục vụ xã hội",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:50:09-00:50:56",
-          "quote": "a + by. Trong đó chúng\nta lấy giá trị đây là a và b là hai giá\ntrị lớn hơn 0 đi. Thì để cho nó có ý\nnghĩa khi mà chúng ta xem xét. Thì với\nhàm z = a + by thì đây chúng ta coi là\nmột cái hàm mà định vị của chúng ta\ntrong chính cuộc sống này. Đây là hàm mà\nđịnh vị cuộc sống. Định vị cuộc sống.\nĐịnh vị cuộc sống là gì?\nlà trong cuộc sống chúng ta luôn nói một\ncâu là mình phải biết mình là ai, mình\nđang ở đâu. Cái quan trọng nhất trong\ncuộc sống là chúng ta phải biết mình là\nai và mình đang ở đâu, mình đang như thế\nnào. Thì đây chính là cái hàm định vị\ncuộc sống. Hàm định vị cuộc sống ở đây\nnó có cái số y tức là số ảo, số ảo, số\nphức."
+          "timestamp": "00:43:17-00:43:41",
+          "quote": "Chiều cao,\nchiều sâu của cuộc sống ở đây nó được\nthể hiện. đấy chính là cái trình độ, cái\ntư chất, cái kiến thức của chúng ta đến\nđâu. Chúng ta phải học thật nhiều, biết\nthật nhiều và biết 100 1000 chúng ta chỉ\nsử dụng một ra ngoài cuộc sống để giúp\ních cho đời. Cho nên là sẽ có những cái\nngười sử dụng chiều cao của cuộc sống,\nhiểu biết của cuộc sống để phục vụ nhân\nloại, phục vụ xã hội"
         }
       ],
       "issues": []
     },
     {
       "id": "c027",
-      "claim": "Phần thực $a$ đại diện cho những yếu tố khách quan, tính toán định lượng cụ thể như học ngành gì, cơ quan làm việc, mức lương, tiền thưởng và khả năng mua nhà.",
+      "claim": "Hàm định vị cuộc sống được thể hiện qua công thức $Z = a + by$ (với $a, b > 0$), trong đó $y$ là số ảo.",
       "section": "[00:49:35] Hàm định vị cuộc sống và trải nghiệm chọn ngành của bác sĩ",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:51:42-00:52:05",
-      "quote": "các\nbạn sẽ hoạch định rằng là sau này thi\nvào cái trường đại học đó chúng ta ra\ntrường làm ở cơ quan nào, lương bao\nnhiêu, thế rồi thì tiền thưởng áng chừng\nbao nhiêu, bao nhiêu năm xây được nhà,\nbao nhiêu năm mua được nhà cửa. Thế rồi\ncuộc sống của chúng ta kiếm được bao\nnhiêu tiền thì đấy tất cả những cái đó\nchính là số thực. Tức là phần A.",
+      "timestamp": "00:50:06-00:50:56",
+      "quote": "Ta có thể coi đó chính là A\ncộng với lại BY. a + by. Trong đó chúng\nta lấy giá trị đây là a và b là hai giá\ntrị lớn hơn 0 đi. Thì để cho nó có ý\nnghĩa khi mà chúng ta xem xét. Thì với\nhàm z = a + by thì đây chúng ta coi là\nmột cái hàm mà định vị của chúng ta\ntrong chính cuộc sống này. Đây là hàm mà\nđịnh vị cuộc sống. Định vị cuộc sống.\nĐịnh vị cuộc sống là gì?\nlà trong cuộc sống chúng ta luôn nói một\ncâu là mình phải biết mình là ai, mình\nđang ở đâu. Cái quan trọng nhất trong\ncuộc sống là chúng ta phải biết mình là\nai và mình đang ở đâu, mình đang như thế\nnào. Thì đây chính là cái hàm định vị\ncuộc sống. Hàm định vị cuộc sống ở đây\nnó có cái số y tức là số ảo, số ảo, số\nphức.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:51:42-00:52:05",
-          "quote": "các\nbạn sẽ hoạch định rằng là sau này thi\nvào cái trường đại học đó chúng ta ra\ntrường làm ở cơ quan nào, lương bao\nnhiêu, thế rồi thì tiền thưởng áng chừng\nbao nhiêu, bao nhiêu năm xây được nhà,\nbao nhiêu năm mua được nhà cửa. Thế rồi\ncuộc sống của chúng ta kiếm được bao\nnhiêu tiền thì đấy tất cả những cái đó\nchính là số thực. Tức là phần A."
+          "timestamp": "00:50:06-00:50:56",
+          "quote": "Ta có thể coi đó chính là A\ncộng với lại BY. a + by. Trong đó chúng\nta lấy giá trị đây là a và b là hai giá\ntrị lớn hơn 0 đi. Thì để cho nó có ý\nnghĩa khi mà chúng ta xem xét. Thì với\nhàm z = a + by thì đây chúng ta coi là\nmột cái hàm mà định vị của chúng ta\ntrong chính cuộc sống này. Đây là hàm mà\nđịnh vị cuộc sống. Định vị cuộc sống.\nĐịnh vị cuộc sống là gì?\nlà trong cuộc sống chúng ta luôn nói một\ncâu là mình phải biết mình là ai, mình\nđang ở đâu. Cái quan trọng nhất trong\ncuộc sống là chúng ta phải biết mình là\nai và mình đang ở đâu, mình đang như thế\nnào. Thì đây chính là cái hàm định vị\ncuộc sống. Hàm định vị cuộc sống ở đây\nnó có cái số y tức là số ảo, số ảo, số\nphức."
         }
       ],
       "issues": []
     },
     {
       "id": "c028",
+      "claim": "Phần thực $a$ đại diện cho những yếu tố khách quan, tính toán định lượng cụ thể như học ngành gì, cơ quan làm việc, mức lương, tiền thưởng và khả năng mua nhà.",
+      "section": "[00:49:35] Hàm định vị cuộc sống và trải nghiệm chọn ngành của bác sĩ",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "00:51:39-00:52:12",
+      "quote": "nếu các\nbạn thi vào một trường đại học thì các\nbạn sẽ hoạch định rằng là sau này thi\nvào cái trường đại học đó chúng ta ra\ntrường làm ở cơ quan nào, lương bao\nnhiêu, thế rồi thì tiền thưởng áng chừng\nbao nhiêu, bao nhiêu năm xây được nhà,\nbao nhiêu năm mua được nhà cửa. Thế rồi\ncuộc sống của chúng ta kiếm được bao\nnhiêu tiền thì đấy tất cả những cái đó\nchính là số thực. Tức là phần A. Phần A\nlà những cái mà chúng ta tính toán,\nchúng ta định lượng, chúng ta cái phần\nnày là rất là khách quan.",
+      "evidence": [
+        {
+          "chunk": 2,
+          "timestamp": "00:51:39-00:52:12",
+          "quote": "nếu các\nbạn thi vào một trường đại học thì các\nbạn sẽ hoạch định rằng là sau này thi\nvào cái trường đại học đó chúng ta ra\ntrường làm ở cơ quan nào, lương bao\nnhiêu, thế rồi thì tiền thưởng áng chừng\nbao nhiêu, bao nhiêu năm xây được nhà,\nbao nhiêu năm mua được nhà cửa. Thế rồi\ncuộc sống của chúng ta kiếm được bao\nnhiêu tiền thì đấy tất cả những cái đó\nchính là số thực. Tức là phần A. Phần A\nlà những cái mà chúng ta tính toán,\nchúng ta định lượng, chúng ta cái phần\nnày là rất là khách quan."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c029",
       "claim": "Phần ảo $by$ đại diện cho sự kỳ vọng, mơ ước, mục tiêu làm lãnh đạo hay xây dựng hình ảnh bản thân.",
       "section": "[00:49:35] Hàm định vị cuộc sống và trải nghiệm chọn ngành của bác sĩ",
       "status": "pass",
@@ -554,7 +573,7 @@
       "issues": []
     },
     {
-      "id": "c029",
+      "id": "c030",
       "claim": "Bác sĩ chia sẻ trải nghiệm cá nhân từng mơ làm bác sĩ y học cổ truyền, sản khoa, ngoại khoa, nhưng cuối cùng nhận ra bản thân phù hợp nhất với vị trí bác sĩ Chẩn đoán hình ảnh (X-quang, siêu âm, CT, cộng hưởng từ) để giải mã các hình ảnh đen trắng giúp cứu chữa bệnh nhân.",
       "section": "[00:49:35] Hàm định vị cuộc sống và trải nghiệm chọn ngành của bác sĩ",
       "status": "pass",
@@ -573,9 +592,9 @@
       "issues": []
     },
     {
-      "id": "c030",
+      "id": "c031",
       "claim": "Cuộc sống không đơn giản như đường thẳng $y = x$ hay đường hình sin $y = \\sin x$ mà là sự tổng hợp phức tạp của nhiều đường đồ thị.",
-      "section": "[00:56:00] Đường hướng cuộc sống và tư duy chọn hướng đi",
+      "section": "[00:58:42] Đường hướng cuộc sống và tư duy chọn hướng đi",
       "status": "pass",
       "supported": true,
       "attributed": true,
@@ -597,99 +616,100 @@
       "issues": []
     },
     {
-      "id": "c031",
-      "claim": "Theo quy luật của Newton, cái gì đi lên cũng sẽ phải đi xuống và ngược lại.",
-      "section": "[00:56:00] Đường hướng cuộc sống và tư duy chọn hướng đi",
-      "status": "fail",
-      "supported": false,
-      "attributed": true,
-      "qualifications_preserved": false,
-      "timestamp": "00:57:07-00:57:21",
-      "quote": "ông Newton có một cái câu nói có thể nói\nrằng là trở thành một chân lý rất hay.\nĐó chính là trong cuộc sống của chúng\nta, trong thế giới của chúng ta cái gì\nđi lên nó sẽ phải đi xuống và đi xuống\nrồi nó sẽ đi lên.",
-      "evidence": [],
-      "issues": [
-        {
-          "chunk": 2,
-          "timestamp": "00:57:07-00:57:21",
-          "quote": "ông Newton có một cái câu nói có thể nói\nrằng là trở thành một chân lý rất hay.\nĐó chính là trong cuộc sống của chúng\nta, trong thế giới của chúng ta cái gì\nđi lên nó sẽ phải đi xuống và đi xuống\nrồi nó sẽ đi lên.",
-          "finding": "Nguồn gọi đây là một câu nói được gán cho Newton; tóm tắt nâng thành 'quy luật của Newton'."
-        }
-      ]
-    },
-    {
       "id": "c032",
-      "claim": "Theo bác sĩ Phúc, trong cuộc sống, đi theo đường thẳng thường thất bại và chậm hơn; ông ví việc đi từ nhà đến cơ quan bằng đường thẳng là không thể, vì có thể gặp tắc đường hoặc đường đang sửa nên phải chọn đường vòng.",
-      "section": "[00:56:00] Đường hướng cuộc sống và tư duy chọn hướng đi",
+      "claim": "Bác sĩ Phúc dẫn một câu nói mà ông gán cho Newton: cái gì đi lên sẽ phải đi xuống, rồi đi xuống sẽ lại đi lên.",
+      "section": "[00:58:42] Đường hướng cuộc sống và tư duy chọn hướng đi",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "00:58:38-00:59:04",
-      "quote": "Nếu như quý vị muốn\nđi từ nhà đến cơ quan mà quý vị đi bằng\nđường thẳng thì quý vị thất bại không\nbao giờ đi được. Quý vị chọn con đường\nngắn nhất quý vị đi sẽ thất bại mà chúng\nta đều phải đi đường vòng. Bởi vì rằng\nlà trong quá trình đi từ nhà đến cơ quan\nđể làm việc thì chúng ta sẽ xuất hiện\nnhững đoạn đường bị tắc đường. Chúng ta\ncó những đoạn đường mà người ta đang sửa\nchữa. Vậy chúng ta luôn luôn phải chọn\nđường vòng đi.",
+      "timestamp": "00:57:07-00:57:21",
+      "quote": "ông Newton có một cái câu nói có thể nói\nrằng là trở thành một chân lý rất hay.\nĐó chính là trong cuộc sống của chúng\nta, trong thế giới của chúng ta cái gì\nđi lên nó sẽ phải đi xuống và đi xuống\nrồi nó sẽ đi lên.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "00:58:38-00:59:04",
-          "quote": "Nếu như quý vị muốn\nđi từ nhà đến cơ quan mà quý vị đi bằng\nđường thẳng thì quý vị thất bại không\nbao giờ đi được. Quý vị chọn con đường\nngắn nhất quý vị đi sẽ thất bại mà chúng\nta đều phải đi đường vòng. Bởi vì rằng\nlà trong quá trình đi từ nhà đến cơ quan\nđể làm việc thì chúng ta sẽ xuất hiện\nnhững đoạn đường bị tắc đường. Chúng ta\ncó những đoạn đường mà người ta đang sửa\nchữa. Vậy chúng ta luôn luôn phải chọn\nđường vòng đi."
-        },
-        {
-          "chunk": 3,
-          "timestamp": "01:00:20-01:00:25",
-          "quote": "trong cuộc sống của chúng ta nếu đi theo\nđường thẳng luôn luôn thất bại và luôn\nluôn chậm nhất chúng ta muốn đi nhanh\nnhất chúng ta phải đi bằng đường cong."
+          "timestamp": "00:57:07-00:57:21",
+          "quote": "ông Newton có một cái câu nói có thể nói\nrằng là trở thành một chân lý rất hay.\nĐó chính là trong cuộc sống của chúng\nta, trong thế giới của chúng ta cái gì\nđi lên nó sẽ phải đi xuống và đi xuống\nrồi nó sẽ đi lên."
         }
       ],
       "issues": []
     },
     {
       "id": "c033",
-      "claim": "Việc đi theo các đường cong flexible (như dòng nước chảy uốn lách qua các tảng đá để ra biển) mới mang lại hiệu quả cao nhất.",
-      "section": "[00:56:00] Đường hướng cuộc sống và tư duy chọn hướng đi",
-      "status": "pass",
+      "claim": "Theo bác sĩ Phúc, trong cuộc sống, đi theo đường thẳng thường thất bại và chậm hơn; ông ví việc đi từ nhà đến cơ quan bằng đường thẳng là không thể, vì có thể gặp tắc đường hoặc đường đang sửa nên phải chọn đường vòng.",
+      "section": "[00:58:42] Đường hướng cuộc sống và tư duy chọn hướng đi",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:00:01-01:00:18",
-      "quote": "Bởi vì nó gặp tảng đá, nếu\nnó đi thẳng thì nó sẽ bị tắc lại. Vậy nó\nphải đi vòng quanh tảng đá, nó sẽ đi\nvòng quanh quả đồi, đi vòng quanh quả\nnúi, dần dần nó mới đi ra biển. Vậy dòng\nnước đó để đi được ra biển nhanh nhất\nthì dòng nước đó luôn luôn phải đi theo\nnhững các cái đường cong chứ không bao\ngiờ đi bằng cái đường thẳng hết cả.",
+      "timestamp": "00:58:42-00:59:04",
+      "quote": "đi từ nhà đến cơ quan mà quý vị đi bằng\nđường thẳng thì quý vị thất bại không\nbao giờ đi được. Quý vị chọn con đường\nngắn nhất quý vị đi sẽ thất bại mà chúng\nta đều phải đi đường vòng. Bởi vì rằng\nlà trong quá trình đi từ nhà đến cơ quan\nđể làm việc thì chúng ta sẽ xuất hiện\nnhững đoạn đường bị tắc đường. Chúng ta\ncó những đoạn đường mà người ta đang sửa\nchữa. Vậy chúng ta luôn luôn phải chọn\nđường vòng đi.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "01:00:01-01:00:18",
-          "quote": "Bởi vì nó gặp tảng đá, nếu\nnó đi thẳng thì nó sẽ bị tắc lại. Vậy nó\nphải đi vòng quanh tảng đá, nó sẽ đi\nvòng quanh quả đồi, đi vòng quanh quả\nnúi, dần dần nó mới đi ra biển. Vậy dòng\nnước đó để đi được ra biển nhanh nhất\nthì dòng nước đó luôn luôn phải đi theo\nnhững các cái đường cong chứ không bao\ngiờ đi bằng cái đường thẳng hết cả."
-        },
-        {
-          "chunk": 3,
-          "timestamp": "01:00:01-01:00:18",
-          "quote": "Bởi vì nó gặp tảng đá, nếu\nnó đi thẳng thì nó sẽ bị tắc lại. Vậy nó\nphải đi vòng quanh tảng đá, nó sẽ đi\nvòng quanh quả đồi, đi vòng quanh quả\nnúi, dần dần nó mới đi ra biển. Vậy dòng\nnước đó để đi được ra biển nhanh nhất\nthì dòng nước đó luôn luôn phải đi theo\nnhững các cái đường cong chứ không bao\ngiờ đi bằng cái đường thẳng hết cả."
+          "timestamp": "00:58:42-00:59:04",
+          "quote": "đi từ nhà đến cơ quan mà quý vị đi bằng\nđường thẳng thì quý vị thất bại không\nbao giờ đi được. Quý vị chọn con đường\nngắn nhất quý vị đi sẽ thất bại mà chúng\nta đều phải đi đường vòng. Bởi vì rằng\nlà trong quá trình đi từ nhà đến cơ quan\nđể làm việc thì chúng ta sẽ xuất hiện\nnhững đoạn đường bị tắc đường. Chúng ta\ncó những đoạn đường mà người ta đang sửa\nchữa. Vậy chúng ta luôn luôn phải chọn\nđường vòng đi."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:00:18-01:00:25",
+          "quote": "Và\ntrong cuộc sống của chúng ta nếu đi theo\nđường thẳng luôn luôn thất bại và luôn\nluôn chậm nhất chúng ta muốn đi nhanh\nnhất chúng ta phải đi bằng đường cong.",
+          "finding": "Đoạn này xác nhận nhận định về đi thẳng thất bại và chậm, nhưng không chứa ví dụ đi từ nhà đến cơ quan, tắc đường hoặc sửa đường."
+        }
+      ]
     },
     {
       "id": "c034",
-      "claim": "Trong đó, xác định đúng hướng đi (phương hướng) là yếu tố cốt lõi số một, quan trọng hơn phương tiện hay cách thức đi.",
-      "section": "[00:56:00] Đường hướng cuộc sống và tư duy chọn hướng đi",
+      "claim": "Việc đi theo các đường cong flexible (như dòng nước chảy uốn lách qua các tảng đá để ra biển) mới mang lại hiệu quả cao nhất.",
+      "section": "[00:58:42] Đường hướng cuộc sống và tư duy chọn hướng đi",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:01:29-01:01:53",
-      "quote": "chúng ta phải chọn được hướng đi đúng. Sau đó\nchúng ta mới chọn đến phương tiện đi và\ncách đi thì chúng ta mới thành công\nđược. Còn ngược lại chúng ta chọn hướng\nđi sai thì dù cho phương tiện đi có tốt\nđến mấy đi chăng nữa chúng ta cũng bị\nlạc đường. Vậy cuộc sống thì chúng ta mà\nlạc đường là chúng ta chết. Do vậy là\nchúng ta phải xác định được hướng đi,\nđường đi, cách thức đi. Thì trong đó\nhướng đi là cái quan trọng số một.",
+      "timestamp": "00:59:58-01:00:18",
+      "quote": "Tại sao nó đi dòng\nchảy uốn éo? Bởi vì nó gặp tảng đá, nếu\nnó đi thẳng thì nó sẽ bị tắc lại. Vậy nó\nphải đi vòng quanh tảng đá, nó sẽ đi\nvòng quanh quả đồi, đi vòng quanh quả\nnúi, dần dần nó mới đi ra biển. Vậy dòng\nnước đó để đi được ra biển nhanh nhất\nthì dòng nước đó luôn luôn phải đi theo\nnhững các cái đường cong chứ không bao\ngiờ đi bằng cái đường thẳng hết cả.",
       "evidence": [
         {
           "chunk": 2,
-          "timestamp": "01:01:29-01:01:53",
-          "quote": "chúng ta phải chọn được hướng đi đúng. Sau đó\nchúng ta mới chọn đến phương tiện đi và\ncách đi thì chúng ta mới thành công\nđược. Còn ngược lại chúng ta chọn hướng\nđi sai thì dù cho phương tiện đi có tốt\nđến mấy đi chăng nữa chúng ta cũng bị\nlạc đường. Vậy cuộc sống thì chúng ta mà\nlạc đường là chúng ta chết. Do vậy là\nchúng ta phải xác định được hướng đi,\nđường đi, cách thức đi. Thì trong đó\nhướng đi là cái quan trọng số một."
+          "timestamp": "00:59:58-01:00:18",
+          "quote": "Tại sao nó đi dòng\nchảy uốn éo? Bởi vì nó gặp tảng đá, nếu\nnó đi thẳng thì nó sẽ bị tắc lại. Vậy nó\nphải đi vòng quanh tảng đá, nó sẽ đi\nvòng quanh quả đồi, đi vòng quanh quả\nnúi, dần dần nó mới đi ra biển. Vậy dòng\nnước đó để đi được ra biển nhanh nhất\nthì dòng nước đó luôn luôn phải đi theo\nnhững các cái đường cong chứ không bao\ngiờ đi bằng cái đường thẳng hết cả."
         },
         {
           "chunk": 3,
-          "timestamp": "01:01:49-01:01:53",
-          "quote": "chúng ta phải xác định được hướng đi,\nđường đi, cách thức đi. Thì trong đó\nhướng đi là cái quan trọng số một."
+          "timestamp": "01:00:01-01:00:18",
+          "quote": "Bởi vì nó gặp tảng đá, nếu\nnó đi thẳng thì nó sẽ bị tắc lại. Vậy nó\nphải đi vòng quanh tảng đá, nó sẽ đi\nvòng quanh quả đồi, đi vòng quanh quả\nnúi, dần dần nó mới đi ra biển. Vậy dòng\nnước đó để đi được ra biển nhanh nhất\nthì dòng nước đó luôn luôn phải đi theo\nnhững các cái đường cong chứ không bao\ngiờ đi bằng cái đường thẳng hết cả."
         }
       ],
       "issues": []
     },
     {
       "id": "c035",
+      "claim": "Trong đó, xác định đúng hướng đi (phương hướng) là yếu tố cốt lõi số một, quan trọng hơn phương tiện hay cách thức đi.",
+      "section": "[00:58:42] Đường hướng cuộc sống và tư duy chọn hướng đi",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "01:01:26-01:01:53",
+      "quote": "chúng ta muốn đi\nđược đến đích, muốn thành công thì chúng\nta phải chọn được hướng đi đúng. Sau đó\nchúng ta mới chọn đến phương tiện đi và\ncách đi thì chúng ta mới thành công\nđược. Còn ngược lại chúng ta chọn hướng\nđi sai thì dù cho phương tiện đi có tốt\nđến mấy đi chăng nữa chúng ta cũng bị\nlạc đường. Vậy cuộc sống thì chúng ta mà\nlạc đường là chúng ta chết. Do vậy là\nchúng ta phải xác định được hướng đi,\nđường đi, cách thức đi. Thì trong đó\nhướng đi là cái quan trọng số một.",
+      "evidence": [
+        {
+          "chunk": 2,
+          "timestamp": "01:01:26-01:01:53",
+          "quote": "chúng ta muốn đi\nđược đến đích, muốn thành công thì chúng\nta phải chọn được hướng đi đúng. Sau đó\nchúng ta mới chọn đến phương tiện đi và\ncách đi thì chúng ta mới thành công\nđược. Còn ngược lại chúng ta chọn hướng\nđi sai thì dù cho phương tiện đi có tốt\nđến mấy đi chăng nữa chúng ta cũng bị\nlạc đường. Vậy cuộc sống thì chúng ta mà\nlạc đường là chúng ta chết. Do vậy là\nchúng ta phải xác định được hướng đi,\nđường đi, cách thức đi. Thì trong đó\nhướng đi là cái quan trọng số một."
+        },
+        {
+          "chunk": 3,
+          "timestamp": "01:01:29-01:01:43",
+          "quote": "chúng ta phải chọn được hướng đi đúng. Sau đó\nchúng ta mới chọn đến phương tiện đi và\ncách đi thì chúng ta mới thành công\nđược. Còn ngược lại chúng ta chọn hướng\nđi sai thì dù cho phương tiện đi có tốt\nđến mấy đi chăng nữa chúng ta cũng bị\nlạc đường."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c036",
       "claim": "Nội hàm cuộc sống được mô tả qua phương trình hình elip $|MF1| + |MF2| = 2a$ (với $a > 0$) hay $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$.",
       "section": "[01:03:00] Nội hàm cuộc sống và hai điểm tựa gia đình, nhà trường",
       "status": "pass",
@@ -708,7 +728,7 @@
       "issues": []
     },
     {
-      "id": "c036",
+      "id": "c037",
       "claim": "Hai điểm tiêu cự $F1$ và $F2$ là hai điểm tựa chính: $F1$ đại diện cho gia đình (nơi tràn ngập tình yêu thương, hạnh phúc, là chỗ dựa trở về và bàn đạp phát triển), còn $F2$ đại diện cho nhà trường (bao gồm trường học các cấp, sách vở, thầy cô và những người dạy dỗ).",
       "section": "[01:03:00] Nội hàm cuộc sống và hai điểm tựa gia đình, nhà trường",
       "status": "pass",
@@ -727,7 +747,7 @@
       "issues": []
     },
     {
-      "id": "c037",
+      "id": "c038",
       "claim": "Phải kết hợp vững chắc cả hai điểm tựa này thì mới tạo dựng được nội hàm cuộc sống tốt đẹp.",
       "section": "[01:03:00] Nội hàm cuộc sống và hai điểm tựa gia đình, nhà trường",
       "status": "pass",
@@ -746,7 +766,7 @@
       "issues": []
     },
     {
-      "id": "c038",
+      "id": "c039",
       "claim": "Lịch sử là môn học khó nhưng rất quan trọng để trở nên giỏi giang, sâu sắc và phát triển toàn diện.",
       "section": "[01:07:33] Vai trò của môn lịch sử đối với sự thành đạt",
       "status": "pass",
@@ -765,7 +785,7 @@
       "issues": []
     },
     {
-      "id": "c039",
+      "id": "c040",
       "claim": "Theo bác sĩ Phúc, các nhà phân tích tài chính hàng đầu nước Mỹ từ xưa đến nay luôn xuất phát đều là nhà sử học (nói về trung tâm tài chính sừng sỏ nhất nước Mỹ).",
       "section": "[01:07:33] Vai trò của môn lịch sử đối với sự thành đạt",
       "status": "pass",
@@ -784,7 +804,7 @@
       "issues": []
     },
     {
-      "id": "c040",
+      "id": "c041",
       "claim": "Bác sĩ cũng dẫn chứng Đại tướng Võ Nguyên Giáp vốn là thầy giáo dạy sử đã trở thành một đại tướng chỉ huy tài giỏi.",
       "section": "[01:07:33] Vai trò của môn lịch sử đối với sự thành đạt",
       "status": "pass",
@@ -803,7 +823,7 @@
       "issues": []
     },
     {
-      "id": "c041",
+      "id": "c042",
       "claim": "Người giỏi lịch sử cần có kiến thức sâu rộng, biết nhìn nhận vấn đề từ nhiều góc độ khác nhau.",
       "section": "[01:07:33] Vai trò của môn lịch sử đối với sự thành đạt",
       "status": "pass",
@@ -822,26 +842,26 @@
       "issues": []
     },
     {
-      "id": "c042",
+      "id": "c043",
       "claim": "Tuy nhiên, nội dung lịch sử ít được đưa vào chương trình video để tránh những tranh cãi cực đoan do nhận thức chưa toàn diện.",
       "section": "[01:07:33] Vai trò của môn lịch sử đối với sự thành đạt",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:10:41-01:10:54",
-      "quote": "Vì chúng ta đang giới hạn cái\nnhận thức của chúng ta đang bị cực đoan\nhóa và đang bị hiểu vấn đề. Nó không có\nkiến thức toàn diện. Cho nên là trong\ncác cái chương trình thì chúng tôi và\nKhánh lành sẽ rất ít đưa những cái vấn\nđề lịch sử",
+      "timestamp": "01:10:30-01:10:54",
+      "quote": "Tuy\nnhiên là trong xã hội chúng ta nếu đưa\nlịch sử ra thì sẽ rất dễ cãi nhau. Nó\ntrở thành những cái vấn đề mà không hay\nho gì lắm. Vì chúng ta đang giới hạn cái\nnhận thức của chúng ta đang bị cực đoan\nhóa và đang bị hiểu vấn đề. Nó không có\nkiến thức toàn diện. Cho nên là trong\ncác cái chương trình thì chúng tôi và\nKhánh lành sẽ rất ít đưa những cái vấn\nđề lịch sử",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:10:41-01:10:54",
-          "quote": "Vì chúng ta đang giới hạn cái\nnhận thức của chúng ta đang bị cực đoan\nhóa và đang bị hiểu vấn đề. Nó không có\nkiến thức toàn diện. Cho nên là trong\ncác cái chương trình thì chúng tôi và\nKhánh lành sẽ rất ít đưa những cái vấn\nđề lịch sử"
+          "timestamp": "01:10:30-01:10:54",
+          "quote": "Tuy\nnhiên là trong xã hội chúng ta nếu đưa\nlịch sử ra thì sẽ rất dễ cãi nhau. Nó\ntrở thành những cái vấn đề mà không hay\nho gì lắm. Vì chúng ta đang giới hạn cái\nnhận thức của chúng ta đang bị cực đoan\nhóa và đang bị hiểu vấn đề. Nó không có\nkiến thức toàn diện. Cho nên là trong\ncác cái chương trình thì chúng tôi và\nKhánh lành sẽ rất ít đưa những cái vấn\nđề lịch sử"
         }
       ],
       "issues": []
     },
     {
-      "id": "c043",
+      "id": "c044",
       "claim": "Khi quy ước thứ tự bảng chữ cái tiếng Anh ra phần trăm (A = 1%, B = 2%...",
       "section": "[01:12:00] Bài toán thái độ và các yếu tố tạo nên kết quả công việc",
       "status": "pass",
@@ -860,26 +880,26 @@
       "issues": []
     },
     {
-      "id": "c044",
+      "id": "c045",
       "claim": "Z = 26%), các từ khóa đạt kết quả lần lượt là: Hardwork (chăm chỉ) = 98%, Knowledge (kiến thức) = 96%, Leadership (lãnh đạo) = 89%, Money (tiền) = 72%, Love (tình yêu) = 54%, Sex (tình dục) = 48%, Luck (may mắn) = 47%.",
       "section": "[01:12:00] Bài toán thái độ và các yếu tố tạo nên kết quả công việc",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:14:44-01:14:55",
-      "quote": "Lãnh đạo.\n>> Lãnh đạo.\n>> Leadership\n>> là bao nhiêu phần trăm?\n>> 89% ạ.",
+      "timestamp": "01:13:19-01:13:30",
+      "quote": "Đầu tiên là từ làm việc chăm\nchỉ.\n>> Làm việc chăm chỉ đúng không ạ?\n>> Có tiếng Anh là hardw.\nVâng ạ. Thì tôi có tổng kết số phần trăm\nlà 98%.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:14:44-01:14:55",
-          "quote": "Lãnh đạo.\n>> Lãnh đạo.\n>> Leadership\n>> là bao nhiêu phần trăm?\n>> 89% ạ."
+          "timestamp": "01:13:19-01:13:30",
+          "quote": "Đầu tiên là từ làm việc chăm\nchỉ.\n>> Làm việc chăm chỉ đúng không ạ?\n>> Có tiếng Anh là hardw.\nVâng ạ. Thì tôi có tổng kết số phần trăm\nlà 98%."
         }
       ],
       "issues": []
     },
     {
-      "id": "c045",
+      "id": "c046",
       "claim": "Riêng từ Attitude (thái độ) đạt tròn 100%.",
       "section": "[01:12:00] Bài toán thái độ và các yếu tố tạo nên kết quả công việc",
       "status": "pass",
@@ -898,7 +918,7 @@
       "issues": []
     },
     {
-      "id": "c046",
+      "id": "c047",
       "claim": "Trước một công việc, năng lực thể hiện khả năng làm được, động lực quyết định những gì sẽ làm, nhưng chính thái độ nghiêm túc, tích cực mới quyết định kết quả làm tốt hay không tốt và dẫn đến thành công hay thất bại.",
       "section": "[01:12:00] Bài toán thái độ và các yếu tố tạo nên kết quả công việc",
       "status": "pass",
@@ -917,7 +937,7 @@
       "issues": []
     },
     {
-      "id": "c047",
+      "id": "c048",
       "claim": "Một nghiên cứu công bố tháng 2/2025 trên tạp chí Nature trên 700 người từ 70 tuổi trở lên cho thấy: việc bổ sung 1000 mg Omega-3 cùng 2000 UI Vitamin D3 mỗi ngày và tập thể dục 30 phút giúp giảm 10% tốc độ lão hóa (tăng xu hướng tuổi thọ thêm 10%).",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -936,7 +956,7 @@
       "issues": []
     },
     {
-      "id": "c048",
+      "id": "c049",
       "claim": "Theo quan điểm bác sĩ Phúc và nhiều chuyên gia dinh dưỡng trên thế giới, vitamin D trong máu 50-70 ng/ml là con số lý tưởng.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -953,14 +973,14 @@
         },
         {
           "chunk": 7,
-          "timestamp": "03:19:37-03:19:46",
-          "quote": "ngưỡng lý tưởng ngưỡng phù hợp mà theo\nquan điểm của tôi và nhiều chuyên gia\ndinh dưỡng trên thế giới thì người ta\nđang chọn là từ vitamin D từ bao nhiêu\nạ? Từ 50 đến 70 Ng/ml đúng không ạ?"
+          "timestamp": "03:19:32-03:19:51",
+          "quote": "Vitamin D chúng ta cố\n gắng đẩy nó lên được cái ngưỡng phù hợp,\nngưỡng lý tưởng ngưỡng phù hợp mà theo\nquan điểm của tôi và nhiều chuyên gia\ndinh dưỡng trên thế giới thì người ta\nđang chọn là từ vitamin D từ bao nhiêu\nạ? Từ 50 đến 70 Ng/ml đúng không ạ? Máu\nkhi mà chúng ta xét nghiệm"
         }
       ],
       "issues": []
     },
     {
-      "id": "c049",
+      "id": "c050",
       "claim": "Ông cũng chia sẻ từ kinh nghiệm của mình rằng mức 70-80 ng/ml là “phải nói là tuyệt vời”.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -979,7 +999,7 @@
       "issues": []
     },
     {
-      "id": "c050",
+      "id": "c051",
       "claim": "Bác sĩ Phúc nói rằng sau khi đưa vitamin D lên ngưỡng lý tưởng và bổ sung vi chất đúng, đủ, các cơn đau thể xác có thể hết và cơn đau tinh thần có thể giảm nhiều.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -998,26 +1018,26 @@
       "issues": []
     },
     {
-      "id": "c051",
+      "id": "c052",
       "claim": "Ông gọi bộ ba Canxi, Magiê và Vitamin D3 là một loại “thuốc giảm đau tự nhiên thần kỳ”, và nêu các ví dụ về đau xương khớp, dạ dày, đại tràng, trầm cảm, căng thẳng và bế tắc.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:26:28-01:26:37",
-      "quote": "vitamin D, vitamin D, mag và gì\nạ? Và canxi. Đây là một cái bộ ba thuốc\ngiảm đau tự nhiên rất thần kỳ",
+      "timestamp": "01:26:24-01:26:42",
+      "quote": "Thế thì đây tôi có thể\nnói rằng vitamin D, vitamin D, mag và gì\nạ? Và canxi. Đây là một cái bộ ba thuốc\ngiảm đau tự nhiên rất thần kỳ mà không\ncó thuốc giảm đau nào quý vị có thể so\nsánh được với nó.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:26:28-01:26:37",
-          "quote": "vitamin D, vitamin D, mag và gì\nạ? Và canxi. Đây là một cái bộ ba thuốc\ngiảm đau tự nhiên rất thần kỳ"
+          "timestamp": "01:26:24-01:26:42",
+          "quote": "Thế thì đây tôi có thể\nnói rằng vitamin D, vitamin D, mag và gì\nạ? Và canxi. Đây là một cái bộ ba thuốc\ngiảm đau tự nhiên rất thần kỳ mà không\ncó thuốc giảm đau nào quý vị có thể so\nsánh được với nó."
         }
       ],
       "issues": []
     },
     {
-      "id": "c052",
+      "id": "c053",
       "claim": "Sau khi người dẫn chương trình đọc câu hỏi của một khán giả hỏi ăn nhiều cá có giúp trí não thông minh hơn không, Khánh Lành nói từ những năm 1970 các nhà khoa học phát hiện người Inuit sống ở Greenland hiếm khi mắc bệnh tim mạch, và từ đó nghiên cứu sâu hơn về tác dụng của việc bổ sung Omega-3; người Inuit được coi là một trong những dân tộc khỏe mạnh và bền bỉ nhất thế giới.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -1025,18 +1045,18 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "01:21:24-01:21:46",
-      "quote": "kể từ những năm 1970\nthì các nhà khoa học đã phát hiện ra\nrằng là người Inus sống ở Greenland hiếm\nkhi mắc các bệnh tim mạch và từ đó thì\nhọ nghiên cứu sâu hơn về vai trò về tác\ndụng của việc bổ sung Omega 3. Mở Ngọc\nmột chút là người Inus được coi là một\ntrong những dân tộc khỏe mạnh nhất và\nbền bị nhất trên thế giới ạ.",
+      "quote": "Vâng, thưa quý vị, kể từ những năm 1970\nthì các nhà khoa học đã phát hiện ra\nrằng là người Inus sống ở Greenland hiếm\nkhi mắc các bệnh tim mạch và từ đó thì\nhọ nghiên cứu sâu hơn về vai trò về tác\ndụng của việc bổ sung Omega 3. Mở Ngọc\nmột chút là người Inus được coi là một\ntrong những dân tộc khỏe mạnh nhất và\nbền bị nhất trên thế giới ạ.",
       "evidence": [
         {
           "chunk": 3,
           "timestamp": "01:21:24-01:21:46",
-          "quote": "kể từ những năm 1970\nthì các nhà khoa học đã phát hiện ra\nrằng là người Inus sống ở Greenland hiếm\nkhi mắc các bệnh tim mạch và từ đó thì\nhọ nghiên cứu sâu hơn về vai trò về tác\ndụng của việc bổ sung Omega 3. Mở Ngọc\nmột chút là người Inus được coi là một\ntrong những dân tộc khỏe mạnh nhất và\nbền bị nhất trên thế giới ạ."
+          "quote": "Vâng, thưa quý vị, kể từ những năm 1970\nthì các nhà khoa học đã phát hiện ra\nrằng là người Inus sống ở Greenland hiếm\nkhi mắc các bệnh tim mạch và từ đó thì\nhọ nghiên cứu sâu hơn về vai trò về tác\ndụng của việc bổ sung Omega 3. Mở Ngọc\nmột chút là người Inus được coi là một\ntrong những dân tộc khỏe mạnh nhất và\nbền bị nhất trên thế giới ạ."
         }
       ],
       "issues": []
     },
     {
-      "id": "c053",
+      "id": "c054",
       "claim": "Khánh Lành cũng nói hơn 15.000 báo cáo đã chỉ ra Omega-3 có đặc tính chống viêm, chống huyết khối, chống loạn nhịp tim, hạ lipid máu và giãn mạch, cùng với rất nhiều bệnh tật khác cũng đang dần được sáng tỏ.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -1055,7 +1075,7 @@
       "issues": []
     },
     {
-      "id": "c054",
+      "id": "c055",
       "claim": "Về vitamin D, khuyến cáo của Mỹ là 600 UI mỗi ngày, trong khi nghiên cứu này dùng tới 2000 đơn vị vitamin D3.",
       "section": "[01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên",
       "status": "pass",
@@ -1074,39 +1094,44 @@
       "issues": []
     },
     {
-      "id": "c055",
+      "id": "c056",
       "claim": "Trong cuộc trò chuyện, bác sĩ Phúc và Khánh Lành nói cá có nhiều DHA và nêu cá biển, đặc biệt cá biển sâu, là loại cá nhiều DHA.",
       "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:31:12-01:31:21",
-      "quote": "Vậy thì trong cá của\nchúng ta có rất nhiều DHA. Nhưng mà cá\nnhiều DH là cá gì?\n>> Cá biển sâu.\n>> Cá biển và cá biển sâu.",
+      "timestamp": "01:31:12-01:31:28",
+      "quote": "Vậy thì trong cá của\nchúng ta có rất nhiều DHA. Nhưng mà cá\nnhiều DH là cá gì?\n>> Cá biển sâu.\n>> Cá biển và cá biển sâu.\n>> Vâng. cá biển và cá bản biển sâu thì lúc\nđấy chúng ta mới có được rất rất nhiều\nDHA.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:31:12-01:31:21",
-          "quote": "Vậy thì trong cá của\nchúng ta có rất nhiều DHA. Nhưng mà cá\nnhiều DH là cá gì?\n>> Cá biển sâu.\n>> Cá biển và cá biển sâu."
+          "timestamp": "01:31:12-01:31:28",
+          "quote": "Vậy thì trong cá của\nchúng ta có rất nhiều DHA. Nhưng mà cá\nnhiều DH là cá gì?\n>> Cá biển sâu.\n>> Cá biển và cá biển sâu.\n>> Vâng. cá biển và cá bản biển sâu thì lúc\nđấy chúng ta mới có được rất rất nhiều\nDHA."
+        },
+        {
+          "chunk": 5,
+          "timestamp": "02:26:51-02:27:06",
+          "quote": "Thế còn EPA và DHA thì có từ gì ạ?\n>> Từ dầu động vật đúng không ạ? Vâng ạ.\n>> Động vật tập trung ở đâu? Nh\n>> chủ yếu là cá gan cá biển sâu.\n>> Gan cá biển sâu hoặc là cá biển sâu đúng\nkhông ạ? thì nó mới tập trung nhiều chứ\ncòn không thì khá là ít những cái thành\nphần này."
         }
       ],
       "issues": []
     },
     {
-      "id": "c056",
+      "id": "c057",
       "claim": "Họ gọi DHA là “vàng của não và mắt”.",
       "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:31:05-01:31:12",
-      "quote": "nó được\ncoi là vàng của não và mắt.\n>> Vâng.\n>> Đúng không ạ? Vàng của não và mắt để nó\nnuôi não và mắt.",
+      "timestamp": "01:31:02-01:31:07",
+      "quote": "DHA nó quá\nquý cho nên là vì quý như thế nó được\ncoi là vàng của não và mắt.",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:31:05-01:31:12",
-          "quote": "nó được\ncoi là vàng của não và mắt.\n>> Vâng.\n>> Đúng không ạ? Vàng của não và mắt để nó\nnuôi não và mắt."
+          "timestamp": "01:31:02-01:31:07",
+          "quote": "DHA nó quá\nquý cho nên là vì quý như thế nó được\ncoi là vàng của não và mắt."
         },
         {
           "chunk": 4,
@@ -1115,14 +1140,14 @@
         },
         {
           "chunk": 5,
-          "timestamp": "02:24:45-02:24:49",
-          "quote": "DHA thì cần cho gì ạ? Là vàng của\n>> mắt và não.\n>> Mắt và não."
+          "timestamp": "02:24:45-02:24:53",
+          "quote": "DHA thì cần cho gì ạ? Là vàng của\n>> mắt và não.\n>> Mắt và não.\n>> Vâng.\n>> Đúng ra phải đưa chữ não lên trước và\nmắt sau."
         }
       ],
       "issues": []
     },
     {
-      "id": "c057",
+      "id": "c058",
       "claim": "Nhờ chứa nhiều liên kết pi, DHA dễ dàng được cắt nhỏ thành các phân tử acetyl-CoA.",
       "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
@@ -1139,19 +1164,19 @@
         },
         {
           "chunk": 4,
-          "timestamp": "02:07:12-02:07:27",
-          "quote": "Và nó càng nhiều liên kết pi thì nó càng\nquý.\n>> Vâng.\n>> Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể."
+          "timestamp": "02:07:12-02:07:40",
+          "quote": "Và nó càng nhiều liên kết pi thì nó càng\nquý.\n>> Vâng.\n>> Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể.\n>> Vâng.\n>> Vậy thì Omega3 nó có nhiều liên kết pi\nhơn omega6 thì nó mới quý ở chỗ đấy.\n>> Vâng.\n>> Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý."
         },
         {
           "chunk": 5,
-          "timestamp": "02:07:15-02:07:27",
-          "quote": "Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể."
+          "timestamp": "02:07:12-02:07:27",
+          "quote": "Và nó càng nhiều liên kết pi thì nó càng\nquý.\n>> Vâng.\n>> Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể."
         }
       ],
       "issues": []
     },
     {
-      "id": "c058",
+      "id": "c059",
       "claim": "Dưới sự hỗ trợ của \"máy biến áp\" magiê và chất vận chuyển L-carnitine, phân tử này xuyên qua màng tế bào đi vào ti thể để đốt cháy tạo ra năng lượng ATP cho tế bào hoạt động, đồng thời giải phóng nước và CO2.",
       "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
@@ -1170,7 +1195,7 @@
       "issues": []
     },
     {
-      "id": "c059",
+      "id": "c060",
       "claim": "Khi bàn về các thành phần nuôi não (đạm, đường, mỡ), albumin là chất rất quan trọng nhưng vì thực hiện quá nhiều chức năng nên rất ít được dành cho não.",
       "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
@@ -1189,122 +1214,194 @@
       "issues": []
     },
     {
-      "id": "c060",
-      "claim": "Năm 1985 tại vùng biển Caribe, nhà sinh học người Mỹ Bruce Lipton trong quá trình soạn giáo án đã phát hiện ra các đặc tính của màng tế bào:",
-      "section": "[01:31:30] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
-      "status": "pass",
-      "supported": true,
-      "attributed": true,
-      "qualifications_preserved": true,
-      "timestamp": "01:35:24-01:35:42",
-      "quote": "Thế thì nghiên cứu của ông rất tình cờ\nlà trong một cái dịp mà giảng dậy ở vùng\nbiển Caribe\nvào năm 1985\nthì trong lúc ông đến giảng dạy cho sinh\nviên ở trường đạo y về tế bào học thì\nvào một buổi sáng ông ngồi soạn bài.",
-      "evidence": [
-        {
-          "chunk": 4,
-          "timestamp": "01:35:24-01:35:42",
-          "quote": "Thế thì nghiên cứu của ông rất tình cờ\nlà trong một cái dịp mà giảng dậy ở vùng\nbiển Caribe\nvào năm 1985\nthì trong lúc ông đến giảng dạy cho sinh\nviên ở trường đạo y về tế bào học thì\nvào một buổi sáng ông ngồi soạn bài."
-        }
-      ],
-      "issues": []
-    },
-    {
       "id": "c061",
-      "claim": "Màng tế bào gồm hai lớp phospholipid với đầu ưa nước quay ra ngoài/vào trong và đuôi kỵ nước giấu ở giữa, được sắp xếp trật tự theo dạng \"tinh thể màng\" (tương tự tinh thể lỏng).",
-      "section": "[01:31:30] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
+      "claim": "Khi ôn lại cấu trúc tế bào, bác sĩ Phúc nhắc rằng ADN nằm trong nhân tế bào và là vật chất di truyền;",
+      "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:37:50-01:38:08",
-      "quote": "cái sắp xếp của màng tế bào khá là\ncố định đúng không ạ? là một cái chuỗi\nhai cái hai cái chuỗi chất béo này. Hai\nchuỗi chất béo thì có đầu ưa nước quay\nra bên ngoài còn đầu kỵ nước nó quay vào\nbên trong và cả cái màng tế bào nó được\nsắp xếp xung quanh theo một cái trật tự\nrất đều nhau, rất đều và rất đầy đủ.",
+      "timestamp": "01:32:32-01:32:36",
+      "quote": "ADN ở bên trong nhân tế bào chứa ADN.\nADN là vật chất duy truyền.",
       "evidence": [
         {
+          "chunk": 3,
+          "timestamp": "01:32:32-01:32:36",
+          "quote": "ADN ở bên trong nhân tế bào chứa ADN.\nADN là vật chất duy truyền."
+        },
+        {
           "chunk": 4,
-          "timestamp": "01:37:50-01:38:08",
-          "quote": "cái sắp xếp của màng tế bào khá là\ncố định đúng không ạ? là một cái chuỗi\nhai cái hai cái chuỗi chất béo này. Hai\nchuỗi chất béo thì có đầu ưa nước quay\nra bên ngoài còn đầu kỵ nước nó quay vào\nbên trong và cả cái màng tế bào nó được\nsắp xếp xung quanh theo một cái trật tự\nrất đều nhau, rất đều và rất đầy đủ."
+          "timestamp": "01:32:32-01:32:36",
+          "quote": "ADN ở bên trong nhân tế bào chứa ADN.\nADN là vật chất duy truyền."
         }
       ],
       "issues": []
     },
     {
       "id": "c062",
-      "claim": "Màng hoạt động như một chất bán dẫn, kiểm soát chặt chẽ quá trình đi vào/ra của protein, canxi, magiê, kali, natri qua các kênh/cổng nhất định chứ không diễn ra tự do.",
-      "section": "[01:31:30] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
+      "claim": "ADN gồm hai chuỗi nucleotit, A bắt cặp với T và G với X, A liên kết với T bằng liên kết hydro, còn các liên kết trên mỗi mạch đơn là liên kết cộng hóa trị.",
+      "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:40:31-01:40:36",
-      "quote": "Vậy thì cái kết luận thứ\nhai của ông ấy đưa ra đó là màng tế bào\ncó tính chất là giống như chất bán dẫn.",
+      "timestamp": "01:32:46-01:33:09",
+      "quote": "Hai chuỗi nucleotit này nó bao gồm có\ngì? Có các nucleotit là A\n>> đi với T\n>> đi với gì ạ? T đây là cặp đôi với nhau.\nG đi với lại gì ạ?\n>> G đi với X. Vâng ạ.\n>> Thế thì A liên kết với T bằng liên kết\ngì? Kết h\n>> hyro.\n>> Hyro. Thế còn các cái liên kết trên mỗi\nmạch đơn này thì đây là cộng hóa\n>> cộng hóa trị\n>> cộng hóa trị đúng không ạ? Liên kết cộng\nhóa trị.",
       "evidence": [
         {
+          "chunk": 3,
+          "timestamp": "01:32:46-01:33:09",
+          "quote": "Hai chuỗi nucleotit này nó bao gồm có\ngì? Có các nucleotit là A\n>> đi với T\n>> đi với gì ạ? T đây là cặp đôi với nhau.\nG đi với lại gì ạ?\n>> G đi với X. Vâng ạ.\n>> Thế thì A liên kết với T bằng liên kết\ngì? Kết h\n>> hyro.\n>> Hyro. Thế còn các cái liên kết trên mỗi\nmạch đơn này thì đây là cộng hóa\n>> cộng hóa trị\n>> cộng hóa trị đúng không ạ? Liên kết cộng\nhóa trị."
+        },
+        {
           "chunk": 4,
-          "timestamp": "01:40:31-01:40:36",
-          "quote": "Vậy thì cái kết luận thứ\nhai của ông ấy đưa ra đó là màng tế bào\ncó tính chất là giống như chất bán dẫn."
+          "timestamp": "01:32:39-01:33:09",
+          "quote": "lại một chút ADN nó cấu tạo bởi cái gì\nạ? Hai chuỗi gì ạ? Nucleotit đúng không?\n>> Hai chuỗi nucleotit này nó bao gồm có\ngì? Có các nucleotit là A\n>> đi với T\n>> đi với gì ạ? T đây là cặp đôi với nhau.\nG đi với lại gì ạ?\n>> G đi với X. Vâng ạ.\n>> Thế thì A liên kết với T bằng liên kết\ngì? Kết h\n>> hyro.\n>> Hyro. Thế còn các cái liên kết trên mỗi\nmạch đơn này thì đây là cộng hóa\n>> cộng hóa trị\n>> cộng hóa trị đúng không ạ? Liên kết cộng\nhóa trị."
         }
       ],
       "issues": []
     },
     {
       "id": "c063",
-      "claim": "Màng tế bào có thể hình dung như chiếc bánh mì kẹp bơ: hai lớp bánh mì là các đầu ưa nước, lớp bơ kỵ nước ở giữa được đính thêm các \"quả ô-liu\" đóng vai trò là kênh/cổng dẫn truyền các chất đi qua.",
-      "section": "[01:31:30] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
+      "claim": "Khi tế bào phát triển, các mạch tách ra thành mạch đơn rồi lấy nucleotit ở môi trường để tổng hợp phân tử ADN khác; một phân tử ADN tạo ra hai phân tử ADN, rồi tế bào phân chia.",
+      "section": "[01:25:23] Vai trò của DHA trong cá biển đối với tế bào não",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:43:02-01:43:13",
-      "quote": "Thì ở đây nó giống như là\ncái hình tượng là bánh mì kẹp bơ nhưng\nmà bên trong có nhân là những quả ô lưu\nđã bỏ hạt đi rồi. Ông ấy ví như thế để\ngiảng cho sinh viên dễ.",
+      "timestamp": "01:33:35-01:33:52",
+      "quote": "Tách ra thành mạch đơn sau đó nó lại lấy\nnucleotit ở môi trường để nó tổng hợp\nphân tử ADN khác. Sau đó thì tế bào nó\nphân chia ra. Thì đó chúng ta sẽ thấy\nrằng là một phân tử ADN sau mỗi một quá\ntrình tổng hợp nó tạo ra hai phân tử ADN\nkhác và lúc đó tế bào nó sẽ phân chia.",
       "evidence": [
         {
+          "chunk": 3,
+          "timestamp": "01:33:35-01:33:52",
+          "quote": "Tách ra thành mạch đơn sau đó nó lại lấy\nnucleotit ở môi trường để nó tổng hợp\nphân tử ADN khác. Sau đó thì tế bào nó\nphân chia ra. Thì đó chúng ta sẽ thấy\nrằng là một phân tử ADN sau mỗi một quá\ntrình tổng hợp nó tạo ra hai phân tử ADN\nkhác và lúc đó tế bào nó sẽ phân chia."
+        },
+        {
           "chunk": 4,
-          "timestamp": "01:43:02-01:43:13",
-          "quote": "Thì ở đây nó giống như là\ncái hình tượng là bánh mì kẹp bơ nhưng\nmà bên trong có nhân là những quả ô lưu\nđã bỏ hạt đi rồi. Ông ấy ví như thế để\ngiảng cho sinh viên dễ."
+          "timestamp": "01:33:31-01:33:52",
+          "quote": "Mỗi mạch này nó sẽ tách ra thành một cái\nmạch đơn.\n>> Vâng.\n>> Tách ra thành mạch đơn sau đó nó lại lấy\nnucleotit ở môi trường để nó tổng hợp\nphân tử ADN khác. Sau đó thì tế bào nó\nphân chia ra. Thì đó chúng ta sẽ thấy\nrằng là một phân tử ADN sau mỗi một quá\ntrình tổng hợp nó tạo ra hai phân tử ADN\nkhác và lúc đó tế bào nó sẽ phân chia."
         }
       ],
       "issues": []
     },
     {
       "id": "c064",
-      "claim": "Năm 1985, nhà sinh học Liptông nhận thấy màng tế bào được cấu tạo bởi các lớp chất béo và protein sắp xếp theo trật tự, tạo thành các cửa và kênh dẫn (như kênh natri, kali, protein, chất béo) dẫn các chất vào và ra khỏi tế bào.",
-      "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
+      "claim": "Năm 1985 tại vùng biển Caribe, nhà sinh học người Mỹ Bruce Lipton trong quá trình soạn giáo án đã phát hiện ra các đặc tính của màng tế bào:",
+      "section": "[01:35:27] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:42:51-01:43:02",
-      "quote": "Thì cái này đều tạo thành\nnhững kênh ví dụ kênh kali, kênh natri,\nkênh protein, kênh\nchất béo để dẫn các cái chất đi vào\ntrong tế bào, dẫn các cái chất đi ra\nngoài tế bào.",
+      "timestamp": "01:35:24-01:35:47",
+      "quote": "Thế thì nghiên cứu của ông rất tình cờ\nlà trong một cái dịp mà giảng dậy ở vùng\nbiển Caribe\nvào năm 1985\nthì trong lúc ông đến giảng dạy cho sinh\nviên ở trường đạo y về tế bào học thì\nvào một buổi sáng ông ngồi soạn bài. Ông\nngồi soạn bài thì bắt đầu ông xem xét về\ncấu trúc của màng tế bào.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:42:51-01:43:02",
-          "quote": "Thì cái này đều tạo thành\nnhững kênh ví dụ kênh kali, kênh natri,\nkênh protein, kênh\nchất béo để dẫn các cái chất đi vào\ntrong tế bào, dẫn các cái chất đi ra\nngoài tế bào."
+          "timestamp": "01:35:24-01:35:47",
+          "quote": "Thế thì nghiên cứu của ông rất tình cờ\nlà trong một cái dịp mà giảng dậy ở vùng\nbiển Caribe\nvào năm 1985\nthì trong lúc ông đến giảng dạy cho sinh\nviên ở trường đạo y về tế bào học thì\nvào một buổi sáng ông ngồi soạn bài. Ông\nngồi soạn bài thì bắt đầu ông xem xét về\ncấu trúc của màng tế bào."
         }
       ],
       "issues": []
     },
     {
       "id": "c065",
-      "claim": "Cấu trúc này gồm các tinh thể có tính bán dẫn cùng cửa và kênh dẫn, tương tự cấu tạo của một con chip máy tính dùng để xử lý thông tin.",
-      "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
+      "claim": "Màng tế bào gồm hai lớp phospholipid với đầu ưa nước quay ra ngoài/vào trong và đuôi kỵ nước giấu ở giữa, được sắp xếp trật tự theo dạng \"tinh thể màng\" (tương tự tinh thể lỏng).",
+      "section": "[01:35:27] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:44:07-01:44:19",
-      "quote": "Con chip được tạo nên\nbởi những cái tinh thể có tính bãn dẫn\nvà có cửa và kênh dẫn.\nChứng tỏ rằng là màng tế bào này được ví\nnó như là con chip.",
+      "timestamp": "01:37:50-01:38:14",
+      "quote": "cái sắp xếp của màng tế bào khá là\ncố định đúng không ạ? là một cái chuỗi\nhai cái hai cái chuỗi chất béo này. Hai\nchuỗi chất béo thì có đầu ưa nước quay\nra bên ngoài còn đầu kỵ nước nó quay vào\nbên trong và cả cái màng tế bào nó được\nsắp xếp xung quanh theo một cái trật tự\nrất đều nhau, rất đều và rất đầy đủ. Vậy\nmọi cái sắp xếp đều và đầy đủ thì nó\nđược gọi là tinh thể.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:44:07-01:44:19",
-          "quote": "Con chip được tạo nên\nbởi những cái tinh thể có tính bãn dẫn\nvà có cửa và kênh dẫn.\nChứng tỏ rằng là màng tế bào này được ví\nnó như là con chip."
+          "timestamp": "01:37:50-01:38:14",
+          "quote": "cái sắp xếp của màng tế bào khá là\ncố định đúng không ạ? là một cái chuỗi\nhai cái hai cái chuỗi chất béo này. Hai\nchuỗi chất béo thì có đầu ưa nước quay\nra bên ngoài còn đầu kỵ nước nó quay vào\nbên trong và cả cái màng tế bào nó được\nsắp xếp xung quanh theo một cái trật tự\nrất đều nhau, rất đều và rất đầy đủ. Vậy\nmọi cái sắp xếp đều và đầy đủ thì nó\nđược gọi là tinh thể."
         }
       ],
       "issues": []
     },
     {
       "id": "c066",
-      "claim": "Do đó, theo ông Lipton, màng tế bào dường như đóng vai trò là bộ não xử lý các vấn đề của tế bào, chứ không phải nhân tế bào.",
+      "claim": "Màng hoạt động như một chất bán dẫn, kiểm soát chặt chẽ quá trình đi vào/ra của protein, canxi, magiê, kali, natri qua các kênh/cổng nhất định chứ không diễn ra tự do.",
+      "section": "[01:35:27] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "01:40:05-01:40:36",
+      "quote": "Vậy thì toàn bộ cái quá trình đi\nvào và đi ra màng này nó không phải là\nvô tổ chức kỷ luật mà nó được sắp xếp\ntheo những cái trình tự rất cẩn thận,\nrất chặt chẽ. Không bao giờ nó tự do đi\nqua đi lại được.\nThì tất cả những cái quá trình mà nó đi\nvào đi ra tế bào đấy theo một cái chu\ntrình những cái trình tự nhất định thì\nđấy chính là đặc điểm của chất bán dẫn\nđúng không ạ? Vậy thì cái kết luận thứ\nhai của ông ấy đưa ra đó là màng tế bào\ncó tính chất là giống như chất bán dẫn.",
+      "evidence": [
+        {
+          "chunk": 4,
+          "timestamp": "01:40:05-01:40:36",
+          "quote": "Vậy thì toàn bộ cái quá trình đi\nvào và đi ra màng này nó không phải là\nvô tổ chức kỷ luật mà nó được sắp xếp\ntheo những cái trình tự rất cẩn thận,\nrất chặt chẽ. Không bao giờ nó tự do đi\nqua đi lại được.\nThì tất cả những cái quá trình mà nó đi\nvào đi ra tế bào đấy theo một cái chu\ntrình những cái trình tự nhất định thì\nđấy chính là đặc điểm của chất bán dẫn\nđúng không ạ? Vậy thì cái kết luận thứ\nhai của ông ấy đưa ra đó là màng tế bào\ncó tính chất là giống như chất bán dẫn."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c067",
+      "claim": "Màng tế bào có thể hình dung như chiếc bánh mì kẹp bơ: hai lớp bánh mì là các đầu ưa nước, lớp bơ kỵ nước ở giữa được đính thêm các \"quả ô-liu\" đóng vai trò là kênh/cổng dẫn truyền các chất đi qua.",
+      "section": "[01:35:27] Cấu trúc màng tế bào và phát hiện của Bruce Lipton",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "01:41:37-01:43:02",
+      "quote": "cái màng tế bào này nó giống\nnhư một cái bánh mì kẹp.\nBánh mì kẹp thì nó gồm có hai cái lớp\nthế này. Hai cái lớp này nó giống hệt\nnhư là các cái đầu ưa nước. Các cái đầu\nưa nước của photosphol lipit. Cái đầu ưa\nnước. Vậy thì\nđây là hai cái lớp của bánh mì. Nhưng\nkẹp giữa hai lớp bánh mì này thì ông ấy\ncho là lớp bơ. Còn đây là bánh mì.\nLớp bơ thì chúng ta sẽ thấy rằng bơ thì\nkhông bao giờ ngấm nước đúng không ạ?\nBánh mì thì cho nước vào nó sẽ ngấm một\nloạt. Vậy đây cái này là ưa nước. Còn bơ\nthì sẽ không thể nào ngấm được nước. Thế\nvà toàn bộ bơ ở đây thì nó sẽ ngăn cách\nkhông tài nào cho nước đi vào đi ra hay\ncác chất đi vào đi ra được. Thì bắt đầu\nông nghĩ ra cái rằng trong bơ này ông ấy\ntrộn đó chính là những các cái quả ô\nlưu. Khánh lành có nhớ quả ô lưu không\nạ?\n>> Vâng.\n>> Quả ô lưu khi bỏ nhân mà trong ở các các\ncái lọ trong siêu thị mà chúng ta mua\nấy.\n>> Vâng. Khi bỏ nhân đi thì nó sẽ rỗng ở\ngiữa, nó tạo thành một cái lỗ.\n>> Thế vậy thì ông ấy hình dung rằng những\ncái kênh này nó chính là cái những cái\nquả ô lưu mà ta cứ sắp xếp theo những\ncái hình theo một cái trật tự nhất định\nbởi màng tế bào luôn theo một trật tự\nnhất định mà. Thì cái này đều tạo thành\nnhững kênh ví dụ kênh kali, kênh natri,\nkênh protein, kênh\nchất béo để dẫn các cái chất đi vào\ntrong tế bào, dẫn các cái chất đi ra\nngoài tế bào.",
+      "evidence": [
+        {
+          "chunk": 4,
+          "timestamp": "01:41:37-01:43:02",
+          "quote": "cái màng tế bào này nó giống\nnhư một cái bánh mì kẹp.\nBánh mì kẹp thì nó gồm có hai cái lớp\nthế này. Hai cái lớp này nó giống hệt\nnhư là các cái đầu ưa nước. Các cái đầu\nưa nước của photosphol lipit. Cái đầu ưa\nnước. Vậy thì\nđây là hai cái lớp của bánh mì. Nhưng\nkẹp giữa hai lớp bánh mì này thì ông ấy\ncho là lớp bơ. Còn đây là bánh mì.\nLớp bơ thì chúng ta sẽ thấy rằng bơ thì\nkhông bao giờ ngấm nước đúng không ạ?\nBánh mì thì cho nước vào nó sẽ ngấm một\nloạt. Vậy đây cái này là ưa nước. Còn bơ\nthì sẽ không thể nào ngấm được nước. Thế\nvà toàn bộ bơ ở đây thì nó sẽ ngăn cách\nkhông tài nào cho nước đi vào đi ra hay\ncác chất đi vào đi ra được. Thì bắt đầu\nông nghĩ ra cái rằng trong bơ này ông ấy\ntrộn đó chính là những các cái quả ô\nlưu. Khánh lành có nhớ quả ô lưu không\nạ?\n>> Vâng.\n>> Quả ô lưu khi bỏ nhân mà trong ở các các\ncái lọ trong siêu thị mà chúng ta mua\nấy.\n>> Vâng. Khi bỏ nhân đi thì nó sẽ rỗng ở\ngiữa, nó tạo thành một cái lỗ.\n>> Thế vậy thì ông ấy hình dung rằng những\ncái kênh này nó chính là cái những cái\nquả ô lưu mà ta cứ sắp xếp theo những\ncái hình theo một cái trật tự nhất định\nbởi màng tế bào luôn theo một trật tự\nnhất định mà. Thì cái này đều tạo thành\nnhững kênh ví dụ kênh kali, kênh natri,\nkênh protein, kênh\nchất béo để dẫn các cái chất đi vào\ntrong tế bào, dẫn các cái chất đi ra\nngoài tế bào."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c068",
+      "claim": "Năm 1985, nhà sinh học Liptông nhận thấy màng tế bào được cấu tạo bởi các lớp chất béo và protein sắp xếp theo trật tự, tạo thành các cửa và kênh dẫn (như kênh natri, kali, protein, chất béo) dẫn các chất vào và ra khỏi tế bào.",
+      "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "01:42:41-01:43:02",
+      "quote": "Thế vậy thì ông ấy hình dung rằng những\ncái kênh này nó chính là cái những cái\nquả ô lưu mà ta cứ sắp xếp theo những\ncái hình theo một cái trật tự nhất định\nbởi màng tế bào luôn theo một trật tự\nnhất định mà. Thì cái này đều tạo thành\nnhững kênh ví dụ kênh kali, kênh natri,\nkênh protein, kênh\nchất béo để dẫn các cái chất đi vào\ntrong tế bào, dẫn các cái chất đi ra\nngoài tế bào.",
+      "evidence": [
+        {
+          "chunk": 4,
+          "timestamp": "01:42:41-01:43:02",
+          "quote": "Thế vậy thì ông ấy hình dung rằng những\ncái kênh này nó chính là cái những cái\nquả ô lưu mà ta cứ sắp xếp theo những\ncái hình theo một cái trật tự nhất định\nbởi màng tế bào luôn theo một trật tự\nnhất định mà. Thì cái này đều tạo thành\nnhững kênh ví dụ kênh kali, kênh natri,\nkênh protein, kênh\nchất béo để dẫn các cái chất đi vào\ntrong tế bào, dẫn các cái chất đi ra\nngoài tế bào."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c069",
+      "claim": "Cấu trúc này gồm các tinh thể có tính bán dẫn cùng cửa và kênh dẫn, tương tự cấu tạo của một con chip máy tính dùng để xử lý thông tin.",
+      "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "01:44:07-01:44:29",
+      "quote": "Con chip được tạo nên\nbởi những cái tinh thể có tính bãn dẫn\nvà có cửa và kênh dẫn.\nChứng tỏ rằng là màng tế bào này được ví\nnó như là con chip. Con chip\n>> mà con chip thì nó chính là giống não bộ\nrồi đúng không ạ? Để xử lý các vấn đề.\nChip là để xử lý các vấn đề trong máy\ntính.",
+      "evidence": [
+        {
+          "chunk": 4,
+          "timestamp": "01:44:07-01:44:29",
+          "quote": "Con chip được tạo nên\nbởi những cái tinh thể có tính bãn dẫn\nvà có cửa và kênh dẫn.\nChứng tỏ rằng là màng tế bào này được ví\nnó như là con chip. Con chip\n>> mà con chip thì nó chính là giống não bộ\nrồi đúng không ạ? Để xử lý các vấn đề.\nChip là để xử lý các vấn đề trong máy\ntính."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c070",
+      "claim": "Bác sĩ Phúc thuật lại quan điểm của Lipton rằng màng tế bào dường như là bộ não của tế bào, chứ không phải nhân.",
       "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
       "status": "fail",
       "supported": false,
@@ -1320,8 +1417,8 @@
         },
         {
           "chunk": 5,
-          "timestamp": "02:08:23-02:08:28",
-          "quote": "nhà khoa học, nhà sinh học Liptông có\nđưa ra màng tế bào là gì?\n>> Là não của tế bào."
+          "timestamp": "02:08:20-02:08:34",
+          "quote": "Lúc nãy tôi có nói rằng\nnhà khoa học, nhà sinh học Liptông có\nđưa ra màng tế bào là gì?\n>> Là não của tế bào.\n>> Là não của tế bào. Đây là cái nhân ở\ntrong này. Nhân ở trong này. Màng tế bào\nlà não của tế bào."
         }
       ],
       "issues": [
@@ -1329,115 +1426,115 @@
           "chunk": 7,
           "timestamp": "03:26:34-03:26:40",
           "quote": "Và cũng nhân đây muốn\nnói rằng là à bộ não của tế bào đó chính\nlà màng tế bào",
-          "finding": "Có nhắc màng tế bào là bộ não, nhưng đoạn này không quy quan điểm cho Lipton."
+          "finding": "Bác sĩ nhắc lại luận điểm màng tế bào là bộ não, nhưng phần này không nhắc Lipton nên chưa xác minh được việc thuật lại quan điểm của Lipton."
         }
       ]
     },
     {
-      "id": "c067",
-      "claim": "Ngược lại, bác sĩ Phúc ví nhân tế bào như cơ quan sinh sản của tế bào, nói rằng nhân tham gia phân chia tế bào: theo lời ông, nguyên phân tạo ra hai tế bào, còn giảm phân tạo ra bốn.",
+      "id": "c071",
+      "claim": "Ông cũng thuật lại phép ví của Lipton coi nhân như cơ quan sinh sản của tế bào; trong phần giải thích, bác sĩ nói qua quá trình gián phân thì một tế bào tạo nên hai tế bào bằng cách phân chia nhân, còn qua quá trình giảm phân thì một tế bào tạo thành 'bốn bào tử'.",
       "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
-      "status": "fail",
-      "supported": false,
-      "attributed": false,
+      "status": "flag",
+      "supported": true,
+      "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:45:13-01:45:22",
-      "quote": "Từ đấy ông đưa ra thế này,\nông đưa ra cái là\nnhân nó chỉ là bộ phận sinh dục của tế\nbào.",
-      "evidence": [],
-      "issues": [
+      "timestamp": "01:45:19-01:45:41",
+      "quote": "nhân nó chỉ là bộ phận sinh dục của tế\nbào. Nhân chính là bộ phận sinh dục của\ntế bào bởi vì nhân nó chỉ là nhân tế bào\nnó chỉ có nhân lên thôi. Nếu qua quá\ntrình dán phân thì một tế bào sẽ tạo nên\nhai tế bào bằng cách là phân chia nhân.\nThế còn qua quá trình giảm phân thì một\ntế bào sẽ tạo thành bốn bào tử, tức là\nnó sẽ phân chia ra làm bốn.",
+      "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:45:13-01:45:22",
-          "quote": "Từ đấy ông đưa ra thế này,\nông đưa ra cái là\nnhân nó chỉ là bộ phận sinh dục của tế\nbào.",
-          "finding": "Bác sĩ thuật lại quan điểm của Lipton; bản tóm tắt chuyển phép ví này thành quan điểm riêng của bác sĩ."
+          "timestamp": "01:45:19-01:45:41",
+          "quote": "nhân nó chỉ là bộ phận sinh dục của tế\nbào. Nhân chính là bộ phận sinh dục của\ntế bào bởi vì nhân nó chỉ là nhân tế bào\nnó chỉ có nhân lên thôi. Nếu qua quá\ntrình dán phân thì một tế bào sẽ tạo nên\nhai tế bào bằng cách là phân chia nhân.\nThế còn qua quá trình giảm phân thì một\ntế bào sẽ tạo thành bốn bào tử, tức là\nnó sẽ phân chia ra làm bốn."
+        }
+      ],
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:33:55-01:33:59",
+          "quote": "tế bào phân chia ví dụ như theo nguyên\nlý dán phân thì từ một tế bào sẽ phân\nchia ra thành hai tế bào",
+          "finding": "Chỉ có phần một tế bào phân chia thành hai; đoạn này chưa có phép ví cơ quan sinh sản của Lipton hoặc phần giảm phân tạo bốn bào tử."
+        },
+        {
+          "chunk": 7,
+          "timestamp": "03:26:42-03:26:48",
+          "quote": ">> Thế thì ừ cái nhân của tế bào nó chính\nlà cơ quan sinh sản của tế bào có đúng\nkhông Vâng.",
+          "finding": "Phần này xác nhận bác sĩ gọi nhân là cơ quan sinh sản; không có tên Lipton hay phần giải thích gián phân, giảm phân và bốn bào tử."
         }
       ]
     },
     {
-      "id": "c068",
+      "id": "c072",
       "claim": "Quan điểm màng tế bào là bộ não đã mở ra cuộc cách mạng trong tế bào học, ứng dụng vào việc nâng cao tuổi thọ, điều trị ung thư và đưa các chất từ bên ngoài vào trong tế bào một cách có chọn lọc.",
       "section": "[01:42:36] Khái niệm màng tế bào là bộ não của tế bào",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:46:04-01:46:24",
-      "quote": "Và sau này nó trở thành\nmột cái cuộc cách mạng về nghiên cứu tế\nbào học. Cuộc cách mạng này nó liên quan\ntới những các cái vấn đề nâng cao tuổi\nthọ, nâng cao tới những cái liên quan\ntới những cái vấn đề ví dụ như là điều\ntrị ung thư, điều trị các cái căn bệnh\nlà đưa những các cái chất từ bên ngoài\nvào bên trong tế bào một cách có chọn\nlọc.",
+      "timestamp": "01:45:57-01:46:24",
+      "quote": "Và từ cái quan điểm màng tế bào là\nbộ não của tế bào nó mới nảy sinh ra rất\nnhiều vấn đề. Và sau này nó trở thành\nmột cái cuộc cách mạng về nghiên cứu tế\nbào học. Cuộc cách mạng này nó liên quan\ntới những các cái vấn đề nâng cao tuổi\nthọ, nâng cao tới những cái liên quan\ntới những cái vấn đề ví dụ như là điều\ntrị ung thư, điều trị các cái căn bệnh\nlà đưa những các cái chất từ bên ngoài\nvào bên trong tế bào một cách có chọn\nlọc.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:46:04-01:46:24",
-          "quote": "Và sau này nó trở thành\nmột cái cuộc cách mạng về nghiên cứu tế\nbào học. Cuộc cách mạng này nó liên quan\ntới những các cái vấn đề nâng cao tuổi\nthọ, nâng cao tới những cái liên quan\ntới những cái vấn đề ví dụ như là điều\ntrị ung thư, điều trị các cái căn bệnh\nlà đưa những các cái chất từ bên ngoài\nvào bên trong tế bào một cách có chọn\nlọc."
+          "timestamp": "01:45:57-01:46:24",
+          "quote": "Và từ cái quan điểm màng tế bào là\nbộ não của tế bào nó mới nảy sinh ra rất\nnhiều vấn đề. Và sau này nó trở thành\nmột cái cuộc cách mạng về nghiên cứu tế\nbào học. Cuộc cách mạng này nó liên quan\ntới những các cái vấn đề nâng cao tuổi\nthọ, nâng cao tới những cái liên quan\ntới những cái vấn đề ví dụ như là điều\ntrị ung thư, điều trị các cái căn bệnh\nlà đưa những các cái chất từ bên ngoài\nvào bên trong tế bào một cách có chọn\nlọc."
         }
       ],
       "issues": []
     },
     {
-      "id": "c069",
+      "id": "c073",
       "claim": "Theo phần trình bày của bác sĩ Phúc, màng tế bào có protein và chất béo; ông nói các axit béo không bão hòa như Omega-3, Omega-6, Omega-9 chiếm thành phần đáng kể.",
       "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
-      "status": "flag",
+      "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:47:42-01:47:54",
-      "quote": "Ví\ndụ như là Omega 3. Omega 3 thì chiếm một\ncái thành phần rất nhiều. Omega 6 cũng\nlà thành phần rất nhiều. Thậm chí là\nOmega9 hay là các cái chất béo khác được\ncấu tạo nên màng tế bào rất nhiều.",
+      "timestamp": "01:47:33-01:47:54",
+      "quote": "trong màng tế bào thì những\ncác cái axit béo không no tức là axit\nbéo không axit béo không bão hòa đấy là\nchiếm một cái thành phần rất nhiều. Ví\ndụ như là Omega 3. Omega 3 thì chiếm một\ncái thành phần rất nhiều. Omega 6 cũng\nlà thành phần rất nhiều. Thậm chí là\nOmega9 hay là các cái chất béo khác được\ncấu tạo nên màng tế bào rất nhiều.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:47:42-01:47:54",
-          "quote": "Ví\ndụ như là Omega 3. Omega 3 thì chiếm một\ncái thành phần rất nhiều. Omega 6 cũng\nlà thành phần rất nhiều. Thậm chí là\nOmega9 hay là các cái chất béo khác được\ncấu tạo nên màng tế bào rất nhiều."
+          "timestamp": "01:47:33-01:47:54",
+          "quote": "trong màng tế bào thì những\ncác cái axit béo không no tức là axit\nbéo không axit béo không bão hòa đấy là\nchiếm một cái thành phần rất nhiều. Ví\ndụ như là Omega 3. Omega 3 thì chiếm một\ncái thành phần rất nhiều. Omega 6 cũng\nlà thành phần rất nhiều. Thậm chí là\nOmega9 hay là các cái chất béo khác được\ncấu tạo nên màng tế bào rất nhiều."
         }
       ],
-      "issues": [
-        {
-          "chunk": 5,
-          "timestamp": "02:21:18-02:21:25",
-          "quote": "Tích hợp tế bào thì\nrất chọn lọc là omega 3 và omega 6.\nOmega9 các cái omega đấy tích hợp vào",
-          "finding": "Phần này nói màng tích hợp các omega và axit béo, nhưng không xác nhận thành phần protein."
-        }
-      ]
+      "issues": []
     },
     {
-      "id": "c070",
+      "id": "c074",
       "claim": "Theo bác sĩ Phúc, các axit béo omega nói chung chiếm tới 30% cấu trúc màng tế bào (ở một đoạn khác ông cũng nói Omega-3 chiếm 30%).",
       "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:48:16-01:48:26",
-      "quote": "Và omega 3 trong màng tế bào thì Omega 3\nOmega3 chiếm tới bao nhiêu ạ? Chiếm tới\n30%\n30% cấu trúc màng tế bào",
+      "timestamp": "01:51:34-01:51:59",
+      "quote": "Tất cả những cái này đều nằm trong omega\n3, Omega 6, Omega9 là những thành phần\nnày cực kỳ quan trọng đối với màng tế\nbào.\nNó cũng cực kỳ quan trọng với các cái tế\nbào như tế bào cơ, tế bào các cái nội\ntạng của chúng ta ở bên trong. Thì tất\ncả những thành phần này đều rất quan\ntrọng bởi vì nó chiếm tới bao nhiêu? nó\nchiếm tới 30%\n30% cái cấu trúc của màng tế bào",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:48:16-01:48:26",
-          "quote": "Và omega 3 trong màng tế bào thì Omega 3\nOmega3 chiếm tới bao nhiêu ạ? Chiếm tới\n30%\n30% cấu trúc màng tế bào"
+          "timestamp": "01:51:34-01:51:59",
+          "quote": "Tất cả những cái này đều nằm trong omega\n3, Omega 6, Omega9 là những thành phần\nnày cực kỳ quan trọng đối với màng tế\nbào.\nNó cũng cực kỳ quan trọng với các cái tế\nbào như tế bào cơ, tế bào các cái nội\ntạng của chúng ta ở bên trong. Thì tất\ncả những thành phần này đều rất quan\ntrọng bởi vì nó chiếm tới bao nhiêu? nó\nchiếm tới 30%\n30% cái cấu trúc của màng tế bào"
         },
         {
           "chunk": 5,
-          "timestamp": "02:22:06-02:22:09",
-          "quote": "thì màng tế bào tích hợp omega cực kỳ\nnhiều, chiếm tới 30%."
+          "timestamp": "02:22:03-02:22:09",
+          "quote": "riêng với lại màng tế bào\nthì màng tế bào tích hợp omega cực kỳ\nnhiều, chiếm tới 30%."
         }
       ],
       "issues": []
     },
     {
-      "id": "c071",
+      "id": "c075",
       "claim": "Bác sĩ Phúc nói DHA là “vàng của não và mắt” và EPA là “vàng của tim”.",
       "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
-      "status": "pass",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:31:02-01:31:07",
-      "quote": "DHA nó quá\nquý cho nên là vì quý như thế nó được\ncoi là vàng của não và mắt.",
+      "timestamp": "01:52:06-01:52:14",
+      "quote": "Tuy nhiên\ntôi nhấn mạnh lại là vàng của mắt và\nvàng của não chính là DHA. Vàng của tim\nđó chính là gì ạ? Chính là EPA.",
       "evidence": [
-        {
-          "chunk": 3,
-          "timestamp": "01:31:02-01:31:07",
-          "quote": "DHA nó quá\nquý cho nên là vì quý như thế nó được\ncoi là vàng của não và mắt."
-        },
         {
           "chunk": 4,
           "timestamp": "01:52:06-01:52:14",
@@ -1449,13 +1546,20 @@
           "quote": "DHA thì cần cho gì ạ? Là vàng của\n>> mắt và não.\n>> Mắt và não.\n>> Vâng.\n>> Đúng ra phải đưa chữ não lên trước và\nmắt sau. Vâng,\n>> não và mắt. Mắt chỉ là thư ký của não\nthôi. Còn não là quan trọng nhất. Sau đó\ncòn bao nhiêu nó dồn cho mắt.\n>> Epa thì là của gì ạ?\n>> Của tim."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:31:02-01:31:07",
+          "quote": "DHA nó quá\nquý cho nên là vì quý như thế nó được\ncoi là vàng của não và mắt.",
+          "finding": "Đoạn này gọi DHA là vàng của não và mắt, nhưng chưa gọi EPA là vàng của tim."
+        }
+      ]
     },
     {
-      "id": "c072",
+      "id": "c076",
       "claim": "Ông cũng cho rằng ăn cá giàu DHA có thể giúp thông minh hơn và mắt sáng hơn; nếu DHA ít thì khó đạt được điều đó.",
       "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
-      "status": "pass",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -1468,29 +1572,74 @@
           "quote": "nếu cá đó có nhiều DHA thì\nchúng ta ăn sẽ thông minh và chúng ta ăn\nsẽ có ngoài cái thông minh lên thì mắt\nchúng ta nhìn cũng sẽ sáng lên nhưng với\nđiều kiện là DHA nó phải nhiều. Thế còn\nnếu DHA ít thì chúng ta cũng khó để mà\ncó cái điều đấy được."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:28:56-01:29:02",
+          "quote": "DHA và EPA nhưng mà có một cái thành\nphần mà đang liên quan tới cái vấn đề\nthông minh hay không đấy chính là cái\nDHA",
+          "finding": "Đoạn này liên hệ DHA với trí thông minh và nuôi não, mắt; chưa nêu đầy đủ kết luận mắt sáng hơn và điều kiện DHA ít."
+        }
+      ]
     },
     {
-      "id": "c073",
+      "id": "c077",
       "claim": "Bác sĩ Phúc kể: nhiều phụ huynh có con đang học điểm khá thấp, sau khi bổ sung DHA, Omega 3, tăng DHA lên một chút, vitamin D và các vi chất thì 'một thời gian sau' kết quả học thay đổi đáng kể; ở một trường hợp khác, một anh đến cảm ơn vì con anh lúc đầu 'ăn không nên loại và nói không nên lời', không có bạn gái, sau khi bổ sung 'hơn 3 tháng gần 4 tháng' thì anh báo cáo con bắt đầu nói có văn có lời và có bạn gái.",
       "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:49:53-01:50:34",
-      "quote": "Thế sau khi\nmà bổ sung DHA bổ sung Omega 3 mà tăng\ncường cái DHA này lên một chút vitamin D\ncộng các vi chất thì một thời gian sau\ncác cháu học kết quả nó sẽ thay đổi đi\nđáng kể.\nhay như là tuần trước nữa có anh đã đến\nđể cám ơn tôi cái là con anh ấy lúc đầu\nlà ăn không nên loại và nói không nên\nlời, không có bạn gái. Trong khi đấy là\ncác bạn cùng trang lứa là có bạn gái hết\nrồi. Thế sau khi mà bổ sung đâu được à\nhơn 3 tháng gần 4 tháng thì anh ấy đến\nbáo cáo tình hình là con anh ấy bắt đầu\nnói có văn có lời văn văn vẻ ra và bắt\nđầu có bạn gái, có người yêu.",
+      "timestamp": "01:49:48-01:50:34",
+      "quote": "Thì có nhiều quý vị là con cái\nđang học điểm khá là thấp. Thế sau khi\nmà bổ sung DHA bổ sung Omega 3 mà tăng\ncường cái DHA này lên một chút vitamin D\ncộng các vi chất thì một thời gian sau\ncác cháu học kết quả nó sẽ thay đổi đi\nđáng kể.\nhay như là tuần trước nữa có anh đã đến\nđể cám ơn tôi cái là con anh ấy lúc đầu\nlà ăn không nên loại và nói không nên\nlời, không có bạn gái. Trong khi đấy là\ncác bạn cùng trang lứa là có bạn gái hết\nrồi. Thế sau khi mà bổ sung đâu được à\nhơn 3 tháng gần 4 tháng thì anh ấy đến\nbáo cáo tình hình là con anh ấy bắt đầu\nnói có văn có lời văn văn vẻ ra và bắt\nđầu có bạn gái, có người yêu.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:49:53-01:50:34",
-          "quote": "Thế sau khi\nmà bổ sung DHA bổ sung Omega 3 mà tăng\ncường cái DHA này lên một chút vitamin D\ncộng các vi chất thì một thời gian sau\ncác cháu học kết quả nó sẽ thay đổi đi\nđáng kể.\nhay như là tuần trước nữa có anh đã đến\nđể cám ơn tôi cái là con anh ấy lúc đầu\nlà ăn không nên loại và nói không nên\nlời, không có bạn gái. Trong khi đấy là\ncác bạn cùng trang lứa là có bạn gái hết\nrồi. Thế sau khi mà bổ sung đâu được à\nhơn 3 tháng gần 4 tháng thì anh ấy đến\nbáo cáo tình hình là con anh ấy bắt đầu\nnói có văn có lời văn văn vẻ ra và bắt\nđầu có bạn gái, có người yêu."
+          "timestamp": "01:49:48-01:50:34",
+          "quote": "Thì có nhiều quý vị là con cái\nđang học điểm khá là thấp. Thế sau khi\nmà bổ sung DHA bổ sung Omega 3 mà tăng\ncường cái DHA này lên một chút vitamin D\ncộng các vi chất thì một thời gian sau\ncác cháu học kết quả nó sẽ thay đổi đi\nđáng kể.\nhay như là tuần trước nữa có anh đã đến\nđể cám ơn tôi cái là con anh ấy lúc đầu\nlà ăn không nên loại và nói không nên\nlời, không có bạn gái. Trong khi đấy là\ncác bạn cùng trang lứa là có bạn gái hết\nrồi. Thế sau khi mà bổ sung đâu được à\nhơn 3 tháng gần 4 tháng thì anh ấy đến\nbáo cáo tình hình là con anh ấy bắt đầu\nnói có văn có lời văn văn vẻ ra và bắt\nđầu có bạn gái, có người yêu."
         }
       ],
       "issues": []
     },
     {
-      "id": "c074",
+      "id": "c078",
+      "claim": "Bác sĩ Phúc tuyên bố kênh không bán thuốc, không quảng cáo, không nhận sản phẩm;",
+      "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "00:42:07-00:42:15",
+      "quote": "kênh\nchúng tôi không hề bán thuốc kênh chúng\ntôi không hề quảng cáo, kênh chúng tôi\nkhông hề nhận sản phẩm gì chúng tôi xác\nđịnh cho đi về mặt kiến thức",
+      "evidence": [
+        {
+          "chunk": 2,
+          "timestamp": "00:42:07-00:42:15",
+          "quote": "kênh\nchúng tôi không hề bán thuốc kênh chúng\ntôi không hề quảng cáo, kênh chúng tôi\nkhông hề nhận sản phẩm gì chúng tôi xác\nđịnh cho đi về mặt kiến thức"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c079",
+      "claim": "BTV Khánh Lành cũng nói chương trình không đưa link mua ngay mà hướng dẫn cách lựa chọn và sử dụng Omega-3.",
+      "section": "[01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "01:53:36-01:53:53",
+      "quote": "bác sĩ\nhãy đưa link sản phẩm cho tôi, cắn link\ntrên màn hình chẳng hạn để tôi có thể\nclick vào để có thể mua ngay. loại omega\n3 hiệu quả chất lượng. Nhưng không thưa\nquý vị, chúng tôi sẽ hướng dẫn quý vị\nlàm thế nào để có thể lựa chọn omega 3\ncách thông minh và sử dụng một cách hiệu\nquả.",
+      "evidence": [
+        {
+          "chunk": 4,
+          "timestamp": "01:53:36-01:53:53",
+          "quote": "bác sĩ\nhãy đưa link sản phẩm cho tôi, cắn link\ntrên màn hình chẳng hạn để tôi có thể\nclick vào để có thể mua ngay. loại omega\n3 hiệu quả chất lượng. Nhưng không thưa\nquý vị, chúng tôi sẽ hướng dẫn quý vị\nlàm thế nào để có thể lựa chọn omega 3\ncách thông minh và sử dụng một cách hiệu\nquả."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c080",
       "claim": "Theo bài báo được đọc, Omega-6 có trong các loại dầu thực vật như hoa hướng dương, dầu ngô và đóng vai trò trong chức năng não, sức khỏe sinh sản, giúp tóc, da và xương khỏe mạnh;",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1509,7 +1658,7 @@
       "issues": []
     },
     {
-      "id": "c075",
+      "id": "c081",
       "claim": "Omega-3 có trong cá béo, giúp giảm viêm, điều hòa huyết áp, rất quan trọng cho não và tim, và 'gắn liền với giảm nguy cơ' nhiều bệnh gồm tiểu đường, hội chứng ruột kích thích, đột quỵ, viêm khớp, hen suyễn và một số bệnh ung thư.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1528,7 +1677,7 @@
       "issues": []
     },
     {
-      "id": "c076",
+      "id": "c082",
       "claim": "Bài báo nói Omega-3 là chất chống viêm, còn Omega-6 'có xu hướng gây viêm'.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1547,7 +1696,7 @@
       "issues": []
     },
     {
-      "id": "c077",
+      "id": "c083",
       "claim": "Theo bài báo được đọc, những năm gần đây các nhà khoa học phát hiện hầu hết mọi người đang hấp thụ lượng lớn Omega-6 so với thời trước, trong khi tiêu thụ thực phẩm động vật giàu Omega-3 ở mức thấp nhất từ trước đến nay; sự mất cân đối này liên quan đến béo phì, tiểu đường, bệnh tim, ung thư, trầm cảm, đau, bệnh viêm như hen suyễn và các bệnh tự miễn.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1566,7 +1715,7 @@
       "issues": []
     },
     {
-      "id": "c078",
+      "id": "c084",
       "claim": "Bài báo dẫn nghiên cứu của tạp chí 'Hell' cho thấy người Mỹ hiện nay ăn thực phẩm chứa Omega-6 nhiều hơn Omega-3 gấp sáu lần.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1585,26 +1734,26 @@
       "issues": []
     },
     {
-      "id": "c079",
+      "id": "c085",
       "claim": "Theo bài báo được đọc, tỷ lệ tối ưu nhất giữa Omega-6 và Omega-3 cho cơ thể là 1:1, và hầu hết các chuyên gia sức khỏe cho rằng tỷ lệ từ 1:1 đến 5:1 là tốt nhất cho sức khỏe:",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:55:59-01:56:09",
-      "quote": "Hầu hết các chuyên gia sức khỏe đều cho\nrằng tỉ lệ omega6\ntrên omega 3 là từ 11 đến 51 là tốt nhất\ncho sức khỏe.",
+      "timestamp": "01:55:59-01:56:50",
+      "quote": "Hầu hết các chuyên gia sức khỏe đều cho\nrằng tỉ lệ omega6\ntrên omega 3 là từ 11 đến 51 là tốt nhất\ncho sức khỏe. Với tỉ lệ 41, chúng ta có\nthể phòng ngừa nguy cơ bệnh tim nhưng\nlại không có tác dụng giảm nguy cơ mắc\ncác bệnh liên quan đến trực tràng.\nVới tỉ lệ 21 hay là 31, chúng ta có thể\ngiảm hội chứng viêm ở bệnh nhân thấp\nkhớp. Tỷ lệ 51 có kết quả tốt đối với\nbệnh nhân hen suuyễn.\nTóm lại, tỉ lệ omega6/ên omega3 cân bằng\nsẽ mang lại nhiều lợi ích cho sức khỏe\nnhư phòng bệnh tim, giảm viêm, điều hòa\nhuyết áp. Chúng ta nên hạn chế bổ sung\nOmega6 và tăng cường Omega 3 để tránh\nmất cân bằng tỉ lệ hai loại chất này. Tỉ\nlệ tối ưu nhất cho hai loại axit béo này\nvới cơ thể là một bột.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "01:55:59-01:56:09",
-          "quote": "Hầu hết các chuyên gia sức khỏe đều cho\nrằng tỉ lệ omega6\ntrên omega 3 là từ 11 đến 51 là tốt nhất\ncho sức khỏe."
+          "timestamp": "01:55:59-01:56:50",
+          "quote": "Hầu hết các chuyên gia sức khỏe đều cho\nrằng tỉ lệ omega6\ntrên omega 3 là từ 11 đến 51 là tốt nhất\ncho sức khỏe. Với tỉ lệ 41, chúng ta có\nthể phòng ngừa nguy cơ bệnh tim nhưng\nlại không có tác dụng giảm nguy cơ mắc\ncác bệnh liên quan đến trực tràng.\nVới tỉ lệ 21 hay là 31, chúng ta có thể\ngiảm hội chứng viêm ở bệnh nhân thấp\nkhớp. Tỷ lệ 51 có kết quả tốt đối với\nbệnh nhân hen suuyễn.\nTóm lại, tỉ lệ omega6/ên omega3 cân bằng\nsẽ mang lại nhiều lợi ích cho sức khỏe\nnhư phòng bệnh tim, giảm viêm, điều hòa\nhuyết áp. Chúng ta nên hạn chế bổ sung\nOmega6 và tăng cường Omega 3 để tránh\nmất cân bằng tỉ lệ hai loại chất này. Tỉ\nlệ tối ưu nhất cho hai loại axit béo này\nvới cơ thể là một bột."
         }
       ],
       "issues": []
     },
     {
-      "id": "c080",
+      "id": "c086",
       "claim": "Với tỉ lệ 4:1, 'chúng ta có thể phòng ngừa' nguy cơ bệnh tim (theo tài liệu được đọc; các bệnh liên quan đến trực tràng không giảm).",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1623,7 +1772,7 @@
       "issues": []
     },
     {
-      "id": "c081",
+      "id": "c087",
       "claim": "Với tỉ lệ 2:1 hay 3:1, 'chúng ta có thể giảm' hội chứng viêm ở bệnh nhân thấp khớp (theo tài liệu được đọc).",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1642,7 +1791,7 @@
       "issues": []
     },
     {
-      "id": "c082",
+      "id": "c088",
       "claim": "Theo tài liệu được đọc, tỷ lệ 5:1 có kết quả tốt đối với bệnh nhân hen suyễn.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1661,7 +1810,7 @@
       "issues": []
     },
     {
-      "id": "c083",
+      "id": "c089",
       "claim": "Bài báo cũng nói đến nay chưa có nghiên cứu nào đủ chất lượng và quy mô để khẳng định Omega-6 là nguyên nhân gây bệnh tim mạch hay làm tăng các dấu hiệu viêm, nên không thể khẳng định Omega-6 gây ra các bệnh mãn tính.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1680,7 +1829,7 @@
       "issues": []
     },
     {
-      "id": "c084",
+      "id": "c090",
       "claim": "Tuy nhiên, theo bài báo, nạp quá nhiều Omega-3 hay Omega-6 đều không tốt vì cấu trúc của cả hai axit béo này đều chứa nối đôi không no, rất nhạy cảm phản ứng với oxy tạo ra chuỗi gốc tự do.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1699,7 +1848,7 @@
       "issues": []
     },
     {
-      "id": "c085",
+      "id": "c091",
       "claim": "Bài báo còn nói nếu ăn thức ăn chế biến sẵn kiểu công nghiệp hàng ngày thì tỷ lệ Omega-6/Omega-3 'chẳng còn quan trọng gì nữa'; loại chất béo dùng quan trọng hơn nhiều so với tỷ lệ này.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1718,8 +1867,8 @@
       "issues": []
     },
     {
-      "id": "c086",
-      "claim": "Để tối ưu hóa tỷ lệ, bài báo khuyên tránh các loại dầu thực vật và hạt chứa nhiều Omega-6 cũng như thực phẩm chế biến từ dầu và hạt: dầu đậu nành, dầu hướng dương, dầu ngô chứa nhiều Omega-6, còn dầu ô liu (caption ghi 'dầu ôu'), dầu cọ, dầu dừa và quả bơ chứa ít Omega-6 hơn.",
+      "id": "c092",
+      "claim": "Để tối ưu hóa tỷ lệ, bài báo khuyên tránh các loại dầu thực vật và hạt chứa nhiều Omega-6 cũng như thực phẩm chế biến từ dầu và hạt: dầu đậu nành, dầu hướng dương, dầu ngô chứa nhiều Omega-6, còn dầu ô liu, dầu cọ, dầu dừa và quả bơ chứa ít Omega-6 hơn.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
       "supported": true,
@@ -1737,7 +1886,7 @@
       "issues": []
     },
     {
-      "id": "c087",
+      "id": "c093",
       "claim": "Muốn giảm Omega-6 trong thịt thì chọn phần gầy; bơ thực vật chứa nhiều Omega-6 hơn, nên dùng bơ từ động vật ăn cỏ để có nhiều Omega-3 hơn.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1756,7 +1905,7 @@
       "issues": []
     },
     {
-      "id": "c088",
+      "id": "c094",
       "claim": "Vì gia súc, gia cầm ngày nay thường được nuôi bằng thức ăn từ hạt (nhiều bắp, đậu nành) nên mỡ tích trữ của chúng chủ yếu là Omega-6, rất ít Omega-3; nếu có thể, nên dùng thịt từ động vật nuôi bằng cỏ.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1775,7 +1924,7 @@
       "issues": []
     },
     {
-      "id": "c089",
+      "id": "c095",
       "claim": "Thịt gà, thịt lợn vốn có sẵn nhiều Omega-6 vẫn có thể dùng ở mức vừa phải, hoặc chọn phần nạc ít mỡ nếu muốn giảm tối đa lượng Omega-6.",
       "section": "[01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính",
       "status": "pass",
@@ -1794,20 +1943,20 @@
       "issues": []
     },
     {
-      "id": "c090",
+      "id": "c096",
       "claim": "Các axit béo chính cần nhớ thuộc nhóm Omega-6 gồm: LA (axit linoleic), GLA, CLA (axit béo liên hợp) và AA.",
       "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:01:07-02:01:40",
-      "quote": ">> Ờ axit la.\n>> La\n>> la hay còn có tên gọi là gì?\n>> Axit linolic. Rồi đúng rồi. Tiếp theo\ncái thứ hai là gì ạ?\n>> Là ờ GLA.\n>> GL. Đúng rồi.\n>> Vâng.\n>> Thứ ba là gì ạ?\n>> Là CL.\n>> Clức là cái này là gọi là axit béo liên\nhợp đấy.\n>> Vâng.\n>> Còn gì nữa không? Aa\n>> đây là bốn cái axit béo mà chúng ta cần\nphải nhớ ở trong omega6.",
+      "timestamp": "02:01:01-02:01:40",
+      "quote": "Thế Omega 6 thì Khánh Lành đưa\nra là đứng đầu tiên là cái gì ạ?\n>> Ờ axit la.\n>> La\n>> la hay còn có tên gọi là gì?\n>> Axit linolic. Rồi đúng rồi. Tiếp theo\ncái thứ hai là gì ạ?\n>> Là ờ GLA.\n>> GL. Đúng rồi.\n>> Vâng.\n>> Thứ ba là gì ạ?\n>> Là CL.\n>> Clức là cái này là gọi là axit béo liên\nhợp đấy.\n>> Vâng.\n>> Còn gì nữa không? Aa\n>> đây là bốn cái axit béo mà chúng ta cần\nphải nhớ ở trong omega6.",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "02:01:07-02:01:40",
-          "quote": ">> Ờ axit la.\n>> La\n>> la hay còn có tên gọi là gì?\n>> Axit linolic. Rồi đúng rồi. Tiếp theo\ncái thứ hai là gì ạ?\n>> Là ờ GLA.\n>> GL. Đúng rồi.\n>> Vâng.\n>> Thứ ba là gì ạ?\n>> Là CL.\n>> Clức là cái này là gọi là axit béo liên\nhợp đấy.\n>> Vâng.\n>> Còn gì nữa không? Aa\n>> đây là bốn cái axit béo mà chúng ta cần\nphải nhớ ở trong omega6."
+          "timestamp": "02:01:01-02:01:40",
+          "quote": "Thế Omega 6 thì Khánh Lành đưa\nra là đứng đầu tiên là cái gì ạ?\n>> Ờ axit la.\n>> La\n>> la hay còn có tên gọi là gì?\n>> Axit linolic. Rồi đúng rồi. Tiếp theo\ncái thứ hai là gì ạ?\n>> Là ờ GLA.\n>> GL. Đúng rồi.\n>> Vâng.\n>> Thứ ba là gì ạ?\n>> Là CL.\n>> Clức là cái này là gọi là axit béo liên\nhợp đấy.\n>> Vâng.\n>> Còn gì nữa không? Aa\n>> đây là bốn cái axit béo mà chúng ta cần\nphải nhớ ở trong omega6."
         },
         {
           "chunk": 5,
@@ -1818,55 +1967,55 @@
       "issues": []
     },
     {
-      "id": "c091",
+      "id": "c097",
       "claim": "Nhóm Omega-3 gồm: ALA, EPA và DHA.",
       "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:01:53-02:02:02",
-      "quote": ">> Là ALA.\n>> Alla. Tiếp theo là cái gì ạ?\n>> Ờ EPA.\n>> EPA. Tiếp theo là cái gì ạ?\n>> Và rất quan trọng đó là DHA.\n>> DHA đúng không ạ?",
+      "timestamp": "02:01:47-02:02:02",
+      "quote": "Tiếp tục omega 3 thì ta cần phải nhớ mấy\naxit ạ?\n>> Ờ ba axit ạ.\n>> Ba axit. Đầu tiên là cái gì?\n>> Là ALA.\n>> Alla. Tiếp theo là cái gì ạ?\n>> Ờ EPA.\n>> EPA. Tiếp theo là cái gì ạ?\n>> Và rất quan trọng đó là DHA.\n>> DHA đúng không ạ?",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "02:01:53-02:02:02",
-          "quote": ">> Là ALA.\n>> Alla. Tiếp theo là cái gì ạ?\n>> Ờ EPA.\n>> EPA. Tiếp theo là cái gì ạ?\n>> Và rất quan trọng đó là DHA.\n>> DHA đúng không ạ?"
+          "timestamp": "02:01:47-02:02:02",
+          "quote": "Tiếp tục omega 3 thì ta cần phải nhớ mấy\naxit ạ?\n>> Ờ ba axit ạ.\n>> Ba axit. Đầu tiên là cái gì?\n>> Là ALA.\n>> Alla. Tiếp theo là cái gì ạ?\n>> Ờ EPA.\n>> EPA. Tiếp theo là cái gì ạ?\n>> Và rất quan trọng đó là DHA.\n>> DHA đúng không ạ?"
         },
         {
           "chunk": 5,
-          "timestamp": "02:24:11-02:24:18",
-          "quote": "3 là đứng đầu là cái gì ạ? ALA đúng\nkhông ạ?\n>> Alla sau đó thì gì ạ? EAP\n>> sau đó là đến gì ạ? DHA. Vâng."
+          "timestamp": "02:25:51-02:25:55",
+          "quote": "Sự chuyển đổi giữa ALA và EPA\n>> với gì nữa ạ?\n>> Và DHA."
         }
       ],
       "issues": []
     },
     {
-      "id": "c092",
+      "id": "c098",
       "claim": "LA (Omega-6) có công thức cấu tạo C18:2n-6, gồm 18 nguyên tử cacbon, 2 liên kết pi và liên kết pi đầu tiên xuất hiện ở vị trí cacbon số 6, kết thúc bằng nhóm COOH.",
       "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:03:44-02:03:51",
-      "quote": ">> Là có 18 nguyên tử cacbon.\n>> 18 nguyên tử cacbon\n>> có hai liên kết pi.\n>> Hai liên kết pi.\n>> Liên kết pi đầu tiên đứng ở vị trí\ncacbon số 6.\n>> Số 6. Đúng rồi.",
+      "timestamp": "02:03:44-02:04:44",
+      "quote": "Là có 18 nguyên tử cacbon.\n>> 18 nguyên tử cacbon\n>> có hai liên kết pi.\n>> Hai liên kết pi.\n>> Liên kết pi đầu tiên đứng ở vị trí\ncacbon số 6.\n>> Số 6. Đúng rồi. Thế thì bây giờ ta cứ\nthế ta biết thôi là ta viết công thức\ncấu tạo của\nđầu tiên ta sẽ là 1 này. Xong 2 này.\n>> 3\n>> 3 này.\n>> 4 này.\n>> 5 này.\n>> 6 này.\n>> Bắt đầu đến gì? Liên kết pi sau đó đến\ngì ạ? Liên kết đơn\n>> xong đến gì ạ? Liên kết đơn tiếp xong\nliên kết\n>> xong đến liên kết pi đúng không ạ? 6 6 7\n>> đây là gì ạ? 6 này, 7 này, 8 này, 9 này,\n10 này, 11 này.\n>> Bây giờ ta cứ viết cho đến 18 là xong.\n12 này đúng không ạ? 13\n>> 14 15 16 17 10 gì ạ? 18. Vậy thì cái 18\nở đây cuối cùng đây chính là gắn với lại\nOH đúng không ạ?\n>> Và phía dưới này gắn với lại\n>> oxi\n>> oxy đúng không ạ? Tức là COOH chính là\naxit rồi",
       "evidence": [
         {
           "chunk": 4,
-          "timestamp": "02:03:44-02:03:51",
-          "quote": ">> Là có 18 nguyên tử cacbon.\n>> 18 nguyên tử cacbon\n>> có hai liên kết pi.\n>> Hai liên kết pi.\n>> Liên kết pi đầu tiên đứng ở vị trí\ncacbon số 6.\n>> Số 6. Đúng rồi."
+          "timestamp": "02:03:44-02:04:44",
+          "quote": "Là có 18 nguyên tử cacbon.\n>> 18 nguyên tử cacbon\n>> có hai liên kết pi.\n>> Hai liên kết pi.\n>> Liên kết pi đầu tiên đứng ở vị trí\ncacbon số 6.\n>> Số 6. Đúng rồi. Thế thì bây giờ ta cứ\nthế ta biết thôi là ta viết công thức\ncấu tạo của\nđầu tiên ta sẽ là 1 này. Xong 2 này.\n>> 3\n>> 3 này.\n>> 4 này.\n>> 5 này.\n>> 6 này.\n>> Bắt đầu đến gì? Liên kết pi sau đó đến\ngì ạ? Liên kết đơn\n>> xong đến gì ạ? Liên kết đơn tiếp xong\nliên kết\n>> xong đến liên kết pi đúng không ạ? 6 6 7\n>> đây là gì ạ? 6 này, 7 này, 8 này, 9 này,\n10 này, 11 này.\n>> Bây giờ ta cứ viết cho đến 18 là xong.\n12 này đúng không ạ? 13\n>> 14 15 16 17 10 gì ạ? 18. Vậy thì cái 18\nở đây cuối cùng đây chính là gắn với lại\nOH đúng không ạ?\n>> Và phía dưới này gắn với lại\n>> oxi\n>> oxy đúng không ạ? Tức là COOH chính là\naxit rồi"
         },
         {
           "chunk": 5,
           "timestamp": "02:05:58-02:06:19",
-          "quote": "giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3"
+          "quote": "Thế thì nó giống nhau ở chỗ nào? giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3"
         }
       ],
       "issues": []
     },
     {
-      "id": "c093",
+      "id": "c099",
       "claim": "ALA (Omega-3) có công thức cấu tạo C18:3n-3, gồm 18 nguyên tử cacbon, 3 liên kết pi và liên kết pi đầu tiên xuất hiện ở vị trí cacbon số 3, kết thúc bằng nhóm COOH.",
       "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
       "status": "pass",
@@ -1874,67 +2023,60 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "02:05:58-02:06:19",
-      "quote": "giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3",
+      "quote": "Thế thì nó giống nhau ở chỗ nào? giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3",
       "evidence": [
         {
           "chunk": 4,
           "timestamp": "02:05:58-02:06:19",
-          "quote": "giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3"
+          "quote": "Thế thì nó giống nhau ở chỗ nào? giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3"
         },
         {
           "chunk": 5,
           "timestamp": "02:05:58-02:06:19",
-          "quote": "giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3"
+          "quote": "Thế thì nó giống nhau ở chỗ nào? giống\nnhau ở chỗ là đều có 18 nguyên tử cacbon\nđều có nhóm COOH\nnhưng mà nó chỉ khác nhau ở chỗ là một\ncái thì có hai liên kết pi còn một cái\ncó ba liên kết gì?\n>> Ba liên kết pi\n>> pi. Thế còn một cái xuất phát từ các B\nbon số 6 thì nó là omega6 còn xuất phát\ntừ cacbon số 3 thì nó là gì? Omega 3"
         }
       ],
       "issues": []
     },
     {
-      "id": "c094",
-      "claim": "DHA (Omega-3, C22:6n-3) gồm 22 nguyên tử cacbon và có 6 liên kết đôi carbon-carbon (6 liên kết pi); bác sĩ Phúc nói 5 liên kết pi.",
-      "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
-      "status": "fail",
-      "supported": false,
-      "attributed": true,
-      "qualifications_preserved": true,
-      "timestamp": "02:07:37-02:07:46",
-      "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý. có 22\nnguyên tử cacbon mà lại có đến năm liên\nkết pi",
-      "evidence": [],
-      "issues": [
-        {
-          "chunk": 4,
-          "timestamp": "02:07:37-02:07:46",
-          "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý. có 22\nnguyên tử cacbon mà lại có đến năm liên\nkết pi",
-          "finding": "Nguồn nói DHA có 22 cacbon và 5 liên kết pi; phần khẳng định C22:6n-3 và 6 liên kết là thông tin bổ sung ngoài lời nguồn, dù bản tóm tắt đã ghi rõ bác sĩ nói 5."
-        },
-        {
-          "chunk": 5,
-          "timestamp": "02:07:37-02:07:46",
-          "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý. có 22\nnguyên tử cacbon mà lại có đến năm liên\nkết pi",
-          "finding": "Transcript xác nhận bác sĩ nói 22 cacbon và 5 liên kết pi; công thức C22:6n-3 và con số 6 là thông tin sửa ngoài transcript."
-        }
-      ]
-    },
-    {
-      "id": "c095",
-      "claim": "Bác sĩ Phúc giải thích rằng liên kết pi dễ bị phá vỡ, giúp axit béo được cắt thành các phân tử acetyl-CoA hai cacbon để đốt cháy tạo năng lượng trong ti thể.",
+      "id": "c100",
+      "claim": "Trong nguồn, bác sĩ Phúc nói DHA có 22 nguyên tử cacbon và 5 liên kết pi.",
       "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:30:53-01:31:02",
-      "quote": "Cái DHA này nó DHA\nnày nó rất quý ở chỗ rằng quá nhiều liên\nkết pi cho nên là nó dễ cắt ra được và\ncắt thành những mảnh nhỏ",
+      "timestamp": "02:07:37-02:07:46",
+      "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý. có 22\nnguyên tử cacbon mà lại có đến năm liên\nkết pi thì đương nhiên rất quý",
       "evidence": [
         {
-          "chunk": 3,
-          "timestamp": "01:30:53-01:31:02",
-          "quote": "Cái DHA này nó DHA\nnày nó rất quý ở chỗ rằng quá nhiều liên\nkết pi cho nên là nó dễ cắt ra được và\ncắt thành những mảnh nhỏ"
+          "chunk": 4,
+          "timestamp": "02:07:37-02:07:46",
+          "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý. có 22\nnguyên tử cacbon mà lại có đến năm liên\nkết pi thì đương nhiên rất quý"
         },
         {
+          "chunk": 5,
+          "timestamp": "02:07:37-02:07:46",
+          "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý. có 22\nnguyên tử cacbon mà lại có đến năm liên\nkết pi thì đương nhiên rất quý"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c101",
+      "claim": "Bác sĩ Phúc giải thích rằng liên kết pi dễ bị phá vỡ, giúp axit béo được cắt thành các phân tử acetyl-CoA hai cacbon để đốt cháy tạo năng lượng trong ti thể.",
+      "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
+      "status": "flag",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:06:35-02:07:27",
+      "quote": "Liên kết pi là liên kết không bền vững\n>> cho nên dễ dàng bị phá vỡ ở chỗ này.\n>> Phá vỡ để làm gì đây ạ?\n>> Có thể chuyển dễ dàng cắt nhỏ các phân\n>> cắt nhỏ để tạo thành các\n>> axetin.\n>> Axetin coenzyma ở trong đâu?\nở trong\n>> ở trong ti thể\n>> để nó đốt cháy.\n>> Vâng.\n>> Chúng ta đang biến một cái axit béo này,\nmột cái axit béo chuỗi dài này trở thành\nnhững các cái chuỗi ngắn, các axinzyma a\nchuỗi ngắn tức là biến thành những đồng\ntiền nhỏ lẻ.\n>> Vâng.\n>> Để chúng ta tiêu.\n>> Vâng. Đúng rồi.\n>> Mà muốn biến thành những đồng tiền nhỏ\nlẻ thì ta sẽ cắt ở những vị trí này.\n>> Vâng.\n>> Và nó càng nhiều liên kết pi thì nó càng\nquý.\n>> Vâng.\n>> Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể.",
+      "evidence": [
+        {
           "chunk": 4,
-          "timestamp": "02:07:15-02:07:27",
-          "quote": "Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể."
+          "timestamp": "02:06:35-02:07:27",
+          "quote": "Liên kết pi là liên kết không bền vững\n>> cho nên dễ dàng bị phá vỡ ở chỗ này.\n>> Phá vỡ để làm gì đây ạ?\n>> Có thể chuyển dễ dàng cắt nhỏ các phân\n>> cắt nhỏ để tạo thành các\n>> axetin.\n>> Axetin coenzyma ở trong đâu?\nở trong\n>> ở trong ti thể\n>> để nó đốt cháy.\n>> Vâng.\n>> Chúng ta đang biến một cái axit béo này,\nmột cái axit béo chuỗi dài này trở thành\nnhững các cái chuỗi ngắn, các axinzyma a\nchuỗi ngắn tức là biến thành những đồng\ntiền nhỏ lẻ.\n>> Vâng.\n>> Để chúng ta tiêu.\n>> Vâng. Đúng rồi.\n>> Mà muốn biến thành những đồng tiền nhỏ\nlẻ thì ta sẽ cắt ở những vị trí này.\n>> Vâng.\n>> Và nó càng nhiều liên kết pi thì nó càng\nquý.\n>> Vâng.\n>> Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể."
         },
         {
           "chunk": 5,
@@ -1942,10 +2084,17 @@
           "quote": "Để chúng ta cắt được nó ra. Và khi cắt\nnhư vậy thì sẽ tạo thành những các cái\ncoenzym a tức là những các cái mảnh nhỏ\ncó hai nguyên tử cacbon để chúng ta thực\nhiện cái quá trình đốt cháy cho nó dễ\ndàng ở trong ti thể."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:29:14-01:29:26",
+          "quote": "Nhiều liên kết đôi tức là liên kết pi\ncho nên nó dễ dàng để cắt nhỏ ra. Cắt\ntre đấy. Nhỏ ra thành cái gì?\n>> Thành các đầu tiên là axin coenzyma đúng\nkhông?\n>> Vâng.",
+          "finding": "Có giải thích cắt nhỏ nhờ liên kết pi và đốt cháy trong ti thể, nhưng đoạn này không nêu chi tiết acetyl-CoA có hai cacbon."
+        }
+      ]
     },
     {
-      "id": "c096",
+      "id": "c102",
       "claim": "Ông nhận xét axit béo càng nhiều liên kết pi thì càng quý.",
       "section": "[02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6",
       "status": "pass",
@@ -1969,26 +2118,26 @@
       "issues": []
     },
     {
-      "id": "c097",
+      "id": "c103",
       "claim": "Màng tế bào chứa rất nhiều enzyme để tiếp nhận axit béo vào cấu tạo màng (chất béo chiếm 30% cấu trúc màng).",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:08:51-02:09:06",
-      "quote": "màng tế bào\nđang là bộ não của tế bào thì trên mỗi\nmàng tế bào này nó có chứa rất nhiều\nenzyme. Nó chứa enzyme. Enzyme này để\nnhiệm vụ gì? là nó nhận ra được các\nomega này nó đến màng tế bào.",
+      "timestamp": "02:08:34-02:08:59",
+      "quote": "Màng tế bào được cấu\ntạo bởi các axit béo mà axit béo ở đây\nchiếm tới 30%.\n30% để cấu tạo lên cái màng tế bào này.\nCấu tạo lên các cái màng tế bào với lại\ncác cái đầu ưa nước và kỵ nước\n>> nó tập trung như thế này.\n>> Vâng.\n>> Thì chúng ta hình dung rằng màng tế bào\nđang là bộ não của tế bào thì trên mỗi\nmàng tế bào này nó có chứa rất nhiều\nenzyme.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:08:51-02:09:06",
-          "quote": "màng tế bào\nđang là bộ não của tế bào thì trên mỗi\nmàng tế bào này nó có chứa rất nhiều\nenzyme. Nó chứa enzyme. Enzyme này để\nnhiệm vụ gì? là nó nhận ra được các\nomega này nó đến màng tế bào."
+          "timestamp": "02:08:34-02:08:59",
+          "quote": "Màng tế bào được cấu\ntạo bởi các axit béo mà axit béo ở đây\nchiếm tới 30%.\n30% để cấu tạo lên cái màng tế bào này.\nCấu tạo lên các cái màng tế bào với lại\ncác cái đầu ưa nước và kỵ nước\n>> nó tập trung như thế này.\n>> Vâng.\n>> Thì chúng ta hình dung rằng màng tế bào\nđang là bộ não của tế bào thì trên mỗi\nmàng tế bào này nó có chứa rất nhiều\nenzyme."
         }
       ],
       "issues": []
     },
     {
-      "id": "c098",
+      "id": "c104",
       "claim": "Do Omega-6 và Omega-3 có cấu trúc hóa học hao hao giống nhau, các enzyme dùng chung rất khó phân biệt và sẽ cạnh tranh dựa trên số lượng: loại axit béo nào xuất hiện nhiều hơn sẽ được enzyme ưu tiên nhận vào để cấu tạo màng tế bào, còn loại ít hơn sẽ bị đẩy vào trong ti thể chỉ để đốt cháy tạo năng lượng.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
@@ -2007,26 +2156,26 @@
       "issues": []
     },
     {
-      "id": "c099",
+      "id": "c105",
       "claim": "Nếu chế độ ăn có quá nhiều Omega-6 (LA và AA) và ít Omega-3 (ALA, DHA), các chất LA và AA sẽ tích tụ trên màng tế bào và kích hoạt sản sinh chất gây viêm Prostaglandin E2 (PGE2) cùng nhiều yếu tố gây viêm khác.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:14:25-02:14:52",
-      "quote": "AA khi mà nó tích hợp ở màng tế bào này\nnó sẽ thể hiện cái chức năng đó là nó\nkích hoạt để tạo lên cái chất viêm là PG\nE2.\nPGE2 chính là Protagladin E2.\nProtagadin E2 đây chính là một trong\nnhững các cái chất viêm mà những cái\nchất viêm đấy nó sẽ tạo nên các cái phản\nứng viêm. Ngoài cái protagin E2 ra thì\nnó còn có những yếu tố gây viêm nữa.",
+      "timestamp": "02:14:22-02:14:52",
+      "quote": "Na và\nAA khi mà nó tích hợp ở màng tế bào này\nnó sẽ thể hiện cái chức năng đó là nó\nkích hoạt để tạo lên cái chất viêm là PG\nE2.\nPGE2 chính là Protagladin E2.\nProtagadin E2 đây chính là một trong\nnhững các cái chất viêm mà những cái\nchất viêm đấy nó sẽ tạo nên các cái phản\nứng viêm. Ngoài cái protagin E2 ra thì\nnó còn có những yếu tố gây viêm nữa.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:14:25-02:14:52",
-          "quote": "AA khi mà nó tích hợp ở màng tế bào này\nnó sẽ thể hiện cái chức năng đó là nó\nkích hoạt để tạo lên cái chất viêm là PG\nE2.\nPGE2 chính là Protagladin E2.\nProtagadin E2 đây chính là một trong\nnhững các cái chất viêm mà những cái\nchất viêm đấy nó sẽ tạo nên các cái phản\nứng viêm. Ngoài cái protagin E2 ra thì\nnó còn có những yếu tố gây viêm nữa."
+          "timestamp": "02:14:22-02:14:52",
+          "quote": "Na và\nAA khi mà nó tích hợp ở màng tế bào này\nnó sẽ thể hiện cái chức năng đó là nó\nkích hoạt để tạo lên cái chất viêm là PG\nE2.\nPGE2 chính là Protagladin E2.\nProtagadin E2 đây chính là một trong\nnhững các cái chất viêm mà những cái\nchất viêm đấy nó sẽ tạo nên các cái phản\nứng viêm. Ngoài cái protagin E2 ra thì\nnó còn có những yếu tố gây viêm nữa."
         }
       ],
       "issues": []
     },
     {
-      "id": "c100",
+      "id": "c106",
       "claim": "Tình trạng này dẫn đến phản ứng đau, tăng tính thấm thành mạch, tăng tính thấm mô liên kết và gây ra nhiều bệnh lý:",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
@@ -2045,83 +2194,83 @@
       "issues": []
     },
     {
-      "id": "c101",
+      "id": "c107",
       "claim": "Tại khớp: gây đau, dày bao hoạt dịch, tràn dịch ổ khớp, về lâu dài dẫn đến viêm khớp mãn tính và viêm khớp dạng thấp.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:17:00-02:17:05",
-      "quote": "cuối cùng nó trở thành từ viêm cấp\ntính chuyển thành viêm mãn tính và cuối\ncùng nó trở thành viêm khớp dạng thấp",
+      "timestamp": "02:16:33-02:17:05",
+      "quote": "quý vị\nthấy đau, tiếp theo là quý vị bị viêm\nthì sẽ dày bao hoạt dịch lên và đi siêu\nâm bác sĩ sẽ chẩn đoán là bao hoạt dịch\ndày. Tiếp theo nữa là chúng ta sẽ tràn\ndịch ổ khớp và tràn dịch ổ khớp nó thành\nmột cái vòng xoắn bệnh lý là khi nó tràn\nnó đẩy căng cái bao khớp nên đau khủng\nkhiếp. Bệnh nhân sẽ vô cùng đau, phải\nchọc hút bớt dịch ra chứ không thì đau\nkhông thể chịu được.\ntiết dịch ra rồi xong lâu dần như thế\nthì cái quá trình viêm nó cứ lặp đi lặp\nlại cuối cùng nó trở thành từ viêm cấp\ntính chuyển thành viêm mãn tính và cuối\ncùng nó trở thành viêm khớp dạng thấp",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:17:00-02:17:05",
-          "quote": "cuối cùng nó trở thành từ viêm cấp\ntính chuyển thành viêm mãn tính và cuối\ncùng nó trở thành viêm khớp dạng thấp"
+          "timestamp": "02:16:33-02:17:05",
+          "quote": "quý vị\nthấy đau, tiếp theo là quý vị bị viêm\nthì sẽ dày bao hoạt dịch lên và đi siêu\nâm bác sĩ sẽ chẩn đoán là bao hoạt dịch\ndày. Tiếp theo nữa là chúng ta sẽ tràn\ndịch ổ khớp và tràn dịch ổ khớp nó thành\nmột cái vòng xoắn bệnh lý là khi nó tràn\nnó đẩy căng cái bao khớp nên đau khủng\nkhiếp. Bệnh nhân sẽ vô cùng đau, phải\nchọc hút bớt dịch ra chứ không thì đau\nkhông thể chịu được.\ntiết dịch ra rồi xong lâu dần như thế\nthì cái quá trình viêm nó cứ lặp đi lặp\nlại cuối cùng nó trở thành từ viêm cấp\ntính chuyển thành viêm mãn tính và cuối\ncùng nó trở thành viêm khớp dạng thấp"
         }
       ],
       "issues": []
     },
     {
-      "id": "c102",
+      "id": "c108",
       "claim": "Tại gan, tụy, thận: gây tổn thương tế bào gan, gan nhiễm mỡ, rối loạn chuyển hóa mỡ máu, tiểu đường, viêm thận kẽ, viêm cầu thận, viêm ống thận, viêm thận tự miễn.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:17:55-02:18:23",
-      "quote": "Đầu tiên\nlà gan nhiễm mỡ, sau đấy thì mỡ máu\ntăng. Nó đi vào trong tụy thì sẽ gì ạ?\nNó gây ra những các cái rối loạn chẳng\nhạn như là gì? Như là tiểu đường. Nó gây\nra tiểu đường. Thế rồi thì nó đi vào\nthận nó sẽ gây ra tổn thương của những\ncái bệnh mãn tính của thận. Ví dụ như\nviêm thận kẽ, viêm cẩu thận, viêm ống\nthận vân vân. Tất cả thậm chí là viêm\nthận tự miễn",
+      "timestamp": "02:17:31-02:18:23",
+      "quote": "Ví dụ như là nó\nvào trong gan thì nó sẽ gây tổn thương\ncủa tế bào gan, gây viêm tổn thương của\ntế bào gan, nó sẽ làm cho gan của chúng\nta bị nhiễm mỡ. Và khi gan tế bào gan nó\nbị tổn thương rồi thì sẽ dẫn tới là rối\nloạn chuyển hóa của gan. Mà rối loạn\nchuyển hóa của gan thì sẽ dẫn tới hiện\ntượng gì ạ? mỡ trong máu tăng lên. Từ\nđấy quý vị sẽ bị là tổn thương. Đầu tiên\nlà gan nhiễm mỡ, sau đấy thì mỡ máu\ntăng. Nó đi vào trong tụy thì sẽ gì ạ?\nNó gây ra những các cái rối loạn chẳng\nhạn như là gì? Như là tiểu đường. Nó gây\nra tiểu đường. Thế rồi thì nó đi vào\nthận nó sẽ gây ra tổn thương của những\ncái bệnh mãn tính của thận. Ví dụ như\nviêm thận kẽ, viêm cẩu thận, viêm ống\nthận vân vân. Tất cả thậm chí là viêm\nthận tự miễn",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:17:55-02:18:23",
-          "quote": "Đầu tiên\nlà gan nhiễm mỡ, sau đấy thì mỡ máu\ntăng. Nó đi vào trong tụy thì sẽ gì ạ?\nNó gây ra những các cái rối loạn chẳng\nhạn như là gì? Như là tiểu đường. Nó gây\nra tiểu đường. Thế rồi thì nó đi vào\nthận nó sẽ gây ra tổn thương của những\ncái bệnh mãn tính của thận. Ví dụ như\nviêm thận kẽ, viêm cẩu thận, viêm ống\nthận vân vân. Tất cả thậm chí là viêm\nthận tự miễn"
+          "timestamp": "02:17:31-02:18:23",
+          "quote": "Ví dụ như là nó\nvào trong gan thì nó sẽ gây tổn thương\ncủa tế bào gan, gây viêm tổn thương của\ntế bào gan, nó sẽ làm cho gan của chúng\nta bị nhiễm mỡ. Và khi gan tế bào gan nó\nbị tổn thương rồi thì sẽ dẫn tới là rối\nloạn chuyển hóa của gan. Mà rối loạn\nchuyển hóa của gan thì sẽ dẫn tới hiện\ntượng gì ạ? mỡ trong máu tăng lên. Từ\nđấy quý vị sẽ bị là tổn thương. Đầu tiên\nlà gan nhiễm mỡ, sau đấy thì mỡ máu\ntăng. Nó đi vào trong tụy thì sẽ gì ạ?\nNó gây ra những các cái rối loạn chẳng\nhạn như là gì? Như là tiểu đường. Nó gây\nra tiểu đường. Thế rồi thì nó đi vào\nthận nó sẽ gây ra tổn thương của những\ncái bệnh mãn tính của thận. Ví dụ như\nviêm thận kẽ, viêm cẩu thận, viêm ống\nthận vân vân. Tất cả thậm chí là viêm\nthận tự miễn"
         }
       ],
       "issues": []
     },
     {
-      "id": "c103",
+      "id": "c109",
       "claim": "Tại đường ruột: gây viêm dạ dày ruột, hội chứng ruột kích thích, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón; khi đã tổn thương đường ruột thì 'rất dễ gây ra' tổn thương tuyến giáp (Hashimoto và Basedow), theo bác sĩ Phúc.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:18:48-02:18:56",
-      "quote": "Khi đã\ntổn thương đường ruột rất dễ gây ra tổn\nthương tiến giáp với hai bệnh là hai\nbệnh gì?\n>> Hasimoto.\n>> Hasimoto và ba đô.",
+      "timestamp": "02:18:23-02:18:56",
+      "quote": "nó tấn công vào cái đường\nruột của chúng ta nó sẽ gây ra viêm của\ndạ dày ruột nó sẽ gây ra hội chứng ruột\ngì ạ?\n>> Ruột kích thích.\n>> Ruột kích thích gội gây ra hội chứng gì\nnữa ạ?\n>> Ờ dò\n>> giò rỉ ruột gây ra hội chứng gì nữa? Gây\nra những tổn thương trào ngược dạ dày\nthực quản\n>> gây ra những các cái gì? Táo bón\n>> gây ra rất nhiều những cái của đường\nruột mà đường ruột là gì?\n>> Ờ cửa ngõ\n>> cửa ngõ của hệ miễn dịch. Vâng. Khi đã\ntổn thương đường ruột rất dễ gây ra tổn\nthương tiến giáp với hai bệnh là hai\nbệnh gì?\n>> Hasimoto.\n>> Hasimoto và ba đô.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:18:48-02:18:56",
-          "quote": "Khi đã\ntổn thương đường ruột rất dễ gây ra tổn\nthương tiến giáp với hai bệnh là hai\nbệnh gì?\n>> Hasimoto.\n>> Hasimoto và ba đô."
+          "timestamp": "02:18:23-02:18:56",
+          "quote": "nó tấn công vào cái đường\nruột của chúng ta nó sẽ gây ra viêm của\ndạ dày ruột nó sẽ gây ra hội chứng ruột\ngì ạ?\n>> Ruột kích thích.\n>> Ruột kích thích gội gây ra hội chứng gì\nnữa ạ?\n>> Ờ dò\n>> giò rỉ ruột gây ra hội chứng gì nữa? Gây\nra những tổn thương trào ngược dạ dày\nthực quản\n>> gây ra những các cái gì? Táo bón\n>> gây ra rất nhiều những cái của đường\nruột mà đường ruột là gì?\n>> Ờ cửa ngõ\n>> cửa ngõ của hệ miễn dịch. Vâng. Khi đã\ntổn thương đường ruột rất dễ gây ra tổn\nthương tiến giáp với hai bệnh là hai\nbệnh gì?\n>> Hasimoto.\n>> Hasimoto và ba đô."
         }
       ],
       "issues": []
     },
     {
-      "id": "c104",
-      "claim": "Các cơ quan khác: thoái hóa chất trắng ở não, mờ mắt, đau mỏi cơ, viêm thần kinh, dị ứng da và bệnh lupus ban đỏ hệ thống.",
+      "id": "c110",
+      "claim": "Các cơ quan khác: viêm loét mạch máu, thoái hóa chất trắng ở não, mờ mắt, đau mỏi cơ, viêm thần kinh, dị ứng da và bệnh lupus ban đỏ hệ thống.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:19:12-02:19:22",
-      "quote": "Nó ở trong các cái cơ thì nó gây ra\nchúng ta đau mỏi cơ của thần kinh nó sẽ\ngây ra viêm thần kinh.\n>> Vâng. lên trên não nó sẽ gây ra thoái\nhóa chất trắng. Vào mắt nó sẽ gây ra\nchúng ta mắt nó mờ đi.",
+      "timestamp": "02:19:06-02:19:22",
+      "quote": "Tiếp theo là nó đi các cái nơi ví dụ nó\nvào trong mạch máu của chúng ta nó gây\nviêm loét của mạch máu ra.\n>> Vâng.\n>> Nó ở trong các cái cơ thì nó gây ra\nchúng ta đau mỏi cơ của thần kinh nó sẽ\ngây ra viêm thần kinh.\n>> Vâng. lên trên não nó sẽ gây ra thoái\nhóa chất trắng. Vào mắt nó sẽ gây ra\nchúng ta mắt nó mờ đi.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:19:12-02:19:22",
-          "quote": "Nó ở trong các cái cơ thì nó gây ra\nchúng ta đau mỏi cơ của thần kinh nó sẽ\ngây ra viêm thần kinh.\n>> Vâng. lên trên não nó sẽ gây ra thoái\nhóa chất trắng. Vào mắt nó sẽ gây ra\nchúng ta mắt nó mờ đi."
+          "timestamp": "02:19:06-02:19:22",
+          "quote": "Tiếp theo là nó đi các cái nơi ví dụ nó\nvào trong mạch máu của chúng ta nó gây\nviêm loét của mạch máu ra.\n>> Vâng.\n>> Nó ở trong các cái cơ thì nó gây ra\nchúng ta đau mỏi cơ của thần kinh nó sẽ\ngây ra viêm thần kinh.\n>> Vâng. lên trên não nó sẽ gây ra thoái\nhóa chất trắng. Vào mắt nó sẽ gây ra\nchúng ta mắt nó mờ đi."
         }
       ],
       "issues": []
     },
     {
-      "id": "c105",
+      "id": "c111",
       "claim": "Về tác dụng của từng axit béo, bác sĩ Phúc nói GLA chống viêm;",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
@@ -2140,26 +2289,26 @@
       "issues": []
     },
     {
-      "id": "c106",
-      "claim": "CLA vừa chống viêm vừa chống ung thư; chất mà caption ghi là 'Alla' thì gây viêm (có thể là AA, phiên âm không rõ);",
+      "id": "c112",
+      "claim": "CLA vừa chống viêm vừa chống ung thư; bác sĩ Phúc nói LA gây viêm còn ALA chống viêm;",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:10:43-02:10:53",
-      "quote": "Thế còn thì CL thì có tác dụng vừa chống\nviêm vừa chống ung thư. Chống viêm cộng\nvới lại ung thư. Còn cái Alla này thì nó\nlại gây viêm.",
+      "timestamp": "02:10:31-02:10:47",
+      "quote": "la viêm còn Alla là chống viêm.\nThế và GL ở đây thì có tác dụng là cái\nnày chống viêm.\nChống viêm.\nThế còn thì CL thì có tác dụng vừa chống\nviêm vừa chống ung thư.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:10:43-02:10:53",
-          "quote": "Thế còn thì CL thì có tác dụng vừa chống\nviêm vừa chống ung thư. Chống viêm cộng\nvới lại ung thư. Còn cái Alla này thì nó\nlại gây viêm."
+          "timestamp": "02:10:31-02:10:47",
+          "quote": "la viêm còn Alla là chống viêm.\nThế và GL ở đây thì có tác dụng là cái\nnày chống viêm.\nChống viêm.\nThế còn thì CL thì có tác dụng vừa chống\nviêm vừa chống ung thư."
         }
       ],
       "issues": []
     },
     {
-      "id": "c107",
+      "id": "c113",
       "claim": "EPA và DHA có nhiều tác dụng, trong đó có chống viêm.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
@@ -2178,48 +2327,74 @@
       "issues": []
     },
     {
-      "id": "c108",
+      "id": "c114",
       "claim": "Ông nói Omega-6 (như LA, AA) rất quan trọng và chỉ gây viêm khi quá nhiều, còn vừa phải thì không gây viêm, nên không thể cắt bỏ hoàn toàn Omega-6 mà chỉ cần giảm xuống.",
       "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:19:53-02:20:07",
-      "quote": "Nhưng mà\ntất cả những cái này nó lại rất quan\ntrọng. Nó chỉ gây ra viêm khi nào? Khi\nmà nó quá nhiều.\n>> Vâng.\n>> Còn nếu như vừa phải thì nó không gây ra\nviêm.\n>> Vâng. Có nghĩa là không cắt bỏ hoàn\ntoàn.\n>> Đúng rồi. Không cắt bỏ. Không thể cắt bỏ\nhoàn toàn được.",
+      "timestamp": "02:19:48-02:20:07",
+      "quote": "chúng ta phải giảm những cái la giảm\nnhững cái AA này đi bằng cách là chúng\nta phải giảm cái omega6 xuống. Nhưng mà\ntất cả những cái này nó lại rất quan\ntrọng. Nó chỉ gây ra viêm khi nào? Khi\nmà nó quá nhiều.\n>> Vâng.\n>> Còn nếu như vừa phải thì nó không gây ra\nviêm.\n>> Vâng. Có nghĩa là không cắt bỏ hoàn\ntoàn.\n>> Đúng rồi. Không cắt bỏ. Không thể cắt bỏ\nhoàn toàn được.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:19:53-02:20:07",
-          "quote": "Nhưng mà\ntất cả những cái này nó lại rất quan\ntrọng. Nó chỉ gây ra viêm khi nào? Khi\nmà nó quá nhiều.\n>> Vâng.\n>> Còn nếu như vừa phải thì nó không gây ra\nviêm.\n>> Vâng. Có nghĩa là không cắt bỏ hoàn\ntoàn.\n>> Đúng rồi. Không cắt bỏ. Không thể cắt bỏ\nhoàn toàn được."
+          "timestamp": "02:19:48-02:20:07",
+          "quote": "chúng ta phải giảm những cái la giảm\nnhững cái AA này đi bằng cách là chúng\nta phải giảm cái omega6 xuống. Nhưng mà\ntất cả những cái này nó lại rất quan\ntrọng. Nó chỉ gây ra viêm khi nào? Khi\nmà nó quá nhiều.\n>> Vâng.\n>> Còn nếu như vừa phải thì nó không gây ra\nviêm.\n>> Vâng. Có nghĩa là không cắt bỏ hoàn\ntoàn.\n>> Đúng rồi. Không cắt bỏ. Không thể cắt bỏ\nhoàn toàn được."
         }
       ],
       "issues": []
     },
     {
-      "id": "c109",
-      "claim": "Bác sĩ Phúc nói tỷ lệ Omega-6/Omega-3 lý tưởng là 1:1.",
-      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "id": "c115",
+      "claim": "Để minh họa chuyện quá mức, bác sĩ Phúc cho rằng uống một chút rượu kích thích tiêu hóa, tinh thần và khí huyết lưu thông, nhưng uống quá nhiều thì ảnh hưởng sức khỏe.",
+      "section": "[02:08:28] Cơ chế cạnh tranh enzyme giữa Omega-6, Omega-3 và nguy cơ gây viêm",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:28:36-02:28:39",
-      "quote": "tốt nhất là tỉ\nlệ 1 chia 1 đúng không ạ? Tỷ lệ 1 chia 1",
+      "timestamp": "02:20:12-02:20:24",
+      "quote": "Chúng ta uống một\nchút rượu thôi thì nó sẽ kích thích hệ\ntiêu hóa, kích thích tinh thần, kích\nthích nhiều cái khí huyết lưu thông sẽ\nrất là tốt. Nhưng mà chúng ta uống rượu\nquá nhiều thì nó sẽ hỏng.\n>> Vâng.\n>> Nó sẽ ảnh hưởng tới sức khỏe.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:28:36-02:28:39",
-          "quote": "tốt nhất là tỉ\nlệ 1 chia 1 đúng không ạ? Tỷ lệ 1 chia 1"
+          "timestamp": "02:20:12-02:20:24",
+          "quote": "Chúng ta uống một\nchút rượu thôi thì nó sẽ kích thích hệ\ntiêu hóa, kích thích tinh thần, kích\nthích nhiều cái khí huyết lưu thông sẽ\nrất là tốt. Nhưng mà chúng ta uống rượu\nquá nhiều thì nó sẽ hỏng.\n>> Vâng.\n>> Nó sẽ ảnh hưởng tới sức khỏe."
         }
       ],
       "issues": []
     },
     {
-      "id": "c110",
+      "id": "c116",
+      "claim": "Bác sĩ Phúc nói tỷ lệ Omega-6/Omega-3 lý tưởng là 1:1.",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "fail",
+      "supported": false,
+      "attributed": false,
+      "qualifications_preserved": true,
+      "timestamp": "02:28:30-02:28:39",
+      "quote": "Trong khi đấy tỉ lệ\nvàng là tất cả những cái này chia cho\nnhau một cách hợp lý và tốt nhất là tỉ\nlệ 1 chia 1 đúng không ạ?",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:28:30-02:28:39",
+          "quote": "Trong khi đấy tỉ lệ\nvàng là tất cả những cái này chia cho\nnhau một cách hợp lý và tốt nhất là tỉ\nlệ 1 chia 1 đúng không ạ?"
+        }
+      ],
+      "issues": [
+        {
+          "chunk": 4,
+          "timestamp": "01:56:45-01:56:50",
+          "quote": "Tỉ\nlệ tối ưu nhất cho hai loại axit béo này\nvới cơ thể là một bột.",
+          "finding": "Trong phần này, tỷ lệ lý tưởng 1:1 thuộc bài báo do Khánh Lành đọc, chưa phải lời bác sĩ Phúc."
+        }
+      ]
+    },
+    {
+      "id": "c117",
       "claim": "Ông dẫn lời một số nghiên cứu/tài liệu rằng 4:1 được chấp nhận, cùng lắm 5:1; đồng thời nhận xét 5:1 đã quá nhiều và khuyên không để tỷ lệ lên tới 4 hoặc 5:1.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
-      "status": "pass",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -2230,18 +2405,20 @@
           "chunk": 5,
           "timestamp": "02:28:43-02:28:56",
           "quote": "Có những\nnghiên cứu và những tài liệu nói rằng\nchấp nhận được tỉ lệ những cái này đem\nchia ra thì là 4 chia 1 thì được. Cùng\nlắm là đến 5 chia 1. 5 chia 1 thì đã là\nquá nhiều rồi."
-        },
-        {
-          "chunk": 6,
-          "timestamp": "02:35:45-02:35:53",
-          "quote": "thì tôi cho\nrằng là chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 6,
+          "timestamp": "02:35:41-02:35:53",
+          "quote": "Thì tôi cho rằng là cái tỉ lệ mà Khánh\nlành đặt ra cái câu hỏi với tôi là tỉ lệ\nnó là bao nhiêu là hợp lý thì tôi cho\nrằng là chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu.",
+          "finding": "Phần này xác nhận lời khuyên không để tỷ lệ tới 4:1 hoặc 5:1; không chứa phần dẫn nghiên cứu chấp nhận các mức đó."
+        }
+      ]
     },
     {
-      "id": "c111",
-      "claim": "Tuy nhiên, tại Mỹ và Châu Âu, người dân đang ăn theo tỷ lệ mất cân bằng lên tới 20:1, khiến các dưỡng chất quý như EPA và DHA bị hòa loãng.",
+      "id": "c118",
+      "claim": "Tuy nhiên, bác sĩ Phúc nói các nghiên cứu ở Mỹ và châu Âu thấy các thành phần này trong khẩu phần, đem chia cho DHA hoặc EPA, có tỷ lệ tới 20:1, khiến các dưỡng chất quý như EPA và DHA bị hòa loãng, không còn ý nghĩa.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
@@ -2259,29 +2436,86 @@
       "issues": []
     },
     {
-      "id": "c112",
+      "id": "c119",
+      "claim": "Khi nói về tỷ lệ 20:1, bác sĩ Phúc còn nêu 'sơ vữa mạch máu', 'Anzimer', 'bakis' và các bệnh tự miễn như những hệ quả mà ông quy cho chế độ ăn mất cân bằng.",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:29:51-02:30:00",
+      "quote": "Bị gan nhiễm\nmỡ nhiều, bị sơ vữa mạch máu nhiều, bị\nAnzimer nhiều, bị bakis nhiều, bị mắt mờ\nnhiều, bị đầu chúng ta ngu nhiều, đúng\nkhông ạ? bị những cái bệnh tự miễn nhiều",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:29:51-02:30:00",
+          "quote": "Bị gan nhiễm\nmỡ nhiều, bị sơ vữa mạch máu nhiều, bị\nAnzimer nhiều, bị bakis nhiều, bị mắt mờ\nnhiều, bị đầu chúng ta ngu nhiều, đúng\nkhông ạ? bị những cái bệnh tự miễn nhiều"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c120",
+      "claim": "Bác sĩ Phúc nói LA (Omega-6) chủ yếu dành cho các tạng địa phương ([02:25:04](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8704s)).",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:25:04-02:25:06",
+      "quote": "La thì dành cho các cái tạng địa phương\nlà chính.",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:25:04-02:25:06",
+          "quote": "La thì dành cho các cái tạng địa phương\nlà chính."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c121",
+      "claim": "Còn nếu DHA và EPA thừa thì có thể dành cho gan, mật, tụy, lách và thận ([02:25:15](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8715s)).",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:25:15-02:25:21",
+      "quote": "DHA và EPA có nếu thừa ra thì sẽ dành\ncho các tạng địa phương gan mật tụy lách\nthận được",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:25:15-02:25:21",
+          "quote": "DHA và EPA có nếu thừa ra thì sẽ dành\ncho các tạng địa phương gan mật tụy lách\nthận được"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c122",
       "claim": "Cơ thể chỉ có thể chuyển đổi ALA (từ dầu thực vật) thành EPA và DHA với tỷ lệ rất thấp, thực tế dưới 5% (các tài liệu nêu từ 0 đến 9%), nên không thể trông cậy vào dầu thực vật để bổ sung EPA và DHA.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:26:27-02:26:31",
-      "quote": "Cái quá trình chuyển đổi thực ra là dưới\n5%. Các tài liệu hay dùng con số từ 0\nđến 9%.",
+      "timestamp": "02:26:20-02:26:31",
+      "quote": "Trong các tài liệu là nói từ 0 cho đến\n9%\n>> nhưng mà thực ra thì nó chỉ dưới 5%\nthôi.\n>> Vâng.\n>> Cái quá trình chuyển đổi thực ra là dưới\n5%. Các tài liệu hay dùng con số từ 0\nđến 9%.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:26:27-02:26:31",
-          "quote": "Cái quá trình chuyển đổi thực ra là dưới\n5%. Các tài liệu hay dùng con số từ 0\nđến 9%."
+          "timestamp": "02:26:20-02:26:31",
+          "quote": "Trong các tài liệu là nói từ 0 cho đến\n9%\n>> nhưng mà thực ra thì nó chỉ dưới 5%\nthôi.\n>> Vâng.\n>> Cái quá trình chuyển đổi thực ra là dưới\n5%. Các tài liệu hay dùng con số từ 0\nđến 9%."
         }
       ],
       "issues": []
     },
     {
-      "id": "c113",
+      "id": "c123",
       "claim": "EPA và DHA tập trung chủ yếu trong cá biển sâu hoặc gan cá biển sâu.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
-      "status": "pass",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -2294,10 +2528,17 @@
           "quote": "Gan cá biển sâu hoặc là cá biển sâu đúng\nkhông ạ? thì nó mới tập trung nhiều chứ\ncòn không thì khá là ít những cái thành\nphần này."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:31:23-01:31:28",
+          "quote": "cá biển và cá bản biển sâu thì lúc\nđấy chúng ta mới có được rất rất nhiều\nDHA.",
+          "finding": "Đoạn này nói cá biển sâu nhiều DHA; chưa nêu EPA hoặc gan cá biển sâu."
+        }
+      ]
     },
     {
-      "id": "c114",
+      "id": "c124",
       "claim": "Omega-9 đã có rất nhiều trong thực phẩm nên không cần thiết phải bổ sung.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
@@ -2315,13 +2556,13 @@
         {
           "chunk": 7,
           "timestamp": "03:20:10-03:20:17",
-          "quote": "Và chúng ta luôn luôn nói Omega 3 chứ\nkhông không nên đầu tư vào Omega 6 và\nOmega 9 bởi chế độ ăn của chúng ta đang\ncó xu hướng là thừa rồi."
+          "quote": ">> Và chúng ta luôn luôn nói Omega 3 chứ\nkhông không nên đầu tư vào Omega 6 và\nOmega 9 bởi chế độ ăn của chúng ta đang\ncó xu hướng là thừa rồi."
         }
       ],
       "issues": []
     },
     {
-      "id": "c115",
+      "id": "c125",
       "claim": "Để điều chỉnh chế độ ăn uống và sử dụng dầu ăn hợp lý:",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
@@ -2335,25 +2576,56 @@
           "chunk": 5,
           "timestamp": "02:30:35-02:30:47",
           "quote": "chúng ta cần phải điều chỉnh lại\nchế độ ăn uống. Điều chỉnh chế độ ăn\nuống ở đây là gì? Là chúng ta cần thiết\nphải giảm bớt cái dầu ăn lại chứ chúng\nta không ăn quá nhiều."
+        },
+        {
+          "chunk": 6,
+          "timestamp": "02:35:53-02:35:57",
+          "quote": "chúng ta nên giảm nó đi và chúng ta\nthay đổi lại cái cách sống của chúng ta,\ncách ăn uống của chúng ta"
         }
       ],
       "issues": []
     },
     {
-      "id": "c116",
-      "claim": "Bác sĩ Phúc khuyên mỗi người không nên dùng quá 3 nắp chai bia dầu ăn mỗi ngày.",
+      "id": "c126",
+      "claim": "Bác sĩ Phúc khuyên mỗi người không nên dùng quá 3 nắp chai bia dầu ăn mỗi ngày; nếu nhu cầu vượt mức đó, ông đề nghị dùng mỡ lợn bù vào.",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "flag",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:30:59-02:31:31",
+      "quote": "mỗi một\nngày chúng ta không nên ăn quá ba cái\nnắp chai bia về dầu ăn.\n>> Mỗi người.\n>> Mỗi người.\n>> Vâng.\n>> Ví dụ như là nhà Khánh lành có hai vợ\nchồng, hai đứa con, hai ông bà nội đúng\nkhông ạ? Tổng số là sáu người thì 6 3 18\nnắp chai bia một ngày nếu ăn vượt quá\ncái số lượng đấy thì Khánh lành sẽ\n>> thừa\n>> sẽ sử dụng cái ăn vượt quá thì chúng ta\nsẽ dừng ở con số đó và chúng ta lấy mỡ\nlợn chúng ta bù vào.",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:30:59-02:31:31",
+          "quote": "mỗi một\nngày chúng ta không nên ăn quá ba cái\nnắp chai bia về dầu ăn.\n>> Mỗi người.\n>> Mỗi người.\n>> Vâng.\n>> Ví dụ như là nhà Khánh lành có hai vợ\nchồng, hai đứa con, hai ông bà nội đúng\nkhông ạ? Tổng số là sáu người thì 6 3 18\nnắp chai bia một ngày nếu ăn vượt quá\ncái số lượng đấy thì Khánh lành sẽ\n>> thừa\n>> sẽ sử dụng cái ăn vượt quá thì chúng ta\nsẽ dừng ở con số đó và chúng ta lấy mỡ\nlợn chúng ta bù vào."
+        }
+      ],
+      "issues": [
+        {
+          "chunk": 6,
+          "timestamp": "03:04:05-03:04:11",
+          "quote": "Trong khi\nđấy là chúng ta cũng một ngày chúng ta\nkhông ăn quá ba cái nắp chai bia dầu ăn\ncơ mà.",
+          "finding": "Phần này nhắc giới hạn ba nắp chai bia dầu ăn mỗi ngày, nhưng không có đề nghị dùng mỡ lợn bù vào."
+        }
+      ]
+    },
+    {
+      "id": "c127",
+      "claim": "Đây là lời khuyên của người nói trong video.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:30:59-02:31:08",
-      "quote": "mỗi một\nngày chúng ta không nên ăn quá ba cái\nnắp chai bia về dầu ăn.\n>> Mỗi người.\n>> Mỗi người.",
+      "timestamp": "02:30:59-02:31:05",
+      "quote": "mỗi một\nngày chúng ta không nên ăn quá ba cái\nnắp chai bia về dầu ăn.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:30:59-02:31:08",
-          "quote": "mỗi một\nngày chúng ta không nên ăn quá ba cái\nnắp chai bia về dầu ăn.\n>> Mỗi người.\n>> Mỗi người."
+          "timestamp": "02:30:59-02:31:05",
+          "quote": "mỗi một\nngày chúng ta không nên ăn quá ba cái\nnắp chai bia về dầu ăn."
         },
         {
           "chunk": 6,
@@ -2364,26 +2636,45 @@
       "issues": []
     },
     {
-      "id": "c117",
+      "id": "c128",
+      "claim": "Bác sĩ Phúc nói chỉ giảm bớt chứ không bỏ dầu ăn hoàn toàn, vì theo ông, không ăn dầu ăn khiến tế bào thiếu những thành phần đang được bàn tới và rất nguy hiểm.",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:30:40-02:30:53",
+      "quote": "chúng ta cần thiết\nphải giảm bớt cái dầu ăn lại chứ chúng\nta không ăn quá nhiều. Nếu chúng ta\nkhông ăn dầu ăn thì các tế bào của chúng\nta sẽ không có những thành phần này rất\nnguy hiểm.",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:30:40-02:30:53",
+          "quote": "chúng ta cần thiết\nphải giảm bớt cái dầu ăn lại chứ chúng\nta không ăn quá nhiều. Nếu chúng ta\nkhông ăn dầu ăn thì các tế bào của chúng\nta sẽ không có những thành phần này rất\nnguy hiểm."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c129",
       "claim": "Đa dạng hóa các loại dầu ăn: Không mua can dầu lớn vì dầu ăn chứa nhiều liên kết pi rất dễ bị oxy hóa và ôi thiu khi mở nắp lâu.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:32:30-02:32:42",
-      "quote": "Một can dầu lớn\nvề chúng ta sẽ ăn trong một thời gian\nrất dài. Một can dầu lớn đó mở ra nó\nkhác với lại mỡ lợn. Mỡ lợn để được rất\nlâu nhưng dầu ăn thì nhanh chóng bị oxy\nhóa",
+      "timestamp": "02:32:25-02:32:57",
+      "quote": "Quý vị đang có\nmột cái sai lầm rất lớn là chúng ta mua\ncả một cái can dầu lớn. Một can dầu lớn\nvề chúng ta sẽ ăn trong một thời gian\nrất dài. Một can dầu lớn đó mở ra nó\nkhác với lại mỡ lợn. Mỡ lợn để được rất\nlâu nhưng dầu ăn thì nhanh chóng bị oxy\nhóa bởi vì nó có đang có gì mà nó oxy\nhóa?\n>> Đang có liên kết liên kết pi nó không\nbền cho nó rất dễ bị oxy hóa\n>> dẫn tới hiện tượng là dầu ăn nó tạo\nthành những cái sản phẩm độc hại nó còn\ngọi là dầu ăn nó bị ôi.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:32:30-02:32:42",
-          "quote": "Một can dầu lớn\nvề chúng ta sẽ ăn trong một thời gian\nrất dài. Một can dầu lớn đó mở ra nó\nkhác với lại mỡ lợn. Mỡ lợn để được rất\nlâu nhưng dầu ăn thì nhanh chóng bị oxy\nhóa"
+          "timestamp": "02:32:25-02:32:57",
+          "quote": "Quý vị đang có\nmột cái sai lầm rất lớn là chúng ta mua\ncả một cái can dầu lớn. Một can dầu lớn\nvề chúng ta sẽ ăn trong một thời gian\nrất dài. Một can dầu lớn đó mở ra nó\nkhác với lại mỡ lợn. Mỡ lợn để được rất\nlâu nhưng dầu ăn thì nhanh chóng bị oxy\nhóa bởi vì nó có đang có gì mà nó oxy\nhóa?\n>> Đang có liên kết liên kết pi nó không\nbền cho nó rất dễ bị oxy hóa\n>> dẫn tới hiện tượng là dầu ăn nó tạo\nthành những cái sản phẩm độc hại nó còn\ngọi là dầu ăn nó bị ôi."
         }
       ],
       "issues": []
     },
     {
-      "id": "c118",
+      "id": "c130",
       "claim": "Nên mua các chai dầu nhỏ thuộc nhiều loại khác nhau và luân phiên thay đổi.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
@@ -2402,7 +2693,7 @@
       "issues": []
     },
     {
-      "id": "c119",
+      "id": "c131",
       "claim": "Mua dầu ăn ở siêu thị, cửa hàng uy tín, đúng hạn sử dụng, và sau khi mở ra phải dùng trong thời hạn hướng dẫn, không để quá lâu; can to để dành cho nhà hàng nấu nhiều.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
@@ -2421,34 +2712,53 @@
       "issues": []
     },
     {
-      "id": "c120",
+      "id": "c132",
       "claim": "Bác sĩ Phúc khuyên không cố bổ sung Omega-6, Omega-9 hay các thành phần khác; ông nói chúng đã có trong thực phẩm và dầu ăn, và nhấn mạnh nên quan tâm nhất đến EPA và DHA.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:33:58-02:34:04",
-      "quote": "Chúng ta không cố kiết lao đi bổ\nsung Omega 6, Omega 9 hay là các cái\nthành phần khác nữa.",
+      "timestamp": "02:33:58-02:34:23",
+      "quote": "Chúng ta không cố kiết lao đi bổ\nsung Omega 6, Omega 9 hay là các cái\nthành phần khác nữa. Và rất nhiều những\ncác cái nhà sản xuất người ta quảng cáo\ntrong Omegan 3 có nhiều những cái sản\nphẩm này, sản phẩm kia thì chúng ta thấy\nrằng thực ra không cần thiết vì trong\nthực phẩm nó đã có, trong dầu ăn đã có\nrồi.\n>> Chúng ta đã thừa rồi. Vậy chúng ta quan\ntâm nhiều tới cái APA và cái DHA này\nthôi.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:33:58-02:34:04",
-          "quote": "Chúng ta không cố kiết lao đi bổ\nsung Omega 6, Omega 9 hay là các cái\nthành phần khác nữa."
+          "timestamp": "02:33:58-02:34:23",
+          "quote": "Chúng ta không cố kiết lao đi bổ\nsung Omega 6, Omega 9 hay là các cái\nthành phần khác nữa. Và rất nhiều những\ncác cái nhà sản xuất người ta quảng cáo\ntrong Omegan 3 có nhiều những cái sản\nphẩm này, sản phẩm kia thì chúng ta thấy\nrằng thực ra không cần thiết vì trong\nthực phẩm nó đã có, trong dầu ăn đã có\nrồi.\n>> Chúng ta đã thừa rồi. Vậy chúng ta quan\ntâm nhiều tới cái APA và cái DHA này\nthôi."
         },
         {
           "chunk": 6,
-          "timestamp": "02:43:12-02:43:18",
-          "quote": "bổ sung Omega chúng ta quan tâm nhất tới\nAPA và cái DHA. chứ không phải là chúng\n ta quan tâm tới cái khác."
+          "timestamp": "02:42:52-02:43:07",
+          "quote": "Chúng ta không có nhu cầu\nlắm bởi vì trong đồ ăn thức uống thực\nvật, dầu thực vật, chế độ ăn của chúng\nta hàng ngày là bổ sung đủ cho nên chúng\nta không phải lo lắng. Cái chúng ta quan\ntâm nhất đấy chính là cái APA và cái\nDHA."
         }
       ],
       "issues": []
     },
     {
-      "id": "c121",
-      "claim": "Kết hợp dưỡng chất: Việc kiểm soát dầu ăn, bổ sung đúng Omega-3 kết hợp với Vitamin D (ở mức lý tưởng), canxi, magie, kẽm đã giúp nhiều bệnh nhân cải thiện sức khỏe vượt bậc, có thể bỏ được thuốc tim mạch, huyết áp, tiểu đường, mỡ máu và bệnh tuyến giáp.",
+      "id": "c133",
+      "claim": "Bác sĩ Phúc nói lời khuyên này cũng áp dụng khi nhà sản xuất quảng cáo sản phẩm Omega-3 có thêm nhiều thành phần: theo ông, những thành phần ấy không cần thiết vì thực phẩm và dầu ăn đã có.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:34:04-02:34:18",
+      "quote": "rất nhiều những\ncác cái nhà sản xuất người ta quảng cáo\ntrong Omegan 3 có nhiều những cái sản\nphẩm này, sản phẩm kia thì chúng ta thấy\nrằng thực ra không cần thiết vì trong\nthực phẩm nó đã có, trong dầu ăn đã có\nrồi.",
+      "evidence": [
+        {
+          "chunk": 5,
+          "timestamp": "02:34:04-02:34:18",
+          "quote": "rất nhiều những\ncác cái nhà sản xuất người ta quảng cáo\ntrong Omegan 3 có nhiều những cái sản\nphẩm này, sản phẩm kia thì chúng ta thấy\nrằng thực ra không cần thiết vì trong\nthực phẩm nó đã có, trong dầu ăn đã có\nrồi."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c134",
+      "claim": "Kết hợp dưỡng chất: Việc kiểm soát dầu ăn, bổ sung đúng Omega-3 kết hợp với Vitamin D (ở mức lý tưởng), canxi, magie, kẽm đã giúp nhiều bệnh nhân cải thiện sức khỏe vượt bậc, có thể bỏ được thuốc tim mạch, huyết áp, tiểu đường, mỡ máu và bệnh tuyến giáp.",
+      "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -2461,43 +2771,55 @@
           "quote": "nếu quý vị đưa được vitamin D lên\nlý tưởng,\n>> bổ sung canxi ma đúng, bổ sung kém vào\ncác vitamin khác, điều chỉnh lại chế độ\năn dầu ăn và bổ sung omega 3 thì quý vị\ngần như thay đổi rất ngoạn mục.\n>> Rất nhiều người là chúng ta sẽ bỏ được\ngì? bỏ được thuốc tim mạch, bỏ được\nthuốc huyết áp, bỏ được thuốc tiểu\nđường, bỏ được thuốc mỡ máu, bỏ được một\nloạt các cái thuốc bị bệnh ví dụ tiến\ngiáp, tiến này khác."
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "chunk": 3,
+          "timestamp": "01:24:40-01:25:03",
+          "quote": "Khi chúng ta bổ sung vitamin D mà cái\nnồng độ trong máu của chúng ta đạt tới\ncái ngưỡng như thế này cộng với lại\nchúng ta bổ sung Omega 3 đúng\nvà kèm theo đó là chúng ta có bổ sung đủ\ncác vi chất đặc biệt là canxi, ma, các\ncái vitamin kẽm thì có thể nói rằng\ntrạng thái cơ thể chúng ta chuyển sang\nmột cái trạng thái cơ thể rất khác.",
+          "finding": "Có nói phối hợp vitamin D, Omega-3 và vi chất giúp cải thiện cơ thể; chưa có kiểm soát dầu ăn hoặc bỏ thuốc cho các bệnh được liệt kê."
+        }
+      ]
     },
     {
-      "id": "c122",
+      "id": "c135",
       "claim": "Theo bác sĩ Phúc, không nên để tỷ lệ Omega-6 trên Omega-3 lên tới 4/1 hay 5/1.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:35:48-02:35:53",
-      "quote": "chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu.",
+      "timestamp": "02:35:45-02:35:53",
+      "quote": "tôi cho\nrằng là chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:35:48-02:35:53",
-          "quote": "chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu."
+          "timestamp": "02:35:45-02:35:53",
+          "quote": "tôi cho\nrằng là chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu."
         },
         {
           "chunk": 6,
-          "timestamp": "02:35:45-02:35:53",
-          "quote": "thì tôi cho\nrằng là chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu."
+          "timestamp": "02:35:48-02:35:53",
+          "quote": "chúng ta đừng có để cái tỉ lệ\nlên tới 4 hay 5/ên1 cái này là không ổn\nđâu."
         }
       ],
       "issues": []
     },
     {
-      "id": "c123",
+      "id": "c136",
       "claim": "Chúng ta cần giảm tỷ lệ này bằng cách thay đổi thói quen ăn uống và lối sống để giúp cơ thể bước vào trạng thái tốt hơn, phòng tránh bệnh tật.",
       "section": "[02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:35:53-02:36:03",
-      "quote": "chúng ta nên giảm nó đi và chúng ta\nthay đổi lại cái cách sống của chúng ta,\ncách ăn uống của chúng ta thì đây chính\nlà chìa khóa để chúng ta bước vào một\ncái trạng thái cuộc sống khác mà nó tốt\nhơn, nó không bị bệnh tật.",
+      "timestamp": "01:56:30-01:56:45",
+      "quote": "Tóm lại, tỉ lệ omega6/ên omega3 cân bằng\nsẽ mang lại nhiều lợi ích cho sức khỏe\nnhư phòng bệnh tim, giảm viêm, điều hòa\nhuyết áp. Chúng ta nên hạn chế bổ sung\nOmega6 và tăng cường Omega 3 để tránh\nmất cân bằng tỉ lệ hai loại chất này.",
       "evidence": [
+        {
+          "chunk": 4,
+          "timestamp": "01:56:30-01:56:45",
+          "quote": "Tóm lại, tỉ lệ omega6/ên omega3 cân bằng\nsẽ mang lại nhiều lợi ích cho sức khỏe\nnhư phòng bệnh tim, giảm viêm, điều hòa\nhuyết áp. Chúng ta nên hạn chế bổ sung\nOmega6 và tăng cường Omega 3 để tránh\nmất cân bằng tỉ lệ hai loại chất này."
+        },
         {
           "chunk": 5,
           "timestamp": "02:35:53-02:36:03",
@@ -2512,31 +2834,31 @@
       "issues": []
     },
     {
-      "id": "c124",
+      "id": "c137",
       "claim": "Khánh Lành đọc từ một bài báo ba quan niệm sai lầm phổ biến khi chọn Omega-3:",
       "section": "[02:37:13] Những quan niệm sai lầm phổ biến khi chọn và sử dụng Omega-3",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:37:16-02:37:25",
-      "quote": "Đó là\ntiêu đề của một bài viết trên một tờ báo\ncó uy tín khác về sức khỏe mà tôi cũng\nxin được trích dẫn nguyên văn ngay sau\nđây ạ.",
+      "timestamp": "02:37:16-02:37:29",
+      "quote": "Đó là\ntiêu đề của một bài viết trên một tờ báo\ncó uy tín khác về sức khỏe mà tôi cũng\nxin được trích dẫn nguyên văn ngay sau\nđây ạ.\nNhững quan điểm sai lầm hiện nay về cách\nchọn Omega 3 tốt.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:37:16-02:37:25",
-          "quote": "Đó là\ntiêu đề của một bài viết trên một tờ báo\ncó uy tín khác về sức khỏe mà tôi cũng\nxin được trích dẫn nguyên văn ngay sau\nđây ạ."
+          "timestamp": "02:37:16-02:37:29",
+          "quote": "Đó là\ntiêu đề của một bài viết trên một tờ báo\ncó uy tín khác về sức khỏe mà tôi cũng\nxin được trích dẫn nguyên văn ngay sau\nđây ạ.\nNhững quan điểm sai lầm hiện nay về cách\nchọn Omega 3 tốt."
         },
         {
           "chunk": 6,
-          "timestamp": "02:37:16-02:37:25",
-          "quote": "Đó là\ntiêu đề của một bài viết trên một tờ báo\ncó uy tín khác về sức khỏe mà tôi cũng\nxin được trích dẫn nguyên văn ngay sau\nđây ạ."
+          "timestamp": "02:37:13-02:37:29",
+          "quote": "Vâng, thưa quý vị, Omega 3 chọn loại nào\ncho tốt, dùng thế nào cho đúng? Đó là\ntiêu đề của một bài viết trên một tờ báo\ncó uy tín khác về sức khỏe mà tôi cũng\nxin được trích dẫn nguyên văn ngay sau\nđây ạ.\nNhững quan điểm sai lầm hiện nay về cách\nchọn Omega 3 tốt."
         }
       ],
       "issues": []
     },
     {
-      "id": "c125",
+      "id": "c138",
       "claim": "Theo bài báo được Khánh Lành đọc, viên to hoặc hàm lượng ghi trên bao bì lớn không đồng nghĩa với sản phẩm tốt: bài báo cho rằng sản phẩm có DHA và EPA thấp có hiệu quả thấp, còn phần còn lại là phụ gia/tạp chất; viên to gây bất tiện, nhất là với trẻ em và người cao tuổi.",
       "section": "[02:37:13] Những quan niệm sai lầm phổ biến khi chọn và sử dụng Omega-3",
       "status": "pass",
@@ -2553,14 +2875,14 @@
         },
         {
           "chunk": 6,
-          "timestamp": "02:37:46-02:38:02",
-          "quote": "Tuy nhiên, chúng hiệu quả thấp vì chứa\nhàm lượng DHA và EPA rất thấp.\nCác thành phần còn lại chỉ là chất phụ\nda và tạp chất không có tác dụng. Ngoài\nra, Omega 3 có kích thước viên to khi\nuống rất bất tiện, nhất là đối với đối\ntượng là trẻ em và người cao tuổi."
+          "timestamp": "02:37:38-02:38:02",
+          "quote": "Nhiều sản phẩm Omega\n3 hiện nay có kích thước viên rất to\nhoặc lượng Omega 3 ghi trên bao bì lớn.\nTuy nhiên, chúng hiệu quả thấp vì chứa\nhàm lượng DHA và EPA rất thấp.\nCác thành phần còn lại chỉ là chất phụ\nda và tạp chất không có tác dụng. Ngoài\nra, Omega 3 có kích thước viên to khi\nuống rất bất tiện, nhất là đối với đối\ntượng là trẻ em và người cao tuổi."
         }
       ],
       "issues": []
     },
     {
-      "id": "c126",
+      "id": "c139",
       "claim": "Bài báo cho rằng không phải Omega-3 hàng ngoại nào cũng tốt; một số nhà sản xuất nước ngoài dùng công nghệ cũ hoặc dầu cá chưa tinh chế.",
       "section": "[02:37:13] Những quan niệm sai lầm phổ biến khi chọn và sử dụng Omega-3",
       "status": "pass",
@@ -2584,60 +2906,52 @@
       "issues": []
     },
     {
-      "id": "c127",
+      "id": "c140",
       "claim": "Bài báo cho rằng lựa chọn Omega-3 cần phù hợp độ tuổi và nhu cầu sức khỏe; bài báo khuyến nghị DHA cao hơn cho trẻ em và phụ nữ mang thai, EPA cao hơn cho người trung niên, cao tuổi hoặc mắc bệnh tim mạch, huyết áp, mỡ máu.",
       "section": "[02:37:13] Những quan niệm sai lầm phổ biến khi chọn và sử dụng Omega-3",
-      "status": "pass",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:38:41-02:39:05",
-      "quote": "với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn.\ncũng như tỉ lệ DHA trên EPA cho phù hợp.\nVới trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ",
+      "timestamp": "02:38:41-02:39:07",
+      "quote": "Tuy nhiên, với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn.\ncũng như tỉ lệ DHA trên EPA cho phù hợp.\nVới trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ\nmáu thì nên chọn loại giàu EPA hơn.",
       "evidence": [
+        {
+          "chunk": 6,
+          "timestamp": "02:38:41-02:39:07",
+          "quote": "Tuy nhiên, với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn.\ncũng như tỉ lệ DHA trên EPA cho phù hợp.\nVới trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ\nmáu thì nên chọn loại giàu EPA hơn."
+        }
+      ],
+      "issues": [
         {
           "chunk": 5,
           "timestamp": "02:38:41-02:39:05",
-          "quote": "với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn.\ncũng như tỉ lệ DHA trên EPA cho phù hợp.\nVới trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ"
-        },
-        {
-          "chunk": 6,
-          "timestamp": "02:38:57-02:39:07",
-          "quote": "Với trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ\nmáu thì nên chọn loại giàu EPA hơn."
+          "quote": "Tuy nhiên, với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn.\ncũng như tỉ lệ DHA trên EPA cho phù hợp.\nVới trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ",
+          "finding": "Phần này xác nhận lựa chọn theo tuổi, nhu cầu và ưu tiên DHA cho trẻ em, phụ nữ có thai; đoạn bị cắt trước khi nêu ưu tiên EPA cho nhóm còn lại."
         }
-      ],
-      "issues": []
+      ]
     },
     {
-      "id": "c128",
+      "id": "c141",
       "claim": "Các tiêu chí chọn Omega-3 chất lượng gồm:",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:38:41-02:38:48",
-      "quote": "với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn.",
+      "timestamp": "02:39:11-02:39:18",
+      "quote": "Thế nào mới là loại omega 3? Thứ nhất,\nOmega 3 dạng triglycerit có hiệu quả hấp\nthu tốt.",
       "evidence": [
-        {
-          "chunk": 5,
-          "timestamp": "02:38:41-02:38:48",
-          "quote": "với mỗi một độ\ntuổi, mỗi nhu cầu sức khỏe khác nhau thì\nnên chọn sản phẩm Omega 3 có hàm lượng\ngiàu DHA hơn hay là giàu EPA hơn."
-        },
         {
           "chunk": 6,
           "timestamp": "02:39:11-02:39:18",
           "quote": "Thế nào mới là loại omega 3? Thứ nhất,\nOmega 3 dạng triglycerit có hiệu quả hấp\nthu tốt."
-        },
-        {
-          "chunk": 7,
-          "timestamp": "03:13:02-03:13:06",
-          "quote": "chúng ta cẩn\nthận chúng ta phải chọn được những cái\nsản phẩm mà nó có chất lượng."
         }
       ],
       "issues": []
     },
     {
-      "id": "c129",
+      "id": "c142",
       "claim": "Theo bài được đọc, Omega 3 có hai dạng là triglycerit và ethyl ester; dạng triglycerit được các chuyên gia khuyên dùng với ưu điểm vượt trội: bền hơn, ít bị oxy hóa hơn, hấp thu và chuyển hóa tốt hơn, ít tanh và dễ sử dụng hơn loại ethyl ester.",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
       "status": "pass",
@@ -2656,39 +2970,48 @@
       "issues": []
     },
     {
-      "id": "c130",
+      "id": "c143",
+      "claim": "Bài đọc cũng nói nhãn không bắt buộc ghi dạng dầu cá, nhưng dạng triglycerit thường được ghi để khách hàng dễ lựa chọn.",
+      "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:39:45-02:39:53",
+      "quote": "Các sản phẩm Omega 3 không bắt buộc phải\nghi dạng gì lên chân nhãn nhưng Omega 3\ndạng triglycer thường sẽ được ghi chân\nnhãn để khách hàng dễ dàng lựa chọn.",
+      "evidence": [
+        {
+          "chunk": 6,
+          "timestamp": "02:39:45-02:39:53",
+          "quote": "Các sản phẩm Omega 3 không bắt buộc phải\nghi dạng gì lên chân nhãn nhưng Omega 3\ndạng triglycer thường sẽ được ghi chân\nnhãn để khách hàng dễ dàng lựa chọn."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c144",
       "claim": "Hàm lượng DHA và EPA cao.",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:37:46-02:37:49",
-      "quote": "Tuy nhiên, chúng hiệu quả thấp vì chứa\nhàm lượng DHA và EPA rất thấp.",
+      "timestamp": "02:39:53-02:40:00",
+      "quote": "Thứ\nhai là chọn Omega 3 có hàm lượng DHA và\nEPA cao.",
       "evidence": [
-        {
-          "chunk": 5,
-          "timestamp": "02:37:46-02:37:49",
-          "quote": "Tuy nhiên, chúng hiệu quả thấp vì chứa\nhàm lượng DHA và EPA rất thấp."
-        },
         {
           "chunk": 6,
           "timestamp": "02:39:53-02:40:00",
           "quote": "Thứ\nhai là chọn Omega 3 có hàm lượng DHA và\nEPA cao."
-        },
-        {
-          "chunk": 7,
-          "timestamp": "03:08:42-03:08:51",
-          "quote": "Còn muốn cải\nthiện được nhiều bệnh tật bắt đầu 0,6.\nCải thiện tốt thì 0,7, rất tốt thì đến\n0,9 đúng không ạ?"
         }
       ],
       "issues": []
     },
     {
-      "id": "c131",
+      "id": "c145",
       "claim": "Bài được đọc nói nguồn nguyên liệu dầu cá phải đảm bảo sạch và tinh chế, không chứa tạp chất và kim loại nặng; dầu cá Na Uy hiện là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
-      "status": "flag",
+      "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -2701,23 +3024,16 @@
           "quote": "Nguồn nguyên liệu dầu cá để sản xuất các\nsản phẩm Omega 3 phải đảm bảo sạch và\ntinh chế, đồng thời không chứa các tạp\nchất và các kim loại nặng. Dầu cá Na Uy\nhiện nay đang là một trong những nguồn\nnguyên liệu dầu cá hàng đầu thế giới."
         }
       ],
-      "issues": [
-        {
-          "chunk": 5,
-          "timestamp": "02:38:17-02:38:23",
-          "quote": "sử dụng nguồn nguyên liệu dầu\ncá không tinh chế khiến Omega 3 bị giảm\nchất lượng.",
-          "finding": "Có nói dầu cá không tinh chế làm giảm chất lượng, nhưng chưa có nội dung về kim loại nặng hoặc nguồn Na Uy."
-        }
-      ]
+      "issues": []
     },
     {
-      "id": "c132",
-      "claim": "Tỷ lệ DHA/EPA phù hợp đối tượng: Giàu DHA cho trẻ em, phụ nữ mang thai và người cần chăm sóc não, mắt, tim mạch; giàu EPA cho người trung niên, cao tuổi có nguy cơ hoặc đang mắc tim mạch, mỡ máu cao, huyết áp cao.",
+      "id": "c146",
+      "claim": "Theo bài được Khánh Lành đọc, nên chọn loại giàu DHA hơn cho trẻ em, phụ nữ mang thai và người trưởng thành cần chăm sóc não, mắt, tim mạch; loại giàu EPA hơn cho người trung niên, cao tuổi có nguy cơ hoặc đang mắc tim mạch, mỡ máu cao, huyết áp cao.",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
-      "status": "fail",
-      "supported": false,
-      "attributed": false,
-      "qualifications_preserved": false,
+      "status": "flag",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
       "timestamp": "02:40:31-02:40:47",
       "quote": "Với trẻ em, phụ nữ có thai và người\ntrưởng thành cần chăm sóc sức khỏe não,\nmắt và tim mạch thì chọn loại omega 3\ngiàu DHA hơn. Người trung niên và cao\ntuổi cần chọn omega 3 giàu EPA hơn do có\nnguy cơ cao hoặc đang mắc các bệnh tim\nmạch, mỡ máu cao, huyết áp cao.",
       "evidence": [
@@ -2729,15 +3045,34 @@
       ],
       "issues": [
         {
-          "chunk": 7,
-          "timestamp": "03:14:24-03:14:31",
-          "quote": "Quý\nvị đừng nhớ là trẻ em với phụ nữ có thai\nhay là người trung niên hay là cái gì nó\nhơi khó.",
-          "finding": "Đoạn này hướng dẫn theo tình trạng bệnh và nơi ưu tiên tác động, không xác nhận toàn bộ phân nhóm theo tuổi, thai kỳ như bài được đọc."
+          "chunk": 5,
+          "timestamp": "02:38:57-02:39:05",
+          "quote": "Với trẻ em và phụ nữ có thai thì cần ưu\ntiên chọn loại giàu DHA hơn. Còn với\nngười trung niên, người cao tuổi, người\nmắc các bệnh lý tim mạch, huyết áp, mỡ",
+          "finding": "Chỉ phần khuyến nghị DHA cho trẻ em và phụ nữ có thai xuất hiện đầy đủ; chưa có nhóm người trưởng thành chăm sóc não, mắt, tim mạch hoặc câu khuyến nghị EPA hoàn chỉnh."
         }
       ]
     },
     {
-      "id": "c133",
+      "id": "c147",
+      "claim": "Đây là phân nhóm trong bài đọc; ở phần sau, bác sĩ Phúc nhấn mạnh lựa chọn theo tình trạng bệnh, không chỉ theo tuổi hay thai kỳ.",
+      "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "03:14:04-03:14:31",
+      "quote": "Nếu những người bị gan nhiễm mỡ, mỡ máu\nthì chúng ta phải mua APA cao hơn DHA.\nCòn theo chiều ngược lại, theo chiều\nngược lại thì chúng ta lại phải mua DHA\ncao hơn EPA thì nó sẽ có xu hướng là\nhiệu quả hơn. Được chưa ạ? Đây là tôi\nđang lấy ví dụ như là thế thôi. Vậy có\nmột nguyên tắc để mua như thế này. Quý\nvị đừng nhớ là trẻ em với phụ nữ có thai\nhay là người trung niên hay là cái gì nó\nhơi khó.",
+      "evidence": [
+        {
+          "chunk": 7,
+          "timestamp": "03:14:04-03:14:31",
+          "quote": "Nếu những người bị gan nhiễm mỡ, mỡ máu\nthì chúng ta phải mua APA cao hơn DHA.\nCòn theo chiều ngược lại, theo chiều\nngược lại thì chúng ta lại phải mua DHA\ncao hơn EPA thì nó sẽ có xu hướng là\nhiệu quả hơn. Được chưa ạ? Đây là tôi\nđang lấy ví dụ như là thế thôi. Vậy có\nmột nguyên tắc để mua như thế này. Quý\nvị đừng nhớ là trẻ em với phụ nữ có thai\nhay là người trung niên hay là cái gì nó\nhơi khó."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c148",
       "claim": "Theo bài được đọc: được cơ quan có thẩm quyền cấp phép và phân phối bởi công ty dược uy tín, không nên mua hàng xách tay hoặc hàng trôi nổi trên thị trường; riêng hàng xách tay, bác sĩ Phúc nói vẫn có thể là sản phẩm tốt, vấn đề là vận chuyển và bảo quản có đúng cách hay không.",
       "section": "[02:39:11] Các tiêu chí lựa chọn sản phẩm Omega-3 chất lượng",
       "status": "flag",
@@ -2756,36 +3091,36 @@
       "issues": [
         {
           "chunk": 7,
-          "timestamp": "03:10:30-03:10:37",
-          "quote": "xách tay từ nước ngoài về vẫn mua được\nđấy là sản phẩm tốt. Nhưng cái quá trình\nvận chuyển cá quá trình đem về nhà quý\nvị có biết bảo quản hay không?",
-          "finding": "Có lời bác sĩ về hàng xách tay và bảo quản; không có phần bài đọc khuyên công ty dược uy tín và tránh hàng trôi nổi."
+          "timestamp": "03:10:30-03:10:46",
+          "quote": ">> xách tay từ nước ngoài về vẫn mua được\nđấy là sản phẩm tốt. Nhưng cái quá trình\nvận chuyển cá quá trình đem về nhà quý\nvị có biết bảo quản hay không?\n>> Vâng.\n>> Hay là chúng ta bảo quản nó bị sai? Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã.",
+          "finding": "Phần này xác nhận lời bác sĩ về hàng xách tay và bảo quản; không chứa phần bài đọc về công ty dược phân phối và khuyến cáo tránh hàng xách tay, hàng trôi nổi."
         }
       ]
     },
     {
-      "id": "c134",
+      "id": "c149",
       "claim": "Bác sĩ Phúc nói Omega-3 là loại omega quý nhất, trong đó EPA và DHA là hai thành phần quan trọng nhất.",
       "section": "[02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:41:59-02:42:13",
-      "quote": "quý nhất thì vẫn\nchỉ là omega 3 và trong omega 3 quý nhất\nlà cái gì? Quý nhất là cái APA\n>> và cái gì ạ? Và cái DHA. Hai cái này là\ncái quý nhất.",
+      "timestamp": "02:41:56-02:42:13",
+      "quote": "Thế cho nên\nlà chúng ta thấy ở đây quý nhất thì vẫn\nchỉ là omega 3 và trong omega 3 quý nhất\nlà cái gì? Quý nhất là cái APA\n>> và cái gì ạ? Và cái DHA. Hai cái này là\ncái quý nhất.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:41:59-02:42:13",
-          "quote": "quý nhất thì vẫn\nchỉ là omega 3 và trong omega 3 quý nhất\nlà cái gì? Quý nhất là cái APA\n>> và cái gì ạ? Và cái DHA. Hai cái này là\ncái quý nhất."
+          "timestamp": "02:41:56-02:42:13",
+          "quote": "Thế cho nên\nlà chúng ta thấy ở đây quý nhất thì vẫn\nchỉ là omega 3 và trong omega 3 quý nhất\nlà cái gì? Quý nhất là cái APA\n>> và cái gì ạ? Và cái DHA. Hai cái này là\ncái quý nhất."
         }
       ],
       "issues": []
     },
     {
-      "id": "c135",
+      "id": "c150",
       "claim": "Ông cũng nhắc ALA có nhiều trong dầu thực vật và DPA là sản phẩm trung gian.",
       "section": "[02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3",
-      "status": "flag",
+      "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -2798,17 +3133,10 @@
           "quote": "Vì cái DPA thì nó cũng không\nphải là cái sản phẩm chỉ là sản phẩm\ntrung gian thôi.\n>> Vâng.\n>> Và nó thiên hướng nó đi vào cơ. Thế còn\nALA thì có một đặc điểm là trong dầu\nthực vật có rất nhiều."
         }
       ],
-      "issues": [
-        {
-          "chunk": 5,
-          "timestamp": "02:26:43-02:26:47",
-          "quote": "Nếu nói Omega 3 từ\nthực dầu thực vật thì nó chính là ALA,",
-          "finding": "ALA từ dầu thực vật được xác nhận; DPA và vai trò trung gian không xuất hiện trong phần này."
-        }
-      ]
+      "issues": []
     },
     {
-      "id": "c136",
+      "id": "c151",
       "claim": "Đa số cá hồi bán trên thị trường là cá hồi nuôi được cho ăn thực vật và các loại hạt giàu Omega-6 và Omega-9.",
       "section": "[02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3",
       "status": "pass",
@@ -2827,7 +3155,7 @@
       "issues": []
     },
     {
-      "id": "c137",
+      "id": "c152",
       "claim": "Bác sĩ Phúc nói đại đa số cá hồi nuôi mua về có hàm lượng EPA và DHA thấp hơn kỳ vọng trong lý thuyết, vì cá hồi nuôi được cho ăn thực vật.",
       "section": "[02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3",
       "status": "pass",
@@ -2846,7 +3174,7 @@
       "issues": []
     },
     {
-      "id": "c138",
+      "id": "c153",
       "claim": "Do đó, chỉ trông chờ vào ăn cá hồi nuôi sẽ không cung cấp đủ lượng Omega-3 cần thiết.",
       "section": "[02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3",
       "status": "pass",
@@ -2865,7 +3193,26 @@
       "issues": []
     },
     {
-      "id": "c139",
+      "id": "c154",
+      "claim": "Bác sĩ Phúc nói trong dầu cá, omega 3 tồn tại chủ yếu ở dạng triglycerit (TG); ngoài ra còn có axit béo tự do nhưng hàm lượng vô cùng thấp, không đáng kể.",
+      "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:47:00-02:47:20",
+      "quote": "Một là tồn tại ở dạng TG là\ntriggerlycerit này là chính. Hai là tồn\ntại ở axit béo tự do. Axit béo tự do.\nĐây nó gắn vào cái triglycerit và gắn\nmột cái nữa là axit béo tự do. Thì cái\nhàm lượng axit béo tự do này vô cùng\nthấp, không đáng kể.",
+      "evidence": [
+        {
+          "chunk": 6,
+          "timestamp": "02:47:00-02:47:20",
+          "quote": "Một là tồn tại ở dạng TG là\ntriggerlycerit này là chính. Hai là tồn\ntại ở axit béo tự do. Axit béo tự do.\nĐây nó gắn vào cái triglycerit và gắn\nmột cái nữa là axit béo tự do. Thì cái\nhàm lượng axit béo tự do này vô cùng\nthấp, không đáng kể."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c155",
       "claim": "Bác sĩ Phúc phân loại 3 dạng dầu cá:",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
@@ -2884,26 +3231,26 @@
       "issues": []
     },
     {
-      "id": "c140",
+      "id": "c156",
       "claim": "Dầu cá tự nhiên (TG - Triglyceride): Ép trực tiếp từ cá hoặc gan cá.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:47:40-02:47:49",
-      "quote": "Đầu tiên là người ta\nlấy các sản phẩm ví dụ cá, gan, cá vân\nvân các cái loài vật\nngười ta sẽ ép nó ra để trở thành dầu.",
+      "timestamp": "02:47:40-02:47:57",
+      "quote": "Đầu tiên là người ta\nlấy các sản phẩm ví dụ cá, gan, cá vân\nvân các cái loài vật\nngười ta sẽ ép nó ra để trở thành dầu.\nThế thì cái đấy là cái sản phẩm đầu tiên\nmà người ta hay nói cái thứ nhất đó là\ngì ạ? Là dầu cá. Dầu cá tự nhiên",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:47:40-02:47:49",
-          "quote": "Đầu tiên là người ta\nlấy các sản phẩm ví dụ cá, gan, cá vân\nvân các cái loài vật\nngười ta sẽ ép nó ra để trở thành dầu."
+          "timestamp": "02:47:40-02:47:57",
+          "quote": "Đầu tiên là người ta\nlấy các sản phẩm ví dụ cá, gan, cá vân\nvân các cái loài vật\nngười ta sẽ ép nó ra để trở thành dầu.\nThế thì cái đấy là cái sản phẩm đầu tiên\nmà người ta hay nói cái thứ nhất đó là\ngì ạ? Là dầu cá. Dầu cá tự nhiên"
         }
       ],
       "issues": []
     },
     {
-      "id": "c141",
+      "id": "c157",
       "claim": "Tổng hàm lượng EPA và DHA luôn nhỏ hơn hoặc bằng 30% (0,3).",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
@@ -2922,65 +3269,83 @@
       "issues": []
     },
     {
-      "id": "c142",
+      "id": "c158",
       "claim": "Ưu điểm là dễ hấp thu, nhưng nhược điểm là chứa nhiều tạp chất, chất béo không cần thiết và có thể chứa kim loại nặng.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:53:44-02:53:47",
-      "quote": "Ưu điểm của dầu cá tự nhiên là gì? Đó là\n dễ hấp thu. Bởi vì nó nó là tự nhiên mà.",
+      "timestamp": "02:53:44-02:54:25",
+      "quote": "Ưu điểm của dầu cá tự nhiên là gì? Đó là\ndễ hấp thu. Bởi vì nó nó là tự nhiên mà.\n>> Chúng ta đánh bắt từ tự nhiên giống như\nlà chúng ta ăn cá thì bây giờ chúng ta\nchỉ có chế biến là ép nó ra thôi. Còn\nkia là chúng ta đang ăn cá tươi bây giờ\nchúng ta ép nó ra thì sản phẩm này nó dễ\nngấm được. Rất dễ ngấm được. Thế nhưng\nmà cái nhược điểm là gì? Thì Khánh lành\nnói lại cho tôi cái\n>> ờ cái hàm lượng omega 3 chưa cao?\n>> Epa và DHA không cao.\n>> Phải nói chính xác là hàm lượng EPA và\nDHA không cao. Nhược điểm nữa là gì?\n>> Ờ có chứa nhiều\n>> có nhiều tạp chất. Nhược điểm nữa là gì?\n>> Có thể chứa kim loại nặng.\n>> Nhược điểm nữa là gì? Rất quan trọng.\n>> Có nhiều axit béo\n>> không cần thiết.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:53:44-02:53:47",
-          "quote": "Ưu điểm của dầu cá tự nhiên là gì? Đó là\n dễ hấp thu. Bởi vì nó nó là tự nhiên mà."
+          "timestamp": "02:53:44-02:54:25",
+          "quote": "Ưu điểm của dầu cá tự nhiên là gì? Đó là\ndễ hấp thu. Bởi vì nó nó là tự nhiên mà.\n>> Chúng ta đánh bắt từ tự nhiên giống như\nlà chúng ta ăn cá thì bây giờ chúng ta\nchỉ có chế biến là ép nó ra thôi. Còn\nkia là chúng ta đang ăn cá tươi bây giờ\nchúng ta ép nó ra thì sản phẩm này nó dễ\nngấm được. Rất dễ ngấm được. Thế nhưng\nmà cái nhược điểm là gì? Thì Khánh lành\nnói lại cho tôi cái\n>> ờ cái hàm lượng omega 3 chưa cao?\n>> Epa và DHA không cao.\n>> Phải nói chính xác là hàm lượng EPA và\nDHA không cao. Nhược điểm nữa là gì?\n>> Ờ có chứa nhiều\n>> có nhiều tạp chất. Nhược điểm nữa là gì?\n>> Có thể chứa kim loại nặng.\n>> Nhược điểm nữa là gì? Rất quan trọng.\n>> Có nhiều axit béo\n>> không cần thiết."
         }
       ],
       "issues": []
     },
     {
-      "id": "c143",
+      "id": "c159",
       "claim": "Bác sĩ Phúc nói các sản phẩm dầu cá tự nhiên ông xem có tỷ lệ (EPA+DHA)/tổng chất béo không quá 0,3; có sản phẩm chỉ đạt 0,06.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:51:10-02:51:19",
-      "quote": "Chúng ta chia đi cũng đều là con số nhỏ\nhơn hoặc bằng 0,3 hết. Cái nào cao nhất\nthì được đến 0,3.\nVà có những sản phẩm tôi đã chia là có\nsản phẩm đã xuống đến 0,06.",
+      "timestamp": "02:51:10-02:51:25",
+      "quote": "Chúng ta chia đi cũng đều là con số nhỏ\nhơn hoặc bằng 0,3 hết. Cái nào cao nhất\nthì được đến 0,3.\nVà có những sản phẩm tôi đã chia là có\nsản phẩm đã xuống đến 0,06.\nCó sản phẩm chia đến 0,06 chứ không đạt\nđược tới 0,3 đâu.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:51:10-02:51:19",
-          "quote": "Chúng ta chia đi cũng đều là con số nhỏ\nhơn hoặc bằng 0,3 hết. Cái nào cao nhất\nthì được đến 0,3.\nVà có những sản phẩm tôi đã chia là có\nsản phẩm đã xuống đến 0,06."
+          "timestamp": "02:51:10-02:51:25",
+          "quote": "Chúng ta chia đi cũng đều là con số nhỏ\nhơn hoặc bằng 0,3 hết. Cái nào cao nhất\nthì được đến 0,3.\nVà có những sản phẩm tôi đã chia là có\nsản phẩm đã xuống đến 0,06.\nCó sản phẩm chia đến 0,06 chứ không đạt\nđược tới 0,3 đâu."
         }
       ],
       "issues": []
     },
     {
-      "id": "c144",
-      "claim": "Ông nhận xét mức 0,06 là “quá thấp”.",
+      "id": "c160",
+      "claim": "Trong cuộc trao đổi, mức 0,06 được nhận xét là “quá thấp” (transcript không xác định chắc người nói câu này).",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
-      "status": "fail",
-      "supported": false,
-      "attributed": false,
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "02:51:26",
       "quote": "Vâng. Đấy thì 0,06 là quá thấp rồi.",
-      "evidence": [],
-      "issues": [
+      "evidence": [
         {
           "chunk": 6,
           "timestamp": "02:51:26",
-          "quote": "Vâng. Đấy thì 0,06 là quá thấp rồi.",
-          "finding": "Câu nhận xét xuất hiện ở lượt đáp bắt đầu bằng “Vâng”; đoạn này không chứng minh chắc chắn bác sĩ là người nói."
+          "quote": "Vâng. Đấy thì 0,06 là quá thấp rồi."
         }
-      ]
+      ],
+      "issues": []
     },
     {
-      "id": "c145",
+      "id": "c161",
+      "claim": "Trong phần dầu cá tự nhiên, bác sĩ Phúc nói ngay cả sản phẩm được quảng cáo nhiều, rất đắt tiền và đem tặng nhau mà ông đề cập cũng cho tỷ lệ không quá 0,3 khi tính theo cách này.",
+      "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:51:02-02:51:12",
+      "quote": "Kể cả những các cái sản phẩm mà được\nquảng cáo rất nhiều quý giá đủ thứ quý\ngiá mà đem tặng nhau vô cùng đắt tiền.\nChúng ta chia đi cũng đều là con số nhỏ\nhơn hoặc bằng 0,3 hết.",
+      "evidence": [
+        {
+          "chunk": 6,
+          "timestamp": "02:51:02-02:51:12",
+          "quote": "Kể cả những các cái sản phẩm mà được\nquảng cáo rất nhiều quý giá đủ thứ quý\ngiá mà đem tặng nhau vô cùng đắt tiền.\nChúng ta chia đi cũng đều là con số nhỏ\nhơn hoặc bằng 0,3 hết."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c162",
       "claim": "Dầu nhuyễn thể (krill) làm từ tôm Nam Cực được cho là an toàn nhờ sống ở vùng biển sạch và vòng đời ngắn (cách nói quảng cáo); bác sĩ Phúc nói an toàn hay không còn phải chờ các nghiên cứu thêm.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
@@ -2999,26 +3364,26 @@
       "issues": []
     },
     {
-      "id": "c146",
+      "id": "c163",
       "claim": "Dầu cá chế biến (EE - Ethyl Ester): Được tinh chế qua phản ứng ester hóa để nâng hàm lượng EPA + DHA lên trên 30%, loại bỏ tạp chất và kim loại nặng.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:56:53-02:57:00",
-      "quote": "Thế thì cái từ cái triglycerit ấy để\ntinh chế nó thì người ta tách nó ra\nthành những các cái axit béo dưới dạng\neste hóa.",
+      "timestamp": "02:58:00-02:58:32",
+      "quote": "Thứ hai là dầu cá chế biến chính là ethy\neste tức là dầu cá ee. Thì dầu cá EE này\ncó ưu điểm là gì ạ? Khánh lành suy ra\ncho tôi cái\n>> ờ hàm lượng\n>> hàm lượng\n>> và DHA cao\n>> EPA cộng với lại DHA cao lên.\n>> Vâng.\n>> Đấy là ưu điểm thứ nhất\n>> cho ít các loại chất béo khác\n>> ít giảm bớt những các cái chất béo không\ncần thiết đi.\n>> Thứ ba nữa là gì ạ? Loại bỏ những tạp\nchất.\n>> Vâng. Thứ tư nó là gì ạ? Thanh lọc những\ncác cái độc chất kim như kim loại nặng\nra khỏi",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:56:53-02:57:00",
-          "quote": "Thế thì cái từ cái triglycerit ấy để\ntinh chế nó thì người ta tách nó ra\nthành những các cái axit béo dưới dạng\neste hóa."
+          "timestamp": "02:58:00-02:58:32",
+          "quote": "Thứ hai là dầu cá chế biến chính là ethy\neste tức là dầu cá ee. Thì dầu cá EE này\ncó ưu điểm là gì ạ? Khánh lành suy ra\ncho tôi cái\n>> ờ hàm lượng\n>> hàm lượng\n>> và DHA cao\n>> EPA cộng với lại DHA cao lên.\n>> Vâng.\n>> Đấy là ưu điểm thứ nhất\n>> cho ít các loại chất béo khác\n>> ít giảm bớt những các cái chất béo không\ncần thiết đi.\n>> Thứ ba nữa là gì ạ? Loại bỏ những tạp\nchất.\n>> Vâng. Thứ tư nó là gì ạ? Thanh lọc những\ncác cái độc chất kim như kim loại nặng\nra khỏi"
         }
       ],
       "issues": []
     },
     {
-      "id": "c147",
+      "id": "c164",
       "claim": "Tuy nhiên, nhược điểm là khó ngấm, khả năng hấp thu giảm xuống còn 74% - 75% so với dầu cá tự nhiên.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
@@ -3037,64 +3402,64 @@
       "issues": []
     },
     {
-      "id": "c148",
+      "id": "c165",
       "claim": "Dầu cá tái tổ hợp (rTG - Re-esterified Triglyceride): Sau khi cô đặc ở dạng EE, nhà sản xuất dùng phản ứng hóa học tái tạo lại cấu trúc Triglycerid.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:59:31-02:59:44",
-      "quote": "dầu cá mà tái tổ hợp lại tức là nó quay\ntrở lại cái này từ cái sau khi mà cô đặc\nlại, tức là sau khi cô đặc thì nó chuyển\nthành ety làm thêm một bước nữa là\n>> triglycerit\n>> cho quay trở lại cái này.",
+      "timestamp": "02:59:31-02:59:50",
+      "quote": "dầu cá mà tái tổ hợp lại tức là nó quay\ntrở lại cái này từ cái sau khi mà cô đặc\nlại, tức là sau khi cô đặc thì nó chuyển\nthành ety làm thêm một bước nữa là\n>> triglycerit\n>> cho quay trở lại cái này.\n>> Vâng.\n>> Tức là cho nó tạo thành các cái phương\npháp hóa học, phản ứng hóa học để nó tạo\nthành cái này",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "02:59:31-02:59:44",
-          "quote": "dầu cá mà tái tổ hợp lại tức là nó quay\ntrở lại cái này từ cái sau khi mà cô đặc\nlại, tức là sau khi cô đặc thì nó chuyển\nthành ety làm thêm một bước nữa là\n>> triglycerit\n>> cho quay trở lại cái này."
+          "timestamp": "02:59:31-02:59:50",
+          "quote": "dầu cá mà tái tổ hợp lại tức là nó quay\ntrở lại cái này từ cái sau khi mà cô đặc\nlại, tức là sau khi cô đặc thì nó chuyển\nthành ety làm thêm một bước nữa là\n>> triglycerit\n>> cho quay trở lại cái này.\n>> Vâng.\n>> Tức là cho nó tạo thành các cái phương\npháp hóa học, phản ứng hóa học để nó tạo\nthành cái này"
         }
       ],
       "issues": []
     },
     {
-      "id": "c149",
+      "id": "c166",
       "claim": "Theo bác sĩ Phúc, dầu cá tái tổ hợp (rTG) 'mang đầy đủ đặc điểm của ety este' (đã cô đặc) và cải thiện khả năng ngấm lên rất nhiều: người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên (lên tới 125%); cũng có những tài liệu nghiên cứu nói rTG ngấm gấp 3 đến 4 lần EE, nhưng có tài liệu nói như thế là 'hơi nhiều quá'; ông nghĩ đến 125% 'có lẽ là hợp lý hơn', đôi khi người ta quảng cáo hơi nhiều.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:00:47-03:00:53",
-      "quote": "Tôi nghĩ rằng là đến 125% thì có\nlẽ là hợp lý hơn chứ còn đôi khi người\nta quảng cáo nó hơi nhiều.",
+      "timestamp": "02:59:53-03:00:53",
+      "quote": "RTG này thì nó mang đầy đủ đặc điểm\ncủa ety este nhưng mà nó cải thiện khả\nnăng ngấm lên rất nhiều.\n>> Vâng.\n>> Và thậm chí người ta cho rằng ngấm tốt\nhơn cả dầu cá tự nhiên.\n>> Vâng.\n>> Tức là nó lên tới ngấm so với dầu cá tự\nnhiên là 125%.\nCái này là chỉ còn có bao nhiêu ạ? 75%.\nNếu cái này ta gọi quy ước nó là 100% đi\nthì cái này tăng lên 125%. Cũng có những\ntài liệu nghiên cứu thầy nói rằng khả\nnăng ngấm của cái này gấp ba cho đến bốn\nlần. Tức là R\ntức là RTG đấy có khả năng gấm ngấm gấp\nba đến bốn lần EE so với EE.\nCó tài liệu thì nói thằng này như thế\nnày hơi nhiều quá.\n>> Ừ. nói rằng ngấm như thế này thì hơi\nnhiều. Tôi nghĩ rằng là đến 125% thì có\nlẽ là hợp lý hơn chứ còn đôi khi người\nta quảng cáo nó hơi nhiều.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:00:47-03:00:53",
-          "quote": "Tôi nghĩ rằng là đến 125% thì có\nlẽ là hợp lý hơn chứ còn đôi khi người\nta quảng cáo nó hơi nhiều."
+          "timestamp": "02:59:53-03:00:53",
+          "quote": "RTG này thì nó mang đầy đủ đặc điểm\ncủa ety este nhưng mà nó cải thiện khả\nnăng ngấm lên rất nhiều.\n>> Vâng.\n>> Và thậm chí người ta cho rằng ngấm tốt\nhơn cả dầu cá tự nhiên.\n>> Vâng.\n>> Tức là nó lên tới ngấm so với dầu cá tự\nnhiên là 125%.\nCái này là chỉ còn có bao nhiêu ạ? 75%.\nNếu cái này ta gọi quy ước nó là 100% đi\nthì cái này tăng lên 125%. Cũng có những\ntài liệu nghiên cứu thầy nói rằng khả\nnăng ngấm của cái này gấp ba cho đến bốn\nlần. Tức là R\ntức là RTG đấy có khả năng gấm ngấm gấp\nba đến bốn lần EE so với EE.\nCó tài liệu thì nói thằng này như thế\nnày hơi nhiều quá.\n>> Ừ. nói rằng ngấm như thế này thì hơi\nnhiều. Tôi nghĩ rằng là đến 125% thì có\nlẽ là hợp lý hơn chứ còn đôi khi người\nta quảng cáo nó hơi nhiều."
         }
       ],
       "issues": []
     },
     {
-      "id": "c150",
+      "id": "c167",
       "claim": "Đây là loại dầu cá cao cấp và có giá đắt nhất.",
       "section": "[02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:01:07-03:01:10",
-      "quote": "và dầu cá thứ ba, loại thứ ba này, loại\nRTG này là sẽ là đắt nhất.",
+      "timestamp": "03:01:04-03:01:10",
+      "quote": "dầu cá thứ hai nó sẽ đắt lên khá nhiều\nvà dầu cá thứ ba, loại thứ ba này, loại\nRTG này là sẽ là đắt nhất.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:01:07-03:01:10",
-          "quote": "và dầu cá thứ ba, loại thứ ba này, loại\nRTG này là sẽ là đắt nhất."
+          "timestamp": "03:01:04-03:01:10",
+          "quote": "dầu cá thứ hai nó sẽ đắt lên khá nhiều\nvà dầu cá thứ ba, loại thứ ba này, loại\nRTG này là sẽ là đắt nhất."
         }
       ],
       "issues": []
     },
     {
-      "id": "c151",
+      "id": "c168",
       "claim": "Bác sĩ Phúc nêu cách tính là lấy tổng EPA + DHA chia cho tổng chất béo.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
@@ -3111,17 +3476,55 @@
         },
         {
           "chunk": 7,
-          "timestamp": "03:08:59-03:09:02",
-          "quote": "cách chọn đây là cách chọn mà chúng\nta tính tỉ lệ của EPA cộng DHA"
+          "timestamp": "03:07:59-03:09:02",
+          "quote": ">> đem chia cho\n>> tổng chất béo.\n>> Tổng chất béo đúng không ạ? Tổng chất\nbéo\n>> để nó ra một cái con số.\nCon số đó sẽ dao động từ 0 phẩy mấy đấy.\n>> Vâng.\n>> 0 ví dụ 0,1 cho đến 0,01 cho đến gì ạ?\nCho đến 0,9 chẳng hạn.\n>> Đúng không ạ? Nó có nhiều hơn 0,9 đấy.\n>> Vâng.\n>> Thế và chúng ta sẽ từ đấy chúng ta sẽ\nlựa chọn.\nThì nếu chúng ta muốn cải thiện của\nchúng ta thật tốt thì chúng ta sẽ đi từ\nđâu đến đâu?\n>> Từ từ trở lên.\n>> 0,5. Ít nhất thì chúng ta 0,3 là chúng\nta thấy rằng là là nó có nhiều cái hay\nrồi. Còn nhỏ hơn 0,3 thì chúng ta nghe\nngóng xem rằng là uống phù hợp với chúng\nta không. Đúng chưa? 0,5. Còn muốn cải\nthiện được nhiều bệnh tật bắt đầu 0,6.\nCải thiện tốt thì 0,7, rất tốt thì đến\n0,9 đúng không ạ? Còn trong này nó có\nnhiều con số 0,75 0,84.\n>> Tôi thấy có những người mua được đến\n0,84 rồi.\n>> Vâng.\nNào, cách chọn đây là cách chọn mà chúng\nta tính tỉ lệ của EPA cộng DHA"
         }
       ],
       "issues": []
     },
     {
-      "id": "c152",
+      "id": "c169",
+      "claim": "Trước đó, ông hướng dẫn nếu không tìm thấy mục tổng chất béo trên nhãn thì tìm khối lượng lớn nhất ghi cho một viên để làm mẫu số ([02:52:18](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=10338s)); đây là cách đọc nhãn ông đề xuất trong video.",
+      "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "02:52:18-02:52:44",
+      "quote": "Nhưng có những sản phẩm chúng ta cũng\nchẳng tìm được những cái từ khóa này là\ngì thì quý vị cứ đi tìm ở trên cái vỏ\nbao bì của nó xem là cái khối lượng lớn\nnhất trong một viên khối lượng lớn nhất\nấy.\nVí dụ người ta ghi rằng là mỗi một viên\ncó chứa bao nhiêu chẳng hạn\n>> có chứa 1500 mg chẳng hạn. Ví dụ như\nthế. Thế thì chúng ta lấy coi như là cái\ntổng lớn nhất.",
+      "evidence": [
+        {
+          "chunk": 6,
+          "timestamp": "02:52:18-02:52:44",
+          "quote": "Nhưng có những sản phẩm chúng ta cũng\nchẳng tìm được những cái từ khóa này là\ngì thì quý vị cứ đi tìm ở trên cái vỏ\nbao bì của nó xem là cái khối lượng lớn\nnhất trong một viên khối lượng lớn nhất\nấy.\nVí dụ người ta ghi rằng là mỗi một viên\ncó chứa bao nhiêu chẳng hạn\n>> có chứa 1500 mg chẳng hạn. Ví dụ như\nthế. Thế thì chúng ta lấy coi như là cái\ntổng lớn nhất."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c170",
+      "claim": "Bác sĩ Phúc còn dặn đọc kỹ tờ hướng dẫn sử dụng để biết sản phẩm là loại dầu cá gì.",
+      "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "03:06:02-03:06:07",
+      "quote": "Thì khi quý vị mua phải đọc kỹ hướng dẫn\nsử dụng, đọc kỹ cái tờ hướng dẫn ấy để\nxem loại dầu cá gì.",
+      "evidence": [
+        {
+          "chunk": 6,
+          "timestamp": "03:06:02-03:06:07",
+          "quote": "Thì khi quý vị mua phải đọc kỹ hướng dẫn\nsử dụng, đọc kỹ cái tờ hướng dẫn ấy để\nxem loại dầu cá gì."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c171",
       "claim": "Với sản phẩm dưới 0,3 (30%), bác sĩ Phúc nói có xu hướng nhiều tạp chất và chất béo không cần thiết, nhưng gần tự nhiên và dễ hấp thu hơn.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
-      "status": "flag",
+      "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
@@ -3134,17 +3537,10 @@
           "quote": "Một là nếu nhỏ hơn 0,3 thì cái chiều này\nđang có gì ạ? Đang có xu hướng nhiều tạp\nchất.\n>> Nhiều tạp chất cộng với lại các cái chất\nbéo không cần thiết.\n>> Vâng.\n>> Chất béo không cần thiết. Được chưa ạ?\n>> Đấy là về phía 0,3 này.\n>> Vâng.\n>> Nhưng mà có cái ưu điểm là gần với tự\nnhiên hơn,\n>> dễ hấp thu hơn\n>> và dễ hấp thu hơn."
         }
       ],
-      "issues": [
-        {
-          "chunk": 7,
-          "timestamp": "03:08:37-03:08:42",
-          "quote": "Còn nhỏ hơn 0,3 thì chúng ta nghe\nngóng xem rằng là uống phù hợp với chúng\nta không.",
-          "finding": "Có nhắc mức dưới 0,3 nhưng không có nhận định về tạp chất, chất béo hay khả năng hấp thu trong đoạn này."
-        }
-      ]
+      "issues": []
     },
     {
-      "id": "c153",
+      "id": "c172",
       "claim": "Ông khuyên người dùng thử và theo dõi; ông lưu ý có người có thể bị tăng mỡ máu hoặc gan nhiễm mỡ sau một thời gian sử dụng.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "flag",
@@ -3165,12 +3561,12 @@
           "chunk": 7,
           "timestamp": "03:08:37-03:08:42",
           "quote": "Còn nhỏ hơn 0,3 thì chúng ta nghe\nngóng xem rằng là uống phù hợp với chúng\nta không.",
-          "finding": "Có khuyên theo dõi sự phù hợp; không có cảnh báo tăng mỡ máu hoặc gan nhiễm mỡ sau sử dụng tại phần này."
+          "finding": "Có lời dặn theo dõi sự phù hợp khi tỷ lệ dưới 0,3; phần này không nêu nguy cơ tăng mỡ máu hoặc gan nhiễm mỡ trong chính bối cảnh sản phẩm dưới 0,3."
         }
       ]
     },
     {
-      "id": "c154",
+      "id": "c173",
       "claim": "Từ 0,3 trở lên: bác sĩ Phúc nói uống có xu hướng hiệu quả hơn, cải thiện sức khỏe tốt hơn.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
@@ -3187,14 +3583,14 @@
         },
         {
           "chunk": 7,
-          "timestamp": "03:08:33-03:08:37",
-          "quote": "Ít nhất thì chúng ta 0,3 là chúng\nta thấy rằng là là nó có nhiều cái hay\nrồi."
+          "timestamp": "03:08:33-03:08:51",
+          "quote": ">> 0,5. Ít nhất thì chúng ta 0,3 là chúng\nta thấy rằng là là nó có nhiều cái hay\nrồi. Còn nhỏ hơn 0,3 thì chúng ta nghe\nngóng xem rằng là uống phù hợp với chúng\nta không. Đúng chưa? 0,5. Còn muốn cải\nthiện được nhiều bệnh tật bắt đầu 0,6.\nCải thiện tốt thì 0,7, rất tốt thì đến\n0,9 đúng không ạ?"
         }
       ],
       "issues": []
     },
     {
-      "id": "c155",
+      "id": "c174",
       "claim": "Từ 0,5 đến 0,6: khá tốt; bác sĩ Phúc nói mức này 'khá đắt rồi' nhưng đa số mọi người chấp nhận được 0,5 đến 0,6.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
@@ -3213,13 +3609,13 @@
       "issues": []
     },
     {
-      "id": "c156",
+      "id": "c175",
       "claim": "Từ 0,6 trở lên, bác sĩ Phúc nói chúng ta sẽ bỏ được nhiều sản phẩm thuốc như thuốc tiểu đường, thuốc mỡ máu, thuốc tim mạch ('Tôi thấy rất nhiều người bỏ được'), thuốc huyết áp; khớp đang đau 'bắt đầu hết đau'; phản ứng viêm dị ứng 'bắt đầu là hết'; viêm xoang, viêm mũi 'hết'; trí nhớ 'bắt đầu cải thiện';",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
-      "status": "flag",
-      "supported": true,
+      "status": "fail",
+      "supported": false,
       "attributed": true,
-      "qualifications_preserved": true,
+      "qualifications_preserved": false,
       "timestamp": "03:02:22-03:02:46",
       "quote": "Lên tới 0,6 nếu quý vị nào mà uống từ\n0,6 trở lên thì chúng ta sẽ bỏ được\nnhiều những các cái sản phẩm thuốc. Ví\ndụ như thuốc tiểu đường, thuốc mỡ máu,\nthuốc tim mạch. Tôi thấy rất nhiều người\nbỏ được. Thế rồi thì thuốc huyết áp, thế\nrồi thì khớp đang đau bắt đầu hết đau.\nNhững cái phản ứng viêm dị ứng các thứ\nbắt đầu là hết. Viêm xoang, viêm mũi các\nthứ nọ kia hết. Thế rồi trí nhớ bắt đầu\ncải thiện.",
       "evidence": [
@@ -3232,15 +3628,15 @@
       "issues": [
         {
           "chunk": 7,
-          "timestamp": "03:08:42-03:08:46",
-          "quote": "Còn muốn cải\nthiện được nhiều bệnh tật bắt đầu 0,6.",
-          "finding": "Chỉ có nhận định chung về cải thiện bệnh từ 0,6; không có danh sách bỏ thuốc và triệu chứng cụ thể."
+          "timestamp": "03:08:42-03:08:51",
+          "quote": "Còn muốn cải\nthiện được nhiều bệnh tật bắt đầu 0,6.\nCải thiện tốt thì 0,7, rất tốt thì đến\n0,9 đúng không ạ?",
+          "finding": "Phần này chỉ nói từ 0,6 bắt đầu cải thiện nhiều bệnh tật; chưa xác minh được các chi tiết bỏ thuốc, hết đau, hết viêm và cải thiện trí nhớ. Không thể suy từ lời nói chung này thành các kết quả cụ thể đó."
         }
       ]
     },
     {
-      "id": "c157",
-      "claim": "Alzheimer 'cải thiện được rất nhiều' (Parkinson được nhắc trong cùng đoạn, người nói không rõ); ông nói từ 0,6 trở lên thì giá thành đắt.",
+      "id": "c176",
+      "claim": "Ông nhắc đến Alzheimer ('nhớ nhớ quên quên') và Parkinson ('run rẩy tay chân'), nói là 'cải thiện được rất nhiều, học hành nó tốt'; ông nói từ 0,6 trở lên thì giá thành đắt.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
       "supported": true,
@@ -3258,7 +3654,7 @@
       "issues": []
     },
     {
-      "id": "c158",
+      "id": "c177",
       "claim": "Bác sĩ Phúc kể tuần trước có mấy bác mang kết quả xét nghiệm đến, nói rằng sau khi uống Omega-3 loại 0,7 thì sau 3 tháng mỡ máu cao về bình thường và chỉ số tiểu đường cũng về bình thường (các bác phản ánh là tốn tiền quá).",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
@@ -3277,7 +3673,7 @@
       "issues": []
     },
     {
-      "id": "c159",
+      "id": "c178",
       "claim": "Khi các bác hỏi liệu mua loại 0,35 rồi uống gấp đôi có thay được loại 0,7 không, ông trả lời rằng điều này liên quan đến vấn đề tinh chế, và uống vào 'không khác gì chúng ta đang ăn mỡ, ăn dầu'.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
@@ -3296,7 +3692,7 @@
       "issues": []
     },
     {
-      "id": "c160",
+      "id": "c179",
       "claim": "Ông cũng nói từ xưa đến nay người ta khuyên giảm ăn đồ chiên rán, xào xáo vì lượng Omega-3 nạp vào không đủ để cân đối.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
       "status": "pass",
@@ -3315,33 +3711,26 @@
       "issues": []
     },
     {
-      "id": "c161",
+      "id": "c180",
       "claim": "Từ 0,9 trở lên: Thường do bác sĩ kê đơn điều trị bệnh, giá thành rất đắt.",
       "section": "[03:01:21] Công thức tính tỷ lệ EPA và DHA để lựa chọn dầu cá",
-      "status": "flag",
+      "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:04:40-03:04:49",
-      "quote": "Còn từ\n0,9 trở lên thì bác sĩ kê đơn để điều\ntrị một số những các cái căn bệnh này\nkhác mang cái tính chất là chúng ta điều\nchỉnh những cái bệnh.",
+      "timestamp": "03:04:40-03:04:59",
+      "quote": "Còn từ\n0,9 trở lên thì bác sĩ kê đơn để điều\ntrị một số những các cái căn bệnh này\nkhác mang cái tính chất là chúng ta điều\nchỉnh những cái bệnh. Nhưng mà quả thực\n0,9 tôi thấy rằng đến giờ phút này vẫn\nsố người mua được 0,9 chỉ đếm trên đầu\nngón tay thôi.\n>> Và dùng nó khác hẳn. dùng cũng khác hẳn\nvà giá thành của nó thì rất đắt.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:04:40-03:04:49",
-          "quote": "Còn từ\n0,9 trở lên thì bác sĩ kê đơn để điều\ntrị một số những các cái căn bệnh này\nkhác mang cái tính chất là chúng ta điều\nchỉnh những cái bệnh."
+          "timestamp": "03:04:40-03:04:59",
+          "quote": "Còn từ\n0,9 trở lên thì bác sĩ kê đơn để điều\ntrị một số những các cái căn bệnh này\nkhác mang cái tính chất là chúng ta điều\nchỉnh những cái bệnh. Nhưng mà quả thực\n0,9 tôi thấy rằng đến giờ phút này vẫn\nsố người mua được 0,9 chỉ đếm trên đầu\nngón tay thôi.\n>> Và dùng nó khác hẳn. dùng cũng khác hẳn\nvà giá thành của nó thì rất đắt."
         }
       ],
-      "issues": [
-        {
-          "chunk": 7,
-          "timestamp": "03:08:48-03:08:51",
-          "quote": "Cải thiện tốt thì 0,7, rất tốt thì đến\n0,9 đúng không ạ?",
-          "finding": "Có nhắc mức 0,9 nhưng không nói bác sĩ kê đơn hay giá rất đắt trong phần này."
-        }
-      ]
+      "issues": []
     },
     {
-      "id": "c162",
+      "id": "c181",
       "claim": "Công thức cấu tạo của Omega-3 chứa nhiều liên kết pi nên rất dễ bị biến tính và oxy hóa qua các phản ứng hóa học.",
       "section": "[03:09:08] Nguyên nhân Omega-3 dễ bị biến tính và cách bảo quản",
       "status": "pass",
@@ -3358,196 +3747,174 @@
         },
         {
           "chunk": 6,
-          "timestamp": "03:10:07-03:10:10",
-          "quote": "Nhiều liên kết pi cho nên rất dễ bị oxy\nhóa, rất dễ bị các cái phản ứng hóa học."
+          "timestamp": "03:10:05-03:10:10",
+          "quote": "vì nó có nhiều liên kết pi.\n>> Vâng.\n>> Nhiều liên kết pi cho nên rất dễ bị oxy\nhóa, rất dễ bị các cái phản ứng hóa học."
         },
         {
           "chunk": 7,
-          "timestamp": "03:10:07-03:10:10",
-          "quote": "Nhiều liên kết pi cho nên rất dễ bị oxy\nhóa, rất dễ bị các cái phản ứng hóa học."
+          "timestamp": "03:10:05-03:10:10",
+          "quote": ">> vì nó có nhiều liên kết pi.\n>> Vâng.\n>> Nhiều liên kết pi cho nên rất dễ bị oxy\nhóa, rất dễ bị các cái phản ứng hóa học."
         }
       ],
       "issues": []
     },
     {
-      "id": "c163",
+      "id": "c182",
       "claim": "Nếu bảo quản sai cách hoặc vận chuyển xách tay không đúng quy chuẩn, Omega-3 sẽ bị hỏng và khi uống vào không có tác dụng khác gì nước lã.",
       "section": "[03:09:08] Nguyên nhân Omega-3 dễ bị biến tính và cách bảo quản",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:10:39-03:10:46",
-      "quote": "Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã.",
+      "timestamp": "03:10:33-03:10:46",
+      "quote": "Nhưng cái quá trình\nvận chuyển cá quá trình đem về nhà quý\nvị có biết bảo quản hay không?\n>> Vâng.\n>> Hay là chúng ta bảo quản nó bị sai? Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã.",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:10:39-03:10:46",
-          "quote": "Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã."
+          "timestamp": "03:10:33-03:10:46",
+          "quote": "Nhưng cái quá trình\nvận chuyển cá quá trình đem về nhà quý\nvị có biết bảo quản hay không?\n>> Vâng.\n>> Hay là chúng ta bảo quản nó bị sai? Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã."
         },
         {
           "chunk": 7,
-          "timestamp": "03:10:39-03:10:46",
-          "quote": "Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã."
+          "timestamp": "03:10:30-03:10:46",
+          "quote": ">> xách tay từ nước ngoài về vẫn mua được\nđấy là sản phẩm tốt. Nhưng cái quá trình\nvận chuyển cá quá trình đem về nhà quý\nvị có biết bảo quản hay không?\n>> Vâng.\n>> Hay là chúng ta bảo quản nó bị sai? Nếu\nbảo quản bị sai thì dầu cá này, Omega\nnày rất nhanh biến tính và nó trở thành\nchúng ta uống như uống nước lã."
         }
       ],
       "issues": []
     },
     {
-      "id": "c164",
+      "id": "c183",
       "claim": "Bác sĩ Phúc khuyên mua Omega-3 ở nhà thuốc uy tín, có giấy phép; ông cũng khuyên không mua quá nhiều hộp để tích trữ vì sản phẩm có thể hỏng trước khi dùng hết.",
       "section": "[03:09:08] Nguyên nhân Omega-3 dễ bị biến tính và cách bảo quản",
-      "status": "pass",
+      "status": "flag",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:10:17-03:10:24",
-      "quote": "Mà\nmuốn mua bảo quản cẩn thận thì chúng ta\nphải đến những hiệu thuốc có uy tín.\n>> Vâng.\n>> Được cấp giấy phép hải. Đồng ý không ạ?",
+      "timestamp": "03:11:48-03:12:02",
+      "quote": "Vậy tốt nhất là quý vị đến những\nhiệu mà\n>> những hiệu có uy tín mua. Và tốt nữa cái\nlà chúng ta đừng mua quá nhiều.\n>> Có người mua đến hàng chục hộp về để sẵn\nđấy xong uống dần chúng ta không bảo\nquản được. Nó hỏng đi, nó biến tính đi\nmất rồi.",
       "evidence": [
+        {
+          "chunk": 7,
+          "timestamp": "03:11:48-03:12:02",
+          "quote": "Vậy tốt nhất là quý vị đến những\nhiệu mà\n>> những hiệu có uy tín mua. Và tốt nữa cái\nlà chúng ta đừng mua quá nhiều.\n>> Có người mua đến hàng chục hộp về để sẵn\nđấy xong uống dần chúng ta không bảo\nquản được. Nó hỏng đi, nó biến tính đi\nmất rồi."
+        }
+      ],
+      "issues": [
         {
           "chunk": 6,
           "timestamp": "03:10:17-03:10:24",
-          "quote": "Mà\nmuốn mua bảo quản cẩn thận thì chúng ta\nphải đến những hiệu thuốc có uy tín.\n>> Vâng.\n>> Được cấp giấy phép hải. Đồng ý không ạ?"
-        },
-        {
-          "chunk": 7,
-          "timestamp": "03:11:51-03:12:02",
-          "quote": "những hiệu có uy tín mua. Và tốt nữa cái\nlà chúng ta đừng mua quá nhiều.\n>> Có người mua đến hàng chục hộp về để sẵn\nđấy xong uống dần chúng ta không bảo\nquản được. Nó hỏng đi, nó biến tính đi\nmất rồi."
+          "quote": "Mà\nmuốn mua bảo quản cẩn thận thì chúng ta\nphải đến những hiệu thuốc có uy tín.\n>> Vâng.\n>> Được cấp giấy phép hải. Đồng ý không ạ?",
+          "finding": "Phần này có lời khuyên mua ở hiệu thuốc uy tín, được cấp phép; không chứa lời khuyên tránh mua nhiều hộp để tích trữ."
         }
-      ],
-      "issues": []
+      ]
     },
     {
-      "id": "c165",
+      "id": "c184",
       "claim": "Ông nói dầu cá, vitamin D, vitamin A và vitamin E đều là những sản phẩm cực kỳ dễ biến tính; có thể mua được sản phẩm thật, có uy tín nhưng nếu bảo quản không tốt thì đem về dùng 'không khác gì nước lã', nên cần đọc hướng dẫn sử dụng về cách bảo quản.",
       "section": "[03:09:08] Nguyên nhân Omega-3 dễ bị biến tính và cách bảo quản",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:10:49-03:10:59",
-      "quote": "quý vị nhớ rằng là đối với lại các\ncái sản phẩm mà dầu cá này, vitamin D\nnày, vitamin A này, vitamin E này, đấy\nlà những sản phẩm cực kỳ dễ biến tính.",
+      "timestamp": "03:10:49-03:11:17",
+      "quote": "Đấy, quý vị nhớ rằng là đối với lại các\ncái sản phẩm mà dầu cá này, vitamin D\nnày, vitamin A này, vitamin E này, đấy\nlà những sản phẩm cực kỳ dễ biến tính.\n>> Vâng.\n>> Và chúng ta rất dễ là mua sản phẩm thật,\ncó uy tín, có chất lượng nhưng đem về sử\ndụng không khác gì nước lã.\nBởi vì rằng là chúng ta bảo quản không\ntốt. Cho nên quý vị phải học cách bảo\nquản bằng cách thôi chương trình đã dài\nhãy đọc trong hướng dẫn sử dụng về cách",
       "evidence": [
         {
           "chunk": 6,
-          "timestamp": "03:10:49-03:10:59",
-          "quote": "quý vị nhớ rằng là đối với lại các\ncái sản phẩm mà dầu cá này, vitamin D\nnày, vitamin A này, vitamin E này, đấy\nlà những sản phẩm cực kỳ dễ biến tính."
+          "timestamp": "03:10:49-03:11:17",
+          "quote": "Đấy, quý vị nhớ rằng là đối với lại các\ncái sản phẩm mà dầu cá này, vitamin D\nnày, vitamin A này, vitamin E này, đấy\nlà những sản phẩm cực kỳ dễ biến tính.\n>> Vâng.\n>> Và chúng ta rất dễ là mua sản phẩm thật,\ncó uy tín, có chất lượng nhưng đem về sử\ndụng không khác gì nước lã.\nBởi vì rằng là chúng ta bảo quản không\ntốt. Cho nên quý vị phải học cách bảo\nquản bằng cách thôi chương trình đã dài\nhãy đọc trong hướng dẫn sử dụng về cách"
         },
         {
           "chunk": 7,
-          "timestamp": "03:10:49-03:10:59",
-          "quote": "Đấy, quý vị nhớ rằng là đối với lại các\ncái sản phẩm mà dầu cá này, vitamin D\nnày, vitamin A này, vitamin E này, đấy\nlà những sản phẩm cực kỳ dễ biến tính."
+          "timestamp": "03:10:49-03:11:19",
+          "quote": ">> Đấy, quý vị nhớ rằng là đối với lại các\ncái sản phẩm mà dầu cá này, vitamin D\nnày, vitamin A này, vitamin E này, đấy\nlà những sản phẩm cực kỳ dễ biến tính.\n>> Vâng.\n>> Và chúng ta rất dễ là mua sản phẩm thật,\ncó uy tín, có chất lượng nhưng đem về sử\ndụng không khác gì nước lã.\nBởi vì rằng là chúng ta bảo quản không\ntốt. Cho nên quý vị phải học cách bảo\nquản bằng cách thôi chương trình đã dài\nhãy đọc trong hướng dẫn sử dụng về cách\nbảo quản."
         }
       ],
       "issues": []
     },
     {
-      "id": "c166",
+      "id": "c185",
       "claim": "Ông cũng lưu ý nên mua sản phẩm được các tổ chức, hiệp hội uy tín công nhận và cấp giấy phép (ông không nêu tên hiệp hội cụ thể, để người xem tự tìm hiểu).",
       "section": "[03:09:08] Nguyên nhân Omega-3 dễ bị biến tính và cách bảo quản",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:12:12-03:12:25",
-      "quote": "chính là mua sản phẩm mà được các tổ\nchức, các hiệp hội người ta công nhận,\nngười ta cấp giấy phép những các cái\nhiệp hội mà có uy tín.\n>> Vâng.\n>> Thì thôi hiệp hội nào tôi không nói nữa,\nquý vị tự tìm lấy. Cái này không khó.",
+      "timestamp": "03:12:08-03:12:25",
+      "quote": "Thế còn một cái lưu ý nữa đó là\nchính là mua sản phẩm mà được các tổ\nchức, các hiệp hội người ta công nhận,\nngười ta cấp giấy phép những các cái\nhiệp hội mà có uy tín.\n>> Vâng.\n>> Thì thôi hiệp hội nào tôi không nói nữa,\nquý vị tự tìm lấy. Cái này không khó.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:12:12-03:12:25",
-          "quote": "chính là mua sản phẩm mà được các tổ\nchức, các hiệp hội người ta công nhận,\nngười ta cấp giấy phép những các cái\nhiệp hội mà có uy tín.\n>> Vâng.\n>> Thì thôi hiệp hội nào tôi không nói nữa,\nquý vị tự tìm lấy. Cái này không khó."
+          "timestamp": "03:12:08-03:12:25",
+          "quote": "Thế còn một cái lưu ý nữa đó là\nchính là mua sản phẩm mà được các tổ\nchức, các hiệp hội người ta công nhận,\nngười ta cấp giấy phép những các cái\nhiệp hội mà có uy tín.\n>> Vâng.\n>> Thì thôi hiệp hội nào tôi không nói nữa,\nquý vị tự tìm lấy. Cái này không khó."
         }
       ],
       "issues": []
     },
     {
-      "id": "c167",
-      "claim": "Bác sĩ Phúc đưa ra nguyên tắc lựa chọn dựa trên nơi các chất ưu tiên đi tới: DHA ưu tiên đi vào não và mắt, còn EPA đi vào tim;",
+      "id": "c186",
+      "claim": "Bác sĩ Phúc đưa ra nguyên tắc lựa chọn dựa trên nơi các chất ưu tiên đi tới: DHA ưu tiên đi vào não và mắt, còn EPA ưu tiên đi vào tim; theo bác sĩ Phúc, phần EPA còn thừa cũng có thể bổ sung cho não (ở đoạn trước ông nói EPA có dành một phần rất nhiều cho não, nhưng ưu thế vẫn dành cho tim).",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:25:21-02:25:23",
-      "quote": "chủ yếu là vẫn dành\ncho não mắt còn cái này dành cho tim.",
+      "timestamp": "02:25:15-02:25:30",
+      "quote": "DHA và EPA có nếu thừa ra thì sẽ dành\ncho các tạng địa phương gan mật tụy lách\nthận được nhưng mà chủ yếu là vẫn dành\ncho não mắt còn cái này dành cho tim.\n>> Vâng.\n>> Tất nhiên EPA dành có dành một phần rất\nnhiều cho não nữa.\n>> Vâng.\n>> Nhưng mà ưu thế thì nó vẫn dành cho tim.",
       "evidence": [
         {
           "chunk": 5,
-          "timestamp": "02:25:21-02:25:23",
-          "quote": "chủ yếu là vẫn dành\ncho não mắt còn cái này dành cho tim."
+          "timestamp": "02:25:15-02:25:30",
+          "quote": "DHA và EPA có nếu thừa ra thì sẽ dành\ncho các tạng địa phương gan mật tụy lách\nthận được nhưng mà chủ yếu là vẫn dành\ncho não mắt còn cái này dành cho tim.\n>> Vâng.\n>> Tất nhiên EPA dành có dành một phần rất\nnhiều cho não nữa.\n>> Vâng.\n>> Nhưng mà ưu thế thì nó vẫn dành cho tim."
         },
         {
           "chunk": 7,
-          "timestamp": "03:14:44-03:14:52",
-          "quote": "DHA thì ưu tiên đi vào não và\n>> mắt.\n>> Còn DPA à EPA thì đi vào đâu ạ?\n>> Đi vào tim. Chúng ta nhớ nguyên tắc đó."
+          "timestamp": "03:14:44-03:14:56",
+          "quote": ">> DHA thì ưu tiên đi vào não và\n>> mắt.\n>> Còn DPA à EPA thì đi vào đâu ạ?\n>> Đi vào tim. Chúng ta nhớ nguyên tắc đó.\nVà EPA nó xu hướng ở ngoài còn thừa nó\nsẽ bổ sung cho não."
         }
       ],
       "issues": []
     },
     {
-      "id": "c168",
-      "claim": "EPA ưu tiên đi vào tim; theo bác sĩ Phúc, phần EPA còn thừa cũng có thể bổ sung cho não.",
+      "id": "c187",
+      "claim": "Theo bác sĩ Phúc, những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "02:25:27-02:25:30",
-      "quote": "Tất nhiên EPA dành có dành một phần rất\nnhiều cho não nữa.\n>> Vâng.\n>> Nhưng mà ưu thế thì nó vẫn dành cho tim.",
+      "timestamp": "03:14:59-03:15:41",
+      "quote": "Thế vì như thế mà những ai đang bị gan\nnhiễm mỡ, bị mỡ máu, bị tiểu đường, bị\nđau khớp, bị tăng huyết áp, nói chung bị\nmột loạt những cái bệnh mà chúng ta vừa\nphân tích ra đấy.\n>> Vâng.\n>> Ngứa ngáy nọ kia, dị ứng vân vân thì\nchúng ta mua EPA tăng lên.\n>> Vâng.\n>> Đặc biệt đặc biệt chúng ta mua EPA tăng\nhơn, tức là tăng ở đây là cái so với lại\nhai cái này với nhau.\n>> Vâng. Đặc biệt là người bị mỡ máu này,\nmỡ máu và gan nhiễm mỡ. Gan nhiễm mỡ thì\nhai người này sẽ chú ý là cái\n>> ưu tiên EPA tăng\n>> EPA tăng hơn so với DHA để nó quét cái\nmỡ máu đi.\n>> Vâng.\n>> Và quét cái gan nhiễm mỡ đi.",
       "evidence": [
         {
-          "chunk": 5,
-          "timestamp": "02:25:27-02:25:30",
-          "quote": "Tất nhiên EPA dành có dành một phần rất\nnhiều cho não nữa.\n>> Vâng.\n>> Nhưng mà ưu thế thì nó vẫn dành cho tim."
-        },
-        {
           "chunk": 7,
-          "timestamp": "03:14:54-03:14:56",
-          "quote": "Và EPA nó xu hướng ở ngoài còn thừa nó\nsẽ bổ sung cho não."
+          "timestamp": "03:14:59-03:15:41",
+          "quote": "Thế vì như thế mà những ai đang bị gan\nnhiễm mỡ, bị mỡ máu, bị tiểu đường, bị\nđau khớp, bị tăng huyết áp, nói chung bị\nmột loạt những cái bệnh mà chúng ta vừa\nphân tích ra đấy.\n>> Vâng.\n>> Ngứa ngáy nọ kia, dị ứng vân vân thì\nchúng ta mua EPA tăng lên.\n>> Vâng.\n>> Đặc biệt đặc biệt chúng ta mua EPA tăng\nhơn, tức là tăng ở đây là cái so với lại\nhai cái này với nhau.\n>> Vâng. Đặc biệt là người bị mỡ máu này,\nmỡ máu và gan nhiễm mỡ. Gan nhiễm mỡ thì\nhai người này sẽ chú ý là cái\n>> ưu tiên EPA tăng\n>> EPA tăng hơn so với DHA để nó quét cái\nmỡ máu đi.\n>> Vâng.\n>> Và quét cái gan nhiễm mỡ đi."
         }
       ],
       "issues": []
     },
     {
-      "id": "c169",
-      "claim": "Theo bác sĩ Phúc, những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi (caption ghi 'phải mua APA cao hơn DHA').",
-      "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
-      "status": "pass",
-      "supported": true,
-      "attributed": true,
-      "qualifications_preserved": true,
-      "timestamp": "03:15:37-03:15:41",
-      "quote": "EPA tăng hơn so với DHA để nó quét cái\nmỡ máu đi.\n>> Vâng.\n>> Và quét cái gan nhiễm mỡ đi.",
-      "evidence": [
-        {
-          "chunk": 7,
-          "timestamp": "03:15:37-03:15:41",
-          "quote": "EPA tăng hơn so với DHA để nó quét cái\nmỡ máu đi.\n>> Vâng.\n>> Và quét cái gan nhiễm mỡ đi."
-        }
-      ],
-      "issues": []
-    },
-    {
-      "id": "c170",
+      "id": "c188",
       "claim": "Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:16:01-03:16:06",
-      "quote": "xét\nnghiệm mỡ máu tăng thì trẻ con nhưng vẫn\ndùng EPA tăng lên.",
+      "timestamp": "03:15:59-03:16:06",
+      "quote": "Hàng ngày tôi siêu âm, tôi\nkhám tôi thấy rất nhiều cháu và xét\nnghiệm mỡ máu tăng thì trẻ con nhưng vẫn\ndùng EPA tăng lên.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:16:01-03:16:06",
-          "quote": "xét\nnghiệm mỡ máu tăng thì trẻ con nhưng vẫn\ndùng EPA tăng lên."
+          "timestamp": "03:15:59-03:16:06",
+          "quote": "Hàng ngày tôi siêu âm, tôi\nkhám tôi thấy rất nhiều cháu và xét\nnghiệm mỡ máu tăng thì trẻ con nhưng vẫn\ndùng EPA tăng lên."
         }
       ],
       "issues": []
     },
     {
-      "id": "c171",
+      "id": "c189",
       "claim": "Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
@@ -3566,26 +3933,26 @@
       "issues": []
     },
     {
-      "id": "c172",
+      "id": "c190",
       "claim": "Ông khuyên nói với con nên ngủ sớm, bỏ game online và video ngắn, đầu tư vào học hành kiến thức có chiều sâu; theo ông, video ngắn và game chỉ kích động tinh thần, ảnh hưởng đến hệ giao cảm và phó giao cảm, dần dần các cháu sẽ bị rối loạn nhịp tim và rối loạn cảm xúc.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:17:45-03:17:53",
-      "quote": "Còn đây là nó kích động về mặt tinh thần\nnó dẫn tới ảnh hưởng tới hệ giao cảm và\nphó giao cảm. Dần dần các cháu sẽ bị rối\nloạn nhịp tim, các cháu sẽ bị rối loạn\ncảm xúc.",
+      "timestamp": "03:17:10-03:17:53",
+      "quote": "Cho nên là về nói với con là nên ngủ\nsớm, nên bỏ game online, nên bỏ xem\nnhững cái vi phim ngắn rồi những các cái\nvideo ngắn, nên bỏ những các cái đi đi,\nchúng ta đầu tư vào học hành kiến thức\ncó chiều sâu chứ còn những cái ngắn đó\nnó rất dễ kích thích cảm xúc. Quý vị nếu\ncó con ở nhà xem video ngắn hay xem hay\nlà chơi game hay gì các con hay hét lên\nhay nhập mình vào trong những các cái\nnhân vật đấy vì những cái đấy nó chỉ\nkích động tinh thần chứ còn nó không có\nchiều sâu để tư duy.\n>> Chiều sâu của tư duy thì bắt đầu lúc đấy\nnão nó mới tiết ra các cái hómôn được.\nCòn đây là nó kích động về mặt tinh thần\nnó dẫn tới ảnh hưởng tới hệ giao cảm và\nphó giao cảm. Dần dần các cháu sẽ bị rối\nloạn nhịp tim, các cháu sẽ bị rối loạn\ncảm xúc.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:17:45-03:17:53",
-          "quote": "Còn đây là nó kích động về mặt tinh thần\nnó dẫn tới ảnh hưởng tới hệ giao cảm và\nphó giao cảm. Dần dần các cháu sẽ bị rối\nloạn nhịp tim, các cháu sẽ bị rối loạn\ncảm xúc."
+          "timestamp": "03:17:10-03:17:53",
+          "quote": "Cho nên là về nói với con là nên ngủ\nsớm, nên bỏ game online, nên bỏ xem\nnhững cái vi phim ngắn rồi những các cái\nvideo ngắn, nên bỏ những các cái đi đi,\nchúng ta đầu tư vào học hành kiến thức\ncó chiều sâu chứ còn những cái ngắn đó\nnó rất dễ kích thích cảm xúc. Quý vị nếu\ncó con ở nhà xem video ngắn hay xem hay\nlà chơi game hay gì các con hay hét lên\nhay nhập mình vào trong những các cái\nnhân vật đấy vì những cái đấy nó chỉ\nkích động tinh thần chứ còn nó không có\nchiều sâu để tư duy.\n>> Chiều sâu của tư duy thì bắt đầu lúc đấy\nnão nó mới tiết ra các cái hómôn được.\nCòn đây là nó kích động về mặt tinh thần\nnó dẫn tới ảnh hưởng tới hệ giao cảm và\nphó giao cảm. Dần dần các cháu sẽ bị rối\nloạn nhịp tim, các cháu sẽ bị rối loạn\ncảm xúc."
         }
       ],
       "issues": []
     },
     {
-      "id": "c173",
+      "id": "c191",
       "claim": "Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
@@ -3593,18 +3960,18 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "03:18:30-03:18:38",
-      "quote": "Còn đừng có để mất cân bằng. Tức là quá\nnhiều DHA mà lại ít EPA hoặc ngược lại\nquá nhiều EPA mà lại ít DHA thì chúng ta\ncũng không nên.",
+      "quote": ">> Còn đừng có để mất cân bằng. Tức là quá\nnhiều DHA mà lại ít EPA hoặc ngược lại\nquá nhiều EPA mà lại ít DHA thì chúng ta\ncũng không nên.",
       "evidence": [
         {
           "chunk": 7,
           "timestamp": "03:18:30-03:18:38",
-          "quote": "Còn đừng có để mất cân bằng. Tức là quá\nnhiều DHA mà lại ít EPA hoặc ngược lại\nquá nhiều EPA mà lại ít DHA thì chúng ta\ncũng không nên."
+          "quote": ">> Còn đừng có để mất cân bằng. Tức là quá\nnhiều DHA mà lại ít EPA hoặc ngược lại\nquá nhiều EPA mà lại ít DHA thì chúng ta\ncũng không nên."
         }
       ],
       "issues": []
     },
     {
-      "id": "c174",
+      "id": "c192",
       "claim": "Nếu người bị gan nhiễm mỡ và mỡ máu mua loại DHA lớn hơn EPA thì khi uống có nguy cơ gan nhiễm mỡ và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
@@ -3623,26 +3990,26 @@
       "issues": []
     },
     {
-      "id": "c175",
+      "id": "c193",
       "claim": "Còn những ai khỏe mạnh, xét nghiệm tốt đẹp, cơ thể không bị bệnh gì thì bác sĩ Phúc nói 'chúng ta mua cái DHA tăng lên một chút' để ưu tiên cho não và mắt, 'sẽ rất thông minh, sẽ mắt sẽ rất tinh'; các cháu không bị gan nhiễm mỡ, không bị mỡ máu uống DHA thì 'sẽ thông minh lên, mắt sáng hơn'.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:16:08-03:16:15",
-      "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt\nđẹp như tranh vẽ, cơ thể chúng ta không\nbị bệnh các thứ gì thì chúng ta mua cái\nDHA tăng lên một chút.",
+      "timestamp": "03:16:08-03:16:34",
+      "quote": ">> Còn những ai khỏe mạnh, xét nghiệm tốt\nđẹp như tranh vẽ, cơ thể chúng ta không\nbị bệnh các thứ gì thì chúng ta mua cái\nDHA tăng lên một chút.\n>> Vâng.\nmua tăng lên một chút để nó ưu tiên cho\nnão và mắt thì chúng ta sẽ rất thông\nminh, sẽ mắt sẽ rất tinh. Thì chính cái\nđiều đó mà giúp cho các cháu không bị\ngan nhiễm mỡ, không bị mỡ máu các cháu\nuống DHA này vào thì các cháu sẽ thông\nminh lên,\n>> mắt sáng hơn,\n>> mắt sẽ sáng hơn.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:16:08-03:16:15",
-          "quote": "Còn những ai khỏe mạnh, xét nghiệm tốt\nđẹp như tranh vẽ, cơ thể chúng ta không\nbị bệnh các thứ gì thì chúng ta mua cái\nDHA tăng lên một chút."
+          "timestamp": "03:16:08-03:16:34",
+          "quote": ">> Còn những ai khỏe mạnh, xét nghiệm tốt\nđẹp như tranh vẽ, cơ thể chúng ta không\nbị bệnh các thứ gì thì chúng ta mua cái\nDHA tăng lên một chút.\n>> Vâng.\nmua tăng lên một chút để nó ưu tiên cho\nnão và mắt thì chúng ta sẽ rất thông\nminh, sẽ mắt sẽ rất tinh. Thì chính cái\nđiều đó mà giúp cho các cháu không bị\ngan nhiễm mỡ, không bị mỡ máu các cháu\nuống DHA này vào thì các cháu sẽ thông\nminh lên,\n>> mắt sáng hơn,\n>> mắt sẽ sáng hơn."
         }
       ],
       "issues": []
     },
     {
-      "id": "c176",
+      "id": "c194",
       "claim": "Về tỷ lệ (EPA+DHA)/tổng chất béo, bác sĩ Phúc nói người có bệnh tật nên mua từ khoảng 0,6–0,7 và ông ưu tiên 0,7 trở lên; người không có bệnh tật có thể xuống 0,5–0,6.",
       "section": "[03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý",
       "status": "pass",
@@ -3661,26 +4028,36 @@
       "issues": []
     },
     {
-      "id": "c177",
+      "id": "c195",
       "claim": "Bộ 7 vi chất dinh dưỡng quan trọng cho cơ thể bao gồm:",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:22:15-03:22:31",
-      "quote": "Và quý vị\ncũng thấy rằng Khánh Lành bắt đầu thuộc\nrất nhiều những kiến thức mặc dù là khó\nkhăn nhưng mà chúng ta bắt đầu chúng ta\nthuộc và cái thuộc đó giúp cho Khánh\nLành ứng dụng được vào cuộc sống tốt\nhơn. Và tôi cũng hy vọng rằng quý vị\nhiểu cái điều này để bổ sung bảy cái vi\nchất này",
+      "timestamp": "00:27:44-00:27:52",
+      "quote": "Bổ sung ít\nnhất bảy vi chất, chúng ta sống tốt,\nthực hành mọi lối sống tích cực và khoa\nhọc",
       "evidence": [
         {
+          "chunk": 1,
+          "timestamp": "00:27:44-00:27:52",
+          "quote": "Bổ sung ít\nnhất bảy vi chất, chúng ta sống tốt,\nthực hành mọi lối sống tích cực và khoa\nhọc"
+        },
+        {
+          "chunk": 3,
+          "timestamp": "01:27:44-01:27:56",
+          "quote": "sau khi quý vị bổ\nsung bảy vi chất như tôi nói và đặc biệt\nta chú ý được cái omega, chú ý được cái\nvitamin D, chú ý được canxi, ma kèm theo\nkẽm và các vitamin nữa."
+        },
+        {
           "chunk": 7,
-          "timestamp": "03:22:15-03:22:31",
-          "quote": "Và quý vị\ncũng thấy rằng Khánh Lành bắt đầu thuộc\nrất nhiều những kiến thức mặc dù là khó\nkhăn nhưng mà chúng ta bắt đầu chúng ta\nthuộc và cái thuộc đó giúp cho Khánh\nLành ứng dụng được vào cuộc sống tốt\nhơn. Và tôi cũng hy vọng rằng quý vị\nhiểu cái điều này để bổ sung bảy cái vi\nchất này"
+          "timestamp": "03:19:54-03:20:07",
+          "quote": "đây là cái bộ ba tam giác vàng. Cái thứ\ntư là cái gì ạ? Cái vitamin tổng hợp\n>> và cái thứ năm là cái gì ạ? Vitamin C.\nCái thứ sáu là gì ạ? kẽm. Cái thứ bảy là\ngì ạ? Chỉnh là omega\n>> là omega 3\n>> mà chúng ta vừa mới nhắc ở đây."
         }
       ],
       "issues": []
     },
     {
-      "id": "c178",
+      "id": "c196",
       "claim": "Magiê (thuộc bộ ba tam giác vàng cùng với Canxi và Vitamin D)",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
@@ -3697,59 +4074,57 @@
         },
         {
           "chunk": 7,
-          "timestamp": "03:19:15-03:19:24",
-          "quote": "bộ ba\ntam giác vàng là mag, canxi và gì ạ? Và\nvitamin D."
+          "timestamp": "03:19:19-03:19:26",
+          "quote": "tam giác vàng là mag, canxi và gì ạ? Và\nvitamin D. Đây là bộ ba tam giác vàng vô\ncùng quan trọng."
         }
       ],
       "issues": []
     },
     {
-      "id": "c179",
+      "id": "c197",
       "claim": "Canxi",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:19:15-03:19:24",
-      "quote": "bộ ba\ntam giác vàng là mag, canxi và gì ạ? Và\nvitamin D.",
+      "timestamp": "03:19:19-03:19:24",
+      "quote": "tam giác vàng là mag, canxi và gì ạ? Và\nvitamin D.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:19:15-03:19:24",
-          "quote": "bộ ba\ntam giác vàng là mag, canxi và gì ạ? Và\nvitamin D."
+          "timestamp": "03:19:19-03:19:24",
+          "quote": "tam giác vàng là mag, canxi và gì ạ? Và\nvitamin D."
         }
       ],
       "issues": []
     },
     {
-      "id": "c180",
-      "claim": "Vitamin D (ngưỡng máu lý tưởng từ 50 đến 70 ng/ml)",
+      "id": "c198",
+      "claim": "Vitamin D (theo quan điểm bác sĩ Phúc và các chuyên gia ông nhắc đến, ngưỡng máu lý tưởng là 50–70 ng/ml)",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
-      "status": "fail",
-      "supported": false,
+      "status": "pass",
+      "supported": true,
       "attributed": true,
-      "qualifications_preserved": false,
-      "timestamp": "01:24:12-01:24:22",
-      "quote": "Nếu như vitamin D mà ta\nđưa lên từ 50 cho đến 70\nng/ml ở trong máu ta xét nghiệm thì đây\nchính là cái con số lý tưởng",
+      "qualifications_preserved": true,
+      "timestamp": "01:24:08-01:24:22",
+      "quote": "có nhiều chuyên gia về dinh\ndưỡng trên thế giới. Và quan điểm của\ntôi cũng thế. Nếu như vitamin D mà ta\nđưa lên từ 50 cho đến 70\nng/ml ở trong máu ta xét nghiệm thì đây\nchính là cái con số lý tưởng",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:24:12-01:24:22",
-          "quote": "Nếu như vitamin D mà ta\nđưa lên từ 50 cho đến 70\nng/ml ở trong máu ta xét nghiệm thì đây\nchính là cái con số lý tưởng"
-        }
-      ],
-      "issues": [
+          "timestamp": "01:24:08-01:24:22",
+          "quote": "có nhiều chuyên gia về dinh\ndưỡng trên thế giới. Và quan điểm của\ntôi cũng thế. Nếu như vitamin D mà ta\nđưa lên từ 50 cho đến 70\nng/ml ở trong máu ta xét nghiệm thì đây\nchính là cái con số lý tưởng"
+        },
         {
           "chunk": 7,
-          "timestamp": "03:19:37-03:19:46",
-          "quote": "ngưỡng lý tưởng ngưỡng phù hợp mà theo\nquan điểm của tôi và nhiều chuyên gia\ndinh dưỡng trên thế giới thì người ta\nđang chọn là từ vitamin D từ bao nhiêu\nạ? Từ 50 đến 70 Ng/ml đúng không ạ?",
-          "finding": "Ngưỡng 50–70 được nêu theo quan điểm bác sĩ và nhiều chuyên gia; claim bỏ điều kiện quy thuộc này."
+          "timestamp": "03:19:37-03:19:51",
+          "quote": "ngưỡng lý tưởng ngưỡng phù hợp mà theo\nquan điểm của tôi và nhiều chuyên gia\ndinh dưỡng trên thế giới thì người ta\nđang chọn là từ vitamin D từ bao nhiêu\nạ? Từ 50 đến 70 Ng/ml đúng không ạ? Máu\nkhi mà chúng ta xét nghiệm"
         }
-      ]
+      ],
+      "issues": []
     },
     {
-      "id": "c181",
+      "id": "c199",
       "claim": "Vitamin tổng hợp",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
@@ -3768,7 +4143,7 @@
       "issues": []
     },
     {
-      "id": "c182",
+      "id": "c200",
       "claim": "Vitamin C",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
@@ -3776,18 +4151,18 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "03:19:59",
-      "quote": "và cái thứ năm là cái gì ạ? Vitamin C.",
+      "quote": ">> và cái thứ năm là cái gì ạ? Vitamin C.",
       "evidence": [
         {
           "chunk": 7,
           "timestamp": "03:19:59",
-          "quote": "và cái thứ năm là cái gì ạ? Vitamin C."
+          "quote": ">> và cái thứ năm là cái gì ạ? Vitamin C."
         }
       ],
       "issues": []
     },
     {
-      "id": "c183",
+      "id": "c201",
       "claim": "Kẽm",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
@@ -3806,20 +4181,20 @@
       "issues": []
     },
     {
-      "id": "c184",
+      "id": "c202",
       "claim": "Omega-3",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "01:20:59-01:21:02",
-      "quote": "Đây cũng là một trong bảy ví\nchất thiết yếu mà bác sĩ Phúc cũng đã\nhướng dẫn quý vị rất nhiều lần",
+      "timestamp": "01:27:44-01:27:50",
+      "quote": "sau khi quý vị bổ\nsung bảy vi chất như tôi nói và đặc biệt\nta chú ý được cái omega",
       "evidence": [
         {
           "chunk": 3,
-          "timestamp": "01:20:59-01:21:02",
-          "quote": "Đây cũng là một trong bảy ví\nchất thiết yếu mà bác sĩ Phúc cũng đã\nhướng dẫn quý vị rất nhiều lần"
+          "timestamp": "01:27:44-01:27:50",
+          "quote": "sau khi quý vị bổ\nsung bảy vi chất như tôi nói và đặc biệt\nta chú ý được cái omega"
         },
         {
           "chunk": 7,
@@ -3830,26 +4205,64 @@
       "issues": []
     },
     {
-      "id": "c185",
+      "id": "c203",
+      "claim": "Bác sĩ Phúc nói trong đại dịch Covid, ở các nước phát triển, nguyên thủ quốc gia luôn có một nhà toán học và một nhà dịch tễ học lâm sàng đi cùng; hai người cùng lập mô hình toán học phòng chống dịch với hàm nhiều biến, có khi tới 20 hoặc 30 biến, để can thiệp vào từng biến một cách hiệu quả và khoa học, và ông dùng đó làm ví dụ về ứng dụng kiến thức toán vào cuộc sống.",
+      "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "03:21:04-03:21:53",
+      "quote": "luôn luôn đi cùng với lại nguyên thủ\nquốc gia của những quốc gia đó là bao\ngiờ cũng có một nhà toán học và có một\nnhà dịch tễ học lâm sàng.\nHai nhà đó sẽ lập ra những các cái gọi\nlà mô hình toán học để chỉ ra được những\ncách phòng chống dịch như thế nào cho nó\nhiệu quả. Còn đấy là các cái nước các\nquốc gia phát triển trên thế giới. Ngoài\nnhững bác sĩ ngoài những nhà chuyên môn\ny khoa thì luôn luôn có nhà toán học\nxuất sắc hàng đầu luôn có nhà dịch tễ\nhọc lâm sàng xuất sắc hàng đầu. Hai\nngười đấy sẽ cùng nhau để lập lên những\nmô hình chống dịch bằng toán học. những\ncác cái hàm số đá biến mà những hàm lên\ntới 20 biến, 30 biến để người ta can\nthiệp vào từng biến một nó mang tính\nhiệu quả và khoa học. Thì đấy là những\ncái mà chúng ta ứng dụng những cái kiến\nthức vào trong cuộc sống.",
+      "evidence": [
+        {
+          "chunk": 7,
+          "timestamp": "03:21:04-03:21:53",
+          "quote": "luôn luôn đi cùng với lại nguyên thủ\nquốc gia của những quốc gia đó là bao\ngiờ cũng có một nhà toán học và có một\nnhà dịch tễ học lâm sàng.\nHai nhà đó sẽ lập ra những các cái gọi\nlà mô hình toán học để chỉ ra được những\ncách phòng chống dịch như thế nào cho nó\nhiệu quả. Còn đấy là các cái nước các\nquốc gia phát triển trên thế giới. Ngoài\nnhững bác sĩ ngoài những nhà chuyên môn\ny khoa thì luôn luôn có nhà toán học\nxuất sắc hàng đầu luôn có nhà dịch tễ\nhọc lâm sàng xuất sắc hàng đầu. Hai\nngười đấy sẽ cùng nhau để lập lên những\nmô hình chống dịch bằng toán học. những\ncác cái hàm số đá biến mà những hàm lên\ntới 20 biến, 30 biến để người ta can\nthiệp vào từng biến một nó mang tính\nhiệu quả và khoa học. Thì đấy là những\ncái mà chúng ta ứng dụng những cái kiến\nthức vào trong cuộc sống."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c204",
       "claim": "Bác sĩ Phúc nói ở một số nước phát triển có xét nghiệm EPA và DHA trong tế bào hồng cầu để hỗ trợ xác định lượng Omega-3 cần bổ sung; theo hiểu biết của ông, xét nghiệm này hiện chưa được thực hiện ở Việt Nam vì chưa có nhu cầu.",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:24:48-03:24:55",
-      "quote": "Thì nó có một cái xét nghiệm Omega 3\nnhưng hiện tại theo tôi được biết thì ở\nViệt Nam chưa làm bởi vì chúng ta chưa\ncó nhu cầu.",
+      "timestamp": "03:24:48-03:25:20",
+      "quote": ">> Thì nó có một cái xét nghiệm Omega 3\nnhưng hiện tại theo tôi được biết thì ở\nViệt Nam chưa làm bởi vì chúng ta chưa\ncó nhu cầu.\n>> Vâng. Thế còn nó có xét nghiệm Omega 3\nmà cụ thể là xét nghiệm EPA\nvà DHA. Ồ\n>> ở trong hồng cầu.\n>> Vâng ạ.\n>> Đấy, xét nghiệm ở trong hồng cầu để xem\nxem rằng Omega 3 ở EPA và DHA trong hồng\ncầu đang là bao nhiêu. Và với trong hồng\ncầu như vậy thì người ta sẽ tính toán\nđược những cái chuyện là cần bổ sung bao\nnhiêu trong một ngày.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:24:48-03:24:55",
-          "quote": "Thì nó có một cái xét nghiệm Omega 3\nnhưng hiện tại theo tôi được biết thì ở\nViệt Nam chưa làm bởi vì chúng ta chưa\ncó nhu cầu."
+          "timestamp": "03:24:48-03:25:20",
+          "quote": ">> Thì nó có một cái xét nghiệm Omega 3\nnhưng hiện tại theo tôi được biết thì ở\nViệt Nam chưa làm bởi vì chúng ta chưa\ncó nhu cầu.\n>> Vâng. Thế còn nó có xét nghiệm Omega 3\nmà cụ thể là xét nghiệm EPA\nvà DHA. Ồ\n>> ở trong hồng cầu.\n>> Vâng ạ.\n>> Đấy, xét nghiệm ở trong hồng cầu để xem\nxem rằng Omega 3 ở EPA và DHA trong hồng\ncầu đang là bao nhiêu. Và với trong hồng\ncầu như vậy thì người ta sẽ tính toán\nđược những cái chuyện là cần bổ sung bao\nnhiêu trong một ngày."
         }
       ],
       "issues": []
     },
     {
-      "id": "c186",
+      "id": "c205",
+      "claim": "Bác sĩ Phúc nêu các khuyến cáo khác nhau, từ 400, 500, 600 mg đến 1000 mg mỗi ngày như nghiên cứu Khánh Lành dẫn; ông nói thậm chí có người hăng hái nêu 2000 mg, rồi đặt câu hỏi về cơ sở và chỉ vào xét nghiệm trong hồng cầu.",
+      "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "03:25:21-03:25:38",
+      "quote": ">> Vâng. Bởi vì có những khuyến cáo thì bổ\nsung 400 mg trong tổng số này. Có khuyến\ncáo thì 500, có khuyến cáo 600, có\nkhuyến cáo như cái nghiên cứu của Khánh\nlành ấy.\n>> Vâng.\n>> Là 1000 và thậm chí có những người còn\nhăng hái nói bổ sung đến 2000. Vậy nó\nphải có cơ sở nào?\n>> Vâng.\n>> Cơ sở đó chính là xét nghiệm ở trong\nhồng cầu.",
+      "evidence": [
+        {
+          "chunk": 7,
+          "timestamp": "03:25:21-03:25:38",
+          "quote": ">> Vâng. Bởi vì có những khuyến cáo thì bổ\nsung 400 mg trong tổng số này. Có khuyến\ncáo thì 500, có khuyến cáo 600, có\nkhuyến cáo như cái nghiên cứu của Khánh\nlành ấy.\n>> Vâng.\n>> Là 1000 và thậm chí có những người còn\nhăng hái nói bổ sung đến 2000. Vậy nó\nphải có cơ sở nào?\n>> Vâng.\n>> Cơ sở đó chính là xét nghiệm ở trong\nhồng cầu."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c206",
       "claim": "Người ta có thể căn cứ vào màng hồng cầu để thực hiện các xét nghiệm vi chất như canxi trong hồng cầu, magie trong hồng cầu, omega 3 và nhiều yếu tố khác kèm theo.",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
@@ -3868,26 +4281,45 @@
       "issues": []
     },
     {
-      "id": "c187",
+      "id": "c207",
+      "claim": "Bác sĩ Phúc nêu rằng hồng cầu người nhìn chung không có nhân mà vẫn hoạt động bình thường, lấy đó làm luận cứ cho quan điểm màng tế bào là bộ não của tế bào.",
+      "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
+      "status": "pass",
+      "supported": true,
+      "attributed": true,
+      "qualifications_preserved": true,
+      "timestamp": "03:27:08-03:27:36",
+      "quote": ">> Nếu giả sử như nhân của tế bào là bộ não\nthì bây giờ tế bào hồng cầu mất mất bộ\nnão rồi thì làm sao nó thực hiện được\nchức năng.\n>> Vâng.\n>> Có đúng không đã?\n>> Vâng. Vậy thì màng tế bào hồng cầu nó\nmới là bộ não của tế bào. Bởi vì nhân\ntrong hồng cầu không còn nhân nữa.\n>> Vâng.\n>> Chỉ có những hồng cầu non mà từ hồng cầu\nlưới đi ra ngoài máu ngoại vi thì cái số\nđấy rất ít có nhân không đáng kể. Còn\nlại toàn bộ là tế bào hồng cầu không\nnhân mà nó vẫn hoạt động chức năng được\nbình thường.",
+      "evidence": [
+        {
+          "chunk": 7,
+          "timestamp": "03:27:08-03:27:36",
+          "quote": ">> Nếu giả sử như nhân của tế bào là bộ não\nthì bây giờ tế bào hồng cầu mất mất bộ\nnão rồi thì làm sao nó thực hiện được\nchức năng.\n>> Vâng.\n>> Có đúng không đã?\n>> Vâng. Vậy thì màng tế bào hồng cầu nó\nmới là bộ não của tế bào. Bởi vì nhân\ntrong hồng cầu không còn nhân nữa.\n>> Vâng.\n>> Chỉ có những hồng cầu non mà từ hồng cầu\nlưới đi ra ngoài máu ngoại vi thì cái số\nđấy rất ít có nhân không đáng kể. Còn\nlại toàn bộ là tế bào hồng cầu không\nnhân mà nó vẫn hoạt động chức năng được\nbình thường."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": "c208",
       "claim": "Trong phần trao đổi, người dẫn chương trình nhắc rằng bác sĩ nhấn mạnh nên xét nghiệm vitamin D trước khi bổ sung, và nói thêm rằng trước khi bổ sung Omega-3 thì người cần bổ sung cũng nên xét nghiệm (ví dụ mỡ máu, tiểu đường) để chọn loại Omega-3 có hàm lượng EPA và DHA phù hợp, rồi nâng lên bước cao hơn là khám sức khỏe toàn thân, khám tổng quát.",
       "section": "[03:19:08] Bộ 7 vi chất dinh dưỡng và xét nghiệm Omega-3 trong tế bào hồng cầu",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:23:54-03:24:10",
-      "quote": "tôi nghĩ rằng trước khi chúng ta bổ sung\nOmega 3 thì bản thân những người cần\nđược bổ sung cũng nên xét nghiệm để\nchúng ta xem chúng ta có mỡ máu hay\nkhông rồi chúng ta có những vấn đề sức\nkhỏe như thế nào để chọn loại omega 3 có\ncái chứa hàm lượng epadaha cho phù hợp.",
+      "timestamp": "03:23:38-03:24:28",
+      "quote": "Ờ tuy nhiên tôi cũng muốn bổ sung một\nchút đấy là trong số phát sóng vitamin D\nbổ cách bổ sung và các yếu tố hợp đồng\nthì bác sĩ có nhấn mạnh rằng là trước\nkhi bổ sung vitamin D thì điều cần thiết\nlà chúng ta nên xét nghiệm vitamin D và\ntôi nghĩ rằng trước khi chúng ta bổ sung\nOmega 3 thì bản thân những người cần\nđược bổ sung cũng nên xét nghiệm để\nchúng ta xem chúng ta có mỡ máu hay\nkhông rồi chúng ta có những vấn đề sức\nkhỏe như thế nào để chọn loại omega 3 có\ncái chứa hàm lượng epadaha cho phù hợp.\nỪ. Vâng, đương nhiên đấy là cái mà chúng\nta bổ sung các cái vi chất chúng ta nâng\nlên một cái bước cao hơn nữa đấy là\nchúng ta khám sức khỏe toàn thân và khám\ntổng quát. Vâng,\n>> trong đó có những cái xét nghiệm để\nchúng ta bổ sung nó phù hợp. Ví dụ có mỡ\nmáu không, có tiểu đường không,",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:23:54-03:24:10",
-          "quote": "tôi nghĩ rằng trước khi chúng ta bổ sung\nOmega 3 thì bản thân những người cần\nđược bổ sung cũng nên xét nghiệm để\nchúng ta xem chúng ta có mỡ máu hay\nkhông rồi chúng ta có những vấn đề sức\nkhỏe như thế nào để chọn loại omega 3 có\ncái chứa hàm lượng epadaha cho phù hợp."
+          "timestamp": "03:23:38-03:24:28",
+          "quote": "Ờ tuy nhiên tôi cũng muốn bổ sung một\nchút đấy là trong số phát sóng vitamin D\nbổ cách bổ sung và các yếu tố hợp đồng\nthì bác sĩ có nhấn mạnh rằng là trước\nkhi bổ sung vitamin D thì điều cần thiết\nlà chúng ta nên xét nghiệm vitamin D và\ntôi nghĩ rằng trước khi chúng ta bổ sung\nOmega 3 thì bản thân những người cần\nđược bổ sung cũng nên xét nghiệm để\nchúng ta xem chúng ta có mỡ máu hay\nkhông rồi chúng ta có những vấn đề sức\nkhỏe như thế nào để chọn loại omega 3 có\ncái chứa hàm lượng epadaha cho phù hợp.\nỪ. Vâng, đương nhiên đấy là cái mà chúng\nta bổ sung các cái vi chất chúng ta nâng\nlên một cái bước cao hơn nữa đấy là\nchúng ta khám sức khỏe toàn thân và khám\ntổng quát. Vâng,\n>> trong đó có những cái xét nghiệm để\nchúng ta bổ sung nó phù hợp. Ví dụ có mỡ\nmáu không, có tiểu đường không,"
         }
       ],
       "issues": []
     },
     {
-      "id": "c188",
+      "id": "c209",
       "claim": "Người bệnh và người theo dõi kênh YouTube của bác sĩ Phúc chủ yếu là người giúp việc gia đình, công nhân và nông dân.",
       "section": "[03:28:17] Nâng cao nhận thức và kiến thức cho người lao động",
       "status": "pass",
@@ -3895,31 +4327,31 @@
       "attributed": true,
       "qualifications_preserved": true,
       "timestamp": "03:28:22-03:28:32",
-      "quote": "các bệnh nhân\nđến với tôi, những người đến với kênh\nYouTube của tôi thì chủ yếu là những\nngười giúp việc gia đình, tức là gọi là\nin và những người công nhân, những người\nnông dân.",
+      "quote": "Nhưng mà các bệnh nhân\nđến với tôi, những người đến với kênh\nYouTube của tôi thì chủ yếu là những\nngười giúp việc gia đình, tức là gọi là\nin và những người công nhân, những người\nnông dân.",
       "evidence": [
         {
           "chunk": 7,
           "timestamp": "03:28:22-03:28:32",
-          "quote": "các bệnh nhân\nđến với tôi, những người đến với kênh\nYouTube của tôi thì chủ yếu là những\nngười giúp việc gia đình, tức là gọi là\nin và những người công nhân, những người\nnông dân."
+          "quote": "Nhưng mà các bệnh nhân\nđến với tôi, những người đến với kênh\nYouTube của tôi thì chủ yếu là những\nngười giúp việc gia đình, tức là gọi là\nin và những người công nhân, những người\nnông dân."
         }
       ],
       "issues": []
     },
     {
-      "id": "c189",
+      "id": "c210",
       "claim": "Bác sĩ mong muốn người làm công việc giúp việc và nông dân nâng cao nhận thức, tiếp thu kiến thức và có thể áp dụng các bài toán tích phân, vi phân, phương trình đa biến hay các thuật toán vào cuộc sống một cách bài bản, hệ thống.",
       "section": "[03:28:17] Nâng cao nhận thức và kiến thức cho người lao động",
       "status": "pass",
       "supported": true,
       "attributed": true,
       "qualifications_preserved": true,
-      "timestamp": "03:28:51-03:29:11",
-      "quote": "tôi cũng mong muốn đến một ngày nào đấy\nlà những người làm công việc giúp việc,\nnhững người nông dân sẽ giải toán nháy\nnháy ấy. Tức là chúng ta sẽ làm được\nnhững bài tích phân, vi phân, thế giải\nđược những cái phương trình, hệ phương\ntrình đa biến, thế và áp dụng được những\ncác cái thuật toán vào trong cuộc sống\ncủa chúng ta một cách bài bản, một cách\nhệ thống và một cách chắc chắn.",
+      "timestamp": "03:28:48-03:29:11",
+      "quote": "Và\ntôi cũng mong muốn đến một ngày nào đấy\nlà những người làm công việc giúp việc,\nnhững người nông dân sẽ giải toán nháy\nnháy ấy. Tức là chúng ta sẽ làm được\nnhững bài tích phân, vi phân, thế giải\nđược những cái phương trình, hệ phương\ntrình đa biến, thế và áp dụng được những\ncác cái thuật toán vào trong cuộc sống\ncủa chúng ta một cách bài bản, một cách\nhệ thống và một cách chắc chắn.",
       "evidence": [
         {
           "chunk": 7,
-          "timestamp": "03:28:51-03:29:11",
-          "quote": "tôi cũng mong muốn đến một ngày nào đấy\nlà những người làm công việc giúp việc,\nnhững người nông dân sẽ giải toán nháy\nnháy ấy. Tức là chúng ta sẽ làm được\nnhững bài tích phân, vi phân, thế giải\nđược những cái phương trình, hệ phương\ntrình đa biến, thế và áp dụng được những\ncác cái thuật toán vào trong cuộc sống\ncủa chúng ta một cách bài bản, một cách\nhệ thống và một cách chắc chắn."
+          "timestamp": "03:28:48-03:29:11",
+          "quote": "Và\ntôi cũng mong muốn đến một ngày nào đấy\nlà những người làm công việc giúp việc,\nnhững người nông dân sẽ giải toán nháy\nnháy ấy. Tức là chúng ta sẽ làm được\nnhững bài tích phân, vi phân, thế giải\nđược những cái phương trình, hệ phương\ntrình đa biến, thế và áp dụng được những\ncác cái thuật toán vào trong cuộc sống\ncủa chúng ta một cách bài bản, một cách\nhệ thống và một cách chắc chắn."
         }
       ],
       "issues": []
@@ -3928,81 +4360,30 @@
   "concerns": [
     {
       "severity": "minor",
-      "finding": "c031 biến một câu nói được bác sĩ gán cho Newton thành một quy luật của Newton.",
-      "quote": "ông Newton có một cái câu nói có thể nói\nrằng là trở thành một chân lý rất hay.",
-      "timestamp": "00:57:07-00:57:11",
+      "finding": "Phần tóm tắt về sự linh hoạt chưa phản ánh ví dụ cụ thể của người nói về lấn làn, leo vỉa hè và không tuyệt đối tuân luật để đi nhanh hơn.",
+      "quote": "Nhưng đôi khi\nchúng ta phải hơi lấn sang làn kia một\ntí. Thậm chí chúng ta cũng phải hơi trèo\nlên vỉa hè một tí nếu như chúng ta muốn\nđạt được cái điều nhanh hơn. Có đúng\nkhông ạ? Cho nên cuộc sống nó sẽ có\nnhững lúc sai trái và có những lúc chúng\nta đúng. Nhưng chúng ta phải tuân theo\ncái đúng là chính. Còn đừng bao giờ\ntuyệt đối. Nếu một người cứ nhăm nhăm\nphải đi đúng luật 100% không sai được\nthì sẽ rất lâu để mà đến được cơ quan.",
+      "timestamp": "00:59:09-00:59:33",
       "chunk": 2
     },
     {
       "severity": "minor",
-      "finding": "c067 bỏ lớp quy chiếu: bác sĩ đang thuật lại phép ví của Lipton, không giới thiệu đây là phép ví riêng của mình.",
-      "quote": "Từ đấy ông đưa ra thế này,\nông đưa ra cái là\nnhân nó chỉ là bộ phận sinh dục của tế\nbào.",
-      "timestamp": "01:45:13-01:45:22",
-      "chunk": 4
-    },
-    {
-      "severity": "minor",
-      "finding": "c094 đưa công thức và số liên kết đã hiệu chỉnh vào bản tóm tắt; các chi tiết này không được phát biểu trong nguồn, dù có phân biệt với con số bác sĩ nói.",
-      "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ cho nên là nó rất quý.",
-      "timestamp": "02:07:37-02:07:40",
-      "chunk": 4
-    },
-    {
-      "severity": "minor",
-      "finding": "Claim c094 bổ sung công thức và số liên kết đúng theo kiến thức bên ngoài; transcript chỉ nói năm liên kết pi. Cần phân biệt rõ phần hiệu chỉnh với lời nguồn.",
-      "quote": "Và đến DHA này nó có tới tận năm liên\nkết pi cơ",
-      "timestamp": "02:07:37-02:07:40",
+      "finding": "Bản chép lời không nhất quán về tên chất: trước đó nói Alla chống viêm, sau đó lại nói Alla/Ala gây viêm. Không đủ căn cứ trong văn bản để tự sửa tên chất ở câu sau thành AA.",
+      "quote": "Còn cái Alla này thì nó\nlại gây viêm.\nĐúng chưa ạ? Ala gây viêm.",
+      "timestamp": "02:10:50-02:10:56",
       "chunk": 5
-    },
-    {
-      "severity": "minor",
-      "finding": "c144 quy nhận xét “quá thấp” cho bác sĩ, nhưng lượt đáp trong transcript không xác định chắc chắn người nói.",
-      "quote": "Vâng. Đấy thì 0,06 là quá thấp rồi.",
-      "timestamp": "02:51:26",
-      "chunk": 6
     }
   ],
   "coverage_complete": false,
   "omissions": [
     {
-      "topic": "Quan niệm sức khỏe bao gồm cả yếu tố tinh thần, xã hội và kiến thức.",
-      "quote": "tôi quan niệm rằng sức khỏe nó\nkhông phải chỉ là cái tình trạng bệnh\ntật hay không bệnh tật mà nó bao gồm cả\nnhững các cái yếu tố tinh thần, yếu tố\nxã hội, yếu tố về kiến thức, rất rất\nnhiều những các cái yếu tố khác nó tạo\nnên sức khỏe",
-      "timestamp": "00:17:52-00:18:06"
+      "topic": "Cảm nhận chủ quan trẻ ra sau bổ sung vi chất, kèm lời tự nhận con số trẻ ra 20 tuổi hơi phóng đại.",
+      "quote": "Nhiều quý vị sẽ\nthấy mình trẻ đi nhiều tuổi. Chẳng hạn\nnhư bản thân tôi thấy tôi cũng thấy mình\ntrẻ đi đến quãng độ 20 tuổi. Tất nhiên\nlà nó hơi quá một chút, tưởng tượng nó\nhơi quá một chút đúng không ạ?",
+      "timestamp": "01:27:56-01:28:10"
     },
     {
-      "topic": "Quá trình nhân đôi ADN trước khi tế bào phân chia.",
-      "quote": "Tách ra thành mạch đơn sau đó nó lại lấy\nnucleotit ở môi trường để nó tổng hợp\nphân tử ADN khác. Sau đó thì tế bào nó\nphân chia ra.",
-      "timestamp": "01:33:35-01:33:43"
-    },
-    {
-      "topic": "Khuyến nghị dùng mỡ lợn bù vào khi nhu cầu vượt mức dầu ăn đã giới hạn.",
-      "quote": "ăn vượt quá thì chúng ta\nsẽ dừng ở con số đó và chúng ta lấy mỡ\nlợn chúng ta bù vào.",
-      "timestamp": "02:31:26-02:31:31"
-    },
-    {
-      "topic": "Lợi ích được người nói gán cho uống một chút rượu và tác hại khi uống quá nhiều.",
-      "quote": "Chúng ta uống một\nchút rượu thôi thì nó sẽ kích thích hệ\ntiêu hóa, kích thích tinh thần, kích\nthích nhiều cái khí huyết lưu thông sẽ\nrất là tốt. Nhưng mà chúng ta uống rượu\nquá nhiều thì nó sẽ hỏng.",
-      "timestamp": "02:20:12-02:20:22"
-    },
-    {
-      "topic": "DHA và EPA dư được người nói cho là có thể dành cho gan, mật, tụy, lách và thận.",
-      "quote": "DHA và EPA có nếu thừa ra thì sẽ dành\ncho các tạng địa phương gan mật tụy lách\nthận được",
-      "timestamp": "02:25:15-02:25:21"
-    },
-    {
-      "topic": "Cách tìm mẫu số tính tỷ lệ EPA và DHA khi không thấy tổng chất béo trên nhãn: tìm khối lượng lớn nhất trong một viên.",
-      "quote": "Nhưng có những sản phẩm chúng ta cũng\nchẳng tìm được những cái từ khóa này là\ngì thì quý vị cứ đi tìm ở trên cái vỏ\nbao bì của nó xem là cái khối lượng lớn\nnhất trong một viên khối lượng lớn nhất\nấy.",
-      "timestamp": "02:52:18-02:52:31"
-    },
-    {
-      "topic": "Thông tin rằng nhãn Omega-3 không bắt buộc ghi dạng dầu cá, nhưng dạng triglycerit thường được ghi để dễ lựa chọn.",
-      "quote": "Các sản phẩm Omega 3 không bắt buộc phải\nghi dạng gì lên chân nhãn nhưng Omega 3\ndạng triglycer thường sẽ được ghi chân\nnhãn để khách hàng dễ dàng lựa chọn.",
-      "timestamp": "02:39:45-02:39:53"
-    },
-    {
-      "topic": "Phối hợp giữa nhà toán học và nhà dịch tễ học để xây dựng mô hình chống dịch với 20–30 biến và can thiệp từng biến.",
-      "quote": "Hai\nngười đấy sẽ cùng nhau để lập lên những\nmô hình chống dịch bằng toán học. những\ncác cái hàm số đá biến mà những hàm lên\ntới 20 biến, 30 biến để người ta can\nthiệp vào từng biến một nó mang tính\nhiệu quả và khoa học.",
-      "timestamp": "03:21:34-03:21:49"
+      "topic": "Người xem cần học kiến thức nền để tự lựa chọn vi chất, thay vì chỉ hỏi mua sản phẩm nào tốt.",
+      "quote": "nhiều quý vị sẽ lại\nphản đối rằng chúng tôi không cần phải\nbiết công thức của ALA, công thức DPA,\ncông thức AA vân vân nó là cái gì. Chỉ\ncần nói chúng tôi mua loại nào tốt là\nđược. Cái đấy quý vị không bao giờ có\nsức khỏe. Muốn có sức khỏe thì bắt buộc\nphải đầu tư những kiến thức như là tôi\nmới Khánh lành vừa mới làm.",
+      "timestamp": "03:21:56-03:22:15"
     }
   ]
 }

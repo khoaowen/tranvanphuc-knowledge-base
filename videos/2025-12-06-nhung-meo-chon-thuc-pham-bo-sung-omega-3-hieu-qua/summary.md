@@ -36,7 +36,7 @@ Cây đàn piano có 88 phím (52 phím trắng và 36 phím đen). Nếu chỉ 
 
 **Q: Bài toán mô hình hóa giá trị cuộc sống (Hàm V) được xây dựng như thế nào?**
 Bác sĩ Phúc nêu giả định một mô hình minh họa về giá trị cuộc sống, có thể biểu diễn bằng $V = L + W + H$:
-- $L$ (Length - Chiều dài): Chiều dài tuổi thọ. Quan niệm xưa (trong lời nói về hàm tuổi tác): 60 năm cuộc đời, 70 'xưa nay hiếm', cha ông mơ ước 100 tuổi; bác sĩ Phúc nói biên độ tuổi 'loanh quanh' khoảng 100 tuổi. Ông 'vẫn hy vọng' kéo dài tuổi thọ lên 130, 140, 150 và 175 tuổi; xu hướng khoa học, một số nhà khoa học và một số quốc gia đang tính đến chuyện vượt qua 100 tuổi, và ông 'tin rằng' trong thế kỷ 21 'hoàn toàn làm được' việc giúp con người sống đến 150 tuổi. Riêng mục tiêu của ông, Khánh Lành và ekip là muốn khán giả coi tuổi 70-80 mới là bước vào cuộc đời, đang là tuổi sung sức. (Ví dụ bác sĩ Phúc kể để cho thấy chiều rộng cuộc sống (W) quan trọng hơn chiều dài: một người anh họ bác sĩ bị ung thư dạ dày giai đoạn cuối chỉ sống thêm hơn 1 năm sau phẫu thuật, nhưng nhờ tập trung lo liệu chu toàn cho gia đình nên khoảng thời gian ngắn đó đã trở nên vô cùng dài và có ý nghĩa).
+- $L$ (Length - Chiều dài): Chiều dài tuổi thọ. Quan niệm xưa (trong lời nói về hàm tuổi tác): 60 năm cuộc đời, 70 'xưa nay hiếm', cha ông mơ ước 100 tuổi; bác sĩ Phúc nói biên độ tuổi 'loanh quanh' khoảng 100 tuổi. Ông 'vẫn hy vọng' kéo dài tuổi thọ lên 130, 140, 150 và 175 tuổi; xu hướng khoa học, một số nhà khoa học và một số quốc gia đang tính đến chuyện vượt qua 100 tuổi, và ông 'tin rằng' trong thế kỷ 21 'hoàn toàn làm được' việc giúp con người sống đến 150 tuổi. Riêng mục tiêu của ông, Khánh Lành và ekip là muốn khán giả coi tuổi 70-80 mới là bước vào cuộc đời, đang là tuổi sung sức. (Ví dụ bác sĩ Phúc kể để cho thấy chiều rộng cuộc sống (W) quan trọng hơn chiều dài: một người anh họ bác sĩ bị ung thư dạ dày giai đoạn cuối chỉ sống thêm hơn 1 năm sau phẫu thuật, nhưng nhờ tập trung lo liệu chu toàn cho gia đình nên theo lời bác sĩ, ông anh thấy trong hơn một năm đó mình làm được nhiều việc nhất trong cuộc đời và ra đi thanh thản).
 - $W$ (Width - Chiều rộng): Chiều rộng trải nghiệm cuộc sống, sự dấn thân, thử thách và tích lũy thực tế.
 - $H$ (Height - Chiều cao/Chiều sâu): Trình độ, kiến thức, sự hiểu biết và mức độ cống hiến giá trị cho xã hội.
 
@@ -45,7 +45,7 @@ Bác sĩ Phúc nêu giả định một mô hình minh họa về giá trị cu�
 **Q: Hàm định vị cuộc sống được biểu diễn bằng phương trình toán học nào và phần thực, phần ảo trong đó mang ý nghĩa gì?**
 Hàm định vị cuộc sống được thể hiện qua công thức $Z = a + by$ (với $a, b > 0$), trong đó $y$ là số ảo. Phần thực $a$ đại diện cho những yếu tố khách quan, tính toán định lượng cụ thể như học ngành gì, cơ quan làm việc, mức lương, tiền thưởng và khả năng mua nhà. Phần ảo $by$ đại diện cho sự kỳ vọng, mơ ước, mục tiêu làm lãnh đạo hay xây dựng hình ảnh bản thân. Bác sĩ chia sẻ trải nghiệm cá nhân từng mơ làm bác sĩ y học cổ truyền, sản khoa, ngoại khoa, nhưng cuối cùng nhận ra bản thân phù hợp nhất với vị trí bác sĩ Chẩn đoán hình ảnh (X-quang, siêu âm, CT, cộng hưởng từ) để giải mã các hình ảnh đen trắng giúp cứu chữa bệnh nhân.
 
-## [00:56:00] Đường hướng cuộc sống và tư duy chọn hướng đi — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=3360s
+## [00:58:42] Đường hướng cuộc sống và tư duy chọn hướng đi — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=3522s
 
 **Q: Tại sao trong cuộc sống việc đi theo đường thẳng từ điểm A đến điểm B không phải là cách tốt nhất?**
 Cuộc sống không đơn giản như đường thẳng $y = x$ hay đường hình sin $y = \sin x$ mà là sự tổng hợp phức tạp của nhiều đường đồ thị. Bác sĩ Phúc dẫn một câu nói mà ông gán cho Newton: cái gì đi lên sẽ phải đi xuống, rồi đi xuống sẽ lại đi lên. Theo bác sĩ Phúc, trong cuộc sống, đi theo đường thẳng thường thất bại và chậm hơn; ông ví việc đi từ nhà đến cơ quan bằng đường thẳng là không thể, vì có thể gặp tắc đường hoặc đường đang sửa nên phải chọn đường vòng. Việc đi theo các đường cong flexible (như dòng nước chảy uốn lách qua các tảng đá để ra biển) mới mang lại hiệu quả cao nhất. Trong đó, xác định đúng hướng đi (phương hướng) là yếu tố cốt lõi số một, quan trọng hơn phương tiện hay cách thức đi.
@@ -76,8 +76,9 @@ Sau khi người dẫn chương trình đọc câu hỏi của một khán giả
 
 **Q: Dưỡng chất DHA trong cá biển có tác dụng gì và được chuyển hóa như thế nào trong cơ thể?**
 Trong cuộc trò chuyện, bác sĩ Phúc và Khánh Lành nói cá có nhiều DHA và nêu cá biển, đặc biệt cá biển sâu, là loại cá nhiều DHA. Họ gọi DHA là “vàng của não và mắt”. Nhờ chứa nhiều liên kết pi, DHA dễ dàng được cắt nhỏ thành các phân tử acetyl-CoA. Dưới sự hỗ trợ của "máy biến áp" magiê và chất vận chuyển L-carnitine, phân tử này xuyên qua màng tế bào đi vào ti thể để đốt cháy tạo ra năng lượng ATP cho tế bào hoạt động, đồng thời giải phóng nước và CO2. Khi bàn về các thành phần nuôi não (đạm, đường, mỡ), albumin là chất rất quan trọng nhưng vì thực hiện quá nhiều chức năng nên rất ít được dành cho não.
+Khi ôn lại cấu trúc tế bào, bác sĩ Phúc nhắc rằng ADN nằm trong nhân tế bào và là vật chất di truyền; ADN gồm hai chuỗi nucleotit, A bắt cặp với T và G với X, A liên kết với T bằng liên kết hydro, còn các liên kết trên mỗi mạch đơn là liên kết cộng hóa trị. Khi tế bào phát triển, các mạch tách ra thành mạch đơn rồi lấy nucleotit ở môi trường để tổng hợp phân tử ADN khác; một phân tử ADN tạo ra hai phân tử ADN, rồi tế bào phân chia.
 
-## [01:31:30] Cấu trúc màng tế bào và phát hiện của Bruce Lipton — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=5490s
+## [01:35:27] Cấu trúc màng tế bào và phát hiện của Bruce Lipton — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=5727s
 
 **Q: Nhà khoa học Bruce Lipton đã phát hiện ra những đặc tính nào của màng tế bào?**
 Năm 1985 tại vùng biển Caribe, nhà sinh học người Mỹ Bruce Lipton trong quá trình soạn giáo án đã phát hiện ra các đặc tính của màng tế bào:
@@ -94,6 +95,7 @@ Năm 1985, nhà sinh học Liptông nhận thấy màng tế bào được cấu
 
 **Q: DHA và EPA đóng vai trò gì đối với màng tế bào não, mắt và tim?**
 Theo phần trình bày của bác sĩ Phúc, màng tế bào có protein và chất béo; ông nói các axit béo không bão hòa như Omega-3, Omega-6, Omega-9 chiếm thành phần đáng kể. Theo bác sĩ Phúc, các axit béo omega nói chung chiếm tới 30% cấu trúc màng tế bào (ở một đoạn khác ông cũng nói Omega-3 chiếm 30%). Bác sĩ Phúc nói DHA là “vàng của não và mắt” và EPA là “vàng của tim”. Ông cũng cho rằng ăn cá giàu DHA có thể giúp thông minh hơn và mắt sáng hơn; nếu DHA ít thì khó đạt được điều đó. Bác sĩ Phúc kể: nhiều phụ huynh có con đang học điểm khá thấp, sau khi bổ sung DHA, Omega 3, tăng DHA lên một chút, vitamin D và các vi chất thì 'một thời gian sau' kết quả học thay đổi đáng kể; ở một trường hợp khác, một anh đến cảm ơn vì con anh lúc đầu 'ăn không nên loại và nói không nên lời', không có bạn gái, sau khi bổ sung 'hơn 3 tháng gần 4 tháng' thì anh báo cáo con bắt đầu nói có văn có lời và có bạn gái.
+Bác sĩ Phúc tuyên bố kênh không bán thuốc, không quảng cáo, không nhận sản phẩm; BTV Khánh Lành cũng nói chương trình không đưa link mua ngay mà hướng dẫn cách lựa chọn và sử dụng Omega-3.
 
 ## [01:53:28] Tỷ lệ Omega-6 và Omega-3 đối với các bệnh mãn tính — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=6808s
 
@@ -107,7 +109,7 @@ Theo bài báo được đọc, tỷ lệ tối ưu nhất giữa Omega-6 và Om
 
 Bài báo cũng nói đến nay chưa có nghiên cứu nào đủ chất lượng và quy mô để khẳng định Omega-6 là nguyên nhân gây bệnh tim mạch hay làm tăng các dấu hiệu viêm, nên không thể khẳng định Omega-6 gây ra các bệnh mãn tính. Tuy nhiên, theo bài báo, nạp quá nhiều Omega-3 hay Omega-6 đều không tốt vì cấu trúc của cả hai axit béo này đều chứa nối đôi không no, rất nhạy cảm phản ứng với oxy tạo ra chuỗi gốc tự do. Bài báo còn nói nếu ăn thức ăn chế biến sẵn kiểu công nghiệp hàng ngày thì tỷ lệ Omega-6/Omega-3 'chẳng còn quan trọng gì nữa'; loại chất béo dùng quan trọng hơn nhiều so với tỷ lệ này.
 
-Để tối ưu hóa tỷ lệ, bài báo khuyên tránh các loại dầu thực vật và hạt chứa nhiều Omega-6 cũng như thực phẩm chế biến từ dầu và hạt: dầu đậu nành, dầu hướng dương, dầu ngô chứa nhiều Omega-6, còn dầu ô liu (caption ghi 'dầu ôu'), dầu cọ, dầu dừa và quả bơ chứa ít Omega-6 hơn. Muốn giảm Omega-6 trong thịt thì chọn phần gầy; bơ thực vật chứa nhiều Omega-6 hơn, nên dùng bơ từ động vật ăn cỏ để có nhiều Omega-3 hơn. Vì gia súc, gia cầm ngày nay thường được nuôi bằng thức ăn từ hạt (nhiều bắp, đậu nành) nên mỡ tích trữ của chúng chủ yếu là Omega-6, rất ít Omega-3; nếu có thể, nên dùng thịt từ động vật nuôi bằng cỏ. Thịt gà, thịt lợn vốn có sẵn nhiều Omega-6 vẫn có thể dùng ở mức vừa phải, hoặc chọn phần nạc ít mỡ nếu muốn giảm tối đa lượng Omega-6.
+Để tối ưu hóa tỷ lệ, bài báo khuyên tránh các loại dầu thực vật và hạt chứa nhiều Omega-6 cũng như thực phẩm chế biến từ dầu và hạt: dầu đậu nành, dầu hướng dương, dầu ngô chứa nhiều Omega-6, còn dầu ô liu, dầu cọ, dầu dừa và quả bơ chứa ít Omega-6 hơn. Muốn giảm Omega-6 trong thịt thì chọn phần gầy; bơ thực vật chứa nhiều Omega-6 hơn, nên dùng bơ từ động vật ăn cỏ để có nhiều Omega-3 hơn. Vì gia súc, gia cầm ngày nay thường được nuôi bằng thức ăn từ hạt (nhiều bắp, đậu nành) nên mỡ tích trữ của chúng chủ yếu là Omega-6, rất ít Omega-3; nếu có thể, nên dùng thịt từ động vật nuôi bằng cỏ. Thịt gà, thịt lợn vốn có sẵn nhiều Omega-6 vẫn có thể dùng ở mức vừa phải, hoặc chọn phần nạc ít mỡ nếu muốn giảm tối đa lượng Omega-6.
 
 ## [02:00:15] Cấu trúc hóa học của các axit béo Omega-3 và Omega-6 — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=7215s
 
@@ -130,24 +132,28 @@ Nếu chế độ ăn có quá nhiều Omega-6 (LA và AA) và ít Omega-3 (ALA,
 - Tại khớp: gây đau, dày bao hoạt dịch, tràn dịch ổ khớp, về lâu dài dẫn đến viêm khớp mãn tính và viêm khớp dạng thấp.
 - Tại gan, tụy, thận: gây tổn thương tế bào gan, gan nhiễm mỡ, rối loạn chuyển hóa mỡ máu, tiểu đường, viêm thận kẽ, viêm cầu thận, viêm ống thận, viêm thận tự miễn.
 - Tại đường ruột: gây viêm dạ dày ruột, hội chứng ruột kích thích, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón; khi đã tổn thương đường ruột thì 'rất dễ gây ra' tổn thương tuyến giáp (Hashimoto và Basedow), theo bác sĩ Phúc.
-- Các cơ quan khác: thoái hóa chất trắng ở não, mờ mắt, đau mỏi cơ, viêm thần kinh, dị ứng da và bệnh lupus ban đỏ hệ thống.
+- Các cơ quan khác: viêm loét mạch máu, thoái hóa chất trắng ở não, mờ mắt, đau mỏi cơ, viêm thần kinh, dị ứng da và bệnh lupus ban đỏ hệ thống.
 
-Về tác dụng của từng axit béo, bác sĩ Phúc nói GLA chống viêm; CLA vừa chống viêm vừa chống ung thư; chất mà caption ghi là 'Alla' thì gây viêm (có thể là AA, phiên âm không rõ); EPA và DHA có nhiều tác dụng, trong đó có chống viêm. Ông nói Omega-6 (như LA, AA) rất quan trọng và chỉ gây viêm khi quá nhiều, còn vừa phải thì không gây viêm, nên không thể cắt bỏ hoàn toàn Omega-6 mà chỉ cần giảm xuống.
+Về tác dụng của từng axit béo, bác sĩ Phúc nói GLA chống viêm; CLA vừa chống viêm vừa chống ung thư; bác sĩ Phúc nói LA gây viêm còn ALA chống viêm; EPA và DHA có nhiều tác dụng, trong đó có chống viêm. Ông nói Omega-6 (như LA, AA) rất quan trọng và chỉ gây viêm khi quá nhiều, còn vừa phải thì không gây viêm, nên không thể cắt bỏ hoàn toàn Omega-6 mà chỉ cần giảm xuống.
+Để minh họa chuyện quá mức, bác sĩ Phúc cho rằng uống một chút rượu kích thích tiêu hóa, tinh thần và khí huyết lưu thông, nhưng uống quá nhiều thì ảnh hưởng sức khỏe.
 
 ## [02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8610s
 
 **Q: Tỷ lệ bổ sung Omega nào là lý tưởng và cần điều chỉnh thói quen sử dụng dầu ăn như thế nào?**
-Bác sĩ Phúc nói tỷ lệ Omega-6/Omega-3 lý tưởng là 1:1. Ông dẫn lời một số nghiên cứu/tài liệu rằng 4:1 được chấp nhận, cùng lắm 5:1; đồng thời nhận xét 5:1 đã quá nhiều và khuyên không để tỷ lệ lên tới 4 hoặc 5:1. Tuy nhiên, tại Mỹ và Châu Âu, người dân đang ăn theo tỷ lệ mất cân bằng lên tới 20:1, khiến các dưỡng chất quý như EPA và DHA bị hòa loãng.
+Bác sĩ Phúc nói tỷ lệ Omega-6/Omega-3 lý tưởng là 1:1. Ông dẫn lời một số nghiên cứu/tài liệu rằng 4:1 được chấp nhận, cùng lắm 5:1; đồng thời nhận xét 5:1 đã quá nhiều và khuyên không để tỷ lệ lên tới 4 hoặc 5:1. Tuy nhiên, bác sĩ Phúc nói các nghiên cứu ở Mỹ và châu Âu thấy các thành phần này trong khẩu phần, đem chia cho DHA hoặc EPA, có tỷ lệ tới 20:1, khiến các dưỡng chất quý như EPA và DHA bị hòa loãng, không còn ý nghĩa.
+Khi nói về tỷ lệ 20:1, bác sĩ Phúc còn nêu 'sơ vữa mạch máu', 'Anzimer', 'bakis' và các bệnh tự miễn như những hệ quả mà ông quy cho chế độ ăn mất cân bằng.
 
-Bác sĩ Phúc còn nói nếu DHA và EPA thừa thì có thể dành cho gan, mật, tụy, lách và thận ([02:25:15](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8715s)).
+Bác sĩ Phúc nói LA (Omega-6) chủ yếu dành cho các tạng địa phương ([02:25:04](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8704s)). Còn nếu DHA và EPA thừa thì có thể dành cho gan, mật, tụy, lách và thận ([02:25:15](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8715s)).
 
 Cơ thể chỉ có thể chuyển đổi ALA (từ dầu thực vật) thành EPA và DHA với tỷ lệ rất thấp, thực tế dưới 5% (các tài liệu nêu từ 0 đến 9%), nên không thể trông cậy vào dầu thực vật để bổ sung EPA và DHA. EPA và DHA tập trung chủ yếu trong cá biển sâu hoặc gan cá biển sâu. Omega-9 đã có rất nhiều trong thực phẩm nên không cần thiết phải bổ sung.
 
 Để điều chỉnh chế độ ăn uống và sử dụng dầu ăn hợp lý:
 - Bác sĩ Phúc khuyên mỗi người không nên dùng quá 3 nắp chai bia dầu ăn mỗi ngày; nếu nhu cầu vượt mức đó, ông đề nghị dùng mỡ lợn bù vào. Đây là lời khuyên của người nói trong video.
+- Bác sĩ Phúc nói chỉ giảm bớt chứ không bỏ dầu ăn hoàn toàn, vì theo ông, không ăn dầu ăn khiến tế bào thiếu những thành phần đang được bàn tới và rất nguy hiểm.
 - Đa dạng hóa các loại dầu ăn: Không mua can dầu lớn vì dầu ăn chứa nhiều liên kết pi rất dễ bị oxy hóa và ôi thiu khi mở nắp lâu. Nên mua các chai dầu nhỏ thuộc nhiều loại khác nhau và luân phiên thay đổi.
 - Mua dầu ăn ở siêu thị, cửa hàng uy tín, đúng hạn sử dụng, và sau khi mở ra phải dùng trong thời hạn hướng dẫn, không để quá lâu; can to để dành cho nhà hàng nấu nhiều.
 - Bác sĩ Phúc khuyên không cố bổ sung Omega-6, Omega-9 hay các thành phần khác; ông nói chúng đã có trong thực phẩm và dầu ăn, và nhấn mạnh nên quan tâm nhất đến EPA và DHA.
+- Bác sĩ Phúc nói lời khuyên này cũng áp dụng khi nhà sản xuất quảng cáo sản phẩm Omega-3 có thêm nhiều thành phần: theo ông, những thành phần ấy không cần thiết vì thực phẩm và dầu ăn đã có.
 - Kết hợp dưỡng chất: Việc kiểm soát dầu ăn, bổ sung đúng Omega-3 kết hợp với Vitamin D (ở mức lý tưởng), canxi, magie, kẽm đã giúp nhiều bệnh nhân cải thiện sức khỏe vượt bậc, có thể bỏ được thuốc tim mạch, huyết áp, tiểu đường, mỡ máu và bệnh tuyến giáp.
 
 **Q: Tỷ lệ Omega-6 trên Omega-3 bao nhiêu là hợp lý trong chế độ ăn uống hàng ngày?**
@@ -180,8 +186,8 @@ Bác sĩ Phúc nói Omega-3 là loại omega quý nhất, trong đó EPA và DHA
 ## [02:46:03] Phân biệt các loại dầu cá Omega-3: TG, EE và rTG — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=9963s
 
 **Q: Dầu cá tự nhiên (TG), dầu cá chế biến (EE) và dầu cá tái tổ hợp (rTG) khác nhau như thế nào?**
-Bác sĩ Phúc phân loại 3 dạng dầu cá:
-- Dầu cá tự nhiên (TG - Triglyceride): Ép trực tiếp từ cá hoặc gan cá. Tổng hàm lượng EPA và DHA luôn nhỏ hơn hoặc bằng 30% (0,3). Ưu điểm là dễ hấp thu, nhưng nhược điểm là chứa nhiều tạp chất, chất béo không cần thiết và có thể chứa kim loại nặng. Bác sĩ Phúc nói các sản phẩm dầu cá tự nhiên ông xem có tỷ lệ (EPA+DHA)/tổng chất béo không quá 0,3; có sản phẩm chỉ đạt 0,06. Trong cuộc trao đổi, mức 0,06 được nhận xét là “quá thấp” (transcript không xác định chắc người nói câu này). Dầu nhuyễn thể (krill) làm từ tôm Nam Cực được cho là an toàn nhờ sống ở vùng biển sạch và vòng đời ngắn (cách nói quảng cáo); bác sĩ Phúc nói an toàn hay không còn phải chờ các nghiên cứu thêm.
+Bác sĩ Phúc nói trong dầu cá, omega 3 tồn tại chủ yếu ở dạng triglycerit (TG); ngoài ra còn có axit béo tự do nhưng hàm lượng vô cùng thấp, không đáng kể. Bác sĩ Phúc phân loại 3 dạng dầu cá:
+- Dầu cá tự nhiên (TG - Triglyceride): Ép trực tiếp từ cá hoặc gan cá. Tổng hàm lượng EPA và DHA luôn nhỏ hơn hoặc bằng 30% (0,3). Ưu điểm là dễ hấp thu, nhưng nhược điểm là chứa nhiều tạp chất, chất béo không cần thiết và có thể chứa kim loại nặng. Bác sĩ Phúc nói các sản phẩm dầu cá tự nhiên ông xem có tỷ lệ (EPA+DHA)/tổng chất béo không quá 0,3; có sản phẩm chỉ đạt 0,06. Trong cuộc trao đổi, mức 0,06 được nhận xét là “quá thấp” (transcript không xác định chắc người nói câu này). Trong phần dầu cá tự nhiên, bác sĩ Phúc nói ngay cả sản phẩm được quảng cáo nhiều, rất đắt tiền và đem tặng nhau mà ông đề cập cũng cho tỷ lệ không quá 0,3 khi tính theo cách này. Dầu nhuyễn thể (krill) làm từ tôm Nam Cực được cho là an toàn nhờ sống ở vùng biển sạch và vòng đời ngắn (cách nói quảng cáo); bác sĩ Phúc nói an toàn hay không còn phải chờ các nghiên cứu thêm.
 - Dầu cá chế biến (EE - Ethyl Ester): Được tinh chế qua phản ứng ester hóa để nâng hàm lượng EPA + DHA lên trên 30%, loại bỏ tạp chất và kim loại nặng. Tuy nhiên, nhược điểm là khó ngấm, khả năng hấp thu giảm xuống còn 74% - 75% so với dầu cá tự nhiên.
 - Dầu cá tái tổ hợp (rTG - Re-esterified Triglyceride): Sau khi cô đặc ở dạng EE, nhà sản xuất dùng phản ứng hóa học tái tạo lại cấu trúc Triglycerid. Theo bác sĩ Phúc, dầu cá tái tổ hợp (rTG) 'mang đầy đủ đặc điểm của ety este' (đã cô đặc) và cải thiện khả năng ngấm lên rất nhiều: người ta cho rằng ngấm tốt hơn cả dầu cá tự nhiên (lên tới 125%); cũng có những tài liệu nghiên cứu nói rTG ngấm gấp 3 đến 4 lần EE, nhưng có tài liệu nói như thế là 'hơi nhiều quá'; ông nghĩ đến 125% 'có lẽ là hợp lý hơn', đôi khi người ta quảng cáo hơi nhiều. Đây là loại dầu cá cao cấp và có giá đắt nhất.
 
@@ -189,6 +195,7 @@ Bác sĩ Phúc phân loại 3 dạng dầu cá:
 
 **Q: Cách tính tỷ lệ hàm lượng EPA và DHA trong viên dầu cá như thế nào và tỷ lệ bao nhiêu là hiệu quả?**
 Bác sĩ Phúc nêu cách tính là lấy tổng EPA + DHA chia cho tổng chất béo. Trước đó, ông hướng dẫn nếu không tìm thấy mục tổng chất béo trên nhãn thì tìm khối lượng lớn nhất ghi cho một viên để làm mẫu số ([02:52:18](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=10338s)); đây là cách đọc nhãn ông đề xuất trong video.
+Bác sĩ Phúc còn dặn đọc kỹ tờ hướng dẫn sử dụng để biết sản phẩm là loại dầu cá gì.
 - Với sản phẩm dưới 0,3 (30%), bác sĩ Phúc nói có xu hướng nhiều tạp chất và chất béo không cần thiết, nhưng gần tự nhiên và dễ hấp thu hơn. Ông khuyên người dùng thử và theo dõi; ông lưu ý có người có thể bị tăng mỡ máu hoặc gan nhiễm mỡ sau một thời gian sử dụng.
 - Từ 0,3 trở lên: bác sĩ Phúc nói uống có xu hướng hiệu quả hơn, cải thiện sức khỏe tốt hơn.
 - Từ 0,5 đến 0,6: khá tốt; bác sĩ Phúc nói mức này 'khá đắt rồi' nhưng đa số mọi người chấp nhận được 0,5 đến 0,6.
@@ -203,8 +210,8 @@ Công thức cấu tạo của Omega-3 chứa nhiều liên kết pi nên rất 
 ## [03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=11591s
 
 **Q: Người mắc bệnh mỡ máu, gan nhiễm mỡ hoặc các bệnh mạn tính nên chọn loại Omega-3 chứa tỷ lệ EPA và DHA như thế nào?**
-Bác sĩ Phúc đưa ra nguyên tắc lựa chọn dựa trên nơi các chất ưu tiên đi tới: DHA ưu tiên đi vào não và mắt, còn EPA ưu tiên đi vào tim; theo bác sĩ Phúc, phần EPA còn thừa cũng có thể bổ sung cho não.
-- Theo bác sĩ Phúc, những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi (caption ghi 'phải mua APA cao hơn DHA'). Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'. Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'. Ông khuyên nói với con nên ngủ sớm, bỏ game online và video ngắn, đầu tư vào học hành kiến thức có chiều sâu; theo ông, video ngắn và game chỉ kích động tinh thần, ảnh hưởng đến hệ giao cảm và phó giao cảm, dần dần các cháu sẽ bị rối loạn nhịp tim và rối loạn cảm xúc. Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên. Nếu người bị gan nhiễm mỡ và mỡ máu mua loại DHA lớn hơn EPA thì khi uống có nguy cơ gan nhiễm mỡ và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.
+Bác sĩ Phúc đưa ra nguyên tắc lựa chọn dựa trên nơi các chất ưu tiên đi tới: DHA ưu tiên đi vào não và mắt, còn EPA ưu tiên đi vào tim; theo bác sĩ Phúc, phần EPA còn thừa cũng có thể bổ sung cho não (ở đoạn trước ông nói EPA có dành một phần rất nhiều cho não, nhưng ưu thế vẫn dành cho tim).
+- Theo bác sĩ Phúc, những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi. Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'. Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'. Ông khuyên nói với con nên ngủ sớm, bỏ game online và video ngắn, đầu tư vào học hành kiến thức có chiều sâu; theo ông, video ngắn và game chỉ kích động tinh thần, ảnh hưởng đến hệ giao cảm và phó giao cảm, dần dần các cháu sẽ bị rối loạn nhịp tim và rối loạn cảm xúc. Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên. Nếu người bị gan nhiễm mỡ và mỡ máu mua loại DHA lớn hơn EPA thì khi uống có nguy cơ gan nhiễm mỡ và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.
 - Còn những ai khỏe mạnh, xét nghiệm tốt đẹp, cơ thể không bị bệnh gì thì bác sĩ Phúc nói 'chúng ta mua cái DHA tăng lên một chút' để ưu tiên cho não và mắt, 'sẽ rất thông minh, sẽ mắt sẽ rất tinh'; các cháu không bị gan nhiễm mỡ, không bị mỡ máu uống DHA thì 'sẽ thông minh lên, mắt sáng hơn'.
 
 Về tỷ lệ (EPA+DHA)/tổng chất béo, bác sĩ Phúc nói người có bệnh tật nên mua từ khoảng 0,6–0,7 và ông ưu tiên 0,7 trở lên; người không có bệnh tật có thể xuống 0,5–0,6.
@@ -220,10 +227,13 @@ Bộ 7 vi chất dinh dưỡng quan trọng cho cơ thể bao gồm:
 5. Vitamin C
 6. Kẽm
 7. Omega-3
+Bác sĩ Phúc nói trong đại dịch Covid, ở các nước phát triển, nguyên thủ quốc gia luôn có một nhà toán học và một nhà dịch tễ học lâm sàng đi cùng; hai người cùng lập mô hình toán học phòng chống dịch với hàm nhiều biến, có khi tới 20 hoặc 30 biến, để can thiệp vào từng biến một cách hiệu quả và khoa học, và ông dùng đó làm ví dụ về ứng dụng kiến thức toán vào cuộc sống.
 Bác sĩ Phúc nói ở một số nước phát triển có xét nghiệm EPA và DHA trong tế bào hồng cầu để hỗ trợ xác định lượng Omega-3 cần bổ sung; theo hiểu biết của ông, xét nghiệm này hiện chưa được thực hiện ở Việt Nam vì chưa có nhu cầu.
+Bác sĩ Phúc nêu các khuyến cáo khác nhau, từ 400, 500, 600 mg đến 1000 mg mỗi ngày như nghiên cứu Khánh Lành dẫn; ông nói thậm chí có người hăng hái nêu 2000 mg, rồi đặt câu hỏi về cơ sở và chỉ vào xét nghiệm trong hồng cầu.
 
 **Q: Màng hồng cầu có thể được sử dụng để xét nghiệm những vi chất nào?**
 Người ta có thể căn cứ vào màng hồng cầu để thực hiện các xét nghiệm vi chất như canxi trong hồng cầu, magie trong hồng cầu, omega 3 và nhiều yếu tố khác kèm theo.
+Bác sĩ Phúc nêu rằng hồng cầu người nhìn chung không có nhân mà vẫn hoạt động bình thường, lấy đó làm luận cứ cho quan điểm màng tế bào là bộ não của tế bào.
 
 Trong phần trao đổi, người dẫn chương trình nhắc rằng bác sĩ nhấn mạnh nên xét nghiệm vitamin D trước khi bổ sung, và nói thêm rằng trước khi bổ sung Omega-3 thì người cần bổ sung cũng nên xét nghiệm (ví dụ mỡ máu, tiểu đường) để chọn loại Omega-3 có hàm lượng EPA và DHA phù hợp, rồi nâng lên bước cao hơn là khám sức khỏe toàn thân, khám tổng quát.
 
