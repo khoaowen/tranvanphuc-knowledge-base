@@ -19,6 +19,7 @@ import re
 import shlex
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -61,7 +62,7 @@ def extract_text(stdout):
 
 
 def classify_failure(returncode, stdout, stderr):
-    """Map a failed claude call to an exception. One place to tune patterns.
+    """Map a failed model command to an exception. One place to tune patterns.
 
     A real usage limit mentions a limit AND a reset (or "usage limit");
     a short 429 mentions 429/rate limit/overloaded without a reset.
@@ -74,7 +75,7 @@ def classify_failure(returncode, stdout, stderr):
         raise UsageLimitReached(reset.group(1).strip() if reset else "not provided by Claude")
     if SHORT_429.search(blob):
         raise RateLimitError(None)
-    raise SummarizeError(f"claude failed (exit {returncode}): {blob.strip()[:300]}")
+    raise SummarizeError(f"model command failed (exit {returncode}): {blob.strip()[:300]}")
 
 
 class ClaudeClient:
@@ -100,6 +101,40 @@ class ClaudeClient:
         if not text.strip():
             raise SummarizeError("claude returned empty output")
         return text
+
+
+class CodexClient:
+    """Callable client(prompt) -> text using Codex's final-message file."""
+
+    def __init__(self, command="codex", model="gpt-6.1-sol", timeout=CALL_TIMEOUT_SECONDS):
+        self._command = shlex.split(command)
+        self._model = model
+        self._timeout = timeout
+        self.last_usage = None
+
+    def __call__(self, prompt):
+        with tempfile.TemporaryDirectory(prefix="review-codex-") as tmp:
+            output = Path(tmp) / "last-message.txt"
+            argv = self._command + [
+                "exec", "--ephemeral", "--sandbox", "read-only", "--model", self._model,
+                "--output-last-message", str(output), "-",
+            ]
+            try:
+                proc = subprocess.run(argv, input=prompt, capture_output=True, text=True,
+                                      timeout=self._timeout)
+            except subprocess.TimeoutExpired:
+                raise TransientError("codex call timed out") from None
+            except FileNotFoundError:
+                raise SummarizeError(f"codex command not found: {argv[0]}") from None
+            if proc.returncode != 0:
+                classify_failure(proc.returncode, proc.stdout, proc.stderr)
+            try:
+                text = output.read_text(encoding="utf-8")
+            except OSError:
+                raise SummarizeError("codex did not write a final response") from None
+            if not text.strip():
+                raise SummarizeError("codex returned empty output")
+            return text
 
 
 def git(*args, cwd):

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Review summary fidelity locally with Claude; never modify summary.md."""
+"""Review summary fidelity locally with a configured model; never modify summary.md."""
 
 import argparse
 import hashlib
@@ -427,15 +427,24 @@ def run_batch(videos_dir, client, repo_root, limit=None, max_retries=5, commit=T
 
 
 def main(argv=None, client=None):
-    parser = argparse.ArgumentParser(description="Review video summaries with local Claude.")
+    parser = argparse.ArgumentParser(description="Review video summaries with a local model client.")
     parser.add_argument("--videos-dir", default="videos")
-    parser.add_argument("--model", choices=["sonnet", "haiku"], default="sonnet")
-    parser.add_argument("--claude-cmd", default=os.environ.get("REVIEW_SUMMARIES_CLAUDE", "claude"))
+    parser.add_argument("--provider", choices=["codex", "claude"], default="codex")
+    parser.add_argument("--model", default="gpt-6.1-sol")
+    parser.add_argument("--command", help="provider command; defaults to codex or claude")
+    parser.add_argument("--claude-cmd", help=argparse.SUPPRESS)  # backward-compatible alias
     parser.add_argument("--limit", type=int)
     parser.add_argument("--max-retries", type=int, default=5)
     parser.add_argument("--no-commit", action="store_true")
     args = parser.parse_args(argv)
-    client = client or review_batch.ClaudeClient(args.claude_cmd, args.model)
+    if client is None:
+        command = args.command or args.claude_cmd
+        if args.provider == "codex":
+            client = review_batch.CodexClient(command or os.environ.get("REVIEW_SUMMARIES_CODEX", "codex"),
+                                              args.model)
+        else:
+            client = review_batch.ClaudeClient(command or os.environ.get("REVIEW_SUMMARIES_CLAUDE", "claude"),
+                                               args.model)
     result = run_batch(args.videos_dir, client, Path(__file__).resolve().parent.parent,
                        args.limit, args.max_retries, not args.no_commit)
     print(f"reviewed {len(result['done'])}, failed {len(result['failed'])}")
