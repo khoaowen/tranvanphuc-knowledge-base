@@ -43,11 +43,11 @@ The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo co
 
 ## References
 
-- parent — ../initiative-tran-van-phuc-knowledge-base.md
-- spec — ../spec-tran-van-phuc-kb/spec-tran-van-phuc-kb.md, section Capabilities
-- architecture — ../spec-tran-van-phuc-kb/pipeline-architecture.md
-- structure — ../spec-tran-van-phuc-kb/repo-structure.md
-- disclaimer — ../spec-tran-van-phuc-kb/disclaimer.md
+- parent — ../../initiative-tran-van-phuc-knowledge-base.md
+- spec — ../../spec-tran-van-phuc-kb/spec-tran-van-phuc-kb.md, section Capabilities
+- architecture — ../../spec-tran-van-phuc-kb/pipeline-architecture.md
+- structure — ../../spec-tran-van-phuc-kb/repo-structure.md
+- disclaimer — ../../spec-tran-van-phuc-kb/disclaimer.md
 
 ## Notes
 
@@ -75,4 +75,4 @@ The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo co
 
 ### Raw-caption provenance follow-up — integrated (2026-10-21)
 
-Feature head `e5eff1d` (baseline `47c72ce`) is merged into `khoaowen/Epic2-publish-videos` at `471834d`. The [canonical plan](story-raw-caption-provenance-plan.md) records the final independent review with no findings; [human walkthrough Blocks 1–5](../../walkthrough-e5eff1d/walkthrough-e5eff1d.md) are accepted. Fix `51443d9` removes a pre-existing filesystem-order assumption in a test and restores BMad artifact paths. A fresh isolated run of the exact integrated commit passed all 147 tests; `git diff --check` passed, and `videos/` is unchanged. The user approved this documentation checkpoint and pushing Epic 2; verify remote state to confirm completion. This supersedes the earlier `9124c18`, 137-test, outstanding-review and no-push state. Backfill, correction approvals, publication, and a merge to `main` remain outside this authorization. See the [continuation handoff](../continuation-transcript-fidelity.md) for remaining work; the whole epic is not declared complete.
+Feature head `e5eff1d` (baseline `47c72ce`) is merged into `khoaowen/Epic2-publish-videos` at `471834d`. The [canonical plan](story-raw-caption-provenance-plan.md) records the final independent review with no findings; [human walkthrough Blocks 1–5](../../../walkthrough-e5eff1d/walkthrough-e5eff1d.md) are accepted. Fix `51443d9` removes a pre-existing filesystem-order assumption in a test and restores BMad artifact paths. A fresh isolated run of the exact integrated commit passed all 147 tests; `git diff --check` passed, and `videos/` is unchanged. The user approved this documentation checkpoint and pushing Epic 2; verify remote state to confirm completion. This supersedes the earlier `9124c18`, 137-test, outstanding-review and no-push state. Backfill, correction approvals, publication, and a merge to `main` remain outside this authorization. See the [continuation handoff](../../continuation-transcript-fidelity.md) for remaining work; the whole epic is not declared complete.

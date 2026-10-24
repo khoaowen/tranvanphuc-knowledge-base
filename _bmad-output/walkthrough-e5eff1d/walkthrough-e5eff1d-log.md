@@ -10,7 +10,7 @@ Session: unavailable · Timestamp: 2026-10-20T22:39:41+00:00
 
 - Action: Read generated bmad-walkthrough workflow and steps 1–2; verified target branch, clean worktree, commit subject/stat, and plan's final review summary. Created initial narrative/log.
 - Result: Target is `fix: complete validated pending caption fetches`; plan says pending-completion exception is user-approved and final review reported 147 tests passed. No product files changed or tests/actions run.
-- Evidence: `_bmad-output/initiative-tran-van-phuc-knowledge-base/epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md` in target commit; narrative file.
+- Evidence: `_bmad-output/initiative-tran-van-phuc-knowledge-base/tickets/epic-video-knowledge-pipeline/tickets/story-raw-caption-provenance-plan.md` in target commit; narrative file.
 - Open: User's intent/context and all walkthrough blocks await review.
 
 ## 2 — Intent — accepted

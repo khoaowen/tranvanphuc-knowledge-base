@@ -18,7 +18,7 @@ The commit spans the fetch path, pending-batch integration, raw-caption guidance
 2. [scripts/review_batch.py](../../scripts/review_batch.py) — caller that opts into pending completion.
 3. [tests/test_fetch_transcript.py](../../tests/test_fetch_transcript.py) — fetch behavior and collision-safety regressions.
 4. [tests/test_review_batch.py](../../tests/test_review_batch.py) — pending-batch integration coverage.
-5. [story-raw-caption-provenance-plan.md](../initiative-tran-van-phuc-knowledge-base/epic-video-knowledge-pipeline/story-raw-caption-provenance-plan.md) — approved exception, review outcomes, and verification notes.
+5. [story-raw-caption-provenance-plan.md](../initiative-tran-van-phuc-knowledge-base/tickets/epic-video-knowledge-pipeline/tickets/story-raw-caption-provenance-plan.md) — approved exception, review outcomes, and verification notes.
 
 ## 3 — Pending completion and provenance — [x] accepted
 

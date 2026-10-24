@@ -11,7 +11,7 @@ covers = ["E2-R1", "E2-R2", "E2-R3", "E2-R4"]
 after = []
 hitl = false
 risk = "high"
-references = ["../spec-summary-source-audit/audit/q7uDJG8YQ5c/", "../spec-summary-source-audit/spec-summary-source-audit.md", "../spec-summary-source-audit/audit-record-format.md", "../spec-summary-source-audit/.memlog.md"]
+references = ["../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/", "../../../spec-summary-source-audit/spec-summary-source-audit.md", "../../../spec-summary-source-audit/audit-record-format.md", "../../../spec-summary-source-audit/.memlog.md"]
 
 [[entry]]
 id = 2
@@ -23,7 +23,7 @@ covers = ["E2-R1", "E2-R2", "E2-R3", "E2-R4"]
 after = []
 hitl = false
 risk = "high"
-references = ["../spec-summary-source-audit/audit/V-Qfwjo28Zg/", "../spec-summary-source-audit/spec-summary-source-audit.md", "../spec-summary-source-audit/audit-record-format.md", "../spec-summary-source-audit/.memlog.md"]
+references = ["../../../spec-summary-source-audit/audit/V-Qfwjo28Zg/", "../../../spec-summary-source-audit/spec-summary-source-audit.md", "../../../spec-summary-source-audit/audit-record-format.md", "../../../spec-summary-source-audit/.memlog.md"]
 
 [[entry]]
 id = 3
@@ -36,4 +36,4 @@ after = [1]
 hitl = true
 risk = "high"
 refine = true
-references = ["../spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections.md", "../spec-summary-source-audit/audit/q7uDJG8YQ5c/approval-record.md"]
+references = ["../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections.md", "../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/approval-record.md"]

@@ -49,7 +49,7 @@ after = [2]
 hitl = true
 risk = "high"
 unknown = "Free-tier Gemini rate and daily limits against a ~51k-word Vietnamese transcript are unmeasured; the story measures them and sets chunk size and pacing from the result."
-references = ["../spec-tran-van-phuc-kb/.memlog.md (2026-10-11 decisions: summary as retrieval layer)", "../spec-tran-van-phuc-kb/pipeline-architecture.md#amendment-2026-10-11-0-hybrid-supersedes-step-d-as-ci-only"]
+references = ["../../../spec-tran-van-phuc-kb/.memlog.md (2026-10-11 decisions: summary as retrieval layer)", "../../../spec-tran-van-phuc-kb/pipeline-architecture.md#amendment-2026-10-11-0-hybrid-supersedes-step-d-as-ci-only"]
 
 [[entry]]
 id = 9

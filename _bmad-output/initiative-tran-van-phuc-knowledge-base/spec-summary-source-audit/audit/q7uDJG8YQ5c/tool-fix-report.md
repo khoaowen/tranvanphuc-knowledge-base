@@ -45,7 +45,7 @@ The manifest of all video files plus V-Qfwjo28Zg audit files and `proposed-corre
 
 All video summaries, transcripts and reviews are byte-identical to the start of this step. Approved correction text, V-Qfwjo28Zg's audit and ticket 1.12 were not edited. Nothing was staged, committed, pushed or published. Existing accepted working-tree changes were preserved.
 
-Workflow plan: `_bmad-output/initiative-tran-van-phuc-knowledge-base/epic-summary-source-audit/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md`.
+Workflow plan: `_bmad-output/initiative-tran-van-phuc-knowledge-base/tickets/epic-summary-source-audit/tickets/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md`.
 
 **Stopped for the human's step-1 review.** The next authorized stage, after that review, is drafting the 17 omission proposals as pending-human-approval; no summary addition has been drafted or applied during this step.
 

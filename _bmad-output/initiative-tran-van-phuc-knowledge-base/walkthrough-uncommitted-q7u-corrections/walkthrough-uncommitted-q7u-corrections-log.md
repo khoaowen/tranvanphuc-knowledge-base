@@ -8,7 +8,7 @@ Session: unavailable · Timestamp: 2026-10-18T00:00:00+00:00
 
 - Action: read the plan, `git status` and `git diff`. No subagent was started because delegation was not authorized.
 - Result: 6 blocks drafted. The review.md diff is a regenerated JSON, so it is not read line by line.
-- Evidence: plan `epic-summary-source-audit/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md`
+- Evidence: plan `tickets/epic-summary-source-audit/tickets/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md`
 
 ## 2 — block 2 — accepted
 

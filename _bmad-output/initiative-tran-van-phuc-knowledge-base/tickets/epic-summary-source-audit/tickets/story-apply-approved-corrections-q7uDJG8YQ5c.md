@@ -64,10 +64,10 @@ The audit spec and epic exclude applying corrections and require every correctio
 ## References
 
 - parent — `epic-summary-source-audit.md`
-- corrections — `../spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections.md`, revision 2, 24 items
-- approval — `../spec-summary-source-audit/audit/q7uDJG8YQ5c/approval-record.md`
-- audit contract — `../spec-summary-source-audit/spec-summary-source-audit.md` and `../spec-summary-source-audit/audit-record-format.md`
-- audit record — `../spec-summary-source-audit/audit/q7uDJG8YQ5c/`, `claims.json` and `replacement-check.md`
+- corrections — `../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections.md`, revision 2, 24 items
+- approval — `../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/approval-record.md`
+- audit contract — `../../../spec-summary-source-audit/spec-summary-source-audit.md` and `../../../spec-summary-source-audit/audit-record-format.md`
+- audit record — `../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/`, `claims.json` and `replacement-check.md`
 - target — `videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/summary.md`
 
 ## Notes
