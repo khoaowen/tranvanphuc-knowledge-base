@@ -123,19 +123,33 @@ def check_summary(video_dir, vocabulary):
     if video_id and fields.get("Video ID") and fields["Video ID"] != video_id:
         reasons.append("header: Video ID differs from metadata.json")
 
-    # disclaimer
-    if DISCLAIMER_BANNER not in summary:
-        reasons.append("missing disclaimer banner")
+    # disclaimer: the contract requires it immediately after the header.
+    header_end = 1
+    while header_end < len(lines) and not lines[header_end].strip():
+        header_end += 1
+    while header_end < len(lines) and re.match(r"^- \*\*[^:*]+:\*\*", lines[header_end]):
+        header_end += 1
+    while header_end < len(lines) and not lines[header_end].strip():
+        header_end += 1
+    if header_end >= len(lines) or lines[header_end].strip() != DISCLAIMER_BANNER.strip():
+        reasons.append("missing or misplaced disclaimer banner")
 
     # topic sections
     sections = [(i, fidelity.SECTION_HEADING.match(l)) for i, l in enumerate(lines) if l.startswith("## ") and l.strip() != "## Glossary"]
     sections = [(i, m) for i, m in sections if m]
     if not sections:
         reasons.append("no timestamped topic section")
-    bounds = [i for i, _ in sections] + [next((n for n, l in enumerate(lines) if l.strip() == "## Glossary"), len(lines))]
+    glossary_start = next((n for n, l in enumerate(lines) if l.strip() == "## Glossary"), len(lines))
+    if glossary_start < len(lines) and any(i > glossary_start for i, _ in sections):
+        reasons.append("Glossary must follow all topic sections")
+    bounds = [i for i, _ in sections] + [glossary_start]
+    question_sections = 0
     for k, (i, m) in enumerate(sections):
-        seconds = fidelity.to_seconds(":".join(m.groups()[:3]))
+        hours, minutes, remainder = (int(value) for value in m.groups()[:3])
+        seconds = hours * 3600 + minutes * 60 + remainder
         label = f"section [{m.group(1)}:{m.group(2)}:{m.group(3)}]"
+        if minutes >= 60 or remainder >= 60:
+            reasons.append(f"{label}: invalid timestamp format")
         if duration is not None and seconds > duration:
             reasons.append(f"{label}: time beyond video duration")
         link = LINK.search(lines[i])
@@ -152,12 +166,19 @@ def check_summary(video_dir, vocabulary):
         merged = len(body) == 1 and re.fullmatch(r"Đã gộp vào mục\s+[^.!?]{1,100}[.!]?", body[0], re.I)
         if not merged and not any(l.startswith("**Q:") for l in body):
             reasons.append(f"{label}: no **Q: line")
+        if not merged and any(l.startswith("**Q:") for l in body):
+            question_sections += 1
+    if sections and question_sections == 0:
+        reasons.append("no question-bearing topic section")
 
     # glossary
     gloss = re.search(r"^## Glossary\s*$(.*)", summary, re.M | re.S)
     if not gloss:
         reasons.append("missing Glossary")
     else:
+        glossary_lines = gloss.group(1).splitlines()
+        if any(line.startswith("## ") for line in glossary_lines):
+            reasons.append("Glossary must be the final section")
         head = next((l for l in gloss.group(1).splitlines() if l.strip().startswith("|")), "")
         cells = [c.strip().casefold() for c in head.strip().strip("|").split("|")]
         if cells[:3] != ["vietnamese", "english", "french"]:
@@ -223,7 +244,11 @@ def main(argv=None):
 
     if args.mark_stale:
         match = [e for e in queue_state.list_videos(args.videos_dir) if e["video_id"] == args.mark_stale]
-        if not match or not (match[0]["dir"] / "summary.md").is_file():
+        if len(match) != 1:
+            reason = "ambiguous video_id" if len(match) > 1 else "no summary to mark stale"
+            print(f"{args.mark_stale}: {reason}", file=sys.stderr)
+            return 1
+        if not (match[0]["dir"] / "summary.md").is_file():
             print(f"{args.mark_stale}: no summary to mark stale", file=sys.stderr)
             return 1
         mark_stale(match[0]["dir"])

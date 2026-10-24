@@ -3,14 +3,14 @@ title: 'CI validator and publish gate'
 type: 'feature'
 ticket: '10'
 created: '2026-10-19'
-status: 'built'
+status: 'in-review'
 baseline_revision: '8325a516d9447f654f9cf7c0ea17cc2a864de3f2'
 route: 'full'
 route_source: 'auto'
 risk: 'medium'
 review: 'quick'
 review_source: 'pinned'
-lenses_ran: []
+lenses_ran: ['quick']
 review_loop_iteration: 0
 context:
   - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/summary-contract.md'
@@ -69,13 +69,19 @@ context:
 
 ## Implementation Notes
 
-Implemented directly (no subagents authorized). Quick review lens not run via subagent; self-reviewed against the matrix. Cross-reference sections (`Đã gộp vào mục …`) are exempt from the `**Q:` rule, matching `fidelity.extract_claims`; needed for the real V-Qfwjo28Zg summary.
+Implemented directly. Quick review identified a timestamp range-validation gap; triaged and fixed. Cross-reference sections (`Đã gộp vào mục …`) remain exempt from the `**Q:` rule when at least one real topic section contains a question; needed for the real V-Qfwjo28Zg summary.
 
 ## Plan Change Log
 
 ## Review Triage Log
 
 Bmad-review (adversarial, edge-case, verification-gap) patched: strict duration (fails closed), NFC tag matching, unreadable vocabulary/transcript no longer crash, explicit review_missing flag, output line uses directory slug, tests for ?t=/link/Video ID/real videos/mark-stale. Deferred: disclaimer position/source, all-merged sections and glossary order, duplicate video_id, unittest in CI (see deferred-work.md).
+
+- medium — `scripts/validate_summaries.py`: the disclaimer was accepted anywhere, contrary to the contract's header placement. Fixed by requiring the canonical banner immediately after header metadata; regression test moves it into the body.
+- medium — `scripts/validate_summaries.py`: each section's merge-stub exemption allowed every topic section to be a stub, and assuming Glossary was last could make post-glossary sections evade checks. Fixed by requiring at least one question-bearing topic and rejecting topic headings after Glossary; regression tests cover both.
+- medium — `scripts/validate_summaries.py`: `--mark-stale` silently selected the first matching directory for duplicate video IDs. Fixed by failing closed on ambiguity; CLI test proves neither summary gets a marker.
+- medium — `scripts/validate_summaries.py`: minutes and seconds in section headings were not range checked. Fixed by rejecting values >= 60; regression test covers invalid minutes.
+- deferred — CI unittest workflow wiring remains downstream integration (entry 11), intentionally unchanged.
 
 ## Design Notes
 
