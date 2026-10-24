@@ -24,9 +24,10 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    env:
-      REPORT: ${{ runner.temp }}/weekly-sync-report.json
     steps:
+      - name: Set report path
+        run: echo "REPORT=$RUNNER_TEMP/weekly-sync-report.json" >> "$GITHUB_ENV"
+
       - name: Check out repo
         uses: actions/checkout@v4
         with:
