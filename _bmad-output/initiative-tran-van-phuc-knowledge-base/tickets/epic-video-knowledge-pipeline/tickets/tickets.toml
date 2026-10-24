@@ -85,6 +85,18 @@ after = [8, 9, 12]
 hitl = false
 risk = "medium"
 
+# Restore existing entry 13 from commit 554fb5d; this is identity repair, not a new ticket.
+[[entry]]
+id = 13
+type = "story"
+title = "Raw-caption provenance"
+description = "fetch_transcript.py preserves the raw json3 captions (gzip) with provenance (track, source, fetch details) under videos/<slug>/raw/, refuses to overwrite directories that already hold raw captions, writes staged/atomically, and offers --rerender (rebuild transcript.md from raw) and --check (zero-diff re-render check); --complete-pending lets entry 9's review-batch complete pending videos under the same rules. Existing videos are not re-fetched or modified; backfill and CI wiring of --check are deferred (deferred-work.md)."
+verify = "The full unittest suite passes, and `git diff 47c72ce -- videos/` is empty. A new fetch writes transcript.md plus raw/captions.*.json3.gz and raw/provenance.json; --rerender reproduces transcript.md with zero diff; an existing raw dir is skipped with a warning."
+covers = ["CAP-2"]
+after = [2, 9]
+hitl = false
+risk = "low"
+
 [[entry]]
 id = 11
 type = "story"
@@ -92,7 +104,7 @@ title = "Weekly workflow: detect, fetch, summarize, validate, commit"
 description = "Extends the existing weekly-sync.yml (single workflow file): detect new videos, fetch transcripts and metadata (which also queues the backlog as transcribed), summarize the newly detected video with Gemini (entry 8), validate (entry 10), and commit only valid results; it validates every summary on the branch, including ones pushed locally by entry 9, and rebases before pushing to avoid clashing with local pushes; selection rule: CI fetches and Gemini-summarizes only the single newest video not yet in videos/; it does not fetch the backlog. Backlog ids are queued as pending and fetched locally by entry 9, which fetches a missing transcript before summarizing; they stay out of CI."
 verify = "A workflow_dispatch run on the real channel detects, fetches and commits transcripts, Gemini-summarizes only the new video, commits it only if valid, and leaves invalid or backlog videos queued; no secret appears in logs and no subscription login is used."
 covers = ["CAP-1", "CAP-2", "CAP-3"]
-after = [1, 2, 8, 10]
+after = [1, 2, 8, 10, 13]
 hitl = true
 risk = "medium"
 

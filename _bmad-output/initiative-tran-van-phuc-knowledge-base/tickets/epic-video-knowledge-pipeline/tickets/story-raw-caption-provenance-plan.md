@@ -1,7 +1,7 @@
 ---
 title: 'Preserve raw captions with provenance and a zero-diff re-render check'
 type: 'feature'
-ticket: ''
+ticket: '13'
 created: '2026-10-20'
 status: 'in-review'
 baseline_revision: '47c72cecc30ff5e836e868b690352ec17cd613c6'
@@ -75,6 +75,8 @@ context: []
 - The two existing videos have no `raw/`, so `--check videos/*/` reports them as failures, as designed. Backfill is deferred.
 
 ## Plan Change Log
+
+- 2026-10-24: Repaired the missing ticket link using existing entry 13 from commit `554fb5d` (not an ancestor of this branch). Restored that entry and its recorded prerequisite on entry 11 in the migrated `tickets/tickets.toml`. No new ID was allocated. Preserved this plan's `in-review` status; the historical commit's `done` transition was not copied. No implementation or video content changed.
 
 ## Review Triage Log
 
