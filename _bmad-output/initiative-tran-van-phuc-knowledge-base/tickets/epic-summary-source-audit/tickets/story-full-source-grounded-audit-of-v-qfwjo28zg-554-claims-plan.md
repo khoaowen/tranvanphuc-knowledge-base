@@ -1,9 +1,7 @@
 ---
 title: "Full source-grounded audit of V-Qfwjo28Zg (554 claims)"
 ticket: 2
-status: blocked
-blocked_at: "2026-10-24"
-blocked_reason: "dirty working tree: the requested deletion of tracked _bmad-output/bmad-build-auto-result-v-qfwjo28zg-audit-2.md is uncommitted; build-auto requires a clean tree and the audit epic forbids committing"
+status: ready-for-dev
 ---
 
 ## Auto Run Result
