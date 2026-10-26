@@ -17,7 +17,7 @@ import summarize  # noqa: E402
 DISCLAIMER_FILE = (
     REPO_ROOT
     / "_bmad-output/initiative-tran-van-phuc-knowledge-base"
-    / "spec-tran-van-phuc-kb/disclaimer.md"
+    / "disclaimer.md"
 )
 
 SECRET = "AIzaSy-test-secret-value-123"

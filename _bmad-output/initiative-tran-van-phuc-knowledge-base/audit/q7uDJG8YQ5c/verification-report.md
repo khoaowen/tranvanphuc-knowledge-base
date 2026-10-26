@@ -60,7 +60,7 @@ Thus **5 class disagreements** remain (c019, c055, c068, c163, c192); the other 
 
 ## 2026-10-20 — transcript-fidelity evidence addendum (no adjudication)
 
-See [fresh-context continuation](../../../continuation-transcript-fidelity.md) and [correction proposals](proposed-corrections-fidelity.md). Current summary/transcript SHA-256 values still match omissions-recheck.md; a full audit rerun is not required merely to resume.
+See [fresh-context continuation](../../continuation-transcript-fidelity.md) and [correction proposals](proposed-corrections-fidelity.md). Current summary/transcript SHA-256 values still match omissions-recheck.md; a full audit rerun is not required merely to resume.
 
 - c068: additional blind audio-ASR evidence is available ("gián phân", "bốn bào tử"); human confirmation and exact correction approval pending. Written-transcript mismatch remains.
 - c163: the `>>` marker is an ASR cue, not proof of a speaker change. The YouTube transcript panel omits it. Acoustic/visual evidence suggests continuous speech, but does not independently establish speaker identity. Prior marker-only rationale must be revisited; no supported classification recorded.

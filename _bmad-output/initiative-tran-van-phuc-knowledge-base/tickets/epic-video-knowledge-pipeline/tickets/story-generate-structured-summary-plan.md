@@ -13,10 +13,10 @@ review_source: 'pinned'
 lenses_ran: [adversarial, edge-case-hunter, structure, prose]
 review_loop_iteration: 1
 context:
-  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/spec-tran-van-phuc-kb.md'
-  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/repo-structure.md'
-  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/disclaimer.md'
-  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/pipeline-architecture.md'
+  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb.md'
+  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/repo-structure.md'
+  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/disclaimer.md'
+  - '/Users/khoa/IdeaProjects/tranVanPhuc/_bmad-output/initiative-tran-van-phuc-knowledge-base/pipeline-architecture.md'
 ---
 
 > **SUPERSEDED 2026-10-11.** Paid Anthropic auditor, WIF and dollar caps (including this plan's frozen block) are renegotiated by the human under the $0 constraint. Kept for history only. Do not implement. Replaced by stories re-sliced from the amended spec.
@@ -27,7 +27,7 @@ context:
 
 **Problem:** Vietnamese health transcripts need navigable summaries, but a plausible paraphrase can reverse a qualification, invent advice, or misattribute a host's words to the doctor. Incorrect summaries can propagate into a public medical-content knowledge base.
 
-**Approach:** Build a fail-closed, evidence-bearing generator/auditor pipeline for CAP-3:
+**Approach:** Build a fail-closed, evidence-bearing generator/auditor pipeline for R3:
 
 `immutable transcript -> timestamped segment parser -> deterministic input validation -> generator -> independent auditor -> deterministic evidence validator -> validated structured data -> Markdown renderer -> atomic summary.md write`
 
@@ -165,7 +165,7 @@ Count normalized whitespace-delimited tokens of the source text after removing t
 
 Catchable interruption triggers cleanup; SIGKILL/power loss cannot guarantee it. At next locked startup, recover only owned, recognizable summary temporary files without following symlinks or touching inputs/old final outputs. Restrictive permissions apply from creation; commit staging uses an explicit final-artifact allowlist, never broad directory staging.
 
-**Proposed additional output contract — human approval required:** persist a durable validation receipt binding exact rendered-summary SHA-256, transcript/metadata/vocabulary hashes, schema/validator version, approved provider/configuration identity and audit-report references. Keep content/secrets out of the receipt. A separate receipt beside `summary.md` needs an approved name/layout and fail-closed crash/partial-publication protocol: an absent/mismatched receipt makes the summary ineligible. This adds a planned artifact beyond the companion layout; do not implement or assume approval. Until resolved, rendered provenance alone is insufficient for downstream eligibility and CAP-3-to-consolidation publication is blocked.
+**Proposed additional output contract — human approval required:** persist a durable validation receipt binding exact rendered-summary SHA-256, transcript/metadata/vocabulary hashes, schema/validator version, approved provider/configuration identity and audit-report references. Keep content/secrets out of the receipt. A separate receipt beside `summary.md` needs an approved name/layout and fail-closed crash/partial-publication protocol: an absent/mismatched receipt makes the summary ineligible. This adds a planned artifact beyond the companion layout; do not implement or assume approval. Until resolved, rendered provenance alone is insufficient for downstream eligibility and R3-to-consolidation publication is blocked.
 
 ### Vocabulary and operational safety
 
@@ -179,7 +179,7 @@ Approved request/resource policies: 120-second request timeout, 30-minute per-vi
 
 Retain the single scheduled/manual workflow; disable tracing and inject credentials at the model-call step only. Set job timeout and serialize publication/vocabulary operations with a repository concurrency group. A protected per-run manifest contains only IDs, statuses and hashes, never content or keys. Any failed requested video returns non-zero (including partial success), matching the companion's failed-workflow notification requirement. Explicit conditional follow-up steps may commit successful validated summaries and run consolidation despite a summary-step failure; a final status step must preserve the failure conclusion, not hide it with `continue-on-error`.
 
-Consolidation regenerates on each pipeline run from only current hash-bound validated summaries and already eligible corpus entries, never partial, stale or audit-failed targets. Preserve fetch-produced raw transcript/metadata files without editing them. Legacy summaries without verifiable provenance require revalidation before inclusion. When no current successes exist, regenerate from remaining eligible corpus; if none exists, fail consolidation without overwriting prior artifacts. Honor <=20 files and the existing size limit contract; consolidation failures also fail Actions. This story defines/wires the eligibility interface, not CAP-5 packing implementation. Failed videos must remain explicitly retryable on later runs even when transcripts already exist; presence of raw inputs alone is not summary success. Build the summary queue as the deduplicated union of newly detected videos and existing transcript directories without a currently eligible summary (including stale, legacy, previously failed and receipt-mismatched outputs). Do not depend solely on detector repository-presence discovery. Validate IDs/paths and exclude out-of-repository/symlink targets. Offline workflow tests must show a fetched-but-failed video being requeued on the next scheduled run.
+Consolidation regenerates on each pipeline run from only current hash-bound validated summaries and already eligible corpus entries, never partial, stale or audit-failed targets. Preserve fetch-produced raw transcript/metadata files without editing them. Legacy summaries without verifiable provenance require revalidation before inclusion. When no current successes exist, regenerate from remaining eligible corpus; if none exists, fail consolidation without overwriting prior artifacts. Honor <=20 files and the existing size limit contract; consolidation failures also fail Actions. This story defines/wires the eligibility interface, not R5 packing implementation. Failed videos must remain explicitly retryable on later runs even when transcripts already exist; presence of raw inputs alone is not summary success. Build the summary queue as the deduplicated union of newly detected videos and existing transcript directories without a currently eligible summary (including stale, legacy, previously failed and receipt-mismatched outputs). Do not depend solely on detector repository-presence discovery. Validate IDs/paths and exclude out-of-repository/symlink targets. Offline workflow tests must show a fetched-but-failed video being requeued on the next scheduled run.
 
 ### Adversarial automated fixtures
 

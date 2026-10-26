@@ -1,4 +1,4 @@
-# Handoff (condensed 2026-10-11): Generate structured summary (CAP-3)
+# Handoff (condensed 2026-10-11): Generate structured summary (R3)
 
 Status: the earlier decision-session handoff is SUPERSEDED. It assumed a paid Anthropic API auditor
 (`claude-sonnet-5-5`), Workload Identity Federation, dollar caps and paid Gemini. The new constraint is

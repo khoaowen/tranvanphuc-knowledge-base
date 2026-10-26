@@ -1,4 +1,4 @@
-# Summary contract (CAP-3 retrieval layer)
+# Summary contract (R3 retrieval layer)
 
 `videos/*/summary.md` is what the Custom GPT retrieves from. Each chunk must answer a query on its own. Written by `summarize.py` (CI, Gemini) or `./review-batch` (local, `claude -p`); gated by `scripts/validate_summaries.py`.
 

@@ -35,7 +35,7 @@ Keep quote authenticity, evidence timestamp validation, semantic review checks, 
 - Preserve existing unrelated working-tree edits; review only this step's production/test patch and new workflow artifacts.
 - Implemented in review aggregation and gate; fidelity matching helpers stay unchanged. Two changed acceptance expectations failed before the production fix. All 86 tests pass after it, and diff whitespace checks pass.
 - All 94 protected video/audit files retain the baseline manifest digest, including the full transcript hash. Both actual stored verdicts and publication results remain fail/false. No model reviews were rerun.
-- Step-1 report includes the full code/test diff at `../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/tool-fix-report.md`. Stopped before omission drafting, as requested. No staging, commit or publication.
+- Step-1 report includes the full code/test diff at `../../../audit/q7uDJG8YQ5c/tool-fix-report.md`. Stopped before omission drafting, as requested. No staging, commit or publication.
 
 ## Verification
 

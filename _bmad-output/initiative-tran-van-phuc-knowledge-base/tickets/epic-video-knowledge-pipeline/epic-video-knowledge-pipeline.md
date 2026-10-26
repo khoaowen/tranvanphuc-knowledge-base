@@ -4,7 +4,7 @@ key: ""
 type: epic
 title: "Automated video-to-knowledge pipeline"
 parent: initiative-tran-van-phuc-knowledge-base
-covers: [CAP-1, CAP-2, CAP-3, CAP-4, CAP-5, CAP-6]
+covers: [R1, R2, R3, R4, R5, R6]
 after: []
 assignee: ""
 risk: medium
@@ -22,12 +22,12 @@ Within 24-48h of each Saturday upload, the new video is processed end to end and
 
 ## Requirements
 
-- CAP-1: Detect new videos on the channel since the last run, on a weekly schedule after the usual Saturday upload. (spec, Capabilities)
-- CAP-2: Fetch the Vietnamese transcript and core metadata (title, publish date, video ID, URL, duration) for each queued video. (spec, Capabilities)
-- CAP-3: Generate a structured summary (key points, topic tags from a controlled vocabulary, timestamps) per video via an LLM at $0 (Gemini free tier in CI for the weekly video, local `claude -p` for backlog); keep both transcript and summary. (spec, Capabilities)
-- CAP-4: Organize transcripts, summaries, and metadata into the public repo per `repo-structure.md` — README index by date/topic, `videos/<slug>/`, `topics/*.md`, reachable in two clicks or fewer. (spec, Capabilities)
-- CAP-5: Consolidate repo content into `knowledge-gpt/*.md`, regenerated every run, never exceeding 20 files or OpenAI's per-file Knowledge size ceiling, repacked/rebalanced as the corpus grows. (spec, Capabilities)
-- CAP-6: Document the one-time-per-run manual hand-off — uploading `knowledge-gpt/*.md` into the Custom GPT Builder, with instructions/system-prompt text that always shows the disclaimer and translates on demand. (spec, Capabilities)
+- R1: Detect new videos on the channel since the last run, on a weekly schedule after the usual Saturday upload. (spec, Capabilities)
+- R2: Fetch the Vietnamese transcript and core metadata (title, publish date, video ID, URL, duration) for each queued video. (spec, Capabilities)
+- R3: Generate a structured summary (key points, topic tags from a controlled vocabulary, timestamps) per video via an LLM at $0 (Gemini free tier in CI for the weekly video, local `claude -p` for backlog); keep both transcript and summary. (spec, Capabilities)
+- R4: Organize transcripts, summaries, and metadata into the public repo per `repo-structure.md` — README index by date/topic, `videos/<slug>/`, `topics/*.md`, reachable in two clicks or fewer. (spec, Capabilities)
+- R5: Consolidate repo content into `knowledge-gpt/*.md`, regenerated every run, never exceeding 20 files or OpenAI's per-file Knowledge size ceiling, repacked/rebalanced as the corpus grows. (spec, Capabilities)
+- R6: Document the one-time-per-run manual hand-off — uploading `knowledge-gpt/*.md` into the Custom GPT Builder, with instructions/system-prompt text that always shows the disclaimer and translates on demand. (spec, Capabilities)
 
 ## Done when
 
@@ -39,34 +39,34 @@ Within 24-48h of each Saturday upload, the new video is processed end to end and
 
 ## Boundaries
 
-The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo content structure it writes to, and the documentation for the one manual step. Not the GPT as a hosted service, not translation quality, not fact-checking, not video/audio hosting — see the spec's Non-goals. CAP-7 (agents reading the repo via `git clone`) needs no entry here: it falls out of the repo being plain, public markdown once CAP-4 is delivered.
+The pipeline code (`scripts/`, `.github/workflows/weekly-sync.yml`), the repo content structure it writes to, and the documentation for the one manual step. Not the GPT as a hosted service, not translation quality, not fact-checking, not video/audio hosting — see the spec's Non-goals. R7 (agents reading the repo via `git clone`) needs no entry here: it falls out of the repo being plain, public markdown once R4 is delivered.
 
 ## References
 
 - parent — ../../initiative-tran-van-phuc-knowledge-base.md
-- spec — ../../spec-tran-van-phuc-kb/spec-tran-van-phuc-kb.md, section Capabilities
-- architecture — ../../spec-tran-van-phuc-kb/pipeline-architecture.md
-- structure — ../../spec-tran-van-phuc-kb/repo-structure.md
-- disclaimer — ../../spec-tran-van-phuc-kb/disclaimer.md
+- spec — ../../initiative-tran-van-phuc-knowledge-base.md, section Capabilities
+- architecture — ../../pipeline-architecture.md
+- structure — ../../repo-structure.md
+- disclaimer — ../../disclaimer.md
 
 ## Notes
 
-- Decision: one epic for CAP-1 through CAP-6, no split by capability — single owner, one sequential lane, no boundary justifies more than one epic (user's request, this session).
-- Decision: CAP-7 gets no story; it is a side effect of CAP-4's plain-markdown structure (spec's Non-goals; user's request, this session).
-- Open question: YouTube transcript/metadata source for CAP-1/CAP-2 — YouTube Data API (needs an API key secret) vs. `yt-dlp`/`youtube-transcript`-style scraping (no key, more fragile). The opening story (detection) decides and records it.
-- Decision (2026-10-11): CAP-3 runs at $0. CI uses Gemini free tier (secret `GEMINI_API_KEY`, confirmed free tier); local `./review-batch` uses `claude -p`. No paid API, no subscription login in CI. Free-tier limits on 3-4h transcripts are untested; chunking required.
+- Decision: one epic for R1 through R6, no split by capability — single owner, one sequential lane, no boundary justifies more than one epic (user's request, this session).
+- Decision: R7 gets no story; it is a side effect of R4's plain-markdown structure (spec's Non-goals; user's request, this session).
+- Open question: YouTube transcript/metadata source for R1/R2 — YouTube Data API (needs an API key secret) vs. `yt-dlp`/`youtube-transcript`-style scraping (no key, more fragile). The opening story (detection) decides and records it.
+- Decision (2026-10-11): R3 runs at $0. CI uses Gemini free tier (secret `GEMINI_API_KEY`, confirmed free tier); local `./review-batch` uses `claude -p`. No paid API, no subscription login in CI. Free-tier limits on 3-4h transcripts are untested; chunking required.
 - Unknown: the controlled topic-tag vocabulary starts empty; entry 4 seeds it from evidence in the validated summaries, with human approval.
 - Dropped: entry 3 "Generate structured summary" (2026-10-11) — superseded by the $0 hybrid amendment (paid auditor, WIF, dollar caps removed). Its plan status was `superseded`, not a valid status, so it is set to `dropped`; the file is otherwise untouched and is not to be implemented from.
 - Decision (2026-10-11): re-sliced after stories 1-2 (done). Ids are never reused, so the new stories take 8-11 (Gemini CI summarizer, local review-batch, validator and publish gate, weekly workflow); 4-7 keep their ids and are re-scoped. Build order at that re-slice was the table order: 1, 2, 8, 9, 10, 11, 4, 5, 6, 7.
 - Decision (2026-10-11): CI Gemini summarizes only the newly detected video; backlog stays `transcribed` for local `./review-batch`. One queue, newest first, no special backlog mode.
-- Assumption: local summarization needs no new CAP; CAP-3 and the spec Constraints already cover `claude -p`, resumability and the validation gate.
-- Source conflict: spec CAP-3 — lists key points, topics, claims, timestamps vs. memlog 2026-10-11 decision that the summary is the GPT retrieval layer (self-contained header, ?t= links, question-shaped lines, VI/EN/FR glossary, hedges kept). The contract lives only in `.memlog.md`; offer to pass it to `bmad-spec`.
-- Decision (2026-10-24): resolve the historical CAP-3 source conflict for the pipeline integration: the richer retrieval/fidelity contract is now recorded in `../../spec-tran-van-phuc-kb/summary-contract.md` and implemented by the shipped summarizer, validator, and hash-bound local review gate. Entry 11 consumes that contract unchanged; the shorter CAP-3 wording does not remove its header, deep links, question-shaped lines, glossary, or fidelity requirements. No schema redesign is part of 11.
+- Assumption: local summarization needs no new CAP; R3 and the spec Constraints already cover `claude -p`, resumability and the validation gate.
+- Source conflict: spec R3 — lists key points, topics, claims, timestamps vs. memlog 2026-10-11 decision that the summary is the GPT retrieval layer (self-contained header, ?t= links, question-shaped lines, VI/EN/FR glossary, hedges kept). The contract lives only in `.memlog.md`; offer to pass it to `bmad-spec`.
+- Decision (2026-10-24): resolve the historical R3 source conflict for the pipeline integration: the richer retrieval/fidelity contract is now recorded in `../../summary-contract.md` and implemented by the shipped summarizer, validator, and hash-bound local review gate. Entry 11 consumes that contract unchanged; the shorter R3 wording does not remove its header, deep links, question-shaped lines, glossary, or fidelity requirements. No schema redesign is part of 11.
 - Decision (2026-10-11): tag check is option A. Tags are free-form until `topics/vocabulary.md` exists; 8 and 9 load it into the prompt when present; 10 takes the vocabulary path as a parameter and enforces only when the file exists; 4 seeds and gets it approved, then re-validates all summaries and re-queues failures.
 - Decision (2026-10-11): entry 9 owns the queue/state helper; 10 reuses it, so 10 is after 8 and 9.
 - Decision (2026-10-11): CI fetches and Gemini-summarizes only the single newest video not yet in videos/; backlog is queued as pending and fetched locally by entry 9 (no CI backlog fetch, no extra Gemini quota).
 - Decision (2026-10-11): entry 4 does not wait on 9; option A seeds the vocabulary from the validated summaries available.
-- Decision (2026-10-11): entry 8 does not prove the Free tier in CI; builder re-confirms in AI Studio once. CAP-3 summary contract to go through bmad-spec.
+- Decision (2026-10-11): entry 8 does not prove the Free tier in CI; builder re-confirms in AI Studio once. R3 summary contract to go through bmad-spec.
 - Unknown: whether detect/fetch (stories 1-2, done) already queue the whole channel backlog; entry 11 owns any change needed and does not reopen 1 or 2.
 - Decision (2026-10-11): added entry 12, a Claude fidelity review that blocks publishing. It restores the auditor from the dropped entry 3, which the $0 amendment removed with the paid parts and no ticket re-homed (user's request, this session). Build order: 1, 2, 8, 9, 12, 10, 11, 4, 5, 6, 7.
 - Decision (2026-10-11): the fidelity review (entry 12) stays local, Claude-only and blocking. No Gemini second pass and no quote-per-claim check in CI (user's request, this session). Consequence accepted: the weekly CI Gemini video is committed but unpublished until ./review-summaries is run locally and review.md is pushed. Entry 11 must keep it unpublished until then.

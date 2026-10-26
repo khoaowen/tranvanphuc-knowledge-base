@@ -6,7 +6,7 @@
 
 Each numbered item's full scope includes substantive details in its explanation. Partial coverage or unclear source identity/attribution counts as **still omitted**. Coverage describes representation of the conversation, not medical validation or approval of a fidelity class. Item 2's comparison is clearly present despite a classification disagreement.
 
-References: [current summary](../../../../../videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/summary.md), [source transcript](../../../../../videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/transcript.md), [original omissions](omissions.md). Current IDs are from `fidelity.extract_claims`, c001–c194. Section timestamps below locate claims in the summary; source timestamps separately locate transcript evidence and do not assert section-window compliance.
+References: [current summary](../../../../videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/summary.md), [source transcript](../../../../videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/transcript.md), [original omissions](omissions.md). Current IDs are from `fidelity.extract_claims`, c001–c194. Section timestamps below locate claims in the summary; source timestamps separately locate transcript evidence and do not assert section-window compliance.
 
 | # | Topic and source timestamps | Status | Current-summary citations and finding |
 | --- | --- | --- | --- |

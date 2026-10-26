@@ -25,7 +25,7 @@ context: []
 
 ## Boundaries & Constraints
 
-**Always:** Audit dir = `../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/`; every output is a new file or a dated append. Verify quotes with `../../../spec-summary-source-audit/audit/verify_quotes.py`. Keep `queue_state.publishable=false` (`scripts/queue_state.py`) and report `blocked`. "Unchanged video/review files" means unchanged by this build versus baseline `47c72ce` (`git diff --stat 47c72ce -- videos/` before and after). Authoritative omissions count: 22. Any new second-pass uses `gpt-6.1-sol` via `codex exec` (human-approved replacement for opus).
+**Always:** Audit dir = `../../../audit/q7uDJG8YQ5c/`; every output is a new file or a dated append. Verify quotes with `../../../audit/verify_quotes.py`. Keep `queue_state.publishable=false` (`scripts/queue_state.py`) and report `blocked`. "Unchanged video/review files" means unchanged by this build versus baseline `47c72ce` (`git diff --stat 47c72ce -- videos/` before and after). Authoritative omissions count: 22. Any new second-pass uses `gpt-6.1-sol` via `codex exec` (human-approved replacement for opus).
 
 **Never:** Edit `videos/`, summary/transcript/review files, `final_records.json`, `pass1.json`, `raw/`, or ticket 1.12; touch the 17 `pending-human-approval` items in `proposed-omissions.md`; apply corrections; commit or publish; reword the 7 claims failing only the timestamp-window rule (c002, c014–c017, c116, c121); infer medical corrections; treat stale `claims-after-apply.md` / `split-claims-audit.*` as current.
 
@@ -42,10 +42,10 @@ context: []
 
 ## Code Map
 
-- `../../../spec-summary-source-audit/audit/q7uDJG8YQ5c/final_records.json` -- 149 pre-correction records c001–c149; read-only
+- `../../../audit/q7uDJG8YQ5c/final_records.json` -- 149 pre-correction records c001–c149; read-only
 - `.../final-claims-mapping.md`, `final-claims-audit.json` -- current 160-claim mapping and 49 review-tool records (current sources)
 - `.../omissions.md` (22 entries), `audit-summary.md`, `report.md` -- reports; `audit-summary.md` gets an append-only correction note
-- `../../../spec-summary-source-audit/audit/verify_quotes.py` -- `verify_quotes.py <video_id> <transcript.md> <records.json> [tol]`
+- `../../../audit/verify_quotes.py` -- `verify_quotes.py <video_id> <transcript.md> <records.json> [tol]`
 - `videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/` -- summary.md, transcript.md (read-only)
 - `scripts/fidelity.py` (`extract_claims`), `scripts/queue_state.py` -- claim ids, publishable gate
 
@@ -80,5 +80,5 @@ Opus review (2026-10-19) found the 149 vs 160 scope gap; the supplement approach
 ## Verification
 
 **Commands:**
-- `python3 ../../../spec-summary-source-audit/audit/verify_quotes.py q7uDJG8YQ5c <transcript.md> <records.json>` -- expected: 0 failures, for each records file
+- `python3 ../../../audit/verify_quotes.py q7uDJG8YQ5c <transcript.md> <records.json>` -- expected: 0 failures, for each records file
 - `git diff --stat 47c72ce -- videos/` -- expected: identical before and after the build

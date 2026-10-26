@@ -13,7 +13,7 @@ review_source: 'pinned'
 lenses_ran: ['quick']
 review_loop_iteration: 0
 context:
-  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/summary-contract.md'
+  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/summary-contract.md'
 ---
 
 <frozen-after-approval reason="human-owned intent — do not modify unless human renegotiates">
@@ -52,7 +52,7 @@ context:
 - `scripts/summarize.py` -- `DISCLAIMER_BANNER` constant (verbatim), `SECTION_SCHEMA`, header shape (`- **Video ID:**`, `Published`, `URL`, `Topics`), `## Glossary` table `Vietnamese | English | French`, links `…&t=<s>s`. Import `DISCLAIMER_BANNER`.
 - `videos/*/metadata.json` -- `duration` (seconds), `video_id`; `summary.md`/`transcript.md` neighbours.
 - `tests/test_review_batch.py` -- unittest + tempdir fixture pattern to copy.
-- `_bmad-output/.../spec-tran-van-phuc-kb/summary-contract.md` -- CI validation rules; real ratios: summary/transcript is 0.15 and 0.22.
+- `_bmad-output/.../summary-contract.md` -- CI validation rules; real ratios: summary/transcript is 0.15 and 0.22.
 - Do not touch `videos/`, `topics/` (absent), `.github/workflows/`.
 
 ## Tasks & Acceptance

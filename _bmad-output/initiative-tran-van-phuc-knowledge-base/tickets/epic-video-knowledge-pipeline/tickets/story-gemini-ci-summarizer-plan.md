@@ -13,8 +13,8 @@ review_source: 'pinned'
 lenses_ran: ['quick']
 review_loop_iteration: 0
 context:
-  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/summary-contract.md'
-  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/disclaimer.md'
+  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/summary-contract.md'
+  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/disclaimer.md'
 ---
 
 <frozen-after-approval reason="human-owned intent — do not modify unless human renegotiates">
@@ -50,7 +50,7 @@ context:
 
 - `scripts/fetch_transcript.py` -- writes `videos/<date>-<slug>/{transcript.md,metadata.json}`; mirror its argparse/Path style and `[HH:MM:SS] text` line format. Do not modify.
 - `videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/` -- seed input (metadata keys: video_id, title, url, published_at, duration).
-- `_bmad-output/.../spec-tran-van-phuc-kb/summary-contract.md` -- required structure; `disclaimer.md` -- banner text.
+- `_bmad-output/.../summary-contract.md` -- required structure; `disclaimer.md` -- banner text.
 - `requirements.txt`, `.github/workflows/weekly-sync.yml` -- unchanged (stdlib; weekly wiring is entry 11).
 
 ## Tasks & Acceptance

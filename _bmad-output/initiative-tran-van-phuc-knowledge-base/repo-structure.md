@@ -19,7 +19,7 @@ tranvanphuc-knowledge-base/
     vitamin.md
     dinh-duong.md
     ...
-  knowledge-gpt/                   # CAP-5 output — regenerated every pipeline run, never hand-edited
+  knowledge-gpt/                   # R5 output — regenerated every pipeline run, never hand-edited
     01-overview.md
     02-videos-2026-q1.md
     03-topics-ung-thu-vitamin.md
@@ -28,13 +28,13 @@ tranvanphuc-knowledge-base/
     custom-gpt-setup.md            # GPT Builder config: instructions, disclaimer, Knowledge upload steps
   review-batch                     # local resumable runner: claude -p summaries, commits as it goes
   scripts/
-    detect_new_videos.py           # CAP-1
-    fetch_transcript.py            # CAP-2 (wraps the youtube-transcript skill or yt-dlp)
-    summarize.py                   # CAP-3 (CI, Gemini free tier)
+    detect_new_videos.py           # R1
+    fetch_transcript.py            # R2 (wraps the youtube-transcript skill or yt-dlp)
+    summarize.py                   # R3 (CI, Gemini free tier)
     validate_summaries.py          # CI gate: checks summary.md against summary-contract.md, drops invalid
-    consolidate.py                 # CAP-5
+    consolidate.py                 # R5
   .github/workflows/
-    weekly-sync.yml                # CAP-1-5 scheduled run (cron, Saturday+buffer)
+    weekly-sync.yml                # R1-5 scheduled run (cron, Saturday+buffer)
 ```
 
 ## Naming convention
@@ -44,6 +44,6 @@ tranvanphuc-knowledge-base/
 
 ## `knowledge-gpt/` consolidation rule
 
-- Never exceeds 20 files (CAP-5 constraint).
+- Never exceeds 20 files (R5 constraint).
 - Each file batches several videos/topics, not one video per file, to stay within OpenAI's 20-file ceiling as the corpus grows; `consolidate.py` repacks and rebalances files as the corpus grows rather than appending indefinitely to one file.
 - Files are the only ones a human uploads by hand into the Custom GPT's Knowledge tab after each pipeline run.

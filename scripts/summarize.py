@@ -40,7 +40,7 @@ REQUEST_TIMEOUT_SECONDS = 300
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
-# Verbatim from spec-tran-van-phuc-kb/disclaimer.md (English canonical text).
+# Verbatim from initiative-tran-van-phuc-knowledge-base/disclaimer.md (English canonical text).
 DISCLAIMER_BANNER = (
     "> **Health disclaimer.** This content is a transcription and summary of "
     "Dr. Trần Văn Phúc's public videos (channel \"Bác sĩ Trần Văn Phúc "

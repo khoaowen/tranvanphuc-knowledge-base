@@ -4,7 +4,7 @@ key: ""
 type: epic
 title: "Summary source-grounded audit"
 parent: initiative-tran-van-phuc-knowledge-base
-covers: [CAP-3]
+covers: [R3]
 after: []
 assignee: ""
 risk: high
@@ -14,7 +14,7 @@ risk: high
 
 ## Description
 
-Complete an independent, human-checkable source-grounded audit of the current summaries for q7uDJG8YQ5c and V-Qfwjo28Zg. The canonical requirements and evidence contract are in `../../spec-summary-source-audit/spec-summary-source-audit.md` and its companion `audit-record-format.md`; this audit is separate from the automated video knowledge pipeline and its ticket 1.12.
+Complete an independent, human-checkable source-grounded audit of the current summaries for q7uDJG8YQ5c and V-Qfwjo28Zg. The canonical requirements and evidence contract are in `../../initiative-tran-van-phuc-knowledge-base.md` and its companion `audit-record-format.md`; this audit is separate from the automated video knowledge pipeline and its ticket 1.12.
 
 ## Outcome
 
@@ -22,10 +22,10 @@ A human can inspect every current claim against its transcript, review important
 
 ## Requirements
 
-- E2-R1 (audit spec CAP-1): Every current summary claim in both videos has an exact-text claim record with section, verbatim timestamped transcript evidence where available, speaker/attribution, class, and note; unresolved claims remain unresolved until checked against the full transcript. No claim IDs are copied from stale reviews.
-- E2-R2 (audit spec CAP-2): Each video has an important-omissions list with timestamp range and verbatim anchor quote, or an explicit “none found” after a full-transcript pass.
-- E2-R3 (audit spec CAP-3): Proposed corrections are separate from findings, each marked `pending-human-approval`; source video files and review artifacts remain unchanged.
-- E2-R4 (audit spec CAP-4): Both videos remain blocked from publication throughout and are reported as `blocked`.
+- E2-R1 (audit spec R1): Every current summary claim in both videos has an exact-text claim record with section, verbatim timestamped transcript evidence where available, speaker/attribution, class, and note; unresolved claims remain unresolved until checked against the full transcript. No claim IDs are copied from stale reviews.
+- E2-R2 (audit spec R2): Each video has an important-omissions list with timestamp range and verbatim anchor quote, or an explicit “none found” after a full-transcript pass.
+- E2-R3 (audit spec R3): Proposed corrections are separate from findings, each marked `pending-human-approval`; source video files and review artifacts remain unchanged.
+- E2-R4 (audit spec R4): Both videos remain blocked from publication throughout and are reported as `blocked`.
 
 ## Done when
 
@@ -36,14 +36,14 @@ A human can inspect every current claim against its transcript, review important
 
 ## Boundaries
 
-This epic owns only the read-only audit and its outputs under `../../spec-summary-source-audit/audit/<video_id>/`. It does not own changes to `videos/`, review refreshes, medical validation, applying corrections, auditing other videos, changing review tooling, unblocking or publishing, or committing. Preserve all existing audit artifacts; continue or supplement them without restarting, overwriting, or deleting prior work.
+This epic owns only the read-only audit and its outputs under `../../audit/<video_id>/`. It does not own changes to `videos/`, review refreshes, medical validation, applying corrections, auditing other videos, changing review tooling, unblocking or publishing, or committing. Preserve all existing audit artifacts; continue or supplement them without restarting, overwriting, or deleting prior work.
 
 ## References
 
-- parent — `../../initiative-tran-van-phuc-knowledge-base.md`, CAP-3
-- spec — `../../spec-summary-source-audit/spec-summary-source-audit.md`, CAP-1–CAP-4, Constraints, Non-goals, Assumptions (approval)
-- companion — `../../spec-summary-source-audit/audit-record-format.md`
-- existing work — `../../spec-summary-source-audit/.memlog.md` and `../../spec-summary-source-audit/audit/`
+- parent — `../../initiative-tran-van-phuc-knowledge-base.md`, R3
+- spec — `../../initiative-tran-van-phuc-knowledge-base.md`, R1–R4, Constraints, Non-goals, Assumptions (approval)
+- companion — `../../audit-record-format.md`
+- existing work — `../../.memlog.md` and `../../audit/`
 
 ## Notes
 

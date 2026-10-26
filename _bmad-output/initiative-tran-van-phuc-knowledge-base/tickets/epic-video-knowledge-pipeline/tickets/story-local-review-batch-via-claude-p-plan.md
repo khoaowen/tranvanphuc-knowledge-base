@@ -13,7 +13,7 @@ review_source: 'pinned'
 lenses_ran: ['self-review']
 review_loop_iteration: 0
 context:
-  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/summary-contract.md'
+  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/summary-contract.md'
 ---
 
 <frozen-after-approval reason="human-owned intent — do not modify unless human renegotiates">

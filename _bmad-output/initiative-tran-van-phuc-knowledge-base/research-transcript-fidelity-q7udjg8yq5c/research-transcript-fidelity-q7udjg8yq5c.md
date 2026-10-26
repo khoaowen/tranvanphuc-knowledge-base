@@ -92,7 +92,7 @@ The pipeline already holds the fix data: per-word `tOffsetMs` exists in the raw 
 
 ## 4. Recommendation: hybrid
 
-1. **Retain** the YouTube captions as the immutable raw layer. They are the source the player shows, are lossless in our pipeline, keep the turn structure (R2), and are required by spec CAP-2 [11].
+1. **Retain** the YouTube captions as the immutable raw layer. They are the source the player shows, are lossless in our pipeline, keep the turn structure (R2), and are required by spec R2 [11].
 2. **Add ASR as a triage diff, not a replacement.** For each summary claim's evidence window (±15 s), run blind whisper and diff the critical tokens (terms, numbers, negations) against the captions. Agreement means the caption text is accepted, reported as "two machine sources agree", not as "verified". Disagreement, or an ASR segment with no lexical overlap with the captions (the hallucination signature), goes to a human.
 3. **Use targeted human verification** for: speaker attribution near `>>` markers on attributed claims; caption/ASR disagreements on critical words; summary terms that appear in neither source. The packet `human-verification-packet.md` already covers c068, c163 and R1–R3.
 4. **Fix the summarizer side:** c068 shows the larger risk is summary normalization ("nguyên phân", dropping "bào tử"), not the transcript. The summary contract should require spoken terms to be kept, or explicitly marked as glosses.
@@ -131,7 +131,7 @@ Persist the raw json3 and `provenance.json` in `fetch_transcript.py`, plus a tes
 | [8] | `evidence/raw-captions/regression-sample-raw.txt` |
 | [9] | `evidence/audio/dl*.log` (2026-10-19 failures with yt-dlp 2026.03.17) |
 | [10] | `evidence/asr/whisper-cli-help.txt` (no mono diarization) |
-| [11] | `spec-tran-van-phuc-kb/spec-tran-van-phuc-kb.md` CAP-2, CAP-3 |
+| [11] | `initiative-tran-van-phuc-knowledge-base.md` R2, R3 |
 | [12] | `audit/q7uDJG8YQ5c/final_records.json` vs `supplement-records.json` (id c068) |
 | [13] | `evidence/player-captions/player-state.json`, `player-timedtext-1.json3`, `player-timedtext-urls.txt` (Chrome 155, user profile, 2026-10-20) |
 | [14] | `evidence/player-captions/screen-{6328,6334,10966,10970,10973}.png`, `screens.json` |

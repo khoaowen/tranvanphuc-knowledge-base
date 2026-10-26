@@ -47,12 +47,12 @@ context: []
 - `.github/workflows/weekly-sync.yml` -- new file; scaffold only (detect step), later stories append jobs/steps for fetch/summarize/commit/consolidate.
 - `requirements.txt` -- new file at repo root; pins `yt-dlp` for the workflow's `pip install -r requirements.txt` step (local yt-dlp is a standalone binary install, not pip-tracked, so CI needs its own pinned install).
 - `videos/` -- does not exist yet; script must tolerate its absence (see Edge-Case Matrix).
-- `_bmad-output/.../spec-tran-van-phuc-kb/repo-structure.md` -- defines `metadata.json`'s `video_id` field and the `videos/<slug>/` layout this script reads against.
+- `_bmad-output/.../repo-structure.md` -- defines `metadata.json`'s `video_id` field and the `videos/<slug>/` layout this script reads against.
 
 ## Tasks & Acceptance
 
 **Execution:**
-- [ ] `scripts/detect_new_videos.py` -- implement `get_channel_video_ids(channel_id)` (runs `yt-dlp --flat-playlist --print "%(id)s" <channel-uploads-url>`, returns ordered list, raises/exits non-zero with stderr message on failure or empty result), `get_known_video_ids(videos_dir)` (globs `videos/*/metadata.json`, reads `video_id`, skips+warns on missing/malformed), and a `main()` that diffs the two, prints new IDs one per line to stdout, and — when `GITHUB_OUTPUT` env var is set — appends a `new_videos` output (newline-joined or JSON list, workflow consumes either) -- this is CAP-1's detection logic and the sole input later stories (fetch/summarize) consume.
+- [ ] `scripts/detect_new_videos.py` -- implement `get_channel_video_ids(channel_id)` (runs `yt-dlp --flat-playlist --print "%(id)s" <channel-uploads-url>`, returns ordered list, raises/exits non-zero with stderr message on failure or empty result), `get_known_video_ids(videos_dir)` (globs `videos/*/metadata.json`, reads `video_id`, skips+warns on missing/malformed), and a `main()` that diffs the two, prints new IDs one per line to stdout, and — when `GITHUB_OUTPUT` env var is set — appends a `new_videos` output (newline-joined or JSON list, workflow consumes either) -- this is R1's detection logic and the sole input later stories (fetch/summarize) consume.
 - [ ] `.github/workflows/weekly-sync.yml` -- add `on: schedule` (cron for Sunday, e.g. `0 3 * * 0`, after Saturday's usual upload) and `on: workflow_dispatch`; one job `detect` that checks out the repo, sets up Python 3.12, `pip install -r requirements.txt`, runs `python scripts/detect_new_videos.py`, and surfaces its output -- the only automation entry point for the whole pipeline; later stories append steps/jobs to this same workflow rather than creating new ones.
 - [ ] `requirements.txt` -- add a pinned `yt-dlp` version -- keeps CI's install reproducible independent of the local system binary.
 
@@ -75,7 +75,7 @@ context: []
 
 ## Design Notes
 
-yt-dlp was chosen over the YouTube Data API for CAP-1's channel-listing need: it's already installed locally, requires no API key/secret to provision or rotate in GitHub Actions, and was verified against the real channel (140 uploads listed, seed video `q7uDJG8YQ5c` present). This is a narrower, lower-risk choice than committing to yt-dlp for transcript fetching too — story 2 (CAP-2) re-evaluates the source for transcripts specifically and may choose differently (e.g. a transcript-specific library) since scraping fragility risk is higher for transcript text than for a simple ID listing.
+yt-dlp was chosen over the YouTube Data API for R1's channel-listing need: it's already installed locally, requires no API key/secret to provision or rotate in GitHub Actions, and was verified against the real channel (140 uploads listed, seed video `q7uDJG8YQ5c` present). This is a narrower, lower-risk choice than committing to yt-dlp for transcript fetching too — story 2 (R2) re-evaluates the source for transcripts specifically and may choose differently (e.g. a transcript-specific library) since scraping fragility risk is higher for transcript text than for a simple ID listing.
 
 Known-video detection deliberately reads `metadata.json`'s `video_id` field rather than parsing folder names, because the naming convention (`<date>-<number>-<slug>`) is lossy with respect to the actual YouTube ID and is meant for human browsing, not machine lookup.
 

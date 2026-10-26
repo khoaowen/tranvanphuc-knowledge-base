@@ -13,7 +13,7 @@ review_source: 'pinned'
 lenses_ran: ['quick']
 review_loop_iteration: 0
 context:
-  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/summary-contract.md'
+  - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/summary-contract.md'
   - '{project-root}/_bmad-output/initiative-tran-van-phuc-knowledge-base/tickets/epic-video-knowledge-pipeline/epic-video-knowledge-pipeline.md'
 ---
 
