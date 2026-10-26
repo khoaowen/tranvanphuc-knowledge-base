@@ -3,7 +3,7 @@ title: 'Full source-grounded audit of q7uDJG8YQ5c (149 claims)'
 type: 'chore'
 ticket: '1'
 created: '2026-10-19'
-status: 'built'
+status: done
 baseline_revision: '47c72cecc30ff5e836e868b690352ec17cd613c6'
 route: 'full'
 route_source: 'auto'
