@@ -1,0 +1,13 @@
+{
+  "video_id": "q7uDJG8YQ5c",
+  "summary_sha256": "23db671f7ffecac43155de9c2e27610328ebbd14a019ebf446d7ee52a4df4f64",
+  "transcript_sha256": "bbc4c9a51a2d844e4c5f818adb82031a872e09843e2ff20d62d60891d3cbd24b",
+  "extractor_sha256": "cc570d0b53168ebce3027af755d5c2a91045faa2c4e8bd2a93f78dea2538da0d",
+  "claim_count": 210,
+  "files": {
+    "videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/summary.md": "23db671f7ffecac43155de9c2e27610328ebbd14a019ebf446d7ee52a4df4f64",
+    "videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/review.md": "5f588b23bda088c0e74837dffea6a452510af878299cc4950f25e594f7840a41",
+    "videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/transcript.md": "bbc4c9a51a2d844e4c5f818adb82031a872e09843e2ff20d62d60891d3cbd24b",
+    "videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/metadata.json": "c3f19953b8499eb724aa0b8d3126a83b94249c8df83b52951c0d8b429de76dcd"
+  }
+}

@@ -29,3 +29,12 @@
 ## Deferred from: code review of story-raw-caption-provenance-plan (2026-10-20 re-review)
 
 - Add an approved legacy-video raw-caption backfill procedure; the raw-caption story deliberately refuses automatic re-fetch of existing directories.
+
+## Deferred: BMad pre-release spec migration
+
+- source_plan: none
+  summary: Revisit `bmad migrate method` for the remaining pre-release spec folders after the human accepts the hash-bound q7uDJG8YQ5c current-summary audit, before starting the next work item.
+  evidence: BMad status reports installed modules and project scripts current at 6.13.0-next. Migration 1 (6 to 7, pre-release spec fold) still detects `spec-summary-source-audit/` and `spec-tran-van-phuc-kb/`; migration 2 (tickets-folder layout) detects no remaining work. The human chose to defer migration to preserve current audit evidence paths.
+  status: deferred-pending-human-approval
+  next_action: At the audit acceptance handoff, remind the human and offer a read-only migration inventory and approval plan; do not execute the migration automatically.
+  constraints: Preserve historical audit evidence; enumerate all evidence relocations and reference rewrites before approval. Reconcile the migration's standard commits/removals with the current no-commit and no-delete directions through explicit human approval. Do not remove retired global skills without separate approval; removal affects other projects.
