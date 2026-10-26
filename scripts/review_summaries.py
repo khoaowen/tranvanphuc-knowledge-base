@@ -23,7 +23,7 @@ DEFAULT_CHUNK_CHARS = 40000
 OVERLAP_CHARS = 4000
 INVALID_RESPONSE_ATTEMPTS = 5
 PROGRESS_NAME = ".review-progress.json"
-PROGRESS_VERSION = 3
+PROGRESS_VERSION = 5
 
 class ReviewError(Exception):
     """Review inputs or model response cannot safely produce a review."""
@@ -77,15 +77,29 @@ Use in_slice only when you can point to the transcript text that discusses the c
 Return exactly one JSON object with keys: claims, concerns, omitted_topics. No prose outside JSON.
 claims: array with one object per listed claim: {{"id": "cNNN", "status": "not_in_slice"}} or
 {{"id": "cNNN", "status": "in_slice", "supported": bool, "attributed": bool,
-"qualifications_preserved": bool, "contradicts": bool, "finding": string, "quote": string}}.
+"qualifications_preserved": bool, "contradicts": bool, "finding": string, "quote": string,
+"support_scope": "full"|"partial"}}.
+Use support_scope=full when this slice discusses the entire claim. Use partial ONLY when it
+supports some details but does not discuss the rest; explain which details are absent in finding.
+For partial, supported=true means all details actually discussed here are supported, NOT that the
+whole claim is proved. Missing details alone are not contradictions or attribution/qualification
+errors. Actual defects must still set the corresponding boolean unfavourably even with partial scope.
+Do not use partial to excuse a contradiction, wrong attribution, dropped hedge, or unsupported detail
+that IS discussed here. Partial evidence alone can never pass: full clean evidence is required elsewhere.
 in_slice means this part contains the evidence. quote is ONE exact Vietnamese
 fragment copied from the transcript (it may span consecutive lines; omit [HH:MM:SS] prefixes).
-supported: the claim is backed by the quote. attributed: statements are attributed to the doctor only
+supported: the claim (or the discussed portion for partial scope) is backed by the quote.
+attributed: statements are attributed to the doctor only
 if the transcript proves the doctor said them (not a guest, quoted study or other speaker).
+A different speaker making the same statement in a separate event is not proof of misattribution.
+If the named speaker's statement is absent here, use not_in_slice or clean partial support, not
+attributed=false merely from absence. Still report attributed=false for an actual source-attribution
+mismatch in the event the summary describes. A full pass still requires evidence of the named speaker.
 qualifications_preserved: hedges/ranges/conditions (may, about, 4:1-5:1, only in some cases) are not
 hardened or dropped. contradicts: the quote says something opposite or materially different (wrong numbers,
-years, units). finding: empty string when everything is true, otherwise a short explanation (required
-whenever any boolean is unfavourable). Timestamps are computed by the tool; do not provide them.
+years, units). finding: empty string only for full support with no unfavourable checks; otherwise a
+short explanation is required, including for clean partial support (explain the absent details).
+Timestamps are computed by the tool; do not provide them.
 concerns: array of {{"severity": "minor"|"material", "finding": string, "quote": string}} for localized
 problems you find in this part (exact quote required). Do not invent concerns.
 omitted_topics: array of {{"topic": string, "quote": string}} for substantive source topics in THIS part
@@ -163,7 +177,15 @@ def parse_model_review(text, transcript, valid_ids, salvage=False):
             continue
         defective = (not entry["supported"] or not entry["attributed"] or not entry["qualifications_preserved"]
                      or entry["contradicts"])
+        scope = entry.get("support_scope", "full")
         finding = entry.get("finding") if isinstance(entry.get("finding"), str) else ""
+        if scope not in ("full", "partial") or (scope == "partial" and not finding.strip()):
+            errors.append(f"{cid}: support_scope must be full or partial; partial requires a finding")
+            if not salvage:
+                continue
+            # Invalid scope metadata must never become clean evidence or hide a defect.
+            scope, defective = "full", True
+            entry = {**entry, "supported": False}
         if defective and not finding.strip():
             errors.append(f"{cid}: finding is required when any check fails")
             if not salvage:
@@ -172,7 +194,7 @@ def parse_model_review(text, transcript, valid_ids, salvage=False):
         quote = entry.get("quote") if isinstance(entry.get("quote"), str) else ""
         resolved = resolve_quote(quote, transcript) if quote.strip() else None
         item = {"id": cid, **{k: entry[k] for k in flags}, "finding": finding.strip(), "quote": quote,
-                "timestamp": resolved}  # computed from the transcript, never trusted from the model
+                "support_scope": scope, "timestamp": resolved}  # computed from the transcript, never trusted from the model
         if not resolved:
             errors.append(f"{cid}: quote is not verbatim transcript text: {quote[:80]!r}")
             if not (salvage and defective):
@@ -233,19 +255,20 @@ def parse_coverage_audit(text, transcript):
 def aggregate_claim(claim, evidences):
     """Combine every chunk's in-slice report of one claim into a single result.
 
-    pass: >=1 clean verbatim evidence anywhere in the transcript, nothing contradicting or defective.
+    pass: >=1 full clean verbatim evidence, nothing contradicting or defective.
+    Explicit partial support is neutral, never sufficient; its actual defects still block.
     fail: contradicted, wrong attribution/qualification, evidence that never supports the claim,
           or no evidence at all.
     flag: one slice calls the claim merely unsupported while another gives clean support.
     """
     clean = [e for e in evidences if e["supported"] and e["attributed"] and e["qualifications_preserved"]
-             and not e["contradicts"]]
+             and not e["contradicts"] and e.get("support_scope", "full") == "full"]
     hard = [e for e in evidences if e["contradicts"] or not e["attributed"] or not e["qualifications_preserved"]]
-    soft = [e for e in evidences if e not in clean and e not in hard]  # merely supported == False
+    soft = [e for e in evidences if not e["supported"] and e not in hard]
     if hard:
         status, issues = "fail", hard
     elif not clean:
-        status, issues = "fail", soft
+        status, issues = "fail", soft or evidences
     elif soft:
         status, issues = "flag", soft
     else:

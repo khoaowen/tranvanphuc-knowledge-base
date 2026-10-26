@@ -21,10 +21,14 @@ Bác sĩ Phúc cũng nêu quan niệm rằng sức khỏe không chỉ là có b
 
 Trong phần trao đổi về kiến thức, bác sĩ Phúc nêu quan điểm khác với việc phải giữ bí quyết, bí truyền mà theo ông nhiều người từ xưa tới nay vẫn nói: kiến thức luôn là cho đi và khi cho đi thì được nhân lên rất nhiều; ông nói khi truyền kiến thức cho người khác thì không những kiến thức được nhân lên mà bản thân ông phải hoàn thiện, phải học hỏi hơn nữa. Ông kể một số bác sĩ đã tìm đến để tìm hiểu về các lĩnh vực y khoa, vi chất, và ông mong các bác sĩ sẽ giúp đỡ được nhiều bệnh nhân hơn nữa, giúp đỡ được nhiều đồng nghiệp hơn.
 
+Bác sĩ Phúc kể có những người nói với ông rằng họ từng định tự tử nhưng sau đó đã tìm lại được nụ cười, niềm vui trong cuộc sống; ông liên hệ câu chuyện này với giá trị của kiến thức được trao truyền cho nhau ([00:20:50](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=1250s)).
+
 ## [00:23:00] Khái niệm vô hạn trong toán học và khả năng phục hồi của cơ thể con người — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=1380s
 
 **Q: Khái niệm vô hạn trong toán học được giải thích như thế nào và liên hệ ra sao với sức khỏe con người?**
 Trong toán học, khái niệm vô hạn được thể hiện qua ba ví dụ cơ bản: tổng số các số nguyên tố (chỉ chia hết cho 1 và chính nó); số lượng điểm trên một đường bất kỳ hoặc trên bề mặt của vật thể 3D; và số lượng các đường cong. Nhà toán học người Đức mà transcript ghi là "Golden" cũng phát biểu Định lý bất toàn năm 1931 minh chứng thế giới tự nhiên và khả năng con người chứa đựng vô vàn điều vô hạn. Áp dụng vào y học, khả năng tự hồi phục của cơ thể con người là vô hạn. Bác sĩ Phúc cho rằng ngay cả bệnh nhân mắc căn bệnh ung thư, tưởng như đã đi tới cửa tử, nếu hiểu được cuộc sống, biết điều chỉnh lại lối sống, biết buông bỏ, bổ sung ít nhất 7 vi chất, sống khoa học, lạc quan và thực hành lối sống tích cực thì hoàn toàn có thể thoát khỏi căn bệnh ung thư.
+
+Khi bàn về tham vọng chinh phục tự nhiên, bác sĩ Phúc liên hệ định lý bất toàn với quan điểm không lấy “cái vô hạn này để chế ngự cái vô hạn kia”, từ đó nói tới việc tránh “chiến tranh giữa các vì sao”, tránh chạy đua vũ trang và điều chỉnh quan điểm sống ([00:31:04](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=1864s)).
 
 ## [00:31:36] Sự vô hạn trong sáng tạo nghệ thuật và thành tựu của các thiên tài — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=1896s
 
@@ -33,6 +37,8 @@ Cây đàn piano có 88 phím (52 phím trắng và 36 phím đen). Nếu chỉ 
 - Mozart (transcript ghi "Moa", "Moza"): Chỉ sống 35 năm nhưng đã để lại 22 vở opera (như vở "Cây sáo thần"), 41 bản giao hưởng và 42 bản concerto.
 - Ludwig van Beethoven: sống 56 năm, để lại 9 bản giao hưởng; theo bác sĩ Phúc, đỉnh cao nhất là bản giao hưởng số 9.
 - Immanuel Kant: Nhà triết học cổ điển Đức thọ 80 tuổi, người đại diện cuối cùng của chủ nghĩa khai sáng và đặt nền tảng cho mỹ học cổ điển Đức.
+
+Bác sĩ Phúc cho rằng toán học là sự trừu tượng hóa những gì có thật trong tự nhiên, cuộc sống và cơ thể con người, có thể áp dụng vào mọi lĩnh vực cuộc sống; ông ví việc không học các môn khoa học cơ bản, đặc biệt môn toán, như người mù đi trong đêm không dò ra đường ([00:33:38](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=2018s)).
 
 ## [00:34:05] Mô hình toán học về giá trị cuộc sống (Hàm V) — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=2045s
 
@@ -52,10 +58,12 @@ Hàm định vị cuộc sống được thể hiện qua công thức $Z = a + 
 **Q: Tại sao trong cuộc sống việc đi theo đường thẳng từ điểm A đến điểm B không phải là cách tốt nhất?**
 Cuộc sống không đơn giản như đường thẳng $y = x$ hay đường hình sin $y = \sin x$ mà là sự tổng hợp phức tạp của nhiều đường đồ thị. Bác sĩ Phúc dẫn một câu nói mà ông gán cho Newton: cái gì đi lên sẽ phải đi xuống, rồi đi xuống sẽ lại đi lên. Theo bác sĩ Phúc, cách tư duy muốn đi thẳng từ điểm A đến điểm B để đốt cháy giai đoạn là sai; ví dụ đi từ nhà đến cơ quan bằng đường thẳng thì “thất bại không bao giờ đi được”, vì có đoạn tắc đường hoặc sửa đường nên luôn phải chọn đường vòng. Việc đi theo các đường cong flexible (như dòng nước chảy uốn lách qua các tảng đá để ra biển) mới mang lại hiệu quả cao nhất. Trong đó, xác định đúng hướng đi (phương hướng) là yếu tố cốt lõi số một, quan trọng hơn phương tiện hay cách thức đi.
 
+Trong ví dụ giao thông, bác sĩ Phúc nói xu hướng là đi đúng luật nhưng đôi khi hơi lấn làn hoặc lên vỉa hè để đi nhanh hơn; ông nói phải lấy cái đúng làm chính, không tuyệt đối hóa việc đúng luật 100% ([00:59:09](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=3549s)).
+
 ## [01:03:00] Nội hàm cuộc sống và hai điểm tựa gia đình, nhà trường — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=3780s
 
 **Q: Phương trình hình elip thể hiện nội hàm cuộc sống và hai điểm tựa quan trọng nào?**
-Nội hàm cuộc sống được mô tả qua phương trình hình elip $|MF1| + |MF2| = 2a$ (với $a > 0$) hay $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$. Hai điểm tiêu cự $F1$ và $F2$ là hai điểm tựa chính: $F1$ đại diện cho gia đình (nơi tràn ngập tình yêu thương, hạnh phúc, là chỗ dựa trở về và bàn đạp phát triển), còn $F2$ đại diện cho nhà trường (bao gồm trường học các cấp, sách vở, thầy cô và những người dạy dỗ). Phải kết hợp vững chắc cả hai điểm tựa này thì mới tạo dựng được nội hàm cuộc sống tốt đẹp.
+Nội hàm cuộc sống được mô tả qua phương trình hình elip $|MF1| + |MF2| = 2a$ (với $a > 0$). Hai điểm tiêu cự $F1$ và $F2$ là hai điểm tựa chính: $F1$ đại diện cho gia đình (nơi tràn ngập tình yêu thương, hạnh phúc, là chỗ dựa trở về và bàn đạp phát triển), còn $F2$ đại diện cho nhà trường (bao gồm trường học các cấp, sách vở, thầy cô và những người dạy dỗ). Phải kết hợp vững chắc cả hai điểm tựa này thì mới tạo dựng được nội hàm cuộc sống tốt đẹp.
 
 ## [01:07:33] Vai trò của môn lịch sử đối với sự thành đạt — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=4053s
 
@@ -66,6 +74,8 @@ Lịch sử là môn học khó nhưng rất quan trọng để trở nên giỏ
 
 **Q: Khi quy đổi các chữ cái tiếng Anh ra phần trăm, từ khóa nào đạt 100% và nó đóng vai trò gì trong công việc?**
 Khi quy ước thứ tự bảng chữ cái tiếng Anh ra phần trăm (A = 1%, B = 2%... Z = 26%), các từ khóa đạt kết quả lần lượt là: Hardwork (chăm chỉ) = 98%, Knowledge (kiến thức) = 96%, Leadership (lãnh đạo) = 89%, Money (tiền) = 72%, Love (tình yêu) = 54%, Sex (tình dục) = 48%, Luck (may mắn) = 47%. Riêng từ Attitude (thái độ) đạt tròn 100%. Trước một công việc, năng lực thể hiện khả năng làm được, động lực quyết định những gì sẽ làm, nhưng chính thái độ mới quyết định kết quả làm tốt hay không tốt và dẫn đến thành công hay thất bại.
+
+Khánh Lành nói trong cuộc sống khó kiểm soát những điều xảy đến với bản thân, nhất là sức khỏe, nhưng có thể kiểm soát hành vi của mình trước những điều đó để làm chủ bản thân và có thể thay đổi cuộc sống; bác sĩ Phúc trả lời rằng ông hoàn toàn đồng ý ([01:16:57](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=4617s)).
 
 ## [01:20:24] Tác dụng của Omega-3, Vitamin D3 và bộ ba giảm đau tự nhiên — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=4824s
 
@@ -96,6 +106,8 @@ Năm 1985, nhà sinh học Liptông nhận thấy màng tế bào gồm các l�
 ## [01:47:01] Vai trò của Omega-3, DHA và EPA trong cấu trúc màng tế bào — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=6421s
 
 **Q: DHA và EPA đóng vai trò gì đối với màng tế bào não, mắt và tim?**
+Transcript tại [01:47:16](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=6436s) ghi bác sĩ Phúc nói chất béo phải “phát ra những tín hiệu” thì mới tích tụ nhiều ở màng tế bào. Ở [02:09:06](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=7746s), ông lại mô tả enzyme phát tín hiệu để tiếp nhận chất béo vào màng.
+
 Theo phần trình bày của bác sĩ Phúc, màng tế bào có protein và chất béo; ông nói các axit béo không bão hòa như Omega-3, Omega-6, Omega-9 chiếm thành phần đáng kể. Theo bác sĩ Phúc, các axit béo omega nói chung chiếm tới 30% cấu trúc màng tế bào (ở một đoạn khác ông cũng nói Omega-3 chiếm 30%). Bác sĩ Phúc nói DHA là “vàng của não và mắt” và EPA là “vàng của tim”. Trả lời câu hỏi của khán giả, ông nói rằng "nếu cá đó có nhiều DHA thì chúng ta ăn sẽ thông minh" và mắt "cũng sẽ sáng lên", "với điều kiện là DHA nó phải nhiều"; nếu DHA ít thì khó đạt được điều đó (đây là lời trả lời của bác sĩ Phúc trong video). Bác sĩ Phúc kể: nhiều phụ huynh có con đang học điểm khá thấp, sau khi bổ sung DHA, Omega 3, tăng DHA lên một chút, vitamin D và các vi chất thì 'một thời gian sau' kết quả học thay đổi đáng kể; ở một trường hợp khác, một anh đến cảm ơn vì con anh lúc đầu 'ăn không nên loại và nói không nên lời', không có bạn gái, sau khi bổ sung 'hơn 3 tháng gần 4 tháng' thì anh báo cáo con bắt đầu nói có văn có lời và có bạn gái.
 Bác sĩ Phúc tuyên bố kênh không bán thuốc, không quảng cáo, không nhận sản phẩm; BTV Khánh Lành cũng nói chương trình không đưa link mua ngay mà hướng dẫn cách lựa chọn và sử dụng Omega-3.
 
@@ -142,7 +154,7 @@ Về tác dụng của từng axit béo, bác sĩ Phúc nói GLA chống viêm; 
 ## [02:23:30] Tỷ lệ bổ sung Omega lý tưởng và nguyên tắc sử dụng dầu ăn đúng cách — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8610s
 
 **Q: Tỷ lệ bổ sung Omega nào là lý tưởng và cần điều chỉnh thói quen sử dụng dầu ăn như thế nào?**
-Bác sĩ Phúc nói tỷ lệ Omega-6/Omega-3 lý tưởng là 1:1. Ông dẫn lời một số nghiên cứu/tài liệu rằng 4:1 được chấp nhận, cùng lắm 5:1; đồng thời nhận xét 5:1 đã quá nhiều và khuyên không để tỷ lệ lên tới 4 hoặc 5:1. Tuy nhiên, bác sĩ Phúc nói các nghiên cứu ở Mỹ và châu Âu thấy các thành phần này trong khẩu phần, đem chia cho DHA hoặc EPA, có tỷ lệ tới 20:1, khiến các dưỡng chất quý như EPA và DHA bị hòa loãng, không còn ý nghĩa.
+Trong phần trao đổi sau bài đọc, bác sĩ Phúc nói tỷ lệ Omega-6/Omega-3 “tốt nhất” là 1:1 ([02:28:36](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8916s)). Ông dẫn lời một số nghiên cứu/tài liệu rằng 4:1 được chấp nhận, cùng lắm 5:1; đồng thời nhận xét 5:1 đã quá nhiều và khuyên không để tỷ lệ lên tới 4 hoặc 5:1. Tuy nhiên, bác sĩ Phúc nói các nghiên cứu ở Mỹ và châu Âu thấy các thành phần này trong khẩu phần, đem chia cho DHA hoặc EPA, có tỷ lệ tới 20:1, khiến các dưỡng chất quý như EPA và DHA bị hòa loãng, không còn ý nghĩa.
 Khi nói về tỷ lệ 20:1, bác sĩ Phúc còn nêu 'sơ vữa mạch máu', 'Anzimer', 'bakis' và các bệnh tự miễn như những hệ quả mà ông quy cho chế độ ăn mất cân bằng.
 
 Bác sĩ Phúc nói LA (Omega-6) chủ yếu dành cho các tạng địa phương ([02:25:04](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8704s)). Còn nếu DHA và EPA thừa thì có thể dành cho gan, mật, tụy, lách và thận ([02:25:15](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=8715s)).
@@ -177,7 +189,7 @@ Các tiêu chí chọn Omega-3 chất lượng gồm:
    Bài đọc cũng nói nhãn không bắt buộc ghi dạng dầu cá, nhưng dạng triglycerit thường được ghi để khách hàng dễ lựa chọn.
 2. Hàm lượng DHA và EPA cao.
 3. Bài được đọc nói nguồn nguyên liệu dầu cá phải đảm bảo sạch và tinh chế, không chứa tạp chất và kim loại nặng; dầu cá Na Uy hiện là một trong những nguồn nguyên liệu dầu cá hàng đầu thế giới.
-4. Theo bài được Khánh Lành đọc, nên chọn loại giàu DHA hơn cho trẻ em, phụ nữ mang thai và người trưởng thành cần chăm sóc não, mắt, tim mạch; loại giàu EPA hơn cho người trung niên, cao tuổi có nguy cơ hoặc đang mắc tim mạch, mỡ máu cao, huyết áp cao. Đây là phân nhóm trong bài đọc; ở phần sau, bác sĩ Phúc nhấn mạnh lựa chọn theo tình trạng bệnh, không chỉ theo tuổi hay thai kỳ.
+4. Theo bài được Khánh Lành đọc, nên chọn loại giàu DHA hơn cho trẻ em, phụ nữ mang thai và người trưởng thành cần chăm sóc não, mắt, tim mạch; loại giàu EPA hơn cho người trung niên, cao tuổi có nguy cơ hoặc đang mắc tim mạch, mỡ máu cao, huyết áp cao. Đây là phân nhóm trong bài đọc. Ở phần sau, bác sĩ Phúc nhấn mạnh lựa chọn theo tình trạng bệnh, không chỉ theo tuổi hay thai kỳ.
 5. Theo bài được đọc: được cơ quan có thẩm quyền cấp phép và phân phối bởi công ty dược uy tín, không nên mua hàng xách tay hoặc hàng trôi nổi trên thị trường; riêng hàng xách tay, bác sĩ Phúc nói vẫn có thể là sản phẩm tốt, vấn đề là vận chuyển và bảo quản có đúng cách hay không.
 
 ## [02:41:46] Vai trò của EPA, DHA và lý do ăn cá hồi nuôi vẫn thiếu Omega-3 — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=9706s
@@ -212,7 +224,7 @@ Công thức cấu tạo của Omega-3 chứa nhiều liên kết pi nên rất 
 ## [03:13:11] Lựa chọn tỷ lệ EPA và DHA theo tình trạng bệnh lý — https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=11591s
 
 **Q: Người mắc bệnh mỡ máu, gan nhiễm mỡ hoặc các bệnh mạn tính nên chọn loại Omega-3 chứa tỷ lệ EPA và DHA như thế nào?**
-Bác sĩ Phúc đưa ra nguyên tắc lựa chọn dựa trên nơi các chất ưu tiên đi tới: DHA ưu tiên đi vào não và mắt, còn EPA ưu tiên đi vào tim; theo bác sĩ Phúc, phần EPA còn thừa cũng có thể bổ sung cho não (ở đoạn trước ông nói EPA có dành một phần rất nhiều cho não, nhưng ưu thế vẫn dành cho tim).
+Bác sĩ Phúc đưa ra nguyên tắc lựa chọn dựa trên nơi các chất ưu tiên đi tới: DHA ưu tiên đi vào não và mắt, còn EPA ưu tiên đi vào tim; theo bác sĩ Phúc, phần EPA còn thừa cũng có thể bổ sung cho não. Ở đoạn trước, bác sĩ Phúc nói EPA có dành một phần rất nhiều cho não, nhưng ưu thế vẫn dành cho tim.
 - Theo bác sĩ Phúc, những ai đang bị gan nhiễm mỡ, mỡ máu, tiểu đường, đau khớp, tăng huyết áp, ngứa ngáy, dị ứng... thì 'chúng ta mua EPA tăng lên', đặc biệt là người bị mỡ máu và gan nhiễm mỡ thì ưu tiên 'EPA tăng hơn so với DHA' để quét mỡ máu và quét gan nhiễm mỡ đi. Trẻ con có gan nhiễm mỡ, mỡ máu tăng 'vẫn dùng EPA tăng lên'. Riêng với các cháu, ông nêu thừa cân béo phì, thức đêm, chơi game online, xem video ngắn nhiều là các yếu tố khiến 'rất dễ bị rối loạn nhịp tim, rất dễ bị gan nhiễm mỡ và dễ bị mỡ máu'. Ông khuyên nói với con nên ngủ sớm, bỏ game online và video ngắn, đầu tư vào học hành kiến thức có chiều sâu; theo ông, video ngắn và game chỉ kích động tinh thần, ảnh hưởng đến hệ giao cảm và phó giao cảm, dần dần các cháu sẽ bị rối loạn nhịp tim và rối loạn cảm xúc. Ông dặn đừng để mất cân bằng: quá nhiều DHA mà ít EPA hoặc ngược lại quá nhiều EPA mà ít DHA thì không nên. Nếu người bị gan nhiễm mỡ và mỡ máu mua loại DHA lớn hơn EPA thì khi uống có nguy cơ gan nhiễm mỡ và mỡ máu tăng lên, đặc biệt là mỡ máu xấu.
 - Còn những ai khỏe mạnh, xét nghiệm tốt đẹp, cơ thể không bị bệnh gì thì bác sĩ Phúc nói 'chúng ta mua cái DHA tăng lên một chút' để ưu tiên cho não và mắt, 'sẽ rất thông minh, sẽ mắt sẽ rất tinh'; các cháu không bị gan nhiễm mỡ, không bị mỡ máu uống DHA thì 'sẽ thông minh lên, mắt sáng hơn'.
 
@@ -230,6 +242,7 @@ Bộ 7 vi chất dinh dưỡng quan trọng cho cơ thể bao gồm:
 6. Kẽm
 7. Omega-3
 Bác sĩ Phúc nói trong đại dịch Covid, ở các nước phát triển, nguyên thủ quốc gia luôn có một nhà toán học và một nhà dịch tễ học lâm sàng đi cùng; hai người cùng lập mô hình toán học phòng chống dịch với hàm nhiều biến, có khi tới 20 hoặc 30 biến, để can thiệp vào từng biến một cách hiệu quả và khoa học, và ông dùng đó làm ví dụ về ứng dụng kiến thức toán vào cuộc sống.
+Bác sĩ Phúc nhấn mạnh muốn có sức khỏe thì phải đầu tư kiến thức, không chỉ yêu cầu cho biết mua loại sản phẩm nào tốt ([03:22:04](https://www.youtube.com/watch?v=q7uDJG8YQ5c&t=12124s)).
 Bác sĩ Phúc nói ở một số nước phát triển có xét nghiệm EPA và DHA trong tế bào hồng cầu để hỗ trợ xác định lượng Omega-3 cần bổ sung; theo hiểu biết của ông, xét nghiệm này hiện chưa được thực hiện ở Việt Nam vì chưa có nhu cầu.
 Bác sĩ Phúc nêu các khuyến cáo khác nhau, từ 400, 500, 600 mg đến 1000 mg mỗi ngày như nghiên cứu Khánh Lành dẫn; ông nói thậm chí có người hăng hái nêu 2000 mg, rồi đặt câu hỏi về cơ sở và chỉ vào xét nghiệm trong hồng cầu.
 
