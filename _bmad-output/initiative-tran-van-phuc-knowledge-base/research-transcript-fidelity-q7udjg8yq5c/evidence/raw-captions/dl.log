@@ -1,0 +1,22 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=q7uDJG8YQ5c
+[youtube] q7uDJG8YQ5c: Downloading webpage
+[youtube] q7uDJG8YQ5c: Downloading android vr player API JSON
+[info] q7uDJG8YQ5c: Downloading subtitles: vi-orig, vi
+[info] q7uDJG8YQ5c: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: q7uDJG8YQ5c.vi-orig.json3
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: q7uDJG8YQ5c.vi-orig.json3
+[download]    1.00KiB at  666.61KiB/s (00:00:00)[download]    3.00KiB at    1.13MiB/s (00:00:00)[download]    7.00KiB at    2.13MiB/s (00:00:00)[download]   15.00KiB at    3.83MiB/s (00:00:00)[download]   31.00KiB at    6.74MiB/s (00:00:00)[download]   63.00KiB at    7.16MiB/s (00:00:00)[download]  127.00KiB at    6.02MiB/s (00:00:00)[download]  255.00KiB at    7.56MiB/s (00:00:00)[download]  511.00KiB at    8.86MiB/s (00:00:00)[download] 1023.00KiB at   11.56MiB/s (00:00:00)[download]    2.00MiB at   12.47MiB/s (00:00:00)[download]    4.00MiB at   15.57MiB/s (00:00:00)[download]    4.26MiB at   16.03MiB/s (00:00:00)[download] 100% of    4.26MiB in 00:00:00 at 7.37MiB/s
+[info] Writing video subtitles to: q7uDJG8YQ5c.vi.json3
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: q7uDJG8YQ5c.vi.json3
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.35MiB/s (00:00:00)[download]    7.00KiB at    3.63MiB/s (00:00:00)[download]   15.00KiB at    5.94MiB/s (00:00:00)[download]   31.00KiB at   10.01MiB/s (00:00:00)[download]   63.00KiB at   16.99MiB/s (00:00:00)[download]  127.00KiB at   28.97MiB/s (00:00:00)[download]  255.00KiB at   36.13MiB/s (00:00:00)[download]  511.00KiB at   59.58MiB/s (00:00:00)[download] 1023.00KiB at   61.31MiB/s (00:00:00)[download]    2.00MiB at   40.53MiB/s (00:00:00)[download]    4.00MiB at   36.42MiB/s (00:00:00)[download]    4.26MiB at   37.98MiB/s (00:00:00)[download] 100% of    4.26MiB in 00:00:00 at 10.60MiB/s
+[youtube] Extracting URL: https://www.youtube.com/watch?v=q7uDJG8YQ5c
+[youtube] q7uDJG8YQ5c: Downloading webpage
+[youtube] q7uDJG8YQ5c: Downloading android vr player API JSON
+[info] q7uDJG8YQ5c: Downloading subtitles: vi-orig
+[info] q7uDJG8YQ5c: Downloading 1 format(s): 401+251
+[info] Writing video subtitles to: q7uDJG8YQ5c.vi-orig.srv3
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: q7uDJG8YQ5c.vi-orig.srv3
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.86MiB/s (00:00:00)[download]    7.00KiB at    2.96MiB/s (00:00:00)[download]   15.00KiB at    4.94MiB/s (00:00:00)[download]   31.00KiB at    8.14MiB/s (00:00:00)[download]   63.00KiB at    5.03MiB/s (00:00:00)[download]  127.00KiB at    5.86MiB/s (00:00:00)[download]  255.00KiB at    6.51MiB/s (00:00:00)[download]  511.00KiB at    8.55MiB/s (00:00:00)[download] 1023.00KiB at    3.96MiB/s (00:00:00)[download]    1.51MiB at    5.53MiB/s (00:00:00)[download] 100% of    1.51MiB in 00:00:00 at 3.35MiB/s

@@ -226,6 +226,22 @@ class CliStub(Base):
         with self.assertRaises(review_batch.UsageLimitReached):
             client("hi")
 
+    def test_codex_client_reads_final_message(self):
+        stub = self.root / "codex-stub.sh"
+        stub.write_text("""#!/bin/sh
+out=''
+while [ "$#" -gt 0 ]; do
+  if [ "$1" = "--output-last-message" ]; then out="$2"; shift 2; continue; fi
+  shift
+done
+cat >/dev/null
+printf '{"claims": [], "concerns": [], "omitted_topics": []}' > "$out"
+""", encoding="utf-8")
+        stub.chmod(0o755)
+        client = review_batch.CodexClient(str(stub), "gpt-6.1-sol")
+        self.assertEqual(json.loads(client("hi")),
+                         {"claims": [], "concerns": [], "omitted_topics": []})
+
 
 if __name__ == "__main__":
     unittest.main()

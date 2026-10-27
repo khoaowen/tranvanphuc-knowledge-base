@@ -1,0 +1,13 @@
+# tickets.toml for initiative-tran-van-phuc-knowledge-base — one epic, single owner/pipeline.
+
+[[epic]]
+id = 1
+slug = "epic-video-knowledge-pipeline"
+title = "Automated video-to-knowledge pipeline"
+covers = ["R1", "R2", "R3", "R4", "R5", "R6"]
+
+[[epic]]
+id = 2
+slug = "epic-summary-source-audit"
+title = "Summary source-grounded audit"
+covers = ["R3"]

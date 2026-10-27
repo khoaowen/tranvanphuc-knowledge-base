@@ -8,7 +8,7 @@ Modeled after [mlabonne/llm-course](https://github.com/mlabonne/llm-course): a v
 
 ## Status
 
-Project in specification phase (BMad). See `_bmad-output/initiative-tran-van-phuc-knowledge-base/spec-tran-van-phuc-kb/` for the full contract (capabilities, constraints, pipeline architecture).
+Project in specification phase (BMad). See `_bmad-output/initiative-tran-van-phuc-knowledge-base/` for the full contract (capabilities, constraints, pipeline architecture).
 
 Next step: breaking the work into tickets (`bmad-ticket`), then implementation (`bmad-build`).
 

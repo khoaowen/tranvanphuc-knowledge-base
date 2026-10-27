@@ -1,0 +1,8 @@
+yt-dlp 2026.03.17 (warns: older than 90 days)
+ffmpeg: ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers
+retrieved_at_utc: 2026-10-19T20:32:58Z
+source: https://www.youtube.com/watch?v=q7uDJG8YQ5c
+command: yt-dlp --no-update --skip-download --write-auto-sub --sub-langs vi-orig,vi --sub-format json3 (+ srv3 for vi-orig)
+64d93b68ccc639cf05ae5e31090f4444dde91e332699abf0c6df141f7cbe1433  q7uDJG8YQ5c.vi-orig.json3
+64d93b68ccc639cf05ae5e31090f4444dde91e332699abf0c6df141f7cbe1433  q7uDJG8YQ5c.vi.json3
+1d58605ed1670936e87013479368448395aba25ec09781d2fceda338c2411297  q7uDJG8YQ5c.vi-orig.srv3

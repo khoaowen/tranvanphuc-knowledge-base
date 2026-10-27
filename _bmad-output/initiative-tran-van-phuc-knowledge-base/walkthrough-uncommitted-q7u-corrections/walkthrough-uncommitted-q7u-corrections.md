@@ -12,7 +12,7 @@ Current block: none (all blocks accepted).
 
 ## 1. Intent
 
-Source: the target plan, [story-apply-approved-corrections-q7uDJG8YQ5c-plan.md](../epic-summary-source-audit/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md), Intent section (condensed).
+Source: the target plan, [story-apply-approved-corrections-q7uDJG8YQ5c-plan.md](../tickets/epic-summary-source-audit/tickets/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md), Intent section (condensed).
 
 Ticket 2.3 applies the 24 human-approved corrections to the q7uDJG8YQ5c (omega-3) summary. The video stays blocked from publication. While applying them, a follow-up came up: the fidelity review rejected a claim whose verbatim transcript quote was real but sat outside the claim's own summary section. This step lets such a claim pass, as long as the quote is authentic and every other check holds. It adds regression tests and stops for your review. Nothing is staged, committed or published.
 
@@ -41,19 +41,19 @@ Mechanism: old expectations are flipped, and negative cases show the relaxed rul
 
 ## 5. Applied corrections to the omega-3 summary
 
-Mechanism: the summary was edited in three waves, all uncommitted and all documented in [apply-report.md](../spec-summary-source-audit/audit/q7uDJG8YQ5c/apply-report.md).
+Mechanism: the summary was edited in three waves, all uncommitted and all documented in [apply-report.md](../audit/q7uDJG8YQ5c/apply-report.md).
 
 1. The 24 approved corrections (13 reviewer-approved, 11 revised in r2). All applied, 61 quotes checked, 0 failures.
-2. Follow-ups f1-f4, human-approved on 2026-10-15, drafted in [proposed-corrections-followup.md](../spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections-followup.md).
+2. Follow-ups f1-f4, human-approved on 2026-10-15, drafted in [proposed-corrections-followup.md](../audit/q7uDJG8YQ5c/proposed-corrections-followup.md).
 3. An "opus review loop" of further edits (c157, c013, c082, ...), made at "follow opus review to fix everything". These are outside both approved lists.
 
 Edits are in [summary.md](../../../videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/summary.md). The review is [review.md](../../../videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua/review.md).
 
 ## 6. Periphery
 
-- [approval-record.md](../spec-summary-source-audit/audit/q7uDJG8YQ5c/approval-record.md): notes that corrections are applied, uncommitted, video still blocked.
-- [proposed-corrections.md](../spec-summary-source-audit/audit/q7uDJG8YQ5c/proposed-corrections.md): c087 quote fragment fixed, c119 block restored.
-- [audit-summary.md](../spec-summary-source-audit/audit/q7uDJG8YQ5c/audit-summary.md), [report.md](../spec-summary-source-audit/audit/q7uDJG8YQ5c/report.md): status lines updated.
-- [spec-summary-source-audit.md](../spec-summary-source-audit/spec-summary-source-audit.md), [epic-summary-source-audit.md](../epic-summary-source-audit/epic-summary-source-audit.md), [story-apply-approved-corrections-q7uDJG8YQ5c.md](../epic-summary-source-audit/story-apply-approved-corrections-q7uDJG8YQ5c.md): small status notes.
-- New artifacts in `spec-summary-source-audit/audit/q7uDJG8YQ5c/`: apply-report.md, claims-after-apply.md, final-claims-audit.json, final-claims-mapping.md, proposed-corrections-followup.md, proposed-omissions.md, split-claims-audit.json, split-claims-audit.md, tool-fix-report.md.
-- New plan: [story-apply-approved-corrections-q7uDJG8YQ5c-plan.md](../epic-summary-source-audit/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md).
+- [approval-record.md](../audit/q7uDJG8YQ5c/approval-record.md): notes that corrections are applied, uncommitted, video still blocked.
+- [proposed-corrections.md](../audit/q7uDJG8YQ5c/proposed-corrections.md): c087 quote fragment fixed, c119 block restored.
+- [audit-summary.md](../audit/q7uDJG8YQ5c/audit-summary.md), [report.md](../audit/q7uDJG8YQ5c/report.md): status lines updated.
+- [spec-summary-source-audit.md](../initiative-tran-van-phuc-knowledge-base.md), [epic-summary-source-audit.md](../tickets/epic-summary-source-audit/epic-summary-source-audit.md), [story-apply-approved-corrections-q7uDJG8YQ5c.md](../tickets/epic-summary-source-audit/tickets/story-apply-approved-corrections-q7uDJG8YQ5c.md): small status notes.
+- New artifacts in `audit/q7uDJG8YQ5c/`: apply-report.md, claims-after-apply.md, final-claims-audit.json, final-claims-mapping.md, proposed-corrections-followup.md, proposed-omissions.md, split-claims-audit.json, split-claims-audit.md, tool-fix-report.md.
+- New plan: [story-apply-approved-corrections-q7uDJG8YQ5c-plan.md](../tickets/epic-summary-source-audit/tickets/story-apply-approved-corrections-q7uDJG8YQ5c-plan.md).

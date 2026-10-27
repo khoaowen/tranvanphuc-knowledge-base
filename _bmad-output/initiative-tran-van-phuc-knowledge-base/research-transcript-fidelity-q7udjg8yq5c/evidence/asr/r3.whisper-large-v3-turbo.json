@@ -1,0 +1,451 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/khoa/whisper.cpp/models/ggml-large-v3-turbo.bin",
+		"language": "vi",
+		"translate": false
+	},
+	"result": {
+		"language": "vi"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:25,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 25000
+			},
+			"text": " Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.940014,
+					"t_dtw": -1
+				},
+				{
+					"text": " H",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,390"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 390
+					},
+					"id": 389,
+					"p": 0.285395,
+					"t_dtw": -1
+				},
+				{
+					"text": "ãy",
+					"timestamps": {
+						"from": "00:00:00,530",
+						"to": "00:00:00,780"
+					},
+					"offsets": {
+						"from": 530,
+						"to": 780
+					},
+					"id": 49205,
+					"p": 0.970048,
+					"t_dtw": -1
+				},
+				{
+					"text": " subscribe",
+					"timestamps": {
+						"from": "00:00:01,320",
+						"to": "00:00:05,250"
+					},
+					"offsets": {
+						"from": 1320,
+						"to": 5250
+					},
+					"id": 3022,
+					"p": 0.937205,
+					"t_dtw": -1
+				},
+				{
+					"text": " cho",
+					"timestamps": {
+						"from": "00:00:05,250",
+						"to": "00:00:06,560"
+					},
+					"offsets": {
+						"from": 5250,
+						"to": 6560
+					},
+					"id": 1586,
+					"p": 0.99465,
+					"t_dtw": -1
+				},
+				{
+					"text": " k",
+					"timestamps": {
+						"from": "00:00:06,560",
+						"to": "00:00:07,000"
+					},
+					"offsets": {
+						"from": 6560,
+						"to": 7000
+					},
+					"id": 350,
+					"p": 0.996337,
+					"t_dtw": -1
+				},
+				{
+					"text": "ên",
+					"timestamps": {
+						"from": "00:00:07,000",
+						"to": "00:00:07,810"
+					},
+					"offsets": {
+						"from": 7000,
+						"to": 7810
+					},
+					"id": 5050,
+					"p": 0.999781,
+					"t_dtw": -1
+				},
+				{
+					"text": "h",
+					"timestamps": {
+						"from": "00:00:08,120",
+						"to": "00:00:08,300"
+					},
+					"offsets": {
+						"from": 8120,
+						"to": 8300
+					},
+					"id": 71,
+					"p": 0.999685,
+					"t_dtw": -1
+				},
+				{
+					"text": " G",
+					"timestamps": {
+						"from": "00:00:08,300",
+						"to": "00:00:08,730"
+					},
+					"offsets": {
+						"from": 8300,
+						"to": 8730
+					},
+					"id": 460,
+					"p": 0.926416,
+					"t_dtw": -1
+				},
+				{
+					"text": "hi",
+					"timestamps": {
+						"from": "00:00:08,740",
+						"to": "00:00:09,510"
+					},
+					"offsets": {
+						"from": 8740,
+						"to": 9510
+					},
+					"id": 4954,
+					"p": 0.999072,
+					"t_dtw": -1
+				},
+				{
+					"text": "ền",
+					"timestamps": {
+						"from": "00:00:09,640",
+						"to": "00:00:10,480"
+					},
+					"offsets": {
+						"from": 9640,
+						"to": 10480
+					},
+					"id": 26871,
+					"p": 0.99802,
+					"t_dtw": -1
+				},
+				{
+					"text": " M",
+					"timestamps": {
+						"from": "00:00:10,480",
+						"to": "00:00:10,920"
+					},
+					"offsets": {
+						"from": 10480,
+						"to": 10920
+					},
+					"id": 376,
+					"p": 0.998033,
+					"t_dtw": -1
+				},
+				{
+					"text": "ì",
+					"timestamps": {
+						"from": "00:00:10,920",
+						"to": "00:00:11,330"
+					},
+					"offsets": {
+						"from": 10920,
+						"to": 11330
+					},
+					"id": 4749,
+					"p": 0.998868,
+					"t_dtw": -1
+				},
+				{
+					"text": " G",
+					"timestamps": {
+						"from": "00:00:11,350",
+						"to": "00:00:11,790"
+					},
+					"offsets": {
+						"from": 11350,
+						"to": 11790
+					},
+					"id": 460,
+					"p": 0.996591,
+					"t_dtw": -1
+				},
+				{
+					"text": "õ",
+					"timestamps": {
+						"from": "00:00:11,790",
+						"to": "00:00:11,850"
+					},
+					"offsets": {
+						"from": 11790,
+						"to": 11850
+					},
+					"id": 5536,
+					"p": 0.999376,
+					"t_dtw": -1
+				},
+				{
+					"text": " Đ",
+					"timestamps": {
+						"from": "00:00:12,470",
+						"to": "00:00:12,660"
+					},
+					"offsets": {
+						"from": 12470,
+						"to": 12660
+					},
+					"id": 13055,
+					"p": 0.998461,
+					"t_dtw": -1
+				},
+				{
+					"text": "ể",
+					"timestamps": {
+						"from": "00:00:12,660",
+						"to": "00:00:13,090"
+					},
+					"offsets": {
+						"from": 12660,
+						"to": 13090
+					},
+					"id": 9571,
+					"p": 0.999123,
+					"t_dtw": -1
+				},
+				{
+					"text": " không",
+					"timestamps": {
+						"from": "00:00:13,090",
+						"to": "00:00:15,220"
+					},
+					"offsets": {
+						"from": 13090,
+						"to": 15220
+					},
+					"id": 11415,
+					"p": 0.997992,
+					"t_dtw": -1
+				},
+				{
+					"text": " b",
+					"timestamps": {
+						"from": "00:00:15,380",
+						"to": "00:00:15,700"
+					},
+					"offsets": {
+						"from": 15380,
+						"to": 15700
+					},
+					"id": 272,
+					"p": 0.999171,
+					"t_dtw": -1
+				},
+				{
+					"text": "ỏ",
+					"timestamps": {
+						"from": "00:00:15,780",
+						"to": "00:00:16,150"
+					},
+					"offsets": {
+						"from": 15780,
+						"to": 16150
+					},
+					"id": 21920,
+					"p": 0.998449,
+					"t_dtw": -1
+				},
+				{
+					"text": " l",
+					"timestamps": {
+						"from": "00:00:16,400",
+						"to": "00:00:16,590"
+					},
+					"offsets": {
+						"from": 16400,
+						"to": 16590
+					},
+					"id": 287,
+					"p": 0.999514,
+					"t_dtw": -1
+				},
+				{
+					"text": "ỡ",
+					"timestamps": {
+						"from": "00:00:16,590",
+						"to": "00:00:17,890"
+					},
+					"offsets": {
+						"from": 16590,
+						"to": 17890
+					},
+					"id": 1297,
+					"p": 0.99898,
+					"t_dtw": -1
+				},
+				{
+					"text": " những",
+					"timestamps": {
+						"from": "00:00:17,890",
+						"to": "00:00:20,080"
+					},
+					"offsets": {
+						"from": 17890,
+						"to": 20080
+					},
+					"id": 20136,
+					"p": 0.998671,
+					"t_dtw": -1
+				},
+				{
+					"text": " video",
+					"timestamps": {
+						"from": "00:00:20,080",
+						"to": "00:00:22,180"
+					},
+					"offsets": {
+						"from": 20080,
+						"to": 22180
+					},
+					"id": 960,
+					"p": 0.997839,
+					"t_dtw": -1
+				},
+				{
+					"text": " h",
+					"timestamps": {
+						"from": "00:00:22,320",
+						"to": "00:00:22,710"
+					},
+					"offsets": {
+						"from": 22320,
+						"to": 22710
+					},
+					"id": 276,
+					"p": 0.996183,
+					"t_dtw": -1
+				},
+				{
+					"text": "ấp",
+					"timestamps": {
+						"from": "00:00:22,710",
+						"to": "00:00:23,550"
+					},
+					"offsets": {
+						"from": 22710,
+						"to": 23550
+					},
+					"id": 47176,
+					"p": 0.998443,
+					"t_dtw": -1
+				},
+				{
+					"text": " d",
+					"timestamps": {
+						"from": "00:00:23,650",
+						"to": "00:00:24,020"
+					},
+					"offsets": {
+						"from": 23650,
+						"to": 24020
+					},
+					"id": 274,
+					"p": 0.998857,
+					"t_dtw": -1
+				},
+				{
+					"text": "ẫn",
+					"timestamps": {
+						"from": "00:00:24,020",
+						"to": "00:00:24,960"
+					},
+					"offsets": {
+						"from": 24020,
+						"to": 24960
+					},
+					"id": 35400,
+					"p": 0.999336,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_1250]",
+					"timestamps": {
+						"from": "00:00:25,000",
+						"to": "00:00:25,000"
+					},
+					"offsets": {
+						"from": 25000,
+						"to": 25000
+					},
+					"id": 51615,
+					"p": 0.93496,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

@@ -98,6 +98,12 @@ class Validate(Base):
         self.put(banner=False)
         self.assertRejected("disclaimer")
 
+    def test_disclaimer_must_follow_header(self):
+        text = summary_text(banner=False)
+        text = text.replace("Omega 3 có thể giúp giảm triglyceride.", "Omega 3 có thể giúp giảm triglyceride.\n\n" + DISCLAIMER_BANNER)
+        (self.d / "summary.md").write_text(text, encoding="utf-8")
+        self.assertRejected("misplaced disclaimer")
+
     def test_no_question_line(self):
         self.put(q=False)
         self.assertRejected("no **Q:")
@@ -117,6 +123,23 @@ class Validate(Base):
     def test_no_glossary(self):
         self.put(glossary="")
         self.assertRejected("missing Glossary")
+
+    def test_all_merged_sections_are_rejected(self):
+        text = summary_text()
+        text = text.replace("**Q: Omega 3 có giảm triglyceride không?**\nOmega 3 có thể giúp giảm triglyceride.", "Đã gộp vào mục [00:20:00] ở trên.")
+        text = text.replace("**Q: Liều bao nhiêu?**\nLiều dùng tùy từng trường hợp.", "Đã gộp vào mục [00:10:00] ở trên.")
+        (self.d / "summary.md").write_text(text, encoding="utf-8")
+        self.assertRejected("no question-bearing topic section")
+
+    def test_glossary_must_follow_topics(self):
+        text = summary_text().replace("## Glossary\n", "## Glossary\n## [00:25:00] Another topic — https://www.youtube.com/watch?v=abc123&t=1500s\n**Q: What else?**\nAnother answer.\n\n")
+        (self.d / "summary.md").write_text(text, encoding="utf-8")
+        self.assertRejected("Glossary must follow all topic sections")
+
+    def test_invalid_minute_or_second_timestamp(self):
+        text = summary_text().replace("[00:10:00]", "[00:99:00]").replace("&t=600s", "&t=5940s")
+        (self.d / "summary.md").write_text(text, encoding="utf-8")
+        self.assertRejected("invalid timestamp format")
 
     def test_merged_section_needs_no_question(self):
         text = summary_text() + ""
@@ -292,6 +315,18 @@ class Cli(Base):
             self.assertEqual(self.run_cli()[0], 2)
         finally:
             vs.check_summary = original
+
+    def test_mark_stale_duplicate_video_id_is_rejected(self):
+        self.put()
+        other = self.root / "videos" / "2025-01-02-y"
+        other.mkdir(parents=True)
+        (other / "metadata.json").write_text(json.dumps({"video_id": VID, "duration": DURATION}), encoding="utf-8")
+        (other / "transcript.md").write_text(TRANSCRIPT, encoding="utf-8")
+        (other / "summary.md").write_text(summary_text(), encoding="utf-8")
+        code, _ = self.run_cli("--mark-stale", VID)
+        self.assertEqual(code, 1)
+        self.assertFalse((self.d / "summary.stale").exists())
+        self.assertFalse((other / "summary.stale").exists())
 
     def test_mark_stale_missing_video(self):
         self.put()

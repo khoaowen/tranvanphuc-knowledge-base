@@ -164,6 +164,48 @@ class AggregationTests(unittest.TestCase):
         self.assertEqual(result["verdict"], "flag")
         self.assertFalse(publishable)
 
+    def test_explicit_partial_support_needs_full_clean_evidence(self):
+        summary = "## [00:00:01] P\n- dòng số 4 nội dung.\n"
+        for full in (False, True):
+            with self.subTest(full=full):
+                def client(prompt):
+                    if has(prompt, 1):
+                        return resp([entry("c001", "dòng số 1 nội dung", support_scope="partial",
+                                           finding="Only part of this claim is discussed here.")])
+                    return resp([entry("c001", "dòng số 4 nội dung")]) if full and has(prompt, 4) else resp()
+                result, publishable = run(client, summary, LONG, chunk_chars=70, overlap_chars=0)
+                self.assertEqual(result["verdict"], "pass" if full else "fail")
+                self.assertEqual(publishable, full)
+                if full:
+                    self.assertEqual(len(result["claims"][0]["evidence"]), 1)
+
+    def test_partial_scope_never_hides_real_defects(self):
+        summary = "## [00:00:01] P\n- dòng số 4 nội dung.\n"
+        for field, value, verdict in (("contradicts", True, "fail"), ("attributed", False, "fail"),
+                                      ("qualifications_preserved", False, "fail"), ("supported", False, "flag")):
+            with self.subTest(field=field):
+                def client(prompt):
+                    if has(prompt, 1):
+                        return resp([entry("c001", "dòng số 1 nội dung", support_scope="partial",
+                                           finding="A real defect.", **{field: value})])
+                    return resp([entry("c001", "dòng số 4 nội dung")]) if has(prompt, 4) else resp()
+                result, publishable = run(client, summary, LONG, chunk_chars=70, overlap_chars=0)
+                self.assertEqual(result["verdict"], verdict)
+                self.assertFalse(publishable)
+
+    def test_partial_scope_validation_and_conservative_salvage(self):
+        for over in ({"support_scope": "unknown"}, {"support_scope": None},
+                     {"support_scope": "partial"},
+                     {"support_scope": "partial", "finding": "partial", "quote": "invented quote"}):
+            with self.subTest(over=over):
+                raw = resp([{**entry("c001", "Mở đầu"), **over}])
+                with self.assertRaises(r.ReviewError):
+                    r.parse_model_review(raw, TRANSCRIPT, {"c001"})
+                parsed = r.parse_model_review(raw, TRANSCRIPT, {"c001"}, salvage=True)
+                claim = fidelity.extract_claims(SUMMARY)[0]
+                aggregated = r.aggregate_claim(claim, [{**e, "chunk": 1} for e in parsed["claims"]])
+                self.assertNotEqual(aggregated["status"], "pass")
+
     def test_overlap_boundary_claim_seen_by_both_chunks_passes(self):
         summary = "## [00:00:01] P\n- dòng số 4 nội dung.\n"
         entries = [(i, f"[00:00:{i:02d}] dòng số {i} nội dung") for i in range(1, 9)]
@@ -273,6 +315,10 @@ class AggregationTests(unittest.TestCase):
         self.assertIn("PART 1/1", prompts[0])
         self.assertIn("never", prompts[0].lower())
         self.assertNotIn("coverage_complete", prompts[0])
+        self.assertIn("empty string only for full support", prompts[0])
+        self.assertIn("including for clean partial support", prompts[0])
+        self.assertIn("A different speaker making the same statement in a separate event", prompts[0])
+        self.assertIn("attributed=false for an actual source-attribution", prompts[0])
 
     def test_verbatim_evidence_before_or_after_section_passes(self):
         summary = "## [00:00:01] A\n- dòng số 2 nội dung.\n## [00:10:00] B\n- dòng số 1 nội dung.\n## [00:20:00] C\n"
@@ -455,6 +501,21 @@ class InvalidResponseRetryTest(unittest.TestCase):
 
 
 class ChunkProgressCacheTest(unittest.TestCase):
+    def test_previous_review_protocol_cache_is_not_reused(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            v = make(tmp)
+            original = r.parse_model_review(FULL, TRANSCRIPT, {"c001", "c002"})
+            chunk = r.summarize.render_chunk(r.summarize.parse_transcript(TRANSCRIPT))
+            key = r.summary_hash(f"1/1\nc001,c002\n{chunk}".encode())
+            (v / r.PROGRESS_NAME).write_text(json.dumps({
+                "version": r.PROGRESS_VERSION - 1, "summary_sha256": r.summary_hash((v / "summary.md").read_bytes()),
+                "chunks": {key: original}}))
+            calls = []
+            result = r.review_video(v, lambda p: calls.append(p) or FULL, sleep=lambda s: None)
+            self.assertEqual(len(calls), 1)
+            self.assertEqual(result["verdict"], "pass")
+            self.assertFalse((v / r.PROGRESS_NAME).exists())
+
     def test_rerun_redoes_only_failed_chunk(self):
         with tempfile.TemporaryDirectory() as d:
             v = make(d, "## [00:00:01] P\n- một hai ba.\n- bốn năm sáu.\n- bảy tám chín.\n",
