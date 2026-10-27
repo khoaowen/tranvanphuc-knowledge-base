@@ -683,5 +683,74 @@ class PushRaceTest(Harness):
                              for f in self.remote_files()))
 
 
+class ReviewPatchTest(Harness):
+    """Regressions for the 1.11 review patches (cancel, finalize errors, partial fetch, races)."""
+
+    def test_cancelled_runs_never_reach_summarize_or_finalize(self):
+        text = (REPO_ROOT / ".github/workflows/weekly-sync.yml").read_text(encoding="utf-8")
+        self.assertNotIn("always()", text)
+        for step in ("Summarize selected video", "Validate, test, commit and push"):
+            block = text.split(f"- name: {step}", 1)[1].split("- name:", 1)[0]
+            self.assertRegex(block, r"if:\s*\$\{\{\s*!cancelled\(\)", step)
+
+    def test_unexpected_finalize_error_fails_closed_with_a_saved_report(self):
+        head = self.remote_head()
+        with mock.patch.object(weekly_sync, "build_allowlist", side_effect=ValueError("boom")):
+            rc = self.run_sync()
+        self.assertEqual(rc, 2)
+        state = self.state()
+        self.assertTrue(any("ValueError in finalize" in f for f in state["fatal"]))
+        self.assertFalse(state["report"]["pushed"])
+        self.assertEqual(self.remote_head(), head)
+        self.assertEqual(self.local_head(), head)
+
+    def test_summary_is_not_staged_when_its_fetch_result_is_incomplete(self):
+        original = self.deps.fetch_one
+
+        def fetch_then_lose_provenance(video_id, videos_dir):
+            video_dir = original(video_id, videos_dir)
+            (video_dir / "raw" / "provenance.json").unlink()
+            return video_dir
+
+        self.deps.fetch_one = fetch_then_lose_provenance
+        rc = self.run_sync()
+        self.assertEqual(rc, 1)
+        n1 = self.vdir("N1").relative_to(self.repo).as_posix()
+        self.assertTrue((self.vdir("N1") / "summary.md").is_file())  # generated locally
+        self.assertFalse(any(f.startswith(n1 + "/") for f in self.remote_files()))
+        self.assertTrue(any("incomplete fetch result" in f for f in self.state()["failures"]))
+
+    def test_duplicate_video_id_after_rebase_blocks_the_push(self):
+        dup = {"video_id": "N1", "title": "renamed", "duration": DURATION}
+        self.deps.hook = lambda stage: (
+            self.other_push({"videos/2026-01-05-renamed/metadata.json": json.dumps(dup)})
+            if stage == "before_sync" else None)
+        rc = self.run_sync()
+        self.assertEqual(rc, 1)
+        message = " ".join(self.state()["failures"])
+        self.assertIn("more than one directory", message)
+        self.assertIn("N1", message)
+        n1 = self.vdir("N1").relative_to(self.repo).as_posix()
+        self.assertNotIn(f"{n1}/transcript.md", self.remote_files())
+
+    def test_non_conflict_rebase_failure_names_its_cause(self):
+        def hook(stage):
+            if stage == "before_sync":
+                self.other_push({"notes/clash.md": "remote\n"})
+                (self.repo / "notes").mkdir(exist_ok=True)
+                (self.repo / "notes" / "clash.md").write_text("untracked\n", encoding="utf-8")
+
+        self.deps.hook = hook
+        rc = self.run_sync()
+        self.assertEqual(rc, 1)
+        message = " ".join(self.state()["failures"])
+        self.assertIn("not a merge conflict", message)
+        self.assertNotIn("rebase conflict", message)
+        self.assertIn("notes/clash.md", self.remote_files())  # the other push survived
+        n1 = self.vdir("N1").relative_to(self.repo).as_posix()
+        self.assertFalse(any(f.startswith(n1 + "/") for f in self.remote_files()))
+        self.assertFalse((self.repo / ".git" / "rebase-merge").exists())
+
+
 if __name__ == "__main__":
     unittest.main()

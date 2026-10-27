@@ -47,14 +47,15 @@ jobs:
 
       # The only step that receives the Gemini key.
       - name: Summarize selected video
-        if: always() && steps.prepare.outcome == 'success'
+        if: ${{ !cancelled() && steps.prepare.outcome == 'success' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: python scripts/weekly_sync.py summarize --report "$REPORT"
 
-      # Runs after earlier failures so safe progress can still be committed; its
-      # exit status (1 red, 2 blocked) is the job's final status.
+      # Runs after earlier failures so safe progress can still be committed, but
+      # never after a cancellation; its exit status (1 red, 2 blocked) is the
+      # job's final status.
       - name: Validate, test, commit and push
-        if: always()
+        if: ${{ !cancelled() }}
         run: python scripts/weekly_sync.py finalize --report "$REPORT"

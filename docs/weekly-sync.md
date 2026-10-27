@@ -13,15 +13,18 @@ a JSON report in `$RUNNER_TEMP` (state is read from the report, never from log t
    (`--reduce-max-chars`, positive); above it no Reduce request is made. A failed or
    invalid generation restores the prior summary byte-for-byte and runs
    `validate_summaries.py --mark-stale`; with no prior summary only the fetch result remains.
-3. **finalize** (`if: always()`) – validates every summary via `validate_video`, runs
+3. **finalize** (`if: !cancelled()`; a cancelled run never commits or pushes) – validates every summary via `validate_video`, runs
    `python -m unittest discover -s tests -v`, stages an explicit allowlist, commits,
    fetches and rebases onto the branch head, re-runs validation and tests on the
    combined tree, then pushes without force.
 
 Exit status of finalize: `0` clean; `1` red but safe progress may be pushed (invalid
-summary elsewhere, fetch/generation failure, rebase conflict, rejected push); `2`
-write path blocked, nothing committed or pushed (transcript changed, unexpected
-validator result, failing tests, restore/mark failure, missing state).
+summary elsewhere, fetch/generation failure, rebase conflict or other rebase failure,
+duplicate video ID after rebase, rejected push); `2` write path blocked, nothing
+pushed (transcript changed, unexpected validator result or finalize error, failing
+tests, restore/mark failure, missing state). If the block happens after the local
+commit (for example tests failing on the rebased tree), that commit stays unpushed
+in the runner checkout only.
 
 A committed summary is not a published one: publication stays file-derived (valid,
 not stale, hash-bound passing review). Backlog fetching and fidelity review stay
