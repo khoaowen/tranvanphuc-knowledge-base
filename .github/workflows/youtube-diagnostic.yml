@@ -1,0 +1,66 @@
+name: YouTube hosted-runner diagnostic
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [khoaowen/Epic2-publish-videos]
+    paths: [.github/workflows/youtube-diagnostic.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install production dependency
+        run: pip install -r requirements.txt
+      - name: List channel and retrieve unseen captions to temporary storage
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          import tempfile
+          from pathlib import Path
+
+          sys.path.insert(0, str(Path('scripts').resolve()))
+          from detect_new_videos import (
+              DEFAULT_CHANNEL_ID, get_channel_video_ids, get_known_video_ids,
+          )
+          from fetch_transcript import fetch_caption_json3, build_transcript_lines
+
+          def report(message):
+              print(message, flush=True)
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+                  summary.write(message + '\n\n')
+
+          report('Read-only diagnostic: no secrets, cookies, or corpus writes.')
+          try:
+              channel = list(dict.fromkeys(get_channel_video_ids(DEFAULT_CHANNEL_ID)))
+              known = get_known_video_ids('videos')
+              unseen = [video_id for video_id in channel if video_id not in known]
+              report(f'Channel IDs: {len(channel)}; unseen: {len(unseen)}')
+              if not unseen:
+                  report('NOT TESTED: no unseen video; no known video fetched.')
+              else:
+                  selected = unseen[0]
+                  report(f'Selected newest unseen ID: {selected}')
+                  with tempfile.TemporaryDirectory() as tmp:
+                      captions = fetch_caption_json3(selected, tmp)
+                      lines = build_transcript_lines(captions)
+                      if not lines:
+                          raise RuntimeError('Caption file contains no transcript lines')
+                      report(f'PASS: {captions.name}, {captions.stat().st_size} bytes, '
+                             f'{len(lines)} parsed transcript lines')
+          except BaseException as exc:
+              report(f'FAIL: {type(exc).__name__}: {exc}')
+              raise
+          PY
