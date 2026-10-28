@@ -31,6 +31,28 @@ not stale, hash-bound passing review). Backlog fetching and fidelity review stay
 local (`review_batch.py`); the corpus-wide `fetch_transcript.py --check` is not wired
 until legacy raw captions are backfilled.
 
+## One-command local Mac run
+
+From a feature-branch checkout, run **`./weekly-sync`**. Requires Python 3.12+
+with venv support, Git, and authenticated `gh`; no Actions runner is registered.
+The launcher manages a cached virtual environment outside the checkout, installs
+the pinned requirements, runs preflight, previews detection, and asks before
+fetching. It prompts for the Gemini key with hidden input (never saved), obtains
+`GEMINI_MODEL` through `gh`, and asks again before finalize commits and pushes to
+the displayed branch. It refuses main/master and unrelated dirty/staged work.
+
+Logs, `before.sha`, and `report.json` are saved in the displayed evidence directory.
+To resume prepared work without fetching again, use `./weekly-sync --resume DIR`.
+An exported `WEEKLY_RUN` pointing to an existing report also resumes it automatically
+(for the owner's in-progress live run). Successful summary generation is not repeated.
+After any recorded failure or finalized report, stop and inspect; do not delete the
+report or retry a known video to manufacture success. For a later independent week,
+use a new terminal without that old `WEEKLY_RUN` variable.
+
+This is an interactive, manually started local run, not an unattended weekly
+schedule or evidence of GitHub Actions execution. Inspect the local evidence and
+record that distinction explicitly during owner acceptance.
+
 ## Owner live-run inspection checklist
 
 Dispatch **Weekly sync** on the real channel, then check:

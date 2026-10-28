@@ -1,0 +1,138 @@
+#!/usr/bin/env python3
+"""One-command local weekly pipeline; never run by a remote Actions runner."""
+import argparse
+import getpass
+import hashlib
+import json
+import os
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
+import uuid
+
+ROOT = Path(__file__).resolve().parent
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--resume', type=Path, help='existing evidence directory (skip prepare)')
+    args = parser.parse_args()
+    os.chdir(ROOT)
+    os.environ.pop('GEMINI_API_KEY', None)  # Only the summarizer receives a prompted key.
+    cache = Path.home() / '.cache' / 'tranvanphuc-weekly' / hashlib.sha256(str(ROOT).encode()).hexdigest()[:12]
+    python = cache / 'bin' / 'python'
+    if Path(sys.prefix).resolve() != cache.resolve():
+        if not python.exists():
+            subprocess.run([sys.executable, '-m', 'venv', str(cache)], check=True)
+        subprocess.run([str(python), '-m', 'pip', 'install', '-r', str(ROOT / 'requirements.txt')], check=True)
+        os.execv(str(python), [str(python), str(ROOT / 'weekly-sync'), *sys.argv[1:]])
+    os.environ['PATH'] = str(python.parent) + os.pathsep + os.environ.get('PATH', '')
+
+    def git(*words):
+        return subprocess.check_output(['git', *words], text=True).strip()
+
+    def confirm(message):
+        if input(message + ' [y/N] ').strip().lower() != 'y':
+            raise RuntimeError('Stopped by owner; no further phases run.')
+
+    branch = git('branch', '--show-current')
+    if not branch or branch in ('main', 'master'):
+        raise RuntimeError('Use the feature branch, not main/master or detached HEAD.')
+    resume = args.resume or (Path(os.environ['WEEKLY_RUN']) if os.environ.get('WEEKLY_RUN') else None)
+    if resume and not (resume / 'report.json').is_file():
+        raise RuntimeError('Resume directory has no report.json; refusing to prepare again.')
+    state = json.loads((resume / 'report.json').read_text()) if resume is not None else None
+    if resume is not None and (not isinstance(state, dict) or state.get('version') != 1):
+        raise RuntimeError('Invalid resume report; refusing to start fresh or repeat prepare.')
+    if resume is not None and 'report' in state:
+        raise RuntimeError('This run already reached finalize. Inspect it; do not replay it.')
+    if git('diff', '--cached', '--name-only'):
+        raise RuntimeError('Staged work exists; refusing to mix it into a sync.')
+    changed = git('diff', '--name-only', 'HEAD').splitlines() + git('ls-files', '--others', '--exclude-standard').splitlines()
+    allowed = [item['dir'] + '/' for item in state['items']] if resume is not None else []
+    if any(not any(path.startswith(prefix) for prefix in allowed) for path in changed):
+        raise RuntimeError('Unrelated dirty work exists. Use a clean checkout or the correct resume report.')
+    runs = Path.home() / '.local' / 'state' / 'tranvanphuc-weekly'
+    runs.mkdir(parents=True, exist_ok=True)
+    evidence = resume if resume is not None else Path(tempfile.mkdtemp(prefix='run-', dir=runs))
+    evidence = evidence.resolve()
+    evidence.mkdir(parents=True, exist_ok=True)
+    report = evidence / 'report.json'
+    print(f'Branch: {branch}\nEvidence: {evidence}', flush=True)
+    if resume is None:
+        before_pull = git('rev-parse', 'HEAD')
+        subprocess.run(['git', 'pull', '--ff-only', 'origin', branch], check=True)
+        if git('rev-parse', 'HEAD') != before_pull:
+            subprocess.run([str(python), '-m', 'pip', 'install', '-r', str(ROOT / 'requirements.txt')], check=True)
+            os.execv(str(python), [str(python), str(ROOT / 'weekly-sync'), *sys.argv[1:]])
+        (evidence / 'before.sha').write_text(git('rev-parse', 'HEAD') + '\n')
+    elif not (evidence / 'before.sha').is_file():
+        raise RuntimeError('Resume evidence is missing before.sha.')
+
+    def run(label, command, key=None):
+        env = dict(os.environ)
+        if key:
+            env['GEMINI_API_KEY'] = key
+        log = evidence / (label + '.log')
+        if label.startswith('preflight-'):
+            log = evidence / (label + '-' + uuid.uuid4().hex + '.log')
+        if log.exists():
+            raise RuntimeError(f'{log} exists; refusing to overwrite evidence or repeat a phase.')
+        print(f'Running {label}...', flush=True)
+        with log.open('x') as output:
+            result = subprocess.run(command, env=env, stdout=output, stderr=subprocess.STDOUT)
+        if result.returncode:
+            raise RuntimeError(f'{label} exit {result.returncode}. See {log}; no further phases run.')
+
+    def check_state():
+        current = json.loads(report.read_text())
+        if current['failures'] or current['fatal']:
+            raise RuntimeError(f'Pipeline recorded a failure. Inspect {report}; stopping.')
+        return current
+
+    run('preflight-tests', [str(python), '-m', 'unittest', 'discover', '-s', 'tests'])
+    run('preflight-validation', [str(python), 'scripts/validate_summaries.py'])
+    if resume is None:
+        sys.path.insert(0, str(ROOT / 'scripts'))
+        from detect_new_videos import DEFAULT_CHANNEL_ID, get_channel_video_ids, get_known_video_ids
+        known = get_known_video_ids('videos')
+        unseen = [v for v in dict.fromkeys(get_channel_video_ids(DEFAULT_CHANNEL_ID)) if v not in known]
+        print(f'Selected: {unseen[0] if unseen else "NONE"}; other pending: {max(0, len(unseen)-1)}')
+        confirm('Fetch the newest unseen video and queue the others?')
+        run('prepare', [str(python), 'scripts/weekly_sync.py', 'prepare', '--report', str(report)])
+    state = check_state()
+    print(f'Actual selected: {state["selected"]}; pending: {len(state["pending"])}')
+    if any(i.get('summary_candidate') and not (ROOT / i['dir'] / 'summary.md').is_file()
+           for i in state['items']):
+        raise RuntimeError('A recorded successful summary is missing; inspect rather than regenerate.')
+    targets = [i for i in state['items'] if i['kind'] == 'fetched' and not i.get('summary_candidate')]
+    if targets:
+        if any((ROOT / i['dir'] / 'summary.md').exists() for i in targets):
+            raise RuntimeError('An unrecorded summary exists; inspect it rather than repeat generation.')
+        model = subprocess.check_output(['gh', 'variable', 'get', 'GEMINI_MODEL'], text=True).strip()
+        if not model:
+            raise RuntimeError('GEMINI_MODEL repository variable is empty.')
+        os.environ['GEMINI_MODEL'] = model
+        print(f'Gemini model: {model}. API charges may apply.')
+        key = getpass.getpass('Gemini API key (hidden; not saved): ')
+        if not key:
+            raise RuntimeError('No key entered.')
+        try:
+            run('summarize', [str(python), 'scripts/weekly_sync.py', 'summarize', '--report', str(report)], key)
+        finally:
+            key = None
+    state = check_state()
+    print('Notices:', state['notices'])
+    confirm(f'Validate, test, COMMIT and PUSH to origin/{branch}?')
+    run('finalize', [str(python), 'scripts/weekly_sync.py', 'finalize', '--report', str(report), '--branch', branch])
+    print(json.dumps(check_state()['report'], indent=2))
+    print(f'Completed. HEAD: {git("rev-parse", "HEAD")}\nEvidence: {evidence}')
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except (Exception, KeyboardInterrupt) as exc:
+        print(f'STOPPED: {exc}', file=sys.stderr)
+        sys.exit(1)
