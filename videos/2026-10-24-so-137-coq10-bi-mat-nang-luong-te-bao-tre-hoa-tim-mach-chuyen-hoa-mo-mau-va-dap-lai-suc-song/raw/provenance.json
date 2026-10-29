@@ -1,0 +1,12 @@
+{
+  "video_id": "s2cOsPTA_Ek",
+  "source_url": "https://www.youtube.com/watch?v=s2cOsPTA_Ek",
+  "track": "vi-orig",
+  "caption_kind": "asr",
+  "retrieved_at": "2026-10-28T06:46:16Z",
+  "raw_file": "captions.vi-orig.json3.gz",
+  "sha256": "0a41954a39b38de34c13239638d74b2d39e9ca22aa8b7994732b8403986cc190",
+  "yt_dlp_version": "2026.03.17",
+  "tool": "scripts/fetch_transcript.py",
+  "transcript_sha256": "0627a4a4c8bfde9533b26e069414c113d2f5978477335d2746c3c314b841158d"
+}

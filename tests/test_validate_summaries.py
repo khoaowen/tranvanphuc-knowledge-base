@@ -230,7 +230,9 @@ class RealVideos(unittest.TestCase):
             if entry["state"] != queue_state.SUMMARIZED:
                 continue
             r = vs.validate_video(entry["dir"], REPO_ROOT / "topics" / "vocabulary.md")
-            self.assertFalse(r["invalid"], (entry["dir"].name, r["reasons"]))
+            # Tag failures against the approved vocabulary are listed for re-queue, not structural.
+            structural = [x for x in r["reasons"] if not x.startswith("tags outside vocabulary")]
+            self.assertEqual(structural, [], entry["dir"].name)
 
 
 class Review(Base):

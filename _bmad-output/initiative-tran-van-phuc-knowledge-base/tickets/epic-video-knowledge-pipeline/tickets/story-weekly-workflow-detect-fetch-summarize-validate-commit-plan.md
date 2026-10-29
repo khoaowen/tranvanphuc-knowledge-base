@@ -3,7 +3,7 @@ title: 'Weekly workflow: detect, fetch, summarize, validate, commit'
 type: 'feature'
 ticket: '11'
 created: '2026-10-24'
-status: 'built'
+status: done
 baseline_revision: '415a9fc18b0af1fad65cf6261f07d96c2daf6464'
 route: 'full'
 route_source: 'auto'
@@ -74,7 +74,7 @@ context: []
 
 ## Review Triage Log
 
-Inline quick self-review (no subagent authorized): no high/medium findings. One real defect fixed during build: the Gemini error body was truncated before key redaction, which could leak a key straddling the cut; now scrubbed first. Manual criterion 13 (owner live run of the real channel) remains open.
+Inline quick self-review (no subagent authorized): no high/medium findings. One real defect fixed during build: the Gemini error body was truncated before key redaction, which could leak a key straddling the cut; now scrubbed first. Owner-approved local-flow acceptance recorded 2026-10-29 in the story: local `--recover` run, selected s2cOsPTA_Ek/135 pending, preflight and summary validation passed, selected summary pushed (observed branch head 4b29fbf7722e98489d77a658ac9916488696c707). The owner explicitly accepted this instead of criterion 13's live GitHub `workflow_dispatch`; no live Actions run is claimed.
 
 ## Design Notes
 

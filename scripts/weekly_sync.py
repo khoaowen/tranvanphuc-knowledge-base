@@ -16,9 +16,11 @@ Three phases share one JSON report/state file (never parsed from human text):
 
 `all` runs the three phases in order. Exit codes of finalize: 0 clean; 1 safe
 progress may exist but the run is red (validator exit 1, generation/fetch
-failure, push rejected, rebase conflict); 2 write path blocked, nothing was
-committed or pushed (transcript changed, unexpected validator error, unit tests
-failing, restore/mark failure, missing state).
+failure, push rejected, rebase failure, duplicate video ID after rebase); 2 write
+path blocked, nothing was pushed (transcript changed, unexpected validator or
+finalize error, unit tests failing, restore/mark failure, missing state). A
+blocked run that already committed locally (post-rebase gate failure) leaves
+that commit unpushed in the runner's checkout only.
 
 Stdlib only apart from the helpers it imports. Every collaborator is reachable
 through the injectable `Deps` object so tests run offline.
@@ -33,8 +35,10 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import consolidate  # noqa: E402
 import detect_new_videos  # noqa: E402
 import fetch_transcript  # noqa: E402
+import generate_index  # noqa: E402
 import queue_state  # noqa: E402
 import summarize  # noqa: E402
 import validate_summaries  # noqa: E402
@@ -79,6 +83,7 @@ class Deps:
         self.validate = validate_summaries.validate_video
         self.mark_stale = self._mark_stale
         self.run_tests = lambda: default_run_tests(self.repo)
+        self.generate = self._generate
         self.hook = lambda stage: None  # "before_sync" / "before_push"
         self.log = lambda message: print(message, file=sys.stderr, flush=True)
 
@@ -86,6 +91,12 @@ class Deps:
         return validate_summaries.main(
             ["--videos-dir", str(videos_dir), "--mark-stale", video_id]
         ) == 0
+
+    def _generate(self, videos_dir):
+        """Run both generators over published videos; True only when both succeed."""
+        argv = ["--root", str(self.repo), "--videos-dir", str(videos_dir),
+                "--vocabulary", str(vocabulary_path(self))]
+        return generate_index.main(argv) == 0 and consolidate.main(argv) == 0
 
     def git(self, *args):
         return subprocess.run(
@@ -335,22 +346,43 @@ def build_allowlist(deps, state, results, failures):
     for item in state["items"]:
         video_dir = deps.repo / item["dir"]
         names = []
+        complete = True
         if item["kind"] == "pending":
             names = ["metadata.json"] if (video_dir / "metadata.json").is_file() else []
         elif item["kind"] == "fetched":
             names = fetch_complete(video_dir)
             if names is None:
-                failures.append(f"incomplete fetch result for {item['video_id']} not staged")
-                names = []
+                # Neither the fetch result nor a summary built on it may be staged.
+                failures.append(f"incomplete fetch result for {item['video_id']} not staged "
+                                "(its summary is not staged either)")
+                names, complete = [], False
             names = list(names)
         result = results.get(item["dir"], {})
-        if item.get("summary_candidate") and (video_dir / "summary.md").is_file() \
+        if complete and item.get("summary_candidate") and (video_dir / "summary.md").is_file() \
                 and not result.get("invalid", True):
             names.append("summary.md")
         if item.get("stale_marker") and (video_dir / validate_summaries.STALE_FILE).is_file():
             names.append(validate_summaries.STALE_FILE)
         paths.extend(f"{item['dir']}/{n}" for n in names)
     return sorted(set(paths))
+
+
+GENERATED_ROOTS = ["README.md", "topics", "knowledge-gpt"]
+HUMAN_OWNED = {"topics/vocabulary.md"}
+
+
+def generated_paths(deps):
+    """Changed (incl. new/deleted) files under the generator outputs, minus human-owned ones."""
+    out = deps.git("status", "--porcelain", "-z", "--untracked-files=all", "--", *GENERATED_ROOTS)
+    if out.returncode != 0:
+        return None
+    parts, paths, i = out.stdout.split("\0"), [], 0
+    while i < len(parts) and parts[i]:
+        status, path = parts[i][:2], parts[i][3:]
+        i += 2 if "R" in status or "C" in status else 1
+        if path not in HUMAN_OWNED:
+            paths.append(path)
+    return sorted(paths)
 
 
 def protected_changes(deps, videos_rel):
@@ -387,6 +419,15 @@ def commit_allowlist(deps, paths, selected):
     return True, None
 
 
+def duplicate_ids(deps, videos_dir, video_ids):
+    """{video_id: [dirs]} for this run's IDs that now appear in more than one directory."""
+    dirs = {}
+    for entry in queue_state.list_videos(videos_dir):
+        if entry["video_id"] in video_ids:
+            dirs.setdefault(entry["video_id"], []).append(rel(deps, entry["dir"]))
+    return {vid: sorted(d) for vid, d in dirs.items() if len(d) > 1}
+
+
 def gates(deps, videos_dir):
     """Validation then tests. Returns (validator_rc, results, blocked_reason|None)."""
     rc, results, error = validate_all(deps, videos_dir)
@@ -419,13 +460,25 @@ def sync_and_push(args, deps, state, staged_dirs, videos_dir):
             conflicts = [p for p in deps.git(
                 "diff", "--name-only", "--diff-filter=U", "-z").stdout.split("\0") if p]
             deps.git("rebase", "--abort")
-            add(state, "failures",
-                f"rebase conflict on branch {branch}: {conflicts or rebased.stderr.strip()}; "
-                "aborted, nothing pushed. A human must reconcile the local push and rerun.")
+            if conflicts:
+                add(state, "failures",
+                    f"rebase conflict on branch {branch} in {conflicts}; aborted, nothing pushed. "
+                    "A human must reconcile the local push and rerun.")
+            else:
+                add(state, "failures",
+                    f"rebase onto {remote}/{branch} failed (not a merge conflict): "
+                    f"{rebased.stderr.strip()[-300:]}; aborted, nothing pushed. Fix the runner "
+                    "checkout and rerun.")
             return False, True, None
         rc, results, blocked = gates(deps, videos_dir)
         if blocked:
             return False, True, f"{blocked} after rebase; not pushing"
+        dupes = duplicate_ids(deps, videos_dir, {i["video_id"] for i in state["items"]})
+        if dupes:
+            add(state, "failures",
+                f"after rebase these video IDs exist in more than one directory, not pushing: "
+                f"{dupes}. A human must reconcile and rerun.")
+            return False, True, None
         bad = [d for d in staged_dirs if results.get(d, {}).get("invalid", True)]
         if bad:
             add(state, "failures",
@@ -465,6 +518,15 @@ def phase_finalize(args, deps, state):
 
     failures = state["failures"]
     paths = build_allowlist(deps, state, results, failures)
+    generated = []
+    if rc == 0:  # generated files are published only after a clean validation gate
+        found = generated_paths(deps) if deps.generate(videos_dir) else None
+        if found is None:
+            add(state, "failures", "index/consolidation generation failed; generated files not committed")
+        else:
+            generated = found
+    report["generated"] = generated
+    paths = sorted(set(paths) | set(generated))
     report["allowlist"] = paths
     bad = protected_changes(deps, videos_rel)
     if bad:
@@ -551,7 +613,14 @@ def main(argv=None, deps=None):
             rc = 1
         save_state(args.report, state)
     if "finalize" in phases:
-        rc = phase_finalize(args, deps, state)
+        try:
+            rc = phase_finalize(args, deps, state)
+        except Exception as exc:  # fail closed with a saved report, never a bare traceback
+            add(state, "fatal", f"unexpected {type(exc).__name__} in finalize phase: {exc}")
+            state.setdefault("report", {})["status"] = \
+                "blocked: unexpected finalize error; nothing pushed"
+            state["report"]["pushed"] = False
+            rc = 2
         save_state(args.report, state)
         print_report(state, rc)
     return rc
