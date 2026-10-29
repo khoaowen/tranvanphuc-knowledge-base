@@ -101,6 +101,6 @@ The automated pipeline (detection, transcript fetch, summarization, repo organiz
 ## Tracking reconciliation — 2026-10-26
 
 - Decision: The explicitly authorized q7uDJG8YQ5c correction (commit `cce328c0e75693fae8c82fd6fca5112594477929`, local only) is recorded; see the epic-summary-source-audit Notes. Fresh review 222/222 pass with complete coverage, validator exit 0, `publishable` true, 205 tests pass. Nothing pushed, merged or published. The R1–R6 text, the audit spec and all audit evidence are unchanged; earlier "blocked" statements are historical. V-Qfwjo28Zg stays blocked and unapproved.
-- Open: human acceptance is still needed for ticket 2.1 (audit of q7uDJG8YQ5c) and ticket 1.11 (criterion 13: the owner's live `workflow_dispatch` run on the real channel and committed file list). Both stay in review.
+- Open: human acceptance is still needed for ticket 2.1 (audit of q7uDJG8YQ5c). Ticket 1.11 was accepted 2026-10-29 through the owner-approved local recovery flow instead of a live GitHub `workflow_dispatch`; see the story's acceptance note. This does not claim a live Actions run.
 - Decision: The next implementation ticket is 2.2 (audit of V-Qfwjo28Zg, read-only, ready-for-dev). Ticket 1.4 is ready per `tickets.py next` but is gated in substance on 1.11's acceptance.
-- Decision: 2026-10-26, owner accepted ticket 2.1 as done. Ticket 1.11 acceptance remains open.
+- Decision: 2026-10-26, owner accepted ticket 2.1 as done. On 2026-10-29, owner accepted ticket 1.11 against the agreed local-flow alternative; the live Actions run criterion was explicitly waived for this acceptance.
