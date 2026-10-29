@@ -18,6 +18,10 @@ a JSON report in `$RUNNER_TEMP` (state is read from the report, never from log t
    fetches and rebases onto the branch head, re-runs validation and tests on the
    combined tree, then pushes without force.
 
+## Generated index and GPT files
+
+After validation passes (validator exit 0) and the unit tests pass, finalize runs `scripts/generate_index.py` (the README block between `<!-- index:start -->` and `<!-- index:end -->`, and `topics/<tag>.md`) and `scripts/consolidate.py` (`knowledge-gpt/*.md`, at most 20 files of at most 2,000,000 bytes each, whole summaries packed oldest first). Both read only videos the validator reports `published`, so unvalidated, stale or unreviewed summaries never appear. Changed generated files join the same allowlist-gated commit; `topics/vocabulary.md` is human-owned and never staged. A validator failure (exit 1) commits no generated files. A generator failure (including cap overflow, which writes nothing) makes the run red but does not block the video commit. Run both by hand with `python3 scripts/generate_index.py && python3 scripts/consolidate.py`; reruns on unchanged inputs change nothing. Only files carrying a "generated, do not edit" marker are ever removed.
+
 Exit status of finalize: `0` clean; `1` red but safe progress may be pushed (invalid
 summary elsewhere, fetch/generation failure, rebase conflict or other rebase failure,
 duplicate video ID after rebase, rejected push); `2` write path blocked, nothing

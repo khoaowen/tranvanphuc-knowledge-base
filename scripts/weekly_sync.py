@@ -35,8 +35,10 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import consolidate  # noqa: E402
 import detect_new_videos  # noqa: E402
 import fetch_transcript  # noqa: E402
+import generate_index  # noqa: E402
 import queue_state  # noqa: E402
 import summarize  # noqa: E402
 import validate_summaries  # noqa: E402
@@ -81,6 +83,7 @@ class Deps:
         self.validate = validate_summaries.validate_video
         self.mark_stale = self._mark_stale
         self.run_tests = lambda: default_run_tests(self.repo)
+        self.generate = self._generate
         self.hook = lambda stage: None  # "before_sync" / "before_push"
         self.log = lambda message: print(message, file=sys.stderr, flush=True)
 
@@ -88,6 +91,12 @@ class Deps:
         return validate_summaries.main(
             ["--videos-dir", str(videos_dir), "--mark-stale", video_id]
         ) == 0
+
+    def _generate(self, videos_dir):
+        """Run both generators over published videos; True only when both succeed."""
+        argv = ["--root", str(self.repo), "--videos-dir", str(videos_dir),
+                "--vocabulary", str(vocabulary_path(self))]
+        return generate_index.main(argv) == 0 and consolidate.main(argv) == 0
 
     def git(self, *args):
         return subprocess.run(
@@ -358,6 +367,24 @@ def build_allowlist(deps, state, results, failures):
     return sorted(set(paths))
 
 
+GENERATED_ROOTS = ["README.md", "topics", "knowledge-gpt"]
+HUMAN_OWNED = {"topics/vocabulary.md"}
+
+
+def generated_paths(deps):
+    """Changed (incl. new/deleted) files under the generator outputs, minus human-owned ones."""
+    out = deps.git("status", "--porcelain", "-z", "--untracked-files=all", "--", *GENERATED_ROOTS)
+    if out.returncode != 0:
+        return None
+    parts, paths, i = out.stdout.split("\0"), [], 0
+    while i < len(parts) and parts[i]:
+        status, path = parts[i][:2], parts[i][3:]
+        i += 2 if "R" in status or "C" in status else 1
+        if path not in HUMAN_OWNED:
+            paths.append(path)
+    return sorted(paths)
+
+
 def protected_changes(deps, videos_rel):
     """Tracked transcript/raw files that differ from HEAD (must never change)."""
     out = deps.git("diff", "--name-status", "-z", "--no-renames", "HEAD", "--")
@@ -491,6 +518,15 @@ def phase_finalize(args, deps, state):
 
     failures = state["failures"]
     paths = build_allowlist(deps, state, results, failures)
+    generated = []
+    if rc == 0:  # generated files are published only after a clean validation gate
+        found = generated_paths(deps) if deps.generate(videos_dir) else None
+        if found is None:
+            add(state, "failures", "index/consolidation generation failed; generated files not committed")
+        else:
+            generated = found
+    report["generated"] = generated
+    paths = sorted(set(paths) | set(generated))
     report["allowlist"] = paths
     bad = protected_changes(deps, videos_rel)
     if bad:

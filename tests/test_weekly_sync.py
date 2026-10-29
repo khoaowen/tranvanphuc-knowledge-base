@@ -94,6 +94,8 @@ class Harness(unittest.TestCase):
         deps.summarize = self._summarize
         deps.make_client = lambda key, model: object()
         deps.run_tests = self._run_tests
+        self.real_generate = deps.generate
+        deps.generate = lambda videos_dir: True  # real generators: see GeneratedFilesTest
         deps.log = self.logs.append
         self.deps = deps
 
@@ -434,6 +436,65 @@ class ValidationAndStagingTest(Harness):
         self.assertEqual(self.remote_head(), self.local_head())
 
 
+class GeneratedFilesTest(Harness):
+    def setUp(self):
+        super().setUp()
+        self.deps.generate = self.real_generate
+
+    def test_generated_files_join_the_same_commit_after_validation_passes(self):
+        rc = self.run_sync()
+        self.assertEqual(rc, 0)
+        files = self.committed_files()
+        self.assertIn("README.md", files)
+        self.assertIn("knowledge-gpt/00-overview.md", files)
+        self.assertIn("knowledge-gpt/01-summaries.md", files)
+        self.assertTrue(any(f.startswith("topics/") and f != "topics/vocabulary.md" for f in files))
+        self.assertTrue(any(f.endswith("N1/metadata.json") or "video-moi" in f for f in files))
+        self.assertEqual(self.remote_head(), self.local_head())
+        self.assertEqual(sorted(self.state()["report"]["generated"]), sorted(
+            f for f in files if f == "README.md" or f.startswith(("topics/", "knowledge-gpt/"))))
+
+    def test_rerun_without_new_work_commits_nothing(self):
+        self.assertEqual(self.run_sync(), 0)
+        self.channel = ["N1"]
+        head = self.local_head()
+        self.assertEqual(self.run_sync(), 0)
+        self.assertEqual(self.local_head(), head)
+
+    def test_validation_failure_commits_no_generated_files(self):
+        broken = self.repo / "videos" / "2024-01-01-broken"
+        broken.mkdir()
+        (broken / "metadata.json").write_text(
+            json.dumps({"video_id": "broken1", "duration": DURATION}), encoding="utf-8")
+        (broken / "transcript.md").write_text(TRANSCRIPT, encoding="utf-8")
+        (broken / "summary.md").write_text("not a valid summary\n", encoding="utf-8")
+        sh(self.repo, "add", "-A")
+        sh(self.repo, "commit", "-q", "-m", "legacy invalid summary")
+        sh(self.repo, "push", "-q", "origin", "HEAD:main")
+        rc = self.run_sync()
+        self.assertEqual(rc, 1)
+        self.assertEqual(self.state()["report"]["generated"], [])
+        self.assertFalse(any(f == "README.md" or f.startswith(("topics/", "knowledge-gpt/"))
+                             for f in self.committed_files()))
+        self.assertTrue(self.committed_files())  # the video commit still happened
+
+    def test_generator_failure_is_red_but_does_not_block_the_video_commit(self):
+        self.deps.generate = lambda videos_dir: False
+        rc = self.run_sync()
+        self.assertEqual(rc, 1)
+        files = self.committed_files()
+        self.assertTrue(files)
+        self.assertFalse(any(f == "README.md" or f.startswith(("topics/", "knowledge-gpt/")) for f in files))
+        self.assertTrue(any("generation failed" in f for f in self.state()["failures"]))
+        self.assertEqual(self.remote_head(), self.local_head())
+
+    def test_human_owned_vocabulary_is_never_committed_by_the_run(self):
+        (self.repo / "topics").mkdir()
+        (self.repo / "topics" / "vocabulary.md").write_text("omega-3\nmỡ máu\n", encoding="utf-8")
+        self.assertEqual(self.run_sync(), 0)
+        self.assertNotIn("topics/vocabulary.md", self.committed_files())
+
+
 class GenerationFailureTest(Harness):
     def fetched_state(self):
         """Run prepare only, so a fetched video is on disk awaiting summarization."""
@@ -524,7 +585,7 @@ class GenerationFailureTest(Harness):
         _, item = self.regenerate("raise")
         self.assert_prior_kept_and_stale(prior, item)
         write_review(self.known_dir)  # re-running review cannot clear staleness
-        self.assertFalse(validate_summaries.validate_video(self.known_dir)["published"])
+        self.assertFalse(validate_summaries.validate_video(self.known_dir, self.repo / "topics" / "vocabulary.md")["published"])
 
     def test_changed_valid_replacement_escapes_the_marker_and_is_staged(self):
         prior = (self.known_dir / "summary.md").read_bytes()
@@ -538,8 +599,8 @@ class GenerationFailureTest(Harness):
         self.assertTrue(item["summary_candidate"])
         new = (self.known_dir / "summary.md").read_bytes()
         self.assertNotEqual(new, prior)
-        result = validate_summaries.validate_video(self.known_dir)
-        self.assertEqual((result["invalid"], result["published"]), (False, False))
+        result = validate_summaries.validate_video(self.known_dir, self.repo / "topics" / "vocabulary.md")
+        self.assertEqual((result["invalid"], result["published"]), (False, False), result)
 
     def test_failure_to_mark_or_restore_blocks_commit_and_push(self):
         head = self.remote_head()

@@ -3,7 +3,7 @@ name: Weekly sync
 # Single automation entry point for the whole pipeline (CAP-1-3): detect, select
 # the newest unseen video, queue the rest as metadata-only pending, fetch and
 # Gemini-summarize the selected one, validate every summary, run the unit tests,
-# then commit an explicit allowlist, rebase onto the branch head and push.
+# then regenerate README/topics/knowledge-gpt from published videos and commit an explicit allowlist, rebase onto the branch head and push.
 # Logic lives in scripts/weekly_sync.py (see docs/weekly-sync.md). Phases share a
 # JSON report in $RUNNER_TEMP; the report, never log text, carries state.
 
