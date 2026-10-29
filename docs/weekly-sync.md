@@ -49,6 +49,37 @@ After any recorded failure or finalized report, stop and inspect; do not delete 
 report or retry a known video to manufacture success. For a later independent week,
 use a new terminal without that old `WEEKLY_RUN` variable.
 
+### Recovering prepared artifacts after the report was lost
+
+If prepare succeeded but its evidence directory (with `report.json` and `before.sha`)
+was lost, the launcher refuses to start fresh against the untracked prepared files.
+Run **`./weekly-sync --recover`** (cannot be combined with `--resume`; an exported
+`WEEKLY_RUN` pointing at the lost report is ignored). Recovery is read-only until you
+confirm: it never fetches, re-detects the channel, calls Gemini, writes `videos/`, or
+stages/commits. `scripts/recover_weekly.py` refuses staged or modified tracked work,
+unrelated or ignored extra files (including macOS `.DS_Store`; delete those first),
+symlinks, malformed or non-canonical metadata, duplicate IDs (also against the tracked corpus), partial
+fetches, more or fewer than one fetched video, and any existing
+`summary.md`/`review.md`/`summary.stale`. It requires exactly one complete new fetch
+result (raw caption checksum, nonempty parsed captions, exact transcript re-render and
+transcript checksum, provenance bound to the metadata ID/URL/track) and every other
+new folder holding `metadata.json` only.
+
+It then shows the selected ID, the derived pending count and the replacement
+baseline, and asks before adopting. On approval it writes a new
+`~/.local/state/tranvanphuc-weekly/recover-*` directory: `report.json` with a
+`recovery` section (timestamp, current full HEAD and branch, per-file digests and
+inventory digest, selected/pending IDs, caveats) and `before.sha` holding the HEAD at
+recovery time. The launcher then continues with summarize (selected video only) and
+still asks before finalize commits and pushes; after an interruption use
+`./weekly-sync --resume <that directory>`.
+
+Recovery verifies the artifacts on disk; it does not recover the original run. The
+original logs, report, `before.sha` and channel listing order remain unavailable;
+`before.sha` is a labelled replacement baseline, the report's `unseen` list is left
+empty, and pending order is by directory name (published date, then slug), newest
+first. Record that distinction during owner acceptance.
+
 This is an interactive, manually started local run, not an unattended weekly
 schedule or evidence of GitHub Actions execution. Inspect the local evidence and
 record that distinction explicitly during owner acceptance.

@@ -38,6 +38,32 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
         self.detector.DEFAULT_CHANNEL_ID = 'channel'
         self.detector.get_channel_video_ids = lambda _: ['new', 'known', 'other']
         self.detector.get_known_video_ids = lambda _: {'known'}
+        self.untracked = ''
+        self.recovery_error = None
+        self.recovery_saves = []
+        self.recovery = types.ModuleType('recover_weekly')
+        self.recovery.CAVEATS = ['original report lost']
+        self.recovery.inspect_inventory = self.inspect_inventory
+        self.recovery.save_recovered_evidence = self.save_recovered_evidence
+
+    def inspect_inventory(self, root):
+        if self.recovery_error:
+            raise RuntimeError(self.recovery_error)
+        return {'head': 'b' * 40, 'branch': 'feature',
+                'selected': {'video_id': 'new', 'dir': 'videos/new'},
+                'pending': [{'video_id': 'other', 'dir': 'videos/other'}]}
+
+    def save_recovered_evidence(self, root, runs, inventory):
+        self.recovery_saves.append(inventory)
+        evidence = runs / 'recover-test'
+        evidence.mkdir(parents=True)
+        state = self.state()
+        state['items'].append({'dir': 'videos/other', 'kind': 'pending', 'video_id': 'other',
+                               'summary_candidate': False})
+        state['recovery'] = {'kind': 'local-artifact-recovery'}
+        (evidence / 'report.json').write_text(json.dumps(state))
+        (evidence / 'before.sha').write_text(inventory['head'] + '\n')
+        return evidence
 
     def state(self, summarized=False):
         return {'version': 1, 'selected': 'new', 'pending': ['other'],
@@ -64,7 +90,7 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
         if words[:2] == ['diff', '--name-only']:
             return self.dirty
         if words[:1] == ['ls-files']:
-            return ''
+            return self.untracked
         if words == ['rev-parse', 'HEAD']:
             return 'a' * 40
         raise AssertionError(command)
@@ -92,11 +118,13 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
             report.write_text(json.dumps(state))
         return subprocess.CompletedProcess(command, 0)
 
-    def invoke(self, resume=False, answers=('y', 'y'), resume_env=False):
-        argv = ['weekly-sync', '--resume', str(self.evidence)] if resume else ['weekly-sync']
+    def invoke(self, resume=False, answers=('y', 'y'), resume_env=False, argv=None):
+        if argv is None:
+            argv = ['weekly-sync', '--resume', str(resume if isinstance(resume, Path) else self.evidence)] \
+                if resume else ['weekly-sync']
         env = {'PATH': '/bin', 'GEMINI_API_KEY': 'inherited-secret'}
         if resume_env:
-            env['WEEKLY_RUN'] = str(self.evidence)
+            env['WEEKLY_RUN'] = str(resume_env if isinstance(resume_env, Path) else self.evidence)
         # Restore sys.path after the launcher's detector import as well.
         with patch.dict(os.environ, env, clear=True), \
              patch.object(sys, 'argv', argv), patch.object(sys, 'prefix', str(self.cache)), \
@@ -106,7 +134,8 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
              patch('subprocess.run', side_effect=self.execute), \
              patch('builtins.input', side_effect=answers), \
              patch('getpass.getpass', return_value='prompted-secret'), \
-             patch.dict(sys.modules, {'detect_new_videos': self.detector}):
+             patch.dict(sys.modules, {'detect_new_videos': self.detector,
+                                      'recover_weekly': self.recovery}):
             self.main()
 
     def phases(self):
@@ -196,6 +225,55 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
                     with self.assertRaisesRegex(RuntimeError, 'Invalid resume report'):
                         self.invoke(resume=not environment, resume_env=environment)
                     self.assertEqual(self.commands, [])
+
+    def recovered_evidence(self):
+        return self.home / '.local' / 'state' / 'tranvanphuc-weekly' / 'recover-test'
+
+    def test_recover_ignores_stale_weekly_run_skips_prepare_and_scopes_key(self):
+        self.untracked = 'videos/new/metadata.json\nvideos/new/transcript.md\nvideos/other/metadata.json\n'
+        self.detector.get_channel_video_ids = lambda _: self.fail('recovery must not detect')
+        self.invoke(argv=['weekly-sync', '--recover'], resume_env=self.evidence / 'lost-tmp')
+        self.assertEqual(self.phases(), ['summarize', 'finalize'])
+        self.assertEqual(len(self.recovery_saves), 1)
+        self.assertFalse(any(c[0] == 'git' for c, _ in self.commands))
+        for cmd, env in self.commands:
+            if 'summarize' in cmd:
+                self.assertEqual(env['GEMINI_API_KEY'], 'prompted-secret')
+            else:
+                self.assertNotIn('GEMINI_API_KEY', env)
+        report = json.loads((self.recovered_evidence() / 'report.json').read_text())
+        self.assertEqual(report['recovery']['kind'], 'local-artifact-recovery')
+        self.assertEqual(report['report']['status'], 'clean')
+
+    def test_declined_recovery_writes_no_evidence_and_runs_nothing(self):
+        with self.assertRaisesRegex(RuntimeError, 'Stopped by owner'):
+            self.invoke(argv=['weekly-sync', '--recover'], answers=('n',))
+        self.assertEqual(self.recovery_saves, [])
+        self.assertFalse(self.recovered_evidence().exists())
+        self.assertEqual(self.commands, [])
+
+    def test_rejected_recovery_inventory_runs_nothing(self):
+        self.recovery_error = 'transcript fails verification'
+        with self.assertRaisesRegex(RuntimeError, 'fails verification'):
+            self.invoke(argv=['weekly-sync', '--recover'])
+        self.assertEqual(self.recovery_saves, [])
+        self.assertEqual(self.commands, [])
+
+    def test_recover_and_resume_are_mutually_exclusive(self):
+        self.prepare_resume()
+        with patch('sys.stderr'), self.assertRaises(SystemExit):
+            self.invoke(argv=['weekly-sync', '--recover', '--resume', str(self.evidence)])
+        self.assertEqual(self.commands, [])
+
+    def test_recovered_finalize_needs_confirmation_and_later_resume_does_not_repeat(self):
+        self.untracked = 'videos/new/metadata.json\nvideos/other/metadata.json\n'
+        with self.assertRaisesRegex(RuntimeError, 'Stopped by owner'):
+            self.invoke(argv=['weekly-sync', '--recover'], answers=('y', 'n'))
+        self.assertEqual(self.phases(), ['summarize'])
+        self.commands.clear()
+        self.invoke(resume=self.recovered_evidence(), answers=('y',))
+        self.assertEqual(self.phases(), ['finalize'])
+        self.assertEqual(len(self.recovery_saves), 1)
 
     def test_missing_recorded_summary_stops_without_regeneration(self):
         self.prepare_resume(summarized=True)

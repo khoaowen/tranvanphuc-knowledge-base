@@ -16,7 +16,10 @@ ROOT = Path(__file__).resolve().parent
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--resume', type=Path, help='existing evidence directory (skip prepare)')
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--resume', type=Path, help='existing evidence directory (skip prepare)')
+    mode.add_argument('--recover', action='store_true',
+                      help='adopt verified untracked prepared artifacts whose report was lost (no fetch)')
     args = parser.parse_args()
     os.chdir(ROOT)
     os.environ.pop('GEMINI_API_KEY', None)  # Only the summarizer receives a prompted key.
@@ -39,7 +42,21 @@ def main():
     branch = git('branch', '--show-current')
     if not branch or branch in ('main', 'master'):
         raise RuntimeError('Use the feature branch, not main/master or detached HEAD.')
-    resume = args.resume or (Path(os.environ['WEEKLY_RUN']) if os.environ.get('WEEKLY_RUN') else None)
+    runs = Path.home() / '.local' / 'state' / 'tranvanphuc-weekly'
+    if args.recover:  # Any WEEKLY_RUN pointing at the lost report is deliberately ignored.
+        sys.path.insert(0, str(ROOT / 'scripts'))
+        import recover_weekly
+        inventory = recover_weekly.inspect_inventory(ROOT)
+        print(f'Recovery (no fetch, no Gemini): selected {inventory["selected"]["video_id"]} '
+              f'({inventory["selected"]["dir"]}); metadata-only pending: {len(inventory["pending"])}\n'
+              f'Replacement baseline: HEAD {inventory["head"]} on {inventory["branch"]}')
+        for caveat in recover_weekly.CAVEATS:
+            print(f'Caveat: {caveat}')
+        confirm('Adopt these verified artifacts as the prepared run and continue?')
+        resume = recover_weekly.save_recovered_evidence(ROOT, runs, inventory)
+        print(f'Recovered evidence saved: {resume} (later: ./weekly-sync --resume {resume})', flush=True)
+    else:
+        resume = args.resume or (Path(os.environ['WEEKLY_RUN']) if os.environ.get('WEEKLY_RUN') else None)
     if resume and not (resume / 'report.json').is_file():
         raise RuntimeError('Resume directory has no report.json; refusing to prepare again.')
     state = json.loads((resume / 'report.json').read_text()) if resume is not None else None
@@ -53,7 +70,6 @@ def main():
     allowed = [item['dir'] + '/' for item in state['items']] if resume is not None else []
     if any(not any(path.startswith(prefix) for prefix in allowed) for path in changed):
         raise RuntimeError('Unrelated dirty work exists. Use a clean checkout or the correct resume report.')
-    runs = Path.home() / '.local' / 'state' / 'tranvanphuc-weekly'
     runs.mkdir(parents=True, exist_ok=True)
     evidence = resume if resume is not None else Path(tempfile.mkdtemp(prefix='run-', dir=runs))
     evidence = evidence.resolve()
