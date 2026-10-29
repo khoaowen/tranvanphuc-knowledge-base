@@ -3,7 +3,7 @@ title: 'Repo organization and consolidation'
 type: 'feature'
 ticket: '4'
 created: '2026-10-29'
-status: 'built'
+status: done
 baseline_revision: 'c8aad7566bea8f9c1d208122c8c36246daed974d'
 route: 'full'
 route_source: 'auto'
