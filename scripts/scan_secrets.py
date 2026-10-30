@@ -63,6 +63,16 @@ SCAN_TIMEOUT = 900
 TIMEOUT_SLACK = 60
 LEAK_EXIT = 42                         # distinct from gitleaks' generic error exit (1)
 INERT_NAMES = {".gitleaks.toml", ".gitleaksignore"}
+# Reviewed, content-bound exception: three historical blobs of tests/test_weekly_sync.py hold a
+# synthetic, non-working placeholder key (AIza-prefixed, malformed) on one line. Only these exact
+# blob ids qualify, only in history mode, and only that line is dropped; every other byte of the
+# blob is still scanned. Not a rule change, path exclusion or baseline. See docs/security.md.
+SYNTHETIC_PLACEHOLDER_MARKER = b"weekly-sentinel-key-987"
+SYNTHETIC_PLACEHOLDER_BLOBS = frozenset({
+    "b8d935717c4cadf0fcf651f792a3681a58be03e3",
+    "ced8d4f44cdbd3cecb4f1b192767252b8a09bf9a",
+    "840dd934aa1d4512eb3c519dee8557762b2e46d8",
+})
 EXIT_OK, EXIT_FINDINGS, EXIT_BLOCKED = 0, 3, 4
 
 
@@ -470,6 +480,9 @@ def scan_history(repo, commit, binary=None):
         blobs = [sha for sha, line in zip(order, kinds) if line.split()[1] == "blob"]
         corpus.add_paths([first_path[x] for x in blobs if first_path[x]])
         for sha, data in read_blobs(repo, blobs):
+            if sha in SYNTHETIC_PLACEHOLDER_BLOBS:
+                data = b"\n".join(l for l in data.split(b"\n") if SYNTHETIC_PLACEHOLDER_MARKER not in l)
+                corpus.notes.add("known synthetic placeholder line in 3 pinned historical blobs excluded")
             corpus.add(first_path[sha] or "<blob>", data)
     return _scan_corpus(binary, fill, "history", commit)
 

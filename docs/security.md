@@ -18,6 +18,12 @@ or upload anything the pinned scanner flags — or anything it cannot examine.
   noted in the result. There are no path exclusions: tests, generated content, raw
   captions and gzip'd captions (decompressed, bounded) are scanned.
 
+**One reviewed exception:** three historical blobs of `tests/test_weekly_sync.py` (pinned by
+exact git blob id in `SYNTHETIC_PLACEHOLDER_BLOBS`) contained a synthetic, non-working
+placeholder key. In history mode only, that one line is dropped from those blobs; the rest of
+each blob is still scanned and any other finding still blocks. It is not a baseline, path
+exclusion or rule change, and it matches no new content.
+
 ## Bootstrap and supported platforms
 
 macOS arm64/x64 and Linux x64/arm64. The release archive is downloaded over HTTPS into

@@ -223,6 +223,22 @@ class RealScannerTest(unittest.TestCase):
             git(repo, "commit", "-q", "-m", "x")
             self.assertEqual(scan_secrets.scan_commit(repo, "HEAD").status, "findings", name)
 
+    def test_pinned_placeholder_exception_is_exact_and_still_scans_the_rest(self):
+        marker = scan_secrets.SYNTHETIC_PLACEHOLDER_MARKER.decode()
+        line = f'SECRET = "{"".join(["AIza", "Sy-"])}{marker}"\n'
+        # an unpinned blob with the placeholder is still a finding
+        head = write_commit(self.repo, {"t.py": line})
+        self.assertEqual(scan_secrets.scan_commit(self.repo, head).status, "findings")
+        # pinned blob: placeholder dropped, but a real-shaped token on another line still blocks
+        blob_id = git(self.repo, "rev-parse", "HEAD:t.py")
+        with mock.patch.object(scan_secrets, "SYNTHETIC_PLACEHOLDER_BLOBS", frozenset({blob_id})):
+            self.assertTrue(scan_secrets.scan_history(self.repo, head).ok)
+        other = write_commit(self.repo, {"t.py": line + f"x = '{self.token}'\n"}, "more")
+        other_blob = git(self.repo, "rev-parse", "HEAD:t.py")
+        with mock.patch.object(scan_secrets, "SYNTHETIC_PLACEHOLDER_BLOBS", frozenset({other_blob})):
+            self.assertEqual(scan_secrets.scan_history(self.repo, other).status, "findings")
+        self.assertEqual(len(scan_secrets.SYNTHETIC_PLACEHOLDER_BLOBS), 3)
+
     def test_export_ignore_attributes_cannot_hide_files(self):
         self.stage({".gitattributes": "* export-ignore\n", "a.md": f"{self.token}\n"})
         self.assertEqual(scan_secrets.scan_index(self.repo).status, "findings")
