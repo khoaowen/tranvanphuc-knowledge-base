@@ -88,6 +88,14 @@ This is an interactive, manually started local run, not an unattended weekly
 schedule or evidence of GitHub Actions execution. Inspect the local evidence and
 record that distinction explicitly during owner acceptance.
 
+## Secret-leak gate
+
+`./weekly-sync` first verifies the pinned scanner and scans the repository (history +
+tracked snapshot); `finalize` scans the exact staged index before committing and the exact
+commit's history and tree before every push. Any finding or inability to scan stops with
+exit 2 and nothing is committed, pushed or uploaded; reports hold only sanitized outcomes.
+Supported platforms, recovery and incident steps: [docs/security.md](security.md).
+
 ## Owner live-run inspection checklist
 
 Dispatch **Weekly sync** on the real channel, then check:

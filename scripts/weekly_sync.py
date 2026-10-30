@@ -11,14 +11,17 @@ Three phases share one JSON report/state file (never parsed from human text):
              A failed or invalid generation restores the prior summary
              byte-for-byte and marks it stale (validate_summaries --mark-stale).
   finalize   validate every summary through the per-video API, run the unit
-             tests, stage an explicit allowlist, commit, fetch+rebase onto the
-             remote head, re-gate the combined tree, and push (never forced).
+             tests, stage an explicit allowlist, scan the exact index for secrets
+             (scripts/scan_secrets.py), commit that scanned tree, fetch+rebase onto
+             the remote head, re-gate the combined tree, scan the final commit's
+             reachable history and tree, and push that commit ID (never forced).
 
 `all` runs the three phases in order. Exit codes of finalize: 0 clean; 1 safe
 progress may exist but the run is red (validator exit 1, generation/fetch
 failure, push rejected, rebase failure, duplicate video ID after rebase); 2 write
 path blocked, nothing was pushed (transcript changed, unexpected validator or
-finalize error, unit tests failing, restore/mark failure, missing state). A
+finalize error, unit tests failing, secret-scan finding or scanner failure,
+restore/mark failure, missing state). A
 blocked run that already committed locally (post-rebase gate failure) leaves
 that commit unpushed in the runner's checkout only.
 
@@ -40,6 +43,7 @@ import detect_new_videos  # noqa: E402
 import fetch_transcript  # noqa: E402
 import generate_index  # noqa: E402
 import queue_state  # noqa: E402
+import scan_secrets  # noqa: E402
 import summarize  # noqa: E402
 import validate_summaries  # noqa: E402
 
@@ -84,6 +88,8 @@ class Deps:
         self.mark_stale = self._mark_stale
         self.run_tests = lambda: default_run_tests(self.repo)
         self.generate = self._generate
+        self.scan_index = lambda: scan_secrets.scan_index(self.repo)
+        self.scan_commit = lambda commit: scan_secrets.scan_commit(self.repo, commit)
         self.hook = lambda stage: None  # "before_sync" / "before_push"
         self.log = lambda message: print(message, file=sys.stderr, flush=True)
 
@@ -400,8 +406,25 @@ def protected_changes(deps, videos_rel):
     return bad
 
 
-def commit_allowlist(deps, paths, selected):
-    """Stage exactly `paths`; return (committed, error)."""
+def run_scan(scan, *args):
+    """Never raises: any scanner failure becomes a blocking, sanitized result."""
+    try:
+        result = scan(*args)
+        if not hasattr(result, "ok"):
+            raise TypeError("invalid scan result")
+        return result
+    except Exception:
+        return scan_secrets.Result("scan", "error", detail="scanner failed unexpectedly")
+
+
+def record_scan(state, name, result):
+    scans = state.setdefault("report", {}).setdefault("secret_scan", {})
+    scans[name] = {"status": result.status, "mode": result.mode, "target": result.target,
+                   "findings": result.findings, "detail": result.detail, "notes": result.notes}
+
+
+def commit_allowlist(deps, paths, selected, state=None):
+    """Stage exactly `paths`, scan the exact index, commit that tree; return (committed, error)."""
     if deps.git("add", "--", *paths).returncode != 0:
         return False, "git add failed"
     staged = deps.git("diff", "--cached", "--name-only", "-z")
@@ -411,11 +434,26 @@ def commit_allowlist(deps, paths, selected):
         return False, f"unexpected staged paths outside the allowlist: {sorted(extra)}"
     if not names:
         return False, None
-    result = deps.git("-c", f"user.name={COMMIT_NAME}", "-c", f"user.email={COMMIT_EMAIL}",
-                      "commit", "-m", "Weekly sync: update video knowledge base",
-                      "-m", "Automated by scripts/weekly_sync.py: " + ", ".join(sorted(names)))
-    if result.returncode != 0:
-        return False, f"git commit failed: {result.stderr.strip()}"
+    scan = run_scan(deps.scan_index)
+    if state is not None:
+        record_scan(state, "index", scan)
+    if not scan.ok:
+        return False, f"{scan.summary()}; nothing committed or pushed"
+    tree = deps.git("write-tree")
+    parent = deps.git("rev-parse", "--verify", "HEAD")
+    if tree.returncode != 0 or parent.returncode != 0 or tree.stdout.strip() != scan.target:
+        return False, "index changed after the secret scan; nothing committed"
+    parent_id = parent.stdout.strip()
+    made = deps.git("-c", f"user.name={COMMIT_NAME}", "-c", f"user.email={COMMIT_EMAIL}",
+                    "commit-tree", scan.target, "-p", parent_id,
+                    "-m", "Weekly sync: update video knowledge base",
+                    "-m", "Automated by scripts/weekly_sync.py: " + ", ".join(sorted(names)))
+    if made.returncode != 0 or not made.stdout.strip():
+        return False, f"git commit failed: {made.stderr.strip()}"
+    moved = deps.git("update-ref", "-m", "Weekly sync: update video knowledge base",
+                     "HEAD", made.stdout.strip(), parent_id)
+    if moved.returncode != 0:
+        return False, f"git commit failed: {moved.stderr.strip()}"
     return True, None
 
 
@@ -487,7 +525,15 @@ def sync_and_push(args, deps, state, staged_dirs, videos_dir):
         if rc == 1:
             add(state, "failures", "validation exit 1 on the rebased tree (pre-existing invalid summary)")
     deps.hook("before_push")
-    pushed = deps.git("push", remote, f"HEAD:refs/heads/{branch}")
+    head = deps.git("rev-parse", "--verify", "HEAD^{commit}")
+    if head.returncode != 0 or not head.stdout.strip():
+        return False, False, "cannot resolve the commit to push; not pushing"
+    commit = head.stdout.strip()
+    scan = run_scan(deps.scan_commit, commit)  # history + snapshot of the exact commit to push
+    record_scan(state, "push", scan)
+    if not scan.ok:
+        return False, False, f"{scan.summary()}; not pushing"
+    pushed = deps.git("push", remote, f"{commit}:refs/heads/{branch}")
     if pushed.returncode != 0:
         add(state, "failures",
             f"push to {remote}/{branch} rejected (no force, no retry); rerun from the latest "
@@ -533,9 +579,10 @@ def phase_finalize(args, deps, state):
         report["status"] = f"blocked: existing transcript/raw artifacts changed: {bad}"
         return 2
 
-    committed, error = commit_allowlist(deps, paths, state.get("selected")) if paths else (False, None)
+    committed, error = commit_allowlist(deps, paths, state.get("selected"), state) if paths else (False, None)
     if error:
         report["status"] = f"blocked: {error}"
+        report["pushed"] = False
         deps.git("reset", "-q")
         return 2
     red = bool(failures) or rc == 1

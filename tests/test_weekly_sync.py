@@ -20,12 +20,14 @@ sys.path.insert(0, str(REPO_ROOT / "tests"))
 import fetch_transcript  # noqa: E402
 import summarize  # noqa: E402
 import validate_summaries  # noqa: E402
+import scan_secrets  # noqa: E402
 import weekly_sync  # noqa: E402
+import test_scan_secrets  # noqa: E402
 from test_validate_summaries import (  # noqa: E402
     DURATION, TRANSCRIPT, VID, summary_text, write_review,
 )
 
-SECRET = "AIzaSy-weekly-sentinel-key-987"
+SECRET = "".join(["AIza", "Sy-weekly-", "sentinel-", "key-987"])  # built at runtime: no literal token in source
 KNOWN = VID  # the fixture's already-committed video
 TITLES = {"N1": "Video mới nhất", "N2": "Video cũ hơn", "N3": "Video cũ nhất", "N4": "Video thứ tư"}
 DATES = {"N1": "20260105", "N2": "20251201", "N3": "20251101", "N4": "20251001"}
@@ -97,6 +99,11 @@ class Harness(unittest.TestCase):
         self.real_generate = deps.generate
         deps.generate = lambda videos_dir: True  # real generators: see GeneratedFilesTest
         deps.log = self.logs.append
+        # Offline default: a clean fake scanner that records its calls. SecretGateTest swaps in
+        # the real pinned scanner and failing fakes.
+        self.scans = {"index": 0, "commit": []}
+        deps.scan_index = self._scan_index
+        deps.scan_commit = self._scan_commit
         self.deps = deps
 
     # --- fakes ---
@@ -137,6 +144,14 @@ class Harness(unittest.TestCase):
         if mode == "reviewed":
             write_review(video_dir)
         return video_dir / "summary.md"
+
+    def _scan_index(self):
+        self.scans["index"] += 1
+        return scan_secrets.Result("index", "clean", sh(self.repo, "write-tree").strip())
+
+    def _scan_commit(self, commit):
+        self.scans["commit"].append(commit)
+        return scan_secrets.Result("commit", "clean", commit)
 
     def _run_tests(self):
         self.calls["tests"] += 1
@@ -667,7 +682,7 @@ class SecretsTest(Harness):
         self.assertRegex(text, r"cancel-in-progress:\s*false")
         self.assertRegex(text, r"contents:\s*write")
         self.assertIn("fetch-depth: 0", text)
-        self.assertEqual(len(list((REPO_ROOT / ".github/workflows").glob("*.yml"))), 2)
+        self.assertEqual(len(list((REPO_ROOT / ".github/workflows").glob("*.yml"))), 3)
 
 
 class PushRaceTest(Harness):
@@ -811,6 +826,239 @@ class ReviewPatchTest(Harness):
         n1 = self.vdir("N1").relative_to(self.repo).as_posix()
         self.assertFalse(any(f.startswith(n1 + "/") for f in self.remote_files()))
         self.assertFalse((self.repo / ".git" / "rebase-merge").exists())
+
+
+class SecretGateTest(Harness):
+    """Matrix rows for the secret-leak gate: commit/push/report behavior, never the token."""
+
+    def setUp(self):
+        super().setUp()
+        self.token = test_scan_secrets.fake_token("github", 11)
+        self.pushes = []
+        original = self.deps.git
+
+        def spying_git(*args):
+            if args and args[0] == "push":
+                self.pushes.append(args)
+            return original(*args)
+
+        self.deps.git = spying_git
+
+    def use_real_scanner(self):
+        if not test_scan_secrets.REAL:
+            self.skipTest("pinned scanner not bootstrapped in the local cache")
+        self.deps.scan_index = lambda: scan_secrets.scan_index(self.repo)
+        self.deps.scan_commit = lambda commit: scan_secrets.scan_commit(self.repo, commit)
+
+    def everything_visible(self):
+        parts = [self.stdout, *self.logs]
+        if self.report.exists():
+            parts.append(self.report.read_text(encoding="utf-8"))
+        return "\n".join(parts)
+
+    def test_clean_candidate_commits_pushes_and_records_the_scans(self):
+        rc = self.run_sync()
+        self.assertEqual(rc, 0)
+        self.assertEqual(self.remote_head(), self.local_head())
+        scans = self.state()["report"]["secret_scan"]
+        self.assertEqual(scans["index"]["status"], "clean")
+        self.assertEqual(scans["push"]["status"], "clean")
+        self.assertEqual(self.scans["commit"], [self.local_head()])
+        self.assertEqual(self.pushes[0][-1], f"{self.local_head()}:refs/heads/main")
+
+    def test_clean_candidate_with_the_real_scanner(self):
+        self.use_real_scanner()
+        self.assertEqual(self.run_sync(), 0)
+        self.assertEqual(self.remote_head(), self.local_head())
+
+    def test_token_in_each_candidate_surface_blocks_commit_and_push(self):
+        self.use_real_scanner()
+        head = self.remote_head()
+
+        def leaky_summary(video_dir, client, **kwargs):
+            path = self._summarize(video_dir, client, **kwargs)
+            Path(path).write_text(Path(path).read_text(encoding="utf-8") + f"\nnote {self.token}\n",
+                                  encoding="utf-8")
+            return path
+
+        cases = {}
+        cases["summary"] = lambda: setattr(self.deps, "summarize", leaky_summary)
+
+        def raw_leak():
+            fetch = self._fetch_one
+
+            def leaky(video_id, videos_dir):
+                video_dir = fetch(video_id, videos_dir)
+                fetch_transcript.write_raw_captions(
+                    video_dir, video_id, "vi", json.dumps({"events": [self.token]}).encode(),
+                    "2026-01-01T00:00:00Z", "test")
+                return video_dir
+            self.deps.fetch_one = leaky
+        cases["raw"] = raw_leak
+
+        def meta_leak():
+            fetch = self._fetch_one
+
+            def leaky(video_id, videos_dir):
+                video_dir = fetch(video_id, videos_dir)
+                data = json.loads((video_dir / "metadata.json").read_text(encoding="utf-8"))
+                data["note"] = self.token
+                (video_dir / "metadata.json").write_text(json.dumps(data), encoding="utf-8")
+                return video_dir
+            self.deps.fetch_one = leaky
+        cases["metadata"] = meta_leak
+
+        def generated_leak():
+            def generate(videos_dir):
+                (self.repo / "knowledge-gpt").mkdir(exist_ok=True)
+                (self.repo / "knowledge-gpt" / "g.md").write_text(f"{self.token}\n", encoding="utf-8")
+                (self.repo / "README.md").write_text(f"fixture {self.token}\n", encoding="utf-8")
+                return True
+            self.deps.generate = generate
+        cases["generated"] = generated_leak
+
+        for name, arm in cases.items():
+            with self.subTest(surface=name):
+                self.setUp()
+                self.pushes = []
+                self.use_real_scanner()
+                head = self.remote_head()
+                arm()
+                self.assertEqual(self.run_sync(), 2)
+                self.assertEqual(self.local_head(), head)
+                self.assertEqual(self.remote_head(), head)
+                self.assertEqual(self.pushes, [])
+                visible = self.everything_visible()
+                self.assertNotIn(self.token, visible)
+                self.assertNotIn(self.token[:12], visible)
+                self.assertIn("github-pat", visible)
+                self.assertIn("secret scan found", self.state()["report"]["status"])
+                self.assertFalse(self.state()["report"]["pushed"])
+                self.assertEqual(sh(self.repo, "diff", "--cached", "--name-only").strip(), "")
+
+    def test_secret_in_outgoing_intermediate_commit_but_absent_at_head_blocks_push(self):
+        self.use_real_scanner()
+        remote = self.remote_head()
+        (self.repo / "notes").mkdir()
+        (self.repo / "notes" / "n.md").write_text(f"{self.token}\n", encoding="utf-8")
+        sh(self.repo, "add", "-A")
+        sh(self.repo, "commit", "-q", "-m", "oops")
+        sh(self.repo, "rm", "-q", "notes/n.md")
+        sh(self.repo, "commit", "-q", "-m", "fix")
+        rc = self.run_sync()
+        self.assertEqual(rc, 2)
+        self.assertEqual(self.remote_head(), remote)
+        self.assertEqual(self.pushes, [])
+        self.assertNotIn(self.token, self.everything_visible())
+        self.assertTrue(any("secret scan found" in f for f in self.state()["failures"]))
+
+    def test_secret_introduced_by_the_rebase_blocks_the_push(self):
+        self.use_real_scanner()
+        before = self.remote_head()
+        self.deps.hook = lambda stage: (
+            self.other_push({"notes/remote.md": f"{self.token}\n"}) if stage == "before_sync" else None)
+        rc = self.run_sync()
+        self.assertEqual(rc, 2)
+        self.assertEqual(self.pushes, [])
+        self.assertNotEqual(self.remote_head(), "")
+        self.assertEqual(sh(self.remote, "rev-list", "--count", "main").strip(), "2")  # only the other push
+        self.assertNotIn(self.token, self.everything_visible())
+        self.assertNotEqual(before, self.local_head())
+
+    def test_secret_added_by_a_before_push_hook_is_scanned_and_blocks(self):
+        self.use_real_scanner()
+        remote = self.remote_head()
+
+        def hook(stage):
+            if stage == "before_push":
+                (self.repo / "late.md").write_text(f"{self.token}\n", encoding="utf-8")
+                sh(self.repo, "add", "late.md")
+                sh(self.repo, "commit", "-q", "-m", "late")
+
+        self.deps.hook = hook
+        rc = self.run_sync()
+        self.assertEqual(rc, 2)
+        self.assertEqual(self.remote_head(), remote)
+        self.assertEqual(self.pushes, [])
+        self.assertNotIn(self.token, self.everything_visible())
+
+    def test_push_targets_the_scanned_commit_even_if_head_moves_afterwards(self):
+        scanned = []
+
+        def scan_then_move(commit):
+            scanned.append(commit)
+            (self.repo / "after.md").write_text("later\n", encoding="utf-8")
+            sh(self.repo, "add", "after.md")
+            sh(self.repo, "commit", "-q", "-m", "after the scan")
+            return scan_secrets.Result("commit", "clean", commit)
+
+        self.deps.scan_commit = scan_then_move
+        self.assertEqual(self.run_sync(), 0)
+        self.assertEqual(self.remote_head(), scanned[0])
+        self.assertNotEqual(self.local_head(), scanned[0])
+        self.assertEqual(self.pushes[0][-1], f"{scanned[0]}:refs/heads/main")
+
+    def test_index_changed_after_the_scan_blocks_the_commit(self):
+        head = self.remote_head()
+
+        def scan_then_stage_extra():
+            result = self._scan_index()
+            (self.repo / "sneaky.md").write_text("x\n", encoding="utf-8")
+            sh(self.repo, "add", "sneaky.md")
+            return result
+
+        self.deps.scan_index = scan_then_stage_extra
+        self.assertEqual(self.run_sync(), 2)
+        self.assertEqual(self.local_head(), head)
+        self.assertEqual(self.pushes, [])
+        self.assertIn("index changed", self.state()["report"]["status"])
+
+    def test_scanner_failures_fail_closed_with_sanitized_diagnostics(self):
+        head = self.remote_head()
+        broken = {
+            "index error": ("scan_index", lambda: scan_secrets.Result("index", "error", detail="scanner exit 2")),
+            "index raises": ("scan_index", lambda: (_ for _ in ()).throw(RuntimeError(self.token))),
+            "index garbage": ("scan_index", lambda: None),
+            "push error": ("scan_commit", lambda c: scan_secrets.Result("commit", "error", c, detail="scanner timed out")),
+            "push raises": ("scan_commit", lambda c: (_ for _ in ()).throw(OSError(self.token))),
+        }
+        for label, (seam, fake) in broken.items():
+            with self.subTest(label):
+                self.setUp()
+                head = self.remote_head()
+                setattr(self.deps, seam, fake)
+                self.assertEqual(self.run_sync(), 2)
+                self.assertEqual(self.remote_head(), head)
+                self.assertEqual(self.pushes, [])
+                self.assertNotIn(self.token, self.everything_visible())
+                self.assertNotIn("Traceback", self.everything_visible())
+                if seam == "scan_index":
+                    self.assertEqual(self.local_head(), head)
+                self.assertFalse(self.state()["report"]["pushed"])
+
+    def test_missing_scanner_binary_blocks_publication(self):
+        head = self.remote_head()
+        with mock.patch.object(scan_secrets, "ensure_scanner",
+                               side_effect=scan_secrets.ScanError("scanner download failed; publication blocked")):
+            self.deps.scan_index = lambda: scan_secrets.scan_index(self.repo)
+            self.deps.scan_commit = lambda c: scan_secrets.scan_commit(self.repo, c)
+            self.assertEqual(self.run_sync(), 2)
+        self.assertEqual(self.remote_head(), head)
+        self.assertEqual(self.local_head(), head)
+        self.assertEqual(self.pushes, [])
+        self.assertIn("could not certify", self.state()["report"]["status"])
+
+    def test_findings_are_not_deleted_locally(self):
+        self.use_real_scanner()
+
+        def leaky(video_dir, client, **kwargs):
+            path = self._summarize(video_dir, client, **kwargs)
+            Path(path).write_text(Path(path).read_text(encoding="utf-8") + f"\n{self.token}\n", encoding="utf-8")
+            return path
+
+        self.deps.summarize = leaky
+        self.assertEqual(self.run_sync(), 2)
+        self.assertIn(self.token, (self.vdir("N1") / "summary.md").read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
