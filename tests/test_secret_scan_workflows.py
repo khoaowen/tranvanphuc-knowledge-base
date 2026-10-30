@@ -66,6 +66,7 @@ class UploadGateTest(unittest.TestCase):
         self.assertIn("id: scan", scan)
         self.assertIn("if: always()", scan)  # runs even when summarize failed
         self.assertIn("scan_secrets.py artifacts", scan)
+        self.assertNotIn("--allow-missing", scan)
         self.assertIn("$SEED_DIR/summary.md", scan)
         self.assertIn("measurement.log", scan)
         self.assertNotIn("continue-on-error", self.text)

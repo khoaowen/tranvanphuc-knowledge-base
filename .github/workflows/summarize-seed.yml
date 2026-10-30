@@ -35,7 +35,7 @@ jobs:
         id: scan
         if: always()
         shell: bash
-        run: python scripts/scan_secrets.py artifacts --allow-missing "$SEED_DIR/summary.md" measurement.log
+        run: python scripts/scan_secrets.py artifacts "$SEED_DIR/summary.md" measurement.log
 
       - name: Upload summary and measurement log
         if: ${{ always() && steps.scan.outcome == 'success' }}

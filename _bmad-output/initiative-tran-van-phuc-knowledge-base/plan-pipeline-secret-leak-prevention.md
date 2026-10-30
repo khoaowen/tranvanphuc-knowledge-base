@@ -3,14 +3,14 @@ title: 'Fail-closed pipeline secret-leak prevention'
 type: 'feature'
 ticket: ''
 created: '2026-10-30'
-status: 'in-review'
+status: 'built'
 baseline_revision: '66799519e46ab8114deca90444fd634997370746'
 route: 'full'
 route_source: 'auto'
 risk: 'high'
-review: ''
-review_source: ''
-lenses_ran: []
+review: 'quick'
+review_source: 'pinned'
+lenses_ran: ['quick']
 review_loop_iteration: 0
 context: []
 ---
@@ -27,7 +27,7 @@ context: []
 
 **Always:** Preserve the single `./weekly-sync` Mac command and existing confirmations, validation, tests, protected artifacts, rebase handling and no-force policy. Bootstrap the pinned scanner into an external cache on supported macOS/Linux architectures, verifying artifact integrity; unsupported platforms, download/hash/version/scan errors block publication. CI and local paths use the same implementation. Scan the exact prospective index after generation and staging, and reachable HEAD history plus the final tracked snapshot immediately before every push, including new remote branches and rebases. Removed intermediate-commit secrets must block. Bind scans to immutable tree/commit IDs; verify the index stayed unchanged before commit and push the scanned commit ID, not a moving HEAD.
 
-Scan seed summary and measurement log before artifact upload. Disable inline skip directives, repository ignore/baseline overrides and environment config overrides; use the pinned default rules without broad exclusions, including tests and generated content. No size/binary/encoding/path error may silently certify unexamined intended text as clean. Keep scanner subprocess output captured/redacted and never publish matched values, snippets or raw scan reports; store only sanitized outcomes. Scanner findings or inability to scan must prevent the affected commit/push/upload, with nonzero status. Retain local evidence, never auto-delete a finding, rotate keys, rewrite history or hide existing findings in a baseline.
+Scan seed summary and measurement log before artifact upload. Disable inline skip directives, repository ignore/baseline overrides and environment config overrides; use the pinned default rules without broad exclusions, including tests and generated content. No size/binary/encoding/path error may silently certify unexamined intended text as clean. Keep scanner subprocess output captured/redacted and never publish matched values, snippets or raw scan reports; store only sanitized outcomes. Scanner findings or inability to scan must prevent the affected commit/push/upload, with nonzero status. Retain local evidence, never auto-delete a finding, rotate keys or rewrite history. **Owner-approved exception (2026-10-30):** the three identified historical blobs containing the malformed, synthetic test sentinel may be excluded by exact blob ID and marker line only; this must be documented and tested, must scan all other bytes of those blobs, and must not match new content. No other baseline or finding-hiding mechanism is allowed.
 
 **Never:** Modify videos/reviews, publication eligibility or plugin behavior; claim a clean scan proves absence of all secrets, medical safety or prompt-injection safety. No repository setting changes, paid scanner/action dependency, production workflow dispatch, pushes or public uploads during verification. Manual Git operations remain outside the pipeline gate; document native push protection and required-check administration separately. Existing public exposure requires revocation/rotation, not merely deleting a file.
 
@@ -78,7 +78,12 @@ Scan seed summary and measurement log before artifact upload. Disable inline ski
 
 ## Plan Change Log
 
+- 2026-10-30 — Owner renegotiated the no-exception constraint: permit only the exact historical synthetic-sentinel blob/line exception after determining it is not a real Gemini key. It must be content-bound, documented and tested; no general baseline, path rule or new-content bypass is allowed.
+
 ## Review Triage Log
+
+- false — `scripts/scan_secrets.py:70-76,483-485`: The narrow historical sentinel exception would have contradicted the original frozen constraint, but the owner explicitly renegotiated that constraint by choosing the documented-exception option. The frozen intent and change log now require exact blob/marker binding, coverage of remaining bytes, and no new-content match; tests prove those bounds.
+- medium / patch — `.github/workflows/summarize-seed.yml:35`: `--allow-missing` allowed a missing measurement log while uploading a present summary, so one intended artifact was not scanned. Removed the flag; missing either output now fails the scan and prevents upload.
 
 ## Design Notes
 
