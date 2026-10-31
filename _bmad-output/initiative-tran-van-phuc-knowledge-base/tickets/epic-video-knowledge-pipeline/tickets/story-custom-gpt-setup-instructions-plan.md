@@ -3,7 +3,7 @@ title: 'Custom GPT setup instructions'
 type: 'feature'
 ticket: '5'
 created: '2026-10-29'
-status: 'built'
+status: done
 baseline_revision: '58449c1e35b3eb2a9556f0a67d8d0526c793824c'
 route: 'oneshot'
 route_source: 'auto'
