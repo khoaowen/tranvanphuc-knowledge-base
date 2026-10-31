@@ -81,6 +81,11 @@ class UploadGateTest(unittest.TestCase):
                                                "Upload summary and measurement log")]
         self.assertEqual(order, sorted(order))
 
+    def test_permissions_are_explicit_and_read_only(self):
+        self.assertRegex(self.text, r"\npermissions:\n  contents: read\n\n(?=\S)")
+        self.assertEqual(self.text.count("permissions:"), 1)  # top-level only, no job override
+        self.assertNotRegex(self.text, r"(?m)^\s*[\w-]+:\s*write\s*$")
+
     def test_only_the_summarize_step_receives_the_gemini_key(self):
         self.assertEqual(self.text.count("${{ secrets."), 1)
         self.assertEqual(self.text.count("secrets.GEMINI_API_KEY"), 1)
