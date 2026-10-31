@@ -67,8 +67,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Oxy hoặc ozon sau đó xâm nhập vào để tạo thành POOH, và protein này giống hệt protein bị hỏng.
-- **proposed:** Protein có dấu chấm bị oxy lợi dụng xâm nhập, hoặc ozon nhường oxy vào, để thành PO trừ; PO trừ lại cướp H+ để tạo thành POOH. Bác sĩ nói protein đi theo con đường giống hệt lipit.
-- **why:** 'Giống hệt protein bị hỏng' is not in the transcript: the comparison is to the lipid pathway. The summary also skips the PO- step before POOH.
+- **proposed:** Protein có dấu chấm bị oxy lợi dụng xâm nhập, hoặc ozon nhường oxy vào, để thành PO trừ; PO trừ lại cướp H+ để tạo thành POOH. Protein đi theo con đường giống hệt lipit (câu này đứng sau dấu đổi người nói trong bản ghi âm).
+- **why:** 'Giống hệt protein bị hỏng' is not in the transcript: the comparison is to the lipid pathway. The summary also skips the PO- step before POOH. The 'y xì như lipit' line follows a speaker-change mark, so the proposal names no speaker for it. Human to confirm the speaker.
 - **supporting quote** [00:55:15]: "hoặc là ozon nó nhường oxy vào đây để trở thành gì ạ? PO tr-"
 - **more** [00:55:29]: "Để tạo thành là POOH giống hệt protein"
 - **more** [00:55:36]: "y xì như lipit và protein cũng lại giống"
@@ -174,7 +174,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **why:** As written, 'Bác sĩ chẩn đoán' reads as Dr. Phúc. The viewer is reporting a diagnosis from Hanoi hospitals, and Dr. Phúc later plays down the cyst.
 - **supporting quote** [01:27:24]: "chữa trị ở nhiều bệnh viện lớn tại Hà Nội."
 - **more** [01:27:26]: "Bác sĩ chẩn đoán tôi bị nang dưới nhện góc tiểu cầu não trái. Dây thần kinh số năm bị chèn ép dẫn đến đau nửa đầu."
-- **more** [02:18:06]: "Tôi nói rằng tôi đọc rất rất nhiều những các cái phim CT và phim cộng hường từ"
+- **more** [02:18:11]: "con nang dưới nhện và người ta đang chung sống hòa bình. Nếu chúng ta mà mổ dẫn lưu như vậy thì vô tình bệnh nhân lại thêm một cái vết mổ chứ không cần thiết."
 
 ## c140
 - **status:** pending-human-approval
@@ -485,7 +485,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** attribution_qualification
 - **current:** Ông so sánh với quy chuẩn của một số nước phát triển như Nhật Bản, nơi giới hạn trên có thể được mở rộng lên 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn nằm trong ngưỡng an toàn.
-- **proposed:** Ông so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như "bản" (bản ghi âm ghi như vậy), nơi giới hạn trên thường được mở rộng lên tới 1000 hoặc thậm chí 1500, và cho rằng con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn.
+- **proposed:** Ông so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như "bản" (bản ghi âm ghi như vậy), nơi giới hạn trên thường được mở rộng lên tới 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn.
 - **why:** The caption says 'như bản'; naming Japan is not safely grounded in it. 'Nhiều' and 'thường' were also softened to 'một số' and 'có thể'. Human to confirm the country from the audio.
 - **supporting quote** [03:25:43]: "Nếu so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như bản, nơi giới hạn trên của vitamin P12 thường được mở rộng lên tới 1000 picog"
 - **more** [03:25:53]: "[âm nhạc] ml hoặc thậm chí là 1500 thì con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn của cơ thể."
@@ -563,8 +563,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Các cơ quan này đều thực hiện nhiều chức năng thải độc.
-- **proposed:** Bác sĩ nói đây là những cơ quan thực hiện rất nhiều chức năng; riêng thận được ông gọi là nơi thải độc.
-- **why:** The doctor says these organs have many functions and names only the kidney as the detox site. The summary turns this into all organs performing many detox functions.
+- **proposed:** Đây là những cơ quan thực hiện rất nhiều chức năng; về thải độc, bản ghi âm ghi "thận cũng thải độc rất nhiều. Gan, não, thận trong ruột của chúng ta rất nhiều" và "thận là cái nơi thải độc" (chưa rõ những cơ quan nào được nói là thải độc).
+- **why:** The transcript says these organs have many functions, and the summary turns this into all of them performing many detox functions. The captions clearly call the kidney a detox site, but the unpunctuated 'Gan, não, thận trong ruột ... rất nhiều' follows a speaker change and is affirmed at the next turn, so it is unclear which organs it covers. The proposal keeps the caption's wording. Human to check which organs detox and who says it.
 - **supporting quote** [04:41:54]: "và thận cũng thải độc rất nhiều. Gan, não, thận trong ruột của chúng ta rất nhiều. Vâng. Đúng rồi. Đấy là những cơ quan mà"
 - **more** [04:42:19]: "đang lục phủ ngũ tạng của chúng ta đang thực hiện những chức năng rất nhiều tim rồi đến phổi vân vân. Tất cả như thế này"
 - **more** [04:41:59]: "Đấy là những cơ quan mà chúng ta thực hiện rất nhiều chức năng"

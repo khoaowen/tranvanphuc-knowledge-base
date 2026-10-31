@@ -102,9 +102,20 @@ check([c["id"] for c in corrections if not c["evidence"]] == ["c541"], "only c54
 
 # Generated markdown agrees with its data.
 corrections_md = (A / "proposed-corrections.md").read_text(encoding="utf-8")
-check(BOUND_SHA in corrections_md and all(
-    f"## {c['id']}\n- **status:** {PENDING}\n" in corrections_md and c["proposed"] in corrections_md
-    for c in corrections), "proposed-corrections.md matches its JSON and names the bound SHA")
+sections = {s.split("\n", 1)[0]: s for s in corrections_md.split("\n## ")[1:]}
+
+
+def section_matches(c):
+    """Every field of a correction, and each quote with its timestamp, appears in that item's own section."""
+    section = sections.get(c["id"], "")
+    return (f"- **status:** {PENDING}\n" in section
+            and all(f"- **{field}:** {c[field]}\n" in section for field in ("current", "proposed", "why"))
+            and all(f"[{e['timestamp']}]: \"{e['quote']}\"\n" in section for e in c["evidence"]))
+
+
+mismatched = [c["id"] for c in corrections if not section_matches(c)]
+check(BOUND_SHA in corrections_md and set(sections) == set(ids) and not mismatched,
+      f"proposed-corrections.md matches its JSON per item and names the bound SHA (mismatched: {mismatched})")
 omissions_md = (A / "omissions.md").read_text(encoding="utf-8")
 check(all(f"### {a['id']} " in omissions_md and a["evidence"][0]["quote"] in omissions_md for a in anchors)
       and omissions_md.count("\n### o") == len(anchors), f"omissions.md matches omission-anchors.json ({len(anchors)})")

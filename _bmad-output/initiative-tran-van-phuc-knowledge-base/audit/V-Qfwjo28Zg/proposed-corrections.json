@@ -131,8 +131,8 @@
   "id": "c070",
   "class": "mismatch",
   "current": "Oxy hoặc ozon sau đó xâm nhập vào để tạo thành POOH, và protein này giống hệt protein bị hỏng.",
-  "proposed": "Protein có dấu chấm bị oxy lợi dụng xâm nhập, hoặc ozon nhường oxy vào, để thành PO trừ; PO trừ lại cướp H+ để tạo thành POOH. Bác sĩ nói protein đi theo con đường giống hệt lipit.",
-  "why": "'Giống hệt protein bị hỏng' is not in the transcript: the comparison is to the lipid pathway. The summary also skips the PO- step before POOH.",
+  "proposed": "Protein có dấu chấm bị oxy lợi dụng xâm nhập, hoặc ozon nhường oxy vào, để thành PO trừ; PO trừ lại cướp H+ để tạo thành POOH. Protein đi theo con đường giống hệt lipit (câu này đứng sau dấu đổi người nói trong bản ghi âm).",
+  "why": "'Giống hệt protein bị hỏng' is not in the transcript: the comparison is to the lipid pathway. The summary also skips the PO- step before POOH. The 'y xì như lipit' line follows a speaker-change mark, so the proposal names no speaker for it. Human to confirm the speaker.",
   "status": "pending-human-approval",
   "evidence": [
    {
@@ -376,8 +376,8 @@
     "timestamp": "01:27:26"
    },
    {
-    "quote": "Tôi nói rằng tôi đọc rất rất nhiều những các cái phim CT và phim cộng hường từ",
-    "timestamp": "02:18:06"
+    "quote": "con nang dưới nhện và người ta đang chung sống hòa bình. Nếu chúng ta mà mổ dẫn lưu như vậy thì vô tình bệnh nhân lại thêm một cái vết mổ chứ không cần thiết.",
+    "timestamp": "02:18:11"
    }
   ]
  },
@@ -1029,7 +1029,7 @@
   "id": "c377",
   "class": "attribution_qualification",
   "current": "Ông so sánh với quy chuẩn của một số nước phát triển như Nhật Bản, nơi giới hạn trên có thể được mở rộng lên 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn nằm trong ngưỡng an toàn.",
-  "proposed": "Ông so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như \"bản\" (bản ghi âm ghi như vậy), nơi giới hạn trên thường được mở rộng lên tới 1000 hoặc thậm chí 1500, và cho rằng con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn.",
+  "proposed": "Ông so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như \"bản\" (bản ghi âm ghi như vậy), nơi giới hạn trên thường được mở rộng lên tới 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn.",
   "why": "The caption says 'như bản'; naming Japan is not safely grounded in it. 'Nhiều' and 'thường' were also softened to 'một số' and 'có thể'. Human to confirm the country from the audio.",
   "status": "pending-human-approval",
   "evidence": [
@@ -1197,8 +1197,8 @@
   "id": "c488",
   "class": "mismatch",
   "current": "Các cơ quan này đều thực hiện nhiều chức năng thải độc.",
-  "proposed": "Bác sĩ nói đây là những cơ quan thực hiện rất nhiều chức năng; riêng thận được ông gọi là nơi thải độc.",
-  "why": "The doctor says these organs have many functions and names only the kidney as the detox site. The summary turns this into all organs performing many detox functions.",
+  "proposed": "Đây là những cơ quan thực hiện rất nhiều chức năng; về thải độc, bản ghi âm ghi \"thận cũng thải độc rất nhiều. Gan, não, thận trong ruột của chúng ta rất nhiều\" và \"thận là cái nơi thải độc\" (chưa rõ những cơ quan nào được nói là thải độc).",
+  "why": "The transcript says these organs have many functions, and the summary turns this into all of them performing many detox functions. The captions clearly call the kidney a detox site, but the unpunctuated 'Gan, não, thận trong ruột ... rất nhiều' follows a speaker change and is affirmed at the next turn, so it is unclear which organs it covers. The proposal keeps the caption's wording. Human to check which organs detox and who says it.",
   "status": "pending-human-approval",
   "evidence": [
    {

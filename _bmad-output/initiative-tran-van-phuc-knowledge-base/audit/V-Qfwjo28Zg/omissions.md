@@ -42,11 +42,11 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 - **Partial coverage only:** c029 names the pathway without the figure.
 - **Source:** batch 01#4
 
-### o05 [M] Protein eaten wrongly, too much or too little causes free radicals
+### o05 [M] Too little protein as a cause of free radicals
 - **Timestamp range:** [00:16:54]-[00:17:07]
 - **Anchor** [00:16:54]: "đạn chúng ta ăn sai, ăn không đúng cách, ăn quá nhiều hoặc ăn quá ít cũng là những cái nguyên nhân để gây ra gốc tự do."
-- **Why it matters:** Too little protein is also named as a cause, not only excess.
-- **Partial coverage only:** c480 covers excess protein only.
+- **Why it matters:** Eating too little protein is also named as a cause, not only excess.
+- **Partial coverage only:** c033 and c253 cover wrong diet in general and c480 covers excess protein; none states too little protein.
 - **Source:** batch 02#2
 
 ### o06 [M] Why the doctor teaches free radicals first
@@ -159,7 +159,7 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 ### o22 [M] Safety: whole-body rigidity, emergency care and IV calcium
 - **Timestamp range:** [01:28:45]-[01:29:05]
 - **Anchor** [01:28:45]: "toàn thân tôi bị co cứng nhưng đầu óc tôi vẫn đủ tỉnh táo để gọi người nhà đưa đi cấp cứu. Đến viện, tôi được truyền canxi"
-- **Why it matters:** An acute event before the depression diagnosis.
+- **Why it matters:** Safety: she woke with her whole body rigid and needed emergency care, right after her account of fearing Western medicine (o21). Viewer self-report.
 - **Partial coverage only:** c136 gives the diagnosis only.
 - **Source:** batch 06#10
 
