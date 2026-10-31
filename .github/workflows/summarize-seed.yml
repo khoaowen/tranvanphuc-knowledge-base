@@ -7,6 +7,9 @@ name: Summarize seed video
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: read
+
 env:
   SEED_DIR: videos/2025-12-06-nhung-meo-chon-thuc-pham-bo-sung-omega-3-hieu-qua
 
@@ -15,10 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
 
@@ -29,9 +32,17 @@ jobs:
         shell: bash
         run: python scripts/summarize.py "$SEED_DIR" 2>&1 | tee measurement.log
 
-      - name: Upload summary and measurement log
+      # Nothing is uploaded unless this scan of exactly the files to upload succeeds.
+      # It holds no secrets; a finding, missing scanner or scan error fails the step.
+      - name: Scan outputs for secrets
+        id: scan
         if: always()
-        uses: actions/upload-artifact@v4
+        shell: bash
+        run: python scripts/scan_secrets.py artifacts "$SEED_DIR/summary.md" measurement.log
+
+      - name: Upload summary and measurement log
+        if: ${{ always() && steps.scan.outcome == 'success' }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: seed-summary
           path: |

@@ -27,6 +27,7 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
         self.commands = []
         self.fail_prepare = False
         self.fail_process = None
+        self.fail_scan = None
         self.branch = 'feature'
         self.dirty = ''
         self.staged = ''
@@ -97,6 +98,8 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
 
     def execute(self, command, **kwargs):
         self.commands.append((command, kwargs.get('env', dict(os.environ))))
+        if 'scripts/scan_secrets.py' in command:
+            return subprocess.CompletedProcess(command, 1 if command[2] == self.fail_scan else 0)
         if 'scripts/weekly_sync.py' in command:
             phase = command[2]
             if phase == self.fail_process:
@@ -150,6 +153,21 @@ class LocalWeeklyLauncherTest(unittest.TestCase):
             else:
                 self.assertNotIn('GEMINI_API_KEY', env)
         self.assertIn(['git', 'pull', '--ff-only', 'origin', 'feature'], [c for c, _ in self.commands])
+
+    def test_secret_scanner_preflight_runs_first_and_a_failure_stops_everything(self):
+        self.invoke()
+        labels = [c for c, _ in self.commands]
+        first = next(i for i, c in enumerate(labels) if 'scripts/scan_secrets.py' in c)
+        tests = next(i for i, c in enumerate(labels) if 'unittest' in c)
+        self.assertLess(first, tests)
+        self.assertEqual([c[2:] for c in labels if 'scripts/scan_secrets.py' in c],
+                         [['bootstrap'], ['repository']])
+        self.commands.clear()
+        self.fail_scan = 'repository'
+        with self.assertRaisesRegex(RuntimeError, 'preflight-secret-scan exit 1'):
+            self.invoke(answers=())
+        self.assertEqual(self.phases(), [])
+        self.assertFalse(any('unittest' in c for c, _ in self.commands))
 
     def test_resume_does_not_prepare_or_pull(self):
         self.prepare_resume()
