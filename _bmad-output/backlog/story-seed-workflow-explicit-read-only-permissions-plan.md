@@ -3,7 +3,7 @@ title: 'Seed workflow declares read-only GITHUB_TOKEN permissions'
 type: 'bugfix'
 ticket: 'story-seed-workflow-explicit-read-only-permissions'
 created: '2026-10-31'
-status: 'built'
+status: done
 baseline_revision: 'a82f4c31e625a27060c703b46e3d703e03b0a6ce'
 route: 'oneshot'
 route_source: 'auto'
