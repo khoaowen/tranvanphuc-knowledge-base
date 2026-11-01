@@ -37,3 +37,16 @@ hitl = true
 risk = "high"
 refine = true
 references = ["../../../audit/q7uDJG8YQ5c/proposed-corrections.md", "../../../audit/q7uDJG8YQ5c/approval-record.md"]
+
+[[entry]]
+id = 4
+type = "story"
+title = "A current V-Qfwjo28Zg summary is built from the historical text and the 15 approved replacements, validated in a temporary folder, and nothing applied"
+description = "Build one current summary for V-Qfwjo28Zg outside videos/ from the historical text plus the 15 approved replacements, validate it, and leave a report for the owner. Applying it to videos/ is a separate ticket."
+verify = "New summary passes the summary contract and the validators, binds to its own SHA-256, maps the 15 replacements one-to-one, and all audit artifacts, videos/ and pipeline code are byte-identical; V-Qfwjo28Zg stays blocked."
+covers = ["E2-R3", "E2-R4"]
+after = [2]
+hitl = true
+risk = "high"
+refine = true
+references = ["../../../audit/V-Qfwjo28Zg/", "../../../summary-contract.md", "../../../audit/V-Qfwjo28Zg/human-decisions.md"]
