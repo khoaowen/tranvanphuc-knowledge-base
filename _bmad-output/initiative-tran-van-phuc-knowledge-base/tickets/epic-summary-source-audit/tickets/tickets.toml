@@ -54,8 +54,8 @@ references = ["../../../audit/V-Qfwjo28Zg/", "../../../summary-contract.md", "..
 [[entry]]
 id = 5
 type = "story"
-title = "The V-Qfwjo28Zg temporary summary has claim c286 split by speaker and its 13 mis-timed headings rebuilt, and the review gate is rerun once"
-description = "In a temporary folder outside videos/, split the c286 sentence so each part carries one speaker and one timestamp, rebuild the 13 section headings whose content sits far from their time and ?t= link (reported in regenerated-timefix/report.md), then rerun the review gate once. The owner decides how content is split under each heading. Applying to videos/ is not part of this ticket."
+title = "The V-Qfwjo28Zg temporary summary has claim c286 split by speaker and its 16 mis-timed headings rebuilt, and the review gate is rerun once"
+description = "In a temporary folder outside videos/, split the c286 sentence so each part carries one speaker and one timestamp, rebuild the 16 section headings whose content sits far from their time and ?t= link (reported in regenerated-timefix/report.md), then rerun the review gate once. The owner decides how content is split under each heading. Applying to videos/ is not part of this ticket."
 verify = "Each rebuilt heading's time and ?t= link match the transcript for its content, every added or moved sentence is a verbatim-checked quote at its cited timestamp, the review result names the new summary's SHA-256, and videos/, pipeline code, every audit JSON and 2.4's files stay byte-identical; V-Qfwjo28Zg stays blocked."
 covers = ["E2-R3", "E2-R4"]
 after = [4]
