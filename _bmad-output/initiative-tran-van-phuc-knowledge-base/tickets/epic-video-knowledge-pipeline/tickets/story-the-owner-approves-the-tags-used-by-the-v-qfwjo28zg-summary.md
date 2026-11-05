@@ -58,17 +58,17 @@ topics/vocabulary.md grows by human approval only. The V-Qfwjo28Zg summary uses 
 ## Notes
 
 - Risk medium: tags apply to every later video, so a wrong tag spreads, but one line in a text file reverts it.
-- Decision: owner approved 7 tags as listed and split `thiếu máu thiếu sắt` into `thiếu máu` and `thiếu sắt`; 9 tags to add in total. The summary's header must later use the two tags (tickets 2.5 and 2.6).
+- Decision recorded from the owner's instruction: approve the seven tags below as new vocabulary entries, and split `thiếu máu thiếu sắt` into two new entries, `thiếu máu` and `thiếu sắt`. Add 9 tags total. Keep `vitamin D` as a separate tag; do not replace it with existing `vitamin d3`. Tickets 2.5 and 2.6 will apply the split tags in the summary header.
 
-| Tag | Decision | Final tag | Reason |
-|---|---|---|---|
-| gốc tự do | Approve | gốc tự do | Owner decision |
-| glutathion | Approve | glutathion | Owner decision |
-| chống oxy hóa | Approve | chống oxy hóa | Owner decision |
-| vi chất | Approve | vi chất | Owner decision |
-| bóng đè | Approve | bóng đè | Owner decision |
-| vitamin D | Approve as new tag, not replaced by `vitamin d3` | vitamin D | Owner decision |
-| thiếu máu thiếu sắt | Split into two tags | thiếu máu; thiếu sắt | Owner decision |
-| lối sống lành mạnh | Approve | lối sống lành mạnh | Owner decision |
+| Original summary tag | Owner's decision | Vocabulary entries to add |
+|---|---|---|
+| gốc tự do | Approve as a new tag | gốc tự do |
+| glutathion | Approve as a new tag | glutathion |
+| chống oxy hóa | Approve as a new tag | chống oxy hóa |
+| vi chất | Approve as a new tag | vi chất |
+| bóng đè | Approve as a new tag | bóng đè |
+| vitamin D | Approve as a new tag, distinct from existing `vitamin d3` | vitamin D |
+| thiếu máu thiếu sắt | Split into two new tags | thiếu máu; thiếu sắt |
+| lối sống lành mạnh | Approve as a new tag | lối sống lành mạnh |
 
 - Tag comparison ignores case and Unicode composition, so `vitamin D` and `vitamin d` are the same tag.
