@@ -152,3 +152,16 @@ covers = []
 after = [6]
 hitl = false
 risk = "medium"
+
+[[entry]]
+id = 14
+type = "story"
+title = "The owner approves the tags used by the V-Qfwjo28Zg summary and each approved tag is added to the controlled vocabulary"
+description = "topics/vocabulary.md grows by human approval only. The V-Qfwjo28Zg summary uses 8 tags outside it (gốc tự do, glutathion, chống oxy hóa, vi chất, bóng đè, vitamin D, thiếu máu thiếu sắt, lối sống lành mạnh). The owner approves, renames or rejects each tag; approved tags are added."
+verify = "Each of the 8 tags has an owner decision; validate_summaries.py accepts the approved tags and still rejects an unapproved one; no existing tag or topic page changes."
+covers = []
+after = []
+hitl = true
+risk = "medium"
+refine = true
+references = ["../../../audit/V-Qfwjo28Zg/regenerated/owner-decision-brief.md", "../../../summary-contract.md"]
