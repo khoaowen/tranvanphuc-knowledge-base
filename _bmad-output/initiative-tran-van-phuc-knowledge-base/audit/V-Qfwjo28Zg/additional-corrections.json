@@ -1,0 +1,191 @@
+[
+  {
+    "id": "c318",
+    "class": "supported",
+    "current": "MCV và MCH ở cận trên cho thấy hồng cầu to nhưng nhả oxy kém.",
+    "proposed": "Phần nhận xét nói MCV và MCH “nằm ở ngưỡng cận trên và tăng nghệ” (bản ghi âm ghi như vậy), vẽ nên hình ảnh hồng cầu phình to bất thường; sau đó nói khả năng nhả oxy cho các mô “bị trạch nhịp” (bản ghi âm ghi như vậy).",
+    "why": "Bản tóm tắt diễn đạt kết luận liền mạch và bỏ các cụm phiên âm chưa rõ của phần nhận xét.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "MCV và lượng huyết sắc tố MCH nằm ở ngưỡng cận trên và tăng nghệ lại vẽ nên hình ảnh những gã hồng cầu phình to bất thường.", "timestamp": "03:14:31"},
+      {"quote": "Vỏ tế bào mỏng dính và khả năng nhả oxy cho các mô bị trạch nhịp.", "timestamp": "03:15:05"}
+    ]
+  },
+  {
+    "id": "c156",
+    "class": "mismatch",
+    "current": "Bản ghi âm ghi là \"K G3\" và \"glycerin\" cho cùng cơ chế này; cơ chế liệt vận động không được kịp nhả.",
+    "proposed": "Bản ghi âm ghi là “K G3” và “glycerin” cho cơ chế này; khi chuyển từ thức vào ngủ, việc làm liệt vận động “không làm được kịp thời”, nên người ngủ nói và vận động trong mơ.",
+    "why": "Câu cũ nói “không được kịp nhả”, trong khi đoạn này nói về chiều từ thức vào ngủ và phanh chưa kịp làm. Bổ sung chiều này được gộp vào c156, không tạo một mục riêng.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "G3 và tiết ra glycerin này nó lại không làm được kịp thời.", "timestamp": "02:31:11"},
+      {"quote": "Tức là nó chưa kịp làm thì dẫn tới là gì?", "timestamp": "02:31:20"},
+      {"quote": "Nói trong mơ và vận động trong mơ.", "timestamp": "02:31:31"}
+    ]
+  },
+  {
+    "id": "c275",
+    "class": "attribution_qualification",
+    "current": "Người dẫn nói vitamin C và vitamin E cũng là các chất liên quan đến gốc tự do, và glutathion cũng vậy.",
+    "proposed": "Bác sĩ nhắc lại: “Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do”; sau đó đoạn hội thoại nhắc “Glutat mà chúng ta đang nói hôm nay”.",
+    "why": "Câu cũ gán phần này cho người dẫn và làm nhẹ cách nói “cũng là gốc tự do”. Đề xuất giữ nguyên lời nói, không sửa bằng kiến thức ngoài bản ghi.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Lúc ấy tôi nói là gì ạ? Vitamin C", "timestamp": "02:13:39"},
+      {"quote": "cũng là gốc tự do, vitamin E cũng là gốc tự do đúng không ạ?", "timestamp": "02:13:42"},
+      {"quote": "Glutat mà chúng ta đang nói hôm nay", "timestamp": "02:13:50"}
+    ]
+  },
+  {
+    "id": "c544",
+    "class": "supported",
+    "current": "Bác sĩ khuyên: chỉ uống thuốc khi thật sự cần, không uống cả nắm thuốc mỗi ngày (bác sĩ nhắc rằng vi chất không phải thuốc, còn thuốc là để chữa bệnh); giảm rượu bia và thuốc lá; tránh môi trường độc hại như thuốc trừ sâu, thuốc bảo vệ thực vật; giữ gìn để không nhiễm vi khuẩn, virus, vì những việc này làm tiêu tốn glutathione.",
+    "proposed": "Bác sĩ khuyên chỉ uống thuốc khi thật sự cần, không uống cả một vốc thuốc một ngày; ông nói vi chất không phải thuốc, còn thuốc để chữa bệnh. Ông cũng nói giảm rượu chè, giảm thuốc lá bỏ đi, tránh để thuốc trừ sâu và thuốc bảo vệ thực vật xâm nhập cơ thể, và giữ gìn để không nhiễm vi khuẩn, virus vì sẽ tiêu tốn “Glutaton”.",
+    "why": "Câu cũ thay “rượu chè” bằng “rượu bia”, bỏ cách nói về thuốc lá, và chuẩn hóa “Glutaton”.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Khi nào thật sự cần uống thuốc mới uống chứ đừng có uống cả một vốc thuốc một ngày.", "timestamp": "05:17:40"},
+      {"quote": "chúng ta giảm rượu chè, chúng ta giảm thuốc lá bỏ đi.", "timestamp": "05:17:50"},
+      {"quote": "Đừng để thuốc trừ sâu, đừng để thuốc bảo vệ thực vật nó xâm nhập vào cơ thể chúng ta nữa.", "timestamp": "05:17:55"},
+      {"quote": "Giữ gìn đừng để chúng ta nhiễm vi khuẩn, virus để dẫn tới là chúng ta tiêu tốn gì ạ? Glutaton.", "timestamp": "05:18:03"}
+    ]
+  },
+  {
+    "id": "c552",
+    "class": "supported",
+    "current": "Da trắng lên thường đến từ việc bổ sung vi chất tốt và bảo vệ cơ thể, không phải từ một sản phẩm cụ thể.",
+    "proposed": "Bác sĩ nói trắng da ngoạn mục “chẳng qua là vì” bổ sung vi chất tốt, hiểu cơ chế và bảo vệ được cơ thể thì cơ thể sẽ thay đổi đi rất nhiều.",
+    "why": "Câu cũ bỏ ý “hiểu cơ chế” và thêm kết luận “không phải từ một sản phẩm cụ thể”, vốn không có trong câu được dẫn.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "trắng da ngoạn mục chẳng qua là vì chúng ta bổ sung vi chất tốt, chúng ta hiểu cơ chế, chúng ta bảo vệ được cơ thể chúng ta sẽ thay đổi đi rất nhiều.", "timestamp": "05:20:08"}
+    ]
+  },
+  {
+    "id": "c286",
+    "class": "supported",
+    "current": "Ông cũng nói nhiều bệnh nhân đau dây thần kinh số 5 nghĩ đến việc kết thúc sớm cuộc đời.",
+    "proposed": "Bác sĩ nói khi tổn thương dây thần kinh số 5 bị viêm thì hầu hết bệnh nhân đều nghĩ tới việc muốn kết thúc sớm cuộc đời.",
+    "why": "Câu cũ bỏ điều kiện “bị viêm” và làm nhẹ lượng từ “hầu hết”.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Một khi tổn thương dây thần kinh số 5 bị viêm thì hầu hết bệnh nhân đều nghĩ tới con đường đó là muốn kết thúc sớm cuộc đời của mình.", "timestamp": "02:18:51"}
+    ]
+  },
+  {
+    "id": "c158",
+    "class": "supported",
+    "current": "Lúc đó hạch hạnh nhân báo động, gây toát mồ hôi, tim đập nhanh, cảm giác bị đè ngực, khó thở, sợ hãi.",
+    "proposed": "Ở chiều từ ngủ sang thức, bác sĩ nói hạch hạnh nhân báo động; người đó giãy giụa, có cảm giác bị đè ngực không thở được, rồi toát mồ hôi và sợ hãi.",
+    "why": "Câu cũ gộp “tim đập nhanh” từ chiều thức sang ngủ vào mô tả chiều ngủ sang thức.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Báo động thì dẫn tới là chúng ta sẽ giãy giụa.", "timestamp": "02:33:16"},
+      {"quote": "cảm giác như đang có người đè vào ngực mình không thở được.", "timestamp": "02:33:20"},
+      {"quote": "dậy cái toát mồ hôi ra và chúng ta sợ", "timestamp": "02:33:46"}
+    ]
+  },
+  {
+    "id": "c242",
+    "class": "supported",
+    "current": "Ông kể trước đại dịch, khi vào lớp tiểu học ở Nhật, ông thấy học sinh đeo khẩu trang cả lớp và được giải thích là học sinh ở đó dễ bị cảm cúm, nhiễm virus, vi khuẩn đường hô hấp.",
+    "proposed": "Bác sĩ kể rằng trước Covid, khi vào một lớp học sinh tiểu học ở Nhật Bản, ông thấy các cháu đeo khẩu trang hết; sau đó ông nói học sinh rất dễ bị ốm, cảm cúm, cảm lạnh và nhiễm bệnh về virus, vi khuẩn, đường hô hấp.",
+    "why": "Bản ghi không nêu ai “giải thích” cho ông; đó là phần bác sĩ kể tiếp sau quan sát.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Nhật Bản tôi nhìn thấy là đầu tiên thời kỳ đó chưa có Covid đâu.", "timestamp": "02:02:19"},
+      {"quote": "vào trong một cái lớp mà của học sinh tiểu học tôi thấy rằng các cháu đeo khẩu trang hết tất cả.", "timestamp": "02:02:25"},
+      {"quote": "học sinh rất dễ bị ốm, rất dễ bị cảm cúm, rất dễ bị cảm lạnh, rất dễ bị nhiễm các cái bệnh về virus, bệnh về vi khuẩn, những bệnh về đường hô hấp.", "timestamp": "02:02:35"}
+    ]
+  },
+  {
+    "id": "c260",
+    "class": "supported",
+    "current": "Gốc tự do tấn công màng tế bào, protein và ADN, làm vỡ hồng cầu ngoài da, hemoglobin tích tụ và gây vàng da nhìn thấy bằng mắt.",
+    "proposed": "Bác sĩ nói gốc tự do ở da tấn công màng tế bào, protein và ADN; tấn công màng tế bào gây vỡ tế bào, còn vỡ tế bào hồng cầu ở ngoài da thì tích tụ hemoglobin và gây vàng da bằng mắt.",
+    "why": "Câu cũ gộp các bước và bỏ điều kiện “gốc tự do ở da”; đề xuất giữ thứ tự nguyên nhân được nói trong bản ghi.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "gốc tự do ở da thì lúc nãy ta nói rồi nó sẽ tấn công màng tế bào", "timestamp": "02:09:57"},
+      {"quote": "Nó sẽ tấn công protein", "timestamp": "02:10:02"},
+      {"quote": "ADN tấn công màng tế bào thì nó sẽ gây vỡ tế bào. Mà gây vỡ tế bào hồng cầu ở ngoài da này thì nó sẽ tích tụ hemoglobin và sẽ gây ra hiện tượng vàng da bằng mắt.", "timestamp": "02:10:06"}
+    ]
+  },
+  {
+    "id": "c402",
+    "class": "supported",
+    "current": "Sau đó nâng dần lên nhịp 1, rồi 3, rồi 4-7-8.",
+    "proposed": "Bác sĩ nói bác có thể “chở thở 1 1,5 thôi đã” (bản ghi âm ghi như vậy), rồi nâng dần lên 1, “thở đến ba thì”, sau đó “thở đến 478”; bản ghi không nói đó là nín thở.",
+    "why": "Câu cũ biến lời hướng dẫn thành các “nhịp” xác định. Theo quyết định người duyệt, đây là nhịp thở 1–1,5 rồi kéo dài thì thở ra, không phải nín thở.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "bác có thể chở thở 1 1,5 thôi đã.", "timestamp": "04:10:24"},
+      {"quote": "cứ nâng dần lên 1 xong thở đến ba thì xong bắt đầu dần dần thở đến 478", "timestamp": "04:10:26"}
+    ]
+  },
+  {
+    "id": "c213",
+    "class": "supported",
+    "current": "Bác sĩ nói nếu bổ sung vi chất đầy đủ và ăn khoa học từ nhỏ, đứa trẻ sẽ hấp thu chất tốt hơn.",
+    "proposed": "Bác sĩ nói ở lứa tuổi học sinh, các bạn sẽ hấp thu chất rất tốt nếu thực hiện chế độ ăn uống khoa học ngay từ bé; ông còn nói ăn uống khoa học từ khi nằm trong bụng mẹ, khi mẹ bổ sung vi chất tốt và dưỡng chất hài hòa.",
+    "why": "Câu cũ đổi chủ thể sang “đứa trẻ” và rút mất mốc “lứa tuổi học sinh” cùng điều kiện được nói tiếp về người mẹ.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "đang ở cái lứa tuổi của các bạn học sinh là các bạn sẽ hấp thu các cái chất rất tốt nếu chúng ta thực hiện chế độ ăn uống khoa học ngay từ bé", "timestamp": "01:41:15"},
+      {"quote": "ăn uống khoa học ngay từ khi nằm trong bụng mẹ mà mẹ bổ sung vi chất tốt bổ sung các cái dưỡng chất hài hòa", "timestamp": "01:41:24"}
+    ]
+  },
+  {
+    "id": "c538",
+    "class": "supported",
+    "current": "Bác sĩ nói cơ chất (được ghi trong bản phiên âm là \"Fittain\", và được nói là khá hiếm trong thực phẩm) có trong: da cầm (thịt gà, thịt ngan, thịt vịt), trứng, sữa, rau cải xanh, các loại bì (như da gà, da lợn), và nước xương hầm.",
+    "proposed": "Bác sĩ nói “Fittain” (bản phiên âm ghi như vậy, chưa rõ) khá hiếm trong đồ ăn thức uống; sau đó gọi “những các cái cơ chất này” có trong “da cầm” (thịt gà, thịt ngan, thịt vịt), trứng, sữa, rau cải xanh, các loại bì/da và nước xương hầm.",
+    "why": "Bản ghi không xác định “Fittain” là cơ chất nào; đề xuất giữ nguyên phiên âm và cách gọi số nhiều trong đoạn sau.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "cái anh Fittain này này là cái anh mà khá hiếm trong các cái đồ ăn thức uống", "timestamp": "05:15:52"},
+      {"quote": "Những các cái cơ chất này nó có trong cái gì? Có trong một là da cầm tức là thịt gà, thịt ngan, thịt vịt.", "timestamp": "05:15:59"},
+      {"quote": "sữa cũng có thế rồi rau cải xanh rau cải xanh thế rồi các cái loại bì các loại da ví dụ da gà da lợn các loại bì thế rồi nước xương hầm", "timestamp": "05:16:12"}
+    ]
+  },
+  {
+    "id": "c278",
+    "class": "supported",
+    "current": "Sau khi bổ sung, theo bác sĩ, đường huyết và vàng da đều có thể cải thiện.",
+    "proposed": "Khi đọc bình luận, người dẫn nói người viết đã bổ sung vi chất cho bố chồng bị tiểu đường và đường huyết kiểm soát 5.5–6.8; sau đó bác sĩ nói “chồng chị Ngân” sau khi uống thì đường huyết giảm trở lại bình thường, còn chị Ngọc Thơ giải quyết được vàng da vàng mắt.",
+    "why": "Câu cũ gộp các lời kể ca cụ thể thành kết luận chung. Theo quyết định người duyệt, cần giữ cả cách gọi “bố chồng” lúc đọc bình luận và “chồng chị Ngân” khi bác sĩ nói.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Em cũng đã bổ sung vi chất cho bố chồng bị tiểu đường, kết quả là đường huyết kiểm soát rất tốt, chỉ ở mức 5.5 đến 6.8.", "timestamp": "01:11:52"},
+      {"quote": "sau khi uống xong đấy chồng chị Ngân thì đường huyết giảm được trở lại bình thường.", "timestamp": "02:14:12"},
+      {"quote": "chị Ngọc Thơ thì sẽ gì ạ? Sẽ giải quyết được cái vấn đề vàng da vàng mắt", "timestamp": "02:14:17"}
+    ]
+  },
+  {
+    "id": "c279",
+    "class": "supported",
+    "current": "Chị Nhung 41 tuổi bị đau dây thần kinh số 5, chụp thấy nang dưới nhện ở tiểu não trái và từng nghi là u não.",
+    "proposed": "Bác sĩ kể chị Nhung 41 tuổi bị đau dây thần kinh số 5 và khi chụp thấy một nang dưới nhện ở tiểu não trái; sau khi nói chị đã uống nhiều thuốc và chữa nhiều biện pháp khác nhau, bác sĩ nói “cảm tưởng đấy là một cái u não”.",
+    "why": "Câu cũ gán việc nghi u não cho chị Nhung. Bản ghi đặt cụm đó trong lời bác sĩ kể sau phần về các biện pháp điều trị.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "chị Nhung 41 tuổi cũng lại nói rằng chị là người mà bị đau dây thần kinh số năm", "timestamp": "02:16:50"},
+      {"quote": "chị đi khám chị chụp thấy là ở bên tiểu não trái có một cái nang dưới nhện", "timestamp": "02:16:56"},
+      {"quote": "chị đã phải uống rất nhiều thuốc rồi thì chữa rất nhiều những các cái biện pháp khác nhau cảm tưởng đấy là một cái u não.", "timestamp": "02:17:02"}
+    ]
+  },
+  {
+    "id": "c013",
+    "class": "attribution_qualification",
+    "current": "Hình thành gốc tự do bắt đầu từ việc các chất xâm nhập vào cơ thể.",
+    "proposed": "Bác sĩ nói “có thể nói rằng” hầu hết các loại bệnh tật có con đường đi từ quá trình các chất xâm nhập vào cơ thể, hình thành gốc tự do, rồi cuối cùng phát sinh bệnh tật; ông cũng nói gốc tự do có hai nguồn, trong đó có con đường nội sinh.",
+    "why": "Câu cũ tách một phần của “con đường đi” của bệnh tật thành khẳng định chung về sự hình thành gốc tự do, đồng thời bỏ giới hạn và nguồn nội sinh được nói riêng.",
+    "status": "pending-human-approval",
+    "evidence": [
+      {"quote": "Có thể nói rằng hầu hết tất cả các cái loại bệnh tật", "timestamp": "00:06:34"},
+      {"quote": "các cái chất nó xâm nhập vào cơ thể chúng ta, hình thành ra gốc tự do và đi trên cái con đường của gốc tự do để cuối cùng nó phát sinh ra những bệnh tật", "timestamp": "00:06:43"},
+      {"quote": "gốc tự do này nó được phát sinh từ đâu? Nó có hai nguồn.", "timestamp": "00:09:05"}
+    ]
+  }
+]

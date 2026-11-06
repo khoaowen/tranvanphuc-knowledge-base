@@ -12,7 +12,7 @@ Anchors are verbatim and checked by `verify_quotes.py` through `omission-anchors
 
 Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and all items are recorded as spoken, with no medical assessment.
 
-## Result: 47 kept (H 4, M 26, L 17), 19 excluded
+## Result: 49 kept (H 7, M 25, L 17), 20 excluded (o29 loại sau rà soát; o48-o50 thêm sau rà soát có đọc toàn bộ transcript)
 
 ### o01 [L] Plants' weak antioxidant defense in the autumn analogy
 - **Timestamp range:** [00:06:10]-[00:06:27]
@@ -203,13 +203,6 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 - **Why it matters:** He says he would guide higher levels under better conditions, a real limit on what he teaches.
 - **Source:** batch 10#4
 
-### o29 [M] Bilirubin not raised despite jaundice
-- **Timestamp range:** [02:09:17]-[02:09:26]
-- **Anchor** [02:09:17]: "Nhưng bilirobin không tăng, các thứ không tăng nhưng đây là thiếu máu vi thể nó ở dưới da thôi. Tại sao nó"
-- **Why it matters:** Separates the test result from the mechanism he proposes.
-- **Partial coverage only:** c258 gives the 'thiếu máu vi thể' conclusion without the bilirubin finding.
-- **Source:** batch 11#1
-
 ### o30 [L] Lifestyle advice for chị Ngọc Thơ
 - **Timestamp range:** [02:16:04]-[02:16:18]
 - **Anchor** [02:16:08]: "đẩy cao được, giảm bớt tất cả các gốc tự do đi bằng cách thực hành những cái lối sống để hạn chế gốc tự do nó xuất hiện trong cơ thể mình."
@@ -272,7 +265,7 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 - **Partial coverage only:** c462 and c534 name the gamma bond only.
 - **Source:** batch 19#1
 
-### o39 [H] Children labeled with ADHD or autism improving on micronutrients
+### o39 [H] Young people labeled with ADHD or autism improving on micronutrients
 - **Timestamp range:** [04:45:23]-[04:45:49]
 - **Anchor** [04:45:33]: "được dán nhãn là trầm cảm, được dán nhãn tăng động giảm chú ý, được gián nhãn tự kỷ. Nhưng sau khi bổ sung vi chất, tất cả mọi cái nó tốt lên, được dán nhãn học dốt tự dưng nó tốt lên."
 - **Why it matters:** A strong outcome claim about developmental labels, beyond the depression case.
@@ -335,6 +328,27 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 - **Partial coverage only:** c548 and c550 cover cost and sufficiency, not the first two.
 - **Source:** batch 22#5
 
+### o48 [H] Chiều từ thức vào ngủ: cơ chế liệt chưa kịp hoạt động
+- **Timestamp range:** [02:30:56]-[02:32:25]
+- **Anchor** [02:32:20]: "Đó là chúng ta đang từ thức chuyển sang ngủ nhưng lại không có phanh."
+- **Why it matters:** Bác sĩ nêu thêm chiều từ thức vào ngủ: ức chế vận động chưa kịp, nói và vận động trong mơ, bừng tỉnh thì sợ hãi, toát mồ hôi, tim nhanh. Gộp với sửa c156, không đếm hai lần.
+- **Partial coverage only:** c146, c156-c159 (một phần)
+- **Source:** rà soát bổ sung, đọc tuần tự toàn bộ transcript
+
+### o49 [H] Lý do cách bổ sung vitamin D giai đoạn đầu
+- **Timestamp range:** [02:45:53]-[02:46:35]
+- **Anchor** [02:45:58]: "các bác sẽ phập phù không tuân theo"
+- **Why it matters:** Bác sĩ giải thích cách giai đoạn đầu do lo người chưa có kiến thức dùng không đều hoặc mua sản phẩm biến tính. Không suy đoán "200.000đ" trong phiên âm.
+- **Partial coverage only:** c190-c203 (một phần)
+- **Source:** rà soát bổ sung, đọc tuần tự toàn bộ transcript
+
+### o50 [H] Bác sĩ kể thư của người khủng hoảng tâm lý
+- **Timestamp range:** [04:45:45]-[04:46:21]
+- **Anchor** [04:45:59]: "dưới nhưng sau đó lại nghĩ mẹ già nghĩ đến con thơ cuối cùng lại quay trở về."
+- **Why it matters:** Bác sĩ thuật lại thư của người từng có ý định tự sát rồi quay lại vì gia đình, và nói họ thấy đời tươi vui sau bổ sung vi chất. Đây là lời bác sĩ thuật lại, không phải kết quả đã kiểm chứng.
+- **Partial coverage only:** Không có claim bao phủ (c460, c286 là ca khác)
+- **Source:** rà soát bổ sung, đọc tuần tự toàn bộ transcript
+
 ## Excluded candidates
 
 | Candidate (batch#item) | Reason | Covering claim | Note |
@@ -358,3 +372,4 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 | 06#12 | viewer-comment |  | Quitting sugar, acupressure, herbal medicine. |
 | 06#13 | viewer-comment |  | Self-reported regimen and outcome. |
 | 17#2 | small-talk |  | Program scheduling of even and odd episodes. |
+| o29 | covered |  | Câu hỏi "Vì sao da và mắt bị vàng dù bilirubin không tăng?" đã có trong bản tóm tắt (mục 02:09:17). |

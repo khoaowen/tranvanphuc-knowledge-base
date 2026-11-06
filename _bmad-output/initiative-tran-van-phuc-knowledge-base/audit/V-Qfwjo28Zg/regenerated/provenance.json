@@ -1,0 +1,75 @@
+{
+  "ticket": "story 2.4 (id 4), commit f7980cf",
+  "git_head": "f7980cf8e7c4643b004a313ada90faa35bd2dd63",
+  "inputs": [
+    {
+      "path": "historical summary (git show 4e31e57^:...summary.md)",
+      "expected_sha256": "fbae11bf16fa47c8055fe7b309f45dfeb696db23a0009c593504c1351a98203c",
+      "actual_sha256": "fbae11bf16fa47c8055fe7b309f45dfeb696db23a0009c593504c1351a98203c",
+      "match": true
+    },
+    {
+      "path": "videos/2026-10-10-so-135-glutathione-can-bang-oxy-hoa-khu-phuc-hoi-ty-the-va-bao-ve-te-bao-tu-cap-do-phan-tu/transcript.md",
+      "expected_sha256": "dedb6e4d414945da6e0c7895fbcdf5344d5c366305b1bcc7a034eb6cc59776e4",
+      "actual_sha256": "dedb6e4d414945da6e0c7895fbcdf5344d5c366305b1bcc7a034eb6cc59776e4",
+      "match": true
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/final_records.json",
+      "expected_sha256": "af300706e3d70433442cdbdac2ee3ee4ec9b408b2f32e5b1e653fc55a2061d60",
+      "actual_sha256": "af300706e3d70433442cdbdac2ee3ee4ec9b408b2f32e5b1e653fc55a2061d60",
+      "match": true
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/proposed-corrections.json",
+      "expected_sha256": "9ebdd751599622d6d36b5f60704731a377e6ae280434b93a5ab3ba9cff5d750e",
+      "actual_sha256": "9ebdd751599622d6d36b5f60704731a377e6ae280434b93a5ab3ba9cff5d750e",
+      "match": true
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/additional-corrections.json",
+      "expected_sha256": "4d6eb5611e2a3223a5f064ca01ebb45096bc1f9110a9996856f1f77ed79065c4",
+      "actual_sha256": "4d6eb5611e2a3223a5f064ca01ebb45096bc1f9110a9996856f1f77ed79065c4",
+      "match": true
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/revised-summary-draft.md",
+      "expected_sha256": "6c80e4354d7e80c9588f9010c537b74fe977243bb6b8b74e0b4a017735f5b64f",
+      "actual_sha256": "6c80e4354d7e80c9588f9010c537b74fe977243bb6b8b74e0b4a017735f5b64f",
+      "match": true
+    }
+  ],
+  "other_inputs_not_hash_pinned_by_ticket": [
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/human-decisions.md",
+      "sha256": "d281e7b2875db1cbe46d1f787fb5601a9fdc4907539944de22761d4b69ea5295"
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/claims.json",
+      "sha256": "23bc2ccd5bd0b2693095a0732f9067e12d864e741cbf933d9366125c0c787150"
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/omission-anchors.json",
+      "sha256": "eb089616b908eaa3eb05c91012d39dd9a28f017432795336992c4a33ddf616f8"
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/audit/V-Qfwjo28Zg/omissions.md",
+      "sha256": "fc3a7d0bae05188076c003c573b271383654e67a04f2f91b16edd021ecd21c15"
+    },
+    {
+      "path": "topics/vocabulary.md",
+      "sha256": "cde2e3a3864f49410812e5e7ae062b39836428eaa2a76fe5064b01d1965cee1e"
+    },
+    {
+      "path": "_bmad-output/initiative-tran-van-phuc-knowledge-base/summary-contract.md",
+      "sha256": "fb1d2ec08444e4eb307dd21aa5a9f3577a05eb0b453da8e60f9cd819403ca983"
+    }
+  ],
+  "outputs": {
+    "summary.md": "90c7e4aa6f160052663fe934b1c8c3867c79a05267580650be4f4d1a72cb1fec",
+    "transcript.md (copy)": "dedb6e4d414945da6e0c7895fbcdf5344d5c366305b1bcc7a034eb6cc59776e4",
+    "metadata.json (copy)": "e267743ff47d1ce43bd297f7225b464af33ebfe1be77201c72b1d2f19a285b08",
+    "review.md": "8a6e3a0138738ef5f26a758558bbfe605330480a45ea057af42b30a5303841e1"
+  },
+  "all_input_hashes_match": true
+}

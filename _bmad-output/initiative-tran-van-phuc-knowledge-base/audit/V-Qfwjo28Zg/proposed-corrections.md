@@ -67,8 +67,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Oxy hoặc ozon sau đó xâm nhập vào để tạo thành POOH, và protein này giống hệt protein bị hỏng.
-- **proposed:** Protein có dấu chấm bị oxy lợi dụng xâm nhập, hoặc ozon nhường oxy vào, để thành PO trừ; PO trừ lại cướp H+ để tạo thành POOH. Protein đi theo con đường giống hệt lipit (câu này đứng sau dấu đổi người nói trong bản ghi âm).
-- **why:** 'Giống hệt protein bị hỏng' is not in the transcript: the comparison is to the lipid pathway. The summary also skips the PO- step before POOH. The 'y xì như lipit' line follows a speaker-change mark, so the proposal names no speaker for it. Human to confirm the speaker.
+- **proposed:** Protein có dấu chấm bị oxy lợi dụng xâm nhập, hoặc ozon nhường oxy vào, để thành PO trừ; PO trừ lại cướp H+ để tạo thành POOH. Bác sĩ nói protein đi theo con đường "y xì như lipit".
+- **why:** 'Giống hệt protein bị hỏng' is not in the transcript: the comparison is to the lipid pathway. The summary also skips the PO- step before POOH. The 'y xì như lipit' line follows a speaker-change mark, so the proposal names no speaker for it. Human to confirm the speaker. Quyết định người duyệt: bác sĩ là người nói câu "y xì như lipit".
 - **supporting quote** [00:55:15]: "hoặc là ozon nó nhường oxy vào đây để trở thành gì ạ? PO tr-"
 - **more** [00:55:29]: "Để tạo thành là POOH giống hệt protein"
 - **more** [00:55:36]: "y xì như lipit và protein cũng lại giống"
@@ -130,8 +130,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** unresolved
 - **current:** Họ nói đã hết đau cột sống, xương cổ, xương đùi và xương quai xanh, và không còn tê nửa người bên trái.
-- **proposed:** Họ nói không còn đau cột sống, "xương cổ đùi" (bản ghi âm ghi như vậy, không rõ là một vị trí hay hai vị trí) và xương quai xanh, và không còn tê dọc nửa người bên trái.
-- **why:** Stays unresolved. The unpunctuated 'xương cổ đùi' could be one site or two, and the transcript does not settle it. The proposal keeps the spoken words and states the doubt.
+- **proposed:** Họ nói đã hết đau cột sống, xương cổ, xương đùi và xương quai xanh, và không còn tê nửa người bên trái.
+- **why:** Stays unresolved. The unpunctuated 'xương cổ đùi' could be one site or two, and the transcript does not settle it. The proposal keeps the spoken words and states the doubt. Quyết định người duyệt: "xương cổ, xương đùi" là đúng, giữ nguyên câu gốc.
 - **supporting quote** [01:13:48]: "Tôi nhận thấy mình không còn bị đau cột"
 - **more** [01:13:50]: "sống, xương cổ đùi và xương quai xanh"
 - **more** [01:13:58]: "xương. Tôi cũng không còn bị tê dọc nửa"
@@ -290,8 +290,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Có người chỉ cần khoảng 5.600 UI (bản ghi âm ghi như vậy), có người lên tới 6.000 đến 7.000 UI, nhưng đa số dưới 2.000 UI.
-- **proposed:** Có người chỉ có "5 600 UI" (bản ghi âm ghi như vậy, con số không rõ) đã đủ, có người lên tới "6 7000 UI", nhưng đại đa số mọi người là con số trên dưới 2.000 UI.
-- **why:** 'Trên dưới 2000' (around 2000) became 'dưới 2.000' (under 2000). '5 600' is also ambiguous, so the summary's 5.600 is not confirmed.
+- **proposed:** Có người chỉ cần khoảng 5.600 UI, có người lên tới 6.000 đến 7.000 UI (người duyệt xác nhận hai số; bản ghi ghi "5 600" và "6 7000"), nhưng đại đa số mọi người là con số trên dưới 2.000 UI.
+- **why:** 'Trên dưới 2000' (around 2000) became 'dưới 2.000' (under 2000). '5 600' is also ambiguous, so the summary's 5.600 is not confirmed. Quyết định người duyệt: 5.600 và 6.000 đến 7.000 đúng; chỉ sửa thành "trên dưới 2.000".
 - **supporting quote** [02:49:13]: "Có người chỉ có 5 600 UI đã đủ rồi nhưng có người lên tới 6 7000 UI cơ."
 - **more** [02:49:17]: "Vâng. Nhưng đại đa số mọi người là con số trên dưới 2000 UI. Cho nên khi dò liều tôi"
 
@@ -485,8 +485,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** attribution_qualification
 - **current:** Ông so sánh với quy chuẩn của một số nước phát triển như Nhật Bản, nơi giới hạn trên có thể được mở rộng lên 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn nằm trong ngưỡng an toàn.
-- **proposed:** Ông so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như "bản" (bản ghi âm ghi như vậy), nơi giới hạn trên thường được mở rộng lên tới 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn.
-- **why:** The caption says 'như bản'; naming Japan is not safely grounded in it. 'Nhiều' and 'thường' were also softened to 'một số' and 'có thể'. Human to confirm the country from the audio.
+- **proposed:** Ông so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như Nhật Bản (người duyệt xác nhận; bản ghi ghi "bản"), nơi giới hạn trên thường được mở rộng lên tới 1000 hoặc thậm chí 1500 pg/ml, và cho rằng con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn.
+- **why:** The caption says 'như bản'; naming Japan is not safely grounded in it. 'Nhiều' and 'thường' were also softened to 'một số' and 'có thể'. Human to confirm the country from the audio. Quyết định người duyệt: quốc gia là Nhật Bản.
 - **supporting quote** [03:25:43]: "Nếu so sánh với quy chuẩn tham chiếu của nhiều quốc gia phát triển như bản, nơi giới hạn trên của vitamin P12 thường được mở rộng lên tới 1000 picog"
 - **more** [03:25:53]: "[âm nhạc] ml hoặc thậm chí là 1500 thì con số của bác vẫn hoàn toàn nằm trong ngưỡng an toàn của cơ thể."
 
@@ -535,16 +535,16 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** unresolved
 - **current:** Bác sĩ dùng lập luận này để giải thích cơ chế, không phải để khẳng định chẩn đoán cho bất kỳ ai.
-- **proposed:** Đề xuất bỏ câu này vì transcript không có lời nào như vậy của bác sĩ. Nếu muốn giữ một lời nhắc, ghi rõ đây là lời chung của Khánh Lành cuối chương trình (đã có ở c553), không quy cho bác sĩ.
-- **why:** Stays unresolved. The only related text is the host's general closing disclaimer, which does not say that this explanation is not a diagnosis. The quote shows that closing text only and does not support the claim.
+- **proposed:** Bỏ câu này; giữ lời miễn trừ chung của Khánh Lành ở c553, không quy cho bác sĩ.
+- **why:** Stays unresolved. The only related text is the host's general closing disclaimer, which does not say that this explanation is not a diagnosis. The quote shows that closing text only and does not support the claim. Quyết định người duyệt: bỏ c456.
 - **supporting quote** [05:22:25]: "video trên kênh đều trị mang tính chất tham khảo và với mục đích là nâng cao nhận thức kiến thức chăm sóc sức khỏe cho cộng đồng và hoàn toàn không thay thế cho việc chẩn đoán và yểu điều trị y khoa trực tiếp và mỗi cơ thể là một"
 
 ## c471
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Hai glutathion hỏng sẽ khóa vào nhau tạo thành GSSG.
-- **proposed:** Hai glutathion hỏng tạm thời đám vào nhau tạo nên một phức hợp gọi là "GSGS" (bản ghi âm ghi như vậy).
-- **why:** The doctor says 'GSGS', the summary says 'GSSG'. Changing it to either form as a chemistry correction is out of scope, so the proposal keeps the spoken form. 'Tạm thời' is restored.
+- **proposed:** Hai glutathion hỏng sẽ khóa vào nhau tạo thành GSSG.
+- **why:** The doctor says 'GSGS', the summary says 'GSSG'. Changing it to either form as a chemistry correction is out of scope, so the proposal keeps the spoken form. 'Tạm thời' is restored. Quyết định người duyệt: chấp nhận GSSG, giữ câu gốc (bản ghi ghi "GSGS").
 - **supporting quote** [04:31:44]: "vào trạng thái là chúng ta thấy gì? Cả hai kìm này đều hỏng thì các mũi kìm nó đám vào nhau tạm thời để tạo nên một cái phức hợp gọi là GSGS. Thế phức hợp GSGS này thì không hoạt"
 - **more** [04:32:47]: "electron và 2H+ của cái gì? cho vào cái GS đúng không ạ? SG SìG để từ đây lại tạo ra hai cái kìm hoàn chỉnh. Vâng."
 
@@ -563,8 +563,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Các cơ quan này đều thực hiện nhiều chức năng thải độc.
-- **proposed:** Đây là những cơ quan thực hiện rất nhiều chức năng; về thải độc, bản ghi âm ghi "thận cũng thải độc rất nhiều. Gan, não, thận trong ruột của chúng ta rất nhiều" và "thận là cái nơi thải độc" (chưa rõ những cơ quan nào được nói là thải độc).
-- **why:** The transcript says these organs have many functions, and the summary turns this into all of them performing many detox functions. The captions clearly call the kidney a detox site, but the unpunctuated 'Gan, não, thận trong ruột ... rất nhiều' follows a speaker change and is affirmed at the next turn, so it is unclear which organs it covers. The proposal keeps the caption's wording. Human to check which organs detox and who says it.
+- **proposed:** Bác sĩ nói các cơ quan này thực hiện rất nhiều chức năng; riêng thận được gọi rõ là nơi thải độc.
+- **why:** The transcript says these organs have many functions, and the summary turns this into all of them performing many detox functions. The captions clearly call the kidney a detox site, but the unpunctuated 'Gan, não, thận trong ruột ... rất nhiều' follows a speaker change and is affirmed at the next turn, so it is unclear which organs it covers. The proposal keeps the caption's wording. Human to check which organs detox and who says it. Quyết định người duyệt: người nói là bác sĩ; đồng ý câu sửa.
 - **supporting quote** [04:41:54]: "và thận cũng thải độc rất nhiều. Gan, não, thận trong ruột của chúng ta rất nhiều. Vâng. Đúng rồi. Đấy là những cơ quan mà"
 - **more** [04:42:19]: "đang lục phủ ngũ tạng của chúng ta đang thực hiện những chức năng rất nhiều tim rồi đến phổi vân vân. Tất cả như thế này"
 - **more** [04:41:59]: "Đấy là những cơ quan mà chúng ta thực hiện rất nhiều chức năng"
@@ -584,7 +584,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **class:** attribution_qualification
 - **current:** Bác sĩ nói đây là cơ chế, không phải lời khuyên.
 - **proposed:** Bác sĩ nói "đấy là cái cơ chế làm trắng da là như vậy".
-- **why:** 'Không phải lời khuyên' is not said. The host's closing disclaimer is general and not tied to this mechanism.
+- **why:** 'Không phải lời khuyên' is not said. The host's closing disclaimer is general and not tied to this mechanism. Quyết định người duyệt: đồng ý.
 - **supporting quote** [05:01:22]: "đấy là cái cơ chế làm trắng da là như vậy."
 
 ## c529
@@ -600,9 +600,8 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** unresolved
 - **current:** Lưu ý: đây là cách nói trong bản phiên âm, nên người xem nên đối chiếu lại nếu cần.
-- **proposed:** Đề xuất bỏ ghi chú này, hoặc đánh dấu rõ đây là ghi chú của người tóm tắt, không phải nội dung chương trình.
-- **why:** Stays unresolved. This is an editorial note about transcript reliability, not something said in the video, so no supporting quote exists. The figures it refers to were checked at c540.
-- **supporting quote:** none exists. This is an editorial note, not something said in the transcript.
+- **proposed:** Giữ câu, gắn nhãn là ghi chú của người tóm tắt, không phải nội dung chương trình.
+- **why:** Stays unresolved. This is an editorial note about transcript reliability, not something said in the video, so no supporting quote exists. The figures it refers to were checked at c540. Quyết định người duyệt: giữ và gắn nhãn.
 
 ## c549
 - **status:** pending-human-approval
