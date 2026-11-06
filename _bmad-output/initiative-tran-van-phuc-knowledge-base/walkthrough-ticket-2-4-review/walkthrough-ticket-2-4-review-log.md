@@ -79,3 +79,10 @@ Session: unavailable · Timestamp: 2026-11-06T06:45:00+00:00
 Session: unavailable · Timestamp: 2026-11-06T06:55:00+00:00
 
 - Result: owner approved 2.4 and asked to mark it done; plan status set to 'done'. Open items from entry 11 carried forward, not resolved. Commit all (incl. the two unrelated untracked folders) and push.
+
+## 13 — Wrap-up open items — resolved
+
+Session: unavailable · Timestamp: 2026-11-06T07:10:00+00:00
+
+- Result: (1) tag split decided in ticket 1.14, applies in 2.5/2.6: accepted as routed. (2) c286 split decided (brief option 1D), in 2.5. (3) 8 mismatch items belong to 2.6. (4) .md/.json drift: JSON stays frozen; note added to ticket 2.6. (5) claim-map.md generated: 530 unchanged, 23 changed, 3 split, 9 new, 1 removed; totals match report section 5.
+- Evidence: audit/V-Qfwjo28Zg/regenerated/claim-map.md; ticket 2.6 Notes.
