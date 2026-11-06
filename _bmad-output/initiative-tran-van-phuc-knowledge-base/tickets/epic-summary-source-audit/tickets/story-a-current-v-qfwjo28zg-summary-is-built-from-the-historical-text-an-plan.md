@@ -3,7 +3,7 @@ title: '2.4 Build V-Qfwjo28Zg summary from historical text plus 15 approved repl
 type: 'chore'
 ticket: '4'
 created: '2026-11-02'
-status: 'in-review'
+status: 'done'
 baseline_revision: 'f7980cf8e7c4643b004a313ada90faa35bd2dd63'
 route: 'oneshot'
 route_source: 'auto'

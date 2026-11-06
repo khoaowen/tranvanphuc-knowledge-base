@@ -73,3 +73,9 @@ Session: unavailable · Timestamp: 2026-11-06T06:45:00+00:00
 
 - Result: all 8 blocks accepted. Wrap-up proposed: commit at end (user constraint, entry 3). Awaiting confirmation of file set.
 - Open: tag `thiếu máu thiếu sắt` outside vocabulary; c286 two-moment quote; 8 mismatch items undecided; proposed-corrections .md/.json disagree; criterion 8 lacks claim-to-record table; 2.4 not marked done; unrelated untracked folders walkthrough-revised-summary-draft/, review-pr9/.
+
+## 12 — Wrap-up — owner approval
+
+Session: unavailable · Timestamp: 2026-11-06T06:55:00+00:00
+
+- Result: owner approved 2.4 and asked to mark it done; plan status set to 'done'. Open items from entry 11 carried forward, not resolved. Commit all (incl. the two unrelated untracked folders) and push.
