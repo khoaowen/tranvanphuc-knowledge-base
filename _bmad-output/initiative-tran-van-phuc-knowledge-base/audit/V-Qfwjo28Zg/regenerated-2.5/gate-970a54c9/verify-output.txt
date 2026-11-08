@@ -1,0 +1,14 @@
+# verify.py output, 2026-11-08, from the isolated rebuild (/tmp/iso-2.5-cqly): build.py regenerated summary 970a54c9 and a 118-move moves.json (incl. c277).
+# Running verify.py in the workspace instead reads the historical 117-move ../moves.json, which lacks c277, so it would not show the c277 exception.
+# c277 outside window = owner-approved contextual placement. Far claims c297/c301/c464/c465 = accepted for 2.5, decision deferred to 2.6 (owner, 2026-11-08).
+header identical => True
+headings count old/new => (113, 126)
+headings strictly increasing => True
+?t= matches heading time => True
+claims whose text count changed (excl c271,c286) => []
+claims absent from new => ['c402', 'c404', 'c406']
+moved claims located verbatim and inside new heading window => (103, 104)
+moved claims outside window => [('c277', '02:11:08', '04:53:37')]
+moved claims not locatable (flag) => [('c042', 'no quote'), ('c167', 'no quote'), ('c177', 'no quote'), ('c415', 'no quote'), ('c201', 'no quote'), ('c209', 'no quote'), ('c360', 'no quote'), ('c367', 'no quote'), ('c370', 'no quote'), ('c409', 'no quote'), ('c479', 'no quote'), ('c480', 'no quote'), ('c483', 'no quote'), ('c484', 'no quote')]
+far claims still under original heading => [('c297', '02:22:01', '01:28:11'), ('c301', '02:22:01', '01:29:34'), ('c464', '04:19:29', '02:41:18'), ('c465', '04:19:29', '02:41:03')]
+sha256 new => 970a54c9e30fceb11fb27b3011a905f035b8adec38082272672a32a71c80974d

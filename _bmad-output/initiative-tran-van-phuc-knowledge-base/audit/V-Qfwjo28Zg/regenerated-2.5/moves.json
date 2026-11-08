@@ -1,0 +1,821 @@
+[
+ {
+  "claim": "c041",
+  "text": "Khi có thêm một electron lạc, phân tử có 17 electron, ở trạng thái kích thích và trở nên nguy hiểm, vì nó luôn tìm cách cướp một electron và H⁺ để ổn định.",
+  "from_heading": "00:19:12",
+  "to_heading": "00:31:19",
+  "question": " Superoxit là gì, vì sao nó quan trọng?"
+ },
+ {
+  "claim": "c060",
+  "text": "Khi một gốc tự do cướp electron hoặc H+, nó biến phân tử bị cướp thành một gốc tự do mới.",
+  "from_heading": "00:48:55",
+  "to_heading": "00:31:19",
+  "question": " Gốc tự do làm hại màng tế bào như thế nào? Tại sao nó cứ cướp electron và H+ mãi?"
+ },
+ {
+  "claim": "c061",
+  "text": "Gốc mới đó lại đi cướp H+ hoặc electron tiếp, nên tạo thành vòng luẩn quẩn \"cướp H+, cướp electron\".",
+  "from_heading": "00:48:55",
+  "to_heading": "00:31:19",
+  "question": " Gốc tự do làm hại màng tế bào như thế nào? Tại sao nó cứ cướp electron và H+ mãi?"
+ },
+ {
+  "claim": "c042",
+  "text": "Bài nêu enzyme SOD (superoxide dismutase) là thành phần giúp kiểm soát superoxit, buộc các phân tử này \"thỏa thuận\" để không còn gây nguy hiểm.",
+  "from_heading": "00:19:12",
+  "to_heading": "00:33:42",
+  "question": " Enzyme nào kiểm soát superoxit trong cơ thể?"
+ },
+ {
+  "claim": "c150",
+  "text": "Bài hôm nay không đủ thời gian để giải thích sâu, nhưng cơ chế cơ bản theo bác sĩ là: thức đi kèm với hoạt động, ngủ đi kèm với ngừng hoạt động.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Bóng đè khi ngủ là gì, và đường mía thô ảnh hưởng đến nhịp tim như thế nào?"
+ },
+ {
+  "claim": "c151",
+  "text": "Khi chuyển từ thức sang ngủ, cơ thể làm liệt vận động để khi mơ không đấm đá, nói hay mộng du.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Bóng đè khi ngủ là gì, và đường mía thô ảnh hưởng đến nhịp tim như thế nào?"
+ },
+ {
+  "claim": "c152",
+  "text": "Nếu tỉnh mà tay chân bị khóa và miệng bị dán chặt thì sẽ rất khó chịu, đó là nguyên lý của bóng đè.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Bóng đè khi ngủ là gì, và đường mía thô ảnh hưởng đến nhịp tim như thế nào?"
+ },
+ {
+  "claim": "c153",
+  "text": "Bác sĩ nói giai đoạn đầu của giấc ngủ là ngủ mơ, y khoa gọi là REM, khi có nhiều giấc mơ, thường xuất hiện lúc vừa ngủ hoặc sắp thức.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Vì sao người đang mơ thường không làm theo giấc mơ?"
+ },
+ {
+  "claim": "c154",
+  "text": "Nếu trong mơ người ta đánh nhau hoặc nói chuyện mà chân tay vận động theo thì sẽ nguy hiểm, ví dụ như đấm vợ khi đang mơ.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Vì sao người đang mơ thường không làm theo giấc mơ?"
+ },
+ {
+  "claim": "c155",
+  "text": "Vì vậy cơ thể phải ức chế vận động và cơ nói khi ngủ.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Vì sao người đang mơ thường không làm theo giấc mơ?"
+ },
+ {
+  "claim": "c156",
+  "text": "Ông ví não như người lái xe, tay chân và lời nói như bánh xe, còn liệt vận động như cái phanh.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Vì sao người đang mơ thường không làm theo giấc mơ?"
+ },
+ {
+  "claim": "c157",
+  "text": "Bác sĩ nói não dùng hai chất trung gian hóa học.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c158",
+  "text": "Chất thứ nhất được bản ghi ghi là \"G3\", đã được nhắc ở số trước, là một chất liên quan đến thần kinh và cảm giác hạnh phúc.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c159",
+  "text": "Chất thứ hai là glycin, một thành phần tạo nên glutathion.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c160",
+  "text": "Hai chất này làm liệt cơ, khiến người ngủ không cử động, không vận động và không nói lung tung.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c161",
+  "text": "Bản ghi âm ghi là “K G3” và “glycerin” cho cơ chế này; khi chuyển từ thức vào ngủ, việc làm liệt vận động “không làm được kịp thời”, nên người ngủ nói và vận động trong mơ.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c162",
+  "text": "Nếu chuyển từ ngủ sang thức mà phanh chưa nhả, não đã tỉnh và nhận biết được mọi thứ nhưng tay chân và lời nói không cử động được.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c163",
+  "text": "Ở chiều từ ngủ sang thức, bác sĩ nói hạch hạnh nhân báo động; người đó giãy giụa, có cảm giác bị đè ngực không thở được, rồi toát mồ hôi và sợ hãi.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c164",
+  "text": "Bác sĩ ví não như người lái xe, tay chân và lời nói như bánh xe, còn liệt vận động như phanh; khi phối hợp không nhịp nhàng thì dẫn tới bóng đè.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:26:23",
+  "question": " Những chất hóa học nào trên não giúp làm liệt cơ khi ngủ?"
+ },
+ {
+  "claim": "c165",
+  "text": "Bác sĩ nói hầu hết tài liệu khoa học cho rằng đây là hiện tượng không đáng ngại.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:34:11",
+  "question": " Bóng đè có đáng sợ không, khi bị thì phải làm gì? Đặt dao, tỏi, hành dưới giường có hiệu quả không?"
+ },
+ {
+  "claim": "c166",
+  "text": "Khi xảy ra, hít một hơi thật sâu rồi thở ra từ khoảng 15 đến 30 giây, sau đó lấy lại bình tĩnh thì sẽ thoát khỏi tình trạng này.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:34:11",
+  "question": " Bóng đè có đáng sợ không, khi bị thì phải làm gì? Đặt dao, tỏi, hành dưới giường có hiệu quả không?"
+ },
+ {
+  "claim": "c167",
+  "text": "Còn đặt dao, tỏi, hành dưới giường, bác sĩ gọi đây là liệu pháp giả dược, tác dụng chủ yếu là trấn an tâm lý, không phải hiệu quả thực sự.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:34:11",
+  "question": " Bóng đè có đáng sợ không, khi bị thì phải làm gì? Đặt dao, tỏi, hành dưới giường có hiệu quả không?"
+ },
+ {
+  "claim": "c168",
+  "text": "Bác sĩ nói não chiếm khoảng 2% trọng lượng cơ thể nhưng dùng khoảng 20% năng lượng; ti thể tạo năng lượng (ATP) đồng thời sinh gốc tự do với số lượng rất lớn.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Căng thẳng tâm lý kéo dài liên quan thế nào đến bóng đè, ác mộng và lão hóa?"
+ },
+ {
+  "claim": "c169",
+  "text": "Căng thẳng kéo dài làm não bị ức chế và tiêu tốn nhiều năng lượng, sinh thêm nhiều gốc tự do, dẫn tới não sương mù, trầm cảm, căng thẳng và bóng đè.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Căng thẳng tâm lý kéo dài liên quan thế nào đến bóng đè, ác mộng và lão hóa?"
+ },
+ {
+  "claim": "c170",
+  "text": "Người căng thẳng kéo dài dễ ngủ không yên, gặp ác mộng và bóng đè, và bác sĩ nói gốc tự do gây lão hóa nhanh.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Căng thẳng tâm lý kéo dài liên quan thế nào đến bóng đè, ác mộng và lão hóa?"
+ },
+ {
+  "claim": "c171",
+  "text": "Lời khuyên là sống bình thường, làm được gì thì làm, không làm được thì thôi, và không tiếp nhận năng lượng xấu như đọc tin tiêu cực quá nhiều.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Căng thẳng tâm lý kéo dài liên quan thế nào đến bóng đè, ác mộng và lão hóa?"
+ },
+ {
+  "claim": "c173",
+  "text": "Ví dụ bác sĩ nêu việc người bị sốt hôm qua hôm nay đã đòi thuốc, trong khi có thể chờ thêm.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Uống nhiều thuốc giảm đau hay thuốc không cần thiết, ăn uống và lối sống sai có làm tăng gốc tự do không?"
+ },
+ {
+  "claim": "c174",
+  "text": "Ăn uống không đúng cách, lối sống sai và tiếp xúc với chất độc hại, tác nhân nguy hiểm cũng làm sinh nhiều gốc tự do, tác động vào tế bào não.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Uống nhiều thuốc giảm đau hay thuốc không cần thiết, ăn uống và lối sống sai có làm tăng gốc tự do không?"
+ },
+ {
+  "claim": "c175",
+  "text": "Để đi vào giấc ngủ REM, não cần tiết acetylcholine; để chuyển từ ngủ sang thức cần serotonin.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Vì sao táo bón hay hội chứng ruột kích thích có thể liên quan đến bóng đè?"
+ },
+ {
+  "claim": "c176",
+  "text": "Theo bác sĩ, khoảng 95% serotonin được tiết ở ruột và khoảng 5% ở não.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Vì sao táo bón hay hội chứng ruột kích thích có thể liên quan đến bóng đè?"
+ },
+ {
+  "claim": "c177",
+  "text": "Bác sĩ nói những người bị táo bón, hội chứng ruột kích thích, viêm dạ dày ruột không tiết được serotonin, nên dễ bị bóng đè khi mơ màng lúc ngủ, thức.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Vì sao táo bón hay hội chứng ruột kích thích có thể liên quan đến bóng đè?"
+ },
+ {
+  "claim": "c178",
+  "text": "Bác sĩ cho rằng cần giải quyết tình trạng đường ruột này, và các con đường trên đều dẫn tới gốc tự do.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Vì sao táo bón hay hội chứng ruột kích thích có thể liên quan đến bóng đè?"
+ },
+ {
+  "claim": "c179",
+  "text": "Bác sĩ nhắc tới catalase, licopen (bản ghi âm ghi là \"licoben\"), vitamin C, vitamin E, kẽm và selen (bản ghi âm ghi là \"cen\").",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Những chất nào giúp giải quyết gốc tự do, và vì sao kẽm quan trọng?"
+ },
+ {
+  "claim": "c181",
+  "text": "Kẽm là yếu tố hợp đồng với glutathione: nếu thiếu kẽm thì glutathione không có giá trị, vì selen là enzyme chuyển hóa gốc tự do.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Những chất nào giúp giải quyết gốc tự do, và vì sao kẽm quan trọng?"
+ },
+ {
+  "claim": "c182",
+  "text": "Theo bác sĩ, bổ sung đủ các chất này giúp ngủ ngon và tế bào não hoạt động bình thường.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:35:19",
+  "question": " Những chất nào giúp giải quyết gốc tự do, và vì sao kẽm quan trọng?"
+ },
+ {
+  "claim": "c172",
+  "text": "Bác sĩ cho rằng dùng nhiều hóa chất và thuốc không cần thiết đều sinh gốc tự do.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:04:21",
+  "question": " Uống nhiều thuốc giảm đau hay thuốc không cần thiết, ăn uống và lối sống sai có làm tăng gốc tự do không?"
+ },
+ {
+  "claim": "c180",
+  "text": "Bác sĩ nhấn mạnh vitamin C và E rất quan trọng.",
+  "from_heading": "01:31:32",
+  "to_heading": "04:11:00",
+  "question": " Những chất nào giúp giải quyết gốc tự do, và vì sao kẽm quan trọng?"
+ },
+ {
+  "claim": "c415",
+  "text": "Bác sĩ nói đầu tiên là magie, rồi kẽm, canxi, vitamin D3, vitamin tổng hợp (đặc biệt nhóm B), vitamin C và cuối cùng là omega 3.",
+  "from_heading": "03:38:50",
+  "to_heading": "04:11:00",
+  "question": " Những vi chất nào cần bổ sung, theo danh sách của bác sĩ? Vì sao magie và kẽm quan trọng?"
+ },
+ {
+  "claim": "c416",
+  "text": "Ông gọi canxi, D3 và magie là \"bộ ba tam giác vàng\".",
+  "from_heading": "03:38:50",
+  "to_heading": "04:11:00",
+  "question": " Những vi chất nào cần bổ sung, theo danh sách của bác sĩ? Vì sao magie và kẽm quan trọng?"
+ },
+ {
+  "claim": "c417",
+  "text": "Ông nói nếu thiếu magie, kẽm hay các chất này thì các chất chống oxy hóa cũng mất ý nghĩa.",
+  "from_heading": "03:38:50",
+  "to_heading": "04:11:00",
+  "question": " Những vi chất nào cần bổ sung, theo danh sách của bác sĩ? Vì sao magie và kẽm quan trọng?"
+ },
+ {
+  "claim": "c183",
+  "text": "Bác sĩ nói đó là nguyên nhân nhỏ, không phải nguyên nhân chính, vì cơ thể có cơ chế bù trừ.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:42:02",
+  "question": " Bóng đè do thiếu oxy khi ngủ hay do tư thế nằm đè lên tim có đúng không?"
+ },
+ {
+  "claim": "c184",
+  "text": "Bác sĩ cam kết rằng nếu bổ sung đầy đủ vi chất, thực hành lối sống và ăn uống tốt thì bóng đè gần như không còn, chỉ còn rất ít.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:42:02",
+  "question": " Bóng đè do thiếu oxy khi ngủ hay do tư thế nằm đè lên tim có đúng không?"
+ },
+ {
+  "claim": "c185",
+  "text": "Bác sĩ khuyên sống chậm và thực hành hơi thở thiền định để kích thích sóng alpha, rồi dần chuyển sang sóng theta và delta.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:42:02",
+  "question": " Làm thế nào để giảm bóng đè bằng lối sống, thiền định và sóng não?"
+ },
+ {
+  "claim": "c186",
+  "text": "Không để sóng gamma và sóng beta tăng quá nhiều.",
+  "from_heading": "01:31:32",
+  "to_heading": "02:42:02",
+  "question": " Làm thế nào để giảm bóng đè bằng lối sống, thiền định và sóng não?"
+ },
+ {
+  "claim": "c187",
+  "text": "Bác sĩ nói bóng đè là biểu hiện tổn thương ở mức tế bào, phân tử do lối sống, tâm sinh lý, ăn uống và môi trường sai, làm gốc tự do gây mất nhịp giữa \"người lái\" và \"bánh xe\".",
+  "from_heading": "01:31:32",
+  "to_heading": "02:42:02",
+  "question": " Làm thế nào để giảm bóng đè bằng lối sống, thiền định và sóng não?"
+ },
+ {
+  "claim": "c193",
+  "text": "Theo bác sĩ: dưới 30 ng/ml là mức \"vô gia cư\" (cách nói ví của bác sĩ), từ 30 đến 40 là \"nghèo\", từ 40 đến 50 là \"cận nghèo\", từ 50 đến 70 là \"lý tưởng\".",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Nồng độ vitamin D bao nhiêu ng/ml thì được coi là thiếu, nghèo, cận nghèo, lý tưởng và thừa?"
+ },
+ {
+  "claim": "c194",
+  "text": "Bác sĩ nói cần cẩn thận khi duy trì ở mức trên 90 vì sẽ bị thừa, và thừa thì không ổn.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Nồng độ vitamin D bao nhiêu ng/ml thì được coi là thiếu, nghèo, cận nghèo, lý tưởng và thừa?"
+ },
+ {
+  "claim": "c195",
+  "text": "Dược sĩ nước ngoài hướng dẫn bổ sung 50.000 UI mỗi tuần, liên tục 8 tuần thì nồng độ lên tới mức lý tưởng.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?"
+ },
+ {
+  "claim": "c196",
+  "text": "Sau đó chuyển sang bổ sung một ống theo chu kỳ \"trên 1 tháng\" (phần ghi lời nói không rõ ràng).",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?"
+ },
+ {
+  "claim": "c197",
+  "text": "Bác sĩ nói lời khuyên này đúng, không có gì sai.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?"
+ },
+ {
+  "claim": "c198",
+  "text": "Ông nói thêm rằng nếu người ta chưa có kiến thức mà bị bắt ngày nào cũng uống vitamin D thì các bác sẽ \"phập phù không tuân theo\", và nếu mua phải sản phẩm \"đã bị biến tính\" thì có khi uống \"không hiệu quả, không tốt\".",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?"
+ },
+ {
+  "claim": "c199",
+  "text": "Bản ghi nêu tiếp: \"Chính vì như vậy\" mà ở giai đoạn đầu, trong một khoảng thì uống luôn một ống (bản ghi âm ghi \"200.000đ\"; phần này không rõ nghĩa nên không suy đoán thêm), còn trong khoảng khác thì bắt đầu giảm dần.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?"
+ },
+ {
+  "claim": "c200",
+  "text": "Khi đã có kiến thức, theo ông, xu hướng là bổ sung vitamin liều thấp thay vì liều cao một lúc.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Liều vitamin D 50.000 UI mỗi tuần kéo dài bao lâu thì đạt mức lý tưởng, và sau đó duy trì thế nào?"
+ },
+ {
+  "claim": "c201",
+  "text": "Người khỏe mạnh, không có bệnh nền, không có mỡ máu, tiểu đường hay huyết áp cao thì bổ sung liều cao lên nồng độ dễ và hiệu quả.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Người có bệnh nền, nhiều mỡ dưới da hoặc mỡ nội tạng có nên dùng vitamin D liều cao không?"
+ },
+ {
+  "claim": "c202",
+  "text": "Nếu có bệnh nền hoặc tích nhiều mỡ dưới da và mỡ nội tạng, bổ sung liều cao có thể làm tế bào quá tải, gây \"bẫy mỡ\", mụn nội tiết hoặc ngứa.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Người có bệnh nền, nhiều mỡ dưới da hoặc mỡ nội tạng có nên dùng vitamin D liều cao không?"
+ },
+ {
+  "claim": "c203",
+  "text": "Với người có bệnh nền hoặc đã có tuổi, nên giảm dần và bổ sung liều thấp thay cho liều cao.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Người có bệnh nền, nhiều mỡ dưới da hoặc mỡ nội tạng có nên dùng vitamin D liều cao không?"
+ },
+ {
+  "claim": "c204",
+  "text": "Uống dồn làm nồng độ lên xuống rõ rệt, đầu tháng cao, cuối tháng thấp.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Uống vitamin D 50.000 UI một lần mỗi tháng khác gì so với uống đều mỗi ngày?"
+ },
+ {
+  "claim": "c205",
+  "text": "Uống đều hàng ngày giữ nồng độ gần như đường thẳng, và bác sĩ nói cách này tốt hơn.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Uống vitamin D 50.000 UI một lần mỗi tháng khác gì so với uống đều mỗi ngày?"
+ },
+ {
+  "claim": "c206",
+  "text": "50.000 UI chia cho 30 ngày xấp xỉ 1.666 UI mỗi ngày.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Uống vitamin D 50.000 UI một lần mỗi tháng khác gì so với uống đều mỗi ngày?"
+ },
+ {
+  "claim": "c207",
+  "text": "Vitamin D tích lũy trong mỡ khoảng 6 tháng, nên người bận có thể uống dồn, nhưng kém hiệu quả hơn uống đều.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Uống vitamin D 50.000 UI một lần mỗi tháng khác gì so với uống đều mỗi ngày?"
+ },
+ {
+  "claim": "c208",
+  "text": "Theo bác sĩ, nghiên cứu cho thấy nhu cầu thường quanh 2.000 UI mỗi ngày, tùy từng người.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Nhu cầu vitamin D hằng ngày khoảng bao nhiêu và cách dò liều như thế nào?"
+ },
+ {
+  "claim": "c209",
+  "text": "Có người chỉ cần khoảng 5.600 UI, có người lên tới 6.000 đến 7.000 UI (hai con số này là xác nhận của người duyệt; phiên âm chỉ ghi \"5 600\" và \"6 7000\"), nhưng đại đa số mọi người là con số trên dưới 2.000 UI.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Nhu cầu vitamin D hằng ngày khoảng bao nhiêu và cách dò liều như thế nào?"
+ },
+ {
+  "claim": "c210",
+  "text": "Để dò liều, bác sĩ chọn 2.000 UI mỗi ngày, xét nghiệm vài lần để xác định mỗi ngày cần bao nhiêu, rồi duy trì uống đều đặn.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Nhu cầu vitamin D hằng ngày khoảng bao nhiêu và cách dò liều như thế nào?"
+ },
+ {
+  "claim": "c211",
+  "text": "Bác sĩ nhấn mạnh mua vitamin D còn hạn sử dụng và bảo quản tránh ánh sáng, không khí và độ ẩm.",
+  "from_heading": "01:33:05",
+  "to_heading": "02:44:45",
+  "question": " Nhu cầu vitamin D hằng ngày khoảng bao nhiêu và cách dò liều như thế nào?"
+ },
+ {
+  "claim": "c274",
+  "text": "Bác sĩ kể trường hợp chị Ngọc Thơ, giảm từ 56–57 kg xuống 52–53 kg sau khi bổ sung vi chất.",
+  "from_heading": "02:10:50",
+  "to_heading": "04:53:37",
+  "question": " Bổ sung vi chất có giúp giảm cân và đường huyết không? Trường hợp chị Ngọc Thơ và chị Ngân ra sao?"
+ },
+ {
+  "claim": "c275",
+  "text": "Bác sĩ giải thích rằng khi glutathion hoạt động hiệu quả, quá trình đốt cháy năng lượng tạo ra ATP, CO2 và nước diễn ra tốt hơn, giúp đốt đường, mỡ và đạm thừa.",
+  "from_heading": "02:10:50",
+  "to_heading": "04:53:37",
+  "question": " Bổ sung vi chất có giúp giảm cân và đường huyết không? Trường hợp chị Ngọc Thơ và chị Ngân ra sao?"
+ },
+ {
+  "claim": "c276",
+  "text": "Bác sĩ cũng kể trường hợp chị Ngân, điều dưỡng ở một bệnh viện lớn tại Hà Nội, có chồng bị tiểu đường: sau khi bổ sung vi chất, đường huyết giảm, và bác sĩ nói nhiều người không cần dùng thuốc đường huyết nữa.",
+  "from_heading": "02:10:50",
+  "to_heading": "04:53:37",
+  "question": " Bổ sung vi chất có giúp giảm cân và đường huyết không? Trường hợp chị Ngọc Thơ và chị Ngân ra sao?"
+ },
+ {
+  "claim": "c302",
+  "text": "Bác sĩ hướng dẫn trong vài tiếng đồng hồ, và sau đó chị bổ sung vi chất theo từng bước, nâng dần liều.",
+  "from_heading": "02:22:01",
+  "to_heading": "02:43:43",
+  "question": " Chị Nhung đã cải thiện nhịp tim nhanh và bóng đè như thế nào sau khi bổ sung vi chất?"
+ },
+ {
+  "claim": "c303",
+  "text": "Bác sĩ nói hiệu quả thay đổi rõ rệt.",
+  "from_heading": "02:22:01",
+  "to_heading": "02:43:43",
+  "question": " Chị Nhung đã cải thiện nhịp tim nhanh và bóng đè như thế nào sau khi bổ sung vi chất?"
+ },
+ {
+  "claim": "c304",
+  "text": "Hiện nay thỉnh thoảng vẫn còn nhịp tim tăng nhanh do yếu tố tâm lý.",
+  "from_heading": "02:22:01",
+  "to_heading": "02:43:43",
+  "question": " Chị Nhung đã cải thiện nhịp tim nhanh và bóng đè như thế nào sau khi bổ sung vi chất?"
+ },
+ {
+  "claim": "c305",
+  "text": "Bác sĩ nói nếu mua được vi chất tốt, đúng và chuẩn thì bổ sung sẽ tốt lên nhiều.",
+  "from_heading": "02:22:01",
+  "to_heading": "02:43:43",
+  "question": " Chị Nhung đã cải thiện nhịp tim nhanh và bóng đè như thế nào sau khi bổ sung vi chất?"
+ },
+ {
+  "claim": "c317",
+  "text": "Phần nhận xét tính BMI khoảng 18,67.",
+  "from_heading": "02:53:59",
+  "to_heading": "03:09:46",
+  "question": " Chỉ số cơ thể của bác Lương Trắc Nghiên như thế nào: chiều cao, cân nặng, số đo ba vòng?"
+ },
+ {
+  "claim": "c318",
+  "text": "Phần nhận xét nói lớp mỡ dưới da gần như mất hoàn toàn và mỡ nội tạng bị giảm.",
+  "from_heading": "02:53:59",
+  "to_heading": "03:09:46",
+  "question": " Hình thể gầy của bác Lương Trắc Nghiên phản ánh tình trạng dinh dưỡng và cơ bắp như thế nào?"
+ },
+ {
+  "claim": "c319",
+  "text": "Điều đáng lo nhất là teo cơ nghiêm trọng, do quá trình dị hóa kéo dài nhiều thập kỷ, khi cơ thể thiếu dinh dưỡng thì tự phân hủy cơ bắp để lấy năng lượng.",
+  "from_heading": "02:53:59",
+  "to_heading": "03:09:46",
+  "question": " Hình thể gầy của bác Lương Trắc Nghiên phản ánh tình trạng dinh dưỡng và cơ bắp như thế nào?"
+ },
+ {
+  "claim": "c320",
+  "text": "Nhận xét ghi BMI 18,67 ở ngưỡng gần suy kiệt.",
+  "from_heading": "02:53:59",
+  "to_heading": "03:09:46",
+  "question": " Hình thể gầy của bác Lương Trắc Nghiên phản ánh tình trạng dinh dưỡng và cơ bắp như thế nào?"
+ },
+ {
+  "claim": "c325",
+  "text": "Phần nhận xét cho rằng MPV giảm nghĩa là tiểu cầu nhỏ và kém sức sống, khả năng tự sửa tổn thương vi mạch chậm và mạch máu dễ bầm tím.",
+  "from_heading": "02:55:58",
+  "to_heading": "03:13:53",
+  "question": " MPV giảm và MCV, MCH tăng nhẹ có ý nghĩa gì ở bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c326",
+  "text": "Phần nhận xét nói MCV và MCH “nằm ở ngưỡng cận trên và tăng nghệ” (bản ghi âm ghi như vậy), vẽ nên hình ảnh hồng cầu phình to bất thường; sau đó nói khả năng nhả oxy cho các mô “bị trạch nhịp” (bản ghi âm ghi như vậy).",
+  "from_heading": "02:55:58",
+  "to_heading": "03:13:53",
+  "question": " MPV giảm và MCV, MCH tăng nhẹ có ý nghĩa gì ở bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c327",
+  "text": "Số lượng hồng cầu có thể chưa thấp đến mức thiếu máu cấp, nhưng cơ thể có thể đang thiếu máu chức năng và đói oxy.",
+  "from_heading": "02:55:58",
+  "to_heading": "03:13:53",
+  "question": " MPV giảm và MCV, MCH tăng nhẹ có ý nghĩa gì ở bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c328",
+  "text": "Nhận xét cho rằng nguyên nhân là tủy xương kiệt quệ sau nhiều năm, cộng với hít bụi gỗ, khói thuốc và chế độ ăn thiếu đạm, thiếu vi chất.",
+  "from_heading": "02:55:58",
+  "to_heading": "03:13:53",
+  "question": " MPV giảm và MCV, MCH tăng nhẹ có ý nghĩa gì ở bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c334",
+  "text": "Phần nhận xét ví gan như bếp nấu năng lượng, AST tăng đơn độc giống ngọn khói từ một bếp bị tổn thương vi thể.",
+  "from_heading": "02:56:30",
+  "to_heading": "03:17:03",
+  "question": " Vì sao AST tăng 53,7 trong khi ALT bình thường ở bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c335",
+  "text": "Nguyên nhân được nêu là khói thuốc lá kéo dài nhiều năm, uất ức kéo dài, cộng với độc tố từ các đợt thuốc tây khi cấp cứu bệnh phổi và viêm đường ruột mạn tính.",
+  "from_heading": "02:56:30",
+  "to_heading": "03:17:03",
+  "question": " Vì sao AST tăng 53,7 trong khi ALT bình thường ở bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c339",
+  "text": "Phần nhận xét nói đây không phải bệnh của người ăn ngon mà là suy thoái chuyển hóa do tế bào bị bỏ đói.",
+  "from_heading": "02:57:13",
+  "to_heading": "03:18:45",
+  "question": " Vì sao axit uric và cholesterol tăng ở người gầy, ăn đạm bạc như bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c340",
+  "text": "Đường ruột viêm mạn tính làm không hấp thu được đạm, nên cơ thể tự phân hủy cơ bắp, giải phóng purin khiến axit uric tăng vọt.",
+  "from_heading": "02:57:13",
+  "to_heading": "03:18:45",
+  "question": " Vì sao axit uric và cholesterol tăng ở người gầy, ăn đạm bạc như bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c341",
+  "text": "Gan và thận thiếu vi chất nên giảm khả năng đào thải, và tinh thể urat có thể lắng đọng ở khớp và thành mạch, gây đau gút.",
+  "from_heading": "02:57:13",
+  "to_heading": "03:18:45",
+  "question": " Vì sao axit uric và cholesterol tăng ở người gầy, ăn đạm bạc như bác Lương Trắc Nghiên?"
+ },
+ {
+  "claim": "c342",
+  "text": "Bác sĩ nói người ta thường cho rằng axit uric cao là do béo, ăn nhiều đạm và mỡ, nhưng nhiều người rất gầy vẫn có mỡ máu và axit uric cao cùng chức năng gan có vấn đề.",
+  "from_heading": "02:57:13",
+  "to_heading": "04:03:09",
+  "question": " Người gầy cũng bị axit uric cao và mỡ máu cao là vì sao?"
+ },
+ {
+  "claim": "c343",
+  "text": "Ông cho rằng đây cũng là một vòng xoắn liên quan đến gốc tự do.",
+  "from_heading": "02:57:13",
+  "to_heading": "04:03:09",
+  "question": " Người gầy cũng bị axit uric cao và mỡ máu cao là vì sao?"
+ },
+ {
+  "claim": "c356",
+  "text": "TSAT được tính bằng sắt huyết thanh chia cho TIBC nhân 100, ra 28,84%, trong khoảng bình thường 20 đến 50%.",
+  "from_heading": "02:57:43",
+  "to_heading": "03:21:06",
+  "question": " Chỉ số TSAT 28,84% có nghĩa là gì, và feritin 428,1 tăng có đáng lo về quá tải sắt không?"
+ },
+ {
+  "claim": "c357",
+  "text": "Phần nhận xét nói lượng sắt lưu hành vẫn ổn định.",
+  "from_heading": "02:57:43",
+  "to_heading": "03:21:06",
+  "question": " Chỉ số TSAT 28,84% có nghĩa là gì, và feritin 428,1 tăng có đáng lo về quá tải sắt không?"
+ },
+ {
+  "claim": "c358",
+  "text": "Feritin 428,1 chỉ vượt nhẹ ngưỡng trên 400, không đáng lo về quá tải hay ngộ độc sắt.",
+  "from_heading": "02:57:43",
+  "to_heading": "03:21:06",
+  "question": " Chỉ số TSAT 28,84% có nghĩa là gì, và feritin 428,1 tăng có đáng lo về quá tải sắt không?"
+ },
+ {
+  "claim": "c359",
+  "text": "Feritin tăng nhẹ được giải thích là do protein phản ứng pha cấp, phản ứng tự vệ của cơ thể trước viêm mạn tính, và cơ thể đang giữ bớt sắt trong kho để ngăn vi khuẩn lợi dụng.",
+  "from_heading": "02:57:43",
+  "to_heading": "03:21:06",
+  "question": " Chỉ số TSAT 28,84% có nghĩa là gì, và feritin 428,1 tăng có đáng lo về quá tải sắt không?"
+ },
+ {
+  "claim": "c360",
+  "text": "Phần nhận xét nói kết hợp kho sắt đóng và lượng sắt lưu hành giảm không gây nguy hiểm đến tính mạng, nhưng làm chậm phân phối năng lượng tạo máu.",
+  "from_heading": "02:57:43",
+  "to_heading": "03:21:06",
+  "question": " Các chỉ số sắt này biểu hiện ra triệu chứng gì trên thực tế?"
+ },
+ {
+  "claim": "c361",
+  "text": "Biểu hiện gồm mệt mỏi dai dẳng, sức bền giảm, hồi phục chậm sau mỗi đợt ốm hoặc đợt cấp COPD, và đôi lúc lồng ngực có cảm giác nén nặng.",
+  "from_heading": "02:57:43",
+  "to_heading": "03:21:06",
+  "question": " Các chỉ số sắt này biểu hiện ra triệu chứng gì trên thực tế?"
+ },
+ {
+  "claim": "c363",
+  "text": "Transcript mô tả giãn phế nang trung tâm tiểu thùy ở cả hai lá phổi, khiến các vách phế nang bị bào mòn, vỡ và biến dạng thành túi khí không còn khả năng đàn hồi.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:28:54",
+  "question": " Kết quả chụp CT lồng ngực của bác Lương Trắc Nghiên ghi nhận những gì? Vì sao phổi bị tổn thương như vậy?"
+ },
+ {
+  "claim": "c364",
+  "text": "Thùy giữa của phổi phải được mô tả là đã xẹp hoàn toàn do đàm đặc và tổ chức xơ hóa xâm lấn kéo dài.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:28:54",
+  "question": " Kết quả chụp CT lồng ngực của bác Lương Trắc Nghiên ghi nhận những gì? Vì sao phổi bị tổn thương như vậy?"
+ },
+ {
+  "claim": "c365",
+  "text": "Đường dẫn khí bị thu hẹp, xơ cứng và đóng cặn.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:28:54",
+  "question": " Kết quả chụp CT lồng ngực của bác Lương Trắc Nghiên ghi nhận những gì? Vì sao phổi bị tổn thương như vậy?"
+ },
+ {
+  "claim": "c366",
+  "text": "Theo transcript, nhựa thuốc lá kết hợp với bụi gỗ mịn bám chặt vào các phế nang qua nhiều năm.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:28:54",
+  "question": " Kết quả chụp CT lồng ngực của bác Lương Trắc Nghiên ghi nhận những gì? Vì sao phổi bị tổn thương như vậy?"
+ },
+ {
+  "claim": "c367",
+  "text": "Bác sĩ liên hệ với việc bác hút thuốc để quên nỗi buồn sau khi vợ mất và làm nghề thợ mộc hàng chục năm.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:28:54",
+  "question": " Kết quả chụp CT lồng ngực của bác Lương Trắc Nghiên ghi nhận những gì? Vì sao phổi bị tổn thương như vậy?"
+ },
+ {
+  "claim": "c368",
+  "text": "Transcript kể rằng đợt suy hô hấp cấp tính năm ngoái khiến bác phải cào xé từng hơi thở, với cân nặng 42 kg.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:31:26",
+  "question": " Bác Nghiên có từng bị suy hô hấp cấp không, và động mạch chủ có vấn đề gì?"
+ },
+ {
+  "claim": "c369",
+  "text": "CT cũng cho thấy động mạch chủ có các mảng vôi hóa kéo dài và thoái hóa cột sống ngực nghiêm trọng.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:31:26",
+  "question": " Bác Nghiên có từng bị suy hô hấp cấp không, và động mạch chủ có vấn đề gì?"
+ },
+ {
+  "claim": "c370",
+  "text": "Theo bác sĩ, canxi bị rút khỏi xương do suy dinh dưỡng, thiếu vitamin D và magie kéo dài, rồi bám vào thành mạch máu, khiến động mạch trở nên xơ cứng.",
+  "from_heading": "02:59:04",
+  "to_heading": "03:31:26",
+  "question": " Bác Nghiên có từng bị suy hô hấp cấp không, và động mạch chủ có vấn đề gì?"
+ },
+ {
+  "claim": "c408",
+  "text": "Bác sĩ nói không nên cố quá.",
+  "from_heading": "03:36:48",
+  "to_heading": "04:09:52",
+  "question": " Bác Nghiên nên tập thở như thế nào để an toàn với sức yếu?"
+ },
+ {
+  "claim": "c409",
+  "text": "Bác có thể tập thở đơn giản theo \"1 1,5\", tức là cố gắng kéo dài thì thở ra một chút (bản ghi âm ghi \"thì sau ra\"; người duyệt xác nhận là thì thở ra) để đẩy khí cạn ra, tuyệt đối không cố gắng; và nếu nhịn được 15 giây, 10 giây thì chỉ giảm xuống độ 8, 9 giây để giữ an toàn (ghi chú của người tóm tắt: bản ghi dùng \"nhịn được\", còn người duyệt xác nhận kỹ thuật này là kéo dài thì thở ra, không phải nín thở; số giây giữ theo nguồn, chưa rõ nghĩa).",
+  "from_heading": "03:36:48",
+  "to_heading": "04:09:52",
+  "question": " Bác Nghiên nên tập thở như thế nào để an toàn với sức yếu?"
+ },
+ {
+  "claim": "c410",
+  "text": "Bác sĩ nói bác có thể “chở thở 1 1,5 thôi đã” (bản ghi âm ghi như vậy), rồi nâng dần lên 1, “thở đến ba thì”, sau đó “thở đến 478”; bản ghi không nói đó là nín thở.",
+  "from_heading": "03:36:48",
+  "to_heading": "04:09:52",
+  "question": " Bác Nghiên nên tập thở như thế nào để an toàn với sức yếu?"
+ },
+ {
+  "claim": "c466",
+  "text": "Chị Hằng đã uống thuốc trầm cảm và thuốc thần kinh nhiều năm mà không đỡ.",
+  "from_heading": "04:19:29",
+  "to_heading": "04:44:28",
+  "question": " Vì sao cần bổ sung vi chất cùng với glutathion, và chị Hằng đã thay đổi thế nào?"
+ },
+ {
+  "claim": "c467",
+  "text": "Sau khi bổ sung vi chất, bác sĩ nói chị \"tốt lên\" và thoát khỏi trầm cảm, dù bác sĩ cũng nói đây là một cơ chế hiệp đồng chứ không phải một viên thuốc đơn lẻ.",
+  "from_heading": "04:19:29",
+  "to_heading": "04:44:28",
+  "question": " Vì sao cần bổ sung vi chất cùng với glutathion, và chị Hằng đã thay đổi thế nào?"
+ },
+ {
+  "claim": "c468",
+  "text": "Bác sĩ thuật lại (lời bác sĩ kể, không phải ca đã được kiểm chứng) rằng có người viết cả những lá thư dài, nói đã đứng trên cây cầu lớn của Hà Nội định nhảy xuống nhưng nghĩ đến mẹ già, con thơ nên quay trở về; ông nói sau khi bổ sung vi chất thì những người từng bế tắc đó thấy cuộc đời \"tươi vui\".",
+  "from_heading": "04:19:29",
+  "to_heading": "04:44:28",
+  "question": " Vì sao cần bổ sung vi chất cùng với glutathion, và chị Hằng đã thay đổi thế nào?"
+ },
+ {
+  "claim": "c470",
+  "text": "Bác sĩ nói liên kết cacbon gamma giữa glutamat và cystein là bước quan trọng nhất, có thể coi như đã hoàn thành khoảng 2/3 cấu trúc.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Glutathion gồm những axit amin nào và chúng liên kết với nhau như thế nào?"
+ },
+ {
+  "claim": "c471",
+  "text": "Glycin là cánh tay thứ hai và được gắn vào sau.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Glutathion gồm những axit amin nào và chúng liên kết với nhau như thế nào?"
+ },
+ {
+  "claim": "c472",
+  "text": "Để cơ thể tổng hợp được, khi ăn cần đủ glutamat, cystein và glycin.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Glutathion gồm những axit amin nào và chúng liên kết với nhau như thế nào?"
+ },
+ {
+  "claim": "c476",
+  "text": "Gốc tự do thì đi cướp electron và H+, nên glutathion gắp và trung hòa chúng.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Phần nào của glutathion trực tiếp gắp chất độc và gốc tự do?"
+ },
+ {
+  "claim": "c478",
+  "text": "Sau khi nhường electron và H+, mũi kìm bị hỏng, và glutathion được ký hiệu là GSH.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ },
+ {
+  "claim": "c479",
+  "text": "Hai glutathion hỏng sẽ khóa vào nhau tạo thành GSSG.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ },
+ {
+  "claim": "c480",
+  "text": "Ghi chú: GSSG là xác nhận của người duyệt; phiên âm không chứa (phiên âm ghi \"GSGS\").",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ },
+ {
+  "claim": "c481",
+  "text": "Được chuyển đến một \"nhà máy\" tái tạo (bản ghi viết là \"redacta\"), nơi cần năng lượng NADPH từ hô hấp tế bào.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ },
+ {
+  "claim": "c482",
+  "text": "NADPH cung cấp electron và H+ để tạo lại hai glutathion hoàn chỉnh.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ },
+ {
+  "claim": "c483",
+  "text": "Ghi chú: NADPH là xác nhận của người duyệt; phiên âm không ghi đúng \"NADPH\"; có \"NA\"/\"DPH\" ngắt dòng và \"NADH\".",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ },
+ {
+  "claim": "c484",
+  "text": "Bác sĩ dùng cách này để giải thích vì sao cơ thể không vứt bỏ glutathion sau khi dùng.",
+  "from_heading": "04:21:40",
+  "to_heading": "04:29:03",
+  "question": " Sau khi glutathion đã gắp chất độc thì điều gì xảy ra, và cơ thể có tái tạo lại không?"
+ }
+]

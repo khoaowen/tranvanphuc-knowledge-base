@@ -1,0 +1,12 @@
+{
+ "source": "regenerated/summary.md (ticket 2.4)",
+ "source_sha256": "90c7e4aa6f160052663fe934b1c8c3867c79a05267580650be4f4d1a72cb1fec",
+ "summary": "regenerated-2.5/summary.md",
+ "summary_sha256": "606f844130796eceb5863ada76b5e634b6f2f4be4fab94abd8e707fa4be052c2",
+ "transcript_sha256": "dedb6e4d414945da6e0c7895fbcdf5344d5c366305b1bcc7a034eb6cc59776e4",
+ "builder": "regenerated-2.5/build.py",
+ "verifier": "regenerated-2.5/verify.py",
+ "moved_claims": 117,
+ "new_headings": 13,
+ "status": "temporary, not reviewed, not published; videos/ untouched"
+}

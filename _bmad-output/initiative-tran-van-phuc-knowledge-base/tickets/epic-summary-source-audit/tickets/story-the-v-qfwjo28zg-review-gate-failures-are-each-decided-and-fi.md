@@ -72,4 +72,10 @@ Walk the owner through the claims the review gate fails (48 on the 2.4 summary) 
 - Risk high: medical content for the public; an accepted wrong claim publishes. Check beyond the criteria: a second reader re-reads every claim decided "accept" against the transcript before the final run.
 - hitl: the owner decides each claim.
 - Source of truth (owner, 2026-11-06): `audit/V-Qfwjo28Zg/proposed-corrections.md` carries the owner's decisions on c070, c111, c201, c377 and others ("Quyết định người duyệt" in each `why`). `proposed-corrections.json` is frozen at hash `9ebdd751…` with `pending-human-approval` and is stale for those items. Do not edit the JSON here; whoever applies corrections later reconciles from the `.md` and `human-decisions.md`.
+- Baseline update (owner, 2026-11-08): start from the 2.5 summary `regenerated-2.5/summary.md` (`970a54c9…`) and its gate run 2, `regenerated-2.5/gate-970a54c9/`. That run has 42 fails (not 48), 21 concerns (12 material), 16 omissions and coverage_complete false. `gate-970a54c9/claim-map.md` maps its claims to 2.5 run 1 and to 2.4. Also bring in from 2.5:
+  - Duplicates to decide (move, drop or keep): c297, c301, c464, c465.
+  - Moved claims with no quote, now failing: c042, c167, c209, c360, c367, c370, c480, c483, c484. Check for protected wording first.
+  - The tag split from 1.14 (`thiếu máu`, `thiếu sắt`) must be applied to the header.
+  - The c277 placement at 04:53:37 is an owner exception.
+  Approach: write a decision brief grouped by issue type. Runs differ: 15 claims changed status between 2.5 runs 1 and 2 with no text change, so agree with the owner how many paid reruns are allowed before the first one.
 - Claim-to-record map for the 2.4 summary: `audit/V-Qfwjo28Zg/regenerated/claim-map.md` (530 unchanged, 26 rewritten or split, 9 new without a record, 1 removed). Use it for the merged claim list; new claims have no audit verdict until a new audit.
