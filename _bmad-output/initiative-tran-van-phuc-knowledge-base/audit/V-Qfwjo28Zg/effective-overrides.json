@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c158",
+  "original_class": "supported",
+  "effective_class": "mismatch",
+  "reason": "Câu tóm tắt đặt \"tim đập nhanh\" vào cảnh ngủ sang thức. Trong bản ghi, \"Và tim đập nhanh\" (02:32:16) thuộc cảnh thức chuyển sang ngủ không có phanh; cảnh ngủ sang thức (02:32:26 trở đi) chỉ nêu giãy giụa, cảm giác đè ngực không thở được, toát mồ hôi và sợ. Ghi chú gốc gọi đây là \"minor conflation\", nhưng chi tiết bị gán sang kịch bản ngược nên không còn là supported.",
+  "supersedes": "final_records.json c158 (class supported, pass2_class null), giữ nguyên làm lịch sử",
+  "evidence": [
+   {
+    "quote": "Và tim đập nhanh.",
+    "timestamp": "02:32:16"
+   },
+   {
+    "quote": "Đó là chúng ta đang từ thức chuyển sang ngủ nhưng lại không có phanh.",
+    "timestamp": "02:32:20"
+   },
+   {
+    "quote": "Trạng thái thứ hai là chiều ngược lại đang từ ngủ sang thức.",
+    "timestamp": "02:32:28"
+   },
+   {
+    "quote": "cảm giác như đang có người đè vào ngực mình không thở được.",
+    "timestamp": "02:33:20"
+   },
+   {
+    "quote": "dậy cái toát mồ hôi ra và chúng ta sợ",
+    "timestamp": "02:33:46"
+   }
+  ],
+  "pass2_class": "mismatch",
+  "pass2_status": "rechecked_after_review",
+  "pass2_note": "Kiểm lại độc lập sau rà soát bằng cách đọc 02:30:56-02:34:11 của bản ghi: \"tim đập nhanh\" chỉ xuất hiện ở cảnh thức sang ngủ. Không tìm thấy nó trong cảnh ngủ sang thức. Phân loại mismatch.",
+  "correction": "additional-corrections.json#c158 (pending-human-approval)"
+ }
+]

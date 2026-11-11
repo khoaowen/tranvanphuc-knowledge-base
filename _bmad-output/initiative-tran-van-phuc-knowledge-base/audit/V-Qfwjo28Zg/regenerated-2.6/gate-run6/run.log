@@ -1,0 +1,15 @@
+V-Qfwjo28Zg: reviewed chunk 1/11
+V-Qfwjo28Zg: reviewed chunk 2/11
+transient error #1: waiting 12.6s before retry
+V-Qfwjo28Zg: reviewed chunk 3/11
+V-Qfwjo28Zg: reviewed chunk 4/11
+V-Qfwjo28Zg: reviewed chunk 5/11
+V-Qfwjo28Zg: reviewed chunk 6/11
+V-Qfwjo28Zg: reviewed chunk 7/11
+V-Qfwjo28Zg: reviewed chunk 8/11
+V-Qfwjo28Zg: chunk 9/11 invalid response (c044: quote is not verbatim transcript text: '>> Cái thứ hai là oxy già tức là H2O2 đúng\nkhông ạ?\n>> Vâng.\n>> Oxi già là H2O2.'; c492: quote is not verbatim transcript text: 'Gốc đầu tiên tức là ký hiệu\nviết cho nó nhanh là O2 và có một dấu\nchấm đúng khôn'); retrying
+V-Qfwjo28Zg: reviewed chunk 9/11
+V-Qfwjo28Zg: reviewed chunk 10/11
+V-Qfwjo28Zg: reviewed chunk 11/11
+V-Qfwjo28Zg: coverage audit done
+reviewed 1, failed 0

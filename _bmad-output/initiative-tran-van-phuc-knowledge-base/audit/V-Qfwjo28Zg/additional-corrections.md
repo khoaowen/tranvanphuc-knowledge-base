@@ -15,6 +15,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 
 ## c156
 - **status:** pending-human-approval
+- **supersedes:** proposed-corrections.json (cùng id; bản này là bản hiện hành)
 - **class:** mismatch
 - **current:** Bản ghi âm ghi là "K G3" và "glycerin" cho cùng cơ chế này; cơ chế liệt vận động không được kịp nhả.
 - **proposed:** Bản ghi âm ghi là “K G3” và “glycerin” cho cơ chế này; khi chuyển từ thức vào ngủ, việc làm liệt vận động “không làm được kịp thời”, nên người ngủ nói và vận động trong mơ.
@@ -25,9 +26,10 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 
 ## c275
 - **status:** pending-human-approval
+- **supersedes:** proposed-corrections.json (cùng id; bản này là bản hiện hành)
 - **class:** attribution_qualification
 - **current:** Người dẫn nói vitamin C và vitamin E cũng là các chất liên quan đến gốc tự do, và glutathion cũng vậy.
-- **proposed:** Bác sĩ nhắc lại: “Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do”; sau đó đoạn hội thoại nhắc “Glutat mà chúng ta đang nói hôm nay”.
+- **proposed:** Bác sĩ nhắc lại: “Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do”.
 - **why:** Câu cũ gán phần này cho người dẫn và làm nhẹ cách nói “cũng là gốc tự do”. Đề xuất giữ nguyên lời nói, không sửa bằng kiến thức ngoài bản ghi.
 - **supporting quote** [02:13:39]: "Lúc ấy tôi nói là gì ạ? Vitamin C"
 - **more** [02:13:42]: "cũng là gốc tự do, vitamin E cũng là gốc tự do đúng không ạ?"
@@ -38,7 +40,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **class:** supported
 - **current:** Bác sĩ khuyên: chỉ uống thuốc khi thật sự cần, không uống cả nắm thuốc mỗi ngày (bác sĩ nhắc rằng vi chất không phải thuốc, còn thuốc là để chữa bệnh); giảm rượu bia và thuốc lá; tránh môi trường độc hại như thuốc trừ sâu, thuốc bảo vệ thực vật; giữ gìn để không nhiễm vi khuẩn, virus, vì những việc này làm tiêu tốn glutathione.
 - **proposed:** Bác sĩ khuyên chỉ uống thuốc khi thật sự cần, không uống cả một vốc thuốc một ngày; ông nói vi chất không phải thuốc, còn thuốc để chữa bệnh. Ông cũng nói giảm rượu chè, giảm thuốc lá bỏ đi, tránh để thuốc trừ sâu và thuốc bảo vệ thực vật xâm nhập cơ thể, và giữ gìn để không nhiễm vi khuẩn, virus vì sẽ tiêu tốn “Glutaton”.
-- **why:** Câu cũ thay “rượu chè” bằng “rượu bia”, bỏ cách nói về thuốc lá, và chuẩn hóa “Glutaton”.
+- **why:** Câu cũ thay “rượu chè” bằng “rượu bia”, đổi “thuốc lá bỏ đi” thành “thuốc lá” (cách nói “bỏ đi” trong bản ghi chưa rõ nghĩa), và chuẩn hóa “Glutaton”.
 - **supporting quote** [05:17:40]: "Khi nào thật sự cần uống thuốc mới uống chứ đừng có uống cả một vốc thuốc một ngày."
 - **more** [05:17:50]: "chúng ta giảm rượu chè, chúng ta giảm thuốc lá bỏ đi."
 - **more** [05:17:55]: "Đừng để thuốc trừ sâu, đừng để thuốc bảo vệ thực vật nó xâm nhập vào cơ thể chúng ta nữa."
@@ -66,6 +68,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **current:** Lúc đó hạch hạnh nhân báo động, gây toát mồ hôi, tim đập nhanh, cảm giác bị đè ngực, khó thở, sợ hãi.
 - **proposed:** Ở chiều từ ngủ sang thức, bác sĩ nói hạch hạnh nhân báo động; người đó giãy giụa, có cảm giác bị đè ngực không thở được, rồi toát mồ hôi và sợ hãi.
 - **why:** Câu cũ gộp “tim đập nhanh” từ chiều thức sang ngủ vào mô tả chiều ngủ sang thức.
+- **effective class (sau rà soát):** mismatch, xem `effective-overrides.json`. Trường `class` ở trên là phân loại lịch sử và giữ nguyên.
 - **supporting quote** [02:33:16]: "Báo động thì dẫn tới là chúng ta sẽ giãy giụa."
 - **more** [02:33:20]: "cảm giác như đang có người đè vào ngực mình không thở được."
 - **more** [02:33:46]: "dậy cái toát mồ hôi ra và chúng ta sợ"
@@ -140,10 +143,11 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 
 ## c013
 - **status:** pending-human-approval
+- **supersedes:** proposed-corrections.json (cùng id; bản này là bản hiện hành)
 - **class:** attribution_qualification
 - **current:** Hình thành gốc tự do bắt đầu từ việc các chất xâm nhập vào cơ thể.
-- **proposed:** Bác sĩ nói “có thể nói rằng” hầu hết các loại bệnh tật có con đường đi từ quá trình các chất xâm nhập vào cơ thể, hình thành gốc tự do, rồi cuối cùng phát sinh bệnh tật; ông cũng nói gốc tự do có hai nguồn, trong đó có con đường nội sinh.
-- **why:** Câu cũ tách một phần của “con đường đi” của bệnh tật thành khẳng định chung về sự hình thành gốc tự do, đồng thời bỏ giới hạn và nguồn nội sinh được nói riêng.
+- **proposed:** Bác sĩ nói “có thể nói rằng” hầu hết các loại bệnh tật có con đường đi từ quá trình các chất xâm nhập vào cơ thể, hình thành gốc tự do, rồi cuối cùng phát sinh bệnh tật; ông cũng nói gốc tự do có hai nguồn.
+- **why:** Câu cũ tách một phần của “con đường đi” của bệnh tật thành khẳng định chung về sự hình thành gốc tự do, đồng thời bỏ giới hạn “có thể nói rằng”.
 - **supporting quote** [00:06:34]: "Có thể nói rằng hầu hết tất cả các cái loại bệnh tật"
 - **more** [00:06:43]: "các cái chất nó xâm nhập vào cơ thể chúng ta, hình thành ra gốc tự do và đi trên cái con đường của gốc tự do để cuối cùng nó phát sinh ra những bệnh tật"
 - **more** [00:09:05]: "gốc tự do này nó được phát sinh từ đâu? Nó có hai nguồn."

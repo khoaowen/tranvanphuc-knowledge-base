@@ -290,7 +290,7 @@ Bound summary: `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa
 - **status:** pending-human-approval
 - **class:** mismatch
 - **current:** Có người chỉ cần khoảng 5.600 UI (bản ghi âm ghi như vậy), có người lên tới 6.000 đến 7.000 UI, nhưng đa số dưới 2.000 UI.
-- **proposed:** Có người chỉ cần khoảng 5.600 UI, có người lên tới 6.000 đến 7.000 UI (người duyệt xác nhận hai số; bản ghi ghi "5 600" và "6 7000"), nhưng đại đa số mọi người là con số trên dưới 2.000 UI.
+- **proposed:** Có người chỉ cần khoảng 5.600 UI, có người lên tới 6.000 đến 7.000 UI, nhưng đại đa số mọi người là con số trên dưới 2.000 UI.
 - **why:** 'Trên dưới 2000' (around 2000) became 'dưới 2.000' (under 2000). '5 600' is also ambiguous, so the summary's 5.600 is not confirmed. Quyết định người duyệt: 5.600 và 6.000 đến 7.000 đúng; chỉ sửa thành "trên dưới 2.000".
 - **supporting quote** [02:49:13]: "Có người chỉ có 5 600 UI đã đủ rồi nhưng có người lên tới 6 7000 UI cơ."
 - **more** [02:49:17]: "Vâng. Nhưng đại đa số mọi người là con số trên dưới 2000 UI. Cho nên khi dò liều tôi"

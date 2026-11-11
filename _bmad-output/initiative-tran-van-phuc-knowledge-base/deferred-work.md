@@ -42,3 +42,6 @@
 - source_plan: none
   summary: Harden and document the owner's existing public ChatGPT search-knowledge plugin, using its current GitHub-backed read-only workflow rather than rebuilding a legacy Custom GPT.
   evidence: User chose pipeline secret-leak prevention first as a separately shippable security control; public plugin hardening remains required afterward. Preserve live main-branch discovery scoped to knowledge-gpt/, multilingual evidence retrieval, accurate timestamped citations, prompt-injection resistance, recurring localized medical disclaimer, emergency handling, read-only least-privilege tools and explicit access limits. Prompt scope is not an enforced GitHub authorization boundary; verify public distribution and connector permissions in the actual ChatGPT environment before claiming security. The supplied workflow permits user-requested scope expansion and does not explicitly require the full disclaimer at each health answer; these boundaries require review.
+
+## Deferred from: code review of story-full-source-grounded-audit-of-v-qfwjo28zg-554-claims-plan (2026-11-06)
+- c275/c279 speaker attribution (doctor vs host/Nhung) in additional-corrections.json: needs an audio check; human-decisions.md records it as reviewer-confirmed, unverified (would be medium).

@@ -1,0 +1,42 @@
+# Ticket 2.6 — run 5 decision brief
+
+**Status: proposals only; no post-run-5 edits approved or applied.** The three paid runs (3–5) are exhausted. Summary reviewed: SHA-256 `5bdca9fc7fcdfc29b95de7f7bf7227e24a6fb398b6a0cf8a6072ec627fd561a0`. Run 5 returned fail, 582 claims (573 pass, 9 fail), 6 concerns, 8 omissions, coverage incomplete. V-Qfwjo28Zg remains blocked. Claim IDs are run-5 IDs; evidence is the isolated run-5 transcript. Links are navigation to source video, not independently checked audio.
+
+The reviewer raised four failures previously accepted or dependent on existing owner confirmations: c113 (already accepted), c312 (owner-confirmed dose, challenged on contextual grounds), c381 (Japan confirmed, but speaker attribution also challenged), c488 (GSSG editorial note, accepted) and c528 (absence-of-detail safety caveat, accepted). Do not treat acceptance of a previous issue as proof of a new issue.
+
+## Claims and concerns
+
+| ID | Evidence and assessment | Recommendation for decision |
+|---|---|---|
+| c101 | At [01:00:47](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3647s), the speaker starts describing the body's response to free radicals, not selecting the day's topic. Glutathione is the day's topic elsewhere (run 3 evidence [01:35:27](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5727s)). | **Remove this standalone sentence from the 01:00:47 section**; the topic remains elsewhere. Avoid moving it without checking for duplication. |
+| c113 | [01:13:48](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=4428s): transcript says “xương cổ đùi”, not “xương cổ, xương đùi”. Owner previously accepted it. | **Keep previous acceptance**, or optionally restore exact transcript wording; do not change without approval. |
+| c208 | [02:04:52–02:05:10](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=7492s) discusses taking too much medicine, especially painkillers, as chemicals causing free radicals; not unnecessary medicines in this passage. | **Replace (draft):** “Bác sĩ cho rằng uống quá nhiều thuốc, đặc biệt thuốc giảm đau, đưa hóa chất vào cơ thể và gây ra nhiều gốc tự do.” This describes his claim, not medical advice. |
+| c312 | [02:49:07–02:49:20](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10147s): transcript “Có người chỉ có 5 600 UI đã đủ rồi nhưng có người lên tới 6 7000 UI cơ”, with the common figure around 2.000 UI. Run 5 suggests 500–600, not owner-confirmed 5.600; context supports a question, not a conclusive reading. | **Hold for an audio check and owner decision.** No audio file was found in the audit folder; the audio has not been listened to in this session. Do not silently substitute either numeric reading. Alternative if audio remains unclear: quote the transcript's “5 600” and explicitly state the interpretation is unresolved, rather than asserting a dose. |
+| c381 | [03:25:34–03:25:50](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=12334s) reads as commentary, while c381 attributes to “Ông”. Transcript says “như bản”; Nhật Bản was owner-confirmed and disclosed. | **Change only “Ông so sánh” to “Phần nhận xét so sánh”**, retaining the disclosed Japan confirmation. This resolves the new attribution finding without overturning the prior decision. |
+| c433 | It says free radicals destroy membrane, protein and DNA at heading 03:56:38. Need same-section check; reviewer found no evidence anywhere. | **Provisional:** verify the section and any cross-section evidence before deciding whether to remove or reattribute. Do not call this unsupported solely because the gate says so. |
+| c488 | “GSSG” note records owner confirmation against transcript “GSGS”. The run also complains c487 silently uses GSSG, although c488 is adjacent and discloses it. | **Keep and accept** under run-4 decision, including the related concern; the note is editorial, not a transcript quotation. |
+| c528 | “Bác sĩ không nêu rõ liều hay điều kiện cụ thể.” This is an absence-of-detail caveat carried from prior owner decision. | **Keep and accept** under run-3 decision. |
+| c540 | A knowledge/self-mastery sentence under heading 05:04:32. The excerpt at [05:04:25](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18265s) discusses a confusing glutathione marketplace, not that exact statement. | **Provisional:** check the complete section and nearby transcript before deciding whether to remove or reattribute. |
+| c047 concern | [00:37:46–00:38:02](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2266s) produces H₂O₂; concern says c047 omits its danger. | **Check surrounding summary and transcript** before editing; add a speaker-attributed qualification only if genuinely missing. Do not present the speaker's biochemical explanation as established medical fact. |
+| catalase concern | Reviewer notes a conflict in the speaker's own categorization at [01:03:49](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3829s). | **Provisional:** check both statements and summary context; if genuinely inconsistent, attribute or note the source inconsistency rather than inventing a resolution. |
+
+## Omissions
+
+Standing rule is to add persistent omissions and accept first appearances, revisiting repeats. A repeat does not establish that the proposed wording accurately represents the source; check context and whether already covered before insertion. “First” below means not found in the run-3 and run-4 briefs, not a verified comparison of all earlier raw reviews.
+
+| Topic | Occurrence and evidence | Proposed decision |
+|---|---|---|
+| Symptoms in bác Nghiên's case | Repeat from run 4; [03:15:55–03:16:12](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=11755s): dizziness on standing, cold limbs, dry pale skin and breathlessness. | **Add, if not already covered (draft):** “Phần nhận xét mô tả bác Nghiên mệt mỏi, hoa mắt chóng mặt khi đứng dậy, tay chân lạnh, da khô nhợt và thở hụt hơi.” Attribute to the commentary, not a verified diagnosis. |
+| Outer-mitochondrial glutathione | Repeat from run 4; [04:52:40–04:52:58](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=17560s). | **Add, if not already covered (draft):** “Bác sĩ nói glutathion còn tập trung phía ngoài màng ti thể để trung hòa gốc tự do lọt ra.” Attribute to the doctor. |
+| Child abroad and family after vitamin D | Similar viewer report appeared in run 3 at 01:39:15; run 5 cites a separate discussion at [02:50:57–02:51:05](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=10257s). | **Revisit as a repeat**, but first establish whether the same report and details are already in the summary. If added, label the source as the doctor's retelling of a viewer's report, not clinical proof. |
+| ~6000 reactions | [00:11:58](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=718s); first in run-3/4 briefs. | **Accept for now** under single-appearance rule, pending earlier-run comparison. |
+| Catalase Fe2+ sword | [01:04:10](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=3850s); first in run-3/4 briefs. | **Accept for now**, pending earlier-run comparison. |
+| O₂ enters energy cycle | [00:37:01–00:37:06](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=2221s); first in run-3/4 briefs. | **Accept for now**, pending earlier-run comparison. |
+| Nguyễn Nhung treatment and reported improvement | [01:30:35](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=5435s); first in run-3/4 briefs. | **Accept for now**, pending earlier-run comparison; any eventual addition must identify it as a reported case, not a medical finding. |
+| Liposome caveat for other micronutrients | [05:11:29](https://www.youtube.com/watch?v=V-Qfwjo28Zg&t=18689s); first in run-3/4 briefs. | **Accept for now**, pending earlier-run comparison. |
+
+## Decision and gate
+
+The previous chat incorrectly described the blood-cell-symptom omission as appearing in three runs; the run-3 brief does not list it, and run 4 and run 5 do, so two appearances are confirmed here. It also suggested simply accepting variance and closing under the existing definition: **that would not satisfy the agreed definition**, which requires `coverage_complete` true and no unaccepted failures or concerns. A change to that gate would need explicit owner approval and an appropriate ticket amendment; no such approval is assumed.
+
+Recommended next step: resolve the provisional source checks and the c312 audio question, then request specific owner decisions on the proposed changes and accepts. No additional paid run is authorized by approval of this brief.

@@ -1,0 +1,3 @@
+warning: skipping V-Qfwjo28Zg: model command failed (exit 1): There's an issue with the selected model (gpt-6.1-sol). It may not exist or you may not have access to it. Run --model to pick a different model.
+[claude-code:unrecognized_model] {"model":"gpt-6.1-sol","query_source":"sdk"}
+reviewed 0, failed 1

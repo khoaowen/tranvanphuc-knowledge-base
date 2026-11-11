@@ -81,3 +81,21 @@ Pre-checks done before this plan: extraction matched all 554 records with 0 diff
 ## Review Triage Log
 
 Quick lens, 2026-10-31. Seven findings verified real and patched in `4e177a4`: c070 speaker (medium), c488 settled wording (medium), c377 dropped unit (medium), c135 quote (low), o05 coverage (low), o22 safety reason (low), checker drift coverage (low).
+
+## Code Review
+
+### 2026-11-06
+Chunk 1 of N (audit/V-Qfwjo28Zg core files; regenerated/, regenerated-timefix/, revised-summary-draft.md and the other tickets' files not yet reviewed). 3 `decision-needed`, 2 `patch`, 1 `defer`, 3 rejected.
+
+- [x] [Review][Patch] (decided 1a) Overlapping correction ids c013, c156, c275 — They exist in both proposed-corrections.* and additional-corrections.* with different text, and c156 has opposite rationales. check_audit never checks precedence. Options: (a) mark them `supersedes` in additional-corrections and add a checker assertion; (b) drop them from proposed-corrections (changes the 63 count); (c) merge into one file. Recommended: (a) — keeps the 63 invariant and the history.
+- [x] [Review][Patch] (decided 2a) Reviewer decisions not reflected in pending state — human-decisions.md keeps original for c471/c473/c111/c125/c135/c166/c456, but all items are still pending-human-approval and audit-summary counts are unchanged. Commit f7980cf says "15 approved replacements"; the data says none is approved. The 28 new findings are not reconciled to the 15 recorded. Options: (a) add a per-item `decision` field and have the checker verify it against human-decisions.md; (b) only note in audit-summary that counts predate the decisions. Recommended: (a) — otherwise rejected items can be re-applied.
+- [x] [Review][Patch] (decided 3a) Pending correction text defects — c544 `why` says tobacco is dropped but the current text keeps "thuốc lá"; c013 adds "con đường nội sinh" that the cited 00:09:05 quote does not support; proposals embed ASR noise (c318 "tăng nghệ", c402, c538 "da cầm", c275 "Glutat…"). Options: (a) drop the "nội sinh" clause, fix c544 `why`, and clean the ASR noise with owner-approved wording; (b) add a quote naming the endogenous route. Recommended: (a) for c013 — no new evidence is needed.
+- [x] [Review][Patch] check_audit.py is non-hermetic and has vacuous checks — depends on `4e31e57^` and `origin/main`; hard-codes 63/554/["c541"]; the videos diff ignores untracked files; `publishable()` is trivially False because summary.md is absent; git errors and `by_id[...]` KeyError give tracebacks; `additional_matches` lacks the trailing-newline anchor [audit/V-Qfwjo28Zg/check_audit.py:24,108-113,189-190]
+- [x] [Review][Patch] Documentation precision — o45 "not stated anywhere" contradicts its anchor [omissions.md:313]; o48 "tim nhanh" blurs the c158 scene; c201 keeps a parenthetical human-decisions says may be dropped; c158 has no effective_class note in additional-corrections.json; omissions bookkeeping (66 / 49+20 / 46+19, o29 gap) needs a reconciliation table
+- [x] [Review][Defer] c275/c279 speaker attribution (doctor vs host/Nhung) [additional-corrections.json] — deferred: needs an audio check; human-decisions.md records it as reviewer-confirmed
+
+**Rejected**
+- "11 supported-class entries carry pending rewrites, only c158 overridden" — low: by design in additional-corrections.md; a fix is a classification redesign.
+- No flag for source-side medical errors (ozone = H2O2, c260) — low: outside the epic's fidelity-only scope.
+- No safety handling for self-harm content (o50, c286) — low: outside the audit scope; belongs in the publishing step.
+Patches applied (2026-11-06): see audit/V-Qfwjo28Zg: `supersedes` for c013/c156/c275, `decisions.json` (recorded, nothing applied), c013/c275/c544 text fixes, checker hardening, o45/o48/c201 wording, summary reconciliation. Not done: ASR-noise cleanup for c318/c402/c538 and c544 "thuốc lá bỏ đi" need owner-approved wording. `check_audit.py` passes.

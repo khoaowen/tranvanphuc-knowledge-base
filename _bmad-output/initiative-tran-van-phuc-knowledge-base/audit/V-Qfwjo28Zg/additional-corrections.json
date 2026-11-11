@@ -13,6 +13,7 @@
   },
   {
     "id": "c156",
+    "supersedes": "proposed-corrections.json",
     "class": "mismatch",
     "current": "Bản ghi âm ghi là \"K G3\" và \"glycerin\" cho cùng cơ chế này; cơ chế liệt vận động không được kịp nhả.",
     "proposed": "Bản ghi âm ghi là “K G3” và “glycerin” cho cơ chế này; khi chuyển từ thức vào ngủ, việc làm liệt vận động “không làm được kịp thời”, nên người ngủ nói và vận động trong mơ.",
@@ -26,9 +27,10 @@
   },
   {
     "id": "c275",
+    "supersedes": "proposed-corrections.json",
     "class": "attribution_qualification",
     "current": "Người dẫn nói vitamin C và vitamin E cũng là các chất liên quan đến gốc tự do, và glutathion cũng vậy.",
-    "proposed": "Bác sĩ nhắc lại: “Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do”; sau đó đoạn hội thoại nhắc “Glutat mà chúng ta đang nói hôm nay”.",
+    "proposed": "Bác sĩ nhắc lại: “Vitamin C cũng là gốc tự do, vitamin E cũng là gốc tự do”.",
     "why": "Câu cũ gán phần này cho người dẫn và làm nhẹ cách nói “cũng là gốc tự do”. Đề xuất giữ nguyên lời nói, không sửa bằng kiến thức ngoài bản ghi.",
     "status": "pending-human-approval",
     "evidence": [
@@ -42,7 +44,7 @@
     "class": "supported",
     "current": "Bác sĩ khuyên: chỉ uống thuốc khi thật sự cần, không uống cả nắm thuốc mỗi ngày (bác sĩ nhắc rằng vi chất không phải thuốc, còn thuốc là để chữa bệnh); giảm rượu bia và thuốc lá; tránh môi trường độc hại như thuốc trừ sâu, thuốc bảo vệ thực vật; giữ gìn để không nhiễm vi khuẩn, virus, vì những việc này làm tiêu tốn glutathione.",
     "proposed": "Bác sĩ khuyên chỉ uống thuốc khi thật sự cần, không uống cả một vốc thuốc một ngày; ông nói vi chất không phải thuốc, còn thuốc để chữa bệnh. Ông cũng nói giảm rượu chè, giảm thuốc lá bỏ đi, tránh để thuốc trừ sâu và thuốc bảo vệ thực vật xâm nhập cơ thể, và giữ gìn để không nhiễm vi khuẩn, virus vì sẽ tiêu tốn “Glutaton”.",
-    "why": "Câu cũ thay “rượu chè” bằng “rượu bia”, bỏ cách nói về thuốc lá, và chuẩn hóa “Glutaton”.",
+    "why": "Câu cũ thay “rượu chè” bằng “rượu bia”, đổi “thuốc lá bỏ đi” thành “thuốc lá” (cách nói “bỏ đi” trong bản ghi chưa rõ nghĩa), và chuẩn hóa “Glutaton”.",
     "status": "pending-human-approval",
     "evidence": [
       {"quote": "Khi nào thật sự cần uống thuốc mới uống chứ đừng có uống cả một vốc thuốc một ngày.", "timestamp": "05:17:40"},
@@ -75,6 +77,7 @@
   },
   {
     "id": "c158",
+    "effective_class": "mismatch",
     "class": "supported",
     "current": "Lúc đó hạch hạnh nhân báo động, gây toát mồ hôi, tim đập nhanh, cảm giác bị đè ngực, khó thở, sợ hãi.",
     "proposed": "Ở chiều từ ngủ sang thức, bác sĩ nói hạch hạnh nhân báo động; người đó giãy giụa, có cảm giác bị đè ngực không thở được, rồi toát mồ hôi và sợ hãi.",
@@ -177,10 +180,11 @@
   },
   {
     "id": "c013",
+    "supersedes": "proposed-corrections.json",
     "class": "attribution_qualification",
     "current": "Hình thành gốc tự do bắt đầu từ việc các chất xâm nhập vào cơ thể.",
-    "proposed": "Bác sĩ nói “có thể nói rằng” hầu hết các loại bệnh tật có con đường đi từ quá trình các chất xâm nhập vào cơ thể, hình thành gốc tự do, rồi cuối cùng phát sinh bệnh tật; ông cũng nói gốc tự do có hai nguồn, trong đó có con đường nội sinh.",
-    "why": "Câu cũ tách một phần của “con đường đi” của bệnh tật thành khẳng định chung về sự hình thành gốc tự do, đồng thời bỏ giới hạn và nguồn nội sinh được nói riêng.",
+    "proposed": "Bác sĩ nói “có thể nói rằng” hầu hết các loại bệnh tật có con đường đi từ quá trình các chất xâm nhập vào cơ thể, hình thành gốc tự do, rồi cuối cùng phát sinh bệnh tật; ông cũng nói gốc tự do có hai nguồn.",
+    "why": "Câu cũ tách một phần của “con đường đi” của bệnh tật thành khẳng định chung về sự hình thành gốc tự do, đồng thời bỏ giới hạn “có thể nói rằng”.",
     "status": "pending-human-approval",
     "evidence": [
       {"quote": "Có thể nói rằng hầu hết tất cả các cái loại bệnh tật", "timestamp": "00:06:34"},

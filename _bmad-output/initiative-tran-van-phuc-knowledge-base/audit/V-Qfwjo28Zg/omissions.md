@@ -4,9 +4,9 @@ Bound summary SHA-256: `fbae11bf16fa47c8055fe7b309f45dfeb696db23a0009c593504c135
 
 ## Method
 
-The 23 range-restricted pass-1 reads (`raw/batch_*_om.txt`) were consolidated. This is not a new sequential read of the transcript. `batch_04_fullread_om.txt` was used and `batch_04_om.txt` ignored. Batches 07, 08, 13, 14 and 23 report `none found`.
+The 23 range-restricted pass-1 reads (`raw/batch_*_om.txt`) were consolidated into o01-o47. After review, a later sequential read of the whole transcript added o48-o50 (source: `rà soát bổ sung`). The 66 candidates below therefore come from the consolidated reads, and the later read adds 3 more (69 total). `batch_04_fullread_om.txt` was used and `batch_04_om.txt` ignored. Batches 07, 08, 13, 14 and 23 report `none found`.
 
-Each reader judged only against its own batch, so all 66 candidates were rechecked against all 554 claims. A candidate is excluded only when claims state it. Partial or unclear coverage stays omitted, and the partial claim is cited. Viewer-comment items (batch 06) are excluded unless they are a safety item. Small talk is excluded. Which batch 06 items count as safety items is a judgment call for the human to confirm.
+Each reader judged only against its own batch, so all 66 consolidated candidates were rechecked against all 554 claims. A candidate is excluded only when claims state it. Partial or unclear coverage stays omitted, and the partial claim is cited. Viewer-comment items (batch 06) are excluded unless they are a safety item. Small talk is excluded. Which batch 06 items count as safety items is a judgment call for the human to confirm.
 
 Anchors are verbatim and checked by `verify_quotes.py` through `omission-anchors.json`. Some were extended beyond the pass-1 fragment so they read as a whole phrase. Timestamps and ranges were recomputed from the transcript. Ranges are approximate passage bounds around the anchor. Pass-1 cited timestamps that were more than 5 seconds off: 02#4 (00:23:04 is at 00:27:42), 02#6 (00:36:08 is at 00:37:57), 03#5 (00:51:16 is at 00:52:19), 10#3 (01:57:28 is at 01:57:41), 19#1 (04:24:31 is at 04:26:32).
 
@@ -310,7 +310,7 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 ### o45 [M] Skin whitens by itself and oxidants fall
 - **Timestamp range:** [05:17:15]-[05:17:33]
 - **Anchor** [05:17:15]: "Thì tự da chúng ta sẽ trắng lên thôi và các chất oxy hóa sẽ giảm xuống."
-- **Why it matters:** A specific effect claim for self-synthesis. The fall in oxidants is not stated anywhere.
+- **Why it matters:** A specific effect claim for self-synthesis. The summary does not state the fall in oxidants, although the anchor does.
 - **Partial coverage only:** c552 covers the skin part only.
 - **Source:** batch 22#3
 
@@ -331,7 +331,7 @@ Importance (H, M, L) is an auditor judgment. Viewer items are self-reports, and 
 ### o48 [H] Chiều từ thức vào ngủ: cơ chế liệt chưa kịp hoạt động
 - **Timestamp range:** [02:30:56]-[02:32:25]
 - **Anchor** [02:32:20]: "Đó là chúng ta đang từ thức chuyển sang ngủ nhưng lại không có phanh."
-- **Why it matters:** Bác sĩ nêu thêm chiều từ thức vào ngủ: ức chế vận động chưa kịp, nói và vận động trong mơ, bừng tỉnh thì sợ hãi, toát mồ hôi, tim nhanh. Gộp với sửa c156, không đếm hai lần.
+- **Why it matters:** Bác sĩ nêu thêm chiều từ thức vào ngủ: ức chế vận động chưa kịp, nói và vận động trong mơ, bừng tỉnh thì sợ hãi, toát mồ hôi; “tim đập nhanh” thuộc chiều thức sang ngủ (xem c158). Gộp với sửa c156, không đếm hai lần.
 - **Partial coverage only:** c146, c156-c159 (một phần)
 - **Source:** rà soát bổ sung, đọc tuần tự toàn bộ transcript
 

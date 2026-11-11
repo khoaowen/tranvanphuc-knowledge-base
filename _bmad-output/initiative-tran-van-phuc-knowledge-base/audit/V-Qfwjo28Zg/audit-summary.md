@@ -4,11 +4,14 @@
 - **Bound summary:** `git show 4e31e57^:<video dir>/summary.md`, SHA-256 `fbae11bf16fa47c8055fe7b309f45dfeb696db23a0009c593504c1351a98203c`. `summary.md` and `review.md` were deleted from `videos/` in `4e31e57`, so `summary.md` is absent at HEAD.
 - **Validity:** any regenerated summary invalidates these claim ids, which come from extracting this exact text.
 - **Claims audited:** 554
-- **Classes:** supported 491, attribution_qualification 46, mismatch 14, unresolved 3
-- **Omissions:** 47 kept, 19 candidates excluded (`omissions.md`). These consolidate 23 range-restricted pass-1 reads and are not a new sequential read.
-- **Proposed corrections:** 63, all `pending-human-approval`, none applied (`proposed-corrections.md`).
-- **Pass-2 coverage:** 93 claims (63 non-supported + 30 sampled supported). The other 461 supported claims had pass 1 only.
-- **Checks:** `check_audit.py` verifies the extraction, classes, evidence, quotes, correction set, `videos/` diff and publication gate.
+- **Classes (effective):** supported 490, attribution_qualification 46, mismatch 15, unresolved 3. Historical `final_records.json` is unchanged and still shows supported 491, mismatch 14; the one difference is c158, reclassified supported → mismatch in `effective-overrides.json` after review (the quote "tim đập nhanh" belongs to the opposite wake→sleep scenario; see `additional-corrections.md`). c158 was independently rechecked against the transcript.
+- **Omissions:** 49 kept, 20 candidates excluded (`omissions.md`). 46 kept and 19 excluded candidates consolidate 23 range-restricted pass-1 reads; o29 was moved from kept to excluded after review as already covered, and o48-o50 were added from a later sequential read of the whole transcript. 49 + 20 = 69 = the 66 original candidates + 3 added.
+- **Proposed corrections:** 63, all `pending-human-approval`, none applied (`proposed-corrections.md`). The effective non-supported set is 64: these 63 plus c158, whose correction is in `additional-corrections.*` (15 supplemental items, also pending, none applied).
+- **Pass-2 coverage:** 94 claims (64 effective non-supported + 30 sampled supported). The other 460 supported claims had pass 1 only. c158's second pass is recorded in `effective-overrides.json`.
+- **Reviewer decisions:** recorded per item in `decisions.json` (from `human-decisions.md`). They do not change any status: every correction stays `pending-human-approval`. The class counts, 63 and 15 above predate the decisions; items decided `keep-original` (e.g. c111, c471) still appear in them.
+- **Overlap:** c013, c156 and c275 are in both correction files. The `additional-corrections.*` entry supersedes (`supersedes` field).
+- **Omissions reconciliation:** 66 consolidated candidates + 3 added (o48-o50) = 69 = 49 kept + 20 excluded; o29 moved from kept to excluded.
+- **Checks:** `check_audit.py` verifies the extraction, classes, effective overrides, evidence, quotes (including `additional-corrections.json` and `effective-overrides.json`), correction sets, omission counts against this summary, `videos/` diff and publication gate.
 
 ## Reconciled pass-1/pass-2 disagreements: 24, human to confirm
 
