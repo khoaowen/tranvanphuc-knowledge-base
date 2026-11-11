@@ -2,7 +2,7 @@
 title: "Full source-grounded audit of V-Qfwjo28Zg (554 claims)"
 type: chore
 ticket: 2
-status: in-review
+status: 'done'
 review: 'quick'
 review_source: 'pinned'
 lenses_ran: ['quick']
