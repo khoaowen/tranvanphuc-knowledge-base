@@ -36,16 +36,20 @@ Walk the owner through the claims the review gate fails (48 on the 2.4 summary) 
    **Then** only claims decided "fix" change, each with the owner's text or a verbatim quote at its timestamp
    **And** nothing medical is added beyond the transcript, and the tags from ticket 1.14 are used in the header.
 
-4. **The gate is rerun until it passes** (E2-R4)
+4. **The gate is rerun, or the ticket closes on recorded acceptance** (E2-R4)
    **Given** the edited temporary summary
    **When** the review gate is run, each run with the owner's permission
-   **Then** the loop ends when the verdict is pass with `coverage_complete` true, naming the summary's SHA-256
-   **And** after each failed run the owner decides again, or stops and ticket 2.6 stays open.
+   **Then** the loop ends in one of two ways:
+   (a) the verdict is pass with `coverage_complete` true, naming the summary's SHA-256; or
+   (b) the owner stops further paid runs, and every fail, concern and omission in the last gate run is recorded as fixed or accepted with a reason, and the second-reader check in Notes is done on every accepted claim
+   **And** under (b) the record names the SHA-256 of the gate-reviewed summary and of the final summary, and says if no gate ran on the final one; `coverage_complete` may stay false, and the record says so
+   **And** without (a) or (b) the ticket stays open.
 
 5. **Accepted claims are not hidden** (E2-R3)
    **Given** a claim the owner accepts although the gate fails it
    **When** the final record is written
    **Then** it lists that claim with its reason, and the verdict is not called pass on the strength of acceptance alone.
+   **And** under 4(b) the verdict stays as the gate gave it (fail). It is never recorded as pass, or "pass with acceptances", on the strength of acceptance alone.
 
 ## Constraints
 
@@ -79,3 +83,4 @@ Walk the owner through the claims the review gate fails (48 on the 2.4 summary) 
   - The c277 placement at 04:53:37 is an owner exception.
   Approach: write a decision brief grouped by issue type. Runs differ: 15 claims changed status between 2.5 runs 1 and 2 with no text change, so agree with the owner how many paid reruns are allowed before the first one.
 - Claim-to-record map for the 2.4 summary: `audit/V-Qfwjo28Zg/regenerated/claim-map.md` (530 unchanged, 26 rewritten or split, 9 new without a record, 1 removed). Use it for the merged claim list; new claims have no audit verdict until a new audit.
+- Owner decision (2026-11-12): no further paid gate run. The ticket may close under requirement 4(b). Gate runs 3 to 6 are used. The second-reader check now runs before the final record is written, because there is no final run. Any edit made after the last gate run (for example c312 and the 01:50:49 sentence) is listed in the record as not gate-verified.
