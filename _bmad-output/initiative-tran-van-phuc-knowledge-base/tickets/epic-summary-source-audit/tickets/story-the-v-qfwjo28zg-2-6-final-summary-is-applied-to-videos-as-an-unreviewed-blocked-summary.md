@@ -68,3 +68,4 @@ This story copies the 2.6 final summary into `videos/` as a new file. It is draf
 - Open 1: once `summary.md` exists the weekly queue stops re-summarising this video; alternative is a `.stale` marker. Default: no marker.
 - Open 2: `metadata.json` `topics: []` stays unchanged. Default: unchanged.
 - Check outside the criteria (risk high): the owner reads the diff of the new `summary.md`.
+- Owner decisions (2026-11-14): diff approved before the write (session log, 06:55:58); commit accepted; Open 1 stays no .stale marker; Open 2 metadata.json keeps topics: []; owner read the two non-gate-verified spots (line 280, c312) and accepted them. Checks 1 to 7 pass. Verdict stays fail; still blocked.
