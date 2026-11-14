@@ -76,3 +76,16 @@ hitl = true
 risk = "high"
 refine = true
 references = ["../../../audit/V-Qfwjo28Zg/regenerated/owner-decision-brief.md", "../../../audit/V-Qfwjo28Zg/proposed-corrections.md", "../../../audit/V-Qfwjo28Zg/human-decisions.md"]
+
+[[entry]]
+id = 7
+type = "story"
+title = "The V-Qfwjo28Zg 2.6 final summary is applied to videos/ as an unreviewed, blocked summary"
+description = "Copy regenerated-2.6/summary.md (SHA-256 8c910a25a0edc763e885db855c5d930fe4955ed061129dffcd46112366660979) to videos/<V-Qfwjo28Zg folder>/summary.md byte for byte. The ticket 2.6 verdict is FAIL, accepted on record. No gate has run on this file; c312 and the 01:50:49 sentence are not gate-verified. No review.md is written. The video stays blocked, publishable false."
+verify = "videos/ summary.md SHA equals the 2.6 SHA; summary contract and validate_summaries structure checks pass with only the 'no passing review' reason; one-to-one claim map to the 2.6 final record is complete; queue_state.publishable is false; the only change under videos/ is the new summary.md; scripts/, the audit JSON, regenerated-2.5/ and regenerated-2.6/ are byte-identical; nothing committed."
+covers = ["E2-R3", "E2-R4"]
+after = [6]
+hitl = true
+risk = "high"
+refine = true
+references = ["../../../audit/V-Qfwjo28Zg/regenerated-2.6/final-record.md", "../../../audit/V-Qfwjo28Zg/regenerated-2.6/summary.md", "../../../audit/V-Qfwjo28Zg/human-decisions.md", "../../../audit/V-Qfwjo28Zg/proposed-corrections.md", "../../../summary-contract.md"]
